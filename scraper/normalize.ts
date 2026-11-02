@@ -56,6 +56,7 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
   const include = source.include ? new RegExp(source.include, "i") : null;
   const exclude = source.exclude ? new RegExp(source.exclude, "i") : null;
   const venueFilter = source.venueFilter ? new RegExp(source.venueFilter, "i") : null;
+  const unmatchedReport = source.unmatchedReport ? new RegExp(source.unmatchedReport, "i") : null;
   const urlCounts = new Map<string, number>();
   for (const r of raws) urlCounts.set(r.url, (urlCounts.get(r.url) ?? 0) + 1);
   const horizon = addDays(today, 365 * 3);
@@ -84,7 +85,7 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
     const venueId = source.venueId ?? venues.match(r.venueName);
     if (!venueId) {
       const k = r.venueName ?? "(no venue given)";
-      report.unmatchedVenues[k] = (report.unmatchedVenues[k] ?? 0) + 1;
+      if (!unmatchedReport || unmatchedReport.test(k)) report.unmatchedVenues[k] = (report.unmatchedVenues[k] ?? 0) + 1;
       continue;
     }
     const venue = venues.get(venueId);

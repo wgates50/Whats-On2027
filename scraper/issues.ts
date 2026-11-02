@@ -72,8 +72,8 @@ const titleFor = (id: string) => `Source broken: ${id}`;
 
 for (const [id, h] of Object.entries(health.sources)) {
   const existing = open.find((i) => i.title === titleFor(id));
-  const report = h.status !== "ok" && (h.status === "invalid" || h.consecutiveFailures >= 2);
-  if (h.status === "ok") {
+  const report = h.status !== "ok" && h.status !== "skipped" && (h.status === "invalid" || h.consecutiveFailures >= 2);
+  if (h.status === "ok" || h.status === "skipped") {
     if (existing) {
       await gh("POST", `/repos/${repo}/issues/${existing.number}/comments`, { body: `✅ Healthy again: ${h.count} events on ${h.checkedAt.slice(0, 10)}.` });
       await gh("PATCH", `/repos/${repo}/issues/${existing.number}`, { state: "closed", state_reason: "completed" });

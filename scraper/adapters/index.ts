@@ -33,6 +33,14 @@ export interface AdapterResult {
 
 export type CustomAdapter = (ctx: AdapterContext, options: Record<string, unknown>) => Promise<AdapterResult>;
 
+/** Thrown by API adapters when their key isn't configured: the source is skipped, not broken. */
+export class MissingKeyError extends Error {
+  constructor(readonly envVar: string) {
+    super(`${envVar} is not set — add it as a GitHub Actions secret (see README) to enable this source`);
+    this.name = "MissingKeyError";
+  }
+}
+
 export async function runAdapter(cfg: AdapterConfig, ctx: AdapterContext): Promise<AdapterResult> {
   switch (cfg.type) {
     case "pages":

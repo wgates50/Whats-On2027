@@ -12,6 +12,10 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
 - `data/events.json`, `data/health.json`, `data/cache/` — **generated** by the daily scrape. Don't hand-edit.
   (Bump `CACHE_VERSION` in `scraper/run.ts` when you change page parsing in a way that changes cached results.)
 - `data/manual-events.json` — hand-added events (via the "Add an event" issue form → workflow).
+- `data/hours.json` — opening hours from OpenStreetMap via Nominatim (`npm run hours`, weekly in CI;
+  parser in `lib/hours.ts`). © OpenStreetMap contributors — keep the credit where hours are shown.
+- API sources: `scraper/adapters/custom/ticketmaster.ts`, `skiddle.ts` (keys from Actions secrets;
+  `skipped` without them; tested with sample responses in `scraper/apis.test.ts`, no fixtures).
 - `scraper/` — `run.ts` (daily), `adapters/` (`pages` = listing/cards/detail pages + JSON-LD, `ics`),
   `dates.ts` (UK date-range parser), `classify.ts` (type/category rules), `normalize.ts`,
   `discover.ts` / `probe.ts` (config helpers), `fixture.ts` + `fixtures/` (recorded pages for tests).

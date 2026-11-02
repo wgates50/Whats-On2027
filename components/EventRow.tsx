@@ -32,6 +32,7 @@ export function EventRow({
   onToggleSaved,
   showVenue = true,
   index = 0,
+  closed = false,
 }: {
   e: WOEvent;
   venue?: VenueLite;
@@ -43,6 +44,8 @@ export function EventRow({
   onToggleSaved: () => void;
   showVenue?: boolean;
   index?: number;
+  /** The venue is shut on the day being viewed (from its regular opening hours). */
+  closed?: boolean;
 }) {
   const [open, setOpen] = useState(false);
   const b = badges(e, day, today).filter((x) => x !== "new" || e.firstSeen > baseline);
@@ -74,6 +77,7 @@ export function EventRow({
         <span className="row__title">{e.title}</span>
         <span className="row__meta">
           <span className="row__type">{TYPE_LABEL[e.type]}</span>
+          {closed && <span className="badge badge--closed">Venue closed</span>}
           {b.map((x) => (
             <span key={x} className={`badge badge--${x}`}>
               {BADGE_LABEL[x]}

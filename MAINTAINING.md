@@ -79,6 +79,14 @@ Fixing selectors:
 
 Can't fix after a genuine attempt → add the label `needs-you`, comment what you tried, move on.
 
+**Blocked only from GitHub's servers.** Some sites refuse GitHub Actions (data-centre IPs) but load
+fine elsewhere — e.g. Official London Theatre. That is still a block: rule 3 applies (no proxies or
+running the scrape from somewhere else to dodge it). Disable the source and mark the venues it fed
+`manualOnly` *only if nothing else covers them*; Ticketmaster and Art Fund often do.
+
+**`skipped`** means an API source has no key (`TICKETMASTER_API_KEY` / `SKIDDLE_API_KEY` secrets). It
+is not an error and never opens an issue — leave it alone.
+
 ### 2. Venue requests (`venue-request`)
 
 1. Skip if it's already in `data/venues.json` (search name + aliases) — comment and close.

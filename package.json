@@ -14,7 +14,8 @@
     "probe": "tsx scraper/probe.ts",
     "issues": "tsx scraper/issues.ts",
     "prebuild": "tsx scripts/build-data.ts",
-    "predev": "tsx scripts/build-data.ts"
+    "predev": "tsx scripts/build-data.ts",
+    "hours": "tsx scraper/hours.ts"
   },
   "dependencies": {
     "next": "^16.4.2",
