@@ -1,0 +1,176 @@
+{
+  "sourceId": "brixton-house",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://brixtonhouse.co.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "div.wp-block-group__inner-container",
+      "dates": "p.bhwpspx-date"
+    }
+  },
+  "events": [
+    {
+      "id": "brixton-house:shows-no-apologies",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "No Apologies",
+      "url": "https://brixtonhouse.co.uk/shows/no-apologies/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-02",
+      "endDate": "2026-12-12",
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/05/No_Apologies_Credit-Matt-Crockett-373x280.jpg"
+    },
+    {
+      "id": "brixton-house:shows-santas-christmas-cold-an-orchestral-arctic-adventure",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "Santa’s Christmas Cold: An Orchestral Arctic Adventure",
+      "url": "https://brixtonhouse.co.uk/shows/santas-christmas-cold-an-orchestral-arctic-adventure/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-08",
+      "endDate": "2026-12-12",
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/06/SANTA_1920x1080_CLEAN-1-373x280.png"
+    },
+    {
+      "id": "brixton-house:shows-i-am-one-of-many",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "I AM – One Of Many",
+      "url": "https://brixtonhouse.co.uk/shows/i-am-one-of-many/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-10",
+      "endDate": "2027-02-26",
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/05/IAM01-I-AM-LANDSCAPE-PHOTO-LULA-02-Celine-Celeesi-c-designed-by-Luis-Quiroz.jpg-373x280.jpeg"
+    },
+    {
+      "id": "brixton-house:shows-providers-2027",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "Providers",
+      "url": "https://brixtonhouse.co.uk/shows/providers-2027/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-10",
+      "endDate": "2027-03-20",
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/06/SYN_Providers-2027_Synergy-website_1920x960-373x280.jpg"
+    },
+    {
+      "id": "brixton-house:shows-pop-up-vibes",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "Pop Up & Vibes",
+      "url": "https://brixtonhouse.co.uk/shows/pop-up-vibes/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-08-07",
+      "endDate": "2026-11-06",
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/07/Webpages-373x280.png"
+    },
+    {
+      "id": "brixton-house:shows-casa-lines-of-flight-oct-26",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "CASA: Lines of Flight",
+      "url": "https://brixtonhouse.co.uk/shows/casa-lines-of-flight-oct-26/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-10-07",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/03/CASA-Lines-of-Flight-Landspace-for-website-373x280.png"
+    },
+    {
+      "id": "brixton-house:shows-house-bar-masterclass-brixton-brewery",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "House Bar Masterclass: Brixton Brewery",
+      "url": "https://brixtonhouse.co.uk/shows/house-bar-masterclass-brixton-brewery/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2026-08-04",
+      "endDate": "2026-11-03",
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/07/Bar-Kitchen-Landscape-Web-Images-1-373x280.png"
+    },
+    {
+      "id": "brixton-house:shows-jawdance",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "Jawdance",
+      "url": "https://brixtonhouse.co.uk/shows/jawdance/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-05-20",
+      "endDate": "2026-11-25",
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/03/Jawdance-Brixton-373x280.png"
+    },
+    {
+      "id": "brixton-house:shows-brixton-house-comedy-november-special",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "Stand Up Comedy: November Special",
+      "url": "https://brixtonhouse.co.uk/shows/brixton-house-comedy-november-special/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-20",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/03/Comedy_Web-Assets_1920x1080_2-373x280.png"
+    },
+    {
+      "id": "brixton-house:shows-kindrd-jam",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "Kindrd Jam",
+      "url": "https://brixtonhouse.co.uk/shows/kindrd-jam/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-09-25",
+      "endDate": "2026-12-04",
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/03/Kindrd-Jam-Poster-Eska-Landscape-373x280.png"
+    },
+    {
+      "id": "brixton-house:shows-brixton-house-community-choir-christmas-showcase-2026",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "Brixton House Community Choir: Christmas Showcase",
+      "url": "https://brixtonhouse.co.uk/shows/brixton-house-community-choir-christmas-showcase-2026/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-12-16",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2025/12/Untitled-design-78-373x280.png"
+    },
+    {
+      "id": "brixton-house:shows-brixton-house-comedy-christmas-special",
+      "venueId": "brixton-house",
+      "sourceId": "brixton-house",
+      "title": "Brixton House Comedy: Christmas Special",
+      "url": "https://brixtonhouse.co.uk/shows/brixton-house-comedy-christmas-special/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-18",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/02/Christmas-Special-373x280.png"
+    }
+  ]
+}

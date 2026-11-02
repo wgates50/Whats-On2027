@@ -1,0 +1,62 @@
+{
+  "sourceId": "saatchi-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.saatchigallery.com/"
+    ],
+    "linkPattern": "^https://www\\.saatchigallery\\.com/exhibition/[^/?#]+/?$",
+    "detail": {
+      "dates": "h2.sub-heading-2x"
+    }
+  },
+  "events": [
+    {
+      "id": "saatchi-gallery:exhibition-beyond-the-streets",
+      "venueId": "saatchi-gallery",
+      "sourceId": "saatchi-gallery",
+      "title": "BEYOND THE STREETS",
+      "url": "https://www.saatchigallery.com/exhibition/beyond-the-streets",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-11",
+      "endDate": "2027-05-05",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.saatchigallery.com/wp-content/uploads/2023/01/saatchi-logo-black.jpg",
+      "description": "Saatchi Gallery » BEYOND THE STREETS 11 November 2026 - 5 May 2027 » BEYOND THE STREETS returns with an all-new exhibition, bringing together new, historic and previously unseen works by leading figures in international street culture. Spanning more than ten rooms and bringing…"
+    },
+    {
+      "id": "saatchi-gallery:exhibition-cold-sweat",
+      "venueId": "saatchi-gallery",
+      "sourceId": "saatchi-gallery",
+      "title": "Cold Sweat",
+      "url": "https://www.saatchigallery.com/exhibition/cold-sweat",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-22",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.saatchigallery.com/wp-content/uploads/2023/01/saatchi-logo-black.jpg",
+      "description": "Saatchi Gallery » Cold Sweat 22 October - 22 November » Luke Hannam is an established British artist with an energetic dedication to drawing and a relentless desire to explore images and motifs. This exhibition presents a new body of work by the artist, representing an ambitious…"
+    },
+    {
+      "id": "saatchi-gallery:exhibition-adama-jalloh-process-2014-ongoing",
+      "venueId": "saatchi-gallery",
+      "sourceId": "saatchi-gallery",
+      "title": "Adama Jalloh: Process (2014–ongoing)",
+      "url": "https://www.saatchigallery.com/exhibition/adama-jalloh-process-2014-ongoing",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-22",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.saatchigallery.com/wp-content/uploads/2023/01/saatchi-logo-black.jpg",
+      "description": "Saatchi Gallery » Adama Jalloh: Process (2014–ongoing) 22 October - 22 November » The Royal Photographic Society presents Adama Jalloh: Process (2014–ongoing). Adama Jalloh's work was first exhibited by the RPS in 2021 as part of the Bristol Photo Festival. Process brings…"
+    }
+  ]
+}

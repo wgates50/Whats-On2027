@@ -1,0 +1,215 @@
+{
+  "sourceId": "wellcome-collection",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://wellcomecollection.org/whats-on"
+    ],
+    "cards": {
+      "item": "a.iScFvn",
+      "dates": "time"
+    }
+  },
+  "events": [
+    {
+      "id": "wellcome-collection:events-an-artist-in-everyday-life",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "An Artist in Everyday Life",
+      "url": "https://wellcomecollection.org/events/an-artist-in-everyday-life",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/aO46BJ5xUNkB175r_MAINIMAGEAndreaMindel020722_Credit-RosiePowell.jpg?w=1338&auto=compress%2Cformat&rect=0%2C562%2C6496%2C3654&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-bsl-tours-of-the-coming-of-age-with-rubbena-aurangzeb-tariq",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "BSL Tours of ‘The Coming of Age’ with Rubbena Aurangzeb-Tariq",
+      "url": "https://wellcomecollection.org/events/bsl-tours-of-the-coming-of-age-with-rubbena-aurangzeb-tariq",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/agNhc6YofJOwHJFU_EP_003391_0010.jpg?w=1338&auto=compress%2Cformat&rect=0%2C0%2C4000%2C2250&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-audio-described-tours-tenderness-and-rage",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Audio Described Tours of 'Tenderness and Rage'",
+      "url": "https://wellcomecollection.org/events/audio-described-tours-tenderness-and-rage",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/airHxKlQnVZVEN6z_BTG260520152042-Edit.jpg?w=1338&auto=compress%2Cformat&rect=&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-handle-with-care-conversations-through-objects-november-2026",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Handle with Care: Conversations Through Objects",
+      "url": "https://wellcomecollection.org/events/handle-with-care-conversations-through-objects-november-2026",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/ZtmF1bzzk9ZrXB24_EP_002108_037.jpg?w=1338&auto=compress%2Cformat&rect=446%2C527%2C3540%2C1991&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-bsl-interpreted-tours-of-tenderness-and-rage",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "BSL Interpreted Tours of Tenderness and Rage",
+      "url": "https://wellcomecollection.org/events/bsl-interpreted-tours-of-tenderness-and-rage",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-17",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/airGyKlQnVZVEN55_BTG260520145210.jpg?w=1338&auto=compress%2Cformat&rect=&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-audio-described-tour-of-the-audrey-amiss-and-rudy-loewe-exhibitions",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Lights Up and Audio Described Tours of the Audrey Amiss and Rudy Loewe Exhibitions",
+      "url": "https://wellcomecollection.org/events/audio-described-tour-of-the-audrey-amiss-and-rudy-loewe-exhibitions",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/Pkh4OhEfrQprG48j_BTG260701143704.jpg?w=1338&auto=compress%2Cformat&rect=190%2C474%2C3810%2C2143&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-bsl-interpreted-tours-audrey-amiss-rudy-loewe",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "BSL Interpreted Tours of Audrey Amiss and Rudy Loewe exhibitions",
+      "url": "https://wellcomecollection.org/events/bsl-interpreted-tours-audrey-amiss-rudy-loewe",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/GQorxb6SWRo4e1xA_BTG260701143026.jpg?w=1338&auto=compress%2Cformat&rect=0%2C354%2C4000%2C2250&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-discovering-our-collections-through-ephemera",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Discovering our Collections through Ephemera",
+      "url": "https://wellcomecollection.org/events/discovering-our-collections-through-ephemera",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-24",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/aFQEynfc4bHWiieO_EP_000737_029.jpg?w=1338&auto=compress%2Cformat&rect=0%2C176%2C4000%2C2250&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-lights-up-and-audio-described-tours-of-the-coming-of-age",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Lights Up and Audio Described Tours of The Coming of Age",
+      "url": "https://wellcomecollection.org/events/lights-up-and-audio-described-tours-of-the-coming-of-age",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-25",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/afTJUcBOoF08xiln_SDP_EP003369_260319_4447.jpg?w=1338&auto=compress%2Cformat&rect=0%2C137%2C4000%2C2250&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-wellcome-collection-lates-not-done-yet",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Wellcome Collection Lates: Not Done Yet",
+      "url": "https://wellcomecollection.org/events/wellcome-collection-lates-not-done-yet",
+      "type": "late",
+      "category": "art-events",
+      "startDate": "2026-11-26",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/vRAhz7sdvapGOC9a_EP_003643_003.jpg?w=1338&auto=compress%2Cformat&rect=125%2C962%2C6380%2C3589&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-bsl-tours-coming-of-age-exhibition",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "BSL Interpreted Tours of The Coming of Age",
+      "url": "https://wellcomecollection.org/events/bsl-tours-coming-of-age-exhibition",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-28",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/afTJUMBOoF08xilm_SDP_EP003369_260319_4205.jpg?w=1338&auto=compress%2Cformat&rect=0%2C320%2C4000%2C2250&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-bsl-tours-the-surviving-exhibitions-with-alison-claire-france",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "BSL Tour of ‘Audrey Amiss: The Surviving Exhibitions’ with Alison Claire France",
+      "url": "https://wellcomecollection.org/events/bsl-tours-the-surviving-exhibitions-with-alison-claire-france",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-29",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/rkHtawbrOkpFMGvy_SDP_EP003626_260702_3114-Edit.jpg?w=1338&auto=compress%2Cformat&rect=&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-world-aids-day-connecting-threads",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "World AIDS Day: Connected Threads",
+      "url": "https://wellcomecollection.org/events/world-aids-day-connecting-threads",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-01",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/P1KNgLJh2aJJoFAr_BTG260520103801-2.jpg?w=1338&auto=compress%2Cformat&rect=0%2C72%2C4000%2C2250&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-immuno-cautious-sessions-audrey-amiss-rudy-loewe-exhbitions",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Immuno-cautious Openings of the 'Audrey Amiss' and 'Rudy Loewe' exhibitions",
+      "url": "https://wellcomecollection.org/events/immuno-cautious-sessions-audrey-amiss-rudy-loewe-exhbitions",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/cJ4wZJNi582UtbzT_EP3621_0029.jpg?w=1338&auto=compress%2Cformat&rect=162%2C542%2C3774%2C2123&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-audrey-amiss-rudy-loewe-relaxed-openings",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Relaxed Opening of ‘Audrey Amiss' and ‘Rudy Loewe' exhibitions",
+      "url": "https://wellcomecollection.org/events/audrey-amiss-rudy-loewe-relaxed-openings",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/wellcomecollection/zuSP8RLJqswQhLFS_EP3619_0070-2.jpg?w=1338&auto=compress%2Cformat&rect=0%2C397%2C4000%2C2250&q=50"
+    }
+  ]
+}

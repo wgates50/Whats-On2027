@@ -1,0 +1,57 @@
+{
+  "sourceId": "arts-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.artsatmarblearch.com/events"
+    ],
+    "cards": {
+      "item": "div.c-event-card__meta",
+      "dates": "span.c-event-card__date"
+    }
+  },
+  "events": [
+    {
+      "id": "arts-theatre:events-million-dollar-quartet",
+      "venueId": "arts-theatre",
+      "sourceId": "arts-theatre",
+      "title": "Million Dollar Quartet",
+      "url": "https://www.artsatmarblearch.com/events/million-dollar-quartet",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-09-04",
+      "endDate": "2026-12-06",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "arts-theatre:events-father-christmas-needs-a-wee1",
+      "venueId": "arts-theatre",
+      "sourceId": "arts-theatre",
+      "title": "Father Christmas Needs a Wee!",
+      "url": "https://www.artsatmarblearch.com/events/father-christmas-needs-a-wee1",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-12",
+      "endDate": "2026-12-24",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "arts-theatre:events-choir-of-man",
+      "venueId": "arts-theatre",
+      "sourceId": "arts-theatre",
+      "title": "The Choir of Man",
+      "url": "https://www.artsatmarblearch.com/events/choir-of-man",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-12-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "ongoing": true
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "sourceId": "serpentine",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.serpentinegalleries.org/whats-on/"
+    ],
+    "cards": {
+      "item": "div.teaser__content",
+      "link": "h3.teaser__title a",
+      "title": "h3.teaser__title",
+      "typeLabel": "span.teaser__pretitle",
+      "dates": "div.meta__item",
+      "venue": "span.meta__term",
+      "description": "p.teaser__text"
+    }
+  },
+  "events": [
+    {
+      "id": "serpentine-south:whats-on-justin-caguiat-change-ringing",
+      "venueId": "serpentine-south",
+      "sourceId": "serpentine",
+      "title": "Justin Caguiat: Change Ringing",
+      "url": "https://www.serpentinegalleries.org/whats-on/justin-caguiat-change-ringing/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-08",
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02",
+      "description": "Discover Justin Caguiat in his first UK institutional exhibition. Explore painting, sculpture, printmaking, sound and film in a site-responsive installation."
+    },
+    {
+      "id": "serpentine-north:whats-on-amar-kanwar-exhibition",
+      "venueId": "serpentine-north",
+      "sourceId": "serpentine",
+      "title": "Amar Kanwar",
+      "url": "https://www.serpentinegalleries.org/whats-on/amar-kanwar-exhibition/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-23",
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02",
+      "description": "Slow down, look carefully and reflect. Visit Amar Kanwar's film exhibition at Serpentine North, bringing together new and existing works."
+    },
+    {
+      "id": "serpentine-south:whats-on-saturday-talks-natalia-grabowska-on-justin-caguiat-change-ringing",
+      "venueId": "serpentine-south",
+      "sourceId": "serpentine",
+      "title": "Saturday Talks: Natalia Grabowska on Justin Caguiat: Change Ringing",
+      "url": "https://www.serpentinegalleries.org/whats-on/saturday-talks-natalia-grabowska-on-justin-caguiat-change-ringing/",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "12:00",
+      "description": "Natalia Grabowska, Curator at Large, Architecture and Site-Specific Projects, leads a tour of Justin Caguiat: Change Ringing."
+    },
+    {
+      "id": "serpentine-north:whats-on-saturday-talks-kit-gurnos-on-amar-kanwar",
+      "venueId": "serpentine-north",
+      "sourceId": "serpentine",
+      "title": "Saturday Talks: Kit Gurnos on Amar Kanwar",
+      "url": "https://www.serpentinegalleries.org/whats-on/saturday-talks-kit-gurnos-on-amar-kanwar/",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2027-01-16",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "12:30",
+      "description": "Kit Gurnos, Assistant Exhibitions Curator, gives an introduction to New Delhi-based artist and filmmaker Amar Kanwar."
+    },
+    {
+      "id": "serpentine-south:whats-on-pierre-alechinksy",
+      "venueId": "serpentine-south",
+      "sourceId": "serpentine",
+      "title": "Pierre Alechinsky",
+      "url": "https://www.serpentinegalleries.org/whats-on/pierre-alechinksy/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-02-11",
+      "endDate": "2027-04-18",
+      "firstSeen": "2026-11-02",
+      "description": "In celebration of a radical and experimental artist, explore Pierre Alechinsky’s graphically rich and exuberant body of paintings and works on paper."
+    },
+    {
+      "id": "serpentine-north:whats-on-matt-copson",
+      "venueId": "serpentine-north",
+      "sourceId": "serpentine",
+      "title": "Matt Copson",
+      "url": "https://www.serpentinegalleries.org/whats-on/matt-copson/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-03-16",
+      "endDate": "2027-08-22",
+      "firstSeen": "2026-11-02",
+      "description": "Step into Matt Copson’s first major solo exhibition in the UK at Serpentine North. Discover Copson’s celebrated work, spanning laser animation, sculpture, animatronics and sound."
+    },
+    {
+      "id": "serpentine-south:whats-on-adrian-piper-im-this-space-selected-works-1967-2027",
+      "venueId": "serpentine-south",
+      "sourceId": "serpentine",
+      "title": "Adrian Piper, I'm This Space: Selected Works 1967 - 2027",
+      "url": "https://www.serpentinegalleries.org/whats-on/adrian-piper-im-this-space-selected-works-1967-2027/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-05-26",
+      "endDate": "2027-09-05",
+      "firstSeen": "2026-11-02",
+      "description": "Experience Adrian Piper’s use of irony, humour and audience participation to challenge beliefs about the construction of race, gender and truth."
+    },
+    {
+      "id": "serpentine-north:whats-on-serpentine-x-the-flag-foundation-prize-gozo-yoshimasu",
+      "venueId": "serpentine-north",
+      "sourceId": "serpentine",
+      "title": "Serpentine x The Flag Foundation Prize: Gozo Yoshimasu",
+      "url": "https://www.serpentinegalleries.org/whats-on/serpentine-x-the-flag-foundation-prize-gozo-yoshimasu/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-09-24",
+      "endDate": "2028-01-31",
+      "firstSeen": "2026-11-02",
+      "description": "Celebrate Gozo Yoshimasu, the inaugural recipient of The FLAG Art Foundation Prize and one of Japan’s most radical and celebrated poets."
+    },
+    {
+      "id": "serpentine-south:whats-on-lisa-brice",
+      "venueId": "serpentine-south",
+      "sourceId": "serpentine",
+      "title": "Lisa Brice",
+      "url": "https://www.serpentinegalleries.org/whats-on/lisa-brice/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-10-08",
+      "endDate": "2028-02-06",
+      "firstSeen": "2026-11-02",
+      "description": "Discover Lisa Brice’s new exhibition at Serpentine, bringing together new and existing paintings that challenge traditional representations of women in art history."
+    }
+  ]
+}

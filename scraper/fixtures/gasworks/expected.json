@@ -1,0 +1,68 @@
+{
+  "sourceId": "gasworks",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.gasworks.org.uk/exhibitions/"
+    ],
+    "cards": {
+      "item": "header",
+      "dates": "span.nowrap"
+    }
+  },
+  "events": [
+    {
+      "id": "gasworks:exhibitions-thuy-tien-nguyen",
+      "venueId": "gasworks",
+      "sourceId": "gasworks",
+      "title": "Thuy Tien Nguyen: Press, Release",
+      "url": "https://www.gasworks.org.uk/exhibitions/thuy-tien-nguyen/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-01-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gasworks:exhibitions-gabriel-abrantes",
+      "venueId": "gasworks",
+      "sourceId": "gasworks",
+      "title": "Gabriel Abrantes: Bardo Loops",
+      "url": "https://www.gasworks.org.uk/exhibitions/gabriel-abrantes/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-04-16",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gasworks:exhibitions-umi-ishihara",
+      "venueId": "gasworks",
+      "sourceId": "gasworks",
+      "title": "Umi Ishihara: Nocturnal Melody",
+      "url": "https://www.gasworks.org.uk/exhibitions/umi-ishihara/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-01-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gasworks:exhibitions-ben-sakoguchi",
+      "venueId": "gasworks",
+      "sourceId": "gasworks",
+      "title": "Ben Sakoguchi: Critical Art Theory",
+      "url": "https://www.gasworks.org.uk/exhibitions/ben-sakoguchi/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-07-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "sourceId": "camden-art-centre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://camdenartcentre.org/"
+    ],
+    "cards": {
+      "item": "div.teaser__content",
+      "dates": "span.teaser__meta"
+    }
+  },
+  "events": [
+    {
+      "id": "camden-art-centre:whats-on-life-drawing-short-course-autumn-2026",
+      "venueId": "camden-art-centre",
+      "sourceId": "camden-art-centre",
+      "title": "Life Drawing Short Course",
+      "url": "https://camdenartcentre.org/whats-on/life-drawing-short-course-autumn-2026",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-11-19",
+      "endDate": "2026-12-10",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "camden-art-centre:whats-on-natural-dyes-study-group",
+      "venueId": "camden-art-centre",
+      "sourceId": "camden-art-centre",
+      "title": "Natural Dyes Study Group",
+      "url": "https://camdenartcentre.org/whats-on/natural-dyes-study-group",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "camden-art-centre:whats-on-zine-making-workshop-6",
+      "venueId": "camden-art-centre",
+      "sourceId": "camden-art-centre",
+      "title": "Zine Making Workshop",
+      "url": "https://camdenartcentre.org/whats-on/zine-making-workshop-6",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "camden-art-centre:whats-on-ikebana-inspired-wreath-making-workshop",
+      "venueId": "camden-art-centre",
+      "sourceId": "camden-art-centre",
+      "title": "Ikebana-Inspired Wreath Making Workshop",
+      "url": "https://camdenartcentre.org/whats-on/ikebana-inspired-wreath-making-workshop",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-12-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "camden-art-centre:whats-on-introduction-to-natural-dyes-2",
+      "venueId": "camden-art-centre",
+      "sourceId": "camden-art-centre",
+      "title": "Introduction to Natural Dyes",
+      "url": "https://camdenartcentre.org/whats-on/introduction-to-natural-dyes-2",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

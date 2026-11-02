@@ -1,0 +1,80 @@
+{
+  "sourceId": "leighton-house",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.rbkc.gov.uk/museums/whats-on"
+    ],
+    "cards": {
+      "item": "div.card__content",
+      "dates": "span.card__date"
+    }
+  },
+  "events": [
+    {
+      "id": "leighton-house:museums-life-drawing-2b-or-not-2b-collective",
+      "venueId": "leighton-house",
+      "sourceId": "leighton-house",
+      "title": "Life Drawing with 2B Or Not 2B Collective",
+      "url": "https://www.rbkc.gov.uk/museums/life-drawing-2b-or-not-2b-collective",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leighton-house:museums-drink-and-draw-drawn-water",
+      "venueId": "leighton-house",
+      "sourceId": "leighton-house",
+      "title": "Drink and Draw: Drawn to the Water",
+      "url": "https://www.rbkc.gov.uk/museums/drink-and-draw-drawn-water",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leighton-house:museums-artists-houses-walking-tours",
+      "venueId": "leighton-house",
+      "sourceId": "leighton-house",
+      "title": "Artists Houses Free Walking Tours",
+      "url": "https://www.rbkc.gov.uk/museums/artists-houses-walking-tours",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leighton-house:museums-art-laughs-art-themed-comedy-night",
+      "venueId": "leighton-house",
+      "sourceId": "leighton-house",
+      "title": "Art Laughs: Art-Themed Comedy Night",
+      "url": "https://www.rbkc.gov.uk/museums/art-laughs-art-themed-comedy-night",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leighton-house:museums-kensington-and-chelsea-music-society-2026-27-leighton-house",
+      "venueId": "leighton-house",
+      "sourceId": "leighton-house",
+      "title": "Kensington and Chelsea Music Society 2026 - 27 at Leighton House",
+      "url": "https://www.rbkc.gov.uk/museums/kensington-and-chelsea-music-society-2026-27-leighton-house",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-17",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

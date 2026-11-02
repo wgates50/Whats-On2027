@@ -1,0 +1,977 @@
+{
+  "checkedAt": "2026-11-02T10:05:13.262Z",
+  "sources": {
+    "official-london-theatre": {
+      "sourceId": "official-london-theatre",
+      "status": "ok",
+      "count": 128,
+      "previousCount": 128,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 128,
+      "consecutiveFailures": 0
+    },
+    "tate-modern": {
+      "sourceId": "tate-modern",
+      "status": "ok",
+      "count": 24,
+      "previousCount": 24,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 24,
+      "consecutiveFailures": 0
+    },
+    "tate-britain": {
+      "sourceId": "tate-britain",
+      "status": "ok",
+      "count": 17,
+      "previousCount": 17,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 17,
+      "consecutiveFailures": 0
+    },
+    "vam": {
+      "sourceId": "vam",
+      "status": "ok",
+      "count": 85,
+      "previousCount": 85,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 85,
+      "consecutiveFailures": 0,
+      "unmatchedVenues": {
+        "Online": 7,
+        "No venue": 1
+      },
+      "warnings": [
+        "6 cards had no parseable dates (94 did)"
+      ]
+    },
+    "national-gallery": {
+      "sourceId": "national-gallery",
+      "status": "ok",
+      "count": 8,
+      "previousCount": 8,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 8,
+      "consecutiveFailures": 0
+    },
+    "barbican": {
+      "sourceId": "barbican",
+      "status": "ok",
+      "count": 56,
+      "previousCount": 56,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 56,
+      "consecutiveFailures": 0
+    },
+    "sadlers-wells": {
+      "sourceId": "sadlers-wells",
+      "status": "ok",
+      "count": 36,
+      "previousCount": 36,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 36,
+      "consecutiveFailures": 0,
+      "unmatchedVenues": {
+        "(no venue given)": 1
+      }
+    },
+    "national-theatre": {
+      "sourceId": "national-theatre",
+      "status": "ok",
+      "count": 10,
+      "previousCount": 10,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 10,
+      "consecutiveFailures": 0
+    },
+    "serpentine": {
+      "sourceId": "serpentine",
+      "status": "ok",
+      "count": 9,
+      "previousCount": 9,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 9,
+      "consecutiveFailures": 0,
+      "unmatchedVenues": {
+        "(no venue given)": 4,
+        "Online": 2,
+        "Offsite": 1
+      },
+      "warnings": [
+        "2 cards had no parseable dates (17 did)"
+      ]
+    },
+    "whitechapel": {
+      "sourceId": "whitechapel",
+      "status": "ok",
+      "count": 6,
+      "previousCount": 6,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 6,
+      "consecutiveFailures": 0
+    },
+    "photographers-gallery": {
+      "sourceId": "photographers-gallery",
+      "status": "ok",
+      "count": 12,
+      "previousCount": 12,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 12,
+      "consecutiveFailures": 0
+    },
+    "design-museum": {
+      "sourceId": "design-museum",
+      "status": "ok",
+      "count": 6,
+      "previousCount": 6,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 6,
+      "consecutiveFailures": 0
+    },
+    "saatchi-gallery": {
+      "sourceId": "saatchi-gallery",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0
+    },
+    "somerset-house": {
+      "sourceId": "somerset-house",
+      "status": "ok",
+      "count": 10,
+      "previousCount": 10,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 10,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (10 did)"
+      ]
+    },
+    "london-museum-docklands": {
+      "sourceId": "london-museum-docklands",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0
+    },
+    "natural-history-museum": {
+      "sourceId": "natural-history-museum",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "6 cards had no parseable dates (3 did)"
+      ]
+    },
+    "wellcome-collection": {
+      "sourceId": "wellcome-collection",
+      "status": "ok",
+      "count": 15,
+      "previousCount": 15,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 15,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "8 cards had no parseable dates (24 did)"
+      ]
+    },
+    "horniman-museum-and-gardens": {
+      "sourceId": "horniman-museum-and-gardens",
+      "status": "ok",
+      "count": 14,
+      "previousCount": 14,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 14,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (14 did)"
+      ]
+    },
+    "sir-john-soanes-museum": {
+      "sourceId": "sir-john-soanes-museum",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 4,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0
+    },
+    "the-wallace-collection": {
+      "sourceId": "the-wallace-collection",
+      "status": "ok",
+      "count": 30,
+      "previousCount": 30,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 30,
+      "consecutiveFailures": 0
+    },
+    "william-morris-gallery": {
+      "sourceId": "william-morris-gallery",
+      "status": "ok",
+      "count": 10,
+      "previousCount": 10,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 10,
+      "consecutiveFailures": 0
+    },
+    "charles-dickens-museum": {
+      "sourceId": "charles-dickens-museum",
+      "status": "ok",
+      "count": 8,
+      "previousCount": 8,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 8,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "3 cards had no parseable dates (9 did)"
+      ]
+    },
+    "national-maritime-museum": {
+      "sourceId": "national-maritime-museum",
+      "status": "ok",
+      "count": 25,
+      "previousCount": 25,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 25,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "15 cards had no parseable dates (25 did)"
+      ]
+    },
+    "ica": {
+      "sourceId": "ica",
+      "status": "ok",
+      "count": 6,
+      "previousCount": 6,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 6,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (6 did)"
+      ]
+    },
+    "freud-museum-london": {
+      "sourceId": "freud-museum-london",
+      "status": "ok",
+      "count": 26,
+      "previousCount": 26,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 26,
+      "consecutiveFailures": 0
+    },
+    "the-foundling-museum": {
+      "sourceId": "the-foundling-museum",
+      "status": "ok",
+      "count": 12,
+      "previousCount": 12,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 12,
+      "consecutiveFailures": 0
+    },
+    "cartoon-museum": {
+      "sourceId": "cartoon-museum",
+      "status": "ok",
+      "count": 22,
+      "previousCount": 22,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 22,
+      "consecutiveFailures": 0
+    },
+    "leighton-house": {
+      "sourceId": "leighton-house",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "4 cards had no parseable dates (6 did)"
+      ]
+    },
+    "garden-museum": {
+      "sourceId": "garden-museum",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "3 cards had no parseable dates (3 did)"
+      ]
+    },
+    "kenwood": {
+      "sourceId": "kenwood",
+      "status": "ok",
+      "count": 7,
+      "previousCount": 7,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 7,
+      "consecutiveFailures": 0
+    },
+    "science-gallery-london": {
+      "sourceId": "science-gallery-london",
+      "status": "ok",
+      "count": 28,
+      "previousCount": 28,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 28,
+      "consecutiveFailures": 0
+    },
+    "two-temple-place": {
+      "sourceId": "two-temple-place",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "543 cards had no parseable dates (5 did)"
+      ]
+    },
+    "pitzhanger-manor-and-gallery": {
+      "sourceId": "pitzhanger-manor-and-gallery",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 4,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (15 did)"
+      ]
+    },
+    "camden-art-centre": {
+      "sourceId": "camden-art-centre",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "6 cards had no parseable dates (5 did)"
+      ]
+    },
+    "chisenhale-gallery": {
+      "sourceId": "chisenhale-gallery",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 4,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0
+    },
+    "south-london-gallery": {
+      "sourceId": "south-london-gallery",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (5 did)"
+      ]
+    },
+    "gasworks": {
+      "sourceId": "gasworks",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 4,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "2 cards had no parseable dates (6 did)"
+      ]
+    },
+    "outernet-london": {
+      "sourceId": "outernet-london",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0
+    },
+    "lightroom": {
+      "sourceId": "lightroom",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0
+    },
+    "victoria-miro": {
+      "sourceId": "victoria-miro",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "2 cards had no parseable dates (10 did)"
+      ]
+    },
+    "alison-jacques": {
+      "sourceId": "alison-jacques",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (5 did)"
+      ]
+    },
+    "timothy-taylor": {
+      "sourceId": "timothy-taylor",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0
+    },
+    "flowers-gallery": {
+      "sourceId": "flowers-gallery",
+      "status": "ok",
+      "count": 6,
+      "previousCount": 6,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 6,
+      "consecutiveFailures": 0
+    },
+    "cristea-roberts-gallery": {
+      "sourceId": "cristea-roberts-gallery",
+      "status": "ok",
+      "count": 8,
+      "previousCount": 8,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 8,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "4 cards had no parseable dates (11 did)"
+      ]
+    },
+    "gazelli-art-house": {
+      "sourceId": "gazelli-art-house",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 4,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "2 cards had no parseable dates (5 did)"
+      ]
+    },
+    "richard-saltoun-gallery": {
+      "sourceId": "richard-saltoun-gallery",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0
+    },
+    "grimm-london": {
+      "sourceId": "grimm-london",
+      "status": "ok",
+      "count": 9,
+      "previousCount": 9,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 9,
+      "consecutiveFailures": 0
+    },
+    "roundhouse": {
+      "sourceId": "roundhouse",
+      "status": "ok",
+      "count": 9,
+      "previousCount": 9,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 9,
+      "consecutiveFailures": 0
+    },
+    "battersea-arts-centre": {
+      "sourceId": "battersea-arts-centre",
+      "status": "ok",
+      "count": 21,
+      "previousCount": 21,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 21,
+      "consecutiveFailures": 0
+    },
+    "alexandra-palace": {
+      "sourceId": "alexandra-palace",
+      "status": "ok",
+      "count": 56,
+      "previousCount": 56,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 56,
+      "consecutiveFailures": 0
+    },
+    "shoreditch-town-hall": {
+      "sourceId": "shoreditch-town-hall",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0
+    },
+    "conway-hall": {
+      "sourceId": "conway-hall",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "6 cards had no parseable dates (6 did)"
+      ]
+    },
+    "bishopsgate-institute": {
+      "sourceId": "bishopsgate-institute",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0
+    },
+    "gresham-college": {
+      "sourceId": "gresham-college",
+      "status": "ok",
+      "count": 8,
+      "previousCount": 8,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 8,
+      "consecutiveFailures": 0
+    },
+    "cadogan-hall": {
+      "sourceId": "cadogan-hall",
+      "status": "ok",
+      "count": 11,
+      "previousCount": 11,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 11,
+      "consecutiveFailures": 0
+    },
+    "the-albany": {
+      "sourceId": "the-albany",
+      "status": "ok",
+      "count": 13,
+      "previousCount": 13,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 13,
+      "consecutiveFailures": 0
+    },
+    "eventim-apollo": {
+      "sourceId": "eventim-apollo",
+      "status": "ok",
+      "count": 79,
+      "previousCount": 79,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 79,
+      "consecutiveFailures": 0
+    },
+    "union-chapel": {
+      "sourceId": "union-chapel",
+      "status": "ok",
+      "count": 115,
+      "previousCount": 115,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 115,
+      "consecutiveFailures": 0
+    },
+    "st-martin-in-the-fields": {
+      "sourceId": "st-martin-in-the-fields",
+      "status": "ok",
+      "count": 2,
+      "previousCount": 2,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 2,
+      "consecutiveFailures": 0
+    },
+    "st-johns-smith-square": {
+      "sourceId": "st-johns-smith-square",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 4,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "2 cards had no parseable dates (4 did)"
+      ]
+    },
+    "clapham-grand": {
+      "sourceId": "clapham-grand",
+      "status": "ok",
+      "count": 12,
+      "previousCount": 12,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 12,
+      "consecutiveFailures": 0
+    },
+    "bloomsbury-theatre": {
+      "sourceId": "bloomsbury-theatre",
+      "status": "ok",
+      "count": 9,
+      "previousCount": 9,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 9,
+      "consecutiveFailures": 0
+    },
+    "earth-hackney": {
+      "sourceId": "earth-hackney",
+      "status": "ok",
+      "count": 67,
+      "previousCount": 67,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 67,
+      "consecutiveFailures": 0
+    },
+    "hackney-empire": {
+      "sourceId": "hackney-empire",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0
+    },
+    "up-the-creek": {
+      "sourceId": "up-the-creek",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 4,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0
+    },
+    "leicester-square-theatre": {
+      "sourceId": "leicester-square-theatre",
+      "status": "ok",
+      "count": 9,
+      "previousCount": 9,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 9,
+      "consecutiveFailures": 0
+    },
+    "the-comedy-store": {
+      "sourceId": "the-comedy-store",
+      "status": "ok",
+      "count": 141,
+      "previousCount": 141,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 141,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "5 cards had no parseable dates (141 did)"
+      ]
+    },
+    "museum-of-comedy": {
+      "sourceId": "museum-of-comedy",
+      "status": "ok",
+      "count": 16,
+      "previousCount": 16,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 16,
+      "consecutiveFailures": 0
+    },
+    "soho-theatre": {
+      "sourceId": "soho-theatre",
+      "status": "ok",
+      "count": 18,
+      "previousCount": 18,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 18,
+      "consecutiveFailures": 0
+    },
+    "shakespeares-globe": {
+      "sourceId": "shakespeares-globe",
+      "status": "ok",
+      "count": 25,
+      "previousCount": 25,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 25,
+      "consecutiveFailures": 0
+    },
+    "almeida-theatre": {
+      "sourceId": "almeida-theatre",
+      "status": "ok",
+      "count": 11,
+      "previousCount": 11,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 11,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "2 cards had no parseable dates (13 did)"
+      ]
+    },
+    "lyric-hammersmith": {
+      "sourceId": "lyric-hammersmith",
+      "status": "ok",
+      "count": 20,
+      "previousCount": 20,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 20,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "13 cards had no parseable dates (20 did)"
+      ]
+    },
+    "kiln-theatre": {
+      "sourceId": "kiln-theatre",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "4 cards had no parseable dates (3 did)"
+      ]
+    },
+    "orange-tree-theatre": {
+      "sourceId": "orange-tree-theatre",
+      "status": "ok",
+      "count": 22,
+      "previousCount": 22,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 22,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (23 did)"
+      ]
+    },
+    "park-theatre": {
+      "sourceId": "park-theatre",
+      "status": "ok",
+      "count": 26,
+      "previousCount": 26,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 26,
+      "consecutiveFailures": 0
+    },
+    "arcola-theatre": {
+      "sourceId": "arcola-theatre",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 4,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0
+    },
+    "kings-head-theatre": {
+      "sourceId": "kings-head-theatre",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (3 did)"
+      ]
+    },
+    "unicorn-theatre": {
+      "sourceId": "unicorn-theatre",
+      "status": "ok",
+      "count": 9,
+      "previousCount": 9,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 9,
+      "consecutiveFailures": 0
+    },
+    "polka-theatre": {
+      "sourceId": "polka-theatre",
+      "status": "ok",
+      "count": 9,
+      "previousCount": 9,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 9,
+      "consecutiveFailures": 0
+    },
+    "little-angel-theatre": {
+      "sourceId": "little-angel-theatre",
+      "status": "ok",
+      "count": 7,
+      "previousCount": 7,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 7,
+      "consecutiveFailures": 0
+    },
+    "the-yard-theatre": {
+      "sourceId": "the-yard-theatre",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "2 cards had no parseable dates (3 did)"
+      ]
+    },
+    "regents-park-open-air-theatre": {
+      "sourceId": "regents-park-open-air-theatre",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 5,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0
+    },
+    "brixton-house": {
+      "sourceId": "brixton-house",
+      "status": "ok",
+      "count": 12,
+      "previousCount": 12,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 12,
+      "consecutiveFailures": 0
+    },
+    "royal-opera-house": {
+      "sourceId": "royal-opera-house",
+      "status": "ok",
+      "count": 13,
+      "previousCount": 13,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 13,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "54 cards had no parseable dates (13 did)"
+      ]
+    },
+    "wiltons-music-hall": {
+      "sourceId": "wiltons-music-hall",
+      "status": "ok",
+      "count": 12,
+      "previousCount": 12,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 12,
+      "consecutiveFailures": 0
+    },
+    "arts-theatre": {
+      "sourceId": "arts-theatre",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 3,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0
+    },
+    "london-coliseum": {
+      "sourceId": "london-coliseum",
+      "status": "ok",
+      "count": 19,
+      "previousCount": 19,
+      "checkedAt": "2026-11-02T10:05:13.262Z",
+      "lastOk": "2026-11-02T10:05:13.262Z",
+      "lastOkCount": 19,
+      "consecutiveFailures": 0
+    }
+  }
+}

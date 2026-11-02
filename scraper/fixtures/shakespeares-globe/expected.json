@@ -1,0 +1,320 @@
+{
+  "sourceId": "shakespeares-globe",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.shakespearesglobe.com/whats-on/"
+    ],
+    "cards": {
+      "item": "div.c-event-card__body.u-pure-white-bg",
+      "dates": "div.c-event-card__details"
+    }
+  },
+  "events": [
+    {
+      "id": "shakespeares-globe:whats-on-mother-courage-and-her-children",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Mother Courage and Her Children",
+      "url": "https://www.shakespearesglobe.com/whats-on/mother-courage-and-her-children/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-10",
+      "endDate": "2027-07-17",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-pinocchio",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Pinocchio",
+      "url": "https://www.shakespearesglobe.com/whats-on/pinocchio/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-28",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-julius-caesar",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Julius Caesar",
+      "url": "https://www.shakespearesglobe.com/whats-on/julius-caesar/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2027-02-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-the-animals-come-to-the-table",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "The Animals Come to the Table",
+      "url": "https://www.shakespearesglobe.com/whats-on/the-animals-come-to-the-table/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-11",
+      "endDate": "2027-01-24",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-the-seagull",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "The Seagull",
+      "url": "https://www.shakespearesglobe.com/whats-on/the-seagull/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-15",
+      "endDate": "2027-04-10",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-king-john",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "King John",
+      "url": "https://www.shakespearesglobe.com/whats-on/king-john/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-20",
+      "endDate": "2027-04-11",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-globe-theatre-guided-tour",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Globe Theatre Guided Tour",
+      "url": "https://www.shakespearesglobe.com/whats-on/globe-theatre-guided-tour/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-premium-globe-guided-tour",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Premium Globe Guided Tour",
+      "url": "https://www.shakespearesglobe.com/whats-on/premium-globe-guided-tour/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-guided-tour-pride",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Pride Guided Tour",
+      "url": "https://www.shakespearesglobe.com/whats-on/guided-tour-pride/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": "2027-01-25",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-ghosts-and-ghouls-family-tour",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Ghosts & Ghouls Family Tour",
+      "url": "https://www.shakespearesglobe.com/whats-on/ghosts-and-ghouls-family-tour/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": "2027-01-30",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-shakespeares-true-crimes-walking-tour",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Shakespeare's True Crimes Walking Tour",
+      "url": "https://www.shakespearesglobe.com/whats-on/shakespeares-true-crimes-walking-tour/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-14",
+      "endDate": "2027-01-09",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-heaven-to-hell-tour",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Heaven to Hell Tour",
+      "url": "https://www.shakespearesglobe.com/whats-on/heaven-to-hell-tour/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2027-02-14",
+      "endDate": "2027-04-10",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-twelfth-night-family-workshop-5-8-years",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Twelfth Night: Family Workshop (5-8 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/twelfth-night-family-workshop-5-8-years/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-04-01",
+      "endDate": "2027-04-03",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-twelfth-night-family-workshop-9-11-years",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Twelfth Night: Family Workshop (9-11 Years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/twelfth-night-family-workshop-9-11-years/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-04-01",
+      "endDate": "2027-04-03",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-young-actors-short-course-11-13-years",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Young Actors Short Course (11-13 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/young-actors-short-course-11-13-years/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-02-15",
+      "endDate": "2027-04-06",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-young-actors-short-course-8-10-years",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Young Actors Short Course (8–10 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/young-actors-short-course-8-10-years/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-02-15",
+      "endDate": "2027-04-06",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-romeo-and-juliet-gcse-boost",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Romeo and Juliet: GCSE Revision Boost",
+      "url": "https://www.shakespearesglobe.com/whats-on/romeo-and-juliet-gcse-boost/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": "2027-02-06",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-macbeth-gcse-revision-boost",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Macbeth: GCSE Revision Boost",
+      "url": "https://www.shakespearesglobe.com/whats-on/macbeth-gcse-revision-boost/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-21",
+      "endDate": "2027-03-06",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-othello-onstage-workshop-17-19-years",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Othello: On Stage Workshop (17-19 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/othello-onstage-workshop-17-19-years/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-02-14",
+      "endDate": "2027-02-16",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-teaching-shakespeare-through-performance",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Teaching Shakespeare Through Performance",
+      "url": "https://www.shakespearesglobe.com/whats-on/teaching-shakespeare-through-performance/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-07-19",
+      "endDate": "2027-07-30",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-anti-racist-shakespeare-cpd",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Online CPD: Teaching Anti-Racist Shakespeare",
+      "url": "https://www.shakespearesglobe.com/whats-on/anti-racist-shakespeare-cpd/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-09",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-online-cpd-shakespeare-and-sexuality",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Online CPD: Teaching Shakespeare and Sexuality",
+      "url": "https://www.shakespearesglobe.com/whats-on/online-cpd-shakespeare-and-sexuality/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-online-cpd-teaching-shakespeare-and-women",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Online CPD: Teaching Shakespeare and Women",
+      "url": "https://www.shakespearesglobe.com/whats-on/online-cpd-teaching-shakespeare-and-women/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-09",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-cpd-macbeth-at-ks4-in-person-or-online",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "CPD: Teaching Macbeth at KS4: In Person or Online",
+      "url": "https://www.shakespearesglobe.com/whats-on/cpd-macbeth-at-ks4-in-person-or-online/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-online-continuing-professional-development-teaching-macbeth-at-key-stag",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Online CPD: Teaching Macbeth at Key Stage 4",
+      "url": "https://www.shakespearesglobe.com/whats-on/online-continuing-professional-development-teaching-macbeth-at-key-stage-4/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

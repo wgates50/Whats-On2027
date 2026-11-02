@@ -1,0 +1,32 @@
+{
+  "https://www.nationalgallery.org.uk/exhibitions": {
+    "file": "e49cc393681c.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationalgallery.org.uk/exhibitions",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.nationalgallery.org.uk/exhibitions/past": {
+    "file": "8df51c082eea.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationalgallery.org.uk/exhibitions/past",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.nationalgallery.org.uk/exhibitions/renoir-and-love": {
+    "file": "78f4218e45f0.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationalgallery.org.uk/exhibitions/renoir-and-love",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.nationalgallery.org.uk/exhibitions/yinka-shonibare-and-thomas-gainsborough-a-conversation": {
+    "file": "d99144d05fa4.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationalgallery.org.uk/exhibitions/yinka-shonibare-and-thomas-gainsborough-a-conversation",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.nationalgallery.org.uk/exhibitions/van-eyck-the-portraits": {
+    "file": "43d4ee5a6c59.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationalgallery.org.uk/exhibitions/van-eyck-the-portraits",
+    "contentType": "text/html; charset=utf-8"
+  }
+}

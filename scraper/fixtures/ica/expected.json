@@ -1,0 +1,98 @@
+{
+  "sourceId": "ica",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.ica.art/exhibitions"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "div.date.sans"
+    }
+  },
+  "events": [
+    {
+      "id": "ica:exhibitions-autumn-knight",
+      "venueId": "ica",
+      "sourceId": "ica",
+      "title": "Autumn Knight: I Can't Complain",
+      "url": "https://www.ica.art/exhibitions/autumn-knight",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-29",
+      "endDate": "2026-11-29",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.ica.art/media/13549.png"
+    },
+    {
+      "id": "ica:exhibitions-members-curator-tour-autumn-knight",
+      "venueId": "ica",
+      "sourceId": "ica",
+      "title": "Members' Curator Tour Autumn Knight: I Can't Complain",
+      "url": "https://www.ica.art/exhibitions/members-curator-tour-autumn-knight",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.ica.art/media/13998.jpg"
+    },
+    {
+      "id": "ica:exhibitions-autumn-knight-party-done",
+      "venueId": "ica",
+      "sourceId": "ica",
+      "title": "party done: Performance by Samra Mayanja",
+      "url": "https://www.ica.art/exhibitions/autumn-knight-party-done",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.ica.art/media/13993.png"
+    },
+    {
+      "id": "ica:exhibitions-lecture-sara-ahmed-on-complaining-again",
+      "venueId": "ica",
+      "sourceId": "ica",
+      "title": "Sara Ahmed on Complaining, Again! Lecture",
+      "url": "https://www.ica.art/exhibitions/lecture-sara-ahmed-on-complaining-again",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.ica.art/media/14239.png"
+    },
+    {
+      "id": "ica:exhibitions-artists-film-picks-persepolis",
+      "venueId": "ica",
+      "sourceId": "ica",
+      "title": "Artist’s Film Picks: Persepolis",
+      "url": "https://www.ica.art/exhibitions/artists-film-picks-persepolis",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.ica.art/media/14068.png"
+    },
+    {
+      "id": "ica:exhibitions-autumn-knight-pity-party",
+      "venueId": "ica",
+      "sourceId": "ica",
+      "title": "pity party: Performance by Michelangelo Miccolis and nick von kleist",
+      "url": "https://www.ica.art/exhibitions/autumn-knight-pity-party",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-20",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.ica.art/media/13994.png"
+    }
+  ]
+}

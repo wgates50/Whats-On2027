@@ -1,0 +1,56 @@
+{
+  "sourceId": "natural-history-museum",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.nhm.ac.uk/"
+    ],
+    "cards": {
+      "item": "div.space-y-s-m",
+      "dates": "li.flex.gap-xs"
+    }
+  },
+  "events": [
+    {
+      "id": "natural-history-museum:exhibitions-wildlife-photographer-of-the-year",
+      "venueId": "natural-history-museum",
+      "sourceId": "natural-history-museum",
+      "title": "Wildlife Photographer of the Year",
+      "url": "https://www.nhm.ac.uk/visit/exhibitions/wildlife-photographer-of-the-year",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-16",
+      "endDate": "2027-07-11",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "natural-history-museum:exhibitions-visions-of-nature-html",
+      "venueId": "natural-history-museum",
+      "sourceId": "natural-history-museum",
+      "title": "Visions of Nature",
+      "url": "https://www.nhm.ac.uk/visit/exhibitions/visions-of-nature.html",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "natural-history-museum:exhibitions-jurassic-oceans",
+      "venueId": "natural-history-museum",
+      "sourceId": "natural-history-museum",
+      "title": "Jurassic Oceans: Monsters of the Deep",
+      "url": "https://www.nhm.ac.uk/visit/exhibitions/jurassic-oceans",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

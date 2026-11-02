@@ -1,0 +1,85 @@
+{
+  "sourceId": "bishopsgate-institute",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.bishopsgate.org.uk/whats-on/category/dance/"
+    ],
+    "cards": {
+      "item": "a.c-card.c-card--activity",
+      "dates": "time"
+    }
+  },
+  "events": [
+    {
+      "id": "bishopsgate-institute:activity-heart-beat-of-lindy-hop-workshop",
+      "venueId": "bishopsgate-institute",
+      "sourceId": "bishopsgate-institute",
+      "title": "Heart Beat of Lindy Hop Workshop",
+      "url": "https://www.bishopsgate.org.uk/whats-on/activity/heart-beat-of-lindy-hop-workshop",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2026-12-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://bishopsgate-inst.transforms.svdcdn.com/production/Leigh-and-Scottie-website.png?w=358&h=240&q=100&auto=format&fit=crop&dm=1789040617&s=cb752bcc94529df81b6f60bf68404b5a"
+    },
+    {
+      "id": "bishopsgate-institute:activity-swing-live-2",
+      "venueId": "bishopsgate-institute",
+      "sourceId": "bishopsgate-institute",
+      "title": "Swing Live!",
+      "url": "https://www.bishopsgate.org.uk/whats-on/activity/swing-live-2",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-20",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://bishopsgate-inst.transforms.svdcdn.com/production/Activities/Events/swing_den_hero.jpg?w=358&h=240&q=100&auto=format&fit=crop&dm=1658329190&s=7f5982163f73feff9d1fe522871826c4"
+    },
+    {
+      "id": "bishopsgate-institute:activity-swing-live-meet-our-scene-2",
+      "venueId": "bishopsgate-institute",
+      "sourceId": "bishopsgate-institute",
+      "title": "Swing Live! - Meet Our Scene",
+      "url": "https://www.bishopsgate.org.uk/whats-on/activity/swing-live-meet-our-scene-2",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2027-03-20",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://bishopsgate-inst.transforms.svdcdn.com/production/Activities/Performing-Arts/swing-patrol-1.jpg?w=358&h=240&q=100&auto=format&fit=crop&dm=1733325006&s=afff709de4022ea87c7fee6e87abbc84"
+    },
+    {
+      "id": "bishopsgate-institute:activity-swing-live-christmas-ball",
+      "venueId": "bishopsgate-institute",
+      "sourceId": "bishopsgate-institute",
+      "title": "Swing Live! - Christmas Ball",
+      "url": "https://www.bishopsgate.org.uk/whats-on/activity/swing-live-christmas-ball",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-12-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://bishopsgate-inst.transforms.svdcdn.com/production/IMG_9811.jpeg?w=358&h=240&q=100&auto=format&fit=crop&dm=1755766390&s=7fd81f60ba3d0c137e5d794e569570ad"
+    },
+    {
+      "id": "bishopsgate-institute:activity-pink-dancers-winter-ball",
+      "venueId": "bishopsgate-institute",
+      "sourceId": "bishopsgate-institute",
+      "title": "Pink Dancers' Winter Ball",
+      "url": "https://www.bishopsgate.org.uk/whats-on/activity/pink-dancers-winter-ball",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://bishopsgate-inst.transforms.svdcdn.com/production/1000_F_527728356_cRk19gvz8HWpKEefPka4xIBPDlWgcCoq.jpg?w=358&h=240&q=100&auto=format&fit=crop&dm=1784215814&s=dc5d81deb3a26b374c28d03db7d24a1b"
+    }
+  ]
+}

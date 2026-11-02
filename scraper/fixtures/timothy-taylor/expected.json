@@ -1,0 +1,85 @@
+{
+  "sourceId": "timothy-taylor",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.timothytaylor.com/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "span.date"
+    }
+  },
+  "events": [
+    {
+      "id": "timothy-taylor:news-520-kiki-smith-in-our-image-the-fragile-the-warehouse-dallas-art-foundation",
+      "venueId": "timothy-taylor",
+      "sourceId": "timothy-taylor",
+      "title": "Kiki Smith | In Our Image: The Fragile Body in Contemporary Art",
+      "url": "https://www.timothytaylor.com/news/520-kiki-smith-in-our-image-the-fragile-the-warehouse-dallas-art-foundation/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-26",
+      "endDate": "2027-01-30",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy/ws-timothytaylor/usr/images/news/main_image_override/520/2026inourimage_photobykevintodora030.jpg"
+    },
+    {
+      "id": "timothy-taylor:news-516-eddie-martinez-gumshoe-fosun-foundation-shanghai-china",
+      "venueId": "timothy-taylor",
+      "sourceId": "timothy-taylor",
+      "title": "Eddie Martinez: Gumshoe",
+      "url": "https://www.timothytaylor.com/news/516-eddie-martinez-gumshoe-fosun-foundation-shanghai-china/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-11",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy/ws-timothytaylor/usr/images/news/main_image_override/516/marte16485-image-1-.jpg"
+    },
+    {
+      "id": "timothy-taylor:news-512-unfolding-color-simon-hantai-museum-frieder-burda-baden-baden-germany",
+      "venueId": "timothy-taylor",
+      "sourceId": "timothy-taylor",
+      "title": "Unfolding Color: Simon Hantaï",
+      "url": "https://www.timothytaylor.com/news/512-unfolding-color-simon-hantai-museum-frieder-burda-baden-baden-germany/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-08-15",
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy/ws-timothytaylor/usr/images/news/main_image_override/512/c-herrfichtner_entfaltung_der_farbe_raum_-008-.jpg"
+    },
+    {
+      "id": "timothy-taylor:news-515-hayal-pozanti-the-world-sang-through-me-brattleboro-museum-art-center-v",
+      "venueId": "timothy-taylor",
+      "sourceId": "timothy-taylor",
+      "title": "Hayal Pozanti: The World Sang Through Me",
+      "url": "https://www.timothytaylor.com/news/515-hayal-pozanti-the-world-sang-through-me-brattleboro-museum-art-center-vt/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-14",
+      "endDate": "2027-02-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy/ws-timothytaylor/usr/images/news/main_image/515/imgp7869-copy-2.jpg"
+    },
+    {
+      "id": "timothy-taylor:news-513-marina-adams-in-abstract-expressionism-the-east-end-parrish-art-museum",
+      "venueId": "timothy-taylor",
+      "sourceId": "timothy-taylor",
+      "title": "Marina Adams in Abstract Expressionism: The East End, 1940 to Today",
+      "url": "https://www.timothytaylor.com/news/513-marina-adams-in-abstract-expressionism-the-east-end-parrish-art-museum-water-mill-ny/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-26",
+      "endDate": "2027-02-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy/ws-timothytaylor/usr/images/news/main_image_override/513/screenshot-2026-09-29-at-10.10.39.png"
+    }
+  ]
+}

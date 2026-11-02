@@ -1,0 +1,56 @@
+{
+  "sourceId": "kings-head-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://kingsheadtheatre.com/"
+    ],
+    "cards": {
+      "item": "div.top.card__description-top",
+      "dates": "span.start"
+    }
+  },
+  "events": [
+    {
+      "id": "kings-head-theatre:whats-on-thou-shalt-sit-the-f-down-7y68",
+      "venueId": "kings-head-theatre",
+      "sourceId": "kings-head-theatre",
+      "title": "Thou Shalt Sit The F*** Down",
+      "url": "https://kingsheadtheatre.com/whats-on/thou-shalt-sit-the-f-down-7y68",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "kings-head-theatre:whats-on-dick-whittington-and-his-cat-x9y6",
+      "venueId": "kings-head-theatre",
+      "sourceId": "kings-head-theatre",
+      "title": "Dick Whittington and His Cat",
+      "url": "https://kingsheadtheatre.com/whats-on/dick-whittington-and-his-cat-x9y6",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "kings-head-theatre:whats-on-dick-whittington-adults-only-5tkn",
+      "venueId": "kings-head-theatre",
+      "sourceId": "kings-head-theatre",
+      "title": "Dick Whittington: Adults Only",
+      "url": "https://kingsheadtheatre.com/whats-on/dick-whittington-adults-only-5tkn",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-26",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

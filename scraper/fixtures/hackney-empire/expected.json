@@ -1,0 +1,59 @@
+{
+  "sourceId": "hackney-empire",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.hackneyempire.co.uk/events/jack-and-the-beanstalk"
+    ],
+    "cards": {
+      "item": "div.c-media.c-media--event",
+      "dates": "span.c-media__posttitle"
+    }
+  },
+  "events": [
+    {
+      "id": "hackney-empire:events-ballet-black-unbound",
+      "venueId": "hackney-empire",
+      "sourceId": "hackney-empire",
+      "title": "Ballet Black: Unbound",
+      "url": "https://www.hackneyempire.co.uk/events/ballet-black-unbound",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-17",
+      "endDate": "2027-06-19",
+      "firstSeen": "2026-11-02",
+      "image": "https://hackney-empire.transforms.svdcdn.com/production/Show-images/2027/Ballet-Black-Dance-Live-Hackney-Empire.png?w=535&h=356&q=100&auto=format&fit=crop&dm=1788868752&s=0ab5dd0e7b83d2994437673d2f16a95b"
+    },
+    {
+      "id": "hackney-empire:events-the-brown-suite",
+      "venueId": "hackney-empire",
+      "sourceId": "hackney-empire",
+      "title": "The Brown Suite",
+      "url": "https://www.hackneyempire.co.uk/events/the-brown-suite",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-05-19",
+      "endDate": "2027-05-22",
+      "firstSeen": "2026-11-02",
+      "image": "https://hackney-empire.transforms.svdcdn.com/production/Show-images/2027/Live-Music-Hackney-Empire.jpg.jpg?w=535&h=356&q=100&auto=format&fit=crop&dm=1793197337&s=b93f547aecfa78d0706bf8329d04de99"
+    },
+    {
+      "id": "hackney-empire:events-the-crown-prince-of-reggae-musical",
+      "venueId": "hackney-empire",
+      "sourceId": "hackney-empire",
+      "title": "The Crown Prince of Reggae Musical",
+      "url": "https://www.hackneyempire.co.uk/events/the-crown-prince-of-reggae-musical",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://hackney-empire.transforms.svdcdn.com/production/Show-images/2027/Dennnis-Brown-Live-London-Music1.jpg?w=535&h=356&q=100&auto=format&fit=crop&dm=1785158668&s=b89087e75a73632c53a3e039adf5fa2b"
+    }
+  ]
+}

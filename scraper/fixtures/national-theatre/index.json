@@ -1,0 +1,32 @@
+{
+  "https://www.nationaltheatre.org.uk/whats-on/": {
+    "file": "19f01b51d3cd.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationaltheatre.org.uk/whats-on/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.nationaltheatre.org.uk/productions/some-woman/": {
+    "file": "adb0092eda5b.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationaltheatre.org.uk/productions/some-woman/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.nationaltheatre.org.uk/productions/cloud-9/": {
+    "file": "039481c52205.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationaltheatre.org.uk/productions/cloud-9/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.nationaltheatre.org.uk/productions/the-jungle-book/": {
+    "file": "bcb14a429155.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationaltheatre.org.uk/productions/the-jungle-book/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.nationaltheatre.org.uk/productions/the-rise-and-fall-of-little-voice/": {
+    "file": "349f48596a66.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nationaltheatre.org.uk/productions/the-rise-and-fall-of-little-voice/",
+    "contentType": "text/html; charset=UTF-8"
+  }
+}

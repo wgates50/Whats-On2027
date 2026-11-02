@@ -1,0 +1,236 @@
+{
+  "sourceId": "soho-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://sohotheatre.com/walthamstow/"
+    ],
+    "cards": {
+      "item": "a.card-link",
+      "dates": "span.date"
+    }
+  },
+  "events": [
+    {
+      "id": "soho-theatre:events-stamptown-2",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Stamptown",
+      "url": "https://sohotheatre.com/events/stamptown-2/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-03",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-cody-dahler-the-state-of-this",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Cody Dahler: The State of This!",
+      "url": "https://sohotheatre.com/events/cody-dahler-the-state-of-this/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-16",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-larry-dean-hellbent",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Larry Dean: Hellbent",
+      "url": "https://sohotheatre.com/events/larry-dean-hellbent/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-gasca-zurli",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Gasca Zurli",
+      "url": "https://sohotheatre.com/events/gasca-zurli/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-emma-doran-emmaculate",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Emma Doran: Emmaculate",
+      "url": "https://sohotheatre.com/events/emma-doran-emmaculate/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-gothamchess-the-gothamchess-europe-tour-2026",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "GothamChess: The GothamChess Europe Tour 2026",
+      "url": "https://sohotheatre.com/events/gothamchess-the-gothamchess-europe-tour-2026/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-jen-brister-reactive",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Jen Brister: Reactive",
+      "url": "https://sohotheatre.com/events/jen-brister-reactive/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-daniel-foxx-how-lovely",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Daniel Foxx: How Lovely.",
+      "url": "https://sohotheatre.com/events/daniel-foxx-how-lovely/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-taylor-mac-holiday-sauce",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Taylor Mac: Holiday Sauce",
+      "url": "https://sohotheatre.com/events/taylor-mac-holiday-sauce/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-17",
+      "endDate": "2026-12-23",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-nayab-midha-rajkumari",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Nayab Midha: Rajkumari",
+      "url": "https://sohotheatre.com/events/nayab-midha-rajkumari/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-jonny-woos-unroyal-variety-2",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Jonny Woo’s Un-Royal Variety",
+      "url": "https://sohotheatre.com/events/jonny-woos-unroyal-variety-2/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-28",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-the-nutcracker-and-the-mouse-king",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "The Nutcracker and the Mouse King",
+      "url": "https://sohotheatre.com/events/the-nutcracker-and-the-mouse-king/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2025-12-22",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-nobuyuki-tsujii-philharmonia-chamber-players",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Nobuyuki Tsujii & Philharmonia Chamber Players",
+      "url": "https://sohotheatre.com/events/nobuyuki-tsujii-philharmonia-chamber-players/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-15",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-phil-wang-uh-oh",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Phil Wang: UH OH",
+      "url": "https://sohotheatre.com/events/phil-wang-uh-oh/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-09-24",
+      "endDate": "2026-11-18",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-paddy-young-will-sir-be-laughing-alone",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Paddy Young: Will Sir Be Laughing Alone?",
+      "url": "https://sohotheatre.com/events/paddy-young-will-sir-be-laughing-alone/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-20",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-neon-nights-november-with-michelle-de-swarte",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Neon Nights November With Michelle De Swarte",
+      "url": "https://sohotheatre.com/events/neon-nights-november-with-michelle-de-swarte/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-walthamstows-international-mens-day",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Walthamstow’s International Men’s Day",
+      "url": "https://sohotheatre.com/events/walthamstows-international-mens-day/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-luxury-live",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Luxury Live",
+      "url": "https://sohotheatre.com/events/luxury-live/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

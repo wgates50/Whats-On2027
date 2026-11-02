@@ -1,0 +1,202 @@
+{
+  "sourceId": "horniman-museum-and-gardens",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.horniman.ac.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "div.date"
+    }
+  },
+  "events": [
+    {
+      "id": "horniman-museum-and-gardens:event-british-wildlife-photography-awards",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "British Wildlife Photography Awards",
+      "url": "https://www.horniman.ac.uk/event/british-wildlife-photography-awards/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-07-17",
+      "endDate": "2027-02-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2026/06/WINNER-BWPA-2026-A-Toad-Swims-Across-Its-Woodland-Pond-smaller-582x392.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-creative-creatures-play",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Creative Creatures Play",
+      "url": "https://www.horniman.ac.uk/event/creative-creatures-play/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-12-02",
+      "endDate": "2026-12-26",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2025/10/CCP-banner-draft-4-582x392.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-guided-fungi-walk-with-rights-for-weeds",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Guided Fungi Walk with Rights for Weeds",
+      "url": "https://www.horniman.ac.uk/event/guided-fungi-walk-with-rights-for-weeds/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2026/07/Rightsforweedspress_March_24_426-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-members-meet-the-fish",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Members’ Meet the Fish",
+      "url": "https://www.horniman.ac.uk/event/members-meet-the-fish/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-28",
+      "endDate": "2026-12-11",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2020/03/2022-10-28-MMTF-JF-5_web-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-meeting-mohini",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Meeting Mohini",
+      "url": "https://www.horniman.ac.uk/event/meeting-mohini/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2026-11-15",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2025/11/Gharana-from-Meeting-Mohini.-Image-credit-Zoya-Thomas-Lobo-Horniman-Museum-and-Gardens-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-walrus-returns",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Walrus Returns",
+      "url": "https://www.horniman.ac.uk/event/walrus-returns/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2026/10/8.-2026-09-22-walrus-return-crowdfunder-post-cchurcher-SMALL-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-aquarium",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Aquarium",
+      "url": "https://www.horniman.ac.uk/event/aquarium/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-24",
+      "endDate": "2026-12-26",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2020/02/WhiteSpottedJellyfish_04-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-ceramics-workshop-neve-beill",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Ceramics Workshop with Neve Beill – Turning London Clay into Pots",
+      "url": "https://www.horniman.ac.uk/event/ceramics-workshop-neve-beill/",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2026/07/2-1-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:series-adult-garden-workshops",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Adult Garden Workshops",
+      "url": "https://www.horniman.ac.uk/series/adult-garden-workshops/",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-08-23",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2026/07/Rightsforweedspress_March_24_426-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-members-and-benefactors-garden-tour",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Members’ and Patrons Gardens Tours",
+      "url": "https://www.horniman.ac.uk/event/members-and-benefactors-garden-tour/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-12-01",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2024/02/autumn-2016-6-min-1-1-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-members-and-benefactors-meet-the-butterflies",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Members’ Meet the Butterflies",
+      "url": "https://www.horniman.ac.uk/event/members-and-benefactors-meet-the-butterflies/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2023/10/Butterfly-House-exterior-summer-cchurcher-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-horniman-museum-lates",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Museum Late: A Night of Belonging",
+      "url": "https://www.horniman.ac.uk/event/horniman-museum-lates/",
+      "type": "late",
+      "category": "art-events",
+      "startDate": "2026-12-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2026/10/Copy-of-DSC01208-2-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-butterfly-house",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Butterfly House",
+      "url": "https://www.horniman.ac.uk/event/butterfly-house/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-24",
+      "endDate": "2026-12-26",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2020/02/HornimanButterflyHouse_butterflies_19cPhil-Sofer-new-website-scaled-382x382.jpg?strip=all"
+    },
+    {
+      "id": "horniman-museum-and-gardens:event-creative-creatures-play-members-and-benefactors-session",
+      "venueId": "horniman-museum-and-gardens",
+      "sourceId": "horniman-museum-and-gardens",
+      "title": "Creative Creatures Play Members’ Session",
+      "url": "https://www.horniman.ac.uk/event/creative-creatures-play-members-and-benefactors-session/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2025/10/Members-ccp-382x382.jpg?strip=all"
+    }
+  ]
+}

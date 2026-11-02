@@ -1,0 +1,176 @@
+{
+  "sourceId": "clapham-grand",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://claphamgrand.com/"
+    ],
+    "cards": {
+      "item": "div.listing__details",
+      "dates": "div.venueAndDoorsWrap"
+    }
+  },
+  "events": [
+    {
+      "id": "clapham-grand:event-rayhon",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "Rayhon",
+      "url": "https://claphamgrand.com/event/rayhon/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "22:30"
+    },
+    {
+      "id": "clapham-grand:event-eastbenders-2",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "EastBenders",
+      "url": "https://claphamgrand.com/event/eastbenders-2/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:30"
+    },
+    {
+      "id": "clapham-grand:event-the-rocky-horror-picture-show-movie-night-2",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "The Rocky Horror Picture Show Movie Night",
+      "url": "https://claphamgrand.com/event/the-rocky-horror-picture-show-movie-night-2/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "clapham-grand:event-bongos-bingo-nov26-1",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "Bongo’s Bingo Matinee Show",
+      "url": "https://claphamgrand.com/event/bongos-bingo-nov26-1/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "12:00"
+    },
+    {
+      "id": "clapham-grand:event-bongos-bingo-nov26-2",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "Bongo’s Bingo Evening Show – SOLD OUT",
+      "url": "https://claphamgrand.com/event/bongos-bingo-nov26-2/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "17:30"
+    },
+    {
+      "id": "clapham-grand:event-secret-fm",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "Secret FM",
+      "url": "https://claphamgrand.com/event/secret-fm/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "21:45"
+    },
+    {
+      "id": "clapham-grand:event-dd40-mikel-erentxun-duncan-dhu-tour-2026",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "DD40 – Mikel Erentxun – Duncan Dhu Tour 2026",
+      "url": "https://claphamgrand.com/event/dd40-mikel-erentxun-duncan-dhu-tour-2026/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "clapham-grand:event-pam-ann-theres-no-place-like-first-class",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "Pam Ann: There’s No Place Like First Class",
+      "url": "https://claphamgrand.com/event/pam-ann-theres-no-place-like-first-class/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:45"
+    },
+    {
+      "id": "clapham-grand:event-bongos-bingo-nov26-3",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "Bongo’s Bingo Evening Show",
+      "url": "https://claphamgrand.com/event/bongos-bingo-nov26-3/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:00"
+    },
+    {
+      "id": "clapham-grand:event-barrioke-the-final-farewell-show",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "Barrioke: The Final Farewell Show",
+      "url": "https://claphamgrand.com/event/barrioke-the-final-farewell-show/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "clapham-grand:event-lera-mandziuk",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "Lera Mandziuk",
+      "url": "https://claphamgrand.com/event/lera-mandziuk/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-16",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "clapham-grand:event-2026-h1gher-season-in-europe-uk",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "2026 H1GHER SEASON in EUROPE & UK",
+      "url": "https://claphamgrand.com/event/2026-h1gher-season-in-europe-uk/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "15:45"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "sourceId": "charles-dickens-museum",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://dickensmuseum.com/blogs/all-events"
+    ],
+    "cards": {
+      "item": "div.reading-column",
+      "dates": "div"
+    }
+  },
+  "events": [
+    {
+      "id": "charles-dickens-museum:all-events-in-conversation-with-elly-griffiths",
+      "venueId": "charles-dickens-museum",
+      "sourceId": "charles-dickens-museum",
+      "title": "Time Travelling with Dickens. With Elly Griffiths.",
+      "url": "https://dickensmuseum.com/blogs/all-events/in-conversation-with-elly-griffiths",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "12:00"
+    },
+    {
+      "id": "charles-dickens-museum:all-events-a-grand-magic-lantern-show",
+      "venueId": "charles-dickens-museum",
+      "sourceId": "charles-dickens-museum",
+      "title": "Magic Lantern Show presented by Jeremy and Carolyn Brooker",
+      "url": "https://dickensmuseum.com/blogs/all-events/a-grand-magic-lantern-show",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-29",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "11:30"
+    },
+    {
+      "id": "charles-dickens-museum:all-events-christmas-eve-at-the-charles-dickens-museum",
+      "venueId": "charles-dickens-museum",
+      "sourceId": "charles-dickens-museum",
+      "title": "Christmas Eve at the Charles Dickens Museum",
+      "url": "https://dickensmuseum.com/blogs/all-events/christmas-eve-at-the-charles-dickens-museum",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-12-24",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "ongoing": true
+    },
+    {
+      "id": "charles-dickens-museum:all-events-victorian-christmas-dickens",
+      "venueId": "charles-dickens-museum",
+      "sourceId": "charles-dickens-museum",
+      "title": "Christmas with the Dickens hosted by Lucinda Dickens Hawksley",
+      "url": "https://dickensmuseum.com/blogs/all-events/victorian-christmas-dickens",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-18",
+      "endDate": "2026-12-23",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "charles-dickens-museum:all-events-a-christmas-carol-dickens-decendents-2026",
+      "venueId": "charles-dickens-museum",
+      "sourceId": "charles-dickens-museum",
+      "title": "A Christmas Carol performed by Mark & Oliver Dickens. Christmas 2026",
+      "url": "https://dickensmuseum.com/blogs/all-events/a-christmas-carol-dickens-decendents-2026",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-21",
+      "endDate": "2026-12-11",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "charles-dickens-museum:all-events-christmas-concert-noctifer-trio",
+      "venueId": "charles-dickens-museum",
+      "sourceId": "charles-dickens-museum",
+      "title": "A Dickens Christmas Concert presented by Noctifer Trio",
+      "url": "https://dickensmuseum.com/blogs/all-events/christmas-concert-noctifer-trio",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-27",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "charles-dickens-museum:all-events-lunchtime-talk-presented-by-curator-kirsty-parsons-christmas-2026",
+      "venueId": "charles-dickens-museum",
+      "sourceId": "charles-dickens-museum",
+      "title": "Lunchtime talk presented by Curator Kirsty Parsons. Christmas 2026",
+      "url": "https://dickensmuseum.com/blogs/all-events/lunchtime-talk-presented-by-curator-kirsty-parsons-christmas-2026",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-26",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "charles-dickens-museum:all-events-make-a-festive-magic-city-lantern",
+      "venueId": "charles-dickens-museum",
+      "sourceId": "charles-dickens-museum",
+      "title": "Make a Festive ‘Magic City’ Lantern",
+      "url": "https://dickensmuseum.com/blogs/all-events/make-a-festive-magic-city-lantern",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "sourceId": "flowers-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.flowersgallery.com/exhibitions/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "div.bottom"
+    }
+  },
+  "events": [
+    {
+      "id": "flowers-gallery:exhibitions-646-william-crozier-dance-of-the-living-19611974",
+      "venueId": "flowers-gallery",
+      "sourceId": "flowers-gallery",
+      "title": "William Crozier Dance of the Living 1961–1974",
+      "url": "https://www.flowersgallery.com/exhibitions/646-william-crozier-dance-of-the-living-19611974/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-14",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "flowers-gallery:exhibitions-654-lower-gallery-spotlight-movana-chen",
+      "venueId": "flowers-gallery",
+      "sourceId": "flowers-gallery",
+      "title": "Lower Gallery Spotlight Movana Chen",
+      "url": "https://www.flowersgallery.com/exhibitions/654-lower-gallery-spotlight-movana-chen/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-14",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "flowers-gallery:exhibitions-651-tai-shan-schierenberg-mixed-blessings",
+      "venueId": "flowers-gallery",
+      "sourceId": "flowers-gallery",
+      "title": "Tai Shan Schierenberg Mixed Blessings",
+      "url": "https://www.flowersgallery.com/exhibitions/651-tai-shan-schierenberg-mixed-blessings/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-23",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "flowers-gallery:exhibitions-648-bianca-raffaella-between-heartbeats",
+      "venueId": "flowers-gallery",
+      "sourceId": "flowers-gallery",
+      "title": "Bianca Raffaella",
+      "url": "https://www.flowersgallery.com/exhibitions/648-bianca-raffaella-between-heartbeats/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-20",
+      "endDate": "2027-01-02",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "flowers-gallery:exhibitions-653-small-is-beautiful-44th-edition",
+      "venueId": "flowers-gallery",
+      "sourceId": "flowers-gallery",
+      "title": "Small is Beautiful",
+      "url": "https://www.flowersgallery.com/exhibitions/653-small-is-beautiful-44th-edition/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-20",
+      "endDate": "2027-01-02",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "flowers-gallery:exhibitions-647-nadav-kander-the-edge-of-things",
+      "venueId": "flowers-gallery",
+      "sourceId": "flowers-gallery",
+      "title": "Nadav Kander",
+      "url": "https://www.flowersgallery.com/exhibitions/647-nadav-kander-the-edge-of-things/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-18",
+      "endDate": "2027-01-20",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

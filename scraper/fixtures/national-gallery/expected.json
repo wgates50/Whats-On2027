@@ -1,0 +1,59 @@
+{
+  "sourceId": "national-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.nationalgallery.org.uk/exhibitions"
+    ],
+    "linkPattern": "^https://www\\.nationalgallery\\.org\\.uk/exhibitions/(?!across-the-uk|past-exhibitions|future-exhibitions)[^/?#]+$",
+    "detail": {
+      "dates": "p.display-date"
+    }
+  },
+  "events": [
+    {
+      "id": "national-gallery:exhibitions-renoir-and-love",
+      "venueId": "national-gallery",
+      "sourceId": "national-gallery",
+      "title": "Renoir and Love",
+      "url": "https://www.nationalgallery.org.uk/exhibitions/renoir-and-love",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02",
+      "description": "Discover Renoir’s gift for showing love, friendship, and everyday emotion in this Impressionist exhibition."
+    },
+    {
+      "id": "national-gallery:exhibitions-yinka-shonibare-and-thomas-gainsborough-a-conversation",
+      "venueId": "national-gallery",
+      "sourceId": "national-gallery",
+      "title": "Yinka Shonibare and Thomas Gainsborough: A Conversation",
+      "url": "https://www.nationalgallery.org.uk/exhibitions/yinka-shonibare-and-thomas-gainsborough-a-conversation",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-02-07",
+      "firstSeen": "2026-11-02",
+      "description": "From Philadelphia to Gloucestershire, hear the story of a great American artist and his finest painting."
+    },
+    {
+      "id": "national-gallery:exhibitions-van-eyck-the-portraits",
+      "venueId": "national-gallery",
+      "sourceId": "national-gallery",
+      "title": "Van Eyck: The Portraits",
+      "url": "https://www.nationalgallery.org.uk/exhibitions/van-eyck-the-portraits",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-21",
+      "endDate": "2027-04-11",
+      "firstSeen": "2026-11-02",
+      "description": "For the first time in history, see all of Jan van Eyck’s portraits together. Only once, only at the National Gallery."
+    }
+  ]
+}

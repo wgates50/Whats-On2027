@@ -1,0 +1,284 @@
+{
+  "sourceId": "orange-tree-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://orangetreetheatre.co.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "div.elementor-element.e-con-full",
+      "dates": "div.elementor-element.animated-slow"
+    }
+  },
+  "events": [
+    {
+      "id": "orange-tree-theatre:whats-on-cranford",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Cranford",
+      "url": "https://orangetreetheatre.co.uk/whats-on/cranford/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-sunday-morning-coffee-concert",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Sunday Morning Coffee Concert",
+      "url": "https://orangetreetheatre.co.uk/whats-on/sunday-morning-coffee-concert/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-15",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-constanze",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Constanze",
+      "url": "https://orangetreetheatre.co.uk/whats-on/constanze/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-27",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-saturday-seminar-cranford",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Saturday Seminar: Cranford",
+      "url": "https://orangetreetheatre.co.uk/whats-on/saturday-seminar-cranford/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-09",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-schubert-die-schone-mullerin",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Schubert: Die schöne Müllerin",
+      "url": "https://orangetreetheatre.co.uk/whats-on/schubert-die-schone-mullerin/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-17",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-cranford-on-screen",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Cranford: On Screen",
+      "url": "https://orangetreetheatre.co.uk/whats-on/cranford-on-screen/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-schubert-winterreise",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Schubert: Winterreise",
+      "url": "https://orangetreetheatre.co.uk/whats-on/schubert-winterreise/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-king-lear-2",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "King Lear",
+      "url": "https://orangetreetheatre.co.uk/whats-on/king-lear-2/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-15",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-richard-ii",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Richard II",
+      "url": "https://orangetreetheatre.co.uk/whats-on/richard-ii/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-18",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-solace-of-pilgrims-a-lenten-journey",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Solace of Pilgrims: A Lenten Journey",
+      "url": "https://orangetreetheatre.co.uk/whats-on/solace-of-pilgrims-a-lenten-journey/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-saturday-seminar-king-lear-richard-ii",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Saturday Seminar: King Lear & Richard II",
+      "url": "https://orangetreetheatre.co.uk/whats-on/saturday-seminar-king-lear-richard-ii/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-04-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-the-vortex",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "The Vortex",
+      "url": "https://orangetreetheatre.co.uk/whats-on/the-vortex/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-04-17",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-mortal-wounds",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Mortal Wounds",
+      "url": "https://orangetreetheatre.co.uk/whats-on/mortal-wounds/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-04-30",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-saturday-seminar-the-vortex",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Saturday Seminar: The Vortex",
+      "url": "https://orangetreetheatre.co.uk/whats-on/saturday-seminar-the-vortex/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-05-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-the-sound-of-shakespeare",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "The Sound of Shakespeare",
+      "url": "https://orangetreetheatre.co.uk/whats-on/the-sound-of-shakespeare/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-05-30",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-the-vortex-on-screen",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "The Vortex: On Screen",
+      "url": "https://orangetreetheatre.co.uk/whats-on/the-vortex-on-screen/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-01",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-sapling",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Sapling",
+      "url": "https://orangetreetheatre.co.uk/whats-on/sapling/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-david-owen-norris-made-in-england",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "David Owen Norris: Made in England",
+      "url": "https://orangetreetheatre.co.uk/whats-on/david-owen-norris-made-in-england/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-25",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-saturday-seminar-sapling",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Saturday Seminar: Sapling",
+      "url": "https://orangetreetheatre.co.uk/whats-on/saturday-seminar-sapling/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-26",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-infamous-anne",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Infamous Anne",
+      "url": "https://orangetreetheatre.co.uk/whats-on/infamous-anne/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-07-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-saturday-seminar-infamous-anne",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Saturday Seminar: Infamous Anne",
+      "url": "https://orangetreetheatre.co.uk/whats-on/saturday-seminar-infamous-anne/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-07-31",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "orange-tree-theatre:whats-on-infamous-anne-on-screen",
+      "venueId": "orange-tree-theatre",
+      "sourceId": "orange-tree-theatre",
+      "title": "Infamous Anne: On Screen",
+      "url": "https://orangetreetheatre.co.uk/whats-on/infamous-anne-on-screen/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-08-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

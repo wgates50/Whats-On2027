@@ -1,0 +1,32 @@
+{
+  "https://www.tate.org.uk/whats-on?date_range=from_now&gallery_group=tate-britain&page=1": {
+    "file": "78cf02b16e7b.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on?date_range=from_now&gallery_group=tate-britain&page=1",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.tate.org.uk/whats-on/tate-britain/the-90s": {
+    "file": "dd4d00865ee9.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on/tate-britain/the-90s",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.tate.org.uk/whats-on/tate-britain/vanessa-bell-and-duncan-grant": {
+    "file": "576e86329b99.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on/tate-britain/vanessa-bell-and-duncan-grant",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.tate.org.uk/whats-on/tate-britain/chris-ofili-requiem": {
+    "file": "ebbaffcf8ecb.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on/tate-britain/chris-ofili-requiem",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.tate.org.uk/whats-on/tate-britain/zineb-sedira": {
+    "file": "e0572c87f1af.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on/tate-britain/zineb-sedira",
+    "contentType": "text/html; charset=utf-8"
+  }
+}

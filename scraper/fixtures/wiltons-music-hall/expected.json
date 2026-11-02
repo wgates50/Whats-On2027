@@ -1,0 +1,170 @@
+{
+  "sourceId": "wiltons-music-hall",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://wiltons.org.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "div.WhatsonItemTitle",
+      "dates": "p.EV_ListDate"
+    }
+  },
+  "events": [
+    {
+      "id": "wiltons-music-hall:whats-on-pulman-stilgoe-hooray-for-hollywood-2",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "Pulman & Stilgoe Hooray for Hollywood",
+      "url": "https://wiltons.org.uk/whats-on/pulman-stilgoe-hooray-for-hollywood-2//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-history-tours-6",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "History Tours",
+      "url": "https://wiltons.org.uk/whats-on/history-tours-6//",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-songs-from-the-sea-2",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "Songs from the Sea",
+      "url": "https://wiltons.org.uk/whats-on/songs-from-the-sea-2//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-09",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-city-of-london-sinfonia-these-memories-may-be-true",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "City of London Sinfonia – These Memories May Be True",
+      "url": "https://wiltons.org.uk/whats-on/city-of-london-sinfonia-these-memories-may-be-true//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-tricity-vogues-all-girl-swing-band-3",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "Tricity Vogue’s All Girl Swing Band",
+      "url": "https://wiltons.org.uk/whats-on/tricity-vogues-all-girl-swing-band-3//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-a-christmas-carol-in-words-and-music",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "A Christmas Carol in Words and Music",
+      "url": "https://wiltons.org.uk/whats-on/a-christmas-carol-in-words-and-music//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-the-swingle-singers-close-mic-classics",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "The Swingle Singers – Close-Mic Classics",
+      "url": "https://wiltons.org.uk/whats-on/the-swingle-singers-close-mic-classics//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-an-audience-with-virginia-woolf-writing-ones-mind",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "An Audience with Virginia Woolf: Writing One’s Mind",
+      "url": "https://wiltons.org.uk/whats-on/an-audience-with-virginia-woolf-writing-ones-mind//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-top-gunchained",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "Top Gunchained",
+      "url": "https://wiltons.org.uk/whats-on/top-gunchained//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-the-marriage-of-figaro",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "The Marriage of Figaro",
+      "url": "https://wiltons.org.uk/whats-on/the-marriage-of-figaro//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-25",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-flat-and-the-curves-rose-tinted",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "Flat and the Curves: Rosé Tinted",
+      "url": "https://wiltons.org.uk/whats-on/flat-and-the-curves-rose-tinted//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-26",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "wiltons-music-hall:whats-on-jazz-noel",
+      "venueId": "wiltons-music-hall",
+      "sourceId": "wiltons-music-hall",
+      "title": "Jazz Noël",
+      "url": "https://wiltons.org.uk/whats-on/jazz-noel//",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-27",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    }
+  ]
+}

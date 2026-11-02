@@ -1,0 +1,137 @@
+{
+  "sourceId": "unicorn-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.unicorntheatre.com/whats-on"
+    ],
+    "cards": {
+      "item": "a.c-media.c-media--link",
+      "dates": "time"
+    }
+  },
+  "events": [
+    {
+      "id": "unicorn-theatre:events-home-song-2026",
+      "venueId": "unicorn-theatre",
+      "sourceId": "unicorn-theatre",
+      "title": "Home Song",
+      "url": "https://www.unicorntheatre.com/events/home-song-2026",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-10-02",
+      "endDate": "2026-11-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/206510/Home-Song-770x460_bd6972d61eb1009bded0659566c5f859.png"
+    },
+    {
+      "id": "unicorn-theatre:events-santas-first-christmas",
+      "venueId": "unicorn-theatre",
+      "sourceId": "unicorn-theatre",
+      "title": "Santa's First Christmas",
+      "url": "https://www.unicorntheatre.com/events/santas-first-christmas",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-14",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02",
+      "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/267626/santa-752-x-442_bd6972d61eb1009bded0659566c5f859.png"
+    },
+    {
+      "id": "unicorn-theatre:events-huddle",
+      "venueId": "unicorn-theatre",
+      "sourceId": "unicorn-theatre",
+      "title": "Huddle",
+      "url": "https://www.unicorntheatre.com/events/huddle",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-27",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02",
+      "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/268393/huddle-mobile-card-new_bd6972d61eb1009bded0659566c5f859.jpg"
+    },
+    {
+      "id": "unicorn-theatre:events-the-last-wild",
+      "venueId": "unicorn-theatre",
+      "sourceId": "unicorn-theatre",
+      "title": "The Last Wild",
+      "url": "https://www.unicorntheatre.com/events/the-last-wild",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-30",
+      "endDate": "2027-03-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/265117/TLW-title-1_bd6972d61eb1009bded0659566c5f859.png"
+    },
+    {
+      "id": "unicorn-theatre:events-creatures",
+      "venueId": "unicorn-theatre",
+      "sourceId": "unicorn-theatre",
+      "title": "Creatures",
+      "url": "https://www.unicorntheatre.com/events/creatures",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-05",
+      "endDate": "2027-03-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/243212/Creatures-no-date-mobile_bd6972d61eb1009bded0659566c5f859.jpg"
+    },
+    {
+      "id": "unicorn-theatre:events-the-magic-callaloo",
+      "venueId": "unicorn-theatre",
+      "sourceId": "unicorn-theatre",
+      "title": "The Magic Callaloo",
+      "url": "https://www.unicorntheatre.com/events/the-magic-callaloo",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-19",
+      "endDate": "2027-04-18",
+      "firstSeen": "2026-11-02",
+      "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/265629/TMC-title1_bd6972d61eb1009bded0659566c5f859.png"
+    },
+    {
+      "id": "unicorn-theatre:events-tiny-giant",
+      "venueId": "unicorn-theatre",
+      "sourceId": "unicorn-theatre",
+      "title": "tiny GIANT",
+      "url": "https://www.unicorntheatre.com/events/tiny-giant",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-04-22",
+      "endDate": "2027-05-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/289064/7c099753-e9aa-41fe-8c43-a936a0773130_bd6972d61eb1009bded0659566c5f859.png"
+    },
+    {
+      "id": "unicorn-theatre:events-oi-frog-and-friends",
+      "venueId": "unicorn-theatre",
+      "sourceId": "unicorn-theatre",
+      "title": "Oi Frog and Friends!",
+      "url": "https://www.unicorntheatre.com/events/oi-frog-and-friends",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-05-13",
+      "endDate": "2027-06-06",
+      "firstSeen": "2026-11-02",
+      "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/289081/d3909711-7cc4-4f24-ad8c-6420f5cafb7d_bd6972d61eb1009bded0659566c5f859.png"
+    },
+    {
+      "id": "unicorn-theatre:events-mog-the-forgetful-cat",
+      "venueId": "unicorn-theatre",
+      "sourceId": "unicorn-theatre",
+      "title": "Mog the Forgetful Cat",
+      "url": "https://www.unicorntheatre.com/events/mog-the-forgetful-cat",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-07-13",
+      "endDate": "2027-08-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/288485/Mog_770x460px_bd6972d61eb1009bded0659566c5f859.jpg"
+    }
+  ]
+}

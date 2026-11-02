@@ -1,0 +1,85 @@
+{
+  "sourceId": "victoria-miro",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.victoria-miro.com/exhibitions/khalif-tahir-thompson-london-2026/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "span.date"
+    }
+  },
+  "events": [
+    {
+      "id": "victoria-miro:exhibitions-685",
+      "venueId": "victoria-miro",
+      "sourceId": "victoria-miro",
+      "title": "Hernan Bas: TIME TO SHINE! (the salesmen)",
+      "url": "https://www.victoria-miro.com/exhibitions/685/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-17",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-victoriamiro3/usr/images/exhibitions/main_image_override/685/hb532_no-refunds-on-relaxation_2026_edge.jpg"
+    },
+    {
+      "id": "victoria-miro:exhibitions-683",
+      "venueId": "victoria-miro",
+      "sourceId": "victoria-miro",
+      "title": "Khalif Tahir Thompson: Send in the Clowns",
+      "url": "https://www.victoria-miro.com/exhibitions/683/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-08",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-victoriamiro3/usr/images/exhibitions/main_image_override/683/kt10_playground_2026_edge.jpeg"
+    },
+    {
+      "id": "victoria-miro:exhibitions-684",
+      "venueId": "victoria-miro",
+      "sourceId": "victoria-miro",
+      "title": "Alchemies: May Cockcroft, Nour Malas, Sarah Martin-Nuss",
+      "url": "https://www.victoria-miro.com/exhibitions/684/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-13",
+      "endDate": "2027-01-23",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-victoriamiro3/usr/images/exhibitions/main_image_override/684/alchemies_stitch_2026.jpg"
+    },
+    {
+      "id": "victoria-miro:exhibitions-680",
+      "venueId": "victoria-miro",
+      "sourceId": "victoria-miro",
+      "title": "Celia Paul: Objects of Desire",
+      "url": "https://www.victoria-miro.com/exhibitions/680/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-07",
+      "endDate": "2026-12-12",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-victoriamiro3/usr/images/exhibitions/main_image_override/680/cp703_objects-of-desire-after-giorgione-_2026_edge.jpeg"
+    },
+    {
+      "id": "victoria-miro:exhibitions-682",
+      "venueId": "victoria-miro",
+      "sourceId": "victoria-miro",
+      "title": "Conrad Shawcross: Shadows of the Mechanism",
+      "url": "https://www.victoria-miro.com/exhibitions/682/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-26",
+      "endDate": "2027-01-23",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-victoriamiro3/usr/images/exhibitions/main_image_override/682/cs-slow-arc-inside-a-cube-xiv-lakeside-arts.jpg"
+    }
+  ]
+}

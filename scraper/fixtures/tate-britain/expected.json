@@ -1,0 +1,75 @@
+{
+  "sourceId": "tate-britain",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.tate.org.uk/whats-on?date_range=from_now&gallery_group=tate-britain&page={page}"
+    ],
+    "maxPages": 4,
+    "linkPattern": "^https://www\\.tate\\.org\\.uk/whats-on/tate-britain/[^/?#]+/?$",
+    "maxLinks": 60,
+    "detail": {
+      "dates": "p.content-block--dates__item, span.splash-header__dates"
+    }
+  },
+  "events": [
+    {
+      "id": "tate-britain:tate-britain-the-90s",
+      "venueId": "tate-britain",
+      "sourceId": "tate-britain",
+      "title": "The 90s: Art and Fashion",
+      "url": "https://www.tate.org.uk/whats-on/tate-britain/the-90s",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-08",
+      "endDate": "2027-02-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/Juergen_Teller_Young_Pink_Kate_London_1998_Jue.width-600.jpg"
+    },
+    {
+      "id": "tate-britain:tate-britain-vanessa-bell-and-duncan-grant",
+      "venueId": "tate-britain",
+      "sourceId": "tate-britain",
+      "title": "Vanessa Bell & Duncan Grant Inside Bloomsbury",
+      "url": "https://www.tate.org.uk/whats-on/tate-britain/vanessa-bell-and-duncan-grant",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-12",
+      "endDate": "2027-04-11",
+      "firstSeen": "2026-11-02",
+      "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/Tate_Website_-_VBDG_2.width-600.jpg"
+    },
+    {
+      "id": "tate-britain:tate-britain-chris-ofili-requiem",
+      "venueId": "tate-britain",
+      "sourceId": "tate-britain",
+      "title": "Commission Chris Ofili: Requiem",
+      "url": "https://www.tate.org.uk/whats-on/tate-britain/chris-ofili-requiem",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "ongoing": true,
+      "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/Chris_Ofili_-_Requiem_-_1_fTbdr1p.width-600.jpg"
+    },
+    {
+      "id": "tate-britain:tate-britain-zineb-sedira",
+      "venueId": "tate-britain",
+      "sourceId": "tate-britain",
+      "title": "Tate Britain Commission 2026 Zineb Sedira When Words Fall Silent, Cinema Speaks",
+      "url": "https://www.tate.org.uk/whats-on/tate-britain/zineb-sedira",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-05-13",
+      "endDate": "2027-01-17",
+      "firstSeen": "2026-11-02",
+      "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/Zineb_Sedira_Bar_Image_1.width-600.jpg"
+    }
+  ]
+}

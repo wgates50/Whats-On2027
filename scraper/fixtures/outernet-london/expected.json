@@ -1,0 +1,62 @@
+{
+  "sourceId": "outernet-london",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.outernet.com/"
+    ],
+    "cards": {
+      "item": "div.event-card",
+      "dates": "aside.event-card-meta"
+    }
+  },
+  "events": [
+    {
+      "id": "outernet-london:a0182037b2eb",
+      "venueId": "outernet-london",
+      "sourceId": "outernet-london",
+      "title": "Stu Larsen",
+      "url": "https://link.dice.fm/A0182037b2eb",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00",
+      "image": "https://dice-media.imgix.net/attachments/2026-02-24/862ca421-592e-4969-be23-3dc4622299ac.jpg"
+    },
+    {
+      "id": "outernet-london:z7e342f37d07",
+      "venueId": "outernet-london",
+      "sourceId": "outernet-london",
+      "title": "sliding doors",
+      "url": "https://link.dice.fm/z7e342f37d07",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-18/2077663b-43d5-4fc0-b2dd-ab01685d3c5f.jpg"
+    },
+    {
+      "id": "outernet-london:t6f966fff9c2",
+      "venueId": "outernet-london",
+      "sourceId": "outernet-london",
+      "title": "Momo Boyd",
+      "url": "https://link.dice.fm/t6f966fff9c2",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00",
+      "image": "https://dice-media.imgix.net/attachments/2026-04-15/e5d5422f-3e7f-4e96-a9d5-5f58b4b9ca57.jpg"
+    }
+  ]
+}

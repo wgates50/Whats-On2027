@@ -1,0 +1,76 @@
+{
+  "sourceId": "st-johns-smith-square",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.sinfoniasmithsq.org.uk/"
+    ],
+    "cards": {
+      "item": "a.card-link",
+      "dates": "time.date"
+    }
+  },
+  "events": [
+    {
+      "id": "st-johns-smith-square:event-zemlinsky-trio",
+      "venueId": "st-johns-smith-square",
+      "sourceId": "st-johns-smith-square",
+      "title": "Zemlinsky Trio",
+      "url": "https://www.sinfoniasmithsq.org.uk/event/zemlinsky-trio/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "13:05",
+      "image": "https://www.sinfoniasmithsq.org.uk/wp-content/uploads/2026/06/Zemlinsky-Trio-Photo-1280x646.jpg"
+    },
+    {
+      "id": "st-johns-smith-square:event-mozart-requiem-2",
+      "venueId": "st-johns-smith-square",
+      "sourceId": "st-johns-smith-square",
+      "title": "Mozart Requiem",
+      "url": "https://www.sinfoniasmithsq.org.uk/event/mozart-requiem-2/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30",
+      "image": "https://www.sinfoniasmithsq.org.uk/wp-content/uploads/2026/06/SMP-photo-by-Edward-Webb-1280x720.jpg"
+    },
+    {
+      "id": "st-johns-smith-square:event-create-yarmouth-26-melodies-of-home",
+      "venueId": "st-johns-smith-square",
+      "sourceId": "st-johns-smith-square",
+      "title": "Create Yarmouth ’26: Melodies of Home",
+      "url": "https://www.sinfoniasmithsq.org.uk/event/create-yarmouth-26-melodies-of-home/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:30",
+      "image": "https://www.sinfoniasmithsq.org.uk/wp-content/uploads/2026/10/st-george-s-theatre-1280x720.jpg"
+    },
+    {
+      "id": "st-johns-smith-square:event-mozarts-requiem",
+      "venueId": "st-johns-smith-square",
+      "sourceId": "st-johns-smith-square",
+      "title": "Mozart Requiem",
+      "url": "https://www.sinfoniasmithsq.org.uk/event/mozarts-requiem/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "17:00",
+      "image": "https://www.sinfoniasmithsq.org.uk/wp-content/uploads/2026/05/Mozarts-Requiem-poppy-image-small-1-1280x720.jpg"
+    }
+  ]
+}

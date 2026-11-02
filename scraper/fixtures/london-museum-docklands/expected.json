@@ -1,0 +1,56 @@
+{
+  "sourceId": "london-museum-docklands",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.londonmuseum.org.uk/whats-on/smithfield-general-admission/"
+    ],
+    "cards": {
+      "item": "div.card__text-container",
+      "dates": "div.card__dates"
+    }
+  },
+  "events": [
+    {
+      "id": "london-museum-docklands:whats-on-sound-of-london-dj-collective",
+      "venueId": "london-museum-docklands",
+      "sourceId": "london-museum-docklands",
+      "title": "Sound of London DJ collective",
+      "url": "https://www.londonmuseum.org.uk/whats-on/sound-of-london-dj-collective/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-12-04",
+      "endDate": "2027-03-27",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-museum-docklands:whats-on-tea-club",
+      "venueId": "london-museum-docklands",
+      "sourceId": "london-museum-docklands",
+      "title": "Tea Club",
+      "url": "https://www.londonmuseum.org.uk/whats-on/tea-club/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-12-08",
+      "endDate": "2027-03-30",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-museum-docklands:whats-on-london-tastes",
+      "venueId": "london-museum-docklands",
+      "sourceId": "london-museum-docklands",
+      "title": "London Tastes",
+      "url": "https://www.londonmuseum.org.uk/whats-on/london-tastes/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-28",
+      "endDate": "2027-08-31",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "sourceId": "photographers-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://thephotographersgallery.org.uk/whats-on"
+    ],
+    "cards": {
+      "item": "div.o-teaser__content",
+      "link": "a.o-teaser__link",
+      "title": "h3.o-teaser__title",
+      "dates": "p.o-teaser__date",
+      "description": "p.o-teaser__body-text + p"
+    }
+  },
+  "events": [
+    {
+      "id": "the-photographers-gallery:whats-on-roots",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Roots",
+      "url": "https://thephotographersgallery.org.uk/whats-on/roots",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-18",
+      "endDate": "2026-11-15",
+      "firstSeen": "2026-11-02",
+      "description": "This group exhibition at The Print Sales Gallery explores trees, memory, cultural heritage and belonging through photography and mixed media across global landscapes."
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-ninagawa-mika-captive-blooms",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "NINAGAWA Mika: Captive Blooms",
+      "url": "https://thephotographersgallery.org.uk/whats-on/ninagawa-mika-captive-blooms",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-06-19",
+      "endDate": "2027-06-01",
+      "firstSeen": "2026-11-02",
+      "description": "Discover large-scale works by NINAGAWA Mika in a free outdoor exhibition in Soho Photography Quarter"
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-snap-happy-how-children-became-photographers",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Snap Happy! How Children Became Photographers",
+      "url": "https://thephotographersgallery.org.uk/whats-on/snap-happy-how-children-became-photographers",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-14",
+      "endDate": "2027-02-21",
+      "firstSeen": "2026-11-02",
+      "description": "Through photographs and archives, Snap Happy! celebrates the creativity, curiosity and distinctive perspectives of generations of young photographers."
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-sanle-sory-colour-years",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Sanlé Sory: Colour Years",
+      "url": "https://thephotographersgallery.org.uk/whats-on/sanle-sory-colour-years",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-14",
+      "endDate": "2027-02-21",
+      "firstSeen": "2026-11-02",
+      "description": "Bringing together Sanlé Sory’s rarely seen colour photographs for the first time in the UK capturing daily life, youth culture and fashion in Burkina Faso."
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-autofoto-photobooth-photographers-gallery",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Autofoto photobooth at The Photographers' Gallery",
+      "url": "https://thephotographersgallery.org.uk/whats-on/autofoto-photobooth-photographers-gallery",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "firstSeen": "2026-11-02",
+      "description": "Create a special memory in our 1960s analogue photobooth at the Gallery!"
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-william-eggleston-all-goes-unnoticed",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "William Eggleston: All that goes unnoticed",
+      "url": "https://thephotographersgallery.org.uk/whats-on/william-eggleston-all-goes-unnoticed",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-14",
+      "endDate": "2027-02-21",
+      "firstSeen": "2026-11-02",
+      "description": "Celebrating 50 years since William Eggleston’s Guide (1976) this major exhibition showcases iconic and rarely seen dye transfer prints by an American pioneer of colour photography."
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-artist-talk-charlie-phillips",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Artist Talk: Charlie Phillips",
+      "url": "https://thephotographersgallery.org.uk/whats-on/artist-talk-charlie-phillips",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:30",
+      "description": "Hear Charlie Phillips speak about his long awaited retrospective publication."
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-book-launch-signing-jerry-hsu-how-about-never",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Book Launch & Signing, Jerry Hsu: How About Never",
+      "url": "https://thephotographersgallery.org.uk/whats-on/book-launch-signing-jerry-hsu-how-about-never",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:00",
+      "description": "Please join us for an evening with American photographer Jerry Hsu. He will be in our Cafe for chats, and to sign copies of his latest book How About Never"
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-discussion-and-book-launch-ai-and-paradox-agency",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Discussion and Book Launch: AI and the Paradox of Agency",
+      "url": "https://thephotographersgallery.org.uk/whats-on/discussion-and-book-launch-ai-and-paradox-agency",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:00",
+      "description": "Join Sarah Cook, Zeno Gries, Charlotte Kent, Alasdair Milne and others to discuss to how artists’ agency has become entangled with artificial intelligence."
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-teachers-session-reworking-photographs-hand",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Teachers' Session | Reworking Photographs by Hand",
+      "url": "https://thephotographersgallery.org.uk/whats-on/teachers-session-reworking-photographs-hand",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "17:30",
+      "description": "Explore creative ways to engage GCSE/A-Level pupils in photography using hands-on techniques"
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-exhibition-tour-snap-happy",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Exhibition Tour: Snap Happy!",
+      "url": "https://thephotographersgallery.org.uk/whats-on/exhibition-tour-snap-happy",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "11:00",
+      "description": "Join curators Annebella Pollen and Clare Grafik to find out more about the exhibition"
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-develop-practice-building-your-portfolio",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Develop | In Practice: Building your portfolio",
+      "url": "https://thephotographersgallery.org.uk/whats-on/develop-practice-building-your-portfolio",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "13:00",
+      "description": "Join for a session on building your portfolio, open to all 18-24 year olds"
+    }
+  ]
+}

@@ -1,0 +1,1688 @@
+[
+  {
+    "id": "official-london-theatre",
+    "name": "Official London Theatre (West End & beyond)",
+    "enabled": true,
+    "aggregator": true,
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://officiallondontheatre.com/theatre-tickets/"
+      ]
+    },
+    "defaults": {
+      "type": "show"
+    },
+    "notes": "Society of London Theatre listings. Every show is a JSON-LD TheaterEvent on the listing page; location.title is the venue name (matched via venue names/aliases)."
+  },
+  {
+    "id": "tate-modern",
+    "name": "Tate Modern",
+    "enabled": true,
+    "venueId": "tate-modern",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.tate.org.uk/whats-on?date_range=from_now&gallery_group=tate-modern&page={page}"
+      ],
+      "maxPages": 4,
+      "linkPattern": "^https://www\\.tate\\.org\\.uk/whats-on/tate-modern/[^/?#]+/?$",
+      "maxLinks": 60,
+      "detail": {
+        "dates": "p.content-block--dates__item, span.splash-header__dates"
+      }
+    }
+  },
+  {
+    "id": "tate-britain",
+    "name": "Tate Britain",
+    "enabled": true,
+    "venueId": "tate-britain",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.tate.org.uk/whats-on?date_range=from_now&gallery_group=tate-britain&page={page}"
+      ],
+      "maxPages": 4,
+      "linkPattern": "^https://www\\.tate\\.org\\.uk/whats-on/tate-britain/[^/?#]+/?$",
+      "maxLinks": 60,
+      "detail": {
+        "dates": "p.content-block--dates__item, span.splash-header__dates"
+      }
+    }
+  },
+  {
+    "id": "vam",
+    "name": "V&A (South Kensington, East, Young V&A)",
+    "enabled": true,
+    "aggregator": true,
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.vam.ac.uk/whatson"
+      ],
+      "cards": {
+        "item": "a.b-event-teaser__link",
+        "title": "h2.b-event-teaser__title",
+        "typeLabel": "div.b-event-teaser__type",
+        "dates": "li.b-icon-list__icon--calendar p.b-icon-list__item-text",
+        "venue": "li.b-icon-list__icon--pin p.b-icon-list__item-text"
+      },
+      "linkPattern": "^https://www\\.vam\\.ac\\.uk/exhibitions/[^/?#]+$",
+      "maxLinks": 40
+    },
+    "notes": "Cards give type, venue and usually just 'Closes …'; exhibition detail pages have JSON-LD ExhibitionEvent with the full range."
+  },
+  {
+    "id": "national-gallery",
+    "name": "National Gallery",
+    "enabled": true,
+    "venueId": "national-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.nationalgallery.org.uk/exhibitions"
+      ],
+      "linkPattern": "^https://www\\.nationalgallery\\.org\\.uk/exhibitions/(?!across-the-uk|past-exhibitions|future-exhibitions)[^/?#]+$",
+      "detail": {
+        "dates": "p.display-date"
+      }
+    }
+  },
+  {
+    "id": "barbican",
+    "name": "Barbican",
+    "enabled": true,
+    "venueId": "barbican",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.barbican.org.uk/whats-on/art-design",
+        "https://www.barbican.org.uk/whats-on/theatre-dance",
+        "https://www.barbican.org.uk/whats-on/classical-music",
+        "https://www.barbican.org.uk/whats-on/contemporary-music"
+      ],
+      "cards": {
+        "item": "div.search-listing__details--event",
+        "link": "a[href*='/event/']",
+        "title": "h2.listing-title",
+        "typeLabel": "span.tag__plain, div.search-listing__content-type",
+        "dates": "p.listing-date"
+      }
+    }
+  },
+  {
+    "id": "sadlers-wells",
+    "name": "Sadler's Wells (Rosebery Avenue, Peacock, East)",
+    "enabled": true,
+    "aggregator": true,
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.sadlerswells.com/whats-on/page/{page}/"
+      ],
+      "maxPages": 4,
+      "cards": {
+        "item": "div.c-event-card",
+        "link": "a.c-event-card__cover-link",
+        "title": "h3.c-event-card__title",
+        "dates": "time.c-event-card__daterange",
+        "venue": "span.c-event-card__location"
+      }
+    },
+    "defaults": {
+      "type": "show"
+    }
+  },
+  {
+    "id": "national-theatre",
+    "name": "National Theatre",
+    "enabled": true,
+    "venueId": "national-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.nationaltheatre.org.uk/whats-on/"
+      ],
+      "linkPattern": "^https://www\\.nationaltheatre\\.org\\.uk/productions/[^/?#]+/?$",
+      "detail": {
+        "dates": "div.c-event-details__date"
+      }
+    },
+    "defaults": {
+      "type": "show"
+    },
+    "notes": "Production pages list every performance as JSON-LD; they are collapsed into one run."
+  },
+  {
+    "id": "serpentine",
+    "name": "Serpentine (South & North)",
+    "enabled": true,
+    "aggregator": true,
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.serpentinegalleries.org/whats-on/"
+      ],
+      "cards": {
+        "item": "div.teaser__content",
+        "link": "h3.teaser__title a",
+        "title": "h3.teaser__title",
+        "typeLabel": "span.teaser__pretitle",
+        "dates": "div.meta__item",
+        "venue": "span.meta__term",
+        "description": "p.teaser__text"
+      }
+    }
+  },
+  {
+    "id": "whitechapel",
+    "name": "Whitechapel Gallery",
+    "enabled": true,
+    "venueId": "whitechapel-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.whitechapelgallery.org/exhibitions/"
+      ],
+      "cards": {
+        "item": "div.oneHalfMedia, div.oneThirdMedia",
+        "link": "h4.category_name a",
+        "title": "h4.category_name",
+        "dates": "p"
+      }
+    },
+    "defaults": {
+      "type": "exhibition"
+    }
+  },
+  {
+    "id": "photographers-gallery",
+    "name": "The Photographers' Gallery",
+    "enabled": true,
+    "venueId": "the-photographers-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://thephotographersgallery.org.uk/whats-on"
+      ],
+      "cards": {
+        "item": "div.o-teaser__content",
+        "link": "a.o-teaser__link",
+        "title": "h3.o-teaser__title",
+        "dates": "p.o-teaser__date",
+        "description": "p.o-teaser__body-text + p"
+      }
+    }
+  },
+  {
+    "id": "design-museum",
+    "name": "Design Museum",
+    "enabled": true,
+    "venueId": "design-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://designmuseum.org/exhibitions"
+      ],
+      "linkPattern": "^https://designmuseum\\.org/exhibitions/(?!future-exhibitions|touring-exhibitions|past-exhibitions)[^/?#]+$",
+      "detail": {
+        "dates": "time.date.icon-date"
+      }
+    },
+    "defaults": {
+      "type": "exhibition"
+    }
+  },
+  {
+    "id": "saatchi-gallery",
+    "name": "Saatchi Gallery",
+    "enabled": true,
+    "venueId": "saatchi-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.saatchigallery.com/"
+      ],
+      "linkPattern": "^https://www\\.saatchigallery\\.com/exhibition/[^/?#]+/?$",
+      "detail": {
+        "dates": "h2.sub-heading-2x"
+      }
+    },
+    "defaults": {
+      "type": "exhibition"
+    }
+  },
+  {
+    "id": "somerset-house",
+    "name": "Somerset House",
+    "enabled": true,
+    "venueId": "somerset-house",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.somersethouse.org.uk/whats-on"
+      ],
+      "cards": {
+        "item": "a[href^='/whats-on/']:has(time)",
+        "dates": "time"
+      }
+    }
+  },
+  {
+    "id": "london-museum-docklands",
+    "name": "London Museum Docklands",
+    "enabled": true,
+    "venueId": "london-museum-docklands",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.londonmuseum.org.uk/whats-on/smithfield-general-admission/"
+      ],
+      "cards": {
+        "item": "div.card__text-container",
+        "dates": "div.card__dates"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "natural-history-museum",
+    "name": "Natural History Museum",
+    "enabled": true,
+    "venueId": "natural-history-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.nhm.ac.uk/"
+      ],
+      "cards": {
+        "item": "div.space-y-s-m",
+        "dates": "li.flex.gap-xs"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "wellcome-collection",
+    "name": "Wellcome Collection",
+    "enabled": true,
+    "venueId": "wellcome-collection",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://wellcomecollection.org/whats-on"
+      ],
+      "cards": {
+        "item": "a.iScFvn",
+        "dates": "time"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "horniman-museum-and-gardens",
+    "name": "Horniman Museum and Gardens",
+    "enabled": true,
+    "venueId": "horniman-museum-and-gardens",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.horniman.ac.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "div.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "sir-john-soanes-museum",
+    "name": "Sir John Soane's Museum",
+    "enabled": true,
+    "venueId": "sir-john-soanes-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.soane.org/whats-on"
+      ],
+      "cards": {
+        "item": "div.o-teaser-whats-on-teaser__content.o-teaser__content",
+        "dates": "time.datetime"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "the-wallace-collection",
+    "name": "The Wallace Collection",
+    "enabled": true,
+    "venueId": "the-wallace-collection",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.wallacecollection.org/whats-on/events/"
+      ],
+      "cards": {
+        "item": "a.c-teaser__link",
+        "dates": "div.c-teaser__date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "william-morris-gallery",
+    "name": "William Morris Gallery",
+    "enabled": true,
+    "venueId": "william-morris-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.wmgallery.org.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "a.flex_item.card",
+        "dates": "h5.dates"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "charles-dickens-museum",
+    "name": "Charles Dickens Museum",
+    "enabled": true,
+    "venueId": "charles-dickens-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://dickensmuseum.com/blogs/all-events"
+      ],
+      "cards": {
+        "item": "div.reading-column",
+        "dates": "div"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "national-maritime-museum",
+    "name": "Royal Museums Greenwich (NMM, Queen's House, Observatory)",
+    "enabled": true,
+    "venueId": "national-maritime-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.rmg.co.uk/whats-on"
+      ],
+      "cards": {
+        "item": "div.event-teaser__content.contextual-region",
+        "dates": "div.event-teaser__times"
+      }
+    },
+    "notes": "One listing for all RMG sites; events are filed under the National Maritime Museum for now. Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "ica",
+    "name": "ICA",
+    "enabled": true,
+    "venueId": "ica",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.ica.art/exhibitions"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "div.date.sans"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "freud-museum-london",
+    "name": "Freud Museum London",
+    "enabled": true,
+    "venueId": "freud-museum-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.freud.org.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "div.feature-block-inner",
+        "dates": "div.feature-blurb.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "the-foundling-museum",
+    "name": "The Foundling Museum",
+    "enabled": true,
+    "venueId": "the-foundling-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://foundlingmuseum.org.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "span.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "cartoon-museum",
+    "name": "Cartoon Museum",
+    "enabled": true,
+    "venueId": "cartoon-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.cartoonmuseum.org/whats-on-events"
+      ],
+      "cards": {
+        "item": "article.eventlist-event.eventlist-event--past",
+        "dates": "div.eventlist-column-date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "leighton-house",
+    "name": "Leighton House",
+    "enabled": true,
+    "venueId": "leighton-house",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.rbkc.gov.uk/museums/whats-on"
+      ],
+      "cards": {
+        "item": "div.card__content",
+        "dates": "span.card__date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "garden-museum",
+    "name": "Garden Museum",
+    "enabled": true,
+    "venueId": "garden-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.gardenmuseum.org.uk/whats-on/sabine-moritz/"
+      ],
+      "cards": {
+        "item": "article.card--base.card--standard",
+        "dates": "div.card__content__wrapper"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "kenwood",
+    "name": "Kenwood",
+    "enabled": true,
+    "venueId": "kenwood",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.english-heritage.org.uk/visit/places/kenwood/"
+      ],
+      "cards": {
+        "item": "li.stick.colour-blocks",
+        "dates": "span.event-datetime.small-24"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "science-gallery-london",
+    "name": "Science Gallery London",
+    "enabled": true,
+    "venueId": "science-gallery-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://london.sciencegallery.com/sgl-events"
+      ],
+      "cards": {
+        "item": "article.eventlist-event.eventlist-event--past",
+        "dates": "a.eventlist-column-date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "two-temple-place",
+    "name": "Two Temple Place",
+    "enabled": true,
+    "venueId": "two-temple-place",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://twotempleplace.org/whats-on/"
+      ],
+      "cards": {
+        "item": "div.copy-side",
+        "dates": "h2"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "pitzhanger-manor-and-gallery",
+    "name": "Pitzhanger Manor & Gallery",
+    "enabled": true,
+    "venueId": "pitzhanger-manor-and-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.pitzhanger.org.uk/whats-on/exhibitions/"
+      ],
+      "cards": {
+        "item": "div.col",
+        "dates": "div.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "camden-art-centre",
+    "name": "Camden Art Centre",
+    "enabled": true,
+    "venueId": "camden-art-centre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://camdenartcentre.org/"
+      ],
+      "cards": {
+        "item": "div.teaser__content",
+        "dates": "span.teaser__meta"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "chisenhale-gallery",
+    "name": "Chisenhale Gallery",
+    "enabled": true,
+    "venueId": "chisenhale-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://chisenhale.org.uk/whats-on/panel-discussion-with-dr-iain-robert-smith-nadia-denton-and-dr-samantha-iwowo-chaired-by-d/"
+      ],
+      "cards": {
+        "item": "a.card",
+        "dates": "span.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "south-london-gallery",
+    "name": "South London Gallery",
+    "enabled": true,
+    "venueId": "south-london-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.southlondongallery.org/whats-on/"
+      ],
+      "cards": {
+        "item": "article.tease.tease-events",
+        "dates": "span.datetime"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "gasworks",
+    "name": "Gasworks",
+    "enabled": true,
+    "venueId": "gasworks",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.gasworks.org.uk/exhibitions/"
+      ],
+      "cards": {
+        "item": "header",
+        "dates": "span.nowrap"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "outernet-london",
+    "name": "Outernet London",
+    "enabled": true,
+    "venueId": "outernet-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.outernet.com/"
+      ],
+      "cards": {
+        "item": "div.event-card",
+        "dates": "aside.event-card-meta"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "lightroom",
+    "name": "Lightroom",
+    "enabled": true,
+    "venueId": "lightroom",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://lightroom.uk/whats-on/larger-than-life/"
+      ],
+      "cards": {
+        "item": "div.c-event-card.c-col",
+        "dates": "time.c-event-card__daterange"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "white-cube-masons-yard",
+    "name": "White Cube Mason's Yard",
+    "enabled": false,
+    "venueId": "white-cube-masons-yard",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.whitecube.com/exhibitions/london"
+      ],
+      "cards": {
+        "item": "div.flex.flex-col",
+        "dates": "div.flex.flex-col"
+      }
+    },
+    "notes": "White Cube lists London, Paris, NY, HK, Seoul — needs a per-space filter (Mason's Yard vs Bermondsey)."
+  },
+  {
+    "id": "victoria-miro",
+    "name": "Victoria Miro",
+    "enabled": true,
+    "venueId": "victoria-miro",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.victoria-miro.com/exhibitions/khalif-tahir-thompson-london-2026/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "span.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "lisson-gallery",
+    "name": "Lisson Gallery",
+    "enabled": false,
+    "venueId": "lisson-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://lisson.com/exhibitions/carmen-herrera-lisson-london"
+      ],
+      "cards": {
+        "item": "article.group.relative",
+        "dates": "div.text-body.mt-spacing-l"
+      }
+    },
+    "notes": "Mixes in artists' museum shows elsewhere — needs a London-only filter."
+  },
+  {
+    "id": "thaddaeus-ropac-london",
+    "name": "Thaddaeus Ropac London",
+    "enabled": false,
+    "venueId": "thaddaeus-ropac-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://ropac.net/exhibitions/808-jordan-casteel-winter-sun/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "div.dates"
+      }
+    },
+    "notes": "Lists all locations — needs a London-only filter."
+  },
+  {
+    "id": "pace-london",
+    "name": "Pace London",
+    "enabled": false,
+    "venueId": "pace-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.pacegallery.com/exhibitions/"
+      ],
+      "cards": {
+        "item": "a.index-grid__link",
+        "dates": "p.index-grid__text-date"
+      }
+    },
+    "notes": "Pace lists all locations — needs a London-only filter."
+  },
+  {
+    "id": "david-zwirner-london",
+    "name": "David Zwirner London",
+    "enabled": false,
+    "venueId": "david-zwirner-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.davidzwirner.com/exhibitions"
+      ]
+    },
+    "notes": "Zwirner lists all locations — needs a London-only filter."
+  },
+  {
+    "id": "alison-jacques",
+    "name": "Alison Jacques",
+    "enabled": true,
+    "venueId": "alison-jacques",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://alisonjacques.com/"
+      ],
+      "cards": {
+        "item": "div.card.card--lg",
+        "dates": "div.card__data"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "timothy-taylor",
+    "name": "Timothy Taylor",
+    "enabled": true,
+    "venueId": "timothy-taylor",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.timothytaylor.com/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "span.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "carlos-ishikawa",
+    "name": "Carlos/Ishikawa",
+    "enabled": false,
+    "venueId": "carlos-ishikawa",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.carlosishikawa.com/"
+      ],
+      "cards": {
+        "item": "div.text",
+        "dates": "div.date"
+      }
+    },
+    "notes": "Includes artists' shows at other institutions — needs a gallery-only filter."
+  },
+  {
+    "id": "flowers-gallery",
+    "name": "Flowers Gallery",
+    "enabled": true,
+    "venueId": "flowers-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.flowersgallery.com/exhibitions/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "div.bottom"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "almine-rech-london",
+    "name": "Almine Rech London",
+    "enabled": false,
+    "venueId": "almine-rech-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.alminerech.com/exhibitions/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "div.info"
+      }
+    },
+    "notes": "Lists all locations — needs a London-only filter."
+  },
+  {
+    "id": "cristea-roberts-gallery",
+    "name": "Cristea Roberts Gallery",
+    "enabled": true,
+    "venueId": "cristea-roberts-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://cristearoberts.com/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "div.bottom"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "galerie-max-hetzler-london",
+    "name": "Galerie Max Hetzler London",
+    "enabled": false,
+    "venueId": "galerie-max-hetzler-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.maxhetzler.com/exhibitions"
+      ],
+      "cards": {
+        "item": "a.block",
+        "dates": "div.date"
+      }
+    },
+    "notes": "Lists every Max Hetzler location (Berlin, Paris, …) — needs a London-only filter before enabling."
+  },
+  {
+    "id": "gazelli-art-house",
+    "name": "Gazelli Art House",
+    "enabled": true,
+    "venueId": "gazelli-art-house",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://gazelliarthouse.com/"
+      ],
+      "cards": {
+        "item": "div.inner",
+        "dates": "span.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "goodman-gallery-london",
+    "name": "Goodman Gallery London",
+    "enabled": false,
+    "venueId": "goodman-gallery-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://goodman-gallery.com/programme"
+      ],
+      "cards": {
+        "item": "a.link-module-scss-module__zHujwa__root.link-module-scss-module__zHujwa__noUnder",
+        "dates": "div"
+      }
+    },
+    "notes": "Mixes in non-London shows (Johannesburg, Cape Town, museum shows) — needs a London-only filter."
+  },
+  {
+    "id": "richard-saltoun-gallery",
+    "name": "Richard Saltoun Gallery",
+    "enabled": true,
+    "venueId": "richard-saltoun-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.richardsaltoun.com/exhibitions/current-forthcoming/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "span.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "grimm-london",
+    "name": "GRIMM London",
+    "enabled": true,
+    "venueId": "grimm-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://grimmgallery.com/exhibitions/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "span.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "roundhouse",
+    "name": "Roundhouse",
+    "enabled": true,
+    "venueId": "roundhouse",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.roundhouse.org.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "a.event-card__link",
+        "dates": "div.event-card__details"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "battersea-arts-centre",
+    "name": "Battersea Arts Centre",
+    "enabled": true,
+    "venueId": "battersea-arts-centre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://bac.org.uk/whats-on-highlights/"
+      ],
+      "cards": {
+        "item": "div.c-col-card__content.matchheight",
+        "dates": "h4.c-event-card__date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "alexandra-palace",
+    "name": "Alexandra Palace",
+    "enabled": true,
+    "venueId": "alexandra-palace",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.alexandrapalace.com/whats-on/"
+      ],
+      "cards": {
+        "item": "div.event_card_wrapper.event_item",
+        "dates": "header.event_details.bg_white"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "shoreditch-town-hall",
+    "name": "Shoreditch Town Hall",
+    "enabled": true,
+    "venueId": "shoreditch-town-hall",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://shoreditchtownhall.com/whats-on/ceilidh-the-musical"
+      ],
+      "cards": {
+        "item": "div.production-related-text.col",
+        "dates": "h5.date.white"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "conway-hall",
+    "name": "Conway Hall",
+    "enabled": true,
+    "venueId": "conway-hall",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.conwayhall.org.uk/"
+      ],
+      "cards": {
+        "item": "a.uk-link-reset.uk-display-block",
+        "dates": "time.uk-text-normal"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "bishopsgate-institute",
+    "name": "Bishopsgate Institute",
+    "enabled": true,
+    "venueId": "bishopsgate-institute",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.bishopsgate.org.uk/whats-on/category/dance/"
+      ],
+      "cards": {
+        "item": "a.c-card.c-card--activity",
+        "dates": "time"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "wigmore-hall",
+    "name": "Wigmore Hall",
+    "enabled": false,
+    "venueId": "wigmore-hall",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.wigmore-hall.org.uk/whats-on"
+      ],
+      "cards": {
+        "item": "div.bg-white.col-12",
+        "dates": "div.px5.sm-px7"
+      }
+    },
+    "notes": "Auto card config picked the date as the title — needs a proper title selector."
+  },
+  {
+    "id": "gresham-college",
+    "name": "Gresham College",
+    "enabled": true,
+    "venueId": "gresham-college",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.gresham.ac.uk/"
+      ],
+      "cards": {
+        "item": "div.o-teaser-react__content",
+        "dates": "div.o-teaser__content--date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "cadogan-hall",
+    "name": "Cadogan Hall",
+    "enabled": true,
+    "venueId": "cadogan-hall",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://cadoganhall.com/whats-on/zios-2026-27-flanders-symphony-orchestra-2/"
+      ],
+      "cards": {
+        "item": "div.c-event-item__content",
+        "dates": "p.c-event-item__date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "the-albany",
+    "name": "The Albany",
+    "enabled": true,
+    "venueId": "the-albany",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.thealbany.org.uk/events"
+      ],
+      "cards": {
+        "item": "a.card",
+        "dates": "div.card__status-date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "eventim-apollo",
+    "name": "Eventim Apollo",
+    "enabled": true,
+    "venueId": "eventim-apollo",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.eventimapollo.com/events/"
+      ],
+      "cards": {
+        "item": "div.card.h-full",
+        "dates": "p.date.uppercase"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "union-chapel",
+    "name": "Union Chapel",
+    "enabled": true,
+    "venueId": "union-chapel",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://unionchapel.org.uk/whats-on"
+      ],
+      "cards": {
+        "item": "div.card",
+        "dates": "p.small.text-uppercase"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "st-martin-in-the-fields",
+    "name": "St Martin-in-the-Fields",
+    "enabled": true,
+    "venueId": "st-martin-in-the-fields",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.stmartin-in-the-fields.org/"
+      ],
+      "cards": {
+        "item": "div.WhatsonItemTitle",
+        "dates": "p.EV_ListDate"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "indigo-at-the-o2",
+    "name": "indigo at The O2",
+    "enabled": false,
+    "venueId": "indigo-at-the-o2",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.theo2.co.uk/events"
+      ]
+    },
+    "notes": "theo2.co.uk lists the arena too — needs an indigo-only listing."
+  },
+  {
+    "id": "st-johns-smith-square",
+    "name": "St John's Smith Square",
+    "enabled": true,
+    "venueId": "st-johns-smith-square",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.sinfoniasmithsq.org.uk/"
+      ],
+      "cards": {
+        "item": "a.card-link",
+        "dates": "time.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "clapham-grand",
+    "name": "Clapham Grand",
+    "enabled": true,
+    "venueId": "clapham-grand",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://claphamgrand.com/"
+      ],
+      "cards": {
+        "item": "div.listing__details",
+        "dates": "div.venueAndDoorsWrap"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "bloomsbury-theatre",
+    "name": "Bloomsbury Theatre",
+    "enabled": true,
+    "venueId": "bloomsbury-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.bloomsburytheatre.com/"
+      ],
+      "cards": {
+        "item": "div.card.p-3",
+        "dates": "p"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "earth-hackney",
+    "name": "EartH Hackney",
+    "enabled": true,
+    "venueId": "earth-hackney",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://earthackney.co.uk/events/"
+      ],
+      "cards": {
+        "item": "li.list--events__item",
+        "dates": "div.list--events__item__dates"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "hackney-empire",
+    "name": "Hackney Empire",
+    "enabled": true,
+    "venueId": "hackney-empire",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.hackneyempire.co.uk/events/jack-and-the-beanstalk"
+      ],
+      "cards": {
+        "item": "div.c-media.c-media--event",
+        "dates": "span.c-media__posttitle"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "up-the-creek",
+    "name": "Up the Creek",
+    "enabled": true,
+    "venueId": "up-the-creek",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.up-the-creek.com/"
+      ],
+      "cards": {
+        "item": "div.event-card-body",
+        "dates": "div.event-card-footer"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "leicester-square-theatre",
+    "name": "Leicester Square Theatre",
+    "enabled": true,
+    "venueId": "leicester-square-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.leicestersquaretheatre.com/whats-on/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "p.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "the-comedy-store",
+    "name": "The Comedy Store",
+    "enabled": true,
+    "venueId": "the-comedy-store",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://london.thecomedystore.co.uk/events/charity"
+      ],
+      "cards": {
+        "item": "div.w-full.flex",
+        "dates": "div.w-full.text-center"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "museum-of-comedy",
+    "name": "Museum of Comedy",
+    "enabled": true,
+    "venueId": "museum-of-comedy",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.museumofcomedy.com/whats-on/comedy/"
+      ]
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "soho-theatre",
+    "name": "Soho Theatre",
+    "enabled": true,
+    "venueId": "soho-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://sohotheatre.com/walthamstow/"
+      ],
+      "cards": {
+        "item": "a.card-link",
+        "dates": "span.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "shakespeares-globe",
+    "name": "Shakespeare's Globe",
+    "enabled": true,
+    "venueId": "shakespeares-globe",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.shakespearesglobe.com/whats-on/"
+      ],
+      "cards": {
+        "item": "div.c-event-card__body.u-pure-white-bg",
+        "dates": "div.c-event-card__details"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "almeida-theatre",
+    "name": "Almeida Theatre",
+    "enabled": true,
+    "venueId": "almeida-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://almeida.co.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "div.c-event-card",
+        "dates": "div.c-event-card__content"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "lyric-hammersmith",
+    "name": "Lyric Hammersmith",
+    "enabled": true,
+    "venueId": "lyric-hammersmith",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://lyric.co.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "div.card__content",
+        "dates": "div.card__meta.margin-trim"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "kiln-theatre",
+    "name": "Kiln Theatre",
+    "enabled": true,
+    "venueId": "kiln-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://kilntheatre.com/whats-on/"
+      ],
+      "cards": {
+        "item": "a",
+        "dates": "li.c-production-tile-details__date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "orange-tree-theatre",
+    "name": "Orange Tree Theatre",
+    "enabled": true,
+    "venueId": "orange-tree-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://orangetreetheatre.co.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "div.elementor-element.e-con-full",
+        "dates": "div.elementor-element.animated-slow"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "park-theatre",
+    "name": "Park Theatre",
+    "enabled": true,
+    "venueId": "park-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://parktheatre.co.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "div.card__content.stack",
+        "dates": "div.card__meta.margin-trim"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "arcola-theatre",
+    "name": "Arcola Theatre",
+    "enabled": true,
+    "venueId": "arcola-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.arcolatheatre.com/"
+      ],
+      "cards": {
+        "item": "div.card__content.stack",
+        "dates": "div.card__meta.margin-trim"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "kings-head-theatre",
+    "name": "King's Head Theatre",
+    "enabled": true,
+    "venueId": "kings-head-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://kingsheadtheatre.com/"
+      ],
+      "cards": {
+        "item": "div.top.card__description-top",
+        "dates": "span.start"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "unicorn-theatre",
+    "name": "Unicorn Theatre",
+    "enabled": true,
+    "venueId": "unicorn-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.unicorntheatre.com/whats-on"
+      ],
+      "cards": {
+        "item": "a.c-media.c-media--link",
+        "dates": "time"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "polka-theatre",
+    "name": "Polka Theatre",
+    "enabled": true,
+    "venueId": "polka-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://polkatheatre.com/shows/"
+      ],
+      "cards": {
+        "item": "li.events__listing-item.dark_blue_bg",
+        "dates": "div.date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "little-angel-theatre",
+    "name": "Little Angel Theatre",
+    "enabled": true,
+    "venueId": "little-angel-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.littleangeltheatre.com/whats-on/"
+      ],
+      "cards": {
+        "item": "div.c-event-card__details",
+        "dates": "div.c-event-card__meta"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "the-yard-theatre",
+    "name": "The Yard Theatre",
+    "enabled": true,
+    "venueId": "the-yard-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.theyardtheatre.co.uk/"
+      ],
+      "cards": {
+        "item": "a.block",
+        "dates": "h4"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "regents-park-open-air-theatre",
+    "name": "Regent's Park Open Air Theatre",
+    "enabled": true,
+    "venueId": "regents-park-open-air-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://openairtheatre.com/past-productions/whats-on"
+      ],
+      "cards": {
+        "item": "a.ProductionTeaser-link",
+        "dates": "div.ProductionTeaser-content"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "brixton-house",
+    "name": "Brixton House",
+    "enabled": true,
+    "venueId": "brixton-house",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://brixtonhouse.co.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "div.wp-block-group__inner-container",
+        "dates": "p.bhwpspx-date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "royal-opera-house",
+    "name": "Royal Opera House",
+    "enabled": true,
+    "venueId": "royal-opera-house",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.rbo.org.uk/"
+      ],
+      "cards": {
+        "item": "a.targetLink",
+        "dates": "span.sc-kyhYQx.dfXjrA"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "wiltons-music-hall",
+    "name": "Wilton's Music Hall",
+    "enabled": true,
+    "venueId": "wiltons-music-hall",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://wiltons.org.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "div.WhatsonItemTitle",
+        "dates": "p.EV_ListDate"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "arts-theatre",
+    "name": "Arts Theatre",
+    "enabled": true,
+    "venueId": "arts-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.artsatmarblearch.com/events"
+      ],
+      "cards": {
+        "item": "div.c-event-card__meta",
+        "dates": "span.c-event-card__date"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "london-coliseum",
+    "name": "London Coliseum",
+    "enabled": true,
+    "venueId": "london-coliseum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://londoncoliseum.org/whats-on/?view=calendar"
+      ],
+      "cards": {
+        "item": "div.card__content.stack",
+        "dates": "div.card__meta.margin-trim"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  }
+]

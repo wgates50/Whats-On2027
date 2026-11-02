@@ -1,0 +1,100 @@
+{
+  "sourceId": "whitechapel",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.whitechapelgallery.org/exhibitions/"
+    ],
+    "cards": {
+      "item": "div.oneHalfMedia, div.oneThirdMedia",
+      "link": "h4.category_name a",
+      "title": "h4.category_name",
+      "dates": "p"
+    }
+  },
+  "events": [
+    {
+      "id": "whitechapel-gallery:exhibitions-cecilia-vicuna",
+      "venueId": "whitechapel-gallery",
+      "sourceId": "whitechapel",
+      "title": "Cecilia Vicuña: Living Threads",
+      "url": "https://www.whitechapelgallery.org/exhibitions/cecilia-vicuna/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-07",
+      "endDate": "2027-02-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.whitechapelgallery.org/wp-content/uploads/2026/06/1.-Cecilia-Vicuna-Quipu-menstrual-1-2006-2024-570x428.jpg"
+    },
+    {
+      "id": "whitechapel-gallery:exhibitions-cecilia-vicuna-foraging-quipu",
+      "venueId": "whitechapel-gallery",
+      "sourceId": "whitechapel",
+      "title": "Cecilia Vicuña: Foraging Quipu",
+      "url": "https://www.whitechapelgallery.org/exhibitions/cecilia-vicuna-foraging-quipu/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-07",
+      "endDate": "2027-02-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.whitechapelgallery.org/wp-content/uploads/2026/08/Foraging-Quipu-Featured-image-1-570x428.png"
+    },
+    {
+      "id": "whitechapel-gallery:exhibitions-this-must-be-the-place-artists-for-whitechapel-gallery",
+      "venueId": "whitechapel-gallery",
+      "sourceId": "whitechapel",
+      "title": "This Must Be the Place: Artists for Whitechapel Gallery",
+      "url": "https://www.whitechapelgallery.org/exhibitions/this-must-be-the-place-artists-for-whitechapel-gallery/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-08",
+      "endDate": "2026-11-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.whitechapelgallery.org/wp-content/uploads/2026/08/tmbtp-scent-570x428.png"
+    },
+    {
+      "id": "whitechapel-gallery:exhibitions-screen-portraits-whitechapel-gallery-artists-part-2",
+      "venueId": "whitechapel-gallery",
+      "sourceId": "whitechapel",
+      "title": "Screen Portraits: Whitechapel Gallery Artists – Part 2",
+      "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-07",
+      "endDate": "2027-01-17",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.whitechapelgallery.org/wp-content/uploads/2026/09/Gaby-Sahhar-Abstraction-570x428.jpg"
+    },
+    {
+      "id": "whitechapel-gallery:exhibitions-the-film-london-jarman-award-2026",
+      "venueId": "whitechapel-gallery",
+      "sourceId": "whitechapel",
+      "title": "The Film London Jarman Award 2026",
+      "url": "https://www.whitechapelgallery.org/exhibitions/the-film-london-jarman-award-2026/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-17",
+      "endDate": "2026-12-13",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.whitechapelgallery.org/wp-content/uploads/2026/09/JA2026_Tour-composite_v1_16-9-wide-570x428.png"
+    },
+    {
+      "id": "whitechapel-gallery:exhibitions-through-holes-in-the-clouds",
+      "venueId": "whitechapel-gallery",
+      "sourceId": "whitechapel",
+      "title": "Through Holes in the Clouds: Artists and the Postcolonial Imagination",
+      "url": "https://www.whitechapelgallery.org/exhibitions/through-holes-in-the-clouds/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-03-17",
+      "endDate": "2027-09-05",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.whitechapelgallery.org/wp-content/uploads/2026/10/thitc-frank-bowling-header-370x280.png"
+    }
+  ]
+}

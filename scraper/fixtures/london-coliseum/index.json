@@ -1,0 +1,8 @@
+{
+  "https://londoncoliseum.org/whats-on/?view=calendar": {
+    "file": "e1f465b853b3.html.gz",
+    "status": 200,
+    "finalUrl": "https://londoncoliseum.org/whats-on/?view=calendar",
+    "contentType": "text/html; charset=UTF-8"
+  }
+}

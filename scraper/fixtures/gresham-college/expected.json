@@ -1,0 +1,116 @@
+{
+  "sourceId": "gresham-college",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.gresham.ac.uk/"
+    ],
+    "cards": {
+      "item": "div.o-teaser-react__content",
+      "dates": "div.o-teaser__content--date"
+    }
+  },
+  "events": [
+    {
+      "id": "gresham-college:whats-on-history-not",
+      "venueId": "gresham-college",
+      "sourceId": "gresham-college",
+      "title": "What History is NOT",
+      "url": "https://www.gresham.ac.uk/whats-on/history-not",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gresham-college:whats-on-objects-auschwitz",
+      "venueId": "gresham-college",
+      "sourceId": "gresham-college",
+      "title": "Material Witness: Understanding the Objects of Auschwitz",
+      "url": "https://www.gresham.ac.uk/whats-on/objects-auschwitz",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gresham-college:whats-on-guantanamo-euphrates",
+      "venueId": "gresham-college",
+      "sourceId": "gresham-college",
+      "title": "Guantanamo on the Euphrates: What Next for Detainees in Syria?",
+      "url": "https://www.gresham.ac.uk/whats-on/guantanamo-euphrates",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gresham-college:whats-on-trans-variance",
+      "venueId": "gresham-college",
+      "sourceId": "gresham-college",
+      "title": "“A Mystery Still”: Historical (Trans) Gender Variance and James “Miranda” Barry",
+      "url": "https://www.gresham.ac.uk/whats-on/trans-variance",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gresham-college:whats-on-end-maths",
+      "venueId": "gresham-college",
+      "sourceId": "gresham-college",
+      "title": "The End of Mathematics? The AI Crisis",
+      "url": "https://www.gresham.ac.uk/whats-on/end-maths",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gresham-college:whats-on-sun-star",
+      "venueId": "gresham-college",
+      "sourceId": "gresham-college",
+      "title": "Our Sun, Our Star",
+      "url": "https://www.gresham.ac.uk/whats-on/sun-star",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gresham-college:whats-on-garden-grow",
+      "venueId": "gresham-college",
+      "sourceId": "gresham-college",
+      "title": "How Did Our Garden Grow? The History of Hatton Garden",
+      "url": "https://www.gresham.ac.uk/whats-on/garden-grow",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gresham-college:whats-on-transcendence-poetry",
+      "venueId": "gresham-college",
+      "sourceId": "gresham-college",
+      "title": "Love's Transcendence in the Poetry of John Donne, George Herbert and RS Thomas",
+      "url": "https://www.gresham.ac.uk/whats-on/transcendence-poetry",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

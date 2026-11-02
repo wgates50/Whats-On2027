@@ -1,0 +1,85 @@
+{
+  "sourceId": "conway-hall",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.conwayhall.org.uk/"
+    ],
+    "cards": {
+      "item": "a.uk-link-reset.uk-display-block",
+      "dates": "time.uk-text-normal"
+    }
+  },
+  "events": [
+    {
+      "id": "conway-hall:event-launching-a-news-club-network",
+      "venueId": "conway-hall",
+      "sourceId": "conway-hall",
+      "title": "Touch Paper: Launching a News Club Network",
+      "url": "https://www.conwayhall.org.uk/whats-on/event/launching-a-news-club-network/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:30"
+    },
+    {
+      "id": "conway-hall:event-conway-hall-news-club",
+      "venueId": "conway-hall",
+      "sourceId": "conway-hall",
+      "title": "Conway Hall News Club",
+      "url": "https://www.conwayhall.org.uk/whats-on/event/conway-hall-news-club/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "14:00"
+    },
+    {
+      "id": "conway-hall:event-a-history-of-black-people-and-alternative-music",
+      "venueId": "conway-hall",
+      "sourceId": "conway-hall",
+      "title": "Ethical Matters: A History of Black People and Alternative Music",
+      "url": "https://www.conwayhall.org.uk/whats-on/event/a-history-of-black-people-and-alternative-music/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "15:00"
+    },
+    {
+      "id": "conway-hall:event-greenwich-trio-boris-bizjak-2",
+      "venueId": "conway-hall",
+      "sourceId": "conway-hall",
+      "title": "Sunday Concerts: Greenwich Trio & Boris Bizjak",
+      "url": "https://www.conwayhall.org.uk/whats-on/event/greenwich-trio-boris-bizjak-2/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:30"
+    },
+    {
+      "id": "conway-hall:event-marina-litvinenko-on-russia-putin-and-resistance",
+      "venueId": "conway-hall",
+      "sourceId": "conway-hall",
+      "title": "Intelligence Squared: Marina Litvinenko on Russia, Putin and Resistance",
+      "url": "https://www.conwayhall.org.uk/whats-on/event/marina-litvinenko-on-russia-putin-and-resistance/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-09",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    }
+  ]
+}

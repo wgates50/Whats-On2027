@@ -1,0 +1,59 @@
+{
+  "sourceId": "lightroom",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://lightroom.uk/whats-on/larger-than-life/"
+    ],
+    "cards": {
+      "item": "div.c-event-card.c-col",
+      "dates": "time.c-event-card__daterange"
+    }
+  },
+  "events": [
+    {
+      "id": "lightroom:whats-on-larger-than-life",
+      "venueId": "lightroom",
+      "sourceId": "lightroom",
+      "title": "Larger Than Life: Starring Wallace & Gromit, Shaun and More",
+      "url": "https://lightroom.uk/whats-on/larger-than-life/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-01-04",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.lightroom.uk/uploads/2026/03/LTL_StaticButtons_ImageUpdate10_1920x1080.jpeg?resize=16%2C10&gravity"
+    },
+    {
+      "id": "lightroom:whats-on-david-bowie-youre-not-alone",
+      "venueId": "lightroom",
+      "sourceId": "lightroom",
+      "title": "David Bowie: You're Not Alone",
+      "url": "https://lightroom.uk/whats-on/david-bowie-youre-not-alone/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.lightroom.uk/uploads/2026/02/DB_StaticButtons11_1920x1080-1.jpg?resize=16%2C10&gravity"
+    },
+    {
+      "id": "lightroom:whats-on-matisse-joy",
+      "venueId": "lightroom",
+      "sourceId": "lightroom",
+      "title": "Matisse: Joy",
+      "url": "https://lightroom.uk/whats-on/matisse-joy/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-01-27",
+      "endDate": "2027-05-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.lightroom.uk/uploads/2026/09/Matisse_16by9_Website-Masthead_9.8mb-2-scaled.jpg?resize=16%2C10&gravity"
+    }
+  ]
+}

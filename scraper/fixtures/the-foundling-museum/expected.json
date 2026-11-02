@@ -1,0 +1,164 @@
+{
+  "sourceId": "the-foundling-museum",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://foundlingmuseum.org.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "span.date"
+    }
+  },
+  "events": [
+    {
+      "id": "the-foundling-museum:event-where-we-grow",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Where We Grow: nature, nurture & childhood",
+      "url": "https://foundlingmuseum.org.uk/event/where-we-grow/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-17",
+      "endDate": "2027-04-18",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-voices-in-the-room",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Voices in the Room",
+      "url": "https://foundlingmuseum.org.uk/event/voices-in-the-room/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-06-16",
+      "endDate": "2026-11-29",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-yap-jose-teixeira",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Young Artists’ Platform: José Teixeira",
+      "url": "https://foundlingmuseum.org.uk/event/yap-jose-teixeira/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-women-gin-and-sin-immersive-tour-and-gin-tasting",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Women, Gin & ‘Sin’: Immersive Tour & Gin Tasting",
+      "url": "https://foundlingmuseum.org.uk/event/women-gin-and-sin-immersive-tour-and-gin-tasting/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-sunday-drop-in-tours-8-nov",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Sunday Drop-In Tours",
+      "url": "https://foundlingmuseum.org.uk/event/sunday-drop-in-tours-8-nov/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-harlots-strumpets-tarts-walking-tour-20-november",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Harlots, Strumpets & Tarts Walking Tour",
+      "url": "https://foundlingmuseum.org.uk/event/harlots-strumpets-tarts-walking-tour-20-november/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-20",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-hymn-to-fertility",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Hymn to Fertility: Paul Klee & the well-gardened painting",
+      "url": "https://foundlingmuseum.org.uk/event/hymn-to-fertility/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-20",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-hymn-to-fertility-online",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Hymn to Fertility: Paul Klee & the well-gardened painting",
+      "url": "https://foundlingmuseum.org.uk/event/hymn-to-fertility-online/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-20",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-material-memories-reshaping-the-token",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Material Memories: Reshaping the Token",
+      "url": "https://foundlingmuseum.org.uk/event/material-memories-reshaping-the-token/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-drink-death-and-debauchery-walking-tour-22-november",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Drink, Death & Debauchery Walking Tour",
+      "url": "https://foundlingmuseum.org.uk/event/drink-death-and-debauchery-walking-tour-22-november/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-sunday-drop-in-tours-22-nov",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Sunday Drop-In Tours",
+      "url": "https://foundlingmuseum.org.uk/event/sunday-drop-in-tours-22-nov/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-foundling-museum:event-photograph-embroidery-workshop",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "Photograph Embroidery Workshop",
+      "url": "https://foundlingmuseum.org.uk/event/photograph-embroidery-workshop/",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}
