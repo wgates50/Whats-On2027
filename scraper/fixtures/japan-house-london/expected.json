@@ -1,0 +1,82 @@
+{
+  "sourceId": "japan-house-london",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.japanhouselondon.uk/whats-on/"
+    ],
+    "linkPattern": "^https://www\\.japanhouselondon\\.uk/whats-on/[^/?#]+/?$",
+    "maxLinks": 40
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "japan-house-london:whats-on-traditionrebellion-coming-of-age-style-in-kitakyushu-japan",
+      "venueId": "japan-house-london",
+      "sourceId": "japan-house-london",
+      "title": "Tradition/Rebellion: Coming-of-Age Style in Kitakyushu, Japan",
+      "url": "https://www.japanhouselondon.uk/whats-on/traditionrebellion-coming-of-age-style-in-kitakyushu-japan/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-11",
+      "endDate": "2027-04-18",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://assets.japanhouselondon.uk/production/uploads/2026/09/traditionrebellion-coming-of-age-style-in-kitakyushu-japan-1193827728.jpg",
+      "description": "From fur-trimmed kimono to gravity-defying hair, Tradition/Rebellion is a world of colour and creativity.",
+      "price": "free"
+    },
+    {
+      "id": "japan-house-london:whats-on-traditionrebellion-exhibition-gallery-tour-by-exhibition-curators",
+      "venueId": "japan-house-london",
+      "sourceId": "japan-house-london",
+      "title": "Tradition/Rebellion exhibition gallery tour by exhibition curators",
+      "url": "https://www.japanhouselondon.uk/whats-on/traditionrebellion-exhibition-gallery-tour-by-exhibition-curators/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "14:00",
+      "image": "https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://assets.japanhouselondon.uk/production/uploads/2026/10/traditionrebellion-exhibition-gallery-tour-by-exhibition-curators-1196587300.jpg",
+      "description": "rom striking fur-trimmed kimono to gravity-defying hairstyles, explore the extraordinary world of this Japanese subculture.",
+      "price": "free"
+    },
+    {
+      "id": "japan-house-london:whats-on-beyond-the-realm-of-fashion-talk-by-curator-yamaguchi-souta",
+      "venueId": "japan-house-london",
+      "sourceId": "japan-house-london",
+      "title": "Beyond the realm of fashion: Talk by curator Yamaguchi Souta",
+      "url": "https://www.japanhouselondon.uk/whats-on/beyond-the-realm-of-fashion-talk-by-curator-yamaguchi-souta/",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:30",
+      "image": "https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://assets.japanhouselondon.uk/production/uploads/2026/10/beyond-the-realm-of-fashion-talk-by-curator-yamaguchi-souta-1196760566.jpg",
+      "description": "For the opening of Tradition/Rebellion exhibition, co-curator Yamaguchi Souta offers insights into how fashion can contribute to culture.",
+      "price": "free"
+    },
+    {
+      "id": "japan-house-london:whats-on-building-a-sustainable-future-from-an-industrial-past",
+      "venueId": "japan-house-london",
+      "sourceId": "japan-house-london",
+      "title": "Building a sustainable future from an industrial past",
+      "url": "https://www.japanhouselondon.uk/whats-on/building-a-sustainable-future-from-an-industrial-past/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:30",
+      "image": "https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://assets.japanhouselondon.uk/production/uploads/2026/10/building-a-sustainable-future-from-an-industrial-past-1196348887.jpg",
+      "description": "Mayor Takeuchi Kazuhisa of Kitakyushu City gives a talk on the city’s vision for a sustainable society.",
+      "price": "free"
+    }
+  ]
+}

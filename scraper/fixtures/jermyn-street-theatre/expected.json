@@ -1,0 +1,70 @@
+{
+  "sourceId": "jermyn-street-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.jermynstreettheatre.co.uk/"
+    ],
+    "linkPattern": "^https://www\\.jermynstreettheatre\\.co\\.uk/show/[^/?#]+/?$",
+    "maxLinks": 40,
+    "detail": {
+      "dates": "div.dates"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "jermyn-street-theatre:show-the-archive-speaks",
+      "venueId": "jermyn-street-theatre",
+      "sourceId": "jermyn-street-theatre",
+      "title": "The Archive Speaks",
+      "url": "https://www.jermynstreettheatre.co.uk/show/the-archive-speaks/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-03-02",
+      "endDate": "2028-03-02",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "jermyn-street-theatre:show-ghosts",
+      "venueId": "jermyn-street-theatre",
+      "sourceId": "jermyn-street-theatre",
+      "title": "Ghosts",
+      "url": "https://www.jermynstreettheatre.co.uk/show/ghosts/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-10-08",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "jermyn-street-theatre:show-its-a-wonderful-life",
+      "venueId": "jermyn-street-theatre",
+      "sourceId": "jermyn-street-theatre",
+      "title": "It's A Wonderful Life!",
+      "url": "https://www.jermynstreettheatre.co.uk/show/its-a-wonderful-life/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-19",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "jermyn-street-theatre:show-orwell-the-road-to-1984",
+      "venueId": "jermyn-street-theatre",
+      "sourceId": "jermyn-street-theatre",
+      "title": "ORWELL - The Road to 1984",
+      "url": "https://www.jermynstreettheatre.co.uk/show/orwell-the-road-to-1984/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

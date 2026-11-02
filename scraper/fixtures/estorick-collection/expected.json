@@ -1,0 +1,70 @@
+{
+  "sourceId": "estorick-collection",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.estorickcollection.com/events"
+    ],
+    "linkPattern": "^https://www\\.estorickcollection\\.com/events/[^/?#]+/?$",
+    "maxLinks": 40,
+    "detail": {
+      "dates": "p.u-space--mb-n"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "estorick-collection:events-mini-marvels-early-years-sensory-play-11-november",
+      "venueId": "estorick-collection",
+      "sourceId": "estorick-collection",
+      "title": "Mini Marvels: Early Years Sensory Play",
+      "url": "https://www.estorickcollection.com/events/mini-marvels-early-years-sensory-play-11-november",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "estorick-collection:events-life-drawing-at-the-museum-18-november",
+      "venueId": "estorick-collection",
+      "sourceId": "estorick-collection",
+      "title": "Life Drawing at the Museum",
+      "url": "https://www.estorickcollection.com/events/life-drawing-at-the-museum-18-november",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "estorick-collection:events-family-art-day-29-november",
+      "venueId": "estorick-collection",
+      "sourceId": "estorick-collection",
+      "title": "Family Art Day: Discover, Play and Share",
+      "url": "https://www.estorickcollection.com/events/family-art-day-29-november",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-29",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "estorick-collection:events-life-drawing-at-the-museum-9-december",
+      "venueId": "estorick-collection",
+      "sourceId": "estorick-collection",
+      "title": "Life Drawing at the Museum",
+      "url": "https://www.estorickcollection.com/events/life-drawing-at-the-museum-9-december",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-12-09",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

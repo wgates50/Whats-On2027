@@ -1,0 +1,48 @@
+{
+  "sourceId": "white-cube-masons-yard",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.whitecube.com/exhibitions/london"
+    ],
+    "cards": {
+      "item": "div.gap-y-18:has(a[href*='/gallery-exhibitions/'])",
+      "link": "h3 a",
+      "title": "h3 a > span:first-child",
+      "dates": "div > p:first-child",
+      "venue": "p.font-medium a"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "white-cube-masons-yard:gallery-exhibitions-firenze-lai-masons-yard-2026",
+      "venueId": "white-cube-masons-yard",
+      "sourceId": "white-cube-masons-yard",
+      "title": "Firenze Lai",
+      "url": "https://www.whitecube.com/gallery-exhibitions/firenze-lai-masons-yard-2026",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "white-cube-masons-yard:gallery-exhibitions-louise-giovanelli-masons-yard-2026",
+      "venueId": "white-cube-masons-yard",
+      "sourceId": "white-cube-masons-yard",
+      "title": "Louise Giovanelli",
+      "url": "https://www.whitecube.com/gallery-exhibitions/louise-giovanelli-masons-yard-2026",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-20",
+      "endDate": "2027-01-16",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

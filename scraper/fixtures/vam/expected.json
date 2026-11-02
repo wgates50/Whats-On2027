@@ -20,6 +20,7 @@
     "linkPattern": "^https://www\\.vam\\.ac\\.uk/exhibitions/[^/?#]+$",
     "maxLinks": 40
   },
+  "rawCount": 98,
   "events": [
     {
       "id": "young-v-and-a:exhibitions-inside-aardman-wallace-gromit-and-friends",

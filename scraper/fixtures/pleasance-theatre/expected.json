@@ -1,0 +1,70 @@
+{
+  "sourceId": "pleasance-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.pleasance.co.uk/events"
+    ],
+    "linkPattern": "^https://www\\.pleasance\\.co\\.uk/event/[^/?#]+/?$",
+    "maxLinks": 40,
+    "detail": {
+      "dates": "p.show--dateline.border-top"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "pleasance-theatre:event-von-hertzen-brothers-acoustic-enough",
+      "venueId": "pleasance-theatre",
+      "sourceId": "pleasance-theatre",
+      "title": "Von Hertzen Brothers Acoustic (enough)",
+      "url": "https://www.pleasance.co.uk/event/von-hertzen-brothers-acoustic-enough",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "pleasance-theatre:event-josh-berry-work-progress",
+      "venueId": "pleasance-theatre",
+      "sourceId": "pleasance-theatre",
+      "title": "Josh Berry - Work in Progress",
+      "url": "https://www.pleasance.co.uk/event/josh-berry-work-progress",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": "2026-12-01",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "pleasance-theatre:event-james-barr-sorry-i-hurt-your-son-said-my-ex-my-mum",
+      "venueId": "pleasance-theatre",
+      "sourceId": "pleasance-theatre",
+      "title": "James Barr - Sorry I Hurt Your Son, Said My Ex To My Mum",
+      "url": "https://www.pleasance.co.uk/event/james-barr-sorry-i-hurt-your-son-said-my-ex-my-mum",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "pleasance-theatre:event-remember-remember",
+      "venueId": "pleasance-theatre",
+      "sourceId": "pleasance-theatre",
+      "title": "Remember, Remember!",
+      "url": "https://www.pleasance.co.uk/event/remember-remember",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

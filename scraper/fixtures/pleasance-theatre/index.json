@@ -1,0 +1,32 @@
+{
+  "https://www.pleasance.co.uk/events": {
+    "file": "fe6affb16ac7.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.pleasance.co.uk/events",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.pleasance.co.uk/event/von-hertzen-brothers-acoustic-enough": {
+    "file": "4a82c41832dd.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.pleasance.co.uk/event/von-hertzen-brothers-acoustic-enough",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.pleasance.co.uk/event/josh-berry-work-progress": {
+    "file": "86658a0ac05e.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.pleasance.co.uk/event/josh-berry-work-progress",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.pleasance.co.uk/event/james-barr-sorry-i-hurt-your-son-said-my-ex-my-mum": {
+    "file": "852d004caba5.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.pleasance.co.uk/event/james-barr-sorry-i-hurt-your-son-said-my-ex-my-mum",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.pleasance.co.uk/event/remember-remember": {
+    "file": "5dabec1597ff.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.pleasance.co.uk/event/remember-remember",
+    "contentType": "text/html; charset=UTF-8"
+  }
+}

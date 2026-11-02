@@ -1,0 +1,38 @@
+{
+  "sourceId": "pace-london",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.pacegallery.com/exhibitions/"
+    ],
+    "cards": {
+      "item": "a.index-grid__link",
+      "title": "h3.index-grid__text-title",
+      "dates": "p.index-grid__text-date",
+      "venue": "p.index-grid__text-location",
+      "description": "p.index-grid__text-subtitle"
+    }
+  },
+  "rawCount": 11,
+  "events": [
+    {
+      "id": "pace-london:exhibitions-kylie-manning-the-mudlarkers",
+      "venueId": "pace-london",
+      "sourceId": "pace-london",
+      "title": "Kylie Manning",
+      "url": "https://www.pacegallery.com/exhibitions/kylie-manning-the-mudlarkers/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.pacegallery.com/media/images/1029211keypSdp-LL8oCP9hHWXDmo7eA.width-2000.webp",
+      "description": "The Mudlarkers"
+    }
+  ]
+}

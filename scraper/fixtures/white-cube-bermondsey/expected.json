@@ -1,0 +1,48 @@
+{
+  "sourceId": "white-cube-bermondsey",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.whitecube.com/exhibitions/london"
+    ],
+    "cards": {
+      "item": "div.gap-y-18:has(a[href*='/gallery-exhibitions/'])",
+      "link": "h3 a",
+      "title": "h3 a > span:first-child",
+      "dates": "div > p:first-child",
+      "venue": "p.font-medium a"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "white-cube-bermondsey:gallery-exhibitions-gabriel-orozco-bermondsey-2026",
+      "venueId": "white-cube-bermondsey",
+      "sourceId": "white-cube-bermondsey",
+      "title": "Gabriel Orozco",
+      "url": "https://www.whitecube.com/gallery-exhibitions/gabriel-orozco-bermondsey-2026",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-16",
+      "endDate": "2026-11-08",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "white-cube-bermondsey:gallery-exhibitions-anselm-kiefer-bermondsey-2026",
+      "venueId": "white-cube-bermondsey",
+      "sourceId": "white-cube-bermondsey",
+      "title": "Anselm Kiefer",
+      "url": "https://www.whitecube.com/gallery-exhibitions/anselm-kiefer-bermondsey-2026",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-25",
+      "endDate": "2027-01-24",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

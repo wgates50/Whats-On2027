@@ -1,0 +1,141 @@
+{
+  "sourceId": "british-library",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://events.bl.uk/"
+    ],
+    "cards": {
+      "item": "a.c-media.c-media--link",
+      "dates": "time"
+    }
+  },
+  "rawCount": 9,
+  "events": [
+    {
+      "id": "british-library:exhibitions-agathachristie",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Agatha Christie: A World of Mystery",
+      "url": "https://events.bl.uk/exhibitions/agathachristie",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-30",
+      "endDate": "2027-06-20",
+      "firstSeen": "2026-11-02",
+      "image": "https://british-library.transforms.svdcdn.com/production/Cultural-Events/Agatha-A-world-of-Mystery.jpg?w=842&h=337&q=100&auto=format&fit=crop&dm=1782920989&s=d50294bbc880e4a9ef95ab837b0aa61d"
+    },
+    {
+      "id": "british-library:exhibitions-conquest-the-making-of-norman-england",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Conquest: The Making of Norman England",
+      "url": "https://events.bl.uk/exhibitions/conquest-the-making-of-norman-england",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-10-01",
+      "endDate": "2028-02-27",
+      "firstSeen": "2026-11-02",
+      "image": "https://british-library.transforms.svdcdn.com/production/Exhibitions/conquest_normans_holding-webpage.jpg?w=842&h=337&q=100&auto=format&fit=crop&dm=1782732293&s=3886050ff8f96009b2113f7c59157023"
+    },
+    {
+      "id": "british-library:events-china-mieville-presents-the-rouse",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "China Miéville presents The Rouse",
+      "url": "https://events.bl.uk/events/china-mieville-presents-the-rouse",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30",
+      "image": "https://british-library.transforms.svdcdn.com/production/Cultural-Events/China-Mieville-c-Barney-Cokeliss-crop.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1786549034&s=ba1c70f98c3d093c489305023b813bec"
+    },
+    {
+      "id": "british-library:events-how-to-master-the-art-of-grant-fundraising",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "How to master the art of grant fundraising",
+      "url": "https://events.bl.uk/events/how-to-master-the-art-of-grant-fundraising",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "11:00",
+      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/bl_bipc_speed_dating_shoot_28_01_2026_003.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1791991045&s=27cdc2cde4409708e88d2457867faafb"
+    },
+    {
+      "id": "british-library:events-coaching-session-4-financial-planning",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Coaching session 4: Financial planning",
+      "url": "https://events.bl.uk/events/coaching-session-4-financial-planning",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-04",
+      "endDate": "2026-12-18",
+      "firstSeen": "2026-11-02",
+      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/Coaching-Sessions-web-header.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1791988236&s=55f29768ceb4de8ca1d6d8670720c3ba"
+    },
+    {
+      "id": "british-library:events-teacher-cpd-oscar-wilde-in-context",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Teacher CPD: Oscar Wilde in Context",
+      "url": "https://events.bl.uk/events/teacher-cpd-oscar-wilde-in-context",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "16:00",
+      "image": "https://british-library.transforms.svdcdn.com/production/Digital-Learning/Photograph-of-Oscar-Wilde.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1787739721&s=561624cec70700dce7acce1289b1ee93"
+    },
+    {
+      "id": "british-library:events-history-of-medicine-study-day",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "History of Medicine Study Day",
+      "url": "https://events.bl.uk/events/history-of-medicine-study-day",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-05",
+      "endDate": "2027-01-11",
+      "firstSeen": "2026-11-02",
+      "image": "https://british-library.transforms.svdcdn.com/production/School-workshops-London/history-of-medicine-study-day-event-image.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1785165033&s=4aa1c6c14431efbf2e41fa47ffe2a2f2"
+    },
+    {
+      "id": "british-library:events-coaching-session-1-is-starting-a-business-for-me",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Coaching session 1: Is starting a business for me?",
+      "url": "https://events.bl.uk/events/coaching-session-1-is-starting-a-business-for-me",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-17",
+      "firstSeen": "2026-11-02",
+      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/Coaching-Sessions-web-header.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1791988236&s=55f29768ceb4de8ca1d6d8670720c3ba"
+    },
+    {
+      "id": "british-library:events-coaching-sessions-2-3-research-viability-and-business-planning",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Coaching sessions 2 & 3: Research viability and business planning",
+      "url": "https://events.bl.uk/events/coaching-sessions-2-3-research-viability-and-business-planning",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-17",
+      "firstSeen": "2026-11-02",
+      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/Coaching-Sessions-web-header.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1791988236&s=55f29768ceb4de8ca1d6d8670720c3ba"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "sourceId": "southwark-playhouse-borough",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://southwarkplayhouse.co.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "article.wpgb-card",
+      "link": "a[href*='/productions/']",
+      "title": ".lexend",
+      "dates": "div.museo-sans",
+      "venue": "span.wpgb-block-term:contains('Venue:')"
+    }
+  },
+  "rawCount": 9,
+  "events": [
+    {
+      "id": "southwark-playhouse-borough:productions-dog-mom",
+      "venueId": "southwark-playhouse-borough",
+      "sourceId": "southwark-playhouse-borough",
+      "title": "Dog Mom",
+      "url": "https://southwarkplayhouse.co.uk/productions/dog-mom/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-10-14",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://southwarkplayhouse.co.uk/wp-content/uploads/2022/11/Borough-Badge-Tab.svg"
+    },
+    {
+      "id": "southwark-playhouse-borough:productions-memoriam",
+      "venueId": "southwark-playhouse-borough",
+      "sourceId": "southwark-playhouse-borough",
+      "title": "Memoriam",
+      "url": "https://southwarkplayhouse.co.uk/productions/memoriam/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://southwarkplayhouse.co.uk/wp-content/uploads/2022/11/Borough-Badge-Tab.svg"
+    },
+    {
+      "id": "southwark-playhouse-borough:productions-relative-motion",
+      "venueId": "southwark-playhouse-borough",
+      "sourceId": "southwark-playhouse-borough",
+      "title": "Relative Motion",
+      "url": "https://southwarkplayhouse.co.uk/productions/relative-motion/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": "2026-12-05",
+      "firstSeen": "2026-11-02",
+      "image": "https://southwarkplayhouse.co.uk/wp-content/uploads/2022/11/Borough-Badge-Tab.svg"
+    },
+    {
+      "id": "southwark-playhouse-borough:productions-fly-you-fools",
+      "venueId": "southwark-playhouse-borough",
+      "sourceId": "southwark-playhouse-borough",
+      "title": "Fly, You Fools!",
+      "url": "https://southwarkplayhouse.co.uk/productions/fly-you-fools/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-25",
+      "endDate": "2027-01-16",
+      "firstSeen": "2026-11-02",
+      "image": "https://southwarkplayhouse.co.uk/wp-content/uploads/2022/11/Borough-Badge-Tab.svg"
+    },
+    {
+      "id": "southwark-playhouse-borough:productions-sherlocks-last-tape",
+      "venueId": "southwark-playhouse-borough",
+      "sourceId": "southwark-playhouse-borough",
+      "title": "Sherlock's Last Tape",
+      "url": "https://southwarkplayhouse.co.uk/productions/sherlocks-last-tape/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-10",
+      "endDate": "2027-01-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://southwarkplayhouse.co.uk/wp-content/uploads/2022/11/Borough-Badge-Tab.svg"
+    },
+    {
+      "id": "southwark-playhouse-borough:productions-brixton-calling",
+      "venueId": "southwark-playhouse-borough",
+      "sourceId": "southwark-playhouse-borough",
+      "title": "Brixton Calling",
+      "url": "https://southwarkplayhouse.co.uk/productions/brixton-calling/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-22",
+      "endDate": "2027-03-13",
+      "firstSeen": "2026-11-02",
+      "image": "https://southwarkplayhouse.co.uk/wp-content/uploads/2022/11/Borough-Badge-Tab.svg"
+    },
+    {
+      "id": "southwark-playhouse-borough:productions-the-radium-girls",
+      "venueId": "southwark-playhouse-borough",
+      "sourceId": "southwark-playhouse-borough",
+      "title": "The Radium Girls",
+      "url": "https://southwarkplayhouse.co.uk/productions/the-radium-girls/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-20",
+      "endDate": "2027-05-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://southwarkplayhouse.co.uk/wp-content/uploads/2022/11/Borough-Badge-Tab.svg"
+    }
+  ]
+}

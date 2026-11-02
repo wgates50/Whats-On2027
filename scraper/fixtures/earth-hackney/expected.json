@@ -15,6 +15,7 @@
       "dates": "div.list--events__item__dates"
     }
   },
+  "rawCount": 69,
   "events": [
     {
       "id": "earth-hackney:events-shame-sorry-trans-healthcare-fundraiser-2nd-nov-earth-london-tickets-oemy",
@@ -939,6 +940,20 @@
       "firstSeen": "2026-11-02",
       "startTime": "19:30",
       "image": "https://dice-media.imgix.net/attachments/2026-10-21/0055174f-d42b-466f-a619-9ef22c31756c.jpg?auto=format&compress&q=70&h=800&w=800&fit=crop&crop=faces,center"
+    },
+    {
+      "id": "earth-hackney:events-15th-jun-earth-london-tickets-dk7a2o",
+      "venueId": "earth-hackney",
+      "sourceId": "earth-hackney",
+      "title": "@ Songwriters Victoria Rose and Stone Filipczak have a pact, a devotion to each other and to the music of @. In their solo existence, Victoria…",
+      "url": "https://earthackney.co.uk/events/15th-jun-earth-london-tickets-dk7a2o/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-15",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-14/7911449c-8d2a-42f1-aa2f-1e7397e992cc.jpg?auto=format&compress&q=70&h=800&w=800&fit=crop&crop=faces,center"
     },
     {
       "id": "earth-hackney:events-john-vincent-iii-17th-jun-earth-london-tickets-3ogyrg",

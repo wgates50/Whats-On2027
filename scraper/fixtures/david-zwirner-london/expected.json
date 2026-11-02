@@ -1,0 +1,29 @@
+{
+  "sourceId": "david-zwirner-london",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.davidzwirner.com/exhibitions"
+    ]
+  },
+  "rawCount": 8,
+  "events": [
+    {
+      "id": "david-zwirner-london:2026-no-plan-at-all-prints-from-borch-editions",
+      "venueId": "david-zwirner-london",
+      "sourceId": "david-zwirner-london",
+      "title": "No Plan at All: Prints from BORCH Editions",
+      "url": "https://www.davidzwirner.com/exhibitions/2026/no-plan-at-all-prints-from-borch-editions",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-19",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

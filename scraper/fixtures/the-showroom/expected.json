@@ -1,0 +1,73 @@
+{
+  "sourceId": "the-showroom",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://theshowroom.org/whats-on/"
+    ],
+    "cards": {
+      "item": "a.block",
+      "dates": "time"
+    }
+  },
+  "rawCount": 8,
+  "events": [
+    {
+      "id": "the-showroom:events-rites-to-the-city-violence-finance-and-the-sacred",
+      "venueId": "the-showroom",
+      "sourceId": "the-showroom",
+      "title": "Panel Discussion: Finance and the Sacred",
+      "url": "https://theshowroom.org/events/rites-to-the-city-violence-finance-and-the-sacred",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://theshowroom.org/media/pages/events/rites-to-the-city-violence-finance-and-the-sacred/b46f9f3f1e-1791207222/still-from-mural-300x225-crop.png"
+    },
+    {
+      "id": "the-showroom:events-polisonics-community-listening-in-action",
+      "venueId": "the-showroom",
+      "sourceId": "the-showroom",
+      "title": "Polisonics: Community Listening in Action",
+      "url": "https://theshowroom.org/events/polisonics-community-listening-in-action",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://theshowroom.org/media/pages/events/polisonics-community-listening-in-action/b2b39056d5-1791210737/screenshot-2026-10-05-at-15.25.20-300x225-crop.png"
+    },
+    {
+      "id": "the-showroom:events-gregory-sholette-the-radical-unpresent",
+      "venueId": "the-showroom",
+      "sourceId": "the-showroom",
+      "title": "Gregory Sholette: The Radical Unpresent",
+      "url": "https://theshowroom.org/events/gregory-sholette-the-radical-unpresent",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://theshowroom.org/media/pages/events/gregory-sholette-the-radical-unpresent/1b05c8eeee-1791208428/9780262054119_fc-300x225-crop-49-7-12-6.jpg"
+    },
+    {
+      "id": "the-showroom:events-bahar-noorizadeh-reuter-in-tehran",
+      "venueId": "the-showroom",
+      "sourceId": "the-showroom",
+      "title": "Bahar Noorizadeh: Reuter in Tehran",
+      "url": "https://theshowroom.org/events/bahar-noorizadeh-reuter-in-tehran",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2027-01-30",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://theshowroom.org/media/pages/events/bahar-noorizadeh-reuter-in-tehran/97ee858d5c-1791212431/20260410__reuter-in-tehran_coopergallery__rfm-studiororo_b_0037-enhanced-nr-300x225-crop.png"
+    }
+  ]
+}

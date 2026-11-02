@@ -1,0 +1,32 @@
+{
+  "https://www.estorickcollection.com/events": {
+    "file": "1808475c1f6f.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.estorickcollection.com/events",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.estorickcollection.com/events/mini-marvels-early-years-sensory-play-11-november": {
+    "file": "66210214b250.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.estorickcollection.com/events/mini-marvels-early-years-sensory-play-11-november",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.estorickcollection.com/events/life-drawing-at-the-museum-18-november": {
+    "file": "5387d74f04c2.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.estorickcollection.com/events/life-drawing-at-the-museum-18-november",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.estorickcollection.com/events/family-art-day-29-november": {
+    "file": "5e810a086cf4.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.estorickcollection.com/events/family-art-day-29-november",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.estorickcollection.com/events/life-drawing-at-the-museum-9-december": {
+    "file": "c12b313cdfae.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.estorickcollection.com/events/life-drawing-at-the-museum-9-december",
+    "contentType": "text/html; charset=UTF-8"
+  }
+}

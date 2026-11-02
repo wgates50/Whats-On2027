@@ -1,0 +1,32 @@
+{
+  "https://www.japanhouselondon.uk/whats-on/": {
+    "file": "ddfe5ef15839.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.japanhouselondon.uk/whats-on/",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.japanhouselondon.uk/whats-on/traditionrebellion-coming-of-age-style-in-kitakyushu-japan/": {
+    "file": "c2f18e41b9c9.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.japanhouselondon.uk/whats-on/traditionrebellion-coming-of-age-style-in-kitakyushu-japan/",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.japanhouselondon.uk/whats-on/traditionrebellion-exhibition-gallery-tour-by-exhibition-curators/": {
+    "file": "3c11426ddef4.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.japanhouselondon.uk/whats-on/traditionrebellion-exhibition-gallery-tour-by-exhibition-curators/",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.japanhouselondon.uk/whats-on/beyond-the-realm-of-fashion-talk-by-curator-yamaguchi-souta/": {
+    "file": "5bf51eeb6eb7.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.japanhouselondon.uk/whats-on/beyond-the-realm-of-fashion-talk-by-curator-yamaguchi-souta/",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.japanhouselondon.uk/whats-on/building-a-sustainable-future-from-an-industrial-past/": {
+    "file": "04aa4b9430ef.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.japanhouselondon.uk/whats-on/building-a-sustainable-future-from-an-industrial-past/",
+    "contentType": "text/html; charset=utf-8"
+  }
+}

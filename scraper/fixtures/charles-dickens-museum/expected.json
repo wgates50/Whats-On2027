@@ -15,6 +15,7 @@
       "dates": "div"
     }
   },
+  "rawCount": 9,
   "events": [
     {
       "id": "charles-dickens-museum:all-events-in-conversation-with-elly-griffiths",
@@ -48,12 +49,11 @@
       "sourceId": "charles-dickens-museum",
       "title": "Christmas Eve at the Charles Dickens Museum",
       "url": "https://dickensmuseum.com/blogs/all-events/christmas-eve-at-the-charles-dickens-museum",
-      "type": "exhibition",
-      "category": "exhibitions",
+      "type": "event",
+      "category": "art-events",
       "startDate": "2026-12-24",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "ongoing": true
+      "firstSeen": "2026-11-02"
     },
     {
       "id": "charles-dickens-museum:all-events-victorian-christmas-dickens",

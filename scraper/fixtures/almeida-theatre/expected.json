@@ -15,6 +15,7 @@
       "dates": "div.c-event-card__content"
     }
   },
+  "rawCount": 12,
   "events": [
     {
       "id": "almeida-theatre:whats-on-desire-under-the-elms",
@@ -37,8 +38,8 @@
       "url": "https://almeida.co.uk/whats-on/angel-to-olympus/",
       "type": "show",
       "category": "shows",
-      "startDate": null,
-      "endDate": "2026-12-06",
+      "startDate": "2026-12-06",
+      "endDate": null,
       "firstSeen": "2026-11-02",
       "image": "https://images.almeida.co.uk/uploads/2026/10/Website-YC-Artwork-v3.jpg?resize=16%2C10&gravity"
     },

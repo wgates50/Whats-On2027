@@ -159,7 +159,8 @@
     "name": "IWM London",
     "aliases": [
       "Imperial War Museum",
-      "Imperial War Museum London"
+      "Imperial War Museum London",
+      "Imperial War Museum London (IWM London)"
     ],
     "kind": "museum",
     "area": "Lambeth",
@@ -471,7 +472,7 @@
     "website": "https://www.fashiontextilemuseum.org",
     "lat": 51.50119,
     "lng": -0.08167,
-    "notes": "Site unreachable during setup probe — retry."
+    "notes": "Website didn't respond to the setup environment's network; retry from GitHub Actions (npm run probe -- <id>)."
   },
   {
     "id": "london-transport-museum",
@@ -512,7 +513,7 @@
     "website": "https://www.quentinblakecentre.org",
     "lat": 51.52859,
     "lng": -0.10764,
-    "notes": "Site unreachable during setup probe — retry."
+    "notes": "Website didn't respond to the setup environment's network; retry from GitHub Actions (npm run probe -- <id>)."
   },
   {
     "id": "garden-museum",
@@ -600,7 +601,10 @@
     "name": "Ben Uri Gallery",
     "kind": "public-gallery",
     "area": "St John's Wood",
-    "website": "https://benuri.org"
+    "website": "https://benuri.org",
+    "aliases": [
+      "Ben Uri Collection"
+    ]
   },
   {
     "id": "pitzhanger-manor-and-gallery",
@@ -677,7 +681,10 @@
     "name": "Goldsmiths CCA",
     "kind": "public-gallery",
     "area": "New Cross",
-    "website": "https://goldsmithscca.art"
+    "website": "https://goldsmithscca.art",
+    "aliases": [
+      "Goldsmiths Centre for Contemporary Art"
+    ]
   },
   {
     "id": "newport-street-gallery",
@@ -1019,7 +1026,8 @@
     "area": "Mayfair",
     "website": "https://www.annelyjudafineart.co.uk",
     "lat": 51.51434,
-    "lng": -0.14451
+    "lng": -0.14451,
+    "notes": "Probe found only art-fair listings (not the London gallery) — needs a proper exhibitions page."
   },
   {
     "id": "waddington-custot",
@@ -1028,7 +1036,8 @@
     "area": "Mayfair",
     "website": "https://waddingtoncustot.com",
     "lat": 51.51009,
-    "lng": -0.14141
+    "lng": -0.14141,
+    "notes": "Probe picked individual artworks — needs an exhibitions-level listing."
   },
   {
     "id": "simon-lee-gallery",
@@ -1245,7 +1254,9 @@
     "area": "St James's",
     "website": "https://royalsociety.org",
     "lat": 51.50131,
-    "lng": -0.17525
+    "lng": -0.17525,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403)."
   },
   {
     "id": "conway-hall",
@@ -1370,10 +1381,10 @@
     ],
     "kind": "live-venue",
     "area": "Oxford Circus",
-    "website": "https://lwtheatres.co.uk/theatres/london-palladium/",
+    "website": "https://lwtheatres.co.uk/theatres/the-london-palladium/",
     "lat": 51.51453,
     "lng": -0.14016,
-    "notes": "Website URL 404s — find the current LW Theatres page for the Palladium."
+    "notes": "LW Theatres' what's-on lists all LW venues; Palladium shows come via Official London Theatre when listed."
   },
   {
     "id": "indigo-at-the-o2",
@@ -1841,7 +1852,7 @@
     "website": "https://www.rosetheatre.org",
     "lat": 51.40863,
     "lng": -0.3076,
-    "notes": "Site unreachable during setup probe — retry."
+    "notes": "Website redirect-loops for automated requests (needs cookies). Shows still come via Official London Theatre."
   },
   {
     "id": "the-yard-theatre",
@@ -1945,7 +1956,9 @@
     "area": "Clapham",
     "website": "https://www.omnibus-clapham.org",
     "lat": 51.46371,
-    "lng": -0.14239
+    "lng": -0.14239,
+    "manualOnly": true,
+    "notes": "robots.txt disallows automated access to the whole site."
   },
   {
     "id": "brixton-house",
@@ -1962,7 +1975,7 @@
     "kind": "theatre",
     "area": "Battersea",
     "website": "https://turbinetheatre.com",
-    "notes": "Site unreachable during setup probe — retry."
+    "notes": "Website didn't respond to the setup environment's network; retry from GitHub Actions (npm run probe -- <id>)."
   },
   {
     "id": "wiltons-music-hall",
@@ -2449,5 +2462,200 @@
     "website": "https://officiallondontheatre.com/venue/wyndhams-theatre/",
     "lat": 51.51111,
     "lng": -0.12805
+  },
+  {
+    "id": "the-linnean-society-of-london",
+    "name": "The Linnean Society of London",
+    "aliases": [
+      "Linnean Society"
+    ],
+    "kind": "museum",
+    "area": "Piccadilly",
+    "website": "https://www.linnean.org",
+    "lat": 51.50848,
+    "lng": -0.13926
+  },
+  {
+    "id": "vagina-museum",
+    "name": "Vagina Museum",
+    "kind": "museum",
+    "area": "Bethnal Green",
+    "website": "https://www.vaginamuseum.co.uk",
+    "lat": 51.53037,
+    "lng": -0.05705
+  },
+  {
+    "id": "royal-college-of-nursing-library-and-museum",
+    "name": "Royal College of Nursing Library and Museum",
+    "aliases": [
+      "RCN Library and Museum"
+    ],
+    "kind": "museum",
+    "area": "Marylebone",
+    "website": "https://www.rcn.org.uk/library"
+  },
+  {
+    "id": "florence-nightingale-museum",
+    "name": "Florence Nightingale Museum",
+    "kind": "museum",
+    "area": "Westminster Bridge",
+    "website": "https://www.florence-nightingale.co.uk",
+    "lat": 51.50001,
+    "lng": -0.11767
+  },
+  {
+    "id": "burgh-house",
+    "name": "Burgh House",
+    "aliases": [
+      "Burgh House & Hampstead Museum"
+    ],
+    "kind": "museum",
+    "area": "Hampstead",
+    "website": "https://burghhouse.org.uk",
+    "lat": 51.55819,
+    "lng": -0.17504
+  },
+  {
+    "id": "apsley-house",
+    "name": "Apsley House",
+    "kind": "museum",
+    "area": "Hyde Park Corner",
+    "website": "https://www.english-heritage.org.uk/visit/places/apsley-house/",
+    "lat": 51.50347,
+    "lng": -0.15171
+  },
+  {
+    "id": "anaesthesia-museum",
+    "name": "Anaesthesia Museum",
+    "aliases": [
+      "Anaesthesia Heritage Centre"
+    ],
+    "kind": "museum",
+    "area": "Marylebone",
+    "website": "https://anaesthetists.org/Home/Heritage-centre",
+    "lat": 51.51943,
+    "lng": -0.14507
+  },
+  {
+    "id": "london-mithraeum-bloomberg-space",
+    "name": "London Mithraeum Bloomberg SPACE",
+    "aliases": [
+      "London Mithraeum"
+    ],
+    "kind": "public-gallery",
+    "area": "City",
+    "website": "https://www.londonmithraeum.com",
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403); exhibitions come via Art Fund.",
+    "lat": 51.51238,
+    "lng": -0.09068
+  },
+  {
+    "id": "jewish-museum-london",
+    "name": "Jewish Museum London",
+    "kind": "museum",
+    "area": "Camden",
+    "website": "https://jewishmuseum.org.uk",
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403); exhibitions come via Art Fund.",
+    "lat": 51.5373,
+    "lng": -0.14458
+  },
+  {
+    "id": "headstone-manor-and-museum",
+    "name": "Headstone Manor & Museum",
+    "kind": "museum",
+    "area": "Harrow",
+    "website": "https://www.headstonemanor.org",
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403); exhibitions come via Art Fund."
+  },
+  {
+    "id": "royal-college-of-physicians-museum",
+    "name": "Royal College of Physicians Museum",
+    "kind": "museum",
+    "area": "Regent's Park",
+    "website": "https://history.rcp.ac.uk",
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403); exhibitions come via Art Fund.",
+    "lat": 51.52578,
+    "lng": -0.14479
+  },
+  {
+    "id": "the-brown-collection",
+    "name": "The Brown Collection",
+    "kind": "public-gallery",
+    "area": "Marylebone",
+    "website": "https://thebrowncollection.co.uk",
+    "notes": "Website address unverified (didn't resolve from the setup environment); exhibitions come via Art Fund.",
+    "lat": 51.51737,
+    "lng": -0.15046
+  },
+  {
+    "id": "the-fan-museum",
+    "name": "The Fan Museum",
+    "aliases": [
+      "Fan Museum"
+    ],
+    "kind": "museum",
+    "area": "Greenwich",
+    "website": "https://www.thefanmuseum.org.uk",
+    "lat": 51.4791,
+    "lng": -0.00807
+  },
+  {
+    "id": "studio-voltaire",
+    "name": "Studio Voltaire",
+    "kind": "public-gallery",
+    "area": "Clapham",
+    "website": "https://www.studiovoltaire.org",
+    "lat": 51.46208,
+    "lng": -0.13461
+  },
+  {
+    "id": "lux",
+    "name": "LUX",
+    "aliases": [
+      "LUX Moving Image"
+    ],
+    "kind": "public-gallery",
+    "area": "Hackney",
+    "website": "https://lux.org.uk",
+    "lat": 51.56844,
+    "lng": -0.14274
+  },
+  {
+    "id": "viktor-wynd-museum",
+    "name": "Viktor Wynd Museum of Curiosities",
+    "aliases": [
+      "Viktor Wynd Museum",
+      "The Viktor Wynd Museum of Curiosities, Fine Art & UnNatural History"
+    ],
+    "kind": "museum",
+    "area": "Hackney",
+    "website": "https://www.thelasttuesdaysociety.org",
+    "lat": 51.5347,
+    "lng": -0.05764
+  },
+  {
+    "id": "old-royal-naval-college",
+    "name": "Old Royal Naval College",
+    "aliases": [
+      "Painted Hall"
+    ],
+    "kind": "museum",
+    "area": "Greenwich",
+    "website": "https://ornc.org",
+    "lat": 51.48178,
+    "lng": -0.00663
+  },
+  {
+    "id": "mall-galleries",
+    "name": "Mall Galleries",
+    "kind": "public-gallery",
+    "area": "The Mall",
+    "website": "https://www.mallgalleries.org.uk",
+    "lat": 51.50653,
+    "lng": -0.12998
   }
 ]

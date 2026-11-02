@@ -1,0 +1,37 @@
+{
+  "sourceId": "thaddaeus-ropac-london",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://ropac.net/exhibitions/"
+    ],
+    "cards": {
+      "item": "a:has(div.dates)",
+      "title": "span.heading_title",
+      "dates": "div.dates_inner",
+      "venue": "div.location",
+      "description": "div.subtitle"
+    }
+  },
+  "rawCount": 39,
+  "events": [
+    {
+      "id": "thaddaeus-ropac-london:exhibitions-806-georg-baselitz-the-heroes-196566",
+      "venueId": "thaddaeus-ropac-london",
+      "sourceId": "thaddaeus-ropac-london",
+      "title": "Georg Baselitz",
+      "url": "https://ropac.net/exhibitions/806-georg-baselitz-the-heroes-196566/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-13",
+      "endDate": "2026-12-18",
+      "firstSeen": "2026-11-02",
+      "description": "The Heroes 1965–66"
+    }
+  ]
+}

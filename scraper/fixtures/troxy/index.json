@@ -1,0 +1,32 @@
+{
+  "https://troxy.co.uk/whats-on/": {
+    "file": "9a190c950269.html.gz",
+    "status": 200,
+    "finalUrl": "https://troxy.co.uk/whats-on/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://troxy.co.uk/event/dabeull/": {
+    "file": "6159d0a121bf.html.gz",
+    "status": 200,
+    "finalUrl": "https://troxy.co.uk/event/dabeull/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://troxy.co.uk/event/bassvictim-friends/": {
+    "file": "dbaf4e63a19b.html.gz",
+    "status": 200,
+    "finalUrl": "https://troxy.co.uk/event/bassvictim-friends/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/": {
+    "file": "97b5a454f886.html.gz",
+    "status": 200,
+    "finalUrl": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://troxy.co.uk/event/morcheeba/": {
+    "file": "3a8a6a09128f.html.gz",
+    "status": 200,
+    "finalUrl": "https://troxy.co.uk/event/morcheeba/",
+    "contentType": "text/html; charset=UTF-8"
+  }
+}

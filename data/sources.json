@@ -697,7 +697,7 @@
   {
     "id": "white-cube-masons-yard",
     "name": "White Cube Mason's Yard",
-    "enabled": false,
+    "enabled": true,
     "venueId": "white-cube-masons-yard",
     "adapter": {
       "type": "pages",
@@ -705,11 +705,36 @@
         "https://www.whitecube.com/exhibitions/london"
       ],
       "cards": {
-        "item": "div.flex.flex-col",
-        "dates": "div.flex.flex-col"
+        "item": "div.gap-y-18:has(a[href*='/gallery-exhibitions/'])",
+        "link": "h3 a",
+        "title": "h3 a > span:first-child",
+        "dates": "div > p:first-child",
+        "venue": "p.font-medium a"
       }
     },
-    "notes": "White Cube lists London, Paris, NY, HK, Seoul — needs a per-space filter (Mason's Yard vs Bermondsey)."
+    "venueFilter": "Mason",
+    "notes": "White Cube's London page lists both spaces; venueFilter picks Mason's Yard."
+  },
+  {
+    "id": "white-cube-bermondsey",
+    "name": "White Cube Bermondsey",
+    "enabled": true,
+    "venueId": "white-cube-bermondsey",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.whitecube.com/exhibitions/london"
+      ],
+      "cards": {
+        "item": "div.gap-y-18:has(a[href*='/gallery-exhibitions/'])",
+        "link": "h3 a",
+        "title": "h3 a > span:first-child",
+        "dates": "div > p:first-child",
+        "venue": "p.font-medium a"
+      }
+    },
+    "venueFilter": "Bermondsey",
+    "notes": "White Cube's London page lists both spaces; venueFilter picks Bermondsey."
   },
   {
     "id": "victoria-miro",
@@ -731,41 +756,49 @@
   {
     "id": "lisson-gallery",
     "name": "Lisson Gallery",
-    "enabled": false,
+    "enabled": true,
     "venueId": "lisson-gallery",
     "adapter": {
       "type": "pages",
       "listUrls": [
-        "https://lisson.com/exhibitions/carmen-herrera-lisson-london"
+        "https://lisson.com/exhibitions"
       ],
       "cards": {
         "item": "article.group.relative",
-        "dates": "div.text-body.mt-spacing-l"
+        "link": "a.cover",
+        "title": "h3",
+        "dates": "time",
+        "venue": "p.text-s.uppercase"
       }
     },
-    "notes": "Mixes in artists' museum shows elsewhere — needs a London-only filter."
+    "venueFilter": "^London$",
+    "notes": "All Lisson locations; venueFilter keeps London."
   },
   {
     "id": "thaddaeus-ropac-london",
     "name": "Thaddaeus Ropac London",
-    "enabled": false,
+    "enabled": true,
     "venueId": "thaddaeus-ropac-london",
     "adapter": {
       "type": "pages",
       "listUrls": [
-        "https://ropac.net/exhibitions/808-jordan-casteel-winter-sun/"
+        "https://ropac.net/exhibitions/"
       ],
       "cards": {
-        "item": "a",
-        "dates": "div.dates"
+        "item": "a:has(div.dates)",
+        "title": "span.heading_title",
+        "dates": "div.dates_inner",
+        "venue": "div.location",
+        "description": "div.subtitle"
       }
     },
-    "notes": "Lists all locations — needs a London-only filter."
+    "venueFilter": "London",
+    "notes": "All Ropac locations; venueFilter keeps London (Ely House)."
   },
   {
     "id": "pace-london",
     "name": "Pace London",
-    "enabled": false,
+    "enabled": true,
     "venueId": "pace-london",
     "adapter": {
       "type": "pages",
@@ -774,15 +807,19 @@
       ],
       "cards": {
         "item": "a.index-grid__link",
-        "dates": "p.index-grid__text-date"
+        "title": "h3.index-grid__text-title",
+        "dates": "p.index-grid__text-date",
+        "venue": "p.index-grid__text-location",
+        "description": "p.index-grid__text-subtitle"
       }
     },
-    "notes": "Pace lists all locations — needs a London-only filter."
+    "venueFilter": "^London",
+    "notes": "All Pace locations on one page; venueFilter keeps London."
   },
   {
     "id": "david-zwirner-london",
     "name": "David Zwirner London",
-    "enabled": false,
+    "enabled": true,
     "venueId": "david-zwirner-london",
     "adapter": {
       "type": "pages",
@@ -790,7 +827,8 @@
         "https://www.davidzwirner.com/exhibitions"
       ]
     },
-    "notes": "Zwirner lists all locations — needs a London-only filter."
+    "venueFilter": "^London$",
+    "notes": "Listing has JSON-LD events with location names; venueFilter keeps London."
   },
   {
     "id": "alison-jacques",
@@ -829,19 +867,20 @@
   {
     "id": "carlos-ishikawa",
     "name": "Carlos/Ishikawa",
-    "enabled": false,
+    "enabled": true,
     "venueId": "carlos-ishikawa",
     "adapter": {
       "type": "pages",
       "listUrls": [
-        "https://www.carlosishikawa.com/"
+        "https://www.carlosishikawa.com/exhibitions/"
       ],
       "cards": {
-        "item": "div.text",
-        "dates": "div.date"
+        "item": "a.article",
+        "dates": "div.date",
+        "title": "div.title, div.artist"
       }
     },
-    "notes": "Includes artists' shows at other institutions — needs a gallery-only filter."
+    "notes": "Gallery's own exhibitions page (the homepage also lists artists' shows at other institutions)."
   },
   {
     "id": "flowers-gallery",
@@ -863,7 +902,7 @@
   {
     "id": "almine-rech-london",
     "name": "Almine Rech London",
-    "enabled": false,
+    "enabled": true,
     "venueId": "almine-rech-london",
     "adapter": {
       "type": "pages",
@@ -871,11 +910,15 @@
         "https://www.alminerech.com/exhibitions/"
       ],
       "cards": {
-        "item": "a",
-        "dates": "div.info"
+        "item": "a:has(div.info)",
+        "title": "span.title",
+        "dates": "div.info",
+        "venue": "div.tag",
+        "description": "span.subtitle"
       }
     },
-    "notes": "Lists all locations — needs a London-only filter."
+    "venueFilter": "London",
+    "notes": "All Almine Rech locations; venueFilter keeps London."
   },
   {
     "id": "cristea-roberts-gallery",
@@ -897,7 +940,7 @@
   {
     "id": "galerie-max-hetzler-london",
     "name": "Galerie Max Hetzler London",
-    "enabled": false,
+    "enabled": true,
     "venueId": "galerie-max-hetzler-london",
     "adapter": {
       "type": "pages",
@@ -905,11 +948,15 @@
         "https://www.maxhetzler.com/exhibitions"
       ],
       "cards": {
-        "item": "a.block",
-        "dates": "div.date"
+        "item": "a.block:has(div.date)",
+        "title": "h3.title",
+        "dates": "div.date",
+        "venue": "div.loc",
+        "description": "div.subtitle"
       }
     },
-    "notes": "Lists every Max Hetzler location (Berlin, Paris, …) — needs a London-only filter before enabling."
+    "venueFilter": "^London",
+    "notes": "All Max Hetzler locations (and the archive); venueFilter keeps London, past shows drop out."
   },
   {
     "id": "gazelli-art-house",
@@ -943,7 +990,7 @@
         "dates": "div"
       }
     },
-    "notes": "Mixes in non-London shows (Johannesburg, Cape Town, museum shows) — needs a London-only filter."
+    "notes": "Programme page is built client-side (no exhibition links in the HTML) and mixes in non-London shows. Needs a London-only, server-rendered listing."
   },
   {
     "id": "richard-saltoun-gallery",
@@ -1084,7 +1131,7 @@
   {
     "id": "wigmore-hall",
     "name": "Wigmore Hall",
-    "enabled": false,
+    "enabled": true,
     "venueId": "wigmore-hall",
     "adapter": {
       "type": "pages",
@@ -1092,11 +1139,17 @@
         "https://www.wigmore-hall.org.uk/whats-on"
       ],
       "cards": {
-        "item": "div.bg-white.col-12",
-        "dates": "div.px5.sm-px7"
+        "item": "article:has(a.expand-interaction__action)",
+        "link": "a.expand-interaction__action",
+        "title": "div.performance-title",
+        "description": "div.type-style-5",
+        "dateFromUrl": "/whats-on/(?<y>\\d{4})(?<m>\\d{2})(?<d>\\d{2})(?<H>\\d{2})(?<M>\\d{2})$"
       }
     },
-    "notes": "Auto card config picked the date as the title — needs a proper title selector."
+    "notes": "Concert URLs encode date+time (/whats-on/YYYYMMDDHHMM).",
+    "defaults": {
+      "type": "concert"
+    }
   },
   {
     "id": "gresham-college",
@@ -1211,7 +1264,7 @@
         "https://www.theo2.co.uk/events"
       ]
     },
-    "notes": "theo2.co.uk lists the arena too — needs an indigo-only listing."
+    "notes": "theo2.co.uk lists arena events too and the indigo listing isn't in the HTML. Needs an indigo-only source."
   },
   {
     "id": "st-johns-smith-square",
@@ -1684,5 +1737,360 @@
       }
     },
     "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "art-fund",
+    "name": "Art Fund exhibition listings (UK-wide; London venues kept)",
+    "enabled": true,
+    "aggregator": true,
+    "venueFilter": ",\\s*London$",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.artfund.org/sitemap.xml"
+      ],
+      "linkPattern": "^https://www\\.artfund\\.org/explore/exhibitions/20\\d\\d/\\d\\d/\\d\\d/[^/?#]+$",
+      "maxLinks": 150,
+      "cacheDays": 14,
+      "detail": {
+        "dates": "div.blurred-hero-panel__container__grid__right div.mb-4",
+        "venue": "span.fragment-location-pin__title a"
+      }
+    },
+    "defaults": {
+      "type": "exhibition"
+    },
+    "notes": "Art Fund's sitemap lists current/upcoming exhibitions UK-wide; each page says 'Venue, City' and the dates. Covers museums whose own sites block us (British Museum, RA, NPG, IWM…). Pages are cached ~14 days so daily runs fetch only new ones."
+  },
+  {
+    "id": "royal-geographical-society",
+    "name": "Royal Geographical Society",
+    "enabled": true,
+    "venueId": "royal-geographical-society",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.rgs.org/events/upcoming-events/"
+      ],
+      "cards": {
+        "item": "div[class*='EventCardstyles__CardContent']",
+        "dates": "div[class*='EventCardstyles__ArticleInfo-']",
+        "venue": "div[class*='EventCardstyles__ArticleInfoItem']"
+      }
+    },
+    "venueFilter": "London",
+    "defaults": {
+      "type": "talk"
+    },
+    "notes": "Cards use styled-components classes — selectors match the stable name part. venueFilter drops online-only/regional events (cards say e.g. 'London and online')."
+  },
+  {
+    "id": "british-library",
+    "name": "British Library",
+    "enabled": true,
+    "venueId": "british-library",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://events.bl.uk/"
+      ],
+      "cards": {
+        "item": "a.c-media.c-media--link",
+        "dates": "time"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "museum-of-the-home",
+    "name": "Museum of the Home",
+    "enabled": true,
+    "venueId": "museum-of-the-home",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://museumofthehome.org.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "div.card--base.card--featured",
+        "dates": "div.card-meta.d-flex"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "london-museum",
+    "name": "London Museum",
+    "enabled": true,
+    "venueId": "london-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.londonmuseum.org.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "div.card__text-container",
+        "dates": "div.card__dates"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02.",
+    "exclude": "general admission"
+  },
+  {
+    "id": "the-courtauld-gallery",
+    "name": "The Courtauld Gallery",
+    "enabled": true,
+    "venueId": "the-courtauld-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://courtauld.ac.uk/research/whats-on-research-forum-events/"
+      ],
+      "linkPattern": "^https://courtauld\\.ac\\.uk/whats-on/[^/?#]+/?$",
+      "maxLinks": 40,
+      "detail": {
+        "dates": "div.detail.detail--bold"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Research-forum talks; exhibitions come via Art Fund."
+  },
+  {
+    "id": "estorick-collection",
+    "name": "Estorick Collection",
+    "enabled": true,
+    "venueId": "estorick-collection",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.estorickcollection.com/events"
+      ],
+      "linkPattern": "^https://www\\.estorickcollection\\.com/events/[^/?#]+/?$",
+      "maxLinks": 40,
+      "detail": {
+        "dates": "p.u-space--mb-n"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "japan-house-london",
+    "name": "Japan House London",
+    "enabled": true,
+    "venueId": "japan-house-london",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.japanhouselondon.uk/whats-on/"
+      ],
+      "linkPattern": "^https://www\\.japanhouselondon\\.uk/whats-on/[^/?#]+/?$",
+      "maxLinks": 40
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "180-studios",
+    "name": "180 Studios",
+    "enabled": true,
+    "venueId": "180-studios",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.180studios.com/exhibitions-and-performances"
+      ],
+      "cards": {
+        "item": "a.block",
+        "dates": "div.relative.z-10"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "the-showroom",
+    "name": "The Showroom",
+    "enabled": true,
+    "venueId": "the-showroom",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://theshowroom.org/whats-on/"
+      ],
+      "cards": {
+        "item": "a.block",
+        "dates": "time"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "goldsmiths-cca",
+    "name": "Goldsmiths CCA",
+    "enabled": true,
+    "venueId": "goldsmiths-cca",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://goldsmithscca.art/events/"
+      ],
+      "cards": {
+        "item": "header",
+        "dates": "time"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "o2-shepherds-bush-empire",
+    "name": "O2 Shepherd's Bush Empire",
+    "enabled": true,
+    "venueId": "o2-shepherds-bush-empire",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.academymusicgroup.com/o2shepherdsbushempire"
+      ],
+      "cards": {
+        "item": "a.MuiButtonBase-root.MuiCardActionArea-root",
+        "dates": "h2.MuiTypography-root.MuiTypography-header3"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "pleasance-theatre",
+    "name": "Pleasance Theatre",
+    "enabled": true,
+    "venueId": "pleasance-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.pleasance.co.uk/events"
+      ],
+      "linkPattern": "^https://www\\.pleasance\\.co\\.uk/event/[^/?#]+/?$",
+      "maxLinks": 40,
+      "detail": {
+        "dates": "p.show--dateline.border-top"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "jermyn-street-theatre",
+    "name": "Jermyn Street Theatre",
+    "enabled": true,
+    "venueId": "jermyn-street-theatre",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.jermynstreettheatre.co.uk/"
+      ],
+      "linkPattern": "^https://www\\.jermynstreettheatre\\.co\\.uk/show/[^/?#]+/?$",
+      "maxLinks": 40,
+      "detail": {
+        "dates": "div.dates"
+      }
+    },
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+  },
+  {
+    "id": "southwark-playhouse-borough",
+    "name": "Southwark Playhouse Borough",
+    "enabled": true,
+    "venueId": "southwark-playhouse-borough",
+    "venueFilter": "Borough",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://southwarkplayhouse.co.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "article.wpgb-card",
+        "link": "a[href*='/productions/']",
+        "title": ".lexend",
+        "dates": "div.museo-sans",
+        "venue": "span.wpgb-block-term:contains('Venue:')"
+      }
+    },
+    "defaults": {
+      "type": "show"
+    },
+    "notes": "One listing for both Southwark Playhouse buildings; cards carry a 'Venue: Borough SE1' / 'Venue: Elephant SE11' tag."
+  },
+  {
+    "id": "southwark-playhouse-elephant",
+    "name": "Southwark Playhouse Elephant",
+    "enabled": true,
+    "venueId": "southwark-playhouse-elephant",
+    "venueFilter": "Elephant",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://southwarkplayhouse.co.uk/whats-on/"
+      ],
+      "cards": {
+        "item": "article.wpgb-card",
+        "link": "a[href*='/productions/']",
+        "title": ".lexend",
+        "dates": "div.museo-sans",
+        "venue": "span.wpgb-block-term:contains('Venue:')"
+      }
+    },
+    "defaults": {
+      "type": "show"
+    },
+    "notes": "Same listing as southwark-playhouse-borough, filtered to the Elephant building."
+  },
+  {
+    "id": "menier-chocolate-factory",
+    "name": "Menier Chocolate Factory",
+    "enabled": true,
+    "venueId": "menier-chocolate-factory",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.menierchocolatefactory.com/whats-on/"
+      ]
+    },
+    "defaults": {
+      "type": "show"
+    },
+    "notes": "Listing page has JSON-LD events (usually just 1–3 productions)."
+  },
+  {
+    "id": "at-sohoplace",
+    "name": "@sohoplace",
+    "enabled": true,
+    "venueId": "at-sohoplace",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://sohoplace.org/whats-on/"
+      ],
+      "cards": {
+        "item": "div.site-event-card__details",
+        "dates": "div.site-event-card__dates"
+      }
+    },
+    "defaults": {
+      "type": "show"
+    }
+  },
+  {
+    "id": "troxy",
+    "name": "Troxy",
+    "enabled": true,
+    "venueId": "troxy",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://troxy.co.uk/whats-on/"
+      ],
+      "linkPattern": "^https://troxy\\.co\\.uk/event/[^/?#]+/?$",
+      "maxLinks": 40,
+      "cacheDays": 14,
+      "detail": {
+        "timeElements": "p.troxy-event__date time"
+      }
+    },
+    "notes": "Event pages carry <time datetime> dates; cached so daily runs only fetch new events."
   }
 ]

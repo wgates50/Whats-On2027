@@ -1,0 +1,35 @@
+{
+  "sourceId": "carlos-ishikawa",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.carlosishikawa.com/exhibitions/"
+    ],
+    "cards": {
+      "item": "a.article",
+      "dates": "div.date",
+      "title": "div.title, div.artist"
+    }
+  },
+  "rawCount": 76,
+  "events": [
+    {
+      "id": "carlos-ishikawa:exhibitions-black-painter-white-figuration",
+      "venueId": "carlos-ishikawa",
+      "sourceId": "carlos-ishikawa",
+      "title": "Black painter, white figuration",
+      "url": "https://www.carlosishikawa.com/exhibitions/black-painter-white-figuration/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-28",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.carlosishikawa.com/site/assets/files/18276/mxa_2026_installationview-19_dkg_copy_crop_3.201x122.jpg"
+    }
+  ]
+}

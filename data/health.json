@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-02T10:05:13.262Z",
+  "checkedAt": "2026-11-02T11:05:26.546Z",
   "sources": {
     "official-london-theatre": {
       "sourceId": "official-london-theatre",
       "status": "ok",
       "count": 128,
       "previousCount": 128,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 128,
       "consecutiveFailures": 0
     },
@@ -16,8 +16,8 @@
       "status": "ok",
       "count": 24,
       "previousCount": 24,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 24,
       "consecutiveFailures": 0
     },
@@ -26,8 +26,8 @@
       "status": "ok",
       "count": 17,
       "previousCount": 17,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 17,
       "consecutiveFailures": 0
     },
@@ -36,8 +36,8 @@
       "status": "ok",
       "count": 85,
       "previousCount": 85,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 85,
       "consecutiveFailures": 0,
       "unmatchedVenues": {
@@ -53,8 +53,8 @@
       "status": "ok",
       "count": 8,
       "previousCount": 8,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 8,
       "consecutiveFailures": 0
     },
@@ -63,19 +63,19 @@
       "status": "ok",
       "count": 56,
       "previousCount": 56,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 56,
       "consecutiveFailures": 0
     },
     "sadlers-wells": {
       "sourceId": "sadlers-wells",
       "status": "ok",
-      "count": 36,
+      "count": 37,
       "previousCount": 36,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
-      "lastOkCount": 36,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 37,
       "consecutiveFailures": 0,
       "unmatchedVenues": {
         "(no venue given)": 1
@@ -86,8 +86,8 @@
       "status": "ok",
       "count": 10,
       "previousCount": 10,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 10,
       "consecutiveFailures": 0
     },
@@ -96,8 +96,8 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 9,
       "consecutiveFailures": 0,
       "unmatchedVenues": {
@@ -114,8 +114,8 @@
       "status": "ok",
       "count": 6,
       "previousCount": 6,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 6,
       "consecutiveFailures": 0
     },
@@ -124,8 +124,8 @@
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 12,
       "consecutiveFailures": 0
     },
@@ -134,8 +134,8 @@
       "status": "ok",
       "count": 6,
       "previousCount": 6,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 6,
       "consecutiveFailures": 0
     },
@@ -144,8 +144,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0
     },
@@ -154,8 +154,8 @@
       "status": "ok",
       "count": 10,
       "previousCount": 10,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 10,
       "consecutiveFailures": 0,
       "warnings": [
@@ -167,8 +167,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0
     },
@@ -177,8 +177,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0,
       "warnings": [
@@ -190,8 +190,8 @@
       "status": "ok",
       "count": 15,
       "previousCount": 15,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 15,
       "consecutiveFailures": 0,
       "warnings": [
@@ -203,8 +203,8 @@
       "status": "ok",
       "count": 14,
       "previousCount": 14,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 14,
       "consecutiveFailures": 0,
       "warnings": [
@@ -216,8 +216,8 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 4,
       "consecutiveFailures": 0
     },
@@ -226,8 +226,8 @@
       "status": "ok",
       "count": 30,
       "previousCount": 30,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 30,
       "consecutiveFailures": 0
     },
@@ -236,8 +236,8 @@
       "status": "ok",
       "count": 10,
       "previousCount": 10,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 10,
       "consecutiveFailures": 0
     },
@@ -246,8 +246,8 @@
       "status": "ok",
       "count": 8,
       "previousCount": 8,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 8,
       "consecutiveFailures": 0,
       "warnings": [
@@ -257,14 +257,14 @@
     "national-maritime-museum": {
       "sourceId": "national-maritime-museum",
       "status": "ok",
-      "count": 25,
+      "count": 26,
       "previousCount": 25,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
-      "lastOkCount": 25,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 26,
       "consecutiveFailures": 0,
       "warnings": [
-        "15 cards had no parseable dates (25 did)"
+        "14 cards had no parseable dates (26 did)"
       ]
     },
     "ica": {
@@ -272,8 +272,8 @@
       "status": "ok",
       "count": 6,
       "previousCount": 6,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 6,
       "consecutiveFailures": 0,
       "warnings": [
@@ -285,8 +285,8 @@
       "status": "ok",
       "count": 26,
       "previousCount": 26,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 26,
       "consecutiveFailures": 0
     },
@@ -295,8 +295,8 @@
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 12,
       "consecutiveFailures": 0
     },
@@ -305,8 +305,8 @@
       "status": "ok",
       "count": 22,
       "previousCount": 22,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 22,
       "consecutiveFailures": 0
     },
@@ -315,8 +315,8 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 5,
       "consecutiveFailures": 0,
       "warnings": [
@@ -328,8 +328,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0,
       "warnings": [
@@ -341,8 +341,8 @@
       "status": "ok",
       "count": 7,
       "previousCount": 7,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 7,
       "consecutiveFailures": 0
     },
@@ -351,8 +351,8 @@
       "status": "ok",
       "count": 28,
       "previousCount": 28,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 28,
       "consecutiveFailures": 0
     },
@@ -361,8 +361,8 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 5,
       "consecutiveFailures": 0,
       "warnings": [
@@ -374,8 +374,8 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 4,
       "consecutiveFailures": 0,
       "warnings": [
@@ -387,8 +387,8 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 5,
       "consecutiveFailures": 0,
       "warnings": [
@@ -400,8 +400,8 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 4,
       "consecutiveFailures": 0
     },
@@ -410,8 +410,8 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 5,
       "consecutiveFailures": 0,
       "warnings": [
@@ -423,8 +423,8 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 4,
       "consecutiveFailures": 0,
       "warnings": [
@@ -436,8 +436,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0
     },
@@ -446,9 +446,29 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
+      "consecutiveFailures": 0
+    },
+    "white-cube-masons-yard": {
+      "sourceId": "white-cube-masons-yard",
+      "status": "ok",
+      "count": 2,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 2,
+      "consecutiveFailures": 0
+    },
+    "white-cube-bermondsey": {
+      "sourceId": "white-cube-bermondsey",
+      "status": "ok",
+      "count": 2,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 2,
       "consecutiveFailures": 0
     },
     "victoria-miro": {
@@ -456,21 +476,61 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 5,
       "consecutiveFailures": 0,
       "warnings": [
         "2 cards had no parseable dates (10 did)"
       ]
     },
+    "lisson-gallery": {
+      "sourceId": "lisson-gallery",
+      "status": "ok",
+      "count": 1,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 1,
+      "consecutiveFailures": 0
+    },
+    "thaddaeus-ropac-london": {
+      "sourceId": "thaddaeus-ropac-london",
+      "status": "ok",
+      "count": 1,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 1,
+      "consecutiveFailures": 0
+    },
+    "pace-london": {
+      "sourceId": "pace-london",
+      "status": "ok",
+      "count": 1,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 1,
+      "consecutiveFailures": 0
+    },
+    "david-zwirner-london": {
+      "sourceId": "david-zwirner-london",
+      "status": "ok",
+      "count": 1,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 1,
+      "consecutiveFailures": 0
+    },
     "alison-jacques": {
       "sourceId": "alison-jacques",
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 5,
       "consecutiveFailures": 0,
       "warnings": [
@@ -482,19 +542,43 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 5,
       "consecutiveFailures": 0
+    },
+    "carlos-ishikawa": {
+      "sourceId": "carlos-ishikawa",
+      "status": "ok",
+      "count": 1,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 1,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (76 did)"
+      ]
     },
     "flowers-gallery": {
       "sourceId": "flowers-gallery",
       "status": "ok",
       "count": 6,
       "previousCount": 6,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 6,
+      "consecutiveFailures": 0
+    },
+    "almine-rech-london": {
+      "sourceId": "almine-rech-london",
+      "status": "ok",
+      "count": 0,
+      "previousCount": 0,
+      "message": "nothing matching the venue filter right now (7 listed elsewhere)",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 0,
       "consecutiveFailures": 0
     },
     "cristea-roberts-gallery": {
@@ -502,12 +586,25 @@
       "status": "ok",
       "count": 8,
       "previousCount": 8,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 8,
       "consecutiveFailures": 0,
       "warnings": [
         "4 cards had no parseable dates (11 did)"
+      ]
+    },
+    "galerie-max-hetzler-london": {
+      "sourceId": "galerie-max-hetzler-london",
+      "status": "ok",
+      "count": 1,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 1,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "12 cards had no parseable dates (725 did)"
       ]
     },
     "gazelli-art-house": {
@@ -515,8 +612,8 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 4,
       "consecutiveFailures": 0,
       "warnings": [
@@ -528,8 +625,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0
     },
@@ -538,8 +635,8 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 9,
       "consecutiveFailures": 0
     },
@@ -548,8 +645,8 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 9,
       "consecutiveFailures": 0
     },
@@ -558,8 +655,8 @@
       "status": "ok",
       "count": 21,
       "previousCount": 21,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 21,
       "consecutiveFailures": 0
     },
@@ -568,8 +665,8 @@
       "status": "ok",
       "count": 56,
       "previousCount": 56,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 56,
       "consecutiveFailures": 0
     },
@@ -578,19 +675,19 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0
     },
     "conway-hall": {
       "sourceId": "conway-hall",
       "status": "ok",
-      "count": 5,
+      "count": 7,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
-      "lastOkCount": 5,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 7,
       "consecutiveFailures": 0,
       "warnings": [
         "6 cards had no parseable dates (6 did)"
@@ -601,9 +698,19 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 5,
+      "consecutiveFailures": 0
+    },
+    "wigmore-hall": {
+      "sourceId": "wigmore-hall",
+      "status": "ok",
+      "count": 12,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 12,
       "consecutiveFailures": 0
     },
     "gresham-college": {
@@ -611,8 +718,8 @@
       "status": "ok",
       "count": 8,
       "previousCount": 8,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 8,
       "consecutiveFailures": 0
     },
@@ -621,8 +728,8 @@
       "status": "ok",
       "count": 11,
       "previousCount": 11,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 11,
       "consecutiveFailures": 0
     },
@@ -631,8 +738,8 @@
       "status": "ok",
       "count": 13,
       "previousCount": 13,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 13,
       "consecutiveFailures": 0
     },
@@ -641,8 +748,8 @@
       "status": "ok",
       "count": 79,
       "previousCount": 79,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 79,
       "consecutiveFailures": 0
     },
@@ -651,8 +758,8 @@
       "status": "ok",
       "count": 115,
       "previousCount": 115,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 115,
       "consecutiveFailures": 0
     },
@@ -661,8 +768,8 @@
       "status": "ok",
       "count": 2,
       "previousCount": 2,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 2,
       "consecutiveFailures": 0
     },
@@ -671,8 +778,8 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 4,
       "consecutiveFailures": 0,
       "warnings": [
@@ -683,9 +790,9 @@
       "sourceId": "clapham-grand",
       "status": "ok",
       "count": 12,
-      "previousCount": 12,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:05:26.546Z",
+      "lastOk": "2026-11-02T11:05:26.546Z",
       "lastOkCount": 12,
       "consecutiveFailures": 0
     },
@@ -694,19 +801,19 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 9,
       "consecutiveFailures": 0
     },
     "earth-hackney": {
       "sourceId": "earth-hackney",
       "status": "ok",
-      "count": 67,
+      "count": 68,
       "previousCount": 67,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
-      "lastOkCount": 67,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 68,
       "consecutiveFailures": 0
     },
     "hackney-empire": {
@@ -714,8 +821,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0
     },
@@ -724,8 +831,8 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 4,
       "consecutiveFailures": 0
     },
@@ -734,8 +841,8 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 9,
       "consecutiveFailures": 0
     },
@@ -744,8 +851,8 @@
       "status": "ok",
       "count": 141,
       "previousCount": 141,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 141,
       "consecutiveFailures": 0,
       "warnings": [
@@ -757,8 +864,8 @@
       "status": "ok",
       "count": 16,
       "previousCount": 16,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 16,
       "consecutiveFailures": 0
     },
@@ -767,8 +874,8 @@
       "status": "ok",
       "count": 18,
       "previousCount": 18,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 18,
       "consecutiveFailures": 0
     },
@@ -777,19 +884,19 @@
       "status": "ok",
       "count": 25,
       "previousCount": 25,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 25,
       "consecutiveFailures": 0
     },
     "almeida-theatre": {
       "sourceId": "almeida-theatre",
       "status": "ok",
-      "count": 11,
+      "count": 12,
       "previousCount": 11,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
-      "lastOkCount": 11,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 12,
       "consecutiveFailures": 0,
       "warnings": [
         "2 cards had no parseable dates (13 did)"
@@ -800,8 +907,8 @@
       "status": "ok",
       "count": 20,
       "previousCount": 20,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 20,
       "consecutiveFailures": 0,
       "warnings": [
@@ -813,8 +920,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0,
       "warnings": [
@@ -826,8 +933,8 @@
       "status": "ok",
       "count": 22,
       "previousCount": 22,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 22,
       "consecutiveFailures": 0,
       "warnings": [
@@ -839,8 +946,8 @@
       "status": "ok",
       "count": 26,
       "previousCount": 26,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 26,
       "consecutiveFailures": 0
     },
@@ -849,8 +956,8 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 4,
       "consecutiveFailures": 0
     },
@@ -859,8 +966,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0,
       "warnings": [
@@ -872,8 +979,8 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 9,
       "consecutiveFailures": 0
     },
@@ -882,8 +989,8 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 9,
       "consecutiveFailures": 0
     },
@@ -892,8 +999,8 @@
       "status": "ok",
       "count": 7,
       "previousCount": 7,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 7,
       "consecutiveFailures": 0
     },
@@ -902,8 +1009,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0,
       "warnings": [
@@ -915,8 +1022,8 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 5,
       "consecutiveFailures": 0
     },
@@ -924,9 +1031,9 @@
       "sourceId": "brixton-house",
       "status": "ok",
       "count": 12,
-      "previousCount": 12,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:05:26.546Z",
+      "lastOk": "2026-11-02T11:05:26.546Z",
       "lastOkCount": 12,
       "consecutiveFailures": 0
     },
@@ -935,12 +1042,12 @@
       "status": "ok",
       "count": 13,
       "previousCount": 13,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 13,
       "consecutiveFailures": 0,
       "warnings": [
-        "54 cards had no parseable dates (13 did)"
+        "55 cards had no parseable dates (13 did)"
       ]
     },
     "wiltons-music-hall": {
@@ -948,8 +1055,8 @@
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 12,
       "consecutiveFailures": 0
     },
@@ -958,8 +1065,8 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 3,
       "consecutiveFailures": 0
     },
@@ -968,9 +1075,214 @@
       "status": "ok",
       "count": 19,
       "previousCount": 19,
-      "checkedAt": "2026-11-02T10:05:13.262Z",
-      "lastOk": "2026-11-02T10:05:13.262Z",
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 19,
+      "consecutiveFailures": 0
+    },
+    "art-fund": {
+      "sourceId": "art-fund",
+      "status": "ok",
+      "count": 85,
+      "previousCount": 56,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 85,
+      "consecutiveFailures": 0
+    },
+    "royal-geographical-society": {
+      "sourceId": "royal-geographical-society",
+      "status": "ok",
+      "count": 5,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 5,
+      "consecutiveFailures": 0
+    },
+    "british-library": {
+      "sourceId": "british-library",
+      "status": "ok",
+      "count": 9,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 9,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "8 cards had no parseable dates (9 did)"
+      ]
+    },
+    "museum-of-the-home": {
+      "sourceId": "museum-of-the-home",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (3 did)"
+      ]
+    },
+    "london-museum": {
+      "sourceId": "london-museum",
+      "status": "ok",
+      "count": 16,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 16,
+      "consecutiveFailures": 0
+    },
+    "the-courtauld-gallery": {
+      "sourceId": "the-courtauld-gallery",
+      "status": "ok",
+      "count": 20,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 20,
+      "consecutiveFailures": 0
+    },
+    "estorick-collection": {
+      "sourceId": "estorick-collection",
+      "status": "ok",
+      "count": 6,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 6,
+      "consecutiveFailures": 0
+    },
+    "japan-house-london": {
+      "sourceId": "japan-house-london",
+      "status": "ok",
+      "count": 12,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 12,
+      "consecutiveFailures": 0
+    },
+    "180-studios": {
+      "sourceId": "180-studios",
+      "status": "ok",
+      "count": 36,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 36,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "3 cards had no parseable dates (39 did)"
+      ]
+    },
+    "the-showroom": {
+      "sourceId": "the-showroom",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0
+    },
+    "goldsmiths-cca": {
+      "sourceId": "goldsmiths-cca",
+      "status": "ok",
+      "count": 3,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 3,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "1 cards had no parseable dates (3 did)"
+      ]
+    },
+    "o2-shepherds-bush-empire": {
+      "sourceId": "o2-shepherds-bush-empire",
+      "status": "ok",
+      "count": 7,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 7,
+      "consecutiveFailures": 0
+    },
+    "pleasance-theatre": {
+      "sourceId": "pleasance-theatre",
+      "status": "ok",
+      "count": 40,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 40,
+      "consecutiveFailures": 0,
+      "warnings": [
+        "24 links over maxLinks (40) were skipped"
+      ]
+    },
+    "jermyn-street-theatre": {
+      "sourceId": "jermyn-street-theatre",
+      "status": "ok",
+      "count": 4,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 4,
+      "consecutiveFailures": 0
+    },
+    "southwark-playhouse-borough": {
+      "sourceId": "southwark-playhouse-borough",
+      "status": "ok",
+      "count": 7,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 7,
+      "consecutiveFailures": 0
+    },
+    "southwark-playhouse-elephant": {
+      "sourceId": "southwark-playhouse-elephant",
+      "status": "ok",
+      "count": 2,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 2,
+      "consecutiveFailures": 0
+    },
+    "menier-chocolate-factory": {
+      "sourceId": "menier-chocolate-factory",
+      "status": "ok",
+      "count": 2,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 2,
+      "consecutiveFailures": 0
+    },
+    "at-sohoplace": {
+      "sourceId": "at-sohoplace",
+      "status": "ok",
+      "count": 2,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 2,
+      "consecutiveFailures": 0
+    },
+    "troxy": {
+      "sourceId": "troxy",
+      "status": "ok",
+      "count": 31,
+      "previousCount": 0,
+      "checkedAt": "2026-11-02T11:02:05.070Z",
+      "lastOk": "2026-11-02T11:02:05.070Z",
+      "lastOkCount": 31,
       "consecutiveFailures": 0
     }
   }
