@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T11:05:26.546Z",
+  "generatedAt": "2026-11-02T12:21:30.450Z",
   "events": [
     {
       "id": "alison-jacques:news-ana-mendieta-23",
@@ -4429,18 +4429,6 @@
       "firstSeen": "2026-11-02"
     },
     {
-      "id": "london-museum:whats-on-mudlarks-family-gallery",
-      "venueId": "london-museum",
-      "sourceId": "london-museum",
-      "title": "Mudlarks family gallery",
-      "url": "https://www.londonmuseum.org.uk/whats-on/mudlarks-family-gallery/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-02",
-      "endDate": "2026-11-25",
-      "firstSeen": "2026-11-02"
-    },
-    {
       "id": "london-museum:whats-on-secrets-of-the-warehouse-tour",
       "venueId": "london-museum",
       "sourceId": "london-museum",
@@ -5071,7 +5059,7 @@
       "startDate": "2026-11-03",
       "endDate": "2026-11-04",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/08/LEAD-IMAGE_Emanuel-Gat-Dance-FIVE-DAYS-IN-THE-SUN_Julia-Gat_2700x1080-scaled_960x960_acf_cropped.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/08/LEAD-IMAGE_Emanuel-Gat-Dance-FIVE-DAYS-IN-THE-SUN_Julia-Gat_2700x1080-scaled_960x960_acf_cropped.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "the-courtauld-gallery:whats-on-why-constable-didnt-give-up-figure-painting",
@@ -5408,7 +5396,7 @@
       "startDate": "2026-11-04",
       "endDate": "2026-11-07",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/04/Lost-Dog_The-Last-Hamlet_Landscape_2700x1080_photo-credit_Camilla-Greenwell-1-scaled.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/04/Lost-Dog_The-Last-Hamlet_Landscape_2700x1080_photo-credit_Camilla-Greenwell-1-scaled.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "somerset-house:upgrade-yourself-monthly-sessions-upgrade-yourself-monthly-how-to-grow-sustainab",
@@ -5803,7 +5791,7 @@
       "startDate": "2026-11-05",
       "endDate": "2026-11-09",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2025/11/tango_after_dark-scaled.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2025/11/tango_after_dark-scaled.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "sadlers-wells-east:whats-on-family-freestyle-sadlers-wells-east-2027",
@@ -6305,7 +6293,7 @@
       "startDate": "2026-11-06",
       "endDate": "2027-03-19",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2025/07/20220916_SadlersWells_CultureClubWorkshop_SadlersWells_FoteiniChristofilopoulou-2-scaled.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2025/07/20220916_SadlersWells_CultureClubWorkshop_SadlersWells_FoteiniChristofilopoulou-2-scaled.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "sam-wanamaker-playhouse:show-julius-caesar-111474968",
@@ -7791,7 +7779,7 @@
       "startDate": "2026-11-10",
       "endDate": "2026-11-14",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/04/LEAD-IMAGE_Humanhood-Vortex_Thomas-Vilhelm_2700x1080-scaled.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2026/04/LEAD-IMAGE_Humanhood-Vortex_Thomas-Vilhelm_2700x1080-scaled.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "soho-theatre:events-gothamchess-the-gothamchess-europe-tour-2026",
@@ -10383,7 +10371,7 @@
       "startDate": "2026-11-19",
       "endDate": "2026-11-21",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/04/LEAD-IMAGE_Georgai-Tegou-In-the-Quiet-of-Us_Camilla-Greenwell_2700x1080-scaled.png?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2026/04/LEAD-IMAGE_Georgai-Tegou-In-the-Quiet-of-Us_Camilla-Greenwell_2700x1080-scaled.png?resize=15%2C15&gravity"
     },
     {
       "id": "science-gallery-london:sgl-events-what-does-quantum-mean-for-humanity",
@@ -11682,6 +11670,20 @@
       "image": "https://aeg-media-assets.b-cdn.net/eventim/images/Deep-Purple_London_SQ.jpg?width=768&height=768&focus_crop=1080,1080,0.5,0.5"
     },
     {
+      "id": "galerie-max-hetzler-london:exhibitions-janaina-tschape-sky-beneath-my-skin-2026",
+      "venueId": "galerie-max-hetzler-london",
+      "sourceId": "galerie-max-hetzler-london",
+      "title": "JANAINA TSCHÄPE",
+      "url": "https://www.maxhetzler.com/exhibitions/janaina-tschape-sky-beneath-my-skin-2026",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-24",
+      "endDate": "2027-01-23",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.maxhetzler.com/application/files/thumbnails/detail_sm/8517/9197/2316/JJT26_77746_ArtNr_T3405_2_sRGB_thumbnail.jpg",
+      "description": "the sky beneath my skin"
+    },
+    {
       "id": "hayward-gallery:24-nan-goldin-you-never-did-anything-wrong",
       "venueId": "hayward-gallery",
       "sourceId": "art-fund",
@@ -11894,6 +11896,18 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "image": "https://www.english-heritage.org.uk/siteassets/home/visit/whats-on-202627/london/kenwood/intesa-duo-w-25.11.26-480x480px.jpg?w=550&h=350&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219"
+    },
+    {
+      "id": "london-museum:whats-on-mudlarks-family-gallery",
+      "venueId": "london-museum",
+      "sourceId": "london-museum",
+      "title": "Mudlarks family gallery",
+      "url": "https://www.londonmuseum.org.uk/whats-on/mudlarks-family-gallery/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-25",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
     },
     {
       "id": "museum-of-comedy:newman-sapper",
@@ -12484,7 +12498,7 @@
       "id": "sir-john-soanes-museum:whats-on-soane-late-x-new-arcitechture-writers-27-nov-2026",
       "venueId": "sir-john-soanes-museum",
       "sourceId": "sir-john-soanes-museum",
-      "title": "Soane Late x New Architecture Writers",
+      "title": "Soane Late x New Architecture Writers: House Speculations",
       "url": "https://www.soane.org/whats-on/soane-late-x-new-arcitechture-writers-27-nov-2026",
       "type": "event",
       "category": "art-events",
@@ -12733,7 +12747,7 @@
       "startDate": "2026-11-28",
       "endDate": "2026-11-29",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/Nutcracker-whats-on.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/Nutcracker-whats-on.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "sadlers-wells-east:whats-on-an-irie-takeover",
@@ -15744,7 +15758,7 @@
       "startDate": "2027-01-20",
       "endDate": "2027-01-23",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/06/martha_graham_a-scaled.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/06/martha_graham_a-scaled.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "sadlers-wells-east:whats-on-gecko-kin",
@@ -16118,7 +16132,7 @@
       "startDate": "2027-01-29",
       "endDate": "2027-01-30",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/03/amusement_phase_rose_prize.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/03/amusement_phase_rose_prize.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "sadlers-wells-east:whats-on-stopgap-dance-company-lived-fiction",
@@ -16198,7 +16212,7 @@
       "startDate": "2027-01-30",
       "endDate": "2027-01-31",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/09/kabuki_guest_event.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/09/kabuki_guest_event.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "science-gallery-london:sgl-events-friday-late-tales-of-entanglement",
@@ -16278,7 +16292,7 @@
       "startDate": "2027-02-02",
       "endDate": "2027-02-03",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/03/shimmering_rose_prize.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2026/03/shimmering_rose_prize.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "sadlers-wells-east:whats-on-dorothee-munyaneza-cie-kadidi-umuko",
@@ -16891,6 +16905,54 @@
       "firstSeen": "2026-11-02"
     },
     {
+      "id": "shakespeares-globe:whats-on-on-stage-midsummer-nights-dream-9-11",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "A Midsummer Night's Dream: On Stage Family Workshop (9-11 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/on-stage-midsummer-nights-dream-9-11/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-02-13",
+      "endDate": "2027-02-20",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-the-tempest-family-workshop-5-8-years",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "The Tempest: Family Workshop (5-8 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/the-tempest-family-workshop-5-8-years/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-02-13",
+      "endDate": "2027-02-19",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-the-tempest-family-workshop-9-11-years",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "The Tempest: Family Workshop (9-11 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/the-tempest-family-workshop-9-11-years/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-02-13",
+      "endDate": "2027-02-19",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-on-stage-tempest-14-16",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "The Tempest: On Stage Workshop (14-16 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/on-stage-tempest-14-16/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-02-13",
+      "endDate": "2027-02-17",
+      "firstSeen": "2026-11-02"
+    },
+    {
       "id": "union-chapel:whats-on-dmp-presents-tina-dico",
       "venueId": "union-chapel",
       "sourceId": "union-chapel",
@@ -16924,6 +16986,18 @@
       "category": "shows",
       "startDate": "2027-02-14",
       "endDate": "2027-04-10",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-macbeth-workshop-12-16-years",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Macbeth: Workshop (12-16 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/macbeth-workshop-12-16-years/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-02-14",
+      "endDate": "2027-04-07",
       "firstSeen": "2026-11-02"
     },
     {
@@ -17323,7 +17397,7 @@
       "startDate": "2027-02-24",
       "endDate": "2027-02-27",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/08/LEAD-IMAGE-Jasmin-Vardimon-Lullaby--Ben-Harries-scaled.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2026/08/LEAD-IMAGE-Jasmin-Vardimon-Lullaby--Ben-Harries-scaled.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "union-chapel:whats-on-an-organ-recital-with-yvette-murphy",
@@ -17641,6 +17715,18 @@
       "category": "shows",
       "startDate": "2027-03-04",
       "endDate": "2027-04-10",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-playing-shakespeare-a-midsummer-nights-dream",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Playing Shakespeare with Deutsche Bank: A Midsummer Night's Dream",
+      "url": "https://www.shakespearesglobe.com/whats-on/playing-shakespeare-a-midsummer-nights-dream/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-04",
+      "endDate": "2027-04-11",
       "firstSeen": "2026-11-02"
     },
     {
@@ -18531,6 +18617,30 @@
       "endDate": "2027-05-22",
       "firstSeen": "2026-11-02",
       "image": "https://images.almeida.co.uk/uploads/2026/10/theinequalities-digitalrollout-Patrice_1920-x-1080.jpg?resize=16%2C10&gravity"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-hamlet-family-workshop-5-8-years",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Hamlet Family Workshop (5-8 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/hamlet-family-workshop-5-8-years/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-03-31",
+      "endDate": "2027-04-07",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-family-workshop-9-11-hamlet",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Hamlet: Family Workshop (9-11 years)",
+      "url": "https://www.shakespearesglobe.com/whats-on/family-workshop-9-11-hamlet/",
+      "type": "workshop",
+      "category": "shows",
+      "startDate": "2027-03-31",
+      "endDate": "2027-04-07",
+      "firstSeen": "2026-11-02"
     },
     {
       "id": "bloomsbury-theatre:04-word-perfect-susie-dent",
