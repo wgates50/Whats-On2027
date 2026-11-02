@@ -302,6 +302,8 @@ test("Ticketmaster: performers become people; their dates at unlisted venues are
     externalLinks: { homepage: [{ url: "https://billbailey.co.uk" }], twitter: [{ url: "https://x.com/billbailey" }], wiki: [{ url: "https://en.wikipedia.org/wiki/Bill_Bailey" }] },
   };
   const band = { id: "K8x", name: "Muse", classifications: [{ primary: true, segment: { name: "Music" }, genre: { name: "Rock" } }], externalLinks: { spotify: [{ url: "https://open.spotify.com/artist/x" }] } };
+  const club = { id: "K8c", name: "The Comedy Store London", classifications: [{ primary: true, segment: { name: "Arts & Theatre" }, genre: { name: "Comedy" } }] };
+  assert.equal(act("The Comedy Store", "The Best in Stand Up", [club]).people, undefined); // the venue isn't a person
   const raws = collapseRuns([
     act("The O2", "Bill Bailey : Vaudevillean", [bill]),
     act("O2 Academy Brixton", "Muse - The Wow! Signal Europa Tour", [band], "Music", "Rock"), // a venue we don't list

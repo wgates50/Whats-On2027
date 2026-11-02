@@ -11,6 +11,7 @@ import { SCHEDULE_DIGITS, type OnSale, type Person, type Schedule } from "../../
 import { addDays, type ParsedRange } from "../../dates.ts";
 import { clean, type RawEvent, type RawPerson } from "../../extract.ts";
 import { spanOf } from "../pages.ts";
+import { normName } from "../../venues.ts";
 import { MissingKeyError, type AdapterContext, type AdapterResult, type CustomAdapter } from "../index.ts";
 
 const BASE = "https://app.ticketmaster.com/discovery/v2/events.json";
@@ -112,9 +113,11 @@ function kindOf(c?: TmClassification): Person["kind"] {
 
 const LINK_KINDS = ["homepage", "spotify", "instagram", "wiki", "youtube"] as const;
 
-function personOf(a: TmAttraction, eventClass?: TmClassification): RawPerson | null {
+function personOf(a: TmAttraction, eventClass?: TmClassification, venueName?: string): RawPerson | null {
   const name = clean(a.name);
   if (!name || NOT_AN_EVENT.test(name)) return null;
+  // "The Comedy Store London" at The Comedy Store is the venue's own programme, not someone to follow.
+  if (venueName && normName(name) === normName(venueName)) return null;
   const links: NonNullable<RawPerson["links"]> = {};
   for (const k of LINK_KINDS) {
     const url = a.externalLinks?.[k]?.[0]?.url;
@@ -151,7 +154,7 @@ export function mapTmEvent(e: TmEvent): RawEvent | null {
   const label = exhibit ? "Exhibition" : [c?.segment?.name, c?.genre?.name].filter((x) => x && x !== "Undefined").join(" ");
   const prices = (e.priceRanges ?? []).flatMap((p) => [p.min, p.max]).filter((x): x is number => typeof x === "number");
   const onSale = onSaleOf(e);
-  const people = (e._embedded?.attractions ?? []).map((a) => personOf(a, c)).filter((p): p is RawPerson => !!p);
+  const people = (e._embedded?.attractions ?? []).map((a) => personOf(a, c, venue?.name)).filter((p): p is RawPerson => !!p);
   return {
     url: e.url ?? `https://www.ticketmaster.co.uk/event/${e.id}`,
     title: clean(e.name),
