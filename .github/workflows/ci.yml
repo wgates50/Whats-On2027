@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths-ignore: ["data/events.json", "data/health.json"]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+
+  # Auto-merge maintenance PRs (from Claude's scheduled task) when they only touch config + fixtures.
+  # Code changes are left open for a human to approve.
+  automerge:
+    needs: test
+    if: >
+      github.event_name == 'pull_request' &&
+      startsWith(github.head_ref, 'claude/') &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !github.event.pull_request.draft
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check changed files
+        id: guard
+        run: |
+          git fetch origin "${{ github.base_ref }}" --depth=100
+          changed=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD")
+          echo "Changed files:"; echo "$changed"
+          disallowed=$(echo "$changed" | grep -vE '^(data/sources\.json|data/venues\.json|data/manual-events\.json|scraper/fixtures/.+)$' || true)
+          if [ -n "$disallowed" ]; then
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            { echo "files<<EOF"; echo "$disallowed"; echo "EOF"; } >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Merge
+        if: steps.guard.outputs.ok == 'true'
+        run: gh pr merge "${{ github.event.pull_request.number }}" --squash --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Leave for review
+        if: steps.guard.outputs.ok != 'true'
+        run: |
+          gh pr edit "${{ github.event.pull_request.number }}" --add-label needs-review || true
+          gh pr comment "${{ github.event.pull_request.number }}" --body "Not auto-merged: this PR changes code, not just venue config/fixtures. Please review:
+          \`\`\`
+          ${{ steps.guard.outputs.files }}
+          \`\`\`"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
