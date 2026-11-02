@@ -2111,7 +2111,7 @@
         "windowDays": 30
       }
     },
-    "unmatchedReport": "theat|hall|museum|galler|playhouse|opera|apollo|palladium|empire|centre|center|studio|chapel|coliseum|house|place|arts|wigmore|barbican|southbank",
+    "unmatchedReport": "theat|hall|museum|galler|playhouse|opera|apollo|palladium|empire|centre|center|studio|chapel|coliseum|house|place|arts|wigmore|barbican|southbank|works|church|cathedral",
     "notes": "Official Discovery API (free key, 5,000 calls/day). Needs the TICKETMASTER_API_KEY Actions secret; 'skipped' without it. Covers West End/large venues, including ones whose sites block GitHub's servers (e.g. Official London Theatre)."
   },
   {
@@ -2133,7 +2133,7 @@
         "days": 90
       }
     },
-    "unmatchedReport": "theat|hall|museum|galler|playhouse|opera|apollo|palladium|empire|centre|center|studio|chapel|coliseum|house|place|arts|wigmore|barbican|southbank",
+    "unmatchedReport": "theat|hall|museum|galler|playhouse|opera|apollo|palladium|empire|centre|center|studio|chapel|coliseum|house|place|arts|wigmore|barbican|southbank|works|church|cathedral",
     "notes": "Official Skiddle events API (free key). Needs the SKIDDLE_API_KEY Actions secret; 'skipped' without it."
   }
 ]
