@@ -171,8 +171,8 @@ export interface WOEvent {
 
 /**
  * Performances within a run. `days` has one character per day from `from`; each is a bitmask over
- * `times` written as one SCHEDULE_DIGITS character ("0" = no performance that day). With no `times`,
- * "1" just means "a performance that day".
+ * `times` written as one SCHEDULE_DIGITS character ("0" = no performance that day, "." = not known —
+ * a week or more with nothing listed). With no `times`, "1" just means "a performance that day".
  */
 export interface Schedule {
   from: string; // YYYY-MM-DD

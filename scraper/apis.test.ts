@@ -70,7 +70,7 @@ test("Ticketmaster: maps events, collapses performances into a run, pages, skips
     return {
       _embedded: {
         events: [
-          perf("a3", "2026-11-28"),
+          perf("a3", "2026-11-12"),
           { ...perf("c1", "2026-11-10"), name: "Cancelled Gig", dates: { start: { localDate: "2026-11-10", localTime: "20:00:00" }, status: { code: "canceled" } } },
         ],
       },
@@ -81,7 +81,7 @@ test("Ticketmaster: maps events, collapses performances into a run, pages, skips
   assert.equal(f.urls.length, 2); // page 0 and 1 of the only window
   assert.ok(f.urls.every((u) => u.includes("apikey=secret-tm-key") && u.includes("city=London") && u.includes("countryCode=GB")));
   const hamlet = res.events.find((e) => e.title === "Hamlet Hail to the Thief")!;
-  assert.deepEqual(hamlet.dates, { startDate: "2026-11-05", endDate: "2026-11-28" });
+  assert.deepEqual(hamlet.dates, { startDate: "2026-11-05", endDate: "2026-11-12" });
   assert.equal(hamlet.image, "https://img/wide.jpg");
   assert.equal(hamlet.venueName, "Barbican Theatre");
   assert.equal(hamlet.typeLabel, "Arts & Theatre Theatre");
@@ -175,16 +175,46 @@ test("Ticketmaster: its classification decides the type, so a band's World Tour 
   );
 });
 
-test("Ticketmaster: the same show listed with and without a year or ticket tier is one run", () => {
-  const f = (id: string, name: string, date: string) => mapTmEvent({ ...perf(id, date), name, _embedded: { venues: [{ name: "Marble Arch Place" }] } } as never)!;
-  const runs = collapseRuns([f("1", "FRAMELESS", "2026-11-02"), f("2", "FRAMELESS 2026", "2026-12-31"), f("3", "Illusions STANDARD", "2026-11-03"), f("4", "Illusions PEAK", "2026-11-07")]);
+test("Ticketmaster: variants of one show are one run; sparse dates are separate listings", () => {
+  const at = (venue: string) => (id: string, name: string, date: string) =>
+    mapTmEvent({ ...perf(id, date), name, _embedded: { venues: [{ name: venue }] } } as never)!;
+  const mk = at("Marble Arch Place");
+  const runs = collapseRuns([
+    mk("1", "FRAMELESS", "2026-11-02"),
+    mk("2", "FRAMELESS 2026", "2026-11-03"),
+    mk("3", "FRAMELESS", "2026-11-04"),
+    mk("4", "FRAMELESS 2026", "2026-11-05"),
+    mk("5", "Illusions STANDARD", "2026-11-03"),
+    mk("6", "Illusions PEAK", "2026-11-04"),
+  ]);
   assert.deepEqual(
     runs.map((r) => [r.title, r.dates.startDate, r.dates.endDate]),
     [
-      ["FRAMELESS", "2026-11-02", "2026-12-31"],
-      ["Illusions STANDARD", "2026-11-03", "2026-11-07"],
+      ["FRAMELESS", "2026-11-02", "2026-11-05"],
+      ["Illusions", "2026-11-03", "2026-11-04"],
     ],
   );
+
+  // Performance variants (colour tracks, relaxed/signed shows) belong to the main run.
+  const gl = at("Gillian Lynne Theatre");
+  const traitors = collapseRuns(["Orange", "Pink", "Blue", "Green", "Yellow", "Brown"].map((c, i) => gl(c, `The Traitors - Acts of Betrayal - ${c} Performance`, `2027-05-1${i}`)));
+  assert.deepEqual(traitors.map((r) => [r.title, r.dates.startDate, r.dates.endDate]), [["The Traitors - Acts of Betrayal", "2027-05-10", "2027-05-15"]]);
+
+  // Two nights five months apart are two listings, not a "run" from November to April…
+  const pal = at("The London Palladium");
+  const murray = collapseRuns([pal("m1", "Al Murray - All You Need Is Guv", "2026-11-06"), pal("m2", "Al Murray - All You Need Is Guv", "2027-04-09")]);
+  assert.deepEqual(murray.map((r) => [r.dates.startDate, r.dates.endDate]), [["2026-11-06", null], ["2027-04-09", null]]);
+  // …a weekly comedy night is a series of dates…
+  const weekly = collapseRuns([0, 7, 14, 21, 28].map((d) => pal(`w${d}`, "Late Night Laughs", new Date(Date.parse("2026-11-04") + d * 864e5).toISOString().slice(0, 10))));
+  assert.equal(weekly.length, 5);
+  // …but a long run with three weeks missing from Ticketmaster stays one run, the gap "not known".
+  const hm = at("His Majesty's Theatre");
+  const days = (from: string, n: number) => Array.from({ length: n }, (_, i) => new Date(Date.parse(from) + i * 864e5).toISOString().slice(0, 10));
+  const phantom = collapseRuns([...days("2026-11-02", 41), ...days("2027-01-04", 30)].map((d) => hm(d, "The Phantom of the Opera", d)));
+  assert.equal(phantom.length, 1);
+  assert.deepEqual(phantom[0].dates, { startDate: "2026-11-02", endDate: "2027-02-02" });
+  assert.equal(performancesOn({ schedule: phantom[0].schedule }, "2026-12-25"), null);
+  assert.deepEqual(performancesOn({ schedule: phantom[0].schedule }, "2026-12-01"), ["19:30"]);
 });
 
 test("Ticketmaster: a run's schedule records which days have performances and when", () => {
@@ -219,6 +249,15 @@ test("Ticketmaster: a run's schedule records which days have performances and wh
   assert.deepEqual(performancesOn({ schedule: s }, "2026-11-03"), [""]);
   // Two nights in a row is a one-off, not a run: no schedule.
   assert.equal(scheduleOf(odd.slice(0, 2)), undefined);
+
+  // A fortnight with nothing listed mid-run is "not known", not dark (Ticketmaster may not sell those).
+  const gappy = ["2026-12-10", "2026-12-11", "2026-12-12", "2027-01-04", "2027-01-05"].map((d) =>
+    mapTmEvent({ ...perf(d, d), dates: { start: { localDate: d, localTime: "19:30:00" } } } as never)!,
+  );
+  const g = scheduleOf(gappy)!;
+  assert.equal(g.days, "111" + ".".repeat(22) + "11");
+  assert.equal(performancesOn({ schedule: g }, "2026-12-25"), null);
+  assert.deepEqual(performancesOn({ schedule: g }, "2026-12-11"), ["19:30"]);
 });
 
 test("Ticketmaster: on-sale dates — only while no performance is on sale yet", () => {
@@ -240,8 +279,8 @@ test("Ticketmaster: on-sale dates — only while no performance is on sale yet",
   assert.equal(collapseRuns([one], NOW)[0].onSale?.start, "2026-11-06T09:00:00Z");
   assert.equal(collapseRuns([one], "2026-11-06T09:30:00Z")[0].onSale, undefined); // on sale now
   // A run where some performances are already on sale isn't "on sale soon".
-  const run = collapseRuns([sale("a", "2027-01-10", "2026-10-01T09:00:00Z"), sale("b", "2027-06-10", "2026-11-20T09:00:00Z")], NOW);
-  assert.equal(run[0].onSale, undefined);
+  const run = collapseRuns([sale("a", "2027-01-10", "2026-10-01T09:00:00Z"), sale("b", "2027-01-12", "2026-11-20T09:00:00Z")], NOW);
+  assert.deepEqual([run.length, run[0].onSale], [1, undefined]);
   // Through normalize the date reaches the event.
   const source: SourceConfig = { id: "ticketmaster", name: "TM", enabled: true, aggregator: true, adapter: { type: "custom", module: "ticketmaster" } };
   const rep = normalize(collapseRuns([one], NOW), source, new VenueIndex(loadVenues()), TODAY);

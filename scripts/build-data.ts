@@ -15,8 +15,8 @@ const named = new Set(data.events.flatMap((e) => e.people ?? []));
 for (const e of people.elsewhere) for (const p of e.people ?? []) named.add(p);
 const slim = {
   people: people.people.filter((p) => named.has(p.id)).map(({ tm: _tm, ...p }) => p),
-  // Dates elsewhere don't need the long description; the venue is named, not linked.
-  elsewhere: people.elsewhere.filter((e) => !venueIds.has(e.venueId)).map(({ description: _d, ...e }) => e),
+  // Dates elsewhere skip the description and image (a quarter of the file); the venue is named, not linked.
+  elsewhere: people.elsewhere.filter((e) => !venueIds.has(e.venueId)).map(({ description: _d, image: _i, ...e }) => e),
 };
 const pjson = JSON.stringify(slim);
 writeFileSync("public/data/people.json", pjson);

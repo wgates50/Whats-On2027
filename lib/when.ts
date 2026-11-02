@@ -147,7 +147,8 @@ export function performancesOn(e: Pick<WOEvent, "schedule">, day: string): strin
   const i = daysBetween(s.from, day);
   if (i < 0 || i >= s.days.length) return null;
   const mask = DIGIT(s.days[i]);
-  if (mask <= 0) return [];
+  if (mask < 0) return null; // "." — nothing listed for a while: don't claim it's dark
+  if (mask === 0) return [];
   if (!s.times.length) return [""];
   return s.times.filter((_, b) => mask & (1 << b));
 }
@@ -160,7 +161,7 @@ const DAY_PLURAL = ["Sundays", "Mondays", "Tuesdays", "Wednesdays", "Thursdays",
 /** "No performances on Sundays or Mondays" — weekdays never played in at least two weeks of schedule. */
 export function darkDaysText(e: Pick<WOEvent, "schedule">): string | null {
   const s = e.schedule;
-  if (!s || s.days.length < 14) return null;
+  if (!s || s.days.replace(/\./g, "").length < 14) return null;
   const played = new Set<number>();
   for (let i = 0; i < s.days.length; i++) if (DIGIT(s.days[i]) > 0) played.add(dayOfWeek(addDays(s.from, i)));
   const dark = [1, 2, 3, 4, 5, 6, 0].filter((d) => !played.has(d)).map((d) => DAY_PLURAL[d]);

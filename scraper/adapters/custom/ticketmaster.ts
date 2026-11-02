@@ -185,7 +185,16 @@ export function scheduleOf(perfs: RawEvent[]): Schedule | undefined {
   const times = freq.size <= 6 && dated.every((p) => p.dates.startTime) ? [...freq.keys()].sort() : [];
   const masks = new Array<number>(dayIndex(days[0], days[days.length - 1]) + 1).fill(0);
   for (const p of dated) masks[dayIndex(days[0], p.dates.startDate!)] |= times.length ? 1 << times.indexOf(p.dates.startTime!) : 1;
-  return { from: days[0], times, days: masks.map((m) => SCHEDULE_DIGITS[m]).join("") };
+  const chars = masks.map((m) => SCHEDULE_DIGITS[m]);
+  // A week or more with nothing listed, mid-run, is more likely dates Ticketmaster doesn't sell (sold
+  // elsewhere, not released yet) than a dark theatre: mark it unknown rather than "no performance".
+  for (let i = 0; i < chars.length; ) {
+    let j = i;
+    while (j < chars.length && chars[j] === "0") j++;
+    if (j - i >= 7) chars.fill(".", i, j);
+    i = j > i ? j : i + 1;
+  }
+  return { from: days[0], times, days: chars.join("") };
 }
 
 /** A run is "on sale soon" only if none of its performances is on sale yet. */
@@ -200,16 +209,55 @@ function peopleOf(perfs: RawEvent[]): RawPerson[] | undefined {
   return byName.size ? [...byName.values()] : undefined;
 }
 
-/** Same show, different listing: "FRAMELESS" / "FRAMELESS 2026", "… STANDARD" / "… PEAK" tickets. */
-const runKey = (e: RawEvent) =>
-  `${(e.venueName ?? "").toLowerCase()}|${e.title
-    .toLowerCase()
-    .replace(/\s*[-–:|(]?\s*\b(standard|peak|off[- ]peak)\)?\s*$/, "")
-    .replace(/\s*[-–:|(]?\s*\b20\d\d\)?\s*$/, "")
-    .trim()}`;
+/**
+ * The same show listed under variant names: "FRAMELESS" / "FRAMELESS 2026", "… STANDARD" / "… PEAK"
+ * tickets, "The Traitors - Acts of Betrayal - Orange Performance", "Hamilton - Relaxed Performance".
+ */
+export function baseTitle(title: string): string {
+  return (
+    title
+      .replace(/\s*[-–:|]\s*[\w'’ ]{1,30}\bperformance\s*$/i, "")
+      .replace(/\s*[-–:|(]?\s*\b(standard|peak|off[- ]peak)\)?\s*$/i, "")
+      .replace(/\s*[-–:|(]?\s*\b20\d\d\)?\s*$/, "")
+      .trim() || title
+  );
+}
+const runKey = (e: RawEvent) => `${(e.venueName ?? "").toLowerCase()}|${baseTitle(e.title).toLowerCase()}`;
+
+const firstDay = (c: RawEvent[]) => c[0].dates.startDate!;
+const lastDay = (c: RawEvent[]) => c[c.length - 1].dates.endDate ?? c[c.length - 1].dates.startDate!;
+const spanDays = (c: RawEvent[]) => dayIndex(firstDay(c), lastDay(c)) + 1;
 
 /**
- * One listing per show per venue: many performances → one run from first to last date, with its
+ * Performances (sorted, dated) → the listings they make. A show that plays most days is one run; a
+ * comedian's two Palladium nights five months apart, or a monthly improv night, are separate dates.
+ *  - split wherever two performances are 2+ weeks apart;
+ *  - …but two long stretches either side of a gap stay one run (Phantom with its Christmas dates
+ *    not on Ticketmaster): the gap becomes "not known" in the schedule;
+ *  - a stretch with performances on under ~30% of its days is a series of dates, one listing each.
+ */
+export function splitRuns(perfs: RawEvent[]): RawEvent[][] {
+  const clusters: RawEvent[][] = [];
+  for (const p of perfs) {
+    const c = clusters[clusters.length - 1];
+    if (c && dayIndex(lastDay(c), p.dates.startDate!) < 14) c.push(p);
+    else clusters.push([p]);
+  }
+  const joined: RawEvent[][] = [];
+  for (const c of clusters) {
+    const prev = joined[joined.length - 1];
+    if (prev && spanDays(prev) >= 14 && spanDays(c) >= 14) prev.push(...c);
+    else joined.push([...c]);
+  }
+  return joined.flatMap((c) => {
+    const days = new Set(c.map((p) => p.dates.startDate));
+    if (spanDays(c) <= 4 || days.size / spanDays(c) >= 0.3) return [c];
+    return [...days].map((d) => c.filter((p) => p.dates.startDate === d));
+  });
+}
+
+/**
+ * One listing per show per venue: many performances → runs (see splitRuns), each with its
  * performance schedule, its performers, and its on-sale date if no performance is on sale yet.
  * `now` (ISO) decides what "on sale" means.
  */
@@ -227,12 +275,15 @@ export function collapseRuns(events: RawEvent[], now = new Date().toISOString())
       continue;
     }
     const sorted = [...live].sort((a, b) => (a.dates.startDate ?? "").localeCompare(b.dates.startDate ?? ""));
-    const { onSale: _o, people: _p, ...first } = sorted[0];
-    const run: RawEvent = sorted.length === 1 ? first : { ...first, dates: spanOf(sorted.map((e) => e.dates)) };
-    const schedule = scheduleOf(sorted);
-    const onSale = runOnSale(sorted, now);
-    const people = peopleOf(sorted);
-    out.push({ ...run, ...(schedule ? { schedule } : {}), ...(onSale ? { onSale } : {}), ...(people ? { people } : {}) });
+    for (const c of splitRuns(sorted)) {
+      const { onSale: _o, people: _p, ...first } = c[0];
+      const title = new Set(c.map((e) => e.title)).size > 1 ? baseTitle(first.title) : first.title;
+      const run: RawEvent = c.length === 1 ? first : { ...first, title, dates: spanOf(c.map((e) => e.dates)) };
+      const schedule = scheduleOf(c);
+      const onSale = runOnSale(c, now);
+      const people = peopleOf(c);
+      out.push({ ...run, ...(schedule ? { schedule } : {}), ...(onSale ? { onSale } : {}), ...(people ? { people } : {}) });
+    }
   }
   return out;
 }
