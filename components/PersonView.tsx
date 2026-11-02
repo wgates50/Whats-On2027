@@ -106,6 +106,7 @@ export function PersonView() {
                 saved={saved.has(e.id)}
                 onToggleSaved={() => toggleSaved(e.id)}
                 index={i}
+                dated
               />
             ))}
           </div>

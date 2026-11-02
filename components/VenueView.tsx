@@ -42,6 +42,7 @@ export function VenueView({ venue, events, baseline }: { venue: VenueLite; event
       onToggleSaved={() => toggleSaved(e.id)}
       showVenue={false}
       index={i}
+      dated
     />
   );
 

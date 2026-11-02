@@ -108,6 +108,7 @@ function Feed({ data }: { data: AppData }) {
       saved={saved.has(e.id)}
       onToggleSaved={() => toggleSaved(e.id)}
       index={i}
+      dated
     />
   );
   const cap = anyFollows ? 40 : 12;

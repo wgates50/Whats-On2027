@@ -38,6 +38,7 @@ export function EventRow({
   showVenue = true,
   index = 0,
   closed = false,
+  dated = false,
 }: {
   e: WOEvent;
   venue?: VenueLite;
@@ -51,10 +52,15 @@ export function EventRow({
   index?: number;
   /** The venue is shut on the day being viewed (from its regular opening hours). */
   closed?: boolean;
+  /** Lists that aren't about one day (feed, venue and people pages): show a one-off's date, not just its time. */
+  dated?: boolean;
 }) {
   const [open, setOpen] = useState(false);
   const b = badges(e, day, today).filter((x) => x !== "new" || e.firstSeen > baseline);
-  const when = whenText(e, day);
+  const when =
+    dated && isOneOff(e) && e.startDate && !(e.endDate && e.endDate !== e.startDate)
+      ? `${e.startDate === today ? "Today" : `${weekdayShort(e.startDate)} ${shortDate(e.startDate, e.startDate.slice(0, 4) !== today.slice(0, 4))}`}${e.startTime ? ` · ${e.startTime}` : ""}`
+      : whenText(e, day);
   const venueName = venue?.name ?? e.venueName;
   // Runs with a Ticketmaster schedule: that day's times, or no performance at all.
   const perf = isOneOff(e) ? null : performancesOn(e, day);
