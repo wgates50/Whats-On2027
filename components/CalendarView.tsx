@@ -5,8 +5,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { AppData } from "@/lib/data";
 import type { Category, WOEvent } from "@/lib/types";
 import { usePrefs, useHydrated } from "@/lib/store";
-import { addDays, dayNum, isOnDay, isOneOff, londonToday, monthShort, weekdayLong, weekdayShort, longDate, daysBetween, venueClosedOn } from "@/lib/when";
-import { useAppData } from "@/lib/useData";
+import { addDays, dayNum, isOnDay, isOneOff, londonToday, monthShort, weekdayLong, weekdayShort, longDate, daysBetween, noPerformanceOn, venueClosedOn } from "@/lib/when";
+import { useAppData, usePeopleData } from "@/lib/useData";
 import { EventRow } from "./EventRow";
 import { Empty, LoadError, SectionHead } from "./ui";
 
@@ -62,13 +62,21 @@ function Calendar({ data }: { data: AppData }) {
   const venues = useMemo(() => new Map(data.venues.map((v) => [v.id, v])), [data.venues]);
   const baseline = useMemo(() => data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"), [data.events]);
   const follows = useMemo(() => new Set(prefs.follows), [prefs.follows]);
+  const followedPeople = useMemo(() => new Set(prefs.people), [prefs.people]);
   const saved = useMemo(() => new Set(prefs.saved), [prefs.saved]);
-  const mine = prefs.onlyMine && follows.size > 0;
+  const anyFollows = follows.size + followedPeople.size > 0;
+  const mine = prefs.onlyMine && anyFollows;
+  // Dates of people you follow at venues we don't list (people.json, only fetched if you follow someone).
+  const { people } = usePeopleData(followedPeople.size > 0);
+  const byPerson = (e: WOEvent) => !!e.people?.some((p) => followedPeople.has(p));
+  const isMine = (e: WOEvent) => follows.has(e.venueId) || byPerson(e);
 
-  const pool = useMemo(
-    () => data.events.filter((e) => (!mine || follows.has(e.venueId)) && (cat === "all" || e.category === cat) && (!freeOnly || e.price === "free")),
-    [data.events, mine, follows, cat, freeOnly],
-  );
+  const pool = useMemo(() => {
+    const elsewhere = (people?.elsewhere ?? []).filter((e) => e.people?.some((p) => followedPeople.has(p)));
+    return [...data.events, ...elsewhere].filter(
+      (e) => (!mine || follows.has(e.venueId) || e.people?.some((p) => followedPeople.has(p))) && (cat === "all" || e.category === cat) && (!freeOnly || e.price === "free"),
+    );
+  }, [data.events, people, mine, follows, followedPeople, cat, freeOnly]);
 
   // Dots on the day strip: days with one-off events in the current filter.
   const busy = useMemo(() => {
@@ -90,8 +98,8 @@ function Calendar({ data }: { data: AppData }) {
   const runs = onDay.filter((e) => !isOneOff(e));
   const closedHere = (e: WOEvent) => !isOneOff(e) && venueClosedOn(venues.get(e.venueId)?.hours, day);
   const rank = (e: WOEvent) => {
-    let r = follows.has(e.venueId) ? 0 : 100;
-    if (closedHere(e)) r += 60; // shut today: still listed, but below what you can actually see
+    let r = isMine(e) ? 0 : 100;
+    if (closedHere(e) || noPerformanceOn(e, day)) r += 60; // shut / dark today: still listed, but below what you can actually see
     if (e.startDate === day) r -= 30; // opens today
     if (e.endDate && daysBetween(day, e.endDate) <= 7) r -= 20; // last days
     return r;
@@ -107,7 +115,7 @@ function Calendar({ data }: { data: AppData }) {
     day,
     today,
     baseline,
-    followed: follows.has(e.venueId),
+    followed: isMine(e),
     saved: saved.has(e.id),
     onToggleSaved: () => toggleSaved(e.id),
     index: i,
@@ -164,22 +172,23 @@ function Calendar({ data }: { data: AppData }) {
         <button className="chip chip--quiet" aria-pressed={freeOnly} onClick={() => setFreeOnly(!freeOnly)}>
           Free
         </button>
-        {follows.size > 0 && (
+        {anyFollows && (
           <button className="chip chip--quiet" aria-pressed={mine} onClick={() => set({ onlyMine: !prefs.onlyMine })}>
-            My places
+            Following
           </button>
         )}
       </div>
 
-      {follows.size === 0 && (
+      {!anyFollows && (
         <p className="nudge">
-          Showing everything in London. <Link href="/places/">Follow a few places</Link> to turn this into your calendar.
+          Showing everything in London. <Link href="/places/">Follow a few places</Link> or{" "}
+          <Link href="/places/?show=people">people</Link> to turn this into your calendar.
         </p>
       )}
 
       {onDay.length === 0 && (
         <Empty>
-          <p>Nothing listed {mine ? "at your places" : ""} on {weekdayLong(day)}.</p>
+          <p>Nothing listed {mine ? "for what you follow" : ""} on {weekdayLong(day)}.</p>
           {mine && (
             <button className="link-button" onClick={() => set({ onlyMine: false })}>
               See everything in London

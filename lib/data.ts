@@ -4,7 +4,7 @@
 
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import type { SourceConfig, SourceHealth, Venue, VenueKind, WOEvent } from "./types.ts";
+import type { Person, SourceConfig, SourceHealth, Venue, VenueKind, WOEvent } from "./types.ts";
 import type { Week } from "./hours.ts";
 
 export interface VenueLite {
@@ -63,4 +63,15 @@ export function loadAppData(): AppData {
       .sort((a, b) => a.name.replace(/^the /i, "").localeCompare(b.name.replace(/^the /i, ""))),
     events,
   });
+}
+
+/** Performers and their dates at venues we don't list — a separate file, loaded only when needed. */
+export interface PeopleData {
+  people: Person[];
+  elsewhere: WOEvent[];
+}
+
+export function loadPeopleData(): PeopleData {
+  const file = read<{ people?: Person[]; elsewhere?: WOEvent[] }>("people.json", {});
+  return { people: file.people ?? [], elsewhere: file.elsewhere ?? [] };
 }

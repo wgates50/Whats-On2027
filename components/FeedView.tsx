@@ -5,8 +5,8 @@ import { useEffect, useMemo, useState } from "react";
 import type { AppData } from "@/lib/data";
 import type { WOEvent } from "@/lib/types";
 import { usePrefs, useHydrated } from "@/lib/store";
-import { addDays, daysBetween, isOnDay, isOneOff, londonToday, shortDate } from "@/lib/when";
-import { useAppData } from "@/lib/useData";
+import { addDays, daysBetween, isOnDay, isOneOff, londonToday, notOnSaleYet, shortDate } from "@/lib/when";
+import { useAppData, usePeopleData } from "@/lib/useData";
 import { EventRow } from "./EventRow";
 import { Empty, LoadError, SectionHead } from "./ui";
 
@@ -45,15 +45,23 @@ function Feed({ data }: { data: AppData }) {
   const venues = useMemo(() => new Map(data.venues.map((v) => [v.id, v])), [data.venues]);
   const baseline = useMemo(() => data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"), [data.events]);
   const follows = useMemo(() => new Set(prefs.follows), [prefs.follows]);
+  const followedPeople = useMemo(() => new Set(prefs.people), [prefs.people]);
   const saved = useMemo(() => new Set(prefs.saved), [prefs.saved]);
   const credits = useMemo(() => CREDITS.filter(([id]) => data.events.some((e) => e.sourceId === id)).map(([, name]) => name), [data.events]);
+  const { people } = usePeopleData(followedPeople.size > 0);
 
   if (!hydrated || !today) return <FeedSkeleton />;
 
-  const anyFollows = follows.size > 0;
-  const scope = (e: WOEvent) => !anyFollows || follows.has(e.venueId);
+  const anyFollows = follows.size + followedPeople.size > 0;
+  const byPerson = (e: WOEvent) => !!e.people?.some((p) => followedPeople.has(p));
+  const isMine = (e: WOEvent) => follows.has(e.venueId) || byPerson(e);
+  const scope = (e: WOEvent) => !anyFollows || isMine(e);
   const lastDay = (e: WOEvent) => e.endDate ?? (e.ongoing ? "9999" : e.startDate ?? "9999");
-  const upcoming = data.events.filter((e) => lastDay(e) >= today);
+  // Dates of people you follow at venues we don't list count as yours too.
+  const elsewhere = (people?.elsewhere ?? []).filter(byPerson);
+  const upcoming = [...data.events, ...elsewhere].filter((e) => lastDay(e) >= today);
+  const now = new Date().toISOString();
+  const nextMonth = new Date(Date.now() + 31 * 864e5).toISOString();
 
   const plans = upcoming
     .filter((e) => saved.has(e.id))
@@ -62,6 +70,14 @@ function Feed({ data }: { data: AppData }) {
   const announced = upcoming
     .filter((e) => scope(e) && e.firstSeen > baseline && daysBetween(e.firstSeen, today) <= 14)
     .sort((a, b) => b.firstSeen.localeCompare(a.firstSeen));
+
+  // Tickets going on general sale soon (Ticketmaster), soonest first.
+  const onSale = upcoming
+    .filter((e) => scope(e) && notOnSaleYet(e, now) && e.onSale!.start <= nextMonth)
+    .sort((a, b) => a.onSale!.start.localeCompare(b.onSale!.start));
+
+  // Everything coming up for the people you follow, wherever it is.
+  const theirs = upcoming.filter(byPerson).sort((a, b) => (a.startDate ?? today).localeCompare(b.startDate ?? today) || a.title.localeCompare(b.title));
 
   const weekEnd = addDays(today, 7);
   const opening = upcoming
@@ -88,7 +104,7 @@ function Feed({ data }: { data: AppData }) {
       day={day}
       today={today}
       baseline={baseline}
-      followed={follows.has(e.venueId)}
+      followed={isMine(e)}
       saved={saved.has(e.id)}
       onToggleSaved={() => toggleSaved(e.id)}
       index={i}
@@ -103,14 +119,14 @@ function Feed({ data }: { data: AppData }) {
           <span className="kicker__dot" /> Feed
         </p>
         <h1 className="dateline">
-          <em>What’s new</em> {anyFollows ? "at your places" : "in London"}
+          <em>What’s new</em> {anyFollows ? "for you" : "in London"}
         </h1>
       </header>
 
       {!anyFollows && (
         <p className="nudge">
-          You’re not following anywhere yet, so this is a taste of all of London. <Link href="/places/">Choose your places</Link> and the feed
-          narrows to them.
+          You’re not following anything yet, so this is a taste of all of London. <Link href="/places/">Choose your places</Link> or{" "}
+          <Link href="/places/?show=people">people</Link> and the feed narrows to them.
         </p>
       )}
 
@@ -121,13 +137,33 @@ function Feed({ data }: { data: AppData }) {
         </section>
       )}
 
+      {onSale.length > 0 && (
+        <section className="section">
+          <SectionHead title="On sale soon" count={onSale.length} />
+          <div className="rows">{onSale.slice(0, cap).map((e, i) => row(e, i, e.startDate && e.startDate > today ? e.startDate : today))}</div>
+        </section>
+      )}
+
+      {followedPeople.size > 0 && (
+        <section className="section">
+          <SectionHead title="People you follow" count={theirs.length} />
+          {theirs.length ? (
+            <div className="rows">{theirs.slice(0, cap).map((e, i) => row(e, i, e.startDate && e.startDate > today ? e.startDate : today))}</div>
+          ) : (
+            <Empty>
+              <p>No London dates for the people you follow right now. New ones appear here as soon as they’re announced.</p>
+            </Empty>
+          )}
+        </section>
+      )}
+
       <section className="section">
         <SectionHead title="Just announced" count={announced.length} />
         {announced.length ? (
           <div className="rows">{announced.slice(0, cap).map((e, i) => row(e, i))}</div>
         ) : (
           <Empty>
-            <p>Nothing new {anyFollows ? "at your places" : ""} in the last two weeks. New listings appear here the day they’re published.</p>
+            <p>Nothing new {anyFollows ? "for what you follow" : ""} in the last two weeks. New listings appear here the day they’re published.</p>
           </Empty>
         )}
       </section>

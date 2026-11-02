@@ -240,6 +240,8 @@ img { max-width: 100%; display: block; }
 .badge--opens-today, .badge--opening-soon, .badge--new { color: var(--accent); }
 .badge--free { color: var(--free); }
 .badge--closed { color: var(--ink-3); border-style: dashed; }
+.badge--onsale { color: var(--accent); border-style: dashed; }
+.row__times { font: 600 12px/1 var(--font-body); color: var(--ink-2); font-variant-numeric: tabular-nums; }
 .row__save { align-self: start; justify-self: end; width: 40px; height: 40px; display: grid; place-items: center; color: var(--ink-3); border-radius: 50%; transition: color 0.15s, transform 0.15s var(--ease); }
 .row__save:active { transform: scale(0.88); }
 .row__save.is-saved { color: var(--accent); }
@@ -247,6 +249,13 @@ img { max-width: 100%; display: block; }
 .row__image { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--paper-sunk); margin-bottom: 12px; }
 .row__range { margin: 0 0 6px; font: italic 400 17px/1.3 var(--font-display); }
 .row__desc { margin: 0 0 12px; color: var(--ink-2); font-size: 14px; }
+.row__note { margin: 0 0 10px; font: 500 13px/1.45 var(--font-body); color: var(--ink-2); }
+.row__people { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+.person-chip { display: inline-flex; align-items: center; border: 1px solid var(--rule); border-radius: 999px; padding: 0 0 0 11px; font: 500 13px/1 var(--font-body); }
+.person-chip a { text-decoration: none; padding: 8px 2px 8px 0; }
+.person-chip__follow { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; color: var(--ink-2); }
+.person-chip__follow.is-on { color: var(--accent); }
+.person-chip__follow svg { width: 14px; height: 14px; }
 .row__actions { display: flex; flex-wrap: wrap; gap: 8px 16px; }
 .row__actions a, .row__actions button { font: 600 13px/1.6 var(--font-body); text-decoration: underline; text-underline-offset: 3px; display: inline-flex; align-items: center; gap: 3px; }
 .row--open { background: linear-gradient(to right, transparent, var(--paper-raised) 30%, var(--paper-raised) 70%, transparent); }
@@ -314,6 +323,11 @@ img { max-width: 100%; display: block; }
   transition: background 0.15s var(--ease), color 0.15s var(--ease), border-color 0.15s;
 }
 .follow.is-on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+
+/* Places | People */
+.switch { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--ink); border-radius: 999px; padding: 3px; margin: 0 0 14px; }
+.switch button { border-radius: 999px; padding: 9px 0; font: 600 13.5px/1 var(--font-body); color: var(--ink-2); transition: background 0.15s var(--ease), color 0.15s var(--ease); }
+.switch button[aria-selected="true"] { background: var(--ink); color: var(--paper); }
 .follow--big { height: 42px; padding: 0 18px 0 14px; font-size: 14px; }
 
 /* ------------------------------------------------------------ tab bar */
