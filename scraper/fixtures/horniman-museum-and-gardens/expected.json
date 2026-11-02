@@ -39,7 +39,7 @@
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2026-12-02",
-      "endDate": "2026-12-26",
+      "endDate": "2027-01-20",
       "firstSeen": "2026-11-02",
       "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2025/10/CCP-banner-draft-4-582x392.jpg?strip=all"
     },
@@ -101,11 +101,12 @@
       "sourceId": "horniman-museum-and-gardens",
       "title": "Aquarium",
       "url": "https://www.horniman.ac.uk/event/aquarium/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-12-24",
-      "endDate": "2026-12-26",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": null,
       "firstSeen": "2026-11-02",
+      "ongoing": true,
       "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2020/02/WhiteSpottedJellyfish_04-382x382.jpg?strip=all"
     },
     {
@@ -179,11 +180,12 @@
       "sourceId": "horniman-museum-and-gardens",
       "title": "Butterfly House",
       "url": "https://www.horniman.ac.uk/event/butterfly-house/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-12-24",
-      "endDate": "2026-12-26",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": null,
       "firstSeen": "2026-11-02",
+      "ongoing": true,
       "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2020/02/HornimanButterflyHouse_butterflies_19cPhil-Sofer-new-website-scaled-382x382.jpg?strip=all"
     },
     {

@@ -53,6 +53,7 @@ The issue body has the status, message and current config. By status:
 | `blocked` | site refuses us / robots.txt | Rule 3: mark `manualOnly`, disable source, close issue. |
 | `error` | network/timeout twice in a row | `npm run scrape -- --only <id> --dry`. Works now → comment "transient", leave it (it auto-closes). Fails → check the URL still exists (`npm run discover -- <url>`); fix URLs if moved. |
 | `empty` / `dropped` (2 runs in a row) / `invalid` | markup changed | Fix selectors (below). |
+| `invalid` — "… started over a year ago … past events are probably being read as current" | dates misread (e.g. a year glued to the title: "9 December 2018Strange Days") | `npm run discover -- <listing url>` and look at the raw date text; point `dates` at the date element alone, or read event pages (`detail.dates`). Those events are held back until it's fixed. |
 
 Fixing selectors:
 

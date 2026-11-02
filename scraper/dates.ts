@@ -39,11 +39,13 @@ interface Token {
 //   1) "23 oct 2026" / "23 october"        2) "october 23, 2026" (US style)
 //   3) "october 2026"                      4) bare day before a dash: "3 – 9 may"
 //   5) bare month before a dash: "october – december 2026"
+// A year may run straight into the next word when a page puts the date and the title in adjacent
+// elements ("9 December 2018Strange Days…"), so years end at a non-digit rather than a word boundary.
 const TOKEN_RE = new RegExp(
   [
-    `\\b(\\d{1,2})\\s+${MONTH_RE}\\.?(?:,?\\s+(20\\d{2}))?\\b`,
-    `\\b${MONTH_RE}\\.?\\s+(\\d{1,2})\\b(?:,?\\s+(20\\d{2}))?`,
-    `\\b${MONTH_RE}\\.?,?\\s+(20\\d{2})\\b`,
+    `\\b(\\d{1,2})\\s+${MONTH_RE}\\.?(?:,?\\s+(20\\d{2})(?!\\d)|\\b)`,
+    `\\b${MONTH_RE}\\.?\\s+(\\d{1,2})\\b(?:,?\\s+(20\\d{2})(?!\\d))?`,
+    `\\b${MONTH_RE}\\.?,?\\s+(20\\d{2})(?!\\d)`,
     `\\b(\\d{1,2})(?=\\s*[–—-]\\s*(?:[a-z]+\\s+)?\\d{1,2}\\s+${MONTH_NC})`,
     `\\b${MONTH_RE}\\b(?=\\s*[–—-])`,
   ].join("|"),
@@ -100,6 +102,12 @@ export function parseDateRange(raw: string | null | undefined, today: string): P
     .replace(/&nbsp;| /g, " ")
     .replace(/\s+/g, " ")
     .trim();
+  // "2 December – 20 January 2027 (closed 24–26 December)": the aside isn't part of the range.
+  const aside = /\(\s*(?:closed|except|excluding|not open|no (?:performances?|shows?|events?))\b[^)]*\)/gi;
+  if (aside.test(text)) {
+    const r = parseDateRange(text.replace(aside, " "), today);
+    if (r) return r;
+  }
   const lower = text.toLowerCase().replace(/(\d)(st|nd|rd|th)\b/g, "$1");
 
   // ISO dates (from <time datetime>, JSON-LD, or text): first = start, last = end.
@@ -125,11 +133,22 @@ export function parseDateRange(raw: string | null | undefined, today: string): P
   // Fill months/years right-to-left: "4 March – 30 May 2027", "3 – 9 May 2027", "Fri 23 Oct — Mon 30 Nov".
   const last = toks[toks.length - 1];
   if (last.m === undefined) return null;
+  for (let i = toks.length - 2; i >= 0; i--) toks[i].m ??= toks[i + 1].m;
+  // A year given only on an earlier date carries forward ("2 October 2018 – 9 December" ends in
+  // December 2018, not this December); only a range with no year at all is placed relative to today.
+  const anchor = toks.map((t) => t.y !== undefined).lastIndexOf(true);
+  if (last.y === undefined && anchor >= 0) {
+    for (let i = anchor + 1; i < toks.length; i++) {
+      const prev = toks[i - 1];
+      const t = toks[i];
+      const wraps = t.m! < prev.m! || (t.m === prev.m && (t.d ?? 1) < (prev.d ?? 1));
+      t.y = prev.y! + (wraps ? 1 : 0);
+    }
+  }
   last.y ??= inferYear(last.m, last.d ?? 1, today);
   for (let i = toks.length - 2; i >= 0; i--) {
     const t = toks[i];
     const next = toks[i + 1];
-    t.m ??= next.m;
     if (t.y === undefined) {
       const later = (t.m! > next.m!) || (t.m === next.m && (t.d ?? 1) > (next.d ?? 1));
       t.y = later ? next.y! - 1 : next.y;

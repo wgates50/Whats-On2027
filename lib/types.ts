@@ -216,6 +216,7 @@ export interface SourceHealth {
   lastOk?: string;
   lastOkCount?: number; // baseline for "dropped"
   consecutiveFailures: number;
+  configKey?: string; // the source config lastOkCount was measured with (a new config resets "usual")
 }
 
 export const CATEGORY_LABEL: Record<Category, string> = {

@@ -4,5 +4,23 @@
     "status": 200,
     "finalUrl": "https://www.180studios.com/exhibitions-and-performances",
     "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.180studios.com/mafia": {
+    "file": "8b80be3b4aab.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.180studios.com/mafia",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.180studios.com/data-cosm": {
+    "file": "c676ec06e047.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.180studios.com/data-cosm",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.180studios.com/listening-room": {
+    "file": "e06bb0df3385.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.180studios.com/listening-room",
+    "contentType": "text/html; charset=utf-8"
   }
 }

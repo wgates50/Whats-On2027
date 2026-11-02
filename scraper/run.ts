@@ -11,7 +11,8 @@ import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } fr
 import type { HealthStatus, Person, SourceConfig, WOEvent } from "../lib/types.ts";
 import { MissingKeyError, runAdapter, type CachedDetail, type DetailCache } from "./adapters/index.ts";
 import { loadEvents, loadHealth, loadPeople, loadSources, loadVenues, writeJson, type HealthFile } from "./config.ts";
-import { todayLondon } from "./dates.ts";
+import { addDays, todayLondon } from "./dates.ts";
+import { staleEvents } from "./health.ts";
 import { BlockedError, createFetcher } from "./fetcher.ts";
 import { normalize } from "./normalize.ts";
 import { VenueIndex, normName } from "./venues.ts";
@@ -26,6 +27,8 @@ interface Outcome {
   unmatchedVenues: Record<string, number>;
   elsewhere: WOEvent[];
   people: Record<string, Person>;
+  /** Events that look like past ones read as current were held back (see staleEvents). */
+  heldBack?: boolean;
   ms: number;
 }
 
@@ -88,8 +91,12 @@ async function runOne(source: SourceConfig): Promise<Outcome> {
     );
     if (cache && !dry) saveCache(source, cache);
     const rep = normalize(res.events, source, index, today);
+    const stale = staleEvents(rep.events, today);
+    if (stale) rep.events = rep.events.filter((e) => !stale.includes(e)); // held back until the source is fixed
     const prev = prevHealth.sources[source.id];
-    const baseline = prev?.lastOkCount ?? 0;
+    // "Usually ~N" only means something for the same config: after a fix (new selectors, a date
+    // that was being misread) the count is allowed to move without being called a drop.
+    const baseline = prev?.configKey === cacheKey(source) ? (prev?.lastOkCount ?? 0) : 0;
     const considered = rep.events.length + rep.invalid.length;
     let status: HealthStatus = "ok";
     let message: string | undefined;
@@ -99,6 +106,9 @@ async function runOne(source: SourceConfig): Promise<Outcome> {
     } else if (res.linksFound >= 4 && res.skippedNoDates >= res.linksFound * 0.5) {
       status = "invalid";
       message = `${res.skippedNoDates} of ${res.linksFound} detail pages had no parseable dates — date selector probably broken`;
+    } else if (stale) {
+      status = "invalid";
+      message = `${stale.length} events started over a year ago (e.g. "${stale[0].title}" from ${stale[0].startDate}) — past events are probably being read as current; check how this source's dates are parsed`;
     } else if (rep.events.length === 0) {
       // A multi-city listing with nothing in London this week is fine — as long as the cards do carry
       // location text (if none do, the venue selector is what broke).
@@ -126,6 +136,7 @@ async function runOne(source: SourceConfig): Promise<Outcome> {
       unmatchedVenues: rep.unmatchedVenues,
       elsewhere: rep.elsewhere,
       people: rep.people,
+      heldBack: !!stale,
       ms: Date.now() - t0,
     };
   } catch (e) {
@@ -179,7 +190,9 @@ for (const o of outcomes) {
   if (o.status !== "ok") {
     // Don't let one bad run wipe a venue: keep its previous, still-current events.
     const have = new Set(o.events.map((e) => e.id));
-    merged.push(...prevEvents.filter((e) => e.sourceId === o.source.id && !have.has(e.id) && isCurrent(e)));
+    // …except, when this run held back past-looking events, the same ones from before.
+    const stalePrev = o.heldBack ? (e: WOEvent) => !!e.startDate && e.startDate < addDays(today, -365) : () => false;
+    merged.push(...prevEvents.filter((e) => e.sourceId === o.source.id && !have.has(e.id) && isCurrent(e) && !stalePrev(e)));
   }
 }
 // Sources not run this time (--only, or temporarily disabled) keep their data.
@@ -286,6 +299,7 @@ for (const o of outcomes) {
     checkedAt: now,
     lastOk: ok ? now : prev?.lastOk,
     lastOkCount: ok ? o.events.length : prev?.lastOkCount,
+    configKey: ok ? cacheKey(o.source) : prev?.configKey,
     consecutiveFailures: ok || skipped ? 0 : (prev?.consecutiveFailures ?? 0) + 1,
     ...(Object.keys(topUnmatched).length ? { unmatchedVenues: topUnmatched } : {}),
     ...(o.warnings.length ? { warnings: o.warnings.slice(0, 8) } : {}),

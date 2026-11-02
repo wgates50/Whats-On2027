@@ -14,6 +14,7 @@ import {
   pageImage,
   pageTitle,
   rawFromJsonLd,
+  textOf,
   textToPrice,
   type RawEvent,
 } from "../extract.ts";
@@ -54,7 +55,7 @@ function selectorList(sel: string): string[] {
 export function firstText($: CheerioAPI, sel: string, scope?: ReturnType<CheerioAPI>): string {
   for (const part of selectorList(sel)) {
     const el = (scope ? scope.find(part) : $(part)).first();
-    const t = clean(el.text());
+    const t = textOf(el);
     if (t) return t;
   }
   return "";
@@ -73,7 +74,7 @@ function ttlDays(key: string, days: number): number {
 function firstDate($: CheerioAPI, sel: string, today: string, scope?: ReturnType<CheerioAPI>): ParsedRange | null {
   for (const part of selectorList(sel)) {
     for (const el of (scope ? scope.find(part) : $(part)).toArray()) {
-      const r = parseDateRange(clean($(el).text()), today);
+      const r = parseDateRange(textOf($(el)), today);
       if (r) return r;
     }
   }
@@ -87,7 +88,7 @@ function titleText($: CheerioAPI, sel: string, scope: ReturnType<CheerioAPI>): s
     if (!el.length) continue;
     const copy = el.clone();
     copy.find("sub, sup, small").remove();
-    const t = clean(copy.text()).replace(/\s*[;,]\s*$/, "");
+    const t = textOf(copy).replace(/\s*[;,]\s*$/, "");
     if (/[\p{L}\p{N}]/u.test(t)) return t; // skip placeholders like "–"
   }
   return "";
@@ -125,6 +126,8 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
   const listingEvents = new Map<string, RawEvent>();
   let cardsSeen = 0;
   let skippedCards = 0;
+  /** Cards without a date whose own page we'll read instead (title and image from the card). */
+  const undated = new Map<string, RawEvent>();
 
   for (const [li, template] of cfg.listUrls.entries()) {
     const pages = template.includes("{page}") ? Array.from({ length: maxPages }, (_, i) => i + 1) : [0];
@@ -160,7 +163,14 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
           const dates = (c.dateFromUrl && url ? dateFromUrl(url, c.dateFromUrl) : null) ?? (c.dates ? firstDate($, c.dates, today, card) : null);
           if (!url || !title) return;
           if (!dates) {
-            skippedCards++;
+            // No date on the card: when the source says how to read event pages, read it there.
+            const k = normUrl(url);
+            if (cfg.detail && !linkSet.has(k)) {
+              linkSet.add(k);
+              links.push(url);
+              undated.set(k, { url, title, dates: { startDate: null, endDate: null }, image: imageIn($, c.image ? card.find(c.image).first() : card, res.url) });
+              fresh++;
+            } else skippedCards++;
             return;
           }
           const key = normUrl(url);
@@ -216,7 +226,9 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
 
   for (const link of cache ? links : links.slice(0, maxLinks)) {
     const key = normUrl(link);
-    const fromListing = listingEvents.get(key);
+    const card = listingEvents.get(key) ?? undated.get(key);
+    // What the listing alone can stand for if the page fetch fails (only if it had a date).
+    const fromListing = card && (card.dates.startDate || card.dates.endDate || card.dates.ongoing) ? card : undefined;
     // A card with a full date range is enough; one with only "Until …"/"Opens …" is worth a detail fetch.
     if (fromListing && fromListing.dates.startDate && (fromListing.dates.endDate || !fromListing.dates.ongoing)) {
       events.push({ ...fromListing, url: link });
@@ -258,7 +270,7 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
       continue;
     }
     if (fromListing) used.add(key);
-    const parsed = parseDetail(res.body, res.url, link, key, fromListing);
+    const parsed = parseDetail(res.body, res.url, link, key, card);
     cache?.set(key, { raw: parsed ?? null, at: today });
     if (parsed) events.push(parsed);
     else if (fromListing) events.push({ ...fromListing, url: link });
