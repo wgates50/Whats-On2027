@@ -1,0 +1,86 @@
+{
+  "sourceId": "regents-park-open-air-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://openairtheatre.com/past-productions/whats-on"
+    ],
+    "cards": {
+      "item": "a.ProductionTeaser-link",
+      "dates": "div.ProductionTeaser-content"
+    }
+  },
+  "rawCount": 7,
+  "events": [
+    {
+      "id": "regents-park-open-air-theatre:production-fiddler-on-the-roof-uk-ireland-tour-2025-26",
+      "venueId": "regents-park-open-air-theatre",
+      "sourceId": "regents-park-open-air-theatre",
+      "title": "Fiddler on the Roof UK & Ireland Tour (2025-2026)",
+      "url": "https://openairtheatre.com/production/fiddler-on-the-roof-uk-ireland-tour-2025-26",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-05-24",
+      "endDate": "2027-01-04",
+      "firstSeen": "2026-11-02",
+      "image": "https://openairtheatre.com/uploads/images/_435xAUTO_crop_center-center_none/FOTRTourThumbnail_2025-01-27-132815_pvvi.png"
+    },
+    {
+      "id": "regents-park-open-air-theatre:production-the-enormous-crocodile-tour",
+      "venueId": "regents-park-open-air-theatre",
+      "sourceId": "regents-park-open-air-theatre",
+      "title": "The Enormous Crocodile UK & US Tour",
+      "url": "https://openairtheatre.com/production/the-enormous-crocodile-tour",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-01",
+      "endDate": "2027-07-26",
+      "firstSeen": "2026-11-02",
+      "image": "https://openairtheatre.com/uploads/images/_435xAUTO_crop_center-center_none/TEC-Tour-2025-Production-Cover-Photo.png"
+    },
+    {
+      "id": "regents-park-open-air-theatre:production-sherlock-holmes-2026",
+      "venueId": "regents-park-open-air-theatre",
+      "sourceId": "regents-park-open-air-theatre",
+      "title": "Sherlock Holmes",
+      "url": "https://openairtheatre.com/production/sherlock-holmes-2026",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-05-02",
+      "endDate": "2027-06-06",
+      "firstSeen": "2026-11-02",
+      "image": "https://openairtheatre.com/uploads/images/_435xAUTO_crop_center-center_none/sherlock-thumbnail.png"
+    },
+    {
+      "id": "regents-park-open-air-theatre:production-four-seasons-2026",
+      "venueId": "regents-park-open-air-theatre",
+      "sourceId": "regents-park-open-air-theatre",
+      "title": "A Life in Four Seasons Vivaldi’s masterpiece reimagined in an electric new dance work.",
+      "url": "https://openairtheatre.com/production/four-seasons-2026",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-11",
+      "endDate": "2027-06-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://openairtheatre.com/uploads/images/_435xAUTO_crop_center-center_none/four-seasons-thumbnail.png"
+    },
+    {
+      "id": "regents-park-open-air-theatre:production-a-midsummer-nights-dream-2026",
+      "venueId": "regents-park-open-air-theatre",
+      "sourceId": "regents-park-open-air-theatre",
+      "title": "A Midsummer Night's Dream",
+      "url": "https://openairtheatre.com/production/a-midsummer-nights-dream-2026",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-20",
+      "endDate": "2027-07-18",
+      "firstSeen": "2026-11-02",
+      "image": "https://openairtheatre.com/uploads/images/_435xAUTO_crop_center-center_none/Midsummer-Nights-Dream-2026-thumbnail.png"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# What's On · London
+
+A personal, installable web app (PWA) for what's on in London — **exhibitions, shows and art events** —
+at the places you care about. No AI in the app, no API costs.
+
+- **Calendar**: pick a day → *Happening* (talks, tours, lates, one-night shows) and *On now*
+  (exhibitions and show runs), filtered to the places you follow.
+- **Feed**: just announced, this weekend, opening this week, last chance — at your places.
+- **Places**: 246 London museums, galleries, theatres, arts centres and talk/comedy venues to follow.
+
+## How it works
+
+```
+GitHub Action (daily, free)                     Vercel (free)
+  scrape ~90 sources ─► data/events.json ─commit─► rebuild static site ─► your phone (PWA, works offline)
+        │
+        └─ health check ─► "Source broken" issue ─► Claude scheduled task (your Claude plan)
+                                                     fixes the config ─► PR ─► CI auto-merges
+```
+
+- **Sources** (`data/sources.json`): each venue's own website (structured data, listing cards or
+  detail pages), plus aggregators — e.g. *Official London Theatre* covers ~70 West End and
+  off-West End theatres in one request.
+- **No workarounds**: sites that block automated requests (e.g. the British Museum, Royal Academy,
+  Southbank Centre) are marked *manual*; their events come via aggregators or the "Add event" form.
+- **Self-maintaining**: when a site's markup changes, the daily health check opens an issue and the
+  scheduled Claude task fixes it (see `MAINTAINING.md`). Config-only fixes auto-merge after tests.
+
+## Using it
+
+- **Install**: open the site on your phone → Share → *Add to Home Screen*.
+- **Follow** places in the Places tab; your follows and saved events stay on the device
+  (*Share list* gives you a link to copy them to another device).
+- **Add an event the scrapers miss**: *Add an event here* on a venue page (opens a GitHub issue form —
+  a workflow adds it to `data/manual-events.json` and closes the issue).
+- **Request a venue**: Places → *Request a place*. The maintenance task adds it.
+
+## Deploy (one-time)
+
+1. In Vercel: *Add New → Project → Import* `wgates50/Whats-On2027` (framework: Next.js, defaults).
+2. Every push to `main` (including the daily data commit) redeploys automatically.
+
+## Develop
+
+```bash
+npm ci
+npm run dev            # http://localhost:3000
+npm test               # date parser + replay recorded venue pages
+npm run scrape -- --only tate-modern --dry
+```
+
+See `CLAUDE.md` for the code map and `MAINTAINING.md` for the maintenance runbook.

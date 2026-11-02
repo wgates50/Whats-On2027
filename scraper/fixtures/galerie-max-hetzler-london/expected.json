@@ -1,0 +1,38 @@
+{
+  "sourceId": "galerie-max-hetzler-london",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.maxhetzler.com/exhibitions"
+    ],
+    "cards": {
+      "item": "a.block:has(div.date)",
+      "title": "h3.title",
+      "dates": "div.date",
+      "venue": "div.loc",
+      "description": "div.subtitle"
+    }
+  },
+  "rawCount": 725,
+  "events": [
+    {
+      "id": "galerie-max-hetzler-london:exhibitions-walton-ford-orbed-drop-light-2026",
+      "venueId": "galerie-max-hetzler-london",
+      "sourceId": "galerie-max-hetzler-london",
+      "title": "WALTON FORD",
+      "url": "https://www.maxhetzler.com/exhibitions/walton-ford-orbed-drop-light-2026",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-17",
+      "endDate": "2026-11-11",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.maxhetzler.com/application/files/thumbnails/detail_sm/2817/8964/0129/2026-gmh-london-installation-view-walton-ford-photo-lucy-dawkins-1-srgb.jpg",
+      "description": "An Orbed Drop of Light"
+    }
+  ]
+}

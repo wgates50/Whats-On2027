@@ -1,0 +1,45 @@
+name: Add event from issue
+
+# Turns an "Add an event" issue (opened by the repo owner) into an entry in data/manual-events.json.
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: add-event
+  cancel-in-progress: false
+
+jobs:
+  add:
+    if: contains(github.event.issue.labels.*.name, 'add-event') && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - id: add
+        run: npx tsx scraper/add-event.ts
+      - name: Commit
+        if: steps.add.outputs.ok == 'true'
+        run: |
+          git config user.name "whats-on-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/manual-events.json
+          git diff --cached --quiet || git commit -m "data: add event from #${{ github.event.issue.number }}"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep $((i*5)); done
+          exit 1
+      - name: Reply
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" --body "$RESULT"
+          if [ "${{ steps.add.outputs.ok }}" = "true" ]; then gh issue close "${{ github.event.issue.number }}"; fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RESULT: ${{ steps.add.outputs.result }}

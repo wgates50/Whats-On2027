@@ -1,0 +1,60 @@
+{
+  "sourceId": "goldsmiths-cca",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://goldsmithscca.art/events/"
+    ],
+    "cards": {
+      "item": "header",
+      "dates": "time"
+    }
+  },
+  "rawCount": 3,
+  "events": [
+    {
+      "id": "goldsmiths-cca:event-category-relaxed-viewing",
+      "venueId": "goldsmiths-cca",
+      "sourceId": "goldsmiths-cca",
+      "title": "Relaxed ViewingEvelyn Taocheng Wang",
+      "url": "https://goldsmithscca.art/event-category/relaxed-viewing/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "11:00"
+    },
+    {
+      "id": "goldsmiths-cca:event-category-off-site-event",
+      "venueId": "goldsmiths-cca",
+      "sourceId": "goldsmiths-cca",
+      "title": "Off-site EventNova Ghost Transmission + Proteus + Katie Shannon at Cafe OTO",
+      "url": "https://goldsmithscca.art/event-category/off-site-event/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "goldsmiths-cca:event-category-tour",
+      "venueId": "goldsmiths-cca",
+      "sourceId": "goldsmiths-cca",
+      "title": "TourBSL Tour of Being Poetic Ruins Life with Martin Glover",
+      "url": "https://goldsmithscca.art/event-category/tour/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-29",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "13:00"
+    }
+  ]
+}

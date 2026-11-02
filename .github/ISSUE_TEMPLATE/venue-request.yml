@@ -1,0 +1,31 @@
+name: Request a venue
+description: Ask for a new place to be added. Claude's scheduled maintenance task picks these up.
+title: "Venue request: "
+labels: ["venue-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Venue name
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+    validations:
+      required: true
+  - type: input
+    id: whats-on
+    attributes:
+      label: What's-on page (optional)
+      description: The page that lists their exhibitions/events, if you know it.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of place
+      options: [museum, public-gallery, commercial-gallery, arts-centre, theatre, concert-hall, live-venue, talks-venue, comedy-club, garden]
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)

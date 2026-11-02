@@ -1,0 +1,125 @@
+{
+  "sourceId": "cristea-roberts-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://cristearoberts.com/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "div.bottom"
+    }
+  },
+  "rawCount": 11,
+  "events": [
+    {
+      "id": "cristea-roberts-gallery:english-exhibitiondetaile001100-aspx-cond-f05a2382-2a4f-4c69-8688-09e7aec098e4",
+      "venueId": "cristea-roberts-gallery",
+      "sourceId": "cristea-roberts-gallery",
+      "title": "Michael Craig-Martin: The Language of the Everyday",
+      "url": "https://www.kmfa.gov.tw/English/ExhibitionDetailE001100.aspx?Cond=f05a2382-2a4f-4c69-8688-09e7aec098e4",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-03",
+      "endDate": "2027-03-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2136/news3.jpg"
+    },
+    {
+      "id": "cristea-roberts-gallery:richard-long-rocks-river",
+      "venueId": "cristea-roberts-gallery",
+      "sourceId": "cristea-roberts-gallery",
+      "title": "Richard Long: Rocks River",
+      "url": "https://chinati.org/richard-long-rocks-river/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-09",
+      "endDate": "2027-06-30",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2138/news2.jpg"
+    },
+    {
+      "id": "cristea-roberts-gallery:exhibition-cornelia-parker",
+      "venueId": "cristea-roberts-gallery",
+      "sourceId": "cristea-roberts-gallery",
+      "title": "Cornelia Parker",
+      "url": "https://citygallery.org.nz/exhibition/cornelia-parker/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-10",
+      "endDate": "2027-03-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2139/news1.jpg"
+    },
+    {
+      "id": "cristea-roberts-gallery:event-talisman",
+      "venueId": "cristea-roberts-gallery",
+      "sourceId": "cristea-roberts-gallery",
+      "title": "Talisman | Carte blanche à Ali Banisadr",
+      "url": "https://musee-moreau.fr/fr/agenda/event/talisman",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-09",
+      "endDate": "2026-12-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2122/exhib-9.jpg"
+    },
+    {
+      "id": "cristea-roberts-gallery:exhibition-listening-to-the-earth",
+      "venueId": "cristea-roberts-gallery",
+      "sourceId": "cristea-roberts-gallery",
+      "title": "Ali Kazim in Listening to the Earth",
+      "url": "https://drawingroom.org.uk/exhibition/listening-to-the-earth/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-24",
+      "endDate": "2026-12-13",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2123/exhib-3.jpg"
+    },
+    {
+      "id": "cristea-roberts-gallery:exhibitions-upcoming-exhibitions",
+      "venueId": "cristea-roberts-gallery",
+      "sourceId": "cristea-roberts-gallery",
+      "title": "Howard Hodgkin: In a Public Garden",
+      "url": "https://theamelia.co.uk/arts-heritage/exhibitions/upcoming-exhibitions/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-23",
+      "endDate": "2027-02-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2124/exhib-2.jpg"
+    },
+    {
+      "id": "cristea-roberts-gallery:exhibition-guggenheim-pop",
+      "venueId": "cristea-roberts-gallery",
+      "sourceId": "cristea-roberts-gallery",
+      "title": "Guggenheim Pop: 1960 to Now",
+      "url": "https://www.guggenheim.org/exhibition/guggenheim-pop",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-06-05",
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2096/e-2.jpg"
+    },
+    {
+      "id": "cristea-roberts-gallery:whatson-clare-woods",
+      "venueId": "cristea-roberts-gallery",
+      "sourceId": "cristea-roberts-gallery",
+      "title": "Clare Woods: Garden Without Seasons",
+      "url": "https://www.pitzhanger.org.uk/whatson/clare-woods/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-07-29",
+      "endDate": "2026-11-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2089/1.jpg"
+    }
+  ]
+}

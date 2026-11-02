@@ -1,0 +1,32 @@
+{
+  "https://courtauld.ac.uk/research/whats-on-research-forum-events/": {
+    "file": "eaf5d9190482.html.gz",
+    "status": 200,
+    "finalUrl": "https://courtauld.ac.uk/research/whats-on-research-forum-events/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://courtauld.ac.uk/whats-on/why-constable-didnt-give-up-figure-painting/": {
+    "file": "f6c9605d151d.html.gz",
+    "status": 200,
+    "finalUrl": "https://courtauld.ac.uk/whats-on/why-constable-didnt-give-up-figure-painting/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://courtauld.ac.uk/whats-on/green-salman-toor-and-south-asian-literary-production-in-detail/": {
+    "file": "4d93c0412dc9.html.gz",
+    "status": 200,
+    "finalUrl": "https://courtauld.ac.uk/whats-on/green-salman-toor-and-south-asian-literary-production-in-detail/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://courtauld.ac.uk/whats-on/the-portals-of-notre-dame-in-paris-findings-from-the-current-construction-site/": {
+    "file": "adbebac01de2.html.gz",
+    "status": 200,
+    "finalUrl": "https://courtauld.ac.uk/whats-on/the-portals-of-notre-dame-in-paris-findings-from-the-current-construction-site/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://courtauld.ac.uk/whats-on/untold-tales-women-pioneers-in-british-and-irish-architectural-history/": {
+    "file": "42095695829f.html.gz",
+    "status": 200,
+    "finalUrl": "https://courtauld.ac.uk/whats-on/untold-tales-women-pioneers-in-british-and-irish-architectural-history/",
+    "contentType": "text/html; charset=UTF-8"
+  }
+}

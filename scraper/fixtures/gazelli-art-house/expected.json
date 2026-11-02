@@ -1,0 +1,69 @@
+{
+  "sourceId": "gazelli-art-house",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://gazelliarthouse.com/"
+    ],
+    "cards": {
+      "item": "div.inner",
+      "dates": "span.date"
+    }
+  },
+  "rawCount": 5,
+  "events": [
+    {
+      "id": "gazelli-art-house:exhibitions-216-in-town-tonight-allen-jones",
+      "venueId": "gazelli-art-house",
+      "sourceId": "gazelli-art-house",
+      "title": "Allen Jones : In Town Tonight",
+      "url": "https://gazelliarthouse.com/exhibitions/216-in-town-tonight-allen-jones/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2026-12-18",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gazelli-art-house:exhibitions-215-everything-folds-unfolds-refolds-group-show",
+      "venueId": "gazelli-art-house",
+      "sourceId": "gazelli-art-house",
+      "title": "Group Show : Everything Folds, Unfolds, Refolds",
+      "url": "https://gazelliarthouse.com/exhibitions/215-everything-folds-unfolds-refolds-group-show/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2026-12-20",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gazelli-art-house:exhibitions-219-harold-cohen-painting-about-representation-1962-71-solo-show",
+      "venueId": "gazelli-art-house",
+      "sourceId": "gazelli-art-house",
+      "title": "Harold Cohen : Painting About Representation (1962–71)",
+      "url": "https://gazelliarthouse.com/exhibitions/219-harold-cohen-painting-about-representation-1962-71-solo-show/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-12",
+      "endDate": "2027-01-09",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "gazelli-art-house:exhibitions-217-dominic-myatt-scree-slope-solo-show",
+      "venueId": "gazelli-art-house",
+      "sourceId": "gazelli-art-house",
+      "title": "Dominic Myatt : Scree Slope",
+      "url": "https://gazelliarthouse.com/exhibitions/217-dominic-myatt-scree-slope-solo-show/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

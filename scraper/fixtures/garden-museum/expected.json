@@ -1,0 +1,60 @@
+{
+  "sourceId": "garden-museum",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.gardenmuseum.org.uk/whats-on/sabine-moritz/"
+    ],
+    "cards": {
+      "item": "article.card--base.card--standard",
+      "dates": "div.card__content__wrapper"
+    }
+  },
+  "rawCount": 3,
+  "events": [
+    {
+      "id": "garden-museum:whats-on-threads-of-ascent-tapestries-by-clare-woods",
+      "venueId": "garden-museum",
+      "sourceId": "garden-museum",
+      "title": "Threads of Ascent: Tapestries by Clare Woods",
+      "url": "https://www.gardenmuseum.org.uk/whats-on/threads-of-ascent-tapestries-by-clare-woods/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-05",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.gardenmuseum.org.uk/wp-content/uploads/2026/08/TheTakeOver2026_DovecotxClareWoods_cDovecotStudios_PhotobyPhilWilkinson_crop-916x516.jpg"
+    },
+    {
+      "id": "garden-museum:whats-on-winter-flowers-week-2026",
+      "venueId": "garden-museum",
+      "sourceId": "garden-museum",
+      "title": "Winter Flowers Week 2026",
+      "url": "https://www.gardenmuseum.org.uk/whats-on/winter-flowers-week-2026/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-15",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.gardenmuseum.org.uk/wp-content/uploads/2026/09/DSC_4866-GWL-916x516.jpg"
+    },
+    {
+      "id": "garden-museum:whats-on-frank-bowling-dennis-de-caires",
+      "venueId": "garden-museum",
+      "sourceId": "garden-museum",
+      "title": "Frank Bowling & Dennis de Caires",
+      "url": "https://www.gardenmuseum.org.uk/whats-on/frank-bowling-dennis-de-caires/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-01-13",
+      "endDate": "2027-02-28",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.gardenmuseum.org.uk/wp-content/uploads/2026/10/Frank-Dennis_web-banner3-916x516.jpg"
+    }
+  ]
+}

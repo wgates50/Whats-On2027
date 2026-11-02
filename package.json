@@ -1,0 +1,31 @@
+{
+  "name": "whats-on",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "scrape": "tsx scraper/run.ts",
+    "fixture": "tsx scraper/fixture.ts",
+    "typecheck": "tsc --noEmit",
+    "discover": "tsx scraper/discover.ts",
+    "test": "tsx --test scraper/*.test.ts",
+    "geocode": "tsx scraper/geocode.ts",
+    "probe": "tsx scraper/probe.ts",
+    "issues": "tsx scraper/issues.ts",
+    "prebuild": "tsx scripts/build-data.ts",
+    "predev": "tsx scripts/build-data.ts"
+  },
+  "dependencies": {
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "cheerio": "^1.2.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

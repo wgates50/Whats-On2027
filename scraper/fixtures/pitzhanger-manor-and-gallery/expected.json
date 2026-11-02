@@ -1,0 +1,69 @@
+{
+  "sourceId": "pitzhanger-manor-and-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.pitzhanger.org.uk/whats-on/exhibitions/"
+    ],
+    "cards": {
+      "item": "div.col",
+      "dates": "div.date"
+    }
+  },
+  "rawCount": 15,
+  "events": [
+    {
+      "id": "pitzhanger-manor-and-gallery:book-tickets-eventid-1001adgkshljdtdbjqtbmglljrlbjcmnn",
+      "venueId": "pitzhanger-manor-and-gallery",
+      "sourceId": "pitzhanger-manor-and-gallery",
+      "title": "Clare Woods: Garden Without Seasons",
+      "url": "https://www.pitzhanger.org.uk/book-tickets/?eventid=1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-07-29",
+      "endDate": "2026-11-08",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "pitzhanger-manor-and-gallery:whatson-many-stories",
+      "venueId": "pitzhanger-manor-and-gallery",
+      "sourceId": "pitzhanger-manor-and-gallery",
+      "title": "Many Stories",
+      "url": "https://www.pitzhanger.org.uk/whatson/many-stories/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-05-06",
+      "endDate": "2027-08-08",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "pitzhanger-manor-and-gallery:whatson-paula-rego",
+      "venueId": "pitzhanger-manor-and-gallery",
+      "sourceId": "pitzhanger-manor-and-gallery",
+      "title": "Paula Rego: Nursery Rhymes",
+      "url": "https://www.pitzhanger.org.uk/whatson/paula-rego/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-05-06",
+      "endDate": "2027-08-08",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "pitzhanger-manor-and-gallery:whatson-sean-scully",
+      "venueId": "pitzhanger-manor-and-gallery",
+      "sourceId": "pitzhanger-manor-and-gallery",
+      "title": "Sean Scully: Nature Never Sleeps",
+      "url": "https://www.pitzhanger.org.uk/whatson/sean-scully/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-09-01",
+      "endDate": "2028-01-31",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

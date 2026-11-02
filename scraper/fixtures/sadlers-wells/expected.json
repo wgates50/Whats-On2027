@@ -1,0 +1,194 @@
+{
+  "sourceId": "sadlers-wells",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.sadlerswells.com/whats-on/page/{page}/"
+    ],
+    "maxPages": 4,
+    "cards": {
+      "item": "div.c-event-card",
+      "link": "a.c-event-card__cover-link",
+      "title": "h3.c-event-card__title",
+      "dates": "time.c-event-card__daterange",
+      "venue": "span.c-event-card__location"
+    }
+  },
+  "rawCount": 13,
+  "events": [
+    {
+      "id": "sadlers-wells:whats-on-my-fierce-ignorant-step-christos-papadopoulos",
+      "venueId": "sadlers-wells",
+      "sourceId": "sadlers-wells",
+      "title": "My Fierce Ignorant Step - Christos Papadopoulos",
+      "url": "https://www.sadlerswells.com/whats-on/my-fierce-ignorant-step-christos-papadopoulos/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/04/LEAD-IMAGE_My-Fierce-Ignorant-Step-Christos-Papadopoulos_Pinelopi_Gerasimou_2700x1080-scaled.jpg?resize=15%2C15&gravity"
+    },
+    {
+      "id": "peacock-theatre:whats-on-the-snowman-2026",
+      "venueId": "peacock-theatre",
+      "sourceId": "sadlers-wells",
+      "title": "The Snowman",
+      "url": "https://www.sadlerswells.com/whats-on/the-snowman-2026/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-21",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/02/LEAD-IMAGE_Birmingham-Repertory-Theatre-The-Snowman_2700x1080-scaled.jpg?resize=15%2C15&gravity&webp=1"
+    },
+    {
+      "id": "sadlers-wells:whats-on-chara-kotsali-amusement-phase",
+      "venueId": "sadlers-wells",
+      "sourceId": "sadlers-wells",
+      "title": "Chara Kotsali - ΙT'S THE END OF THE AMUSEMENT PHASE",
+      "url": "https://www.sadlerswells.com/whats-on/chara-kotsali-amusement-phase/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-29",
+      "endDate": "2027-01-30",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/03/amusement_phase_rose_prize.jpg?resize=15%2C15&gravity"
+    },
+    {
+      "id": "sadlers-wells-east:whats-on-humanhood-vortex",
+      "venueId": "sadlers-wells-east",
+      "sourceId": "sadlers-wells",
+      "title": "HUMANHOOD - Vortex",
+      "url": "https://www.sadlerswells.com/whats-on/humanhood-vortex/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/04/LEAD-IMAGE_Humanhood-Vortex_Thomas-Vilhelm_2700x1080-scaled.jpg?resize=15%2C15&gravity&webp=1"
+    },
+    {
+      "id": "sadlers-wells:whats-on-emanuel-gat-dance-five-days-in-the-sun",
+      "venueId": "sadlers-wells",
+      "sourceId": "sadlers-wells",
+      "title": "Emanuel Gat Dance - FIVE DAYS IN THE SUN",
+      "url": "https://www.sadlerswells.com/whats-on/emanuel-gat-dance-five-days-in-the-sun/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-04",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/08/LEAD-IMAGE_Emanuel-Gat-Dance-FIVE-DAYS-IN-THE-SUN_Julia-Gat_2700x1080-scaled_960x960_acf_cropped.jpg?resize=15%2C15&gravity&webp=1"
+    },
+    {
+      "id": "sadlers-wells-east:whats-on-lost-dog-the-last-hamlet",
+      "venueId": "sadlers-wells-east",
+      "sourceId": "sadlers-wells",
+      "title": "Lost Dog – The Last Hamlet",
+      "url": "https://www.sadlerswells.com/whats-on/lost-dog-the-last-hamlet/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/04/Lost-Dog_The-Last-Hamlet_Landscape_2700x1080_photo-credit_Camilla-Greenwell-1-scaled.jpg?resize=15%2C15&gravity"
+    },
+    {
+      "id": "sadlers-wells-east:whats-on-family-freestyle-sadlers-wells-east-2027",
+      "venueId": "sadlers-wells-east",
+      "sourceId": "sadlers-wells",
+      "title": "Family Freestyle at Sadler's Wells East",
+      "url": "https://www.sadlerswells.com/whats-on/family-freestyle-sadlers-wells-east-2027/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-17",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2023/11/family_freestyle-scaled.jpg?resize=15%2C15&gravity&webp=1"
+    },
+    {
+      "id": "sadlers-wells-east:whats-on-the-dance-floor-takeover-margam-vr-divya-kasturi",
+      "venueId": "sadlers-wells-east",
+      "sourceId": "sadlers-wells",
+      "title": "The Dance Floor Takeover: MargaM VR – Divya Kasturi",
+      "url": "https://www.sadlerswells.com/whats-on/the-dance-floor-takeover-margam-vr-divya-kasturi/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/10/SW-Masthead-2-scaled.jpg?resize=15%2C15&gravity"
+    },
+    {
+      "id": "sadlers-wells:whats-on-g-cornejo-tango-after-dark",
+      "venueId": "sadlers-wells",
+      "sourceId": "sadlers-wells",
+      "title": "Germán Cornejo’s Tango After Dark",
+      "url": "https://www.sadlerswells.com/whats-on/g-cornejo-tango-after-dark/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2025/11/tango_after_dark-scaled.jpg?resize=15%2C15&gravity"
+    },
+    {
+      "id": "sadlers-wells:whats-on-culture-club-2026",
+      "venueId": "sadlers-wells",
+      "sourceId": "sadlers-wells",
+      "title": "Culture Club",
+      "url": "https://www.sadlerswells.com/whats-on/culture-club-2026/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2027-03-19",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2025/07/20220916_SadlersWells_CultureClubWorkshop_SadlersWells_FoteiniChristofilopoulou-2-scaled.jpg?resize=15%2C15&gravity"
+    },
+    {
+      "id": "sadlers-wells:whats-on-balletboyz-six-lethargies",
+      "venueId": "sadlers-wells",
+      "sourceId": "sadlers-wells",
+      "title": "BalletBoyz - Six Lethargies",
+      "url": "https://www.sadlerswells.com/whats-on/balletboyz-six-lethargies/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/05/LEAD-IMAGE_BalletBoyz-Six-Lethargies_BalletBoyz_2700x1080-scaled.jpg?resize=15%2C15&gravity&webp=1"
+    },
+    {
+      "id": "sadlers-wells:whats-on-georgia-tegou-in-the-quiet-of-us",
+      "venueId": "sadlers-wells",
+      "sourceId": "sadlers-wells",
+      "title": "Georgia Tegou - In the Quiet of Us",
+      "url": "https://www.sadlerswells.com/whats-on/georgia-tegou-in-the-quiet-of-us/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/04/LEAD-IMAGE_Georgai-Tegou-In-the-Quiet-of-Us_Camilla-Greenwell_2700x1080-scaled.png?resize=15%2C15&gravity"
+    },
+    {
+      "id": "sadlers-wells:whats-on-lets-take-a-bow-nov-2026",
+      "venueId": "sadlers-wells",
+      "sourceId": "sadlers-wells",
+      "title": "Take a Bow Productions – Let’s Take a Bow",
+      "url": "https://www.sadlerswells.com/whats-on/lets-take-a-bow-nov-2026/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2024/09/take-a-bow-guest-event-icon.jpg?resize=15%2C15&gravity"
+    }
+  ]
+}

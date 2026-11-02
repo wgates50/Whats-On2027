@@ -1,0 +1,273 @@
+{
+  "sourceId": "battersea-arts-centre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://bac.org.uk/whats-on-highlights/"
+    ],
+    "cards": {
+      "item": "div.c-col-card__content.matchheight",
+      "dates": "h4.c-event-card__date"
+    }
+  },
+  "rawCount": 21,
+  "events": [
+    {
+      "id": "battersea-arts-centre:whats-on-good-sex",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Good Sex",
+      "url": "https://bac.org.uk/whats-on/good-sex/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-06",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-unreal-festival",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "UNREAL A Festival of Magic and Performance",
+      "url": "https://bac.org.uk/whats-on/unreal-festival/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-a-song-and-dance",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "A Song and Dance",
+      "url": "https://bac.org.uk/whats-on/a-song-and-dance/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-dear-santa",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Dear Santa",
+      "url": "https://bac.org.uk/whats-on/dear-santa/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-28",
+      "endDate": "2026-12-24",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-magic-an-illustrated-history",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Magic: An Illustrated History",
+      "url": "https://bac.org.uk/whats-on/magic-an-illustrated-history/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-a-mouthful-of-tongues",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "A Mouthful Of Tongues",
+      "url": "https://bac.org.uk/whats-on/a-mouthful-of-tongues/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-black-magic-iterations",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Black Magic and Iterations (Double Bill)",
+      "url": "https://bac.org.uk/whats-on/black-magic-iterations/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-lento-e-violento",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Lento e Violento",
+      "url": "https://bac.org.uk/whats-on/lento-e-violento/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-11",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-unreal-artist-talk",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Artist Talk: UNREAL",
+      "url": "https://bac.org.uk/whats-on/unreal-artist-talk/",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-perpetuity",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Perpetuity (Work-in-Progress)",
+      "url": "https://bac.org.uk/whats-on/perpetuity/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-liminal",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Liminal (Work-in-Progress)",
+      "url": "https://bac.org.uk/whats-on/liminal/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-oraculum",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Oraculum (Work-in-Progress)",
+      "url": "https://bac.org.uk/whats-on/oraculum/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-escaping-oneself",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Escaping Oneself",
+      "url": "https://bac.org.uk/whats-on/escaping-oneself/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-answer-me-pythia",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Answer Me, Pythia (Work-in-Progress)",
+      "url": "https://bac.org.uk/whats-on/answer-me-pythia/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-this-is-not-a-magic-show",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "This Is Not A Magic Show",
+      "url": "https://bac.org.uk/whats-on/this-is-not-a-magic-show/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-festive-soft-play",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Festive Soft Play",
+      "url": "https://bac.org.uk/whats-on/festive-soft-play/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-24",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-santas-grotto",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Santa's Grotto",
+      "url": "https://bac.org.uk/whats-on/santas-grotto/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-24",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-paws-at-the-pictures",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Paws at the Pictures:The Snowman and the Snowdog",
+      "url": "https://bac.org.uk/whats-on/paws-at-the-pictures/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-attract-and-resist",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Attract and Resist",
+      "url": "https://bac.org.uk/whats-on/attract-and-resist/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-26",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-past-present-future",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Past, Present and Future",
+      "url": "https://bac.org.uk/whats-on/past-present-future/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "battersea-arts-centre:whats-on-chromatica-family-concert",
+      "venueId": "battersea-arts-centre",
+      "sourceId": "battersea-arts-centre",
+      "title": "Family Concert",
+      "url": "https://bac.org.uk/whats-on/chromatica-family-concert/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-02-17",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

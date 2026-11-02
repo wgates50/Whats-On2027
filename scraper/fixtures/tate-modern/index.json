@@ -1,0 +1,32 @@
+{
+  "https://www.tate.org.uk/whats-on?date_range=from_now&gallery_group=tate-modern&page=1": {
+    "file": "967e0580b7a8.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on?date_range=from_now&gallery_group=tate-modern&page=1",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.tate.org.uk/whats-on/tate-modern/frida-kahlo-the-making-of-an-icon": {
+    "file": "26ada079ba18.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on/tate-modern/frida-kahlo-the-making-of-an-icon",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.tate.org.uk/whats-on/tate-modern/julio-le-parc": {
+    "file": "870801373297.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on/tate-modern/julio-le-parc",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.tate.org.uk/whats-on/tate-modern/ana-mendieta": {
+    "file": "2ee7949bdee0.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on/tate-modern/ana-mendieta",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.tate.org.uk/whats-on/tate-modern/tate-modern-lates": {
+    "file": "b257bffa67be.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.tate.org.uk/whats-on/tate-modern/tate-modern-lates",
+    "contentType": "text/html; charset=utf-8"
+  }
+}

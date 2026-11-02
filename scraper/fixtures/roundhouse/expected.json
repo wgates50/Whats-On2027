@@ -1,0 +1,138 @@
+{
+  "sourceId": "roundhouse",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.roundhouse.org.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "a.event-card__link",
+      "dates": "div.event-card__details"
+    }
+  },
+  "rawCount": 9,
+  "events": [
+    {
+      "id": "roundhouse:whats-on-writers-drop-in-stage-screen-spoken-word-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Writers Drop In: Stage, Screen & Spoken Word",
+      "url": "https://www.roundhouse.org.uk/whats-on/writers-drop-in-stage-screen-spoken-word-au26/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2025-11-02",
+      "endDate": "2026-12-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/05/Write-Rehearse-Record-11-14-1260x1280.png"
+    },
+    {
+      "id": "roundhouse:whats-on-smo-online-networks-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Self Made Online: How to grow your network online",
+      "url": "https://www.roundhouse.org.uk/whats-on/smo-online-networks-au26/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Self-Made-Online-How-to-grow-your-network-online-1260x1280.jpg"
+    },
+    {
+      "id": "roundhouse:whats-on-writer-director-ideas-lab-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Film Writer/Director Ideas Lab",
+      "url": "https://www.roundhouse.org.uk/whats-on/writer-director-ideas-lab-au26/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2025-11-02",
+      "endDate": "2026-11-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2025/07/FilmWirter-Ideas-Lab-1260x1280.png"
+    },
+    {
+      "id": "roundhouse:whats-on-movement-for-performance-18-25-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Movement for Performance",
+      "url": "https://www.roundhouse.org.uk/whats-on/movement-for-performance-18-25-au26/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2025-11-03",
+      "endDate": "2026-12-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Movement-for-performance-18-25s-1260x1280.jpg"
+    },
+    {
+      "id": "roundhouse:whats-on-screen-talks-networking-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Screen Talks and Networking: Sound in Film",
+      "url": "https://www.roundhouse.org.uk/whats-on/screen-talks-networking-au26/",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Screen-Talks-Networking-1260x1280.png"
+    },
+    {
+      "id": "roundhouse:whats-on-cat-power",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Cat Power",
+      "url": "https://www.roundhouse.org.uk/whats-on/cat-power/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2025/10/cat-power-featured-image.png"
+    },
+    {
+      "id": "roundhouse:whats-on-drop-in-circus-and-aerial-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Circus and Aerial Skills Drop-in",
+      "url": "https://www.roundhouse.org.uk/whats-on/drop-in-circus-and-aerial-au26/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2025-11-04",
+      "endDate": "2026-12-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Circus-and-Aerial-Skills-Drop-In-1260x1280.png"
+    },
+    {
+      "id": "roundhouse:whats-on-museum-of-youth-culture-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Curate an Exhibition: Music and Youth Culture",
+      "url": "https://www.roundhouse.org.uk/whats-on/museum-of-youth-culture-au26/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2025-11-04",
+      "endDate": "2026-12-16",
+      "firstSeen": "2026-11-02",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/07/Museum-of-Youth-Culture-1260x1280.jpg"
+    },
+    {
+      "id": "roundhouse:whats-on-drop-in-theatre-18-25-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Theatre Drop In",
+      "url": "https://www.roundhouse.org.uk/whats-on/drop-in-theatre-18-25-au26/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2025-11-04",
+      "endDate": "2026-12-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Theatre-Drop-In-2-1260x1280.png"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "sourceId": "somerset-house",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.somersethouse.org.uk/whats-on"
+    ],
+    "cards": {
+      "item": "a[href^='/whats-on/']:has(time)",
+      "dates": "time"
+    }
+  },
+  "rawCount": 10,
+  "events": [
+    {
+      "id": "somerset-house:whats-on-jenkin-van-zyl-enclosure",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Jenkin van Zyl: Enclosure",
+      "url": "https://www.somersethouse.org.uk/whats-on/jenkin-van-zyl-enclosure",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-24",
+      "endDate": "2026-11-29",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "somerset-house:whats-on-skate-somerset-house",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Skate at Somerset House with Virgin Atlantic Holidays",
+      "url": "https://www.somersethouse.org.uk/whats-on/skate-somerset-house",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-11",
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "somerset-house:future-artists-programme-future-artists-programme",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Future Artists Programme",
+      "url": "https://www.somersethouse.org.uk/whats-on/future-artists-programme/future-artists-programme",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-01",
+      "endDate": "2027-04-30",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "somerset-house:whats-on-jenkin-van-zyl-enclosure-relaxed-session",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Jenkin van Zyl: Enclosure - Relaxed Session",
+      "url": "https://www.somersethouse.org.uk/whats-on/jenkin-van-zyl-enclosure-relaxed-session",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2027-10-22",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "somerset-house:upgrade-yourself-monthly-sessions-upgrade-yourself-monthly-how-to-grow-sustainab",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Upgrade Yourself Monthly: How to Grow Sustainable Materials Through Biodesign",
+      "url": "https://www.somersethouse.org.uk/whats-on/upgrade-yourself-monthly-sessions/upgrade-yourself-monthly-how-to-grow-sustainable-materials-biodesign",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "somerset-house:whats-on-through-our-eyes",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Through Our Eyes: Sámi Art and Culture",
+      "url": "https://www.somersethouse.org.uk/whats-on/through-our-eyes",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-06",
+      "endDate": "2027-02-07",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "somerset-house:whats-on-skate-extended-sessions",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Extended Skate Sessions",
+      "url": "https://www.somersethouse.org.uk/whats-on/skate-extended-sessions",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-23",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "somerset-house:whats-on-skate-lates-26-27",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Skate Lates with Aperol Spritz",
+      "url": "https://www.somersethouse.org.uk/whats-on/skate-lates-26-27",
+      "type": "late",
+      "category": "art-events",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "ongoing": true
+    },
+    {
+      "id": "somerset-house:whats-on-skate-school",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Skate School & Kids Skate Club",
+      "url": "https://www.somersethouse.org.uk/whats-on/skate-school",
+      "type": "family",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "ongoing": true
+    },
+    {
+      "id": "somerset-house:whats-on-g31-c3-aavar-huseyn-c3-ae-wanawal",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "On the Night of Separation, I Wanted to Tell You Something: Êvar Huseynî and WANAWAL",
+      "url": "https://www.somersethouse.org.uk/whats-on/g31-%C3%AAvar-huseyn%C3%AE-wanawal",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-19",
+      "endDate": "2027-03-14",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

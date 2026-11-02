@@ -1,0 +1,249 @@
+{
+  "sourceId": "london-coliseum",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://londoncoliseum.org/whats-on/?view=calendar"
+    ],
+    "cards": {
+      "item": "div.card__content.stack",
+      "dates": "div.card__meta.margin-trim"
+    }
+  },
+  "rawCount": 19,
+  "events": [
+    {
+      "id": "london-coliseum:events-tosca",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Tosca",
+      "url": "https://londoncoliseum.org/events/tosca/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-11",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-charlie-and-the-chocolate-factory-the-musical",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Charlie and the Chocolate Factory The Musical",
+      "url": "https://londoncoliseum.org/events/charlie-and-the-chocolate-factory-the-musical/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-04",
+      "endDate": "2027-09-18",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-iphigenie-en-tauride",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Iphigénie en Tauride",
+      "url": "https://londoncoliseum.org/events/iphigenie-en-tauride/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-the-margot-fonteyn-international-ballet-competition-final",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "The Margot Fonteyn International Ballet Competition - Final",
+      "url": "https://londoncoliseum.org/events/the-margot-fonteyn-international-ballet-competition-final/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-sessions-at-the-london-coliseum-black-country-new-road",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Sessions at the London Coliseum: Black Country, New Road",
+      "url": "https://londoncoliseum.org/events/sessions-at-the-london-coliseum-black-country-new-road/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-adriana-mater",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Adriana Mater",
+      "url": "https://londoncoliseum.org/events/adriana-mater/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-28",
+      "endDate": "2026-12-12",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-to-die-for-a-comedy",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "To Die For [A Comedy]",
+      "url": "https://londoncoliseum.org/events/to-die-for-a-comedy/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-29",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-tony-hadley-the-christmas-big-band-tour-2026",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Tony Hadley - The Christmas Big Band Tour 2026",
+      "url": "https://londoncoliseum.org/events/tony-hadley-the-christmas-big-band-tour-2026/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-12-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-nutcracker-2026",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Nutcracker",
+      "url": "https://londoncoliseum.org/events/nutcracker-2026/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-17",
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-romeo-juliet",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Romeo & Juliet",
+      "url": "https://londoncoliseum.org/events/romeo-juliet/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-14",
+      "endDate": "2027-01-24",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-la-traviata",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "La traviata",
+      "url": "https://londoncoliseum.org/events/la-traviata/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-03",
+      "endDate": "2027-03-13",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-breaking-the-waves",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Breaking the Waves",
+      "url": "https://londoncoliseum.org/events/breaking-the-waves/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-13",
+      "endDate": "2027-02-25",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-patti-lupone-matters-of-the-heart",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Patti LuPone Matters of the Heart",
+      "url": "https://londoncoliseum.org/events/patti-lupone-matters-of-the-heart/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-14",
+      "endDate": "2027-02-15",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-ballet-icons-gala-2027-entering-the-third-decade",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Ballet Icons Gala 2027 – Entering the Third Decade",
+      "url": "https://londoncoliseum.org/events/ballet-icons-gala-2027-entering-the-third-decade/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-trial-by-jury-the-zoo",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Trial by Jury & The Zoo",
+      "url": "https://londoncoliseum.org/events/trial-by-jury-the-zoo/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-04",
+      "endDate": "2027-03-12",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-rick-wakeman-the-wizard-of-prog-featuring-the-english-rock-ensemble",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Rick Wakeman - The Wizard of Prog featuring The English Rock Ensemble",
+      "url": "https://londoncoliseum.org/events/rick-wakeman-the-wizard-of-prog-featuring-the-english-rock-ensemble/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-legally-blonde-the-musical",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Legally Blonde The Musical",
+      "url": "https://londoncoliseum.org/events/legally-blonde-the-musical/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-22",
+      "endDate": "2027-05-22",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-swan-lake",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Swan Lake",
+      "url": "https://londoncoliseum.org/events/swan-lake/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-09-21",
+      "endDate": "2027-09-25",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "london-coliseum:events-spirited-away",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Spirited Away",
+      "url": "https://londoncoliseum.org/events/spirited-away/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2028-03-01",
+      "endDate": "2028-03-31",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

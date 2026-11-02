@@ -1,0 +1,57 @@
+{
+  "sourceId": "shoreditch-town-hall",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://shoreditchtownhall.com/whats-on/ceilidh-the-musical"
+    ],
+    "cards": {
+      "item": "div.production-related-text.col",
+      "dates": "h5.date.white"
+    }
+  },
+  "rawCount": 3,
+  "events": [
+    {
+      "id": "shoreditch-town-hall:whats-on-magic-in-the-ditch",
+      "venueId": "shoreditch-town-hall",
+      "sourceId": "shoreditch-town-hall",
+      "title": "Magic In The Ditch",
+      "url": "https://shoreditchtownhall.com/whats-on/magic-in-the-ditch",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-20",
+      "endDate": "2026-12-11",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shoreditch-town-hall:whats-on-ceilidh-the-musical",
+      "venueId": "shoreditch-town-hall",
+      "sourceId": "shoreditch-town-hall",
+      "title": "Ceilidh The Musical",
+      "url": "https://shoreditchtownhall.com/whats-on/ceilidh-the-musical",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-23",
+      "endDate": "2026-11-13",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "shoreditch-town-hall:whats-on-lung-woodhill-2026",
+      "venueId": "shoreditch-town-hall",
+      "sourceId": "shoreditch-town-hall",
+      "title": "Woodhill",
+      "url": "https://shoreditchtownhall.com/whats-on/lung-woodhill-2026",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-19",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

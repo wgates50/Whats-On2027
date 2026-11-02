@@ -1,0 +1,82 @@
+{
+  "sourceId": "royal-geographical-society",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.rgs.org/events/upcoming-events/"
+    ],
+    "cards": {
+      "item": "div[class*='EventCardstyles__CardContent']",
+      "dates": "div[class*='EventCardstyles__ArticleInfo-']",
+      "venue": "div[class*='EventCardstyles__ArticleInfoItem']"
+    }
+  },
+  "rawCount": 12,
+  "events": [
+    {
+      "id": "royal-geographical-society:upcoming-events-mulu-national-park-now-then-future",
+      "venueId": "royal-geographical-society",
+      "sourceId": "royal-geographical-society",
+      "title": "The UNESCO Gunung Mulu National Park, Sarawak: now, then and the future",
+      "url": "https://www.rgs.org/events/upcoming-events/mulu-national-park-now-then-future/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "royal-geographical-society:upcoming-events-lost-found-followed",
+      "venueId": "royal-geographical-society",
+      "sourceId": "royal-geographical-society",
+      "title": "Lost, found and followed: remarkable tales from tracking wild animals",
+      "url": "https://www.rgs.org/events/upcoming-events/lost-found-followed/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "royal-geographical-society:upcoming-events-global-shadow-fleet",
+      "venueId": "royal-geographical-society",
+      "sourceId": "royal-geographical-society",
+      "title": "The rise of the global shadow fleet and the geography of flags of convenience",
+      "url": "https://www.rgs.org/events/upcoming-events/global-shadow-fleet/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "royal-geographical-society:upcoming-events-everyones-everest",
+      "venueId": "royal-geographical-society",
+      "sourceId": "royal-geographical-society",
+      "title": "Everyone's Everest - Sally Orange MBE",
+      "url": "https://www.rgs.org/events/upcoming-events/everyones-everest/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "royal-geographical-society:upcoming-events-explore-weekend-2026",
+      "venueId": "royal-geographical-society",
+      "sourceId": "royal-geographical-society",
+      "title": "Explore Weekend 2026",
+      "url": "https://www.rgs.org/events/upcoming-events/explore-weekend-2026/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-08",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

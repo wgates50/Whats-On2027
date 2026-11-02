@@ -1,0 +1,91 @@
+{
+  "sourceId": "south-london-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.southlondongallery.org/whats-on/"
+    ],
+    "cards": {
+      "item": "article.tease.tease-events",
+      "dates": "span.datetime"
+    }
+  },
+  "rawCount": 5,
+  "events": [
+    {
+      "id": "south-london-gallery:events-the-conch-2",
+      "venueId": "south-london-gallery",
+      "sourceId": "south-london-gallery",
+      "title": "The Conch",
+      "url": "https://www.southlondongallery.org/events/the-conch-2/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "06:30",
+      "image": "https://www.southlondongallery.org/wp-content/uploads/2026/11/1.A.Hamaoui-A-step-a-beat-towards-an-arid-shade.crd-Arthur-Grey-e1791796147457-640x426.jpg"
+    },
+    {
+      "id": "south-london-gallery:events-performance-ewa-poniatowska",
+      "venueId": "south-london-gallery",
+      "sourceId": "south-london-gallery",
+      "title": "Performance: Ewa Poniatowska",
+      "url": "https://www.southlondongallery.org/events/performance-ewa-poniatowska/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "20:00",
+      "image": "https://www.southlondongallery.org/wp-content/uploads/2026/10/MAIN-IMAGE-1-640x426.png"
+    },
+    {
+      "id": "south-london-gallery:events-film-screening-south-by-south-2",
+      "venueId": "south-london-gallery",
+      "sourceId": "south-london-gallery",
+      "title": "Film Screening: South by South",
+      "url": "https://www.southlondongallery.org/events/film-screening-south-by-south-2/",
+      "type": "screening",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "06:30",
+      "image": "https://www.southlondongallery.org/wp-content/uploads/2026/10/FAYA-DAYI-STILL-5-640x426.jpg"
+    },
+    {
+      "id": "south-london-gallery:events-ways-of-wellbeing-art-creative-health",
+      "venueId": "south-london-gallery",
+      "sourceId": "south-london-gallery",
+      "title": "Ways of Wellbeing: Art & Creative Health",
+      "url": "https://www.southlondongallery.org/events/ways-of-wellbeing-art-creative-health/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "10:00",
+      "image": "https://www.southlondongallery.org/wp-content/uploads/2026/10/AB2-640x426.jpg"
+    },
+    {
+      "id": "south-london-gallery:events-family-space-with-sadie-st-hilaire",
+      "venueId": "south-london-gallery",
+      "sourceId": "south-london-gallery",
+      "title": "Family Space with Sadie St Hilaire",
+      "url": "https://www.southlondongallery.org/events/family-space-with-sadie-st-hilaire/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-28",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "11:00",
+      "image": "https://www.southlondongallery.org/wp-content/uploads/2026/09/IMG_7438-1-1-640x426.jpg"
+    }
+  ]
+}

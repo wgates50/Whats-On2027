@@ -1,0 +1,32 @@
+{
+  "https://designmuseum.org/exhibitions": {
+    "file": "33f4d02a217f.html.gz",
+    "status": 200,
+    "finalUrl": "https://designmuseum.org/exhibitions",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://designmuseum.org/exhibitions/es-devlin-other-worlds": {
+    "file": "f538dc7065cc.html.gz",
+    "status": 200,
+    "finalUrl": "https://designmuseum.org/exhibitions/es-devlin-other-worlds",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://designmuseum.org/exhibitions/laika-presents-wildwood-the-exhibition": {
+    "file": "b1ada8efc345.html.gz",
+    "status": 200,
+    "finalUrl": "https://designmuseum.org/exhibitions/laika-presents-wildwood-the-exhibition",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://designmuseum.org/exhibitions/platform-simone-brewster": {
+    "file": "f01736e406de.html.gz",
+    "status": 200,
+    "finalUrl": "https://designmuseum.org/exhibitions/platform-simone-brewster",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://designmuseum.org/exhibitions/designer-maker-user": {
+    "file": "a45c5ede60c6.html.gz",
+    "status": 200,
+    "finalUrl": "https://designmuseum.org/exhibitions/designer-maker-user",
+    "contentType": "text/html; charset=utf-8"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "sourceId": "cadogan-hall",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://cadoganhall.com/whats-on/zios-2026-27-flanders-symphony-orchestra-2/"
+    ],
+    "cards": {
+      "item": "div.c-event-item__content",
+      "dates": "p.c-event-item__date"
+    }
+  },
+  "rawCount": 11,
+  "events": [
+    {
+      "id": "cadogan-hall:whats-on-zios-2026-27-flanders-symphony-orchestra-2",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Flanders Symphony Orchestra",
+      "url": "https://cadoganhall.com/whats-on/zios-2026-27-flanders-symphony-orchestra-2/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "cadogan-hall:whats-on-zios-2026-27-stuttgart-philharmonic-orchestra",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Stuttgart Philharmonic Orchestra",
+      "url": "https://cadoganhall.com/whats-on/zios-2026-27-stuttgart-philharmonic-orchestra/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-23",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "cadogan-hall:whats-on-zios-2026-27-strasbourg-philharmonic",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Strasbourg Philharmonic Orchestra",
+      "url": "https://cadoganhall.com/whats-on/zios-2026-27-strasbourg-philharmonic/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-02-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "cadogan-hall:whats-on-zios-2026-27-ukrainian-national-philharmonic-orchestra",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Ukrainian National Philharmonic Orchestra",
+      "url": "https://cadoganhall.com/whats-on/zios-2026-27-ukrainian-national-philharmonic-orchestra/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-03-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "cadogan-hall:whats-on-zios-2026-27-taiwan-philharmonic-1",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Taiwan Philharmonic",
+      "url": "https://cadoganhall.com/whats-on/zios-2026-27-taiwan-philharmonic-1/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-03-27",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "cadogan-hall:whats-on-zios-2026-27-taiwan-philharmonic-2",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Taiwan Philharmonic",
+      "url": "https://cadoganhall.com/whats-on/zios-2026-27-taiwan-philharmonic-2/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-03-30",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "cadogan-hall:whats-on-zios-2026-27-dusseldorf-symphony-orchestra",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Düsseldorf Symphony Orchestra",
+      "url": "https://cadoganhall.com/whats-on/zios-2026-27-dusseldorf-symphony-orchestra/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-04-16",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "cadogan-hall:whats-on-zios-2026-27-czech-national-symphony-orchestra",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Czech National Symphony Orchestra",
+      "url": "https://cadoganhall.com/whats-on/zios-2026-27-czech-national-symphony-orchestra/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-05-26",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "cadogan-hall:whats-on-national-symphony-orchestra-vaughan-williams-mendelssohn-and-elgar",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "National Symphony Orchestra",
+      "url": "https://cadoganhall.com/whats-on/national-symphony-orchestra-vaughan-williams-mendelssohn-and-elgar/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:00"
+    },
+    {
+      "id": "cadogan-hall:whats-on-young-musicians-symphony-orchestra-beethoven-and-tchaikovsky",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Young Musicians Symphony Orchestra",
+      "url": "https://cadoganhall.com/whats-on/young-musicians-symphony-orchestra-beethoven-and-tchaikovsky/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-25",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30"
+    },
+    {
+      "id": "cadogan-hall:whats-on-academy-of-st-martin-in-the-fields-and-joshua-bell-perform-dvorak-and-m",
+      "venueId": "cadogan-hall",
+      "sourceId": "cadogan-hall",
+      "title": "Academy of St Martin in the Fields & Joshua Bell",
+      "url": "https://cadoganhall.com/whats-on/academy-of-st-martin-in-the-fields-and-joshua-bell-perform-dvorak-and-mendelssohn/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-01-17",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    }
+  ]
+}

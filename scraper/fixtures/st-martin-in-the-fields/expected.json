@@ -1,0 +1,47 @@
+{
+  "sourceId": "st-martin-in-the-fields",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.stmartin-in-the-fields.org/"
+    ],
+    "cards": {
+      "item": "div.WhatsonItemTitle",
+      "dates": "p.EV_ListDate"
+    }
+  },
+  "rawCount": 3,
+  "events": [
+    {
+      "id": "st-martin-in-the-fields:whats-on-the-monteverdi-choir-and-english-baroque-soloists-handels-theodora",
+      "venueId": "st-martin-in-the-fields",
+      "sourceId": "st-martin-in-the-fields",
+      "title": "The Monteverdi Choir and English Baroque Soloists: Handel’s Theodora",
+      "url": "https://www.stmartin-in-the-fields.org/whats-on/the-monteverdi-choir-and-english-baroque-soloists-handels-theodora/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "st-martin-in-the-fields:whats-on-here-i-stand-thant-myint-u",
+      "venueId": "st-martin-in-the-fields",
+      "sourceId": "st-martin-in-the-fields",
+      "title": "Here I Stand: Thant Myint-U",
+      "url": "https://www.stmartin-in-the-fields.org/whats-on/here-i-stand-thant-myint-u/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    }
+  ]
+}

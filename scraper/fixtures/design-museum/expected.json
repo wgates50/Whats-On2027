@@ -1,0 +1,78 @@
+{
+  "sourceId": "design-museum",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://designmuseum.org/exhibitions"
+    ],
+    "linkPattern": "^https://designmuseum\\.org/exhibitions/(?!future-exhibitions|touring-exhibitions|past-exhibitions)[^/?#]+$",
+    "detail": {
+      "dates": "time.date.icon-date"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "design-museum:exhibitions-es-devlin-other-worlds",
+      "venueId": "design-museum",
+      "sourceId": "design-museum",
+      "title": "Es Devlin: Other Worlds",
+      "url": "https://designmuseum.org/exhibitions/es-devlin-other-worlds",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-02",
+      "endDate": "2027-04-04",
+      "firstSeen": "2026-11-02",
+      "image": "http://designmuseum.org//image/9f022611-7f0e-46be-a6fe-18e919d760e8?width=1920?width=240&height=240",
+      "description": "Enter the imaginative world of British artist and designer Es Devlin in the first retrospective in Europe celebrating her 30-year creative practice across sculpture, stage design, music, language and light."
+    },
+    {
+      "id": "design-museum:exhibitions-laika-presents-wildwood-the-exhibition",
+      "venueId": "design-museum",
+      "sourceId": "design-museum",
+      "title": "LAIKA presents Wildwood: The Exhibition",
+      "url": "https://designmuseum.org/exhibitions/laika-presents-wildwood-the-exhibition",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-15",
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02",
+      "image": "http://designmuseum.org//image/f6052505-49ba-4b70-9126-698c548aa5f1?width=1920?width=240&height=240",
+      "description": "Step behind the scenes of LAIKA's latest stop-motion film and explore how a world is built through original props, sketches, puppets, miniature sets, and more."
+    },
+    {
+      "id": "design-museum:exhibitions-platform-simone-brewster",
+      "venueId": "design-museum",
+      "sourceId": "design-museum",
+      "title": "PLATFORM: Simone Brewster",
+      "url": "https://designmuseum.org/exhibitions/platform-simone-brewster",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-02-13",
+      "endDate": "2027-01-24",
+      "firstSeen": "2026-11-02",
+      "image": "http://designmuseum.org//image/89fe1606-4291-492b-930e-042c71229a47?width=1920?width=240&height=240",
+      "description": "PLATFORM is an annual display dedicated to showcasing contemporary design practice. Opening in February 2026, the second edition in the series will present the fascinating work of designer Simone Brewster."
+    },
+    {
+      "id": "design-museum:exhibitions-designer-maker-user",
+      "venueId": "design-museum",
+      "sourceId": "design-museum",
+      "title": "Designer Maker User",
+      "url": "https://designmuseum.org/exhibitions/designer-maker-user",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "ongoing": true,
+      "image": "http://designmuseum.org//image/c5aaf878-03eb-4915-8009-9719b91a9a61?width=1920?width=240&height=240",
+      "description": "Designer Maker User is a free exhibition introducing part of the Design Museum's collection, looking at the development of modern design through these three interconnected roles. Explore the free display to discover some of the designers and makers who shaped the world we live…"
+    }
+  ]
+}

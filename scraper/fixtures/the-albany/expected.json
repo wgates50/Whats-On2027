@@ -1,0 +1,190 @@
+{
+  "sourceId": "the-albany",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.thealbany.org.uk/events"
+    ],
+    "cards": {
+      "item": "a.card",
+      "dates": "div.card__status-date"
+    }
+  },
+  "rawCount": 13,
+  "events": [
+    {
+      "id": "the-albany:events-10-years-of-deptford-northern-soul-club",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "10 Years of Deptford Northern Soul Club",
+      "url": "https://www.thealbany.org.uk/events/10-years-of-deptford-northern-soul-club",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/83420/Events-Deptford-Northern-Soul-Club.webp?v=1791298233"
+    },
+    {
+      "id": "the-albany:events-horne-section",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "The Horne Section: Work in progress",
+      "url": "https://www.thealbany.org.uk/events/horne-section",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/114919/ATHOMEWITHTHEHORNESECTIONPILOTDAY20010.webp?v=1791298234"
+    },
+    {
+      "id": "the-albany:events-the-gingerbread-man",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "The Gingerbread Man",
+      "url": "https://www.thealbany.org.uk/events/the-gingerbread-man",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-24",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/83440/gingerbread-man-1.webp?v=1791298212"
+    },
+    {
+      "id": "the-albany:events-kids-roller-disco",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Kids Roller Disco",
+      "url": "https://www.thealbany.org.uk/events/kids-roller-disco",
+      "type": "family",
+      "category": "art-events",
+      "startDate": "2026-12-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/95902/A7405800.webp?v=1791298235"
+    },
+    {
+      "id": "the-albany:events-jazz-saturdays",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Jazz Saturdays",
+      "url": "https://www.thealbany.org.uk/events/jazz-saturdays",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-07",
+      "endDate": "2026-12-05",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/4272/jazz-saturday-aug-69-scaled.webp?v=1791298232"
+    },
+    {
+      "id": "the-albany:events-bpm-nov-2026",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Block Power Music",
+      "url": "https://www.thealbany.org.uk/events/bpm-nov-2026",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-20",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/62434/BPM@TheAlbany_bySuziCorker-43.webp?v=1791298235"
+    },
+    {
+      "id": "the-albany:events-sound-is-now-autumn-2026",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Sound is Now!",
+      "url": "https://www.thealbany.org.uk/events/sound-is-now-autumn-2026",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/7541/Charles-Hayward-Sound-is-Now-credit-Phil-Mackie.webp?v=1791298235"
+    },
+    {
+      "id": "the-albany:events-bingo-saturdays",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Bingo Saturdays",
+      "url": "https://www.thealbany.org.uk/events/bingo-saturdays",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-14",
+      "endDate": "2027-02-06",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/96300/A7406044.webp?v=1791298231"
+    },
+    {
+      "id": "the-albany:events-just-write-it-26",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Just Write It!",
+      "url": "https://www.thealbany.org.uk/events/just-write-it-26",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-30",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/7260/Just-Write-It.webp?v=1791298434"
+    },
+    {
+      "id": "the-albany:events-windows-into-the-unseen",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Windows into the Unseen",
+      "url": "https://www.thealbany.org.uk/events/windows-into-the-unseen",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-16",
+      "endDate": "2026-12-12",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/101031/Windows-into-the-Unseen.webp?v=1791298231"
+    },
+    {
+      "id": "the-albany:events-dl-roller-disco-2",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Roller Disco",
+      "url": "https://www.thealbany.org.uk/events/dl-roller-disco-2",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-19",
+      "endDate": "2027-03-18",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/8731/rollerskating_ex1-56.webp?v=1791298233"
+    },
+    {
+      "id": "the-albany:events-laundry-day-2026",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Laundry Day",
+      "url": "https://www.thealbany.org.uk/events/laundry-day-2026",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/85297/laundry-day.webp?v=1791996693"
+    },
+    {
+      "id": "the-albany:events-roots-2026",
+      "venueId": "the-albany",
+      "sourceId": "the-albany",
+      "title": "Roots",
+      "url": "https://www.thealbany.org.uk/events/roots-2026",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-26",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://cdn.thealbany.org.uk/uploads/images/_transforms/_landscape_3_2_xs/3451/Albany-Gardening-Club-resized-for-new-web.webp?v=1791298230"
+    }
+  ]
+}

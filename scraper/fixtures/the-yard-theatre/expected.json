@@ -1,0 +1,60 @@
+{
+  "sourceId": "the-yard-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.theyardtheatre.co.uk/"
+    ],
+    "cards": {
+      "item": "a.block",
+      "dates": "h4"
+    }
+  },
+  "rawCount": 3,
+  "events": [
+    {
+      "id": "the-yard-theatre:events-lear",
+      "venueId": "the-yard-theatre",
+      "sourceId": "the-yard-theatre",
+      "title": "Lear",
+      "url": "https://www.theyardtheatre.co.uk/events/lear",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-01-02",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.theyardtheatre.co.uk/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvs3yf10f%2Fproduction%2F951b5d0fa20b81e3721d9f7cfbcc339a711f746c-2160x1440.jpg%3Frect%3D360%2C0%2C1440%2C1440%26w%3D540%26h%3D540%26fm%3Dwebp%26q%3D50%26fit%3Dcrop%26auto%3Dformat&w=3840&q=75"
+    },
+    {
+      "id": "the-yard-theatre:events-theres-something-about-adam-black",
+      "venueId": "the-yard-theatre",
+      "sourceId": "the-yard-theatre",
+      "title": "There’s Something About Adam Black",
+      "url": "https://www.theyardtheatre.co.uk/events/theres-something-about-adam-black",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-13",
+      "endDate": "2027-02-20",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.theyardtheatre.co.uk/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvs3yf10f%2Fproduction%2Ff93e567735c26d706168fa6ab3bc0671bf6d6082-2160x1440.jpg%3Frect%3D360%2C0%2C1440%2C1440%26w%3D540%26h%3D540%26fm%3Dwebp%26q%3D50%26fit%3Dcrop%26auto%3Dformat&w=3840&q=75"
+    },
+    {
+      "id": "the-yard-theatre:events-mrs-dalloway",
+      "venueId": "the-yard-theatre",
+      "sourceId": "the-yard-theatre",
+      "title": "Mrs Dalloway",
+      "url": "https://www.theyardtheatre.co.uk/events/mrs-dalloway",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-10",
+      "endDate": "2027-04-10",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.theyardtheatre.co.uk/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvs3yf10f%2Fproduction%2Ff4c086bcb9fe03cf6e643d12132be9bd0320704c-2160x1440.jpg%3Frect%3D360%2C0%2C1440%2C1440%26w%3D540%26h%3D540%26fm%3Dwebp%26q%3D50%26fit%3Dcrop%26auto%3Dformat&w=3840&q=75"
+    }
+  ]
+}

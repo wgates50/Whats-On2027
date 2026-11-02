@@ -1,0 +1,76 @@
+{
+  "sourceId": "chisenhale-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://chisenhale.org.uk/whats-on/panel-discussion-with-dr-iain-robert-smith-nadia-denton-and-dr-samantha-iwowo-chaired-by-d/"
+    ],
+    "cards": {
+      "item": "a.card",
+      "dates": "span.date"
+    }
+  },
+  "rawCount": 5,
+  "events": [
+    {
+      "id": "chisenhale-gallery:project-wakaliga-uganda",
+      "venueId": "chisenhale-gallery",
+      "sourceId": "chisenhale-gallery",
+      "title": "Kibuuka Omumbaale",
+      "url": "https://chisenhale.org.uk/project/wakaliga-uganda/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2026-12-06",
+      "firstSeen": "2026-11-02",
+      "image": "https://chisenhale.org.uk/img/contain/600/400/2026/10/12/1_2026_10_-_3"
+    },
+    {
+      "id": "chisenhale-gallery:whats-on-panel-discussion-with-mati-diop-dr-eva-namusoke-and-dr-jennifer-nansubu",
+      "venueId": "chisenhale-gallery",
+      "sourceId": "chisenhale-gallery",
+      "title": "Panel discussion with Mati Diop, Dr Eva Namusoke, and Dr Jennifer Nansubuga Makumbi, chaired by Dr Nobunye Levin.",
+      "url": "https://chisenhale.org.uk/whats-on/panel-discussion-with-mati-diop-dr-eva-namusoke-and-dr-jennifer-nansubuga-makumbi-chaired/",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "20:30",
+      "image": "https://chisenhale.org.uk/img/contain/600/480/2026/09/28/3_Panel_2_5x4"
+    },
+    {
+      "id": "chisenhale-gallery:whats-on-panel-discussion-with-dr-bernadette-buckley-dr-vivienne-jabri-and-abiba",
+      "venueId": "chisenhale-gallery",
+      "sourceId": "chisenhale-gallery",
+      "title": "Panel discussion with Dr Bernadette Buckley, Dr Vivienne Jabri, and Abiba Coulibaly, chaired by Dr Anna Adima.",
+      "url": "https://chisenhale.org.uk/whats-on/panel-discussion-with-dr-bernadette-buckley-dr-vivienne-jabri-and-abiba-coulibaly-chaired/",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "20:30",
+      "image": "https://chisenhale.org.uk/img/contain/600/480/2026/09/28/4_Panel_3_5x4"
+    },
+    {
+      "id": "chisenhale-gallery:whats-on-tour-of-kibuuka-omumbaale-with-tosia-leniarska-curator-exhibitions-and",
+      "venueId": "chisenhale-gallery",
+      "sourceId": "chisenhale-gallery",
+      "title": "Tour of Kibuuka Omumbaale with Tosia Leniarska, Curator: Exhibitions and Events",
+      "url": "https://chisenhale.org.uk/whats-on/tour-of-kibuuka-omumbaale-with-tosia-leniarska-curator-exhibitions-and-events/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-12-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "20:30",
+      "image": "https://chisenhale.org.uk/img/contain/600/480/2026/09/28/5_Tour_5X4"
+    }
+  ]
+}

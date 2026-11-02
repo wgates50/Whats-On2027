@@ -1,0 +1,60 @@
+{
+  "sourceId": "richard-saltoun-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.richardsaltoun.com/exhibitions/current-forthcoming/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "span.date"
+    }
+  },
+  "rawCount": 3,
+  "events": [
+    {
+      "id": "richard-saltoun-gallery:exhibitions-164-brigitte-niedermair-madame-hirsch",
+      "venueId": "richard-saltoun-gallery",
+      "sourceId": "richard-saltoun-gallery",
+      "title": "Brigitte Niedermair",
+      "url": "https://www.richardsaltoun.com/exhibitions/164-brigitte-niedermair-madame-hirsch/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-06",
+      "endDate": "2026-12-18",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-richardsaltoun2/usr/images/exhibitions/main_image_override/164/venezia_11_ok.jpg"
+    },
+    {
+      "id": "richard-saltoun-gallery:exhibitions-163-reena-saini-kallat-elsewhere-is-already-here",
+      "venueId": "richard-saltoun-gallery",
+      "sourceId": "richard-saltoun-gallery",
+      "title": "Reena Saini Kallat",
+      "url": "https://www.richardsaltoun.com/exhibitions/163-reena-saini-kallat-elsewhere-is-already-here/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-13",
+      "endDate": "2026-12-19",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-richardsaltoun2/usr/images/exhibitions/main_image_override/163/rka113.jpg"
+    },
+    {
+      "id": "richard-saltoun-gallery:exhibitions-165-dia-al-azzawi-tell-us-a-tale-to-break-the-waking",
+      "venueId": "richard-saltoun-gallery",
+      "sourceId": "richard-saltoun-gallery",
+      "title": "Dia al-Azzawi",
+      "url": "https://www.richardsaltoun.com/exhibitions/165-dia-al-azzawi-tell-us-a-tale-to-break-the-waking/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-18",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-richardsaltoun2/usr/images/exhibitions/main_image_override/165/daa046_03-2.jpg"
+    }
+  ]
+}

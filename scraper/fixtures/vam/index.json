@@ -1,0 +1,32 @@
+{
+  "https://www.vam.ac.uk/whatson": {
+    "file": "09bd7f5be414.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.vam.ac.uk/whatson",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.vam.ac.uk/exhibitions/inside-aardman-wallace-gromit-and-friends": {
+    "file": "51385eb0c8ba.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.vam.ac.uk/exhibitions/inside-aardman-wallace-gromit-and-friends",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.vam.ac.uk/exhibitions/schiaparelli": {
+    "file": "372bf20de5ce.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.vam.ac.uk/exhibitions/schiaparelli",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.vam.ac.uk/exhibitions/the-music-is-black-a-british-story": {
+    "file": "c3abc25c700d.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.vam.ac.uk/exhibitions/the-music-is-black-a-british-story",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.vam.ac.uk/exhibitions/rising-voices-contemporary-art-from-asia-australia-and-the-pacific": {
+    "file": "61ea0070696a.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.vam.ac.uk/exhibitions/rising-voices-contemporary-art-from-asia-australia-and-the-pacific",
+    "contentType": "text/html; charset=utf-8"
+  }
+}

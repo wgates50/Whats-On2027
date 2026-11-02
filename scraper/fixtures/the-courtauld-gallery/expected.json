@@ -1,0 +1,78 @@
+{
+  "sourceId": "the-courtauld-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://courtauld.ac.uk/research/whats-on-research-forum-events/"
+    ],
+    "linkPattern": "^https://courtauld\\.ac\\.uk/whats-on/[^/?#]+/?$",
+    "maxLinks": 40,
+    "detail": {
+      "dates": "div.detail.detail--bold"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "the-courtauld-gallery:whats-on-why-constable-didnt-give-up-figure-painting",
+      "venueId": "the-courtauld-gallery",
+      "sourceId": "the-courtauld-gallery",
+      "title": "Why Constable Didn’t Give Up Figure Painting",
+      "url": "https://courtauld.ac.uk/whats-on/why-constable-didnt-give-up-figure-painting/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://courtauld.ac.uk/wp-content/uploads/2025/11/Social-Courtauld_RGB_Black.png",
+      "description": "Join Nicholas Robbins for an exploration of John Constable’s relationship to figure painting"
+    },
+    {
+      "id": "the-courtauld-gallery:whats-on-green-salman-toor-and-south-asian-literary-production-in-detail",
+      "venueId": "the-courtauld-gallery",
+      "sourceId": "the-courtauld-gallery",
+      "title": "Green: Salman Toor and South Asian Literary Production In Detail",
+      "url": "https://courtauld.ac.uk/whats-on/green-salman-toor-and-south-asian-literary-production-in-detail/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://courtauld.ac.uk/wp-content/uploads/2025/11/Social-Courtauld_RGB_Black.png",
+      "description": "In the first lecture in our 2026-27 Frank Davis Memorial Lecture Series we are delighted to welcome Evan Moffitt and Aziz Sohail."
+    },
+    {
+      "id": "the-courtauld-gallery:whats-on-the-portals-of-notre-dame-in-paris-findings-from-the-current-constructi",
+      "venueId": "the-courtauld-gallery",
+      "sourceId": "the-courtauld-gallery",
+      "title": "The portals of Notre Dame in Paris. Findings from the current construction site",
+      "url": "https://courtauld.ac.uk/whats-on/the-portals-of-notre-dame-in-paris-findings-from-the-current-construction-site/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://courtauld.ac.uk/wp-content/uploads/2025/11/Social-Courtauld_RGB_Black.png",
+      "description": "Join Professor Stephan Albrecht for the Paul Crossley Memorial Lecture, where he will examine how newly acquired 3D datasets from Notre Dame in Paris, obtained during the restoration works, are transforming art-historical research on the cathedral. Presenting the latest…"
+    },
+    {
+      "id": "the-courtauld-gallery:whats-on-untold-tales-women-pioneers-in-british-and-irish-architectural-history",
+      "venueId": "the-courtauld-gallery",
+      "sourceId": "the-courtauld-gallery",
+      "title": "Untold Tales: Women Pioneers in British and Irish Architectural History",
+      "url": "https://courtauld.ac.uk/whats-on/untold-tales-women-pioneers-in-british-and-irish-architectural-history/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://courtauld.ac.uk/wp-content/uploads/2025/11/Social-Courtauld_RGB_Black.png",
+      "description": "Join us for the Third Mark Girouard Symposium 'Untold Tales: Women Pioneers in British and Irish Architectural History'"
+    }
+  ]
+}

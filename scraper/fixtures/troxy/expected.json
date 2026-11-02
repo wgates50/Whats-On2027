@@ -1,0 +1,78 @@
+{
+  "sourceId": "troxy",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://troxy.co.uk/whats-on/"
+    ],
+    "linkPattern": "^https://troxy\\.co\\.uk/event/[^/?#]+/?$",
+    "maxLinks": 40,
+    "cacheDays": 14,
+    "detail": {
+      "timeElements": "p.troxy-event__date time"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "troxy:event-dabeull",
+      "venueId": "troxy",
+      "sourceId": "troxy",
+      "title": "Dabeull",
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+      "description": "Dabeull is a visionary French producer and artist, widely regarded as a leading figure in the global funk revival. With his unmistakable blend of punchy basslines, retro synthesizers, and sensual vocals, he has carved out an unique place on the international music scene. Known…"
+    },
+    {
+      "id": "troxy:event-bassvictim-friends",
+      "venueId": "troxy",
+      "sourceId": "troxy",
+      "title": "Bassvictim & Friends",
+      "url": "https://troxy.co.uk/event/bassvictim-friends/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+      "description": "basspunk. Doors: 9pm Last Entry: 11pm Curfew: 2am"
+    },
+    {
+      "id": "troxy:event-trance-sanctuary-presents-kearnage",
+      "venueId": "troxy",
+      "sourceId": "troxy",
+      "title": "Trance Sanctuary Presents Kearnage",
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png"
+    },
+    {
+      "id": "troxy:event-morcheeba",
+      "venueId": "troxy",
+      "sourceId": "troxy",
+      "title": "Morcheeba",
+      "url": "https://troxy.co.uk/event/morcheeba/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+      "description": "Thirty years ago, a chance meeting at a South London party sparked one of British electronic music?s most enduring partnerships: Morcheeba. When multi-instrumentalist Ross Godfrey invited East London singer-songwriter Skye to play him a song, her quietly powerful voice sealed…"
+    }
+  ]
+}

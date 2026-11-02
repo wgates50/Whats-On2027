@@ -1,0 +1,32 @@
+{
+  "https://www.artfund.org/sitemap.xml": {
+    "file": "173edb677227.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.artfund.org/sitemap.xml",
+    "contentType": "text/xml"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/10/24/flowing-from-the-fells": {
+    "file": "3576ff8cd1d0.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.artfund.org/explore/exhibitions/2026/10/24/flowing-from-the-fells",
+    "contentType": "text/html;charset=utf-8"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/10/24/russell-mills-darkness-visible": {
+    "file": "88679c622449.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.artfund.org/explore/exhibitions/2026/10/24/russell-mills-darkness-visible",
+    "contentType": "text/html;charset=utf-8"
+  },
+  "https://www.artfund.org/explore/exhibitions/2027/01/09/sweethearts-and-soldiers": {
+    "file": "1d96b7f8fc1b.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.artfund.org/explore/exhibitions/2027/01/09/sweethearts-and-soldiers",
+    "contentType": "text/html;charset=utf-8"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/10/20/art-unpacked-celebrating-new-acquisitions-since-2020": {
+    "file": "36553e321f6e.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.artfund.org/explore/exhibitions/2026/10/20/art-unpacked-celebrating-new-acquisitions-since-2020",
+    "contentType": "text/html;charset=utf-8"
+  }
+}

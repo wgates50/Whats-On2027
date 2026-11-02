@@ -1,0 +1,47 @@
+{
+  "sourceId": "menier-chocolate-factory",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.menierchocolatefactory.com/whats-on/"
+    ]
+  },
+  "rawCount": 2,
+  "events": [
+    {
+      "id": "menier-chocolate-factory:tickets-tru",
+      "venueId": "menier-chocolate-factory",
+      "sourceId": "menier-chocolate-factory",
+      "title": "Tru",
+      "url": "https://www.menierchocolatefactory.com/tickets/tru/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-09-19",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.menierchocolatefactory.com/app/uploads/2026/07/TRU_KEY-ART_FINAL-MCF1080x1350-512x512.jpg",
+      "description": "Tru by Jay Presson Allen stars Jesse Tyler Ferguson as Truman Capote, author of such noted novels as Breakfast at Tiffany’s and In Cold Blood. Set in his New York apartment in December 1975, following the publication of an excerpt from his tell-all novel Answered Prayers – which…",
+      "price": "paid"
+    },
+    {
+      "id": "menier-chocolate-factory:tickets-fourteen-again",
+      "venueId": "menier-chocolate-factory",
+      "sourceId": "menier-chocolate-factory",
+      "title": "Fourteen Again",
+      "url": "https://www.menierchocolatefactory.com/tickets/fourteen-again/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-21",
+      "endDate": "2027-02-27",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.menierchocolatefactory.com/app/uploads/2026/09/14AGAIN_v2_1080x1350-3-512x512.jpg",
+      "description": "“If you could do it all again… what would you do?” Peggy is recently divorced and lost in life, when a chance meeting with her long-lost childhood best friend, Lou, forces her to think about the trials and triumphs of their teenage years together. But thought soon becomes…",
+      "price": "paid"
+    }
+  ]
+}

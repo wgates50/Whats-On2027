@@ -1,0 +1,50 @@
+{
+  "sourceId": "southwark-playhouse-elephant",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://southwarkplayhouse.co.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "article.wpgb-card",
+      "link": "a[href*='/productions/']",
+      "title": ".lexend",
+      "dates": "div.museo-sans",
+      "venue": "span.wpgb-block-term:contains('Venue:')"
+    }
+  },
+  "rawCount": 9,
+  "events": [
+    {
+      "id": "southwark-playhouse-elephant:productions-nero",
+      "venueId": "southwark-playhouse-elephant",
+      "sourceId": "southwark-playhouse-elephant",
+      "title": "Nero",
+      "url": "https://southwarkplayhouse.co.uk/productions/nero/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": "2026-12-05",
+      "firstSeen": "2026-11-02",
+      "image": "https://southwarkplayhouse.co.uk/wp-content/uploads/2022/11/Elephant-Badge-Tab.svg"
+    },
+    {
+      "id": "southwark-playhouse-elephant:productions-private-jones",
+      "venueId": "southwark-playhouse-elephant",
+      "sourceId": "southwark-playhouse-elephant",
+      "title": "Private Jones",
+      "url": "https://southwarkplayhouse.co.uk/productions/private-jones/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-14",
+      "endDate": "2027-01-30",
+      "firstSeen": "2026-11-02",
+      "image": "https://southwarkplayhouse.co.uk/wp-content/uploads/2022/11/Elephant-Badge-Tab.svg"
+    }
+  ]
+}

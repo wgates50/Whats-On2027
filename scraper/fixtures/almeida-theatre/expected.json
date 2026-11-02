@@ -1,0 +1,164 @@
+{
+  "sourceId": "almeida-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://almeida.co.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "div.c-event-card",
+      "dates": "div.c-event-card__content"
+    }
+  },
+  "rawCount": 12,
+  "events": [
+    {
+      "id": "almeida-theatre:whats-on-desire-under-the-elms",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "Desire Under the Elms",
+      "url": "https://almeida.co.uk/whats-on/desire-under-the-elms/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": "2026-12-23",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2025/05/DUTE-Website-3.jpg?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-angel-to-olympus",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "Angel to Olympus",
+      "url": "https://almeida.co.uk/whats-on/angel-to-olympus/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/Website-YC-Artwork-v3.jpg?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-three-and-a-bit",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "Three and a Bit",
+      "url": "https://almeida.co.uk/whats-on/three-and-a-bit/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-14",
+      "endDate": "2027-03-13",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/800x450_v1.png?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-the-inequalities-trilogy",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "The Inequalities",
+      "url": "https://almeida.co.uk/whats-on/the-inequalities-trilogy/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-22",
+      "endDate": "2027-05-22",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/theinequalities-digitalrollout-Lila_1920-x-1080.jpg?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-beyond-caring",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "Beyond Caring",
+      "url": "https://almeida.co.uk/whats-on/beyond-caring/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-22",
+      "endDate": "2027-05-22",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/theinequalities-digitalrollout-Hind_800-x-450.jpg?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-faith-hope-and-charity",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "Faith, Hope and Charity",
+      "url": "https://almeida.co.uk/whats-on/faith-hope-and-charity/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-30",
+      "endDate": "2027-05-22",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/theinequalities-digitalrollout-Patrice_1920-x-1080.jpg?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-love",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "LOVE",
+      "url": "https://almeida.co.uk/whats-on/love/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-04-06",
+      "endDate": "2027-05-22",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/theinequalities-digitalrollout-Kev_1920-x-1080.jpg?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-musculus",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "Musculus",
+      "url": "https://almeida.co.uk/whats-on/musculus/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-01",
+      "endDate": "2027-07-31",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/Option-3A-26.png?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-the-right-woman",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "The Right Woman",
+      "url": "https://almeida.co.uk/whats-on/the-right-woman/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-08-01",
+      "endDate": "2027-09-30",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/Option-3A-29.png?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-the-island",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "The Island",
+      "url": "https://almeida.co.uk/whats-on/the-island/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-10-01",
+      "endDate": "2027-11-30",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/Option-3A-28.png?resize=16%2C10&gravity"
+    },
+    {
+      "id": "almeida-theatre:whats-on-the-winslow-boy",
+      "venueId": "almeida-theatre",
+      "sourceId": "almeida-theatre",
+      "title": "The Winslow Boy",
+      "url": "https://almeida.co.uk/whats-on/the-winslow-boy/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-12-01",
+      "endDate": "2028-01-31",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.almeida.co.uk/uploads/2026/10/Option-3A-30.png?resize=16%2C10&gravity"
+    }
+  ]
+}

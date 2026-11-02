@@ -1,0 +1,2661 @@
+[
+  {
+    "id": "british-museum",
+    "name": "British Museum",
+    "kind": "museum",
+    "area": "Bloomsbury",
+    "website": "https://www.britishmuseum.org",
+    "lat": 51.51931,
+    "lng": -0.12671,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "national-gallery",
+    "name": "National Gallery",
+    "kind": "public-gallery",
+    "area": "Trafalgar Square",
+    "website": "https://www.nationalgallery.org.uk",
+    "lat": 51.50888,
+    "lng": -0.12838
+  },
+  {
+    "id": "national-portrait-gallery",
+    "name": "National Portrait Gallery",
+    "aliases": [
+      "NPG"
+    ],
+    "kind": "public-gallery",
+    "area": "Trafalgar Square",
+    "website": "https://www.npg.org.uk",
+    "lat": 51.50928,
+    "lng": -0.12832,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "tate-modern",
+    "name": "Tate Modern",
+    "kind": "public-gallery",
+    "area": "Bankside",
+    "website": "https://www.tate.org.uk/visit/tate-modern",
+    "lat": 51.50743,
+    "lng": -0.09934
+  },
+  {
+    "id": "tate-britain",
+    "name": "Tate Britain",
+    "kind": "public-gallery",
+    "area": "Pimlico",
+    "website": "https://www.tate.org.uk/visit/tate-britain",
+    "lat": 51.49112,
+    "lng": -0.12782
+  },
+  {
+    "id": "v-and-a-south-kensington",
+    "name": "V&A South Kensington",
+    "aliases": [
+      "V&A",
+      "Victoria and Albert Museum",
+      "V&A Museum"
+    ],
+    "kind": "museum",
+    "area": "South Kensington",
+    "website": "https://www.vam.ac.uk",
+    "lat": 51.49688,
+    "lng": -0.17164
+  },
+  {
+    "id": "v-and-a-east-museum",
+    "name": "V&A East Museum",
+    "aliases": [
+      "East Museum",
+      "V&A East"
+    ],
+    "kind": "museum",
+    "area": "Stratford",
+    "website": "https://www.vam.ac.uk/east",
+    "lat": 51.54188,
+    "lng": -0.01355
+  },
+  {
+    "id": "v-and-a-east-storehouse",
+    "name": "V&A East Storehouse",
+    "kind": "museum",
+    "area": "Stratford",
+    "website": "https://www.vam.ac.uk/east/storehouse",
+    "lat": 51.54644,
+    "lng": -0.02118,
+    "aliases": [
+      "East Storehouse"
+    ]
+  },
+  {
+    "id": "young-v-and-a",
+    "name": "Young V&A",
+    "kind": "museum",
+    "area": "Bethnal Green",
+    "website": "https://www.vam.ac.uk/young",
+    "lat": 51.52905,
+    "lng": -0.05487
+  },
+  {
+    "id": "science-museum",
+    "name": "Science Museum",
+    "kind": "museum",
+    "area": "South Kensington",
+    "website": "https://www.sciencemuseum.org.uk",
+    "lat": 51.4974,
+    "lng": -0.17467
+  },
+  {
+    "id": "natural-history-museum",
+    "name": "Natural History Museum",
+    "aliases": [
+      "NHM"
+    ],
+    "kind": "museum",
+    "area": "South Kensington",
+    "website": "https://www.nhm.ac.uk",
+    "lat": 51.49651,
+    "lng": -0.176
+  },
+  {
+    "id": "design-museum",
+    "name": "Design Museum",
+    "kind": "museum",
+    "area": "Kensington",
+    "website": "https://designmuseum.org",
+    "lat": 51.49992,
+    "lng": -0.20016
+  },
+  {
+    "id": "london-museum-docklands",
+    "name": "London Museum Docklands",
+    "aliases": [
+      "Museum of London Docklands"
+    ],
+    "kind": "museum",
+    "area": "Canary Wharf",
+    "website": "https://www.londonmuseum.org.uk",
+    "lat": 51.50763,
+    "lng": -0.02387
+  },
+  {
+    "id": "london-museum",
+    "name": "London Museum",
+    "aliases": [
+      "Museum of London",
+      "London Museum West Smithfield"
+    ],
+    "kind": "museum",
+    "area": "Smithfield",
+    "website": "https://www.londonmuseum.org.uk",
+    "lat": 51.49593,
+    "lng": -0.1086
+  },
+  {
+    "id": "iwm-london",
+    "name": "IWM London",
+    "aliases": [
+      "Imperial War Museum",
+      "Imperial War Museum London",
+      "Imperial War Museum London (IWM London)"
+    ],
+    "kind": "museum",
+    "area": "Lambeth",
+    "website": "https://www.iwm.org.uk/visits/iwm-london",
+    "lat": 51.49593,
+    "lng": -0.1086,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "national-maritime-museum",
+    "name": "National Maritime Museum",
+    "kind": "museum",
+    "area": "Greenwich",
+    "website": "https://www.rmg.co.uk/national-maritime-museum",
+    "lat": 51.48078,
+    "lng": -0.00512
+  },
+  {
+    "id": "royal-observatory-greenwich",
+    "name": "Royal Observatory Greenwich",
+    "kind": "museum",
+    "area": "Greenwich",
+    "website": "https://www.rmg.co.uk/royal-observatory",
+    "lat": 51.47736,
+    "lng": -0.00085
+  },
+  {
+    "id": "queens-house",
+    "name": "Queen's House",
+    "kind": "public-gallery",
+    "area": "Greenwich",
+    "website": "https://www.rmg.co.uk/queens-house",
+    "lat": 51.48119,
+    "lng": -0.00386
+  },
+  {
+    "id": "horniman-museum-and-gardens",
+    "name": "Horniman Museum and Gardens",
+    "aliases": [
+      "Horniman Museum"
+    ],
+    "kind": "museum",
+    "area": "Forest Hill",
+    "website": "https://www.horniman.ac.uk",
+    "lat": 51.44218,
+    "lng": -0.06132
+  },
+  {
+    "id": "wellcome-collection",
+    "name": "Wellcome Collection",
+    "kind": "museum",
+    "area": "Euston",
+    "website": "https://wellcomecollection.org",
+    "lat": 51.52597,
+    "lng": -0.13402
+  },
+  {
+    "id": "sir-john-soanes-museum",
+    "name": "Sir John Soane's Museum",
+    "aliases": [
+      "Soane Museum"
+    ],
+    "kind": "museum",
+    "area": "Holborn",
+    "website": "https://www.soane.org",
+    "lat": 51.51708,
+    "lng": -0.1175
+  },
+  {
+    "id": "the-wallace-collection",
+    "name": "The Wallace Collection",
+    "kind": "museum",
+    "area": "Marylebone",
+    "website": "https://www.wallacecollection.org",
+    "lat": 51.51752,
+    "lng": -0.15304
+  },
+  {
+    "id": "the-courtauld-gallery",
+    "name": "The Courtauld Gallery",
+    "aliases": [
+      "Courtauld"
+    ],
+    "kind": "public-gallery",
+    "area": "Strand",
+    "website": "https://courtauld.ac.uk/gallery",
+    "lat": 51.51162,
+    "lng": -0.1177
+  },
+  {
+    "id": "somerset-house",
+    "name": "Somerset House",
+    "kind": "arts-centre",
+    "area": "Strand",
+    "website": "https://www.somersethouse.org.uk",
+    "lat": 51.51169,
+    "lng": -0.11744
+  },
+  {
+    "id": "royal-academy-of-arts",
+    "name": "Royal Academy of Arts",
+    "aliases": [
+      "Royal Academy"
+    ],
+    "kind": "public-gallery",
+    "area": "Piccadilly",
+    "website": "https://www.royalacademy.org.uk",
+    "lat": 51.50928,
+    "lng": -0.13974,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "barbican",
+    "name": "Barbican",
+    "aliases": [
+      "Barbican Centre",
+      "Barbican Theatre",
+      "Barbican Hall",
+      "Barbican Art Gallery"
+    ],
+    "kind": "arts-centre",
+    "area": "City",
+    "website": "https://www.barbican.org.uk",
+    "lat": 51.52018,
+    "lng": -0.09863
+  },
+  {
+    "id": "southbank-centre",
+    "name": "Southbank Centre",
+    "aliases": [
+      "Royal Festival Hall",
+      "Queen Elizabeth Hall",
+      "Purcell Room"
+    ],
+    "kind": "arts-centre",
+    "area": "South Bank",
+    "website": "https://www.southbankcentre.co.uk",
+    "lat": 51.50578,
+    "lng": -0.11679,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "hayward-gallery",
+    "name": "Hayward Gallery",
+    "kind": "public-gallery",
+    "area": "South Bank",
+    "website": "https://www.southbankcentre.co.uk/venues/hayward-gallery",
+    "lat": 51.50617,
+    "lng": -0.1155,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "serpentine-south",
+    "name": "Serpentine South",
+    "aliases": [
+      "Serpentine",
+      "Serpentine Gallery",
+      "Serpentine South Gallery"
+    ],
+    "kind": "public-gallery",
+    "area": "Kensington Gardens",
+    "website": "https://www.serpentinegalleries.org",
+    "lat": 51.50468,
+    "lng": -0.17498
+  },
+  {
+    "id": "serpentine-north",
+    "name": "Serpentine North",
+    "aliases": [
+      "Serpentine North Gallery",
+      "Serpentine Sackler Gallery"
+    ],
+    "kind": "public-gallery",
+    "area": "Kensington Gardens",
+    "website": "https://www.serpentinegalleries.org",
+    "lat": 51.50709,
+    "lng": -0.17126
+  },
+  {
+    "id": "whitechapel-gallery",
+    "name": "Whitechapel Gallery",
+    "kind": "public-gallery",
+    "area": "Whitechapel",
+    "website": "https://www.whitechapelgallery.org",
+    "lat": 51.51617,
+    "lng": -0.07031
+  },
+  {
+    "id": "ica",
+    "name": "ICA",
+    "aliases": [
+      "Institute of Contemporary Arts"
+    ],
+    "kind": "arts-centre",
+    "area": "The Mall",
+    "website": "https://www.ica.art",
+    "lat": 51.50616,
+    "lng": -0.13095
+  },
+  {
+    "id": "saatchi-gallery",
+    "name": "Saatchi Gallery",
+    "kind": "public-gallery",
+    "area": "Chelsea",
+    "website": "https://www.saatchigallery.com",
+    "lat": 51.49065,
+    "lng": -0.15879
+  },
+  {
+    "id": "the-photographers-gallery",
+    "name": "The Photographers' Gallery",
+    "kind": "public-gallery",
+    "area": "Soho",
+    "website": "https://thephotographersgallery.org.uk",
+    "lat": 51.51496,
+    "lng": -0.13904
+  },
+  {
+    "id": "dulwich-picture-gallery",
+    "name": "Dulwich Picture Gallery",
+    "kind": "public-gallery",
+    "area": "Dulwich",
+    "website": "https://www.dulwichpicturegallery.org.uk",
+    "lat": 51.44596,
+    "lng": -0.08633,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "estorick-collection",
+    "name": "Estorick Collection",
+    "kind": "public-gallery",
+    "area": "Islington",
+    "website": "https://www.estorickcollection.com",
+    "lat": 51.5439,
+    "lng": -0.10054
+  },
+  {
+    "id": "guildhall-art-gallery",
+    "name": "Guildhall Art Gallery",
+    "kind": "public-gallery",
+    "area": "City",
+    "website": "https://www.cityoflondon.gov.uk/things-to-do/guildhall-galleries",
+    "lat": 51.51551,
+    "lng": -0.09141,
+    "notes": "Website URL 404s — find the current Guildhall Art Gallery what's-on page."
+  },
+  {
+    "id": "william-morris-gallery",
+    "name": "William Morris Gallery",
+    "kind": "public-gallery",
+    "area": "Walthamstow",
+    "website": "https://www.wmgallery.org.uk",
+    "lat": 51.59129,
+    "lng": -0.0203
+  },
+  {
+    "id": "museum-of-the-home",
+    "name": "Museum of the Home",
+    "kind": "museum",
+    "area": "Hoxton",
+    "website": "https://www.museumofthehome.org.uk",
+    "lat": 51.53152,
+    "lng": -0.07643
+  },
+  {
+    "id": "charles-dickens-museum",
+    "name": "Charles Dickens Museum",
+    "kind": "museum",
+    "area": "Bloomsbury",
+    "website": "https://dickensmuseum.com",
+    "lat": 51.52359,
+    "lng": -0.11632
+  },
+  {
+    "id": "freud-museum-london",
+    "name": "Freud Museum London",
+    "kind": "museum",
+    "area": "Hampstead",
+    "website": "https://www.freud.org.uk",
+    "lat": 51.54834,
+    "lng": -0.17739
+  },
+  {
+    "id": "the-foundling-museum",
+    "name": "The Foundling Museum",
+    "kind": "museum",
+    "area": "Bloomsbury",
+    "website": "https://foundlingmuseum.org.uk"
+  },
+  {
+    "id": "british-library",
+    "name": "British Library",
+    "kind": "museum",
+    "area": "King's Cross",
+    "website": "https://www.bl.uk",
+    "lat": 51.52991,
+    "lng": -0.12769
+  },
+  {
+    "id": "fashion-and-textile-museum",
+    "name": "Fashion and Textile Museum",
+    "kind": "museum",
+    "area": "Bermondsey",
+    "website": "https://www.fashiontextilemuseum.org",
+    "lat": 51.50119,
+    "lng": -0.08167,
+    "notes": "Website didn't respond to the setup environment's network; retry from GitHub Actions (npm run probe -- <id>)."
+  },
+  {
+    "id": "london-transport-museum",
+    "name": "London Transport Museum",
+    "kind": "museum",
+    "area": "Covent Garden",
+    "website": "https://www.ltmuseum.co.uk",
+    "lat": 51.51198,
+    "lng": -0.12123,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "the-postal-museum",
+    "name": "The Postal Museum",
+    "kind": "museum",
+    "area": "Clerkenwell",
+    "website": "https://www.postalmuseum.org",
+    "lat": 51.52472,
+    "lng": -0.114,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "cartoon-museum",
+    "name": "Cartoon Museum",
+    "kind": "museum",
+    "area": "Fitzrovia",
+    "website": "https://www.cartoonmuseum.org",
+    "lat": 51.51758,
+    "lng": -0.13858
+  },
+  {
+    "id": "quentin-blake-centre-for-illustration",
+    "name": "Quentin Blake Centre for Illustration",
+    "kind": "public-gallery",
+    "area": "King's Cross",
+    "website": "https://www.quentinblakecentre.org",
+    "lat": 51.52859,
+    "lng": -0.10764,
+    "notes": "Website didn't respond to the setup environment's network; retry from GitHub Actions (npm run probe -- <id>)."
+  },
+  {
+    "id": "garden-museum",
+    "name": "Garden Museum",
+    "kind": "museum",
+    "area": "Lambeth",
+    "website": "https://gardenmuseum.org.uk",
+    "lat": 51.49493,
+    "lng": -0.11997
+  },
+  {
+    "id": "museum-of-brands",
+    "name": "Museum of Brands",
+    "kind": "museum",
+    "area": "Notting Hill",
+    "website": "https://www.museumofbrands.com",
+    "lat": 51.51625,
+    "lng": -0.21117
+  },
+  {
+    "id": "leighton-house",
+    "name": "Leighton House",
+    "kind": "museum",
+    "area": "Holland Park",
+    "website": "https://www.rbkc.gov.uk/museums/leighton-house",
+    "lat": 51.55629,
+    "lng": -0.16691
+  },
+  {
+    "id": "kenwood",
+    "name": "Kenwood",
+    "kind": "museum",
+    "area": "Hampstead",
+    "website": "https://www.english-heritage.org.uk/visit/places/kenwood/",
+    "lat": 51.57155,
+    "lng": -0.16734
+  },
+  {
+    "id": "hunterian-museum",
+    "name": "Hunterian Museum",
+    "kind": "museum",
+    "area": "Holborn",
+    "website": "https://hunterianmuseum.org",
+    "lat": 51.51528,
+    "lng": -0.11587
+  },
+  {
+    "id": "bank-of-england-museum",
+    "name": "Bank of England Museum",
+    "kind": "museum",
+    "area": "City",
+    "website": "https://www.bankofengland.co.uk/museum",
+    "lat": 51.5142,
+    "lng": -0.08768
+  },
+  {
+    "id": "science-gallery-london",
+    "name": "Science Gallery London",
+    "kind": "public-gallery",
+    "area": "London Bridge",
+    "website": "https://london.sciencegallery.com",
+    "lat": 51.50413,
+    "lng": -0.08757
+  },
+  {
+    "id": "japan-house-london",
+    "name": "Japan House London",
+    "kind": "public-gallery",
+    "area": "Kensington",
+    "website": "https://www.japanhouselondon.uk",
+    "lat": 51.50135,
+    "lng": -0.19168
+  },
+  {
+    "id": "two-temple-place",
+    "name": "Two Temple Place",
+    "kind": "public-gallery",
+    "area": "Temple",
+    "website": "https://twotempleplace.org",
+    "lat": 51.51164,
+    "lng": -0.1122
+  },
+  {
+    "id": "ben-uri-gallery",
+    "name": "Ben Uri Gallery",
+    "kind": "public-gallery",
+    "area": "St John's Wood",
+    "website": "https://benuri.org",
+    "aliases": [
+      "Ben Uri Collection"
+    ]
+  },
+  {
+    "id": "pitzhanger-manor-and-gallery",
+    "name": "Pitzhanger Manor & Gallery",
+    "kind": "public-gallery",
+    "area": "Ealing",
+    "website": "https://www.pitzhanger.org.uk",
+    "lat": 51.51089,
+    "lng": -0.30711
+  },
+  {
+    "id": "zabludowicz-collection",
+    "name": "Zabludowicz Collection",
+    "kind": "public-gallery",
+    "area": "Chalk Farm",
+    "website": "https://www.zabludowiczcollection.com",
+    "lat": 51.54602,
+    "lng": -0.15324
+  },
+  {
+    "id": "camden-art-centre",
+    "name": "Camden Art Centre",
+    "kind": "public-gallery",
+    "area": "Hampstead",
+    "website": "https://camdenartcentre.org",
+    "lat": 51.51963,
+    "lng": -0.13037
+  },
+  {
+    "id": "south-london-gallery",
+    "name": "South London Gallery",
+    "kind": "public-gallery",
+    "area": "Peckham",
+    "website": "https://www.southlondongallery.org",
+    "lat": 51.47437,
+    "lng": -0.07989
+  },
+  {
+    "id": "chisenhale-gallery",
+    "name": "Chisenhale Gallery",
+    "kind": "public-gallery",
+    "area": "Bow",
+    "website": "https://chisenhale.org.uk"
+  },
+  {
+    "id": "gasworks",
+    "name": "Gasworks",
+    "kind": "public-gallery",
+    "area": "Vauxhall",
+    "website": "https://www.gasworks.org.uk",
+    "lat": 51.48518,
+    "lng": -0.11549
+  },
+  {
+    "id": "the-showroom",
+    "name": "The Showroom",
+    "kind": "public-gallery",
+    "area": "Marylebone",
+    "website": "https://www.theshowroom.org",
+    "lat": 51.52346,
+    "lng": -0.17276
+  },
+  {
+    "id": "raven-row",
+    "name": "Raven Row",
+    "kind": "public-gallery",
+    "area": "Spitalfields",
+    "website": "https://www.ravenrow.org",
+    "lat": 51.51887,
+    "lng": -0.05738
+  },
+  {
+    "id": "goldsmiths-cca",
+    "name": "Goldsmiths CCA",
+    "kind": "public-gallery",
+    "area": "New Cross",
+    "website": "https://goldsmithscca.art",
+    "aliases": [
+      "Goldsmiths Centre for Contemporary Art"
+    ]
+  },
+  {
+    "id": "newport-street-gallery",
+    "name": "Newport Street Gallery",
+    "kind": "public-gallery",
+    "area": "Vauxhall",
+    "website": "https://newportstreetgallery.com",
+    "lat": 51.4933,
+    "lng": -0.11706
+  },
+  {
+    "id": "180-studios",
+    "name": "180 Studios",
+    "aliases": [
+      "180 The Strand"
+    ],
+    "kind": "public-gallery",
+    "area": "Strand",
+    "website": "https://www.180studios.com",
+    "lat": 51.51145,
+    "lng": -0.11492
+  },
+  {
+    "id": "lightroom",
+    "name": "Lightroom",
+    "kind": "arts-centre",
+    "area": "King's Cross",
+    "website": "https://lightroom.uk",
+    "lat": 51.53743,
+    "lng": -0.12601
+  },
+  {
+    "id": "frameless",
+    "name": "Frameless",
+    "kind": "arts-centre",
+    "area": "Marble Arch",
+    "website": "https://frameless.com",
+    "lat": 51.51353,
+    "lng": -0.16015
+  },
+  {
+    "id": "outernet-london",
+    "name": "Outernet London",
+    "aliases": [
+      "Outernet"
+    ],
+    "kind": "arts-centre",
+    "area": "Tottenham Court Road",
+    "website": "https://www.outernetglobal.com",
+    "lat": 51.51564,
+    "lng": -0.1298
+  },
+  {
+    "id": "the-kings-gallery",
+    "name": "The King's Gallery",
+    "aliases": [
+      "The Queen's Gallery",
+      "King's Gallery Buckingham Palace"
+    ],
+    "kind": "public-gallery",
+    "area": "Westminster",
+    "website": "https://www.rct.uk/visit/the-kings-gallery-buckingham-palace",
+    "lat": 51.49983,
+    "lng": -0.14255,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "royal-botanic-gardens-kew",
+    "name": "Royal Botanic Gardens, Kew",
+    "aliases": [
+      "Kew Gardens",
+      "Kew"
+    ],
+    "kind": "garden",
+    "area": "Kew",
+    "website": "https://www.kew.org",
+    "lat": 51.4833,
+    "lng": -0.29307,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "empress-museum",
+    "name": "Empress Museum",
+    "aliases": [
+      "Empress Museum, Earls Court, SW6 1TT",
+      "Empress Museum, Earls Court"
+    ],
+    "kind": "museum",
+    "area": "Earls Court",
+    "website": "https://officiallondontheatre.com/venue/empress-museum-earls-court/"
+  },
+  {
+    "id": "white-cube-masons-yard",
+    "name": "White Cube Mason's Yard",
+    "kind": "commercial-gallery",
+    "area": "St James's",
+    "website": "https://www.whitecube.com"
+  },
+  {
+    "id": "white-cube-bermondsey",
+    "name": "White Cube Bermondsey",
+    "kind": "commercial-gallery",
+    "area": "Bermondsey",
+    "website": "https://www.whitecube.com",
+    "lat": 51.49946,
+    "lng": -0.08231
+  },
+  {
+    "id": "hauser-and-wirth-london",
+    "name": "Hauser & Wirth London",
+    "aliases": [
+      "Hauser & Wirth"
+    ],
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.hauserwirth.com",
+    "lat": 51.51195,
+    "lng": -0.14122,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (robots.txt disallows /). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "gagosian-grosvenor-hill",
+    "name": "Gagosian Grosvenor Hill",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://gagosian.com",
+    "lat": 51.51092,
+    "lng": -0.14669,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "gagosian-britannia-street",
+    "name": "Gagosian Britannia Street",
+    "kind": "commercial-gallery",
+    "area": "King's Cross",
+    "website": "https://gagosian.com",
+    "lat": 51.52978,
+    "lng": -0.11882,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (same site as a blocked venue). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "gagosian-davies-street",
+    "name": "Gagosian Davies Street",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://gagosian.com",
+    "lat": 51.51109,
+    "lng": -0.14773,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (same site as a blocked venue). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "lisson-gallery",
+    "name": "Lisson Gallery",
+    "kind": "commercial-gallery",
+    "area": "Marylebone",
+    "website": "https://www.lissongallery.com",
+    "lat": 51.5211,
+    "lng": -0.16836
+  },
+  {
+    "id": "victoria-miro",
+    "name": "Victoria Miro",
+    "kind": "commercial-gallery",
+    "area": "Islington",
+    "website": "https://www.victoria-miro.com",
+    "lat": 51.51266,
+    "lng": -0.1435
+  },
+  {
+    "id": "thaddaeus-ropac-london",
+    "name": "Thaddaeus Ropac London",
+    "aliases": [
+      "Thaddaeus Ropac"
+    ],
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://ropac.net",
+    "lat": 51.50852,
+    "lng": -0.14247
+  },
+  {
+    "id": "pace-london",
+    "name": "Pace London",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.pacegallery.com",
+    "lat": 51.50967,
+    "lng": -0.14053
+  },
+  {
+    "id": "david-zwirner-london",
+    "name": "David Zwirner London",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.davidzwirner.com",
+    "lat": 51.50944,
+    "lng": -0.14297
+  },
+  {
+    "id": "sadie-coles-hq",
+    "name": "Sadie Coles HQ",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.sadiecoles.com"
+  },
+  {
+    "id": "stephen-friedman-gallery",
+    "name": "Stephen Friedman Gallery",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.stephenfriedman.com",
+    "lat": 51.51092,
+    "lng": -0.14098
+  },
+  {
+    "id": "spruth-magers-london",
+    "name": "Sprüth Magers London",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://spruethmagers.com",
+    "lat": 51.50999,
+    "lng": -0.14375
+  },
+  {
+    "id": "timothy-taylor",
+    "name": "Timothy Taylor",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://timothytaylor.com"
+  },
+  {
+    "id": "frith-street-gallery",
+    "name": "Frith Street Gallery",
+    "kind": "commercial-gallery",
+    "area": "Soho",
+    "website": "https://www.frithstreetgallery.com",
+    "lat": 51.51422,
+    "lng": -0.13207
+  },
+  {
+    "id": "maureen-paley",
+    "name": "Maureen Paley",
+    "kind": "commercial-gallery",
+    "area": "Bethnal Green",
+    "website": "https://www.maureenpaley.com"
+  },
+  {
+    "id": "alison-jacques",
+    "name": "Alison Jacques",
+    "kind": "commercial-gallery",
+    "area": "Fitzrovia",
+    "website": "https://alisonjacques.com",
+    "lat": 51.51745,
+    "lng": -0.13668
+  },
+  {
+    "id": "pilar-corrias",
+    "name": "Pilar Corrias",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.pilarcorrias.com"
+  },
+  {
+    "id": "herald-st",
+    "name": "Herald St",
+    "kind": "commercial-gallery",
+    "area": "Bethnal Green",
+    "website": "https://www.heraldst.com",
+    "lat": 51.52506,
+    "lng": -0.05574
+  },
+  {
+    "id": "hollybush-gardens",
+    "name": "Hollybush Gardens",
+    "kind": "commercial-gallery",
+    "area": "Clerkenwell",
+    "website": "https://www.hollybushgardens.co.uk",
+    "lat": 51.52789,
+    "lng": -0.05714
+  },
+  {
+    "id": "modern-art",
+    "name": "Modern Art",
+    "kind": "commercial-gallery",
+    "area": "Clerkenwell",
+    "website": "https://www.modernart.net"
+  },
+  {
+    "id": "kate-macgarry",
+    "name": "Kate MacGarry",
+    "kind": "commercial-gallery",
+    "area": "Shoreditch",
+    "website": "https://www.katemacgarry.com"
+  },
+  {
+    "id": "the-approach",
+    "name": "The Approach",
+    "kind": "commercial-gallery",
+    "area": "Bethnal Green",
+    "website": "https://theapproach.co.uk",
+    "lat": 51.51633,
+    "lng": -0.25788
+  },
+  {
+    "id": "carlos-ishikawa",
+    "name": "Carlos/Ishikawa",
+    "kind": "commercial-gallery",
+    "area": "Whitechapel",
+    "website": "https://carlosishikawa.com"
+  },
+  {
+    "id": "unit-london",
+    "name": "Unit London",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://unitlondon.com",
+    "lat": 51.51361,
+    "lng": -0.14294
+  },
+  {
+    "id": "flowers-gallery",
+    "name": "Flowers Gallery",
+    "kind": "commercial-gallery",
+    "area": "Hoxton",
+    "website": "https://www.flowersgallery.com",
+    "lat": 51.52976,
+    "lng": -0.07707
+  },
+  {
+    "id": "annely-juda-fine-art",
+    "name": "Annely Juda Fine Art",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.annelyjudafineart.co.uk",
+    "lat": 51.51434,
+    "lng": -0.14451,
+    "notes": "Probe found only art-fair listings (not the London gallery) — needs a proper exhibitions page."
+  },
+  {
+    "id": "waddington-custot",
+    "name": "Waddington Custot",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://waddingtoncustot.com",
+    "lat": 51.51009,
+    "lng": -0.14141,
+    "notes": "Probe picked individual artworks — needs an exhibitions-level listing."
+  },
+  {
+    "id": "simon-lee-gallery",
+    "name": "Simon Lee Gallery",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.simonleegallery.com",
+    "lat": 51.50817,
+    "lng": -0.14305
+  },
+  {
+    "id": "cristea-roberts-gallery",
+    "name": "Cristea Roberts Gallery",
+    "kind": "commercial-gallery",
+    "area": "St James's",
+    "website": "https://www.cristearoberts.com"
+  },
+  {
+    "id": "almine-rech-london",
+    "name": "Almine Rech London",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.alminerech.com"
+  },
+  {
+    "id": "galerie-max-hetzler-london",
+    "name": "Galerie Max Hetzler London",
+    "kind": "commercial-gallery",
+    "area": "Marylebone",
+    "website": "https://www.maxhetzler.com"
+  },
+  {
+    "id": "ben-brown-fine-arts",
+    "name": "Ben Brown Fine Arts",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.benbrownfinearts.com",
+    "lat": 51.51247,
+    "lng": -0.1459
+  },
+  {
+    "id": "richard-saltoun-gallery",
+    "name": "Richard Saltoun Gallery",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.richardsaltoun.com"
+  },
+  {
+    "id": "gazelli-art-house",
+    "name": "Gazelli Art House",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://gazelliarthouse.com",
+    "lat": 51.5083,
+    "lng": -0.14238
+  },
+  {
+    "id": "tiwani-contemporary",
+    "name": "Tiwani Contemporary",
+    "kind": "commercial-gallery",
+    "area": "Fitzrovia",
+    "website": "https://www.tiwani.co.uk"
+  },
+  {
+    "id": "goodman-gallery-london",
+    "name": "Goodman Gallery London",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://www.goodman-gallery.com"
+  },
+  {
+    "id": "mazzoleni-london",
+    "name": "Mazzoleni London",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://mazzoleniart.com",
+    "lat": 51.50958,
+    "lng": -0.14265
+  },
+  {
+    "id": "grimm-london",
+    "name": "GRIMM London",
+    "kind": "commercial-gallery",
+    "area": "Mayfair",
+    "website": "https://grimmgallery.com",
+    "lat": 51.51673,
+    "lng": -0.13815
+  },
+  {
+    "id": "arcadia-missa",
+    "name": "Arcadia Missa",
+    "kind": "commercial-gallery",
+    "area": "Soho",
+    "website": "https://arcadiamissa.com"
+  },
+  {
+    "id": "kings-place",
+    "name": "Kings Place",
+    "kind": "arts-centre",
+    "area": "King's Cross",
+    "website": "https://www.kingsplace.co.uk",
+    "lat": 51.53496,
+    "lng": -0.12177,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "roundhouse",
+    "name": "Roundhouse",
+    "aliases": [
+      "The Roundhouse"
+    ],
+    "kind": "arts-centre",
+    "area": "Camden",
+    "website": "https://www.roundhouse.org.uk",
+    "lat": 51.54325,
+    "lng": -0.15198
+  },
+  {
+    "id": "battersea-arts-centre",
+    "name": "Battersea Arts Centre",
+    "aliases": [
+      "BAC"
+    ],
+    "kind": "arts-centre",
+    "area": "Battersea",
+    "website": "https://bac.org.uk",
+    "lat": 51.46496,
+    "lng": -0.16079
+  },
+  {
+    "id": "rich-mix",
+    "name": "Rich Mix",
+    "kind": "arts-centre",
+    "area": "Shoreditch",
+    "website": "https://richmix.org.uk",
+    "lat": 51.5244,
+    "lng": -0.07335,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "the-albany",
+    "name": "The Albany",
+    "kind": "arts-centre",
+    "area": "Deptford",
+    "website": "https://www.thealbany.org.uk",
+    "lat": 51.47773,
+    "lng": -0.02762
+  },
+  {
+    "id": "shoreditch-town-hall",
+    "name": "Shoreditch Town Hall",
+    "kind": "arts-centre",
+    "area": "Shoreditch",
+    "website": "https://shoreditchtownhall.com",
+    "lat": 51.52694,
+    "lng": -0.07915
+  },
+  {
+    "id": "alexandra-palace",
+    "name": "Alexandra Palace",
+    "aliases": [
+      "Alexandra Palace Theatre",
+      "Ally Pally"
+    ],
+    "kind": "arts-centre",
+    "area": "Wood Green",
+    "website": "https://www.alexandrapalace.com",
+    "lat": 51.59435,
+    "lng": -0.13064
+  },
+  {
+    "id": "riverside-studios",
+    "name": "Riverside Studios",
+    "kind": "arts-centre",
+    "area": "Hammersmith",
+    "website": "https://riversidestudios.co.uk",
+    "lat": 51.48879,
+    "lng": -0.22836
+  },
+  {
+    "id": "royal-institution",
+    "name": "Royal Institution",
+    "aliases": [
+      "The Royal Institution",
+      "Ri"
+    ],
+    "kind": "talks-venue",
+    "area": "Mayfair",
+    "website": "https://www.rigb.org",
+    "lat": 51.50975,
+    "lng": -0.14233
+  },
+  {
+    "id": "royal-geographical-society",
+    "name": "Royal Geographical Society",
+    "aliases": [
+      "RGS"
+    ],
+    "kind": "talks-venue",
+    "area": "South Kensington",
+    "website": "https://www.rgs.org",
+    "lat": 51.50131,
+    "lng": -0.17525
+  },
+  {
+    "id": "royal-society",
+    "name": "Royal Society",
+    "aliases": [
+      "The Royal Society"
+    ],
+    "kind": "talks-venue",
+    "area": "St James's",
+    "website": "https://royalsociety.org",
+    "lat": 51.50131,
+    "lng": -0.17525,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403)."
+  },
+  {
+    "id": "conway-hall",
+    "name": "Conway Hall",
+    "kind": "talks-venue",
+    "area": "Holborn",
+    "website": "https://conwayhall.org.uk",
+    "lat": 51.50532,
+    "lng": -0.11292
+  },
+  {
+    "id": "emmanuel-centre",
+    "name": "Emmanuel Centre",
+    "kind": "talks-venue",
+    "area": "Westminster",
+    "website": "https://www.emmanuelcentre.com",
+    "lat": 51.49646,
+    "lng": -0.12884
+  },
+  {
+    "id": "bishopsgate-institute",
+    "name": "Bishopsgate Institute",
+    "kind": "talks-venue",
+    "area": "Spitalfields",
+    "website": "https://www.bishopsgate.org.uk",
+    "lat": 51.51875,
+    "lng": -0.07862
+  },
+  {
+    "id": "gresham-college",
+    "name": "Gresham College",
+    "kind": "talks-venue",
+    "area": "Holborn",
+    "website": "https://www.gresham.ac.uk",
+    "lat": 51.51513,
+    "lng": -0.09128
+  },
+  {
+    "id": "royal-albert-hall",
+    "name": "Royal Albert Hall",
+    "kind": "concert-hall",
+    "area": "South Kensington",
+    "website": "https://www.royalalberthall.com",
+    "lat": 51.50101,
+    "lng": -0.17741,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "wigmore-hall",
+    "name": "Wigmore Hall",
+    "kind": "concert-hall",
+    "area": "Marylebone",
+    "website": "https://www.wigmore-hall.org.uk",
+    "lat": 51.51689,
+    "lng": -0.14833
+  },
+  {
+    "id": "cadogan-hall",
+    "name": "Cadogan Hall",
+    "kind": "concert-hall",
+    "area": "Chelsea",
+    "website": "https://cadoganhall.com",
+    "lat": 51.49378,
+    "lng": -0.1572
+  },
+  {
+    "id": "lso-st-lukes",
+    "name": "LSO St Luke's",
+    "kind": "concert-hall",
+    "area": "Old Street",
+    "website": "https://www.lso.co.uk/lso-st-lukes",
+    "lat": 51.52522,
+    "lng": -0.094,
+    "notes": "Website URL 404s — find the current LSO St Luke's listings page."
+  },
+  {
+    "id": "st-johns-smith-square",
+    "name": "St John's Smith Square",
+    "kind": "concert-hall",
+    "area": "Westminster",
+    "website": "https://www.sjss.org.uk",
+    "lat": 51.49598,
+    "lng": -0.12705
+  },
+  {
+    "id": "st-martin-in-the-fields",
+    "name": "St Martin-in-the-Fields",
+    "kind": "concert-hall",
+    "area": "Trafalgar Square",
+    "website": "https://www.stmartin-in-the-fields.org",
+    "lat": 51.50883,
+    "lng": -0.12668
+  },
+  {
+    "id": "union-chapel",
+    "name": "Union Chapel",
+    "kind": "live-venue",
+    "area": "Islington",
+    "website": "https://unionchapel.org.uk",
+    "lat": 51.54482,
+    "lng": -0.10244
+  },
+  {
+    "id": "eventim-apollo",
+    "name": "Eventim Apollo",
+    "aliases": [
+      "Hammersmith Apollo"
+    ],
+    "kind": "live-venue",
+    "area": "Hammersmith",
+    "website": "https://www.eventimapollo.com",
+    "lat": 51.49075,
+    "lng": -0.22445
+  },
+  {
+    "id": "london-palladium",
+    "name": "London Palladium",
+    "aliases": [
+      "The London Palladium",
+      "Palladium"
+    ],
+    "kind": "live-venue",
+    "area": "Oxford Circus",
+    "website": "https://lwtheatres.co.uk/theatres/the-london-palladium/",
+    "lat": 51.51453,
+    "lng": -0.14016,
+    "notes": "LW Theatres' what's-on lists all LW venues; Palladium shows come via Official London Theatre when listed."
+  },
+  {
+    "id": "indigo-at-the-o2",
+    "name": "indigo at The O2",
+    "aliases": [
+      "indigo at the O2",
+      "The O2"
+    ],
+    "kind": "live-venue",
+    "area": "Greenwich",
+    "website": "https://www.theo2.co.uk",
+    "lat": 51.50246,
+    "lng": 0.00489
+  },
+  {
+    "id": "troxy",
+    "name": "Troxy",
+    "kind": "live-venue",
+    "area": "Limehouse",
+    "website": "https://troxy.co.uk",
+    "lat": 51.51275,
+    "lng": -0.04399
+  },
+  {
+    "id": "clapham-grand",
+    "name": "Clapham Grand",
+    "aliases": [
+      "The Clapham Grand"
+    ],
+    "kind": "live-venue",
+    "area": "Clapham",
+    "website": "https://www.claphamgrand.com",
+    "lat": 51.46312,
+    "lng": -0.16945
+  },
+  {
+    "id": "o2-shepherds-bush-empire",
+    "name": "O2 Shepherd's Bush Empire",
+    "aliases": [
+      "Shepherd's Bush Empire"
+    ],
+    "kind": "live-venue",
+    "area": "Shepherd's Bush",
+    "website": "https://www.academymusicgroup.com/o2shepherdsbushempire/",
+    "lat": 51.50345,
+    "lng": -0.22445
+  },
+  {
+    "id": "islington-assembly-hall",
+    "name": "Islington Assembly Hall",
+    "kind": "live-venue",
+    "area": "Islington",
+    "website": "https://islingtonassemblyhall.co.uk",
+    "lat": 51.54155,
+    "lng": -0.10244
+  },
+  {
+    "id": "earth-hackney",
+    "name": "EartH Hackney",
+    "aliases": [
+      "EartH",
+      "Evolutionary Arts Hackney"
+    ],
+    "kind": "live-venue",
+    "area": "Dalston",
+    "website": "https://earthackney.co.uk",
+    "lat": 51.55104,
+    "lng": -0.0757
+  },
+  {
+    "id": "bloomsbury-theatre",
+    "name": "Bloomsbury Theatre",
+    "aliases": [
+      "The Bloomsbury"
+    ],
+    "kind": "live-venue",
+    "area": "Bloomsbury",
+    "website": "https://www.thebloomsbury.com",
+    "lat": 51.52504,
+    "lng": -0.13281
+  },
+  {
+    "id": "hackney-empire",
+    "name": "Hackney Empire",
+    "kind": "live-venue",
+    "area": "Hackney",
+    "website": "https://hackneyempire.co.uk",
+    "lat": 51.54562,
+    "lng": -0.0557
+  },
+  {
+    "id": "leicester-square-theatre",
+    "name": "Leicester Square Theatre",
+    "kind": "comedy-club",
+    "area": "Leicester Square",
+    "website": "https://www.leicestersquaretheatre.com",
+    "lat": 51.51131,
+    "lng": -0.13009
+  },
+  {
+    "id": "the-comedy-store",
+    "name": "The Comedy Store",
+    "kind": "comedy-club",
+    "area": "Leicester Square",
+    "website": "https://thecomedystore.co.uk"
+  },
+  {
+    "id": "soho-theatre",
+    "name": "Soho Theatre",
+    "kind": "comedy-club",
+    "area": "Soho",
+    "website": "https://sohotheatre.com",
+    "lat": 51.51441,
+    "lng": -0.13279
+  },
+  {
+    "id": "soho-theatre-walthamstow",
+    "name": "Soho Theatre Walthamstow",
+    "kind": "comedy-club",
+    "area": "Walthamstow",
+    "website": "https://sohotheatre.com",
+    "lat": 51.58591,
+    "lng": -0.02053
+  },
+  {
+    "id": "museum-of-comedy",
+    "name": "Museum of Comedy",
+    "kind": "comedy-club",
+    "area": "Bloomsbury",
+    "website": "https://www.museumofcomedy.com",
+    "lat": 51.51755,
+    "lng": -0.1248
+  },
+  {
+    "id": "up-the-creek",
+    "name": "Up the Creek",
+    "kind": "comedy-club",
+    "area": "Greenwich",
+    "website": "https://www.up-the-creek.com",
+    "lat": 51.48127,
+    "lng": -0.01162
+  },
+  {
+    "id": "pleasance-theatre",
+    "name": "Pleasance Theatre",
+    "aliases": [
+      "Pleasance London"
+    ],
+    "kind": "theatre",
+    "area": "Islington",
+    "website": "https://www.pleasance.co.uk",
+    "lat": 51.54918,
+    "lng": -0.1213
+  },
+  {
+    "id": "underbelly-boulevard",
+    "name": "Underbelly Boulevard",
+    "aliases": [
+      "Underbelly Boulevard Soho"
+    ],
+    "kind": "comedy-club",
+    "area": "Soho",
+    "website": "https://officiallondontheatre.com/venue/underbelly-boulevard/"
+  },
+  {
+    "id": "hippodrome-casino",
+    "name": "Hippodrome Casino",
+    "aliases": [
+      "The Hippodrome"
+    ],
+    "kind": "comedy-club",
+    "area": "Leicester Square",
+    "website": "https://www.hippodromecasino.com",
+    "lat": 51.51146,
+    "lng": -0.12856
+  },
+  {
+    "id": "national-theatre",
+    "name": "National Theatre",
+    "aliases": [
+      "National Theatre Olivier",
+      "National Theatre Lyttelton",
+      "National Theatre Dorfman",
+      "Olivier Theatre",
+      "Lyttelton Theatre",
+      "Dorfman Theatre"
+    ],
+    "kind": "theatre",
+    "area": "South Bank",
+    "website": "https://www.nationaltheatre.org.uk",
+    "lat": 51.50704,
+    "lng": -0.11453
+  },
+  {
+    "id": "the-old-vic",
+    "name": "The Old Vic",
+    "aliases": [
+      "Old Vic"
+    ],
+    "kind": "theatre",
+    "area": "Waterloo",
+    "website": "https://www.oldvictheatre.com",
+    "lat": 51.50202,
+    "lng": -0.10927
+  },
+  {
+    "id": "young-vic",
+    "name": "Young Vic",
+    "kind": "theatre",
+    "area": "Waterloo",
+    "website": "https://www.youngvic.org",
+    "lat": 51.50328,
+    "lng": -0.10732,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "shakespeares-globe",
+    "name": "Shakespeare's Globe",
+    "aliases": [
+      "The Globe"
+    ],
+    "kind": "theatre",
+    "area": "Bankside",
+    "website": "https://www.shakespearesglobe.com",
+    "lat": 51.50812,
+    "lng": -0.09719
+  },
+  {
+    "id": "sam-wanamaker-playhouse",
+    "name": "Sam Wanamaker Playhouse",
+    "kind": "theatre",
+    "area": "Bankside",
+    "website": "https://www.shakespearesglobe.com",
+    "lat": 51.50795,
+    "lng": -0.09656
+  },
+  {
+    "id": "bridge-theatre",
+    "name": "Bridge Theatre",
+    "aliases": [
+      "The Bridge Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Tower Bridge",
+    "website": "https://bridgetheatre.co.uk",
+    "lat": 51.5041,
+    "lng": -0.07732
+  },
+  {
+    "id": "donmar-warehouse",
+    "name": "Donmar Warehouse",
+    "aliases": [
+      "Donmar"
+    ],
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://www.donmarwarehouse.com",
+    "lat": 51.51394,
+    "lng": -0.12577,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "almeida-theatre",
+    "name": "Almeida Theatre",
+    "aliases": [
+      "Almeida"
+    ],
+    "kind": "theatre",
+    "area": "Islington",
+    "website": "https://almeida.co.uk",
+    "lat": 51.53944,
+    "lng": -0.10308
+  },
+  {
+    "id": "royal-court-theatre",
+    "name": "Royal Court Theatre",
+    "aliases": [
+      "Royal Court"
+    ],
+    "kind": "theatre",
+    "area": "Sloane Square",
+    "website": "https://royalcourttheatre.com",
+    "lat": 51.49257,
+    "lng": -0.15642,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "hampstead-theatre",
+    "name": "Hampstead Theatre",
+    "kind": "theatre",
+    "area": "Swiss Cottage",
+    "website": "https://www.hampsteadtheatre.com",
+    "lat": 51.54381,
+    "lng": -0.1737
+  },
+  {
+    "id": "lyric-hammersmith",
+    "name": "Lyric Hammersmith",
+    "aliases": [
+      "Lyric Hammersmith Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Hammersmith",
+    "website": "https://lyric.co.uk",
+    "lat": 51.49305,
+    "lng": -0.22654
+  },
+  {
+    "id": "kiln-theatre",
+    "name": "Kiln Theatre",
+    "kind": "theatre",
+    "area": "Kilburn",
+    "website": "https://kilntheatre.com",
+    "lat": 51.54317,
+    "lng": -0.20035
+  },
+  {
+    "id": "menier-chocolate-factory",
+    "name": "Menier Chocolate Factory",
+    "kind": "theatre",
+    "area": "Southwark",
+    "website": "https://www.menierchocolatefactory.com"
+  },
+  {
+    "id": "southwark-playhouse-borough",
+    "name": "Southwark Playhouse Borough",
+    "aliases": [
+      "Southwark Playhouse"
+    ],
+    "kind": "theatre",
+    "area": "Borough",
+    "website": "https://southwarkplayhouse.co.uk",
+    "lat": 51.49761,
+    "lng": -0.09841
+  },
+  {
+    "id": "southwark-playhouse-elephant",
+    "name": "Southwark Playhouse Elephant",
+    "kind": "theatre",
+    "area": "Elephant and Castle",
+    "website": "https://southwarkplayhouse.co.uk",
+    "lat": 51.49242,
+    "lng": -0.10279
+  },
+  {
+    "id": "bush-theatre",
+    "name": "Bush Theatre",
+    "kind": "theatre",
+    "area": "Shepherd's Bush",
+    "website": "https://www.bushtheatre.co.uk",
+    "lat": 51.50514,
+    "lng": -0.22602
+  },
+  {
+    "id": "arcola-theatre",
+    "name": "Arcola Theatre",
+    "aliases": [
+      "Arcola"
+    ],
+    "kind": "theatre",
+    "area": "Dalston",
+    "website": "https://www.arcolatheatre.com",
+    "lat": 51.54695,
+    "lng": -0.07491
+  },
+  {
+    "id": "theatre-royal-stratford-east",
+    "name": "Theatre Royal Stratford East",
+    "aliases": [
+      "Stratford East"
+    ],
+    "kind": "theatre",
+    "area": "Stratford",
+    "website": "https://www.stratfordeast.com",
+    "lat": 51.54256,
+    "lng": 0.00096,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "orange-tree-theatre",
+    "name": "Orange Tree Theatre",
+    "kind": "theatre",
+    "area": "Richmond",
+    "website": "https://orangetreetheatre.co.uk",
+    "lat": 51.46441,
+    "lng": -0.30129
+  },
+  {
+    "id": "richmond-theatre",
+    "name": "Richmond Theatre",
+    "kind": "theatre",
+    "area": "Richmond",
+    "website": "https://www.atgtickets.com/venues/richmond-theatre/",
+    "lat": 51.46202,
+    "lng": -0.30373
+  },
+  {
+    "id": "park-theatre",
+    "name": "Park Theatre",
+    "kind": "theatre",
+    "area": "Finsbury Park",
+    "website": "https://parktheatre.co.uk",
+    "lat": 51.56573,
+    "lng": -0.10848
+  },
+  {
+    "id": "jermyn-street-theatre",
+    "name": "Jermyn Street Theatre",
+    "kind": "theatre",
+    "area": "St James's",
+    "website": "https://www.jermynstreettheatre.co.uk",
+    "lat": 51.50919,
+    "lng": -0.13492
+  },
+  {
+    "id": "finborough-theatre",
+    "name": "Finborough Theatre",
+    "kind": "theatre",
+    "area": "Earl's Court",
+    "website": "https://finboroughtheatre.co.uk",
+    "lat": 51.48654,
+    "lng": -0.19006,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 429 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "unicorn-theatre",
+    "name": "Unicorn Theatre",
+    "kind": "theatre",
+    "area": "London Bridge",
+    "website": "https://www.unicorntheatre.com",
+    "lat": 51.50394,
+    "lng": -0.08071
+  },
+  {
+    "id": "polka-theatre",
+    "name": "Polka Theatre",
+    "kind": "theatre",
+    "area": "Wimbledon",
+    "website": "https://polkatheatre.com",
+    "lat": 51.41974,
+    "lng": -0.19493
+  },
+  {
+    "id": "little-angel-theatre",
+    "name": "Little Angel Theatre",
+    "kind": "theatre",
+    "area": "Islington",
+    "website": "https://www.littleangeltheatre.com",
+    "lat": 51.53882,
+    "lng": -0.10135
+  },
+  {
+    "id": "rose-theatre-kingston",
+    "name": "Rose Theatre Kingston",
+    "aliases": [
+      "Rose Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Kingston",
+    "website": "https://www.rosetheatre.org",
+    "lat": 51.40863,
+    "lng": -0.3076,
+    "notes": "Website redirect-loops for automated requests (needs cookies). Shows still come via Official London Theatre."
+  },
+  {
+    "id": "the-yard-theatre",
+    "name": "The Yard Theatre",
+    "kind": "theatre",
+    "area": "Hackney Wick",
+    "website": "https://theyardtheatre.co.uk",
+    "lat": 51.54264,
+    "lng": -0.02331
+  },
+  {
+    "id": "kings-head-theatre",
+    "name": "King's Head Theatre",
+    "kind": "theatre",
+    "area": "Islington",
+    "website": "https://kingsheadtheatre.com",
+    "lat": 51.53831,
+    "lng": -0.10301
+  },
+  {
+    "id": "the-other-palace",
+    "name": "The Other Palace",
+    "kind": "theatre",
+    "area": "Victoria",
+    "website": "https://theotherpalace.co.uk",
+    "lat": 51.49878,
+    "lng": -0.14235,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "at-sohoplace",
+    "name": "@sohoplace",
+    "aliases": [
+      "sohoplace"
+    ],
+    "kind": "theatre",
+    "area": "Soho",
+    "website": "https://sohoplace.org",
+    "lat": 51.5155,
+    "lng": -0.13051
+  },
+  {
+    "id": "marylebone-theatre",
+    "name": "Marylebone Theatre",
+    "kind": "theatre",
+    "area": "Marylebone",
+    "website": "https://marylebonetheatre.com",
+    "lat": 51.5249,
+    "lng": -0.1605
+  },
+  {
+    "id": "charing-cross-theatre",
+    "name": "Charing Cross Theatre",
+    "kind": "theatre",
+    "area": "Charing Cross",
+    "website": "https://charingcrosstheatre.co.uk",
+    "lat": 51.50766,
+    "lng": -0.12437
+  },
+  {
+    "id": "regents-park-open-air-theatre",
+    "name": "Regent's Park Open Air Theatre",
+    "aliases": [
+      "Open Air Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Regent's Park",
+    "website": "https://openairtheatre.com",
+    "lat": 51.52846,
+    "lng": -0.15477
+  },
+  {
+    "id": "the-vaults",
+    "name": "The Vaults",
+    "aliases": [
+      "The Vaults Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Waterloo",
+    "website": "https://thevaults.london",
+    "lat": 51.50103,
+    "lng": -0.1142
+  },
+  {
+    "id": "coronet-theatre",
+    "name": "Coronet Theatre",
+    "aliases": [
+      "The Coronet Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Notting Hill",
+    "website": "https://www.thecoronettheatre.com",
+    "lat": 51.50854,
+    "lng": -0.19813
+  },
+  {
+    "id": "omnibus-theatre",
+    "name": "Omnibus Theatre",
+    "kind": "theatre",
+    "area": "Clapham",
+    "website": "https://www.omnibus-clapham.org",
+    "lat": 51.46371,
+    "lng": -0.14239,
+    "manualOnly": true,
+    "notes": "robots.txt disallows automated access to the whole site."
+  },
+  {
+    "id": "brixton-house",
+    "name": "Brixton House",
+    "kind": "theatre",
+    "area": "Brixton",
+    "website": "https://brixtonhouse.co.uk",
+    "lat": 51.46188,
+    "lng": -0.11088
+  },
+  {
+    "id": "turbine-theatre",
+    "name": "Turbine Theatre",
+    "kind": "theatre",
+    "area": "Battersea",
+    "website": "https://turbinetheatre.com",
+    "notes": "Website didn't respond to the setup environment's network; retry from GitHub Actions (npm run probe -- <id>)."
+  },
+  {
+    "id": "wiltons-music-hall",
+    "name": "Wilton's Music Hall",
+    "aliases": [
+      "Wiltons Music Hall"
+    ],
+    "kind": "theatre",
+    "area": "Whitechapel",
+    "website": "https://wiltons.org.uk",
+    "lat": 51.51064,
+    "lng": -0.06689
+  },
+  {
+    "id": "troubadour-wembley-park-theatre",
+    "name": "Troubadour Wembley Park Theatre",
+    "kind": "theatre",
+    "area": "Wembley",
+    "website": "https://officiallondontheatre.com/venue/troubadour-wembley-park-theatre/"
+  },
+  {
+    "id": "troubadour-canary-wharf-theatre",
+    "name": "Troubadour Canary Wharf Theatre",
+    "kind": "theatre",
+    "area": "Canary Wharf",
+    "website": "https://officiallondontheatre.com/venue/troubadour-canary-wharf-theatre/"
+  },
+  {
+    "id": "emerald-theatre",
+    "name": "Emerald Theatre",
+    "kind": "theatre",
+    "area": "Embankment",
+    "website": "https://officiallondontheatre.com/venue/emerald-theatre/"
+  },
+  {
+    "id": "the-arts-at-marble-arch",
+    "name": "The Arts at Marble Arch",
+    "kind": "theatre",
+    "area": "Marble Arch",
+    "website": "https://officiallondontheatre.com/venue/the-arts-at-marble-arch/",
+    "lat": 51.5129,
+    "lng": -0.1594
+  },
+  {
+    "id": "london-county-hall",
+    "name": "London County Hall",
+    "aliases": [
+      "County Hall"
+    ],
+    "kind": "theatre",
+    "area": "South Bank",
+    "website": "https://officiallondontheatre.com/venue/london-county-hall/",
+    "lat": 51.50197,
+    "lng": -0.11874
+  },
+  {
+    "id": "house-of-sisters-grimm",
+    "name": "House of Sisters Grimm",
+    "kind": "theatre",
+    "area": "Fitzrovia",
+    "website": "https://officiallondontheatre.com/venue/house-of-sisters-grimm/",
+    "lat": 51.51673,
+    "lng": -0.13815
+  },
+  {
+    "id": "royal-opera-house",
+    "name": "Royal Opera House",
+    "aliases": [
+      "Royal Ballet and Opera",
+      "ROH"
+    ],
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://www.rbo.org.uk",
+    "lat": 51.51287,
+    "lng": -0.12256
+  },
+  {
+    "id": "london-coliseum",
+    "name": "London Coliseum",
+    "aliases": [
+      "English National Opera",
+      "ENO"
+    ],
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://www.londoncoliseum.org",
+    "lat": 51.51,
+    "lng": -0.12623
+  },
+  {
+    "id": "sadlers-wells",
+    "name": "Sadler's Wells",
+    "aliases": [
+      "Lilian Baylis Studio",
+      "Sadler's Wells Theatre",
+      "Sadlers Wells",
+      "Sadler’s Wells Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Islington",
+    "website": "https://www.sadlerswells.com",
+    "lat": 51.52946,
+    "lng": -0.10615
+  },
+  {
+    "id": "sadlers-wells-east",
+    "name": "Sadler's Wells East",
+    "kind": "theatre",
+    "area": "Stratford",
+    "website": "https://www.sadlerswells.com",
+    "lat": 51.54102,
+    "lng": -0.01184
+  },
+  {
+    "id": "peacock-theatre",
+    "name": "Peacock Theatre",
+    "kind": "theatre",
+    "area": "Holborn",
+    "website": "https://www.sadlerswells.com",
+    "lat": 51.51442,
+    "lng": -0.11763
+  },
+  {
+    "id": "the-place",
+    "name": "The Place",
+    "kind": "theatre",
+    "area": "Euston",
+    "website": "https://theplace.org.uk",
+    "lat": 51.52739,
+    "lng": -0.1287,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403 (site is refusing automated requests)). Events come from aggregators (if any) or manual adds."
+  },
+  {
+    "id": "adelphi-theatre",
+    "name": "Adelphi Theatre",
+    "kind": "theatre",
+    "area": "Strand",
+    "website": "https://officiallondontheatre.com/venue/adelphi-theatre/",
+    "lat": 51.51024,
+    "lng": -0.12308
+  },
+  {
+    "id": "aldwych-theatre",
+    "name": "Aldwych Theatre",
+    "kind": "theatre",
+    "area": "Aldwych",
+    "website": "https://officiallondontheatre.com/venue/aldwych-theatre/",
+    "lat": 51.51307,
+    "lng": -0.11883
+  },
+  {
+    "id": "ambassadors-theatre",
+    "name": "Ambassadors Theatre",
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/ambassadors-theatre/",
+    "lat": 51.51304,
+    "lng": -0.12784
+  },
+  {
+    "id": "apollo-theatre",
+    "name": "Apollo Theatre",
+    "kind": "theatre",
+    "area": "Shaftesbury Avenue",
+    "website": "https://officiallondontheatre.com/venue/apollo-theatre/",
+    "lat": 51.51158,
+    "lng": -0.13347
+  },
+  {
+    "id": "apollo-victoria-theatre",
+    "name": "Apollo Victoria Theatre",
+    "kind": "theatre",
+    "area": "Victoria",
+    "website": "https://officiallondontheatre.com/venue/apollo-victoria-theatre/",
+    "lat": 51.49559,
+    "lng": -0.14257
+  },
+  {
+    "id": "arts-theatre",
+    "name": "Arts Theatre",
+    "kind": "theatre",
+    "area": "Leicester Square",
+    "website": "https://artstheatrewestend.co.uk",
+    "lat": 51.5121,
+    "lng": -0.12755
+  },
+  {
+    "id": "cambridge-theatre",
+    "name": "Cambridge Theatre",
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/cambridge-theatre/",
+    "lat": 51.51363,
+    "lng": -0.12653
+  },
+  {
+    "id": "criterion-theatre",
+    "name": "Criterion Theatre",
+    "kind": "theatre",
+    "area": "Piccadilly Circus",
+    "website": "https://officiallondontheatre.com/venue/criterion-theatre/",
+    "lat": 51.50958,
+    "lng": -0.13398
+  },
+  {
+    "id": "dominion-theatre",
+    "name": "Dominion Theatre",
+    "kind": "theatre",
+    "area": "Tottenham Court Road",
+    "website": "https://officiallondontheatre.com/venue/dominion-theatre/",
+    "lat": 51.51692,
+    "lng": -0.12958
+  },
+  {
+    "id": "theatre-royal-drury-lane",
+    "name": "Theatre Royal Drury Lane",
+    "aliases": [
+      "Drury Lane, Theatre Royal",
+      "Drury Lane"
+    ],
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/drury-lane-theatre-royal/",
+    "lat": 51.51299,
+    "lng": -0.12023
+  },
+  {
+    "id": "duchess-theatre",
+    "name": "Duchess Theatre",
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/duchess-theatre/",
+    "lat": 51.51213,
+    "lng": -0.11977
+  },
+  {
+    "id": "tom-stoppard-theatre",
+    "name": "Tom Stoppard Theatre",
+    "aliases": [
+      "The Tom Stoppard Theatre",
+      "Duke of York's Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/the-tom-stoppard-theatre/",
+    "lat": 51.51017,
+    "lng": -0.12736
+  },
+  {
+    "id": "fortune-theatre",
+    "name": "Fortune Theatre",
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/fortune-theatre/",
+    "lat": 51.51333,
+    "lng": -0.1209
+  },
+  {
+    "id": "garrick-theatre",
+    "name": "Garrick Theatre",
+    "kind": "theatre",
+    "area": "Charing Cross Road",
+    "website": "https://officiallondontheatre.com/venue/garrick-theatre/",
+    "lat": 51.50999,
+    "lng": -0.12783
+  },
+  {
+    "id": "gielgud-theatre",
+    "name": "Gielgud Theatre",
+    "kind": "theatre",
+    "area": "Shaftesbury Avenue",
+    "website": "https://officiallondontheatre.com/venue/gielgud-theatre/",
+    "lat": 51.51187,
+    "lng": -0.13309
+  },
+  {
+    "id": "gillian-lynne-theatre",
+    "name": "Gillian Lynne Theatre",
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/gillian-lynne-theatre/",
+    "lat": 51.51542,
+    "lng": -0.12269
+  },
+  {
+    "id": "harold-pinter-theatre",
+    "name": "Harold Pinter Theatre",
+    "kind": "theatre",
+    "area": "Leicester Square",
+    "website": "https://officiallondontheatre.com/venue/harold-pinter-theatre/",
+    "lat": 51.50933,
+    "lng": -0.13163
+  },
+  {
+    "id": "theatre-royal-haymarket",
+    "name": "Theatre Royal Haymarket",
+    "aliases": [
+      "Haymarket Theatre Royal"
+    ],
+    "kind": "theatre",
+    "area": "Haymarket",
+    "website": "https://officiallondontheatre.com/venue/haymarket-theatre-royal/",
+    "lat": 51.50866,
+    "lng": -0.13122
+  },
+  {
+    "id": "his-majestys-theatre",
+    "name": "His Majesty's Theatre",
+    "aliases": [
+      "Her Majesty's Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Haymarket",
+    "website": "https://officiallondontheatre.com/venue/her-majestys-theatre/",
+    "lat": 51.50812,
+    "lng": -0.13201
+  },
+  {
+    "id": "lyceum-theatre",
+    "name": "Lyceum Theatre",
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/lyceum-theatre/",
+    "lat": 51.51148,
+    "lng": -0.12006
+  },
+  {
+    "id": "lyric-theatre",
+    "name": "Lyric Theatre",
+    "kind": "theatre",
+    "area": "Shaftesbury Avenue",
+    "website": "https://officiallondontheatre.com/venue/lyric-theatre/",
+    "lat": 51.51132,
+    "lng": -0.1337
+  },
+  {
+    "id": "noel-coward-theatre",
+    "name": "Noël Coward Theatre",
+    "aliases": [
+      "Noel Coward Theatre"
+    ],
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/noel-coward-theatre/",
+    "lat": 51.51112,
+    "lng": -0.12746
+  },
+  {
+    "id": "novello-theatre",
+    "name": "Novello Theatre",
+    "kind": "theatre",
+    "area": "Aldwych",
+    "website": "https://officiallondontheatre.com/venue/novello-theatre/",
+    "lat": 51.51243,
+    "lng": -0.11947
+  },
+  {
+    "id": "palace-theatre",
+    "name": "Palace Theatre",
+    "kind": "theatre",
+    "area": "Cambridge Circus",
+    "website": "https://officiallondontheatre.com/venue/palace-theatre/",
+    "lat": 51.5131,
+    "lng": -0.12984
+  },
+  {
+    "id": "phoenix-theatre",
+    "name": "Phoenix Theatre",
+    "kind": "theatre",
+    "area": "Charing Cross Road",
+    "website": "https://officiallondontheatre.com/venue/phoenix-theatre/",
+    "lat": 51.51451,
+    "lng": -0.12938
+  },
+  {
+    "id": "piccadilly-theatre",
+    "name": "Piccadilly Theatre",
+    "kind": "theatre",
+    "area": "Piccadilly Circus",
+    "website": "https://officiallondontheatre.com/venue/piccadilly-theatre/",
+    "lat": 51.511,
+    "lng": -0.1354
+  },
+  {
+    "id": "playhouse-theatre",
+    "name": "Playhouse Theatre",
+    "aliases": [
+      "Kit Kat Club at the Playhouse"
+    ],
+    "kind": "theatre",
+    "area": "Embankment",
+    "website": "https://officiallondontheatre.com/venue/playhouse-theatre/",
+    "lat": 51.507,
+    "lng": -0.12361
+  },
+  {
+    "id": "prince-edward-theatre",
+    "name": "Prince Edward Theatre",
+    "kind": "theatre",
+    "area": "Soho",
+    "website": "https://officiallondontheatre.com/venue/prince-edward-theatre/",
+    "lat": 51.51365,
+    "lng": -0.13094
+  },
+  {
+    "id": "prince-of-wales-theatre",
+    "name": "Prince of Wales Theatre",
+    "kind": "theatre",
+    "area": "Leicester Square",
+    "website": "https://officiallondontheatre.com/venue/prince-of-wales-theatre/",
+    "lat": 51.51007,
+    "lng": -0.13176
+  },
+  {
+    "id": "st-martins-theatre",
+    "name": "St Martin's Theatre",
+    "kind": "theatre",
+    "area": "Covent Garden",
+    "website": "https://officiallondontheatre.com/venue/st-martins-theatre/",
+    "lat": 51.5129,
+    "lng": -0.1276
+  },
+  {
+    "id": "savoy-theatre",
+    "name": "Savoy Theatre",
+    "kind": "theatre",
+    "area": "Strand",
+    "website": "https://officiallondontheatre.com/venue/savoy-theatre/",
+    "lat": 51.51018,
+    "lng": -0.12093
+  },
+  {
+    "id": "shaftesbury-theatre",
+    "name": "Shaftesbury Theatre",
+    "kind": "theatre",
+    "area": "Holborn",
+    "website": "https://officiallondontheatre.com/venue/shaftesbury-theatre/",
+    "lat": 51.51614,
+    "lng": -0.12586
+  },
+  {
+    "id": "sondheim-theatre",
+    "name": "Sondheim Theatre",
+    "kind": "theatre",
+    "area": "Shaftesbury Avenue",
+    "website": "https://officiallondontheatre.com/venue/sondheim-theatre/",
+    "lat": 51.51203,
+    "lng": -0.13285
+  },
+  {
+    "id": "trafalgar-theatre",
+    "name": "Trafalgar Theatre",
+    "kind": "theatre",
+    "area": "Whitehall",
+    "website": "https://officiallondontheatre.com/venue/trafalgar-theatre/",
+    "lat": 51.50657,
+    "lng": -0.12765
+  },
+  {
+    "id": "vaudeville-theatre",
+    "name": "Vaudeville Theatre",
+    "kind": "theatre",
+    "area": "Strand",
+    "website": "https://officiallondontheatre.com/venue/vaudeville-theatre/",
+    "lat": 51.51053,
+    "lng": -0.12259
+  },
+  {
+    "id": "victoria-palace-theatre",
+    "name": "Victoria Palace Theatre",
+    "kind": "theatre",
+    "area": "Victoria",
+    "website": "https://officiallondontheatre.com/venue/victoria-palace-theatre/",
+    "lat": 51.49684,
+    "lng": -0.14247
+  },
+  {
+    "id": "wyndhams-theatre",
+    "name": "Wyndham's Theatre",
+    "kind": "theatre",
+    "area": "Leicester Square",
+    "website": "https://officiallondontheatre.com/venue/wyndhams-theatre/",
+    "lat": 51.51111,
+    "lng": -0.12805
+  },
+  {
+    "id": "the-linnean-society-of-london",
+    "name": "The Linnean Society of London",
+    "aliases": [
+      "Linnean Society"
+    ],
+    "kind": "museum",
+    "area": "Piccadilly",
+    "website": "https://www.linnean.org",
+    "lat": 51.50848,
+    "lng": -0.13926
+  },
+  {
+    "id": "vagina-museum",
+    "name": "Vagina Museum",
+    "kind": "museum",
+    "area": "Bethnal Green",
+    "website": "https://www.vaginamuseum.co.uk",
+    "lat": 51.53037,
+    "lng": -0.05705
+  },
+  {
+    "id": "royal-college-of-nursing-library-and-museum",
+    "name": "Royal College of Nursing Library and Museum",
+    "aliases": [
+      "RCN Library and Museum"
+    ],
+    "kind": "museum",
+    "area": "Marylebone",
+    "website": "https://www.rcn.org.uk/library"
+  },
+  {
+    "id": "florence-nightingale-museum",
+    "name": "Florence Nightingale Museum",
+    "kind": "museum",
+    "area": "Westminster Bridge",
+    "website": "https://www.florence-nightingale.co.uk",
+    "lat": 51.50001,
+    "lng": -0.11767
+  },
+  {
+    "id": "burgh-house",
+    "name": "Burgh House",
+    "aliases": [
+      "Burgh House & Hampstead Museum"
+    ],
+    "kind": "museum",
+    "area": "Hampstead",
+    "website": "https://burghhouse.org.uk",
+    "lat": 51.55819,
+    "lng": -0.17504
+  },
+  {
+    "id": "apsley-house",
+    "name": "Apsley House",
+    "kind": "museum",
+    "area": "Hyde Park Corner",
+    "website": "https://www.english-heritage.org.uk/visit/places/apsley-house/",
+    "lat": 51.50347,
+    "lng": -0.15171
+  },
+  {
+    "id": "anaesthesia-museum",
+    "name": "Anaesthesia Museum",
+    "aliases": [
+      "Anaesthesia Heritage Centre"
+    ],
+    "kind": "museum",
+    "area": "Marylebone",
+    "website": "https://anaesthetists.org/Home/Heritage-centre",
+    "lat": 51.51943,
+    "lng": -0.14507
+  },
+  {
+    "id": "london-mithraeum-bloomberg-space",
+    "name": "London Mithraeum Bloomberg SPACE",
+    "aliases": [
+      "London Mithraeum"
+    ],
+    "kind": "public-gallery",
+    "area": "City",
+    "website": "https://www.londonmithraeum.com",
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403); exhibitions come via Art Fund.",
+    "lat": 51.51238,
+    "lng": -0.09068
+  },
+  {
+    "id": "jewish-museum-london",
+    "name": "Jewish Museum London",
+    "kind": "museum",
+    "area": "Camden",
+    "website": "https://jewishmuseum.org.uk",
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403); exhibitions come via Art Fund.",
+    "lat": 51.5373,
+    "lng": -0.14458
+  },
+  {
+    "id": "headstone-manor-and-museum",
+    "name": "Headstone Manor & Museum",
+    "kind": "museum",
+    "area": "Harrow",
+    "website": "https://www.headstonemanor.org",
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403); exhibitions come via Art Fund."
+  },
+  {
+    "id": "royal-college-of-physicians-museum",
+    "name": "Royal College of Physicians Museum",
+    "kind": "museum",
+    "area": "Regent's Park",
+    "website": "https://history.rcp.ac.uk",
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403); exhibitions come via Art Fund.",
+    "lat": 51.52578,
+    "lng": -0.14479
+  },
+  {
+    "id": "the-brown-collection",
+    "name": "The Brown Collection",
+    "kind": "public-gallery",
+    "area": "Marylebone",
+    "website": "https://thebrowncollection.co.uk",
+    "notes": "Website address unverified (didn't resolve from the setup environment); exhibitions come via Art Fund.",
+    "lat": 51.51737,
+    "lng": -0.15046
+  },
+  {
+    "id": "the-fan-museum",
+    "name": "The Fan Museum",
+    "aliases": [
+      "Fan Museum"
+    ],
+    "kind": "museum",
+    "area": "Greenwich",
+    "website": "https://www.thefanmuseum.org.uk",
+    "lat": 51.4791,
+    "lng": -0.00807
+  },
+  {
+    "id": "studio-voltaire",
+    "name": "Studio Voltaire",
+    "kind": "public-gallery",
+    "area": "Clapham",
+    "website": "https://www.studiovoltaire.org",
+    "lat": 51.46208,
+    "lng": -0.13461
+  },
+  {
+    "id": "lux",
+    "name": "LUX",
+    "aliases": [
+      "LUX Moving Image"
+    ],
+    "kind": "public-gallery",
+    "area": "Hackney",
+    "website": "https://lux.org.uk",
+    "lat": 51.56844,
+    "lng": -0.14274
+  },
+  {
+    "id": "viktor-wynd-museum",
+    "name": "Viktor Wynd Museum of Curiosities",
+    "aliases": [
+      "Viktor Wynd Museum",
+      "The Viktor Wynd Museum of Curiosities, Fine Art & UnNatural History"
+    ],
+    "kind": "museum",
+    "area": "Hackney",
+    "website": "https://www.thelasttuesdaysociety.org",
+    "lat": 51.5347,
+    "lng": -0.05764
+  },
+  {
+    "id": "old-royal-naval-college",
+    "name": "Old Royal Naval College",
+    "aliases": [
+      "Painted Hall"
+    ],
+    "kind": "museum",
+    "area": "Greenwich",
+    "website": "https://ornc.org",
+    "lat": 51.48178,
+    "lng": -0.00663
+  },
+  {
+    "id": "mall-galleries",
+    "name": "Mall Galleries",
+    "kind": "public-gallery",
+    "area": "The Mall",
+    "website": "https://www.mallgalleries.org.uk",
+    "lat": 51.50653,
+    "lng": -0.12998
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "sourceId": "arcola-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.arcolatheatre.com/"
+    ],
+    "cards": {
+      "item": "div.card__content.stack",
+      "dates": "div.card__meta.margin-trim"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "arcola-theatre:event-the-master-builder",
+      "venueId": "arcola-theatre",
+      "sourceId": "arcola-theatre",
+      "title": "The Master Builder",
+      "url": "https://www.arcolatheatre.com/event/the-master-builder/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-10-16",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "arcola-theatre:event-squid-a-victim-impact-statement",
+      "venueId": "arcola-theatre",
+      "sourceId": "arcola-theatre",
+      "title": "SQUID: A Victim Impact Statement",
+      "url": "https://www.arcolatheatre.com/event/squid-a-victim-impact-statement/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "arcola-theatre:event-the-ugly-one",
+      "venueId": "arcola-theatre",
+      "sourceId": "arcola-theatre",
+      "title": "The Ugly One",
+      "url": "https://www.arcolatheatre.com/event/the-ugly-one/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2026-12-19",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "arcola-theatre:event-the-banality-of-evil",
+      "venueId": "arcola-theatre",
+      "sourceId": "arcola-theatre",
+      "title": "The Banality of Evil: Hannah Arendt, France, 1940",
+      "url": "https://www.arcolatheatre.com/event/the-banality-of-evil/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-10-08",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

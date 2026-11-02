@@ -1,0 +1,138 @@
+{
+  "sourceId": "bloomsbury-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.bloomsburytheatre.com/"
+    ],
+    "cards": {
+      "item": "div.card.p-3",
+      "dates": "p"
+    }
+  },
+  "rawCount": 9,
+  "events": [
+    {
+      "id": "bloomsbury-theatre:12-resofit-fundraiser",
+      "venueId": "bloomsbury-theatre",
+      "sourceId": "bloomsbury-theatre",
+      "title": "Resofit Fundraiser",
+      "url": "https://www.bloomsburytheatre.com/event/2026/12/resofit-fundraiser",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-09",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://system.spektrix.com/bloomsburytheatre/files/f74c34c3-5a1c-413d-ac86-3a5fd511fbe9.jpg"
+    },
+    {
+      "id": "bloomsbury-theatre:04-word-perfect-susie-dent",
+      "venueId": "bloomsbury-theatre",
+      "sourceId": "bloomsbury-theatre",
+      "title": "Word Perfect | Susie Dent",
+      "url": "https://www.bloomsburytheatre.com/event/2027/04/word-perfect-susie-dent",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-04-01",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://system.spektrix.com/bloomsburytheatre/files/d28d1c9f-75b6-4014-b109-a23a754abf6c.jpg"
+    },
+    {
+      "id": "bloomsbury-theatre:11-local-song-local-people-kate-butch",
+      "venueId": "bloomsbury-theatre",
+      "sourceId": "bloomsbury-theatre",
+      "title": "A Local Song for Local People | Kate Butch",
+      "url": "https://www.bloomsburytheatre.com/event/2026/11/local-song-local-people-kate-butch",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.bloomsburytheatre.com/sites/default/files/2026-06/1610%20ratio_2.jpg"
+    },
+    {
+      "id": "bloomsbury-theatre:11-collabro-return-album-launch",
+      "venueId": "bloomsbury-theatre",
+      "sourceId": "bloomsbury-theatre",
+      "title": "Collabro | The Return Album Launch",
+      "url": "https://www.bloomsburytheatre.com/event/2026/11/collabro-return-album-launch",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.bloomsburytheatre.com/sites/default/files/2026-08/1610%20ratio%20%283%29.jpg"
+    },
+    {
+      "id": "bloomsbury-theatre:11-ucl-the-musical",
+      "venueId": "bloomsbury-theatre",
+      "sourceId": "bloomsbury-theatre",
+      "title": "UCL! The Musical",
+      "url": "https://www.bloomsburytheatre.com/event/2026/11/ucl-the-musical",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-24",
+      "endDate": "2026-11-28",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.bloomsburytheatre.com/sites/default/files/2026-10/UCL%21%20The%20Musical%20NEW%20-%20rectangle%20no%20logos1.jpg"
+    },
+    {
+      "id": "bloomsbury-theatre:12-stick-man",
+      "venueId": "bloomsbury-theatre",
+      "sourceId": "bloomsbury-theatre",
+      "title": "Stick Man",
+      "url": "https://www.bloomsburytheatre.com/event/2026/12/stick-man",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-03",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02",
+      "image": "https://system.spektrix.com/bloomsburytheatre/files/c92387f1-5edc-4f68-803b-4c2019952292.jpg"
+    },
+    {
+      "id": "bloomsbury-theatre:12-harry-christmas",
+      "venueId": "bloomsbury-theatre",
+      "sourceId": "bloomsbury-theatre",
+      "title": "Harry Christmas",
+      "url": "https://www.bloomsburytheatre.com/event/2026/12/harry-christmas",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-11",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.bloomsburytheatre.com/sites/default/files/2026-09/1610%20ratio%20v2.jpg"
+    },
+    {
+      "id": "bloomsbury-theatre:01-finlay-christie-champagne-casanova",
+      "venueId": "bloomsbury-theatre",
+      "sourceId": "bloomsbury-theatre",
+      "title": "Finlay Christie | Champagne Casanova",
+      "url": "https://www.bloomsburytheatre.com/event/2027/01/finlay-christie-champagne-casanova",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-09",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.bloomsburytheatre.com/sites/default/files/2026-05/1610.jpg"
+    },
+    {
+      "id": "bloomsbury-theatre:04-tango-passions-vincent-simone",
+      "venueId": "bloomsbury-theatre",
+      "sourceId": "bloomsbury-theatre",
+      "title": "Tango Passions | Vincent Simone",
+      "url": "https://www.bloomsburytheatre.com/event/2027/04/tango-passions-vincent-simone",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-04-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://system.spektrix.com/bloomsburytheatre/files/5ddc6230-2a70-4c5b-9954-eff69ce393d8.jpg"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+name: Add an event
+description: Add something the scrapers don't pick up (e.g. a venue that blocks automated access). Processed automatically.
+title: "Add event: "
+labels: ["add-event"]
+body:
+  - type: input
+    id: event-title
+    attributes:
+      label: Event title
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue
+      description: The venue's name as shown in the app (e.g. "Southbank Centre").
+    validations:
+      required: true
+  - type: input
+    id: start
+    attributes:
+      label: Start date
+      description: e.g. 2026-11-21 or "21 November 2026". For a run that's already open, use today's date.
+    validations:
+      required: true
+  - type: input
+    id: end
+    attributes:
+      label: End date (optional)
+      description: Leave blank for a one-off event.
+  - type: input
+    id: time
+    attributes:
+      label: Start time (optional)
+      description: 24h, e.g. 19:30
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [show, exhibition, talk, concert, tour, late, workshop, family, screening, display, event]
+      default: 0
+  - type: dropdown
+    id: price
+    attributes:
+      label: Price
+      options: [unknown, free, paid]
+      default: 0
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Page for the event / tickets.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)

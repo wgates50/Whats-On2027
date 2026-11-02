@@ -1,0 +1,88 @@
+{
+  "sourceId": "alison-jacques",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://alisonjacques.com/"
+    ],
+    "cards": {
+      "item": "div.card.card--lg",
+      "dates": "div.card__data"
+    }
+  },
+  "rawCount": 5,
+  "events": [
+    {
+      "id": "alison-jacques:news-sheila-hicks-au-dela",
+      "venueId": "alison-jacques",
+      "sourceId": "alison-jacques",
+      "title": "Sheila Hicks: Beyond",
+      "url": "https://alisonjacques.com/news/sheila-hicks-au-dela",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-03-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://alisonjacques.com/uploads/images/_1333x1000_crop_center-center_none/4.jpg"
+    },
+    {
+      "id": "alison-jacques:news-sagarika-sundaram-6",
+      "venueId": "alison-jacques",
+      "sourceId": "alison-jacques",
+      "title": "Sagarika Sundaram: Reservoir",
+      "url": "https://alisonjacques.com/news/sagarika-sundaram-6",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02",
+      "image": "https://alisonjacques.com/uploads/images/_1333x1000_crop_center-center_none/Henry-Moore-Institute-Sagarika-Sundaram-Reservoir-Installation-View-Low-Res-2_2026-10-08-081337_lrvc.jpg"
+    },
+    {
+      "id": "alison-jacques:news-ana-mendieta-23",
+      "venueId": "alison-jacques",
+      "sourceId": "alison-jacques",
+      "title": "Ana Mendieta",
+      "url": "https://alisonjacques.com/news/ana-mendieta-23",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-01-17",
+      "firstSeen": "2026-11-02",
+      "image": "https://alisonjacques.com/uploads/images/_1333x1000_crop_center-center_none/Ana-Mendieta-installation-view.-Photo-Tate-Yili-Liu_014_LowResolution.jpg"
+    },
+    {
+      "id": "alison-jacques:news-pacita-abad-13",
+      "venueId": "alison-jacques",
+      "sourceId": "alison-jacques",
+      "title": "PACITA ABAD: STITCHING SOLIDARITIES",
+      "url": "https://alisonjacques.com/news/pacita-abad-13",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-07-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "ongoing": true,
+      "image": "https://alisonjacques.com/uploads/images/_1333x1000_crop_center-center_none/PacitaAbad_Folder13_MattsAdditions_007-1-2500px.jpg"
+    },
+    {
+      "id": "alison-jacques:news-eileen-agar-5",
+      "venueId": "alison-jacques",
+      "sourceId": "alison-jacques",
+      "title": "EILEEN AGAR",
+      "url": "https://alisonjacques.com/news/eileen-agar-5",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "ongoing": true,
+      "image": "https://alisonjacques.com/uploads/images/_1333x1000_crop_center-center_none/AJG-EAg-36529b-3x4-4500px-sRGB_2026-10-21-154923_xsdi.jpg"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "sourceId": "at-sohoplace",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://sohoplace.org/whats-on/"
+    ],
+    "cards": {
+      "item": "div.site-event-card__details",
+      "dates": "div.site-event-card__dates"
+    }
+  },
+  "rawCount": 2,
+  "events": [
+    {
+      "id": "at-sohoplace:shows-whos-afraid-of-virginia-woolf-2026",
+      "venueId": "at-sohoplace",
+      "sourceId": "at-sohoplace",
+      "title": "Who’s Afraid of Virginia Woolf?",
+      "url": "https://sohoplace.org/shows/whos-afraid-of-virginia-woolf-2026/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-09-21",
+      "endDate": "2026-12-19",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "at-sohoplace:shows-rachel-zegler-live-in-london",
+      "venueId": "at-sohoplace",
+      "sourceId": "at-sohoplace",
+      "title": "Rachel Zegler – Live In London",
+      "url": "https://sohoplace.org/shows/rachel-zegler-live-in-london/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-05",
+      "endDate": "2027-01-17",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

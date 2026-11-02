@@ -1,0 +1,23 @@
+{
+  "sourceId": "art-fund",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.artfund.org/sitemap.xml"
+    ],
+    "linkPattern": "^https://www\\.artfund\\.org/explore/exhibitions/20\\d\\d/\\d\\d/\\d\\d/[^/?#]+$",
+    "maxLinks": 150,
+    "cacheDays": 14,
+    "detail": {
+      "dates": "div.blurred-hero-panel__container__grid__right div.mb-4",
+      "venue": "span.fragment-location-pin__title a"
+    }
+  },
+  "rawCount": 4,
+  "events": []
+}

@@ -1,0 +1,151 @@
+{
+  "sourceId": "william-morris-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.wmgallery.org.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "a.flex_item.card",
+      "dates": "h5.dates"
+    }
+  },
+  "rawCount": 10,
+  "events": [
+    {
+      "id": "william-morris-gallery:event-flow-state-sessions-2026",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "Flow State Sessions",
+      "url": "https://www.wmgallery.org.uk/event/flow-state-sessions-2026/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-03-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2025/04/painting-banner-2to1-1024x512.jpg"
+    },
+    {
+      "id": "william-morris-gallery:event-earthly-paradise",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "Earthly Paradise",
+      "url": "https://www.wmgallery.org.uk/event/earthly-paradise/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": "2027-03-28",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/04/Tom-Hunter-lightbox-1024x683.jpg"
+    },
+    {
+      "id": "william-morris-gallery:event-free-community-group-tours-earthly-paradise",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "Free Community Group Tours: Earthly Paradise",
+      "url": "https://www.wmgallery.org.uk/event/free-community-group-tours-earthly-paradise/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": null,
+      "endDate": "2027-03-28",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/10/089A2541-1024x683.jpg"
+    },
+    {
+      "id": "william-morris-gallery:event-uncovering-the-queer-roots-of-british-arts-and-crafts",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "Uncovering the Queer Roots of British Arts and Crafts",
+      "url": "https://www.wmgallery.org.uk/event/uncovering-the-queer-roots-of-british-arts-and-crafts/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/10/JRL20020048-1024x686.jpg"
+    },
+    {
+      "id": "william-morris-gallery:event-family-day-useful-and-beautiful",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "Family Day: Useful and Beautiful",
+      "url": "https://www.wmgallery.org.uk/event/family-day-useful-and-beautiful/",
+      "type": "family",
+      "category": "art-events",
+      "startDate": "2026-11-14",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/10/IMG_4142-1024x683.jpg"
+    },
+    {
+      "id": "william-morris-gallery:event-mini-morris-wonderful-windows",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "Mini Morris",
+      "url": "https://www.wmgallery.org.uk/event/mini-morris-wonderful-windows/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/10/IMG_4060-1024x683.jpg"
+    },
+    {
+      "id": "william-morris-gallery:event-an-introduction-to-earthly-paradise-november26",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "An Introduction to Earthly Paradise",
+      "url": "https://www.wmgallery.org.uk/event/an-introduction-to-earthly-paradise-november26/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-24",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/09/Guild-of-Handicraft-1024x683.jpg"
+    },
+    {
+      "id": "william-morris-gallery:event-a-room-of-ones-own-creating-feminist-dwellings",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "A Room of One’s Own – Creating Feminist Dwellings",
+      "url": "https://www.wmgallery.org.uk/event/a-room-of-ones-own-creating-feminist-dwellings/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-01",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/10/Image-66-1024x745.jpg"
+    },
+    {
+      "id": "william-morris-gallery:event-an-introduction-to-earthly-paradise-december26",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "An Introduction to Earthly Paradise",
+      "url": "https://www.wmgallery.org.uk/event/an-introduction-to-earthly-paradise-december26/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-15",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/09/JANEWI1-1024x683.jpg"
+    },
+    {
+      "id": "william-morris-gallery:event-an-introduction-to-earthly-paradise-january27",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "An Introduction to Earthly Paradise",
+      "url": "https://www.wmgallery.org.uk/event/an-introduction-to-earthly-paradise-january27/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2027-01-26",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/09/KHADAM1-1024x683.jpg"
+    }
+  ]
+}

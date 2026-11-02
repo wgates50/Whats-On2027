@@ -1,0 +1,73 @@
+{
+  "sourceId": "up-the-creek",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.up-the-creek.com/"
+    ],
+    "cards": {
+      "item": "div.event-card-body",
+      "dates": "div.event-card-footer"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "up-the-creek:events-the-blackout-5-november-tickets-0pjrvn-unii-trigger-open-the-blackout-5-n",
+      "venueId": "up-the-creek",
+      "sourceId": "up-the-creek",
+      "title": "THE BLACKOUT - 5 NOVEMBER",
+      "url": "https://www.universe.com/events/the-blackout-5-november-tickets-0PJRVN?unii-trigger-open=the-blackout-5-november-tickets-0PJRVN",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
+      "id": "up-the-creek:events-the-friday-night-show-tickets-fq26rm-unii-trigger-open-the-friday-night-s",
+      "venueId": "up-the-creek",
+      "sourceId": "up-the-creek",
+      "title": "THE FRIDAY NIGHT SHOW!",
+      "url": "https://www.universe.com/events/the-friday-night-show-tickets-FQ26RM?unii-trigger-open=the-friday-night-show-tickets-FQ26RM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:00"
+    },
+    {
+      "id": "up-the-creek:events-saturday-night-comedy-up-the-creek-tickets-6n579d-unii-trigger-open-satur",
+      "venueId": "up-the-creek",
+      "sourceId": "up-the-creek",
+      "title": "SATURDAY NIGHT COMEDY - UP THE CREEK",
+      "url": "https://www.universe.com/events/saturday-night-comedy-up-the-creek-tickets-6N579D?unii-trigger-open=saturday-night-comedy-up-the-creek-tickets-6N579D",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:00"
+    },
+    {
+      "id": "up-the-creek:events-live-band-karaoke-tickets-1mb467-unii-trigger-open-live-band-karaoke-tick",
+      "venueId": "up-the-creek",
+      "sourceId": "up-the-creek",
+      "title": "Live Band Karaoke",
+      "url": "https://www.universe.com/events/live-band-karaoke-tickets-1MB467?unii-trigger-open=live-band-karaoke-tickets-1MB467",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "22:00"
+    }
+  ]
+}

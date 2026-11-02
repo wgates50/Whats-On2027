@@ -1,0 +1,37 @@
+{
+  "sourceId": "lisson-gallery",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://lisson.com/exhibitions"
+    ],
+    "cards": {
+      "item": "article.group.relative",
+      "link": "a.cover",
+      "title": "h3",
+      "dates": "time",
+      "venue": "p.text-s.uppercase"
+    }
+  },
+  "rawCount": 11,
+  "events": [
+    {
+      "id": "lisson-gallery:exhibitions-carmen-herrera-lisson-london",
+      "venueId": "lisson-gallery",
+      "sourceId": "lisson-gallery",
+      "title": "Pulse, Pause, Repeat",
+      "url": "https://lisson.com/exhibitions/carmen-herrera-lisson-london",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-24",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://d7ra36y65tyn0.cloudfront.net/image/553853451406/image_lus8526h1973tabdoiaglmhd2d/-S3840x-FWEBP"
+    }
+  ]
+}

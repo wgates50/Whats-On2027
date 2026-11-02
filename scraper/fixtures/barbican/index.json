@@ -1,0 +1,26 @@
+{
+  "https://www.barbican.org.uk/whats-on/art-design": {
+    "file": "d74bb278c250.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.barbican.org.uk/whats-on/art-design",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.barbican.org.uk/whats-on/theatre-dance": {
+    "file": "55ef1a8be9e6.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.barbican.org.uk/whats-on/theatre-dance",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.barbican.org.uk/whats-on/classical-music": {
+    "file": "0d90ed3fb811.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.barbican.org.uk/whats-on/classical-music",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.barbican.org.uk/whats-on/contemporary-music": {
+    "file": "736b6ab46899.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.barbican.org.uk/whats-on/contemporary-music",
+    "contentType": "text/html; charset=utf-8"
+  }
+}

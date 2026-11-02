@@ -1,0 +1,32 @@
+{
+  "https://www.jermynstreettheatre.co.uk/": {
+    "file": "3d77c7f7dda7.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.jermynstreettheatre.co.uk/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.jermynstreettheatre.co.uk/show/the-archive-speaks/": {
+    "file": "8e2799ed591e.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.jermynstreettheatre.co.uk/show/the-archive-speaks/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.jermynstreettheatre.co.uk/show/ghosts/": {
+    "file": "cb5d329b457e.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.jermynstreettheatre.co.uk/show/ghosts/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.jermynstreettheatre.co.uk/show/its-a-wonderful-life/": {
+    "file": "deec3dcb81d8.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.jermynstreettheatre.co.uk/show/its-a-wonderful-life/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.jermynstreettheatre.co.uk/show/orwell-the-road-to-1984/": {
+    "file": "189c78cae34d.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.jermynstreettheatre.co.uk/show/orwell-the-road-to-1984/",
+    "contentType": "text/html; charset=UTF-8"
+  }
+}

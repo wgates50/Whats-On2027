@@ -1,0 +1,129 @@
+{
+  "sourceId": "leicester-square-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.leicestersquaretheatre.com/whats-on/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "p.date"
+    }
+  },
+  "rawCount": 9,
+  "events": [
+    {
+      "id": "leicester-square-theatre:show-the-buffoonery",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "The Buffoonery",
+      "url": "https://www.leicestersquaretheatre.com/show/the-buffoonery/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leicester-square-theatre:show-barry-from-watford-shooting-from-the-new-hip",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "Barry from Watford: Shooting from the (new) hip",
+      "url": "https://www.leicestersquaretheatre.com/show/barry-from-watford-shooting-from-the-new-hip/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-05",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leicester-square-theatre:show-rachel-fairburn-vexy-beasts",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "Rachel Fairburn: Vexy Beasts",
+      "url": "https://www.leicestersquaretheatre.com/show/rachel-fairburn-vexy-beasts/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leicester-square-theatre:show-michael-akadiri-dont-call-me-uncle",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "Michael Akadiri: Don’t Call Me Uncle!",
+      "url": "https://www.leicestersquaretheatre.com/show/michael-akadiri-dont-call-me-uncle/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leicester-square-theatre:show-mark-thomas-40-in-stand-up-years",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "Mark Thomas: 40 in Stand-Up Years",
+      "url": "https://www.leicestersquaretheatre.com/show/mark-thomas-40-in-stand-up-years/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leicester-square-theatre:show-the-horne-section-podcast-live",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "The Horne Section Podcast: Live",
+      "url": "https://www.leicestersquaretheatre.com/show/the-horne-section-podcast-live/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-09",
+      "endDate": "2027-01-11",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leicester-square-theatre:show-nina-conti-and-friends",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "Nina Conti (And Friends)",
+      "url": "https://www.leicestersquaretheatre.com/show/nina-conti-and-friends/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": "2027-03-19",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leicester-square-theatre:show-aaron-mccann-momentum",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "Aaron McCann : Momentum",
+      "url": "https://www.leicestersquaretheatre.com/show/aaron-mccann-momentum/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "leicester-square-theatre:show-christopher-hall-pizazz",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "Christopher Hall: Pizazz",
+      "url": "https://www.leicestersquaretheatre.com/show/christopher-hall-pizazz/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-18",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

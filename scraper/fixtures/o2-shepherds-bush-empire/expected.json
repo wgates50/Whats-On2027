@@ -1,0 +1,112 @@
+{
+  "sourceId": "o2-shepherds-bush-empire",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.academymusicgroup.com/o2shepherdsbushempire"
+    ],
+    "cards": {
+      "item": "a.MuiButtonBase-root.MuiCardActionArea-root",
+      "dates": "h2.MuiTypography-root.MuiTypography-header3"
+    }
+  },
+  "rawCount": 7,
+  "events": [
+    {
+      "id": "o2-shepherds-bush-empire:events-the-flaming-lips-tickets-ae36",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "The Flaming Lips: The Teardrop Throbs - Live",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/the-flaming-lips-tickets-ae36",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-04-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://dynamicmedia.livenationinternational.com/l/q/x/97e7faa7-8229-4723-85dd-c886d256a90e.png?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-d-c5-bcem-tickets-ae3363",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Dżem",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/d%C5%BCem-tickets-ae3363",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-10-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://dynamicmedia.livenationinternational.com/p/u/x/ad4bcaab-b3fa-4f60-8473-f883969bbd99.png?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-jakov-jozinovic-tickets-ae1707840",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Jakov Jozinovic",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/jakov-jozinovic-tickets-ae1707840",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-13",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://dynamicmedia.livenationinternational.com/h/x/a/06d0e7d7-f25f-462f-b719-01a6def2cb3f.jpg?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-chvrches-tickets-ae400733",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "CHVRCHES",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/chvrches-tickets-ae400733",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-05-07",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://dynamicmedia.livenationinternational.com/n/z/p/b0778127-e8fe-420e-a940-18439ae5c28b.jpg?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-the-van-morrison-alumni-band-tickets-ae1705028",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "The Van Morrison Alumni Band Live in Concert",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/the-van-morrison-alumni-band-tickets-ae1705028",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-03-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://dynamicmedia.livenationinternational.com/q/a/q/0ae09ce0-5d5a-4e66-b544-403da3b0389b.jpg?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-rachel-chinouriri-tickets-ae1274399",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Rachel Chinouriri",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/rachel-chinouriri-tickets-ae1274399",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-03",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://dynamicmedia.livenationinternational.com/x/q/n/f9dd5ecd-27e7-4fa4-acf5-ec0d333f0721.jpg?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-sugababes-tickets-ae821",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Sugababes",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/sugababes-tickets-ae821",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-24",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://dynamicmedia.livenationinternational.com/a/u/t/6d6114d0-27d0-4029-888b-53af21675dff.jpg?format=webp&width=3840&quality=75"
+    }
+  ]
+}

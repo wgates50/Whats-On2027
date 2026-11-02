@@ -1,0 +1,8 @@
+{
+  "https://www.rbo.org.uk/": {
+    "file": "4d5a064724d7.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.rbo.org.uk/",
+    "contentType": "text/html; charset=utf-8"
+  }
+}

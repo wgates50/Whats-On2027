@@ -1,0 +1,77 @@
+{
+  "sourceId": "national-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.nationaltheatre.org.uk/whats-on/"
+    ],
+    "linkPattern": "^https://www\\.nationaltheatre\\.org\\.uk/productions/[^/?#]+/?$",
+    "detail": {
+      "dates": "div.c-event-details__date"
+    }
+  },
+  "rawCount": 4,
+  "events": [
+    {
+      "id": "national-theatre:productions-some-woman",
+      "venueId": "national-theatre",
+      "sourceId": "national-theatre",
+      "title": "Some Woman",
+      "url": "https://www.nationaltheatre.org.uk/productions/some-woman/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.nationaltheatre.org.uk/uploads/2026/04/Some-Woman-Anne-Marie-Duff-National-Theatre-2000x2000-1.jpg?resize=150%2C150&gravity",
+      "description": "What happens when an ordinary woman refuses to be quiet? Anne-Marie Duff (Bad Sisters) features in this provocative new play by Helen Edmundson, directed by Blanche McIntyre."
+    },
+    {
+      "id": "national-theatre:productions-cloud-9",
+      "venueId": "national-theatre",
+      "sourceId": "national-theatre",
+      "title": "Cloud 9",
+      "url": "https://www.nationaltheatre.org.uk/productions/cloud-9/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-02",
+      "endDate": "2027-01-13",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.nationaltheatre.org.uk/uploads/2026/05/Cloud-9-National-Theatre-1500x1500-1.jpg?resize=150%2C150&gravity",
+      "description": "What happens when identity, power and desire collide across time? Caryl Churchill’s daring classic is reimagined by Dominic Cooke in a bold new production."
+    },
+    {
+      "id": "national-theatre:productions-the-jungle-book",
+      "venueId": "national-theatre",
+      "sourceId": "national-theatre",
+      "title": "The Jungle Book",
+      "url": "https://www.nationaltheatre.org.uk/productions/the-jungle-book/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": "2027-02-06",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.nationaltheatre.org.uk/uploads/2026/03/The-Jungle-Book-National-Theatre-2000x2000-1.jpg?resize=150%2C150&gravity",
+      "description": "This autumn, the beloved tale is reimagined and this thrilling new adaptation brings the jungle roaring to life on the Olivier stage."
+    },
+    {
+      "id": "national-theatre:productions-the-rise-and-fall-of-little-voice",
+      "venueId": "national-theatre",
+      "sourceId": "national-theatre",
+      "title": "The Rise and Fall of Little Voice",
+      "url": "https://www.nationaltheatre.org.uk/productions/the-rise-and-fall-of-little-voice/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-02",
+      "endDate": "2027-01-23",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.nationaltheatre.org.uk/uploads/2026/08/The-Rise-and-Fall-of-Little-Voice-National-Theatre-aw2-1500x1500-1.jpg?resize=150%2C150&gravity",
+      "description": "Jim Cartwright’s modern classic returns in a major new production featuring Francesca Mills (Silent Witness), directed by Robert Hastie (Standing at the Sky’s Edge)."
+    }
+  ]
+}

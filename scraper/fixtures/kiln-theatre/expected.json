@@ -1,0 +1,57 @@
+{
+  "sourceId": "kiln-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://kilntheatre.com/whats-on/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "li.c-production-tile-details__date"
+    }
+  },
+  "rawCount": 3,
+  "events": [
+    {
+      "id": "kiln-theatre:whats-on-raising-hare-an-evening-with-chloe-dalton",
+      "venueId": "kiln-theatre",
+      "sourceId": "kiln-theatre",
+      "title": "Raising Hare: An Evening with Chloe Dalton",
+      "url": "https://kilntheatre.com/whats-on/raising-hare-an-evening-with-chloe-dalton/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "kiln-theatre:whats-on-nine-night",
+      "venueId": "kiln-theatre",
+      "sourceId": "kiln-theatre",
+      "title": "NINE NIGHT",
+      "url": "https://kilntheatre.com/whats-on/nine-night/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-12",
+      "endDate": "2027-01-02",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "kiln-theatre:whats-on-berlin-2027",
+      "venueId": "kiln-theatre",
+      "sourceId": "kiln-theatre",
+      "title": "BERLIN",
+      "url": "https://kilntheatre.com/whats-on/berlin_2027/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-10",
+      "endDate": "2027-04-17",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

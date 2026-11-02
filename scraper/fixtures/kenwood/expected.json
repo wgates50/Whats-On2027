@@ -1,0 +1,112 @@
+{
+  "sourceId": "kenwood",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.english-heritage.org.uk/visit/places/kenwood/"
+    ],
+    "cards": {
+      "item": "li.stick.colour-blocks",
+      "dates": "span.event-datetime.small-24"
+    }
+  },
+  "rawCount": 7,
+  "events": [
+    {
+      "id": "kenwood:whats-on-kenwood-events-consultation-meeting",
+      "venueId": "kenwood",
+      "sourceId": "kenwood",
+      "title": "Events Consultation Meeting at Kenwood",
+      "url": "https://www.english-heritage.org.uk/visit/whats-on/kenwood-events-consultation-meeting/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.english-heritage.org.uk/siteassets/home/visit/whats-on-202627/london/kenwood/kenwood-consultation-autumn2026.jpg?w=550&h=350&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219"
+    },
+    {
+      "id": "kenwood:whats-on-kenwood-eleanor-grant-and-gus-mcquade-perform",
+      "venueId": "kenwood",
+      "sourceId": "kenwood",
+      "title": "City Music Foundation: Eleanor and Gus Perform at Kenwood",
+      "url": "https://www.english-heritage.org.uk/visit/whats-on/kenwood-eleanor-grant-and-Gus-McQuade-perform/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-23",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.english-heritage.org.uk/siteassets/home/visit/whats-on-202627/london/kenwood/eleanor-and-gus-m-23.11.26-kenwood.jpg?w=550&h=350&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219"
+    },
+    {
+      "id": "kenwood:whats-on-kenwood-george-robarts-and-ed-picton-turbervill-perform",
+      "venueId": "kenwood",
+      "sourceId": "kenwood",
+      "title": "City Music Foundation: George Robarts and Edward Picton Turbervill Perform at Kenwood",
+      "url": "https://www.english-heritage.org.uk/visit/whats-on/kenwood-George-Robarts-and-Ed-Picton-Turbervill-perform/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-24",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.english-heritage.org.uk/siteassets/home/visit/whats-on-202627/london/kenwood/george-robarts-and-ed-picton-turbervill-tu-24.11.26.jpg?w=550&h=350&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219"
+    },
+    {
+      "id": "kenwood:whats-on-kenwood-intensa-duo",
+      "venueId": "kenwood",
+      "sourceId": "kenwood",
+      "title": "City Music Foundation: Intesa Duo at Kenwood",
+      "url": "https://www.english-heritage.org.uk/visit/whats-on/kenwood-intensa-duo/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-25",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.english-heritage.org.uk/siteassets/home/visit/whats-on-202627/london/kenwood/intesa-duo-w-25.11.26-480x480px.jpg?w=550&h=350&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219"
+    },
+    {
+      "id": "kenwood:whats-on-kenwood-antoine-preat",
+      "venueId": "kenwood",
+      "sourceId": "kenwood",
+      "title": "City Music Foundation: Antoine Preat at Kenwood",
+      "url": "https://www.english-heritage.org.uk/visit/whats-on/kenwood-antoine-preat/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-26",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.english-heritage.org.uk/siteassets/home/visit/whats-on-202627/london/kenwood/antoine-preat-th-26.11.26-480x480px.jpg?w=550&h=350&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219"
+    },
+    {
+      "id": "kenwood:whats-on-kenwood-paddington-trio",
+      "venueId": "kenwood",
+      "sourceId": "kenwood",
+      "title": "City Music Foundation: The Paddington Trio at Kenwood",
+      "url": "https://www.english-heritage.org.uk/visit/whats-on/kenwood-paddington-trio/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-27",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.english-heritage.org.uk/siteassets/home/visit/whats-on-202627/london/kenwood/paddington-trio-480x480px.jpg?w=550&h=350&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219"
+    },
+    {
+      "id": "kenwood:whats-on-kenwood-father-christmas-28-nov-to-20-dec-2026",
+      "venueId": "kenwood",
+      "sourceId": "kenwood",
+      "title": "Father Christmas at Kenwood",
+      "url": "https://www.english-heritage.org.uk/visit/whats-on/kenwood-father-christmas-28-nov-to-20-dec-2026/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-29",
+      "endDate": "2026-12-20",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.english-heritage.org.uk/siteassets/home/visit/whats-on-202627/9725---father-christmas-480-x-480.jpg?w=550&h=350&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219"
+    }
+  ]
+}

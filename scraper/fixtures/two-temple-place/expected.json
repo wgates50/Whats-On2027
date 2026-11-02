@@ -1,0 +1,85 @@
+{
+  "sourceId": "two-temple-place",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://twotempleplace.org/whats-on/"
+    ],
+    "cards": {
+      "item": "div.copy-side",
+      "dates": "h2"
+    }
+  },
+  "rawCount": 5,
+  "events": [
+    {
+      "id": "two-temple-place:events-two-temple-place-125",
+      "venueId": "two-temple-place",
+      "sourceId": "two-temple-place",
+      "title": "Two Temple Place Building Tour",
+      "url": "https://twotempleplace.org/events/two-temple-place-125/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-12",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "13:30"
+    },
+    {
+      "id": "two-temple-place:events-two-temple-place-126",
+      "venueId": "two-temple-place",
+      "sourceId": "two-temple-place",
+      "title": "Two Temple Place Building Tour",
+      "url": "https://twotempleplace.org/events/two-temple-place-126/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-12-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "10:30"
+    },
+    {
+      "id": "two-temple-place:events-two-temple-place-127",
+      "venueId": "two-temple-place",
+      "sourceId": "two-temple-place",
+      "title": "Two Temple Place Building Tour",
+      "url": "https://twotempleplace.org/events/two-temple-place-127/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-12-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "12:00"
+    },
+    {
+      "id": "two-temple-place:events-two-temple-place-128",
+      "venueId": "two-temple-place",
+      "sourceId": "two-temple-place",
+      "title": "Two Temple Place Building Tour",
+      "url": "https://twotempleplace.org/events/two-temple-place-128/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-12-11",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "13:30"
+    },
+    {
+      "id": "two-temple-place:events-gathering-rest",
+      "venueId": "two-temple-place",
+      "sourceId": "two-temple-place",
+      "title": "Gathering Rest An Exhibition on Rest as an Act of Healing, Imagination and Embodiment (working title)",
+      "url": "https://twotempleplace.org/events/gathering-rest/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-01-23",
+      "endDate": "2027-04-18",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}

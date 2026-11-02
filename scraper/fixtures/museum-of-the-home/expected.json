@@ -1,0 +1,61 @@
+{
+  "sourceId": "museum-of-the-home",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://museumofthehome.org.uk/whats-on/"
+    ],
+    "cards": {
+      "item": "div.card--base.card--featured",
+      "dates": "div.card-meta.d-flex"
+    }
+  },
+  "rawCount": 3,
+  "events": [
+    {
+      "id": "museum-of-the-home:whats-on-winter-market",
+      "venueId": "museum-of-the-home",
+      "sourceId": "museum-of-the-home",
+      "title": "Winter Market",
+      "url": "https://museumofthehome.org.uk/whats-on/winter-market/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-28",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://museumofthehome.org.uk/wp-content/uploads/2026/10/image-ee8a1f81-ab08-4652-b004-ee3af2a836ab-1360x844.jpg"
+    },
+    {
+      "id": "museum-of-the-home:festival-winter-programme",
+      "venueId": "museum-of-the-home",
+      "sourceId": "museum-of-the-home",
+      "title": "Winter Programme",
+      "url": "https://museumofthehome.org.uk/festival/winter-programme/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-27",
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02",
+      "image": "https://museumofthehome.org.uk/wp-content/uploads/2026/10/MOHHOHOHOME2025XHALLIEADUKE-124-2-scaled.jpg"
+    },
+    {
+      "id": "museum-of-the-home:whats-on-rooms-through-time",
+      "venueId": "museum-of-the-home",
+      "sourceId": "museum-of-the-home",
+      "title": "Rooms Through Time",
+      "url": "https://museumofthehome.org.uk/whats-on/rooms-through-time/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": null,
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "ongoing": true,
+      "image": "https://museumofthehome.org.uk/wp-content/uploads/2025/05/MotH_2024_Rooms-Through-Time-A-Townhouse-in-1878_Credit_Jaron-James_147-1-1360x844.jpg"
+    }
+  ]
+}

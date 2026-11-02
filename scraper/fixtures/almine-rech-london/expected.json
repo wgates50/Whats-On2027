@@ -1,0 +1,23 @@
+{
+  "sourceId": "almine-rech-london",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://www.alminerech.com/exhibitions/"
+    ],
+    "cards": {
+      "item": "a:has(div.info)",
+      "title": "span.title",
+      "dates": "div.info",
+      "venue": "div.tag",
+      "description": "span.subtitle"
+    }
+  },
+  "rawCount": 7,
+  "events": []
+}

@@ -1,0 +1,138 @@
+{
+  "sourceId": "polka-theatre",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://polkatheatre.com/shows/"
+    ],
+    "cards": {
+      "item": "li.events__listing-item.dark_blue_bg",
+      "dates": "div.date"
+    }
+  },
+  "rawCount": 9,
+  "events": [
+    {
+      "id": "polka-theatre:event-the-sleep-show",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "The Sleep Show",
+      "url": "https://polkatheatre.com/event/the-sleep-show/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/05/1920x1080-Website-listing-The-Sleep-Show-640x427.png"
+    },
+    {
+      "id": "polka-theatre:event-christmas-lights",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "Christmas Lights",
+      "url": "https://polkatheatre.com/event/christmas-lights/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-22",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/05/1920x1080-Website-listing-Christmas-Lights-2-640x427.png"
+    },
+    {
+      "id": "polka-theatre:event-peter-pan",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "Peter Pan",
+      "url": "https://polkatheatre.com/event/peter-pan/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-14",
+      "endDate": "2027-01-24",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/04/644-x-285-website-2-640x285.png"
+    },
+    {
+      "id": "polka-theatre:event-antarctica",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "Antarctica",
+      "url": "https://polkatheatre.com/event/antarctica/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-27",
+      "endDate": "2027-01-17",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/04/Antarctica-640x427.png"
+    },
+    {
+      "id": "polka-theatre:event-the-big-bash-2026",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "The Big Bash",
+      "url": "https://polkatheatre.com/event/the-big-bash-2026/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/05/1920x1080-Website-listing-The-Big-Bash-640x427.png"
+    },
+    {
+      "id": "polka-theatre:event-creating-theatre-for-early-years-with-page-one-theatre",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "Creating Theatre for Early Years with Polka and Page One Theatre",
+      "url": "https://polkatheatre.com/event/creating-theatre-for-early-years-with-page-one-theatre/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/09/1920x850-Early-Years-Course-640x427.png"
+    },
+    {
+      "id": "polka-theatre:event-rebel-rebel",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "Rebel, Rebel",
+      "url": "https://polkatheatre.com/event/rebel-rebel/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-30",
+      "endDate": "2027-03-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/07/Rebel-Rebel-Event-listing-image-644-x-285-20260730-640x285.png"
+    },
+    {
+      "id": "polka-theatre:event-colours-colours-everywhere",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "Colours, Colours Everywhere",
+      "url": "https://polkatheatre.com/event/colours-colours-everywhere/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-06",
+      "endDate": "2027-03-13",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/07/Event-listing-image-644-x-285-Colours-Colours-3007-640x285.png"
+    },
+    {
+      "id": "polka-theatre:event-the-bed-and-breakfast-star",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "The Bed and Breakfast Star",
+      "url": "https://polkatheatre.com/event/the-bed-and-breakfast-star/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-03-25",
+      "endDate": "2027-04-25",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/09/TBNBS-Polka-ImageTitle_644-x-285px-1-640x285.jpg"
+    }
+  ]
+}

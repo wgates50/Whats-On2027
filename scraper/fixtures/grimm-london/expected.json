@@ -1,0 +1,138 @@
+{
+  "sourceId": "grimm-london",
+  "recordedAt": "2026-11-02",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://grimmgallery.com/exhibitions/"
+    ],
+    "cards": {
+      "item": "a",
+      "dates": "span.date"
+    }
+  },
+  "rawCount": 236,
+  "events": [
+    {
+      "id": "grimm-london:exhibitions-378-charles-avery-where-rocco-found-a-dead-monster-or-the",
+      "venueId": "grimm-london",
+      "sourceId": "grimm-london",
+      "title": "Charles Avery",
+      "url": "https://grimmgallery.com/exhibitions/378-charles-avery-where-rocco-found-a-dead-monster-or-the/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/378/installation-view_charles-avery_grimm-amsterdam-nl-2026_26.jpg"
+    },
+    {
+      "id": "grimm-london:exhibitions-375-rosalind-nashashibi-gaza-apollo",
+      "venueId": "grimm-london",
+      "sourceId": "grimm-london",
+      "title": "Rosalind Nashashibi",
+      "url": "https://grimmgallery.com/exhibitions/375-rosalind-nashashibi-gaza-apollo/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/375/installation-view_rosalind-nashashibi_gaza-apollo_grimm-london-2026_3.jpg"
+    },
+    {
+      "id": "grimm-london:exhibitions-382-arturo-kameya-clavo-torcido-no-teme-martillo-a-bent",
+      "venueId": "grimm-london",
+      "sourceId": "grimm-london",
+      "title": "Arturo Kameya",
+      "url": "https://grimmgallery.com/exhibitions/382-arturo-kameya-clavo-torcido-no-teme-martillo-a-bent/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-06",
+      "endDate": "2027-01-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/382/ak26032-detail-1.jpg"
+    },
+    {
+      "id": "grimm-london:exhibitions-383-gareth-cadwallader-goodnight-moon",
+      "venueId": "grimm-london",
+      "sourceId": "grimm-london",
+      "title": "Gareth Cadwallader",
+      "url": "https://grimmgallery.com/exhibitions/383-gareth-cadwallader-goodnight-moon/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-06",
+      "endDate": "2027-01-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/383/gareth-cadwallader_goodnight-moon-2024-25_gca25001_detail-1.jpg"
+    },
+    {
+      "id": "grimm-london:exhibitions-381-saskia-noor-van-imhoff-handles-squeezed",
+      "venueId": "grimm-london",
+      "sourceId": "grimm-london",
+      "title": "Saskia Noor van Imhoff",
+      "url": "https://grimmgallery.com/exhibitions/381-saskia-noor-van-imhoff-handles-squeezed/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-19",
+      "endDate": "2027-01-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/381/img_3637-copy.jpeg"
+    },
+    {
+      "id": "grimm-london:exhibitions-379-angela-heisch-soft-possession",
+      "venueId": "grimm-london",
+      "sourceId": "grimm-london",
+      "title": "Angela Heisch",
+      "url": "https://grimmgallery.com/exhibitions/379-angela-heisch-soft-possession/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-26",
+      "endDate": "2027-01-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/379/angela-heisch_bundling-2026_ahe26006.jpg"
+    },
+    {
+      "id": "grimm-london:exhibitions-334-claudia-martinez-garay-conversiones-unlimited",
+      "venueId": "grimm-london",
+      "sourceId": "grimm-london",
+      "title": "Claudia Martínez Garay",
+      "url": "https://grimmgallery.com/exhibitions/334-claudia-martinez-garay-conversiones-unlimited/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-06-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/334/claudia-martinez-garay_conversiones-2025_artbasel_cmg250001_install1.jpg"
+    },
+    {
+      "id": "grimm-london:exhibitions-333-arturo-kameya-every-step-is-a-payment-in-full",
+      "venueId": "grimm-london",
+      "sourceId": "grimm-london",
+      "title": "Arturo Kameya",
+      "url": "https://grimmgallery.com/exhibitions/333-arturo-kameya-every-step-is-a-payment-in-full/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2027-06-19",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/333/arturo-kameya_every-step-is-a-payment-in-full-2025_art-basel-ch-2025-copy-1-.jpg"
+    },
+    {
+      "id": "grimm-london:exhibitions-191-arturo-kameya-art-basel-miami-beach",
+      "venueId": "grimm-london",
+      "sourceId": "grimm-london",
+      "title": "Arturo Kameya",
+      "url": "https://grimmgallery.com/exhibitions/191-arturo-kameya-art-basel-miami-beach/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-12-02",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/191/arturo-kameya-settlement-i-2020.jpg"
+    }
+  ]
+}

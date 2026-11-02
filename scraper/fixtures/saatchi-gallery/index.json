@@ -1,0 +1,26 @@
+{
+  "https://www.saatchigallery.com/": {
+    "file": "21de1fd799ac.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.saatchigallery.com/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.saatchigallery.com/exhibition/beyond-the-streets": {
+    "file": "840c665ac915.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.saatchigallery.com/exhibition/beyond-the-streets",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.saatchigallery.com/exhibition/cold-sweat": {
+    "file": "59349652bb57.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.saatchigallery.com/exhibition/cold-sweat",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://www.saatchigallery.com/exhibition/adama-jalloh-process-2014-ongoing": {
+    "file": "cd6be35f3a65.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.saatchigallery.com/exhibition/adama-jalloh-process-2014-ongoing",
+    "contentType": "text/html; charset=UTF-8"
+  }
+}
