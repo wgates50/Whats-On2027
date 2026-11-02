@@ -21,6 +21,9 @@ const TYPE_LABEL: Record<WOEvent["type"], string> = {
   event: "Event",
 };
 
+/** Ticket APIs whose terms ask us to credit them; their events link to their pages. */
+const VIA: Record<string, string> = { ticketmaster: "Ticketmaster", skiddle: "Skiddle" };
+
 export function EventRow({
   e,
   venue,
@@ -104,7 +107,7 @@ export function EventRow({
           {e.description && <p className="row__desc">{e.description}</p>}
           <div className="row__actions">
             <a href={e.url} target="_blank" rel="noopener noreferrer">
-              Visit site {Icon.arrow}
+              {VIA[e.sourceId] ? `View on ${VIA[e.sourceId]}` : "Visit site"} {Icon.arrow}
             </a>
             <button onClick={addToCalendar}>Add to calendar</button>
             <button onClick={share}>Share</button>

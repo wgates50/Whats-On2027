@@ -16,6 +16,9 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
   parser in `lib/hours.ts`). © OpenStreetMap contributors — keep the credit where hours are shown.
 - API sources: `scraper/adapters/custom/ticketmaster.ts`, `skiddle.ts` (keys from Actions secrets;
   `skipped` without them; tested with sample responses in `scraper/apis.test.ts`, no fixtures).
+  Ticketmaster: busy date windows split themselves (API stops at 1,000 results); add-ons and
+  attraction admissions are dropped by `NOT_AN_EVENT`; its classification sets `schemaType`. Their
+  events link to their pages and the app credits them ("View on Ticketmaster") — keep that.
 - `scraper/` — `run.ts` (daily), `adapters/` (`pages` = listing/cards/detail pages + JSON-LD, `ics`),
   `dates.ts` (UK date-range parser), `classify.ts` (type/category rules), `normalize.ts`,
   `discover.ts` / `probe.ts` (config helpers), `fixture.ts` + `fixtures/` (recorded pages for tests).

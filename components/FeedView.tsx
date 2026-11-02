@@ -28,6 +28,14 @@ function FeedSkeleton() {
   );
 }
 
+/** Listing services (not venues) that some events come from — credited in the footer. */
+const CREDITS: [sourceId: string, name: string][] = [
+  ["official-london-theatre", "Official London Theatre"],
+  ["art-fund", "Art Fund"],
+  ["ticketmaster", "Ticketmaster"],
+  ["skiddle", "Skiddle"],
+];
+
 function Feed({ data }: { data: AppData }) {
   const hydrated = useHydrated();
   const { prefs, toggleSaved } = usePrefs();
@@ -38,6 +46,7 @@ function Feed({ data }: { data: AppData }) {
   const baseline = useMemo(() => data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"), [data.events]);
   const follows = useMemo(() => new Set(prefs.follows), [prefs.follows]);
   const saved = useMemo(() => new Set(prefs.saved), [prefs.saved]);
+  const credits = useMemo(() => CREDITS.filter(([id]) => data.events.some((e) => e.sourceId === id)).map(([, name]) => name), [data.events]);
 
   if (!hydrated || !today) return <FeedSkeleton />;
 
@@ -144,7 +153,10 @@ function Feed({ data }: { data: AppData }) {
         </section>
       )}
 
-      <p className="colophon">Updated {data.generatedAt ? shortDate(data.generatedAt.slice(0, 10), true) : "—"} · listings come straight from each venue’s own site.</p>
+      <p className="colophon">
+        Updated {data.generatedAt ? shortDate(data.generatedAt.slice(0, 10), true) : "—"} · listings from each venue’s own site
+        {credits.length > 0 && `, plus ${credits.join(", ").replace(/, ([^,]*)$/, " and $1")}`}.
+      </p>
     </>
   );
 }
