@@ -50,6 +50,11 @@ export const Icon = {
       <circle cx="18.5" cy="17.5" r="2" fill="currentColor" />
     </svg>
   ),
+  saved: (
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <path d="M12 3.6l2.5 5.3 5.8.7-4.3 4 1.1 5.7L12 16.5l-5.1 2.8 1.1-5.7-4.3-4 5.8-.7z" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
+    </svg>
+  ),
   places: (
     <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
       <path d="M12 21s-6.5-6.1-6.5-11a6.5 6.5 0 0113 0c0 4.9-6.5 11-6.5 11z" fill="none" stroke="currentColor" strokeWidth="1.5" />

@@ -1,7 +1,7 @@
 // Offline support: app shell + latest listings are kept on the device.
 // Network-first for pages and data (always fresh when online), cache-first for hashed assets.
-const CACHE = "whatson-v2";
-const SHELL = ["/", "/feed/", "/places/", "/data/app.json", "/manifest.webmanifest", "/icons/icon-192.png"];
+const CACHE = "whatson-v3";
+const SHELL = ["/", "/feed/", "/places/", "/saved/", "/data/app.json", "/manifest.webmanifest", "/icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
