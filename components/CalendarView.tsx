@@ -5,7 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { AppData } from "@/lib/data";
 import type { Category, WOEvent } from "@/lib/types";
 import { usePrefs, useHydrated } from "@/lib/store";
-import { addDays, dayNum, isOnDay, isOneOff, londonToday, monthShort, weekdayLong, weekdayShort, longDate, daysBetween } from "@/lib/when";
+import { addDays, dayNum, isOnDay, isOneOff, londonToday, monthShort, weekdayLong, weekdayShort, longDate, daysBetween, venueClosedOn } from "@/lib/when";
 import { useAppData } from "@/lib/useData";
 import { EventRow } from "./EventRow";
 import { Empty, LoadError, SectionHead } from "./ui";
@@ -88,8 +88,10 @@ function Calendar({ data }: { data: AppData }) {
   const onDay = pool.filter((e) => isOnDay(e, day, today));
   const happening = onDay.filter(isOneOff).sort((a, b) => (a.startTime ?? "99").localeCompare(b.startTime ?? "99") || a.title.localeCompare(b.title));
   const runs = onDay.filter((e) => !isOneOff(e));
+  const closedHere = (e: WOEvent) => !isOneOff(e) && venueClosedOn(venues.get(e.venueId)?.hours, day);
   const rank = (e: WOEvent) => {
     let r = follows.has(e.venueId) ? 0 : 100;
+    if (closedHere(e)) r += 60; // shut today: still listed, but below what you can actually see
     if (e.startDate === day) r -= 30; // opens today
     if (e.endDate && daysBetween(day, e.endDate) <= 7) r -= 20; // last days
     return r;
@@ -109,6 +111,7 @@ function Calendar({ data }: { data: AppData }) {
     saved: saved.has(e.id),
     onToggleSaved: () => toggleSaved(e.id),
     index: i,
+    closed: closedHere(e),
   });
 
   const isToday = day === today;

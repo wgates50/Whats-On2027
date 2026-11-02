@@ -123,3 +123,11 @@ export function icsFor(e: WOEvent, venueName: string, day: string): string {
     "END:VCALENDAR",
   ].join("\r\n");
 }
+
+/** Day of week (0 = Sunday) for a London calendar day. */
+export const dayOfWeek = (day: string) => new Date(day + "T12:00:00Z").getUTCDay();
+
+/** True when the venue's regular hours say it's shut that day (unknown hours → false). */
+export function venueClosedOn(hours: (string | null)[] | undefined, day: string): boolean {
+  return !!hours && hours[dayOfWeek(day)] === null && hours.some((h) => h !== null);
+}

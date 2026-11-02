@@ -239,6 +239,7 @@ img { max-width: 100%; display: block; }
 .badge--last-days, .badge--closes-today { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 .badge--opens-today, .badge--opening-soon, .badge--new { color: var(--accent); }
 .badge--free { color: var(--free); }
+.badge--closed { color: var(--ink-3); border-style: dashed; }
 .row__save { align-self: start; justify-self: end; width: 40px; height: 40px; display: grid; place-items: center; color: var(--ink-3); border-radius: 50%; transition: color 0.15s, transform 0.15s var(--ease); }
 .row__save:active { transform: scale(0.88); }
 .row__save.is-saved { color: var(--accent); }
@@ -251,6 +252,22 @@ img { max-width: 100%; display: block; }
 .row--open { background: linear-gradient(to right, transparent, var(--paper-raised) 30%, var(--paper-raised) 70%, transparent); }
 
 @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* ------------------------------------------------------------ opening hours */
+
+.hours { margin: 4px 0 6px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.hours summary { list-style: none; cursor: pointer; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; padding: 12px 0; }
+.hours summary::-webkit-details-marker { display: none; }
+.hours summary::after { content: "Hours ▾"; margin-left: auto; font: 600 11px/1 var(--font-body); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+.hours[open] summary::after { content: "Hours ▴"; }
+.hours__now { font: italic 400 19px/1.2 var(--font-display); color: var(--free); }
+.hours__now.is-closed { color: var(--accent); }
+.hours__closed { font: 500 12.5px/1.2 var(--font-body); color: var(--ink-3); }
+.hours dl { margin: 0 0 10px; display: grid; gap: 4px; }
+.hours dl > div { display: flex; justify-content: space-between; font-size: 14px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.hours dl > div.is-today { color: var(--ink); font-weight: 600; }
+.hours dt, .hours dd { margin: 0; }
+.hours__note { margin: 0 0 12px; font-size: 12px; color: var(--ink-3); }
 
 /* ------------------------------------------------------------ places */
 

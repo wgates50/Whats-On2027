@@ -6,7 +6,8 @@ import type { VenueLite } from "@/lib/data";
 import type { WOEvent } from "@/lib/types";
 import { usePrefs, useHydrated } from "@/lib/store";
 import { addEventUrl } from "@/lib/site";
-import { isOnDay, isOneOff, londonToday } from "@/lib/when";
+import { dayOfWeek, isOnDay, isOneOff, londonToday } from "@/lib/when";
+import { closedDaysText, type Week } from "@/lib/hours";
 import { EventRow } from "./EventRow";
 import { KIND_LABEL } from "./PlacesView";
 import { Empty, Icon, SectionHead } from "./ui";
@@ -63,6 +64,8 @@ export function VenueView({ venue, events, baseline }: { venue: VenueLite; event
         </button>
       </header>
 
+      {venue.hours && today && <Hours week={venue.hours} partial={!!venue.hoursPartial} today={today} />}
+
       {venue.coverage === "manual" && (
         <p className="nudge">
           {venue.name}’s website doesn’t allow automated listings, so events here are added by hand.{" "}
@@ -99,5 +102,35 @@ export function VenueView({ venue, events, baseline }: { venue: VenueLite; event
         Something missing? <a href={addEventUrl({ venue: venue.name })}>Add an event here</a>.
       </p>
     </>
+  );
+}
+
+const DAY_NAMES = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+function Hours({ week, partial, today }: { week: Week; partial: boolean; today: string }) {
+  const dow = dayOfWeek(today);
+  const now = week[dow];
+  const order = [1, 2, 3, 4, 5, 6, 0]; // Monday first
+  return (
+    <details className="hours">
+      <summary>
+        <span className={`hours__now${now ? "" : " is-closed"}`}>{now ? `Open today · ${now}` : "Closed today"}</span>
+        {closedDaysText(week) && <span className="hours__closed">{closedDaysText(week)}</span>}
+      </summary>
+      <dl>
+        {order.map((d) => (
+          <div key={d} className={d === dow ? "is-today" : undefined}>
+            <dt>{DAY_NAMES[d]}</dt>
+            <dd>{week[d] ?? "Closed"}</dd>
+          </div>
+        ))}
+      </dl>
+      <p className="hours__note">
+        Regular hours from OpenStreetMap{partial ? " (holiday hours not shown)" : ""} — check the venue’s site before a special trip. ©{" "}
+        <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">
+          OpenStreetMap contributors
+        </a>
+      </p>
+    </details>
   );
 }
