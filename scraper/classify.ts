@@ -46,6 +46,13 @@ const TITLE_STRONG: Rules = [
   [/\b(skate|skating|ice rink)\b/i, "event"],
 ];
 
+/** "… World Tour", "UK Tour 2026", "Anniversary Live Tour": a touring act, not a guided tour… */
+const TOURING_ACT =
+  /\b(world|uk|eu|euro|europe|european|europa|international|arena|stadium|farewell|reunion|anniversary|headline|live|concert|comedy|stand-?up|christmas|band|album|greatest hits)\s+tour\b|\btour\s*[-–:]?\s*20\d\d\b|\b20\d\d\s+tour\b/i;
+/** …unless it says it's the guided kind. */
+const GUIDED =
+  /\b(guided|backstage|behind the scenes|walking|building|architecture|architectural|heritage|history|historic|bsl|audio[- ]described|touch|curators?|exhibition|gallery|highlights|spotlight|members'?|private)\b/i;
+
 const LABEL_RULES: Rules = [
   [/\bexhibitions?\b/i, "exhibition"],
   [/\b(display|installation|collection)\b/i, "display"],
@@ -103,10 +110,11 @@ export function classifyType(opts: {
     /* ignore */
   }
   const schema = opts.schemaType ? SCHEMA_RULES[opts.schemaType] : undefined;
+  const touring = TOURING_ACT.test(opts.title) && !GUIDED.test(opts.title);
   const t =
     first(URL_RULES, path) ??
     schema ??
-    first(TITLE_STRONG, opts.title) ??
+    first(touring ? TITLE_STRONG.filter(([, type]) => type !== "tour") : TITLE_STRONG, opts.title) ??
     first(LABEL_RULES, opts.typeLabel) ??
     (opts.schemaType === "ExhibitionEvent" || opts.schemaType === "VisualArtsEvent" ? "exhibition" : undefined) ??
     first(TITLE_WEAK, opts.title) ??

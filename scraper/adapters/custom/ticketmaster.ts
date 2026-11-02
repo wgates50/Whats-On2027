@@ -21,6 +21,14 @@ interface TmImage {
   ratio?: string;
   width?: number;
 }
+interface TmClassification {
+  primary?: boolean;
+  segment?: { name?: string };
+  genre?: { name?: string };
+  subGenre?: { name?: string };
+  type?: { name?: string };
+  subType?: { name?: string };
+}
 interface TmEvent {
   id: string;
   name: string;
@@ -32,7 +40,7 @@ interface TmEvent {
     end?: { localDate?: string };
     status?: { code?: string };
   };
-  classifications?: { primary?: boolean; segment?: { name?: string }; genre?: { name?: string } }[];
+  classifications?: TmClassification[];
   priceRanges?: { min?: number; max?: number }[];
   info?: string;
   _embedded?: { venues?: { name?: string; city?: { name?: string } }[] };
@@ -49,18 +57,49 @@ function bestImage(images: TmImage[] = []): string | undefined {
   return (wide[0] ?? images[0])?.url;
 }
 
+/**
+ * Things Ticketmaster sells that aren't events: VIP and hospitality add-ons, upgrades with "no ticket
+ * included", gift-card redemptions, parking, hotel packages, and day admission to attractions
+ * ("London Eye - Standard Experience", "Tower of London - Standard All Day Entry").
+ */
+const NOT_AN_EVENT =
+  /\b(vip|premium|platinum|hospitality)\b.*\b(packages?|upgrades?|experiences?|tickets?)\b|\bupgrades? only\b|\bno (event )?tickets? included\b|\bgift ?cards?\b|\bvouchers?\b|\bhotel (packages?|experiences?|stays?)\b|\bparking\b|\bstandard (all day )?(entry|admission|experience)\b/i;
+/** Classification types/sub-types for the same: "Upsell", "Nonticket", "Sightseeing/Facility". */
+const NOT_AN_EVENT_CLASS = /^(upsell|nonticket)$|sightseeing/i;
+/** "Rizzle Kicks ** MOVED TO O2 ACADEMY BRIXTON" — it's listed again at the new venue. */
+const MOVED = /\b(moved|relocated) to\b/i;
+
+/**
+ * Ticketmaster's own classification → the schema.org type our classifier trusts most. It outranks
+ * title words, so a band's "… World Tour" stays a concert instead of becoming a guided tour.
+ */
+function schemaFor(c?: TmClassification): string | undefined {
+  const segment = c?.segment?.name ?? "";
+  const genre = c?.genre?.name ?? "";
+  if (/lecture|seminar/i.test(c?.subType?.name ?? "")) return "LiteraryEvent";
+  if (segment === "Music" || /classical/i.test(genre)) return "MusicEvent";
+  if (segment === "Film") return "ScreeningEvent";
+  if (/comedy/i.test(genre)) return "ComedyEvent";
+  if (/children/i.test(genre)) return "ChildrensEvent";
+  if (/dance/i.test(genre)) return "DanceEvent";
+  if ((segment === "Arts & Theatre" && !/fine art|spoken word|undefined/i.test(genre || "undefined")) || /ice shows/i.test(genre)) return "TheaterEvent";
+  return undefined;
+}
+
 export function mapTmEvent(e: TmEvent): RawEvent | null {
   if (e.test) return null;
   const status = e.dates?.status?.code;
   if (status === "postponed") return null; // no date to show
   const start = e.dates?.start;
   if (!start?.localDate || start.dateTBA || start.dateTBD) return null;
+  const c = e.classifications?.find((x) => x.primary) ?? e.classifications?.[0];
+  if (NOT_AN_EVENT.test(e.name) || NOT_AN_EVENT_CLASS.test(c?.type?.name ?? "") || NOT_AN_EVENT_CLASS.test(c?.subType?.name ?? "")) return null;
   const venue = e._embedded?.venues?.[0];
   const time = start.localTime && !start.noSpecificTime ? start.localTime.slice(0, 5) : undefined;
   const end = e.dates?.end?.localDate;
   const dates: ParsedRange = end && end > start.localDate ? { startDate: start.localDate, endDate: end } : { startDate: start.localDate, endDate: null, startTime: time };
-  const c = e.classifications?.find((x) => x.primary) ?? e.classifications?.[0];
-  const label = [c?.segment?.name, c?.genre?.name].filter((x) => x && x !== "Undefined").join(" ");
+  const exhibit = /exhibit|museum/i.test(c?.subType?.name ?? ""); // immersive shows, Frameless, Lightroom
+  const label = exhibit ? "Exhibition" : [c?.segment?.name, c?.genre?.name].filter((x) => x && x !== "Undefined").join(" ");
   const prices = (e.priceRanges ?? []).flatMap((p) => [p.min, p.max]).filter((x): x is number => typeof x === "number");
   return {
     url: e.url ?? `https://www.ticketmaster.co.uk/event/${e.id}`,
@@ -71,15 +110,24 @@ export function mapTmEvent(e: TmEvent): RawEvent | null {
     price: prices.length ? (Math.max(...prices) === 0 ? "free" : "paid") : undefined,
     venueName: venue?.name ? clean(venue.name) : undefined,
     typeLabel: label || undefined,
-    cancelled: status === "canceled",
+    schemaType: exhibit ? undefined : schemaFor(c),
+    cancelled: status === "canceled" || MOVED.test(e.name),
   };
 }
+
+/** Same show, different listing: "FRAMELESS" / "FRAMELESS 2026", "… STANDARD" / "… PEAK" tickets. */
+const runKey = (e: RawEvent) =>
+  `${(e.venueName ?? "").toLowerCase()}|${e.title
+    .toLowerCase()
+    .replace(/\s*[-–:|(]?\s*\b(standard|peak|off[- ]peak)\)?\s*$/, "")
+    .replace(/\s*[-–:|(]?\s*\b20\d\d\)?\s*$/, "")
+    .trim()}`;
 
 /** One listing per show per venue: many performances → one run from first to last date. */
 export function collapseRuns(events: RawEvent[]): RawEvent[] {
   const groups = new Map<string, RawEvent[]>();
   for (const e of events) {
-    const k = `${(e.venueName ?? "").toLowerCase()}|${e.title.toLowerCase()}`;
+    const k = runKey(e);
     groups.set(k, [...(groups.get(k) ?? []), e]);
   }
   const out: RawEvent[] = [];
@@ -104,42 +152,58 @@ const ticketmaster: CustomAdapter = async (ctx: AdapterContext, options): Promis
   const warnings: string[] = [];
   const raw: RawEvent[] = [];
   const seen = new Set<string>();
+  let outOfTime = false;
 
-  for (const segment of segments) {
-    for (let from = 0; from < days; from += windowDays) {
-      const start = addDays(ctx.today, from);
-      const end = addDays(ctx.today, Math.min(from + windowDays, days));
-      for (let page = 0; page * PAGE_SIZE < MAX_ITEMS; page++) {
-        if (ctx.deadline && Date.now() > ctx.deadline) {
-          warnings.push("time budget reached; some pages left for the next run");
-          return { events: collapseRuns(raw), warnings, skippedNoDates: 0, linksFound: raw.length };
-        }
-        const q = new URLSearchParams({
-          apikey: key,
-          countryCode: "GB",
-          city: "London",
-          classificationName: segment,
-          startDateTime: isoZ(start),
-          endDateTime: isoZ(end),
-          size: String(PAGE_SIZE),
-          page: String(page),
-          sort: "date,asc",
-          locale: "*",
-        });
-        const res = await ctx.fetcher.get(`${BASE}?${q}`, { api: true });
-        const body = JSON.parse(res.body) as TmResponse;
-        for (const e of body._embedded?.events ?? []) {
-          if (seen.has(e.id)) continue;
-          seen.add(e.id);
-          const m = mapTmEvent(e);
-          if (m) raw.push(m);
-        }
-        const p = body.page;
-        if (!p || p.number + 1 >= p.totalPages) break;
-        if ((page + 1) * PAGE_SIZE >= MAX_ITEMS) warnings.push(`${segment} ${start}…${end}: over ${MAX_ITEMS} results; narrow the window`);
-      }
+  const fetchPage = async (segment: string, start: string, end: string, page: number) => {
+    const q = new URLSearchParams({
+      apikey: key,
+      countryCode: "GB",
+      city: "London",
+      classificationName: segment,
+      startDateTime: isoZ(start),
+      endDateTime: isoZ(end),
+      size: String(PAGE_SIZE),
+      page: String(page),
+      sort: "date,asc",
+      locale: "*",
+    });
+    const res = await ctx.fetcher.get(`${BASE}?${q}`, { api: true });
+    const body = JSON.parse(res.body) as TmResponse;
+    for (const e of body._embedded?.events ?? []) {
+      if (seen.has(e.id)) continue;
+      seen.add(e.id);
+      const m = mapTmEvent(e);
+      if (m) raw.push(m);
     }
-  }
+    return body.page;
+  };
+
+  // Every event in [start, end). The API stops at the 1,000th result, and a month of London theatre
+  // is several thousand performances, so a window that's too busy (judged from its first page) is
+  // split into smaller ones until each fits. One-day windows can't split further.
+  const fetchWindow = async (segment: string, start: string, end: string): Promise<void> => {
+    for (let page = 0; page * PAGE_SIZE < MAX_ITEMS; page++) {
+      if (ctx.deadline && Date.now() > ctx.deadline) {
+        outOfTime = true;
+        return;
+      }
+      const p = await fetchPage(segment, start, end, page);
+      if (!p) return;
+      const span = Math.round((Date.parse(end) - Date.parse(start)) / 864e5);
+      if (page === 0 && p.totalElements > MAX_ITEMS && span > 1) {
+        const step = Math.max(1, Math.floor(span / Math.ceil(p.totalElements / (MAX_ITEMS * 0.8))));
+        for (let d = 0; d < span && !outOfTime; d += step) await fetchWindow(segment, addDays(start, d), addDays(start, Math.min(d + step, span)));
+        return;
+      }
+      if (p.number + 1 >= p.totalPages) return;
+      if ((page + 1) * PAGE_SIZE >= MAX_ITEMS) warnings.push(`${segment} ${start}: over ${MAX_ITEMS} events in one day; the rest were left out`);
+    }
+  };
+
+  for (const segment of segments)
+    for (let from = 0; from < days && !outOfTime; from += windowDays)
+      await fetchWindow(segment, addDays(ctx.today, from), addDays(ctx.today, Math.min(from + windowDays, days)));
+  if (outOfTime) warnings.push("time budget reached; some pages left for the next run");
   return { events: collapseRuns(raw), warnings, skippedNoDates: 0, linksFound: raw.length };
 };
 

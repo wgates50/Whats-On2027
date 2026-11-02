@@ -21,6 +21,8 @@ const CODE_LABEL: Record<string, string> = {
   FEST: "Festival",
   CLUB: "Club night",
 };
+/** …and, where Skiddle's code is unambiguous, a schema.org type (outranks title words like "UK Tour"). */
+const CODE_SCHEMA: Record<string, string> = { THEATRE: "TheaterEvent", COMEDY: "ComedyEvent", LIVE: "MusicEvent", KIDS: "ChildrensEvent" };
 
 interface SkEvent {
   id: string | number;
@@ -63,6 +65,7 @@ export function mapSkiddleEvent(e: SkEvent): RawEvent | null {
     price,
     venueName: e.venue?.name ? clean(e.venue.name) : undefined,
     typeLabel: e.EventCode ? CODE_LABEL[e.EventCode] ?? e.EventCode : undefined,
+    schemaType: e.EventCode ? CODE_SCHEMA[e.EventCode] : undefined,
     cancelled: e.cancelled === true || e.cancelled === 1 || e.cancelled === "1",
   };
 }
