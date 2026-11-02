@@ -1,0 +1,22 @@
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import type { SourceConfig, SourceHealth, Venue, WOEvent } from "../lib/types.ts";
+
+const path = (f: string) => new URL(`../data/${f}`, import.meta.url);
+
+export const readJson = <T>(f: string, fallback: T): T => (existsSync(path(f)) ? (JSON.parse(readFileSync(path(f), "utf8")) as T) : fallback);
+export const writeJson = (f: string, data: unknown) => writeFileSync(path(f), JSON.stringify(data, null, 2) + "\n");
+
+export const loadVenues = () => readJson<Venue[]>("venues.json", []);
+export const loadSources = () => readJson<SourceConfig[]>("sources.json", []);
+
+export interface EventsFile {
+  generatedAt: string;
+  events: WOEvent[];
+}
+export interface HealthFile {
+  checkedAt: string;
+  sources: Record<string, SourceHealth & { unmatchedVenues?: Record<string, number>; warnings?: string[] }>;
+}
+
+export const loadEvents = () => readJson<EventsFile>("events.json", { generatedAt: "", events: [] });
+export const loadHealth = () => readJson<HealthFile>("health.json", { checkedAt: "", sources: {} });
