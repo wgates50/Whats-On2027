@@ -35,6 +35,23 @@ GitHub Action (daily, free)                     Vercel (free)
   a workflow adds it to `data/manual-events.json` and closes the issue).
 - **Request a venue**: Places → *Request a place*. The maintenance task adds it.
 
+## Optional free API keys
+
+Two official event APIs fill gaps the venue sites can't (West End and big venues, gigs, comedy). They're
+free, and the sources are simply *skipped* until a key is added:
+
+| API | Get a key | GitHub secret name |
+|---|---|---|
+| Ticketmaster Discovery | developer.ticketmaster.com → sign up → *My Apps* → copy the **Consumer Key** | `TICKETMASTER_API_KEY` |
+| Skiddle | skiddle.com/api/join.php → you'll be emailed a key | `SKIDDLE_API_KEY` |
+
+Add each in GitHub: repo → **Settings → Secrets and variables → Actions → New repository secret**.
+The next daily scrape picks them up (or run *Actions → Daily scrape → Run workflow*). Keys stay in
+GitHub — they're never in the app or the logs.
+
+Opening hours come from OpenStreetMap (no key; refreshed weekly) and show on venue pages and as
+"Venue closed" on the calendar.
+
 ## Deploy (one-time)
 
 1. In Vercel: *Add New → Project → Import* `wgates50/Whats-On2027` (framework: Next.js, defaults).
