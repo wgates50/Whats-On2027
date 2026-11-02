@@ -9,7 +9,7 @@
 import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import type { HealthStatus, SourceConfig, WOEvent } from "../lib/types.ts";
-import { runAdapter, type CachedDetail, type DetailCache } from "./adapters/index.ts";
+import { MissingKeyError, runAdapter, type CachedDetail, type DetailCache } from "./adapters/index.ts";
 import { loadEvents, loadHealth, loadSources, loadVenues, writeJson, type HealthFile } from "./config.ts";
 import { todayLondon } from "./dates.ts";
 import { BlockedError, createFetcher } from "./fetcher.ts";
@@ -117,6 +117,7 @@ async function runOne(source: SourceConfig): Promise<Outcome> {
     return { ...base, status, message, events: rep.events, warnings: res.warnings, unmatchedVenues: rep.unmatchedVenues, ms: Date.now() - t0 };
   } catch (e) {
     if (cache && !dry && cache.size) saveCache(source, cache); // keep partial progress
+    if (e instanceof MissingKeyError) return { ...base, status: "skipped", message: e.message, ms: Date.now() - t0 };
     return { ...base, status: e instanceof BlockedError ? "blocked" : "error", message: (e as Error).message, ms: Date.now() - t0 };
   }
 }
@@ -137,7 +138,7 @@ async function pool<T, R>(items: T[], n: number, fn: (t: T) => Promise<R>): Prom
 
 const outcomes = await pool(sources, 6, async (s) => {
   const o = await runOne(s);
-  console.log(`${o.status === "ok" ? "✓" : "✗"} ${s.id.padEnd(34)} ${o.status.padEnd(8)} ${String(o.events.length).padStart(4)} events  ${(o.ms / 1000).toFixed(0)}s${o.message ? `  — ${o.message}` : ""}`);
+  console.log(`${o.status === "ok" ? "✓" : o.status === "skipped" ? "–" : "✗"} ${s.id.padEnd(34)} ${o.status.padEnd(8)} ${String(o.events.length).padStart(4)} events  ${(o.ms / 1000).toFixed(0)}s${o.message ? `  — ${o.message}` : ""}`);
   return o;
 });
 
@@ -195,6 +196,7 @@ const health: HealthFile = { checkedAt: now, sources: only ? { ...prevHealth.sou
 for (const o of outcomes) {
   const prev = prevHealth.sources[o.source.id];
   const ok = o.status === "ok";
+  const skipped = o.status === "skipped";
   const topUnmatched = Object.fromEntries(Object.entries(o.unmatchedVenues).sort((a, b) => b[1] - a[1]).slice(0, 20));
   health.sources[o.source.id] = {
     sourceId: o.source.id,
@@ -205,7 +207,7 @@ for (const o of outcomes) {
     checkedAt: now,
     lastOk: ok ? now : prev?.lastOk,
     lastOkCount: ok ? o.events.length : prev?.lastOkCount,
-    consecutiveFailures: ok ? 0 : (prev?.consecutiveFailures ?? 0) + 1,
+    consecutiveFailures: ok || skipped ? 0 : (prev?.consecutiveFailures ?? 0) + 1,
     ...(Object.keys(topUnmatched).length ? { unmatchedVenues: topUnmatched } : {}),
     ...(o.warnings.length ? { warnings: o.warnings.slice(0, 8) } : {}),
   };
@@ -213,12 +215,14 @@ for (const o of outcomes) {
 
 // ---------------------------------------------------------------- output
 
-const bad = outcomes.filter((o) => o.status !== "ok");
+const bad = outcomes.filter((o) => o.status !== "ok" && o.status !== "skipped");
+const skippedOnes = outcomes.filter((o) => o.status === "skipped");
 const summary = [
   `## Scrape ${today}`,
   ``,
-  `${events.length} current events · ${outcomes.length - bad.length}/${outcomes.length} sources ok · ${fetcher.requests} requests`,
+  `${events.length} current events · ${outcomes.length - bad.length - skippedOnes.length}/${outcomes.length - skippedOnes.length} sources ok · ${fetcher.requests} requests`,
   ``,
+  ...(skippedOnes.length ? [`Skipped (no API key): ${skippedOnes.map((o) => o.source.id).join(", ")}`, ``] : []),
   ...(bad.length ? [`| source | status | message |`, `|---|---|---|`, ...bad.map((o) => `| ${o.source.id} | ${o.status} | ${(o.message ?? "").replace(/\|/g, "/")} |`)] : []),
 ].join("\n");
 console.log("\n" + summary);

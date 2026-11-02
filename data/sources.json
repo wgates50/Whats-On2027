@@ -2092,5 +2092,48 @@
       }
     },
     "notes": "Event pages carry <time datetime> dates; cached so daily runs only fetch new events."
+  },
+  {
+    "id": "ticketmaster",
+    "name": "Ticketmaster (London theatre, music, comedy & talks)",
+    "enabled": true,
+    "aggregator": true,
+    "adapter": {
+      "type": "custom",
+      "module": "ticketmaster",
+      "options": {
+        "segments": [
+          "Arts & Theatre",
+          "Music",
+          "Miscellaneous"
+        ],
+        "days": 120,
+        "windowDays": 30
+      }
+    },
+    "unmatchedReport": "theat|hall|museum|galler|playhouse|opera|apollo|palladium|empire|centre|center|studio|chapel|coliseum|house|place|arts|wigmore|barbican|southbank",
+    "notes": "Official Discovery API (free key, 5,000 calls/day). Needs the TICKETMASTER_API_KEY Actions secret; 'skipped' without it. Covers West End/large venues, including ones whose sites block GitHub's servers (e.g. Official London Theatre)."
+  },
+  {
+    "id": "skiddle",
+    "name": "Skiddle (London theatre, comedy, exhibitions, arts & gigs)",
+    "enabled": true,
+    "aggregator": true,
+    "adapter": {
+      "type": "custom",
+      "module": "skiddle",
+      "options": {
+        "eventcodes": [
+          "THEATRE",
+          "COMEDY",
+          "EXHIB",
+          "ARTS",
+          "LIVE"
+        ],
+        "days": 90
+      }
+    },
+    "unmatchedReport": "theat|hall|museum|galler|playhouse|opera|apollo|palladium|empire|centre|center|studio|chapel|coliseum|house|place|arts|wigmore|barbican|southbank",
+    "notes": "Official Skiddle events API (free key). Needs the SKIDDLE_API_KEY Actions secret; 'skipped' without it."
   }
 ]

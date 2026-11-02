@@ -32,6 +32,7 @@ for (const id of dirs) {
 }
 
 test("every enabled source has a fixture", () => {
-  const missing = sources.filter((s) => s.enabled && !dirs.includes(s.id)).map((s) => s.id);
+  // API sources (custom adapters needing keys) are covered by scraper/apis.test.ts instead.
+  const missing = sources.filter((s) => s.enabled && s.adapter.type !== "custom" && !dirs.includes(s.id)).map((s) => s.id);
   assert.deepEqual(missing, [], `Record fixtures with: npm run fixture -- ${missing.join(" ")}`);
 });

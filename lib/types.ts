@@ -68,6 +68,11 @@ export interface SourceConfig {
    * whose cards name the city. Events without venue text are dropped when this is set.
    */
   venueFilter?: string;
+  /**
+   * Only report unmatched venue names matching this regex (case-insensitive) in health/issues —
+   * for city-wide APIs where most venues are irrelevant (pubs, clubs…) but missing theatres matter.
+   */
+  unmatchedReport?: string;
   notes?: string;
 }
 
@@ -158,6 +163,7 @@ export interface WOEvent {
 
 export type HealthStatus =
   | "ok"
+  | "skipped" // not run: an API key isn't configured (not an error)
   | "error" // network/parse failure
   | "blocked" // 401/403/429 or robots.txt disallows — do NOT try to get around this
   | "empty" // 0 events where there were some

@@ -30,8 +30,21 @@ export class BlockedError extends Error {
   }
 }
 
+export interface GetOptions {
+  /**
+   * For official APIs (Ticketmaster, Skiddle…): access is governed by the API's terms and key, not
+   * robots.txt, so the robots check is skipped. Never use this for ordinary web pages.
+   */
+  api?: boolean;
+}
+
+/** Hide credentials in URLs before they reach logs, errors, health.json or fixtures. */
+export function redact(url: string): string {
+  return url.replace(/([?&](?:api_?key|apikey|key|token|client_secret|access_token)=)[^&#]*/gi, "$1***");
+}
+
 export interface Fetcher {
-  get(url: string): Promise<FetchResult>;
+  get(url: string, opts?: GetOptions): Promise<FetchResult>;
   /** Number of network requests actually made (for logging). */
   requests: number;
 }
@@ -68,18 +81,18 @@ export function createFetcher(opts: { mode: Mode; fixtureDir?: string; minDelayM
 
   const self: Fetcher = {
     requests: 0,
-    async get(url: string): Promise<FetchResult> {
+    async get(url: string, opts: GetOptions = {}): Promise<FetchResult> {
       let res: FetchResult;
       if (mode === "replay") {
-        const e = index[url];
-        if (!e) throw new Error(`Not in fixture: ${url}`);
+        const e = index[redact(url)];
+        if (!e) throw new Error(`Not in fixture: ${redact(url)}`);
         const body = gunzipSync(readFileSync(join(fixtureDir!, e.file))).toString("utf8");
         res = { url: e.finalUrl, status: e.status, contentType: e.contentType, body };
       } else {
         const u = new URL(url);
-        const rules = await robotsFor(u.origin);
-        if (!rules.allows(u.pathname + u.search)) {
-          throw new BlockedError(`robots.txt disallows ${u.pathname}`, url);
+        const rules = opts.api ? { allows: () => true } : await robotsFor(u.origin);
+        if (!opts.api && !rules.allows(u.pathname + u.search)) {
+          throw new BlockedError(`robots.txt disallows ${u.pathname}`, redact(url));
         }
         res = await throttled(u.host, () => fetchWithRetry(url));
         if (mode === "record") {
@@ -87,14 +100,14 @@ export function createFetcher(opts: { mode: Mode; fixtureDir?: string; minDelayM
           res = { ...res, body: slimHtml(res.body) };
           const file = fixtureKey(url) + ".html.gz";
           writeFileSync(join(fixtureDir!, file), gzipSync(res.body, { level: 9 }));
-          index[url] = { file, status: res.status, finalUrl: res.url, contentType: res.contentType };
+          index[redact(url)] = { file, status: res.status, finalUrl: redact(res.url), contentType: res.contentType };
           writeFileSync(indexPath, JSON.stringify(index, null, 2) + "\n");
         }
       }
       if (res.status === 401 || res.status === 403 || res.status === 429) {
-        throw new BlockedError(`HTTP ${res.status} (site is refusing automated requests)`, url);
+        throw new BlockedError(`HTTP ${res.status} (site is refusing automated requests)`, redact(url));
       }
-      if (res.status >= 400) throw new Error(`HTTP ${res.status} for ${url}`);
+      if (res.status >= 400) throw new Error(`HTTP ${res.status} for ${redact(url)}`);
       return res;
     },
   };
@@ -125,7 +138,7 @@ export function createFetcher(opts: { mode: Mode; fixtureDir?: string; minDelayM
         await sleep(3000)();
         return fetchWithRetry(url, attempt + 1);
       }
-      throw new Error(`Network error for ${url}: ${(e as Error).message}`);
+      throw new Error(`Network error for ${redact(url)}: ${(e as Error).message}`);
     }
   }
 
