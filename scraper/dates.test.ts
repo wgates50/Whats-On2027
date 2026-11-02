@@ -108,3 +108,10 @@ test("addDays", () => {
   assert.equal(addDays("2026-12-31", 1), "2027-01-01");
   assert.equal(addDays("2026-03-01", -1), "2026-02-28");
 });
+
+test("keywords only count right before the date", () => {
+  assert.deepEqual(p("London and online · Open to all · Monday 2 November 2026"), { startDate: "2026-11-02", endDate: null, startTime: undefined });
+  assert.deepEqual(p("Closes Sunday, 17 January 2027"), { startDate: null, endDate: "2027-01-17" });
+  assert.deepEqual(p("Opens Saturday, 18 September 2027"), { startDate: "2027-09-18", endDate: null, ongoing: true });
+  assert.deepEqual(p("Free to visit until 3 May 2027"), { startDate: null, endDate: "2027-05-03" });
+});

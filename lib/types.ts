@@ -62,6 +62,12 @@ export interface SourceConfig {
   /** Keep only events whose title/url matches (regex string), e.g. to drop non-London sites. */
   include?: string;
   exclude?: string;
+  /**
+   * Keep only events whose venue text matches (regex string, case-insensitive), checked before venue
+   * matching — e.g. ",\\s*London$" for a UK-wide aggregator, or "London" for a multi-city gallery
+   * whose cards name the city. Events without venue text are dropped when this is set.
+   */
+  venueFilter?: string;
   notes?: string;
 }
 
@@ -71,17 +77,31 @@ export interface PagesAdapterConfig {
   /** Listing pages. `{page}` is replaced with 1..maxPages. */
   listUrls: string[];
   maxPages?: number;
-  /** Regex (string) for detail-page URLs (matched against absolute hrefs). Omit to use only listing-page JSON-LD. */
+  /**
+   * Regex (string) for detail-page URLs, matched against absolute hrefs — and against <loc> entries,
+   * so a sitemap.xml works as a listing page. Omit to use only listing-page JSON-LD / cards.
+   */
   linkPattern?: string;
-  /** Cap on detail pages fetched per run (politeness). Default 60. */
+  /** Cap on detail pages fetched per run (politeness). Default 60. With `cacheDays`, cached pages don't count. */
   maxLinks?: number;
+  /**
+   * Remember what each detail page said for ~this many days (data/cache/<sourceId>.json), so daily runs
+   * only fetch new pages plus a staggered trickle of refreshes. For big listings such as sitemaps.
+   */
+  cacheDays?: number;
   /**
    * Read events straight from repeated cards on the listing page — one request per page, no
    * detail pages. Selectors are relative to each card. (Run `npm run discover -- <url>` for suggestions.)
    */
   cards?: {
     item: string;
-    dates: string;
+    /** Selector for the card's date text. Optional when `dateFromUrl` is given. */
+    dates?: string;
+    /**
+     * Regex with named groups y, m, d (and optionally H, M) to read the date from the card's link,
+     * e.g. "/whats-on/(?<y>\\d{4})(?<m>\\d{2})(?<d>\\d{2})(?<H>\\d{2})(?<M>\\d{2})$".
+     */
+    dateFromUrl?: string;
     title?: string; // default: first h1–h4 / [class*=title] in the card
     link?: string; // default: the card itself if it is an <a>, else its first a[href]
     venue?: string; // multi-venue sites / aggregators

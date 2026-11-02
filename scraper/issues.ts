@@ -1,8 +1,9 @@
 // Turn data/health.json into GitHub issues (run by the daily workflow; no AI involved).
 //
 //  • A broken source gets one issue "Source broken: <id>" (labels: broken-source + status).
-//      - parse problems (empty / dropped / invalid) are reported on the first bad run
-//      - network errors and blocks only after 2 bad runs in a row (to ignore blips)
+//      - invalid (dates/titles don't parse) is reported on the first bad run
+//      - everything else (empty, dropped, errors, blocks) after 2 bad runs in a row — sites
+//        occasionally serve an empty or odd page once; the source keeps its previous events meanwhile
 //    The issue body is refreshed each run; it is closed automatically when the source recovers.
 //  • Unknown venue names coming from aggregators are collected in one rolling issue
 //    (label: venue-aliases) so the maintainer can add aliases or venues.
@@ -71,7 +72,7 @@ const titleFor = (id: string) => `Source broken: ${id}`;
 
 for (const [id, h] of Object.entries(health.sources)) {
   const existing = open.find((i) => i.title === titleFor(id));
-  const report = h.status !== "ok" && (["empty", "dropped", "invalid"].includes(h.status) || h.consecutiveFailures >= 2);
+  const report = h.status !== "ok" && (h.status === "invalid" || h.consecutiveFailures >= 2);
   if (h.status === "ok") {
     if (existing) {
       await gh("POST", `/repos/${repo}/issues/${existing.number}/comments`, { body: `✅ Healthy again: ${h.count} events on ${h.checkedAt.slice(0, 10)}.` });

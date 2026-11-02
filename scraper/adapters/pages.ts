@@ -60,6 +60,48 @@ export function firstText($: CheerioAPI, sel: string, scope?: ReturnType<Cheerio
   return "";
 }
 
+const daysSince = (from: string, to: string) => (Date.parse(to) - Date.parse(from)) / 864e5;
+
+/** Per-URL cache lifetime between days/2 and days, so refreshes are spread out rather than all at once. */
+function ttlDays(key: string, days: number): number {
+  let h = 0;
+  for (const ch of key) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return days * (0.5 + (h % 1000) / 2000);
+}
+
+/** First element (in selector-priority order, then document order) whose text parses as a date. */
+function firstDate($: CheerioAPI, sel: string, today: string, scope?: ReturnType<CheerioAPI>): ParsedRange | null {
+  for (const part of selectorList(sel)) {
+    for (const el of (scope ? scope.find(part) : $(part)).toArray()) {
+      const r = parseDateRange(clean($(el).text()), today);
+      if (r) return r;
+    }
+  }
+  return null;
+}
+
+/** Like firstText, but ignores <sub>/<sup>/<small> asides (e.g. performers' roles under a concert title). */
+function titleText($: CheerioAPI, sel: string, scope: ReturnType<CheerioAPI>): string {
+  for (const part of selectorList(sel)) {
+    const el = scope.find(part).first();
+    if (!el.length) continue;
+    const copy = el.clone();
+    copy.find("sub, sup, small").remove();
+    const t = clean(copy.text()).replace(/\s*[;,]\s*$/, "");
+    if (/[\p{L}\p{N}]/u.test(t)) return t; // skip placeholders like "–"
+  }
+  return "";
+}
+
+/** Read a date (and time) from a URL using a regex with named groups y, m, d, H?, M?. */
+export function dateFromUrl(url: string, pattern: string): ParsedRange | null {
+  const g = new RegExp(pattern).exec(url)?.groups;
+  if (!g?.y || !g.m || !g.d) return null;
+  const date = `${g.y}-${g.m.padStart(2, "0")}-${g.d.padStart(2, "0")}`;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || isNaN(Date.parse(date))) return null;
+  return { startDate: date, endDate: null, startTime: g.H && g.M ? `${g.H.padStart(2, "0")}:${g.M}` : undefined };
+}
+
 /** Smallest range covering all the given ranges. */
 export function spanOf(ranges: ParsedRange[]): ParsedRange {
   const starts = ranges.map((r) => r.startDate).filter((d): d is string => !!d).sort();
@@ -114,16 +156,15 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
           const card = $(el);
           const linkEl = c.link ? card.find(c.link).first() : card.is("a[href]") ? card : card.find("a[href]").first();
           const url = absolute(linkEl.attr("href"), res.url);
-          const title = firstText($, c.title ?? "h1, h2, h3, h4, [class*=title], [class*=heading]", card);
-          const dates = parseDateRange(firstText($, c.dates, card), today);
+          const title = titleText($, c.title ?? "h1, h2, h3, h4, [class*=title], [class*=heading]", card);
+          const dates = (c.dateFromUrl && url ? dateFromUrl(url, c.dateFromUrl) : null) ?? (c.dates ? firstDate($, c.dates, today, card) : null);
           if (!url || !title) return;
           if (!dates) {
             skippedCards++;
             return;
           }
           const key = normUrl(url);
-          if (listingEvents.has(key)) return;
-          listingEvents.set(key, {
+          const ev: RawEvent = {
             url,
             title,
             dates,
@@ -131,21 +172,36 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
             description: c.description ? firstText($, c.description, card) || undefined : undefined,
             venueName: c.venue ? firstText($, c.venue, card) || undefined : undefined,
             typeLabel: c.typeLabel ? firstText($, c.typeLabel, card) || undefined : undefined,
-          });
+          };
+          const prev = listingEvents.get(key);
+          if (prev) {
+            // Same event shown twice (e.g. a featured carousel + the main grid): fill gaps, keep the first.
+            listingEvents.set(key, {
+              ...prev,
+              image: prev.image ?? ev.image,
+              description: prev.description ?? ev.description,
+              venueName: prev.venueName ?? ev.venueName,
+              typeLabel: prev.typeLabel ?? ev.typeLabel,
+            });
+            return;
+          }
+          listingEvents.set(key, ev);
           cardsSeen++;
           fresh++;
         });
       }
       if (linkRe) {
-        $("a[href]").each((_, a) => {
-          const abs = absolute($(a).attr("href"), res.url);
+        const add = (href: string | undefined) => {
+          const abs = absolute(href, res.url);
           if (!abs || !linkRe.test(abs)) return;
           const key = normUrl(abs);
           if (linkSet.has(key)) return;
           linkSet.add(key);
           links.push(abs);
           fresh++;
-        });
+        };
+        $("a[href]").each((_, a) => add($(a).attr("href")));
+        $("loc").each((_, l) => add($(l).text().trim())); // sitemap.xml
       }
       if (n && fresh === 0) break; // paged past the end
     }
@@ -154,14 +210,39 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
   const events: RawEvent[] = [];
   let skippedNoDates = 0;
   const used = new Set<string>();
+  const cache = cfg.cacheDays ? ctx.cache : undefined;
+  let budget = maxLinks; // detail-page fetches allowed this run
+  let overBudget = 0;
 
-  for (const link of links.slice(0, maxLinks)) {
+  for (const link of cache ? links : links.slice(0, maxLinks)) {
     const key = normUrl(link);
     const fromListing = listingEvents.get(key);
     // A card with a full date range is enough; one with only "Until …"/"Opens …" is worth a detail fetch.
     if (fromListing && fromListing.dates.startDate && (fromListing.dates.endDate || !fromListing.dates.ongoing)) {
       events.push({ ...fromListing, url: link });
       used.add(key);
+      continue;
+    }
+    const outOfTime = !!ctx.deadline && Date.now() > ctx.deadline;
+    if (cache) {
+      const hit = cache.get(key);
+      if (hit && daysSince(hit.at, today) < ttlDays(key, cfg.cacheDays!)) {
+        if (hit.raw) events.push({ ...hit.raw, url: link });
+        if (fromListing) used.add(key);
+        continue;
+      }
+      if (budget <= 0 || outOfTime) {
+        overBudget++;
+        if (hit?.raw) events.push({ ...hit.raw, url: link }); // stale beats nothing
+        continue;
+      }
+      budget--;
+    } else if (outOfTime) {
+      overBudget++;
+      if (fromListing) {
+        events.push({ ...fromListing, url: link });
+        used.add(key);
+      }
       continue;
     }
     let res;
@@ -177,7 +258,19 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
       continue;
     }
     if (fromListing) used.add(key);
-    const $ = load(res.body);
+    const parsed = parseDetail(res.body, res.url, link, key, fromListing);
+    cache?.set(key, { raw: parsed ?? null, at: today });
+    if (parsed) events.push(parsed);
+    else if (fromListing) events.push({ ...fromListing, url: link });
+    else skippedNoDates++;
+  }
+
+  if (cache) for (const k of [...cache.keys()]) if (!linkSet.has(k)) cache.delete(k); // gone from the listing
+
+  /** Parse one detail page: JSON-LD first, then the configured selectors. */
+  function parseDetail(body: string, pageUrl: string, link: string, key: string, fromListing?: RawEvent): RawEvent | undefined {
+    const res = { url: pageUrl };
+    const $ = load(body);
     const ld = jsonLdEvents($)
       .map((n) => rawFromJsonLd(n, res.url, today))
       .filter((r): r is RawEvent => !!r);
@@ -191,12 +284,14 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
     }
 
     if (raw) {
+      // Configured selectors fill in what the JSON-LD leaves out (often the venue).
+      const d = cfg.detail ?? {};
       raw = {
         ...raw,
         url: link,
         image: raw.image ?? fromListing?.image ?? pageImage($, res.url),
         description: raw.description ?? fromListing?.description ?? pageDescription($),
-        venueName: raw.venueName ?? fromListing?.venueName,
+        venueName: raw.venueName ?? (d.venue ? firstText($, d.venue) || undefined : undefined) ?? fromListing?.venueName,
         typeLabel: fromListing?.typeLabel,
       };
     } else {
@@ -215,12 +310,8 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
           dates = { startDate: s.date, endDate, startTime: endDate ? undefined : s.time };
         }
       }
-      if (!dates && d.dates) dates = parseDateRange(firstText($, d.dates), today);
-      if (!dates) {
-        if (fromListing) events.push({ ...fromListing, url: link });
-        else skippedNoDates++;
-        continue;
-      }
+      if (!dates && d.dates) dates = firstDate($, d.dates, today);
+      if (!dates) return undefined;
       raw = {
         url: link,
         title: fromListing?.title ?? pageTitle($, d.title),
@@ -232,13 +323,14 @@ export async function runPages(cfg: PagesAdapterConfig, ctx: AdapterContext): Pr
         typeLabel: fromListing?.typeLabel,
       };
     }
-    if (raw.title) events.push(raw);
+    return raw.title ? raw : undefined;
   }
 
   // Listing-page JSON-LD events that weren't reached through a link (or no linkPattern at all).
   for (const [key, raw] of listingEvents) if (!used.has(key)) events.push(raw);
 
-  if (links.length > maxLinks) warnings.push(`${links.length - maxLinks} links over maxLinks (${maxLinks}) were skipped`);
+  if (!cache && links.length > maxLinks) warnings.push(`${links.length - maxLinks} links over maxLinks (${maxLinks}) were skipped`);
+  if (overBudget) warnings.push(`${overBudget} detail pages left for the next run (fetch budget ${maxLinks} / time budget)`);
   if (skippedCards) warnings.push(`${skippedCards} cards had no parseable dates (${cardsSeen} did)`);
   // Health's "no dates" rule only looks at detail pages: a card selector that also matches some
   // undated promo blocks isn't broken, and a broken date selector shows up as "empty" anyway.

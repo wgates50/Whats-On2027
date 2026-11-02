@@ -6,14 +6,16 @@
 //
 // Never exits non-zero because a venue broke — that's what health.json + issues are for.
 
-import { appendFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import type { HealthStatus, SourceConfig, WOEvent } from "../lib/types.ts";
-import { runAdapter } from "./adapters/index.ts";
+import { runAdapter, type CachedDetail, type DetailCache } from "./adapters/index.ts";
 import { loadEvents, loadHealth, loadSources, loadVenues, writeJson, type HealthFile } from "./config.ts";
 import { todayLondon } from "./dates.ts";
 import { BlockedError, createFetcher } from "./fetcher.ts";
 import { normalize } from "./normalize.ts";
 import { VenueIndex, normName } from "./venues.ts";
+import { sameThing } from "./dedupe.ts";
 
 interface Outcome {
   source: SourceConfig;
@@ -48,11 +50,40 @@ function withTimeout<T>(p: Promise<T>, ms: number): Promise<T> {
   return Promise.race([p, new Promise<T>((_, rej) => setTimeout(() => rej(new Error(`timed out after ${ms / 1000}s`)), ms).unref())]);
 }
 
+// Detail-page caches (sources with adapter.cacheDays) live in data/cache/<sourceId>.json. A cache is
+// thrown away when the source's adapter config changes or CACHE_VERSION is bumped (bump it whenever
+// the page-parsing code changes in a way that would change what gets cached).
+const CACHE_DIR = new URL("../data/cache/", import.meta.url);
+const CACHE_VERSION = 2;
+const cacheKey = (s: SourceConfig) => createHash("sha1").update(JSON.stringify([CACHE_VERSION, s.adapter])).digest("hex").slice(0, 12);
+interface CacheFile {
+  key: string;
+  pages: Record<string, CachedDetail>;
+}
+function loadCache(s: SourceConfig): DetailCache {
+  const f = new URL(`${s.id}.json`, CACHE_DIR);
+  if (!existsSync(f)) return new Map();
+  const file = JSON.parse(readFileSync(f, "utf8")) as Partial<CacheFile>;
+  return file.key === cacheKey(s) && file.pages ? new Map(Object.entries(file.pages)) : new Map();
+}
+function saveCache(s: SourceConfig, cache: DetailCache) {
+  mkdirSync(CACHE_DIR, { recursive: true });
+  const pages = Object.fromEntries([...cache.entries()].sort(([a], [b]) => a.localeCompare(b)));
+  writeFileSync(new URL(`${s.id}.json`, CACHE_DIR), JSON.stringify({ key: cacheKey(s), pages } satisfies CacheFile, null, 1) + "\n");
+}
+
 async function runOne(source: SourceConfig): Promise<Outcome> {
   const t0 = Date.now();
   const base = { source, events: [] as WOEvent[], warnings: [] as string[], unmatchedVenues: {} };
+  const cache = source.adapter.type === "pages" && source.adapter.cacheDays ? loadCache(source) : undefined;
   try {
-    const res = await withTimeout(runAdapter(source.adapter, { fetcher, today, log: (m) => console.log(`  [${source.id}] ${m}`) }), 10 * 60_000);
+    // Adapters stop fetching at the deadline and return what they have; the timeout is only a backstop.
+    const deadline = Date.now() + 10 * 60_000;
+    const res = await withTimeout(
+      runAdapter(source.adapter, { fetcher, today, cache, deadline, log: (m) => console.log(`  [${source.id}] ${m}`) }),
+      15 * 60_000,
+    );
+    if (cache && !dry) saveCache(source, cache);
     const rep = normalize(res.events, source, index, today);
     const prev = prevHealth.sources[source.id];
     const baseline = prev?.lastOkCount ?? 0;
@@ -66,14 +97,26 @@ async function runOne(source: SourceConfig): Promise<Outcome> {
       status = "invalid";
       message = `${res.skippedNoDates} of ${res.linksFound} detail pages had no parseable dates — date selector probably broken`;
     } else if (rep.events.length === 0) {
-      status = "empty";
-      message = `0 current events (adapter returned ${res.events.length}; ${rep.past} already finished; ${Object.keys(rep.unmatchedVenues).length} unknown venue names; ${res.linksFound} links found)`;
+      // A multi-city listing with nothing in London this week is fine — as long as the cards do carry
+      // location text (if none do, the venue selector is what broke).
+      const quiet =
+        !!source.venueFilter &&
+        rep.filtered > 0 &&
+        rep.invalid.length === 0 &&
+        res.events.some((e) => e.venueName) &&
+        rep.filtered + rep.past + rep.cancelled >= res.events.length;
+      if (quiet) message = `nothing matching the venue filter right now (${res.events.length} listed elsewhere)`;
+      else {
+        status = "empty";
+        message = `0 current events (adapter returned ${res.events.length}; ${rep.past} already finished; ${Object.keys(rep.unmatchedVenues).length} unknown venue names; ${res.linksFound} links found)`;
+      }
     } else if (baseline >= 6 && rep.events.length < baseline * 0.5) {
       status = "dropped";
       message = `${rep.events.length} events, usually ~${baseline}`;
     }
     return { ...base, status, message, events: rep.events, warnings: res.warnings, unmatchedVenues: rep.unmatchedVenues, ms: Date.now() - t0 };
   } catch (e) {
+    if (cache && !dry && cache.size) saveCache(source, cache); // keep partial progress
     return { ...base, status: e instanceof BlockedError ? "blocked" : "error", message: (e as Error).message, ms: Date.now() - t0 };
   }
 }
@@ -122,17 +165,25 @@ for (const e of prevEvents) {
   if (!ran.has(e.sourceId) && (only ? true : stillConfigured.has(e.sourceId)) && isCurrent(e)) merged.push(e);
 }
 
-// De-duplicate: same venue + same title → prefer the venue's own site over an aggregator.
+// De-duplicate: the same thing at the same venue from two sources (e.g. Tate's site and Art Fund, or a
+// theatre's site and Official London Theatre) → keep the venue's own site's version. "Same thing" =
+// similar title (most words shared) and overlapping dates.
 const keyOf = (e: WOEvent) => `${e.venueId}|${normName(e.title)}`;
 merged.sort((a, b) => Number(singleVenue.has(b.sourceId)) - Number(singleVenue.has(a.sourceId)));
 const byKey = new Map<string, WOEvent>();
+const byVenue = new Map<string, WOEvent[]>();
 const prevById = new Map(prevEvents.map((e) => [e.id, e]));
 const prevByKey = new Map(prevEvents.map((e) => [keyOf(e), e]));
 for (const e of merged) {
   const k = keyOf(e);
   if (byKey.has(k)) continue;
+  const kept = byVenue.get(e.venueId) ?? [];
+  // Only across sources: one site's own "Tour" and "BSL Tour" are separate events.
+  if (kept.some((x) => x.sourceId !== e.sourceId && sameThing(x, e))) continue;
   const firstSeen = [e.firstSeen, prevById.get(e.id)?.firstSeen, prevByKey.get(k)?.firstSeen].filter(Boolean).sort()[0]!;
-  byKey.set(k, { ...e, firstSeen });
+  const ev = { ...e, firstSeen };
+  byKey.set(k, ev);
+  byVenue.set(e.venueId, [...kept, ev]);
 }
 const events = [...byKey.values()].sort(
   (a, b) => (a.startDate ?? "").localeCompare(b.startDate ?? "") || a.venueId.localeCompare(b.venueId) || a.title.localeCompare(b.title),

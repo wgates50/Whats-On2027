@@ -66,8 +66,11 @@ function tokenize(text: string): Token[] {
   return out;
 }
 
-const END_ONLY = /\b(until|till|to|ends?|ending|closes|closing|through)\b/;
-const START_ONLY = /\b(from|opens|opening|starts|starting|launches|begins)\b/;
+// Only when the keyword sits right before the date (optionally a weekday in between):
+// "until 3 May", "Closes Sunday, 17 January" — but not "Open to all · Monday 2 November".
+const WD = "(?:(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*,?\\s+)?";
+const END_ONLY = new RegExp(`\\b(until|till|to|ends?|ending|closes|closing|through)\\s+${WD}$`);
+const START_ONLY = new RegExp(`\\b(from|opens|opening|starts|starting|launches|begins)\\s+${WD}$`);
 const ONGOING = /\b(ongoing|permanent|always on|open now|open daily|collection display|free display)\b/;
 
 /** The year an undated day most plausibly refers to: this year, unless that is >60 days ago. */

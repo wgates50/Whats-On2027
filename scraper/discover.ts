@@ -30,21 +30,30 @@ export interface Discovery {
 
 /** A short, reasonably stable CSS selector for an element: tag + up to two classes, with one parent. */
 function selectorFor($: CheerioAPI, el: Parameters<CheerioAPI>[0]): string {
-  const part = (e: any) => {
-    const tag = e.tagName ?? e.name ?? "*";
-    const cls = ($(e).attr("class") ?? "").split(/\s+/).filter((c: string) => c && !/^(js-|is-|has-)|\d{3,}/.test(c)).slice(0, 2);
-    return tag + cls.map((c: string) => "." + c).join("");
-  };
+  const part = (e: any) => stableStep(e.tagName ?? e.name ?? "*", $(e).attr("class") ?? "");
   const e = el as any;
   const parent = e.parent && e.parent.type === "tag" ? part(e.parent) + " > " : "";
   return parent + part(e);
 }
 
-const partSel = ($: CheerioAPI, e: any) => {
-  const tag = e.tagName ?? e.name ?? "*";
-  const cls = ($(e).attr("class") ?? "").split(/\s+/).filter((c: string) => c && !/^(js-|is-|has-)|\d{3,}/.test(c)).slice(0, 2);
-  return tag + cls.map((c: string) => "." + c).join("");
-};
+/**
+ * One selector step for an element, avoiding class names that change on every site deploy:
+ * styled-components ("EventCard-sc-1gq4rkg-5" → [class*="EventCard-sc-"]), CSS-module hashes and
+ * random short names ("iScFvn") are replaced or skipped; utility classes with ":" "/" "[" are skipped.
+ */
+export function stableStep(tag: string, classAttr: string): string {
+  const parts: string[] = [];
+  for (const c of classAttr.split(/\s+/).filter(Boolean)) {
+    if (parts.length >= 2) break;
+    const sc = c.match(/^(.+?-sc-)[a-z0-9]+-\d+$/i);
+    if (sc) parts.push(`[class*="${sc[1].replace(/-sc-$/, "")}"]`);
+    else if (/^(js-|is-|has-)|\d{3,}|[:/[\]!@%]|__[A-Za-z0-9]{5,}__|_[a-z0-9]{5}_\d+$/.test(c)) continue;
+    else if (/^[A-Za-z]{5,7}$/.test(c) && /[A-Z]/.test(c) && /[a-z]/.test(c) && !/^[A-Z][a-z]+$/.test(c)) continue; // "iScFvn"
+    else parts.push("." + c);
+  }
+  return tag + parts.join("");
+}
+const partSel = ($: CheerioAPI, e: any) => stableStep(e.tagName ?? e.name ?? "*", $(e).attr("class") ?? "");
 
 /**
  * Repeated "cards" on a listing page that each hold a link + a date — candidates for `cards` config.

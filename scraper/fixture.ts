@@ -23,6 +23,7 @@ export interface Expected {
   recordedAt: string; // the "today" used for date inference/past filtering
   limits: typeof LIMITS;
   adapter: unknown; // config at record time (to spot config drift)
+  rawCount?: number; // items the adapter extracted before filtering (a listing can legitimately have 0 London events)
   events: unknown[];
 }
 
@@ -60,11 +61,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       mkdirSync(dir, { recursive: true });
     }
     try {
-      const { source, rep } = await produce(id, rebaseline ? "replay" : "record", today);
-      const expected: Expected = { sourceId: id, recordedAt: today, limits: LIMITS, adapter: source.adapter, events: rep.events };
+      const { source, rep, res } = await produce(id, rebaseline ? "replay" : "record", today);
+      const expected: Expected = { sourceId: id, recordedAt: today, limits: LIMITS, adapter: source.adapter, rawCount: res.events.length, events: rep.events };
       writeFileSync(join(dir, "expected.json"), JSON.stringify(expected, null, 2) + "\n");
-      console.log(`${rep.events.length ? "✓" : "✗"} ${id}: ${rep.events.length} events${rebaseline ? " (rebaselined)" : " recorded"}`);
-      if (!rep.events.length) process.exitCode = 1;
+      console.log(`${res.events.length ? "✓" : "✗"} ${id}: ${rep.events.length} events (${res.events.length} extracted)${rebaseline ? " (rebaselined)" : " recorded"}`);
+      if (!res.events.length) process.exitCode = 1;
     } catch (e) {
       console.log(`✗ ${id}: ${(e as Error).message}`);
       process.exitCode = 1;

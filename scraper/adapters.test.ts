@@ -24,8 +24,9 @@ for (const id of dirs) {
       expected.adapter,
       `Source "${id}" config changed since its fixture was recorded — run \`npm run fixture -- ${id}\``,
     );
-    const { rep } = await produce(id, "replay", expected.recordedAt, expected.limits);
-    assert.ok(rep.events.length > 0, "fixture produces no events");
+    const { rep, res } = await produce(id, "replay", expected.recordedAt, expected.limits);
+    assert.ok(res.events.length > 0, "adapter extracts nothing from the recorded pages");
+    if (expected.rawCount !== undefined) assert.equal(res.events.length, expected.rawCount, "number of extracted items changed");
     assert.deepEqual(rep.events, expected.events);
   });
 }

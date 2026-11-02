@@ -55,12 +55,15 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
   const report: NormalizeReport = { events: [], past: 0, invalid: [], unmatchedVenues: {}, filtered: 0, cancelled: 0 };
   const include = source.include ? new RegExp(source.include, "i") : null;
   const exclude = source.exclude ? new RegExp(source.exclude, "i") : null;
+  const venueFilter = source.venueFilter ? new RegExp(source.venueFilter, "i") : null;
   const urlCounts = new Map<string, number>();
   for (const r of raws) urlCounts.set(r.url, (urlCounts.get(r.url) ?? 0) + 1);
   const horizon = addDays(today, 365 * 3);
   const seen = new Set<string>();
 
-  for (const r of raws) {
+  for (const raw of raws) {
+    // Tidy titles: drop "read more" arrows and the like that some cards append.
+    const r = { ...raw, title: raw.title.replace(/\s*[→›»↗➔+]+\s*$/u, "").trim() };
     if (r.cancelled || CANCELLED.test(r.title)) {
       report.cancelled++;
       continue;
@@ -71,6 +74,10 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
     }
     const hay = `${r.title} ${r.url}`;
     if ((include && !include.test(hay)) || (exclude && exclude.test(hay))) {
+      report.filtered++;
+      continue;
+    }
+    if (venueFilter && !(r.venueName && venueFilter.test(r.venueName))) {
       report.filtered++;
       continue;
     }

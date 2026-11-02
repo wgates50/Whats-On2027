@@ -52,7 +52,7 @@ The issue body has the status, message and current config. By status:
 |---|---|---|
 | `blocked` | site refuses us / robots.txt | Rule 3: mark `manualOnly`, disable source, close issue. |
 | `error` | network/timeout twice in a row | `npm run scrape -- --only <id> --dry`. Works now → comment "transient", leave it (it auto-closes). Fails → check the URL still exists (`npm run discover -- <url>`); fix URLs if moved. |
-| `empty` / `dropped` / `invalid` | markup changed | Fix selectors (below). |
+| `empty` / `dropped` (2 runs in a row) / `invalid` | markup changed | Fix selectors (below). |
 
 Fixing selectors:
 
@@ -60,7 +60,19 @@ Fixing selectors:
    item + dates selectors with a sample), date elements, `<time>` elements, link patterns.
    For detail pages: `npm run discover -- <one event url>`.
 2. Edit the source in `data/sources.json` (see the `PagesAdapterConfig` docs in `lib/types.ts`).
-   Comma-separated selectors are tried **in order**.
+   Comma-separated selectors are tried **in order**; for dates, every match is tried until one
+   parses. Useful options:
+   - `cards` — read events straight off listing cards (`item`, `dates`, `title`, `link`, `venue`…).
+   - `linkPattern` + `detail` — follow links to event pages (JSON-LD is used automatically; the
+     `detail` selectors fill in anything it lacks). `linkPattern` also matches `<loc>` entries, so a
+     **sitemap.xml** can be the listing.
+   - `cacheDays` — remember detail pages so daily runs only fetch new ones (big listings, sitemaps).
+     Caches live in `data/cache/` and reset automatically when the source's config changes.
+   - `venueFilter` (source level) — keep only events whose venue text matches, e.g. `"London"` for a
+     multi-city gallery, or `"Borough"` / `"Elephant"` to split one listing between two venues.
+   - `cards.dateFromUrl` — read the date from the event's URL (e.g. `/whats-on/202611041930`).
+   - Prefer stable selectors: for generated class names use the stable part, e.g.
+     `div[class*='EventCardstyles__CardContent']` (discover suggests these).
 3. Check: `npm run scrape -- --only <id> --dry` — titles must be real titles (not dates), dates
    right, count close to the usual (`lastOkCount` in `data/health.json`).
 4. `npm run fixture -- <id>` then `npm test`.

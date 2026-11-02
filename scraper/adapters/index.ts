@@ -4,12 +4,23 @@ import type { RawEvent } from "../extract.ts";
 import { runPages } from "./pages.ts";
 import { runIcs } from "./ics.ts";
 
+/** What a detail page said last time we fetched it (null = it had no usable event). */
+export interface CachedDetail {
+  raw: RawEvent | null;
+  at: string; // YYYY-MM-DD fetched
+}
+export type DetailCache = Map<string, CachedDetail>;
+
 export interface AdapterContext {
   fetcher: Fetcher;
   today: string; // YYYY-MM-DD London
   log: (msg: string) => void;
   /** Used when recording fixtures, to keep them small. */
   limits?: { maxPages?: number; maxLinks?: number };
+  /** Detail-page cache for sources with `cacheDays` (loaded/saved by run.ts; absent in tests). */
+  cache?: DetailCache;
+  /** Epoch ms after which adapters stop fetching detail pages and return what they have. */
+  deadline?: number;
 }
 
 export interface AdapterResult {
