@@ -1,7 +1,7 @@
 // RawEvent (adapter output) → WOEvent (what the app reads). Pure and deterministic given `today`,
 // so fixture tests can replay it exactly.
 
-import type { SourceConfig, WOEvent } from "../lib/types.ts";
+import type { Person, SourceConfig, VenueKind, WOEvent } from "../lib/types.ts";
 import { addDays, parseDateRange } from "./dates.ts";
 import type { RawEvent } from "./extract.ts";
 import { categoryFor, classifyType } from "./classify.ts";
@@ -14,7 +14,14 @@ export interface NormalizeReport {
   unmatchedVenues: Record<string, number>; // aggregator venue names we don't know
   filtered: number; // removed by include/exclude
   cancelled: number;
+  /** Events at venues we don't list, kept only because they name performers (venueId ""). */
+  elsewhere: WOEvent[];
+  /** Performers named by this source's events, by id. */
+  people: Record<string, Person>;
 }
+
+/** A performer's id: the slug of their name (so the same act from two APIs is one person). */
+export const personId = (name: string) => slugify(name, 60);
 
 export function slugify(s: string, max = 80): string {
   return s
@@ -52,7 +59,7 @@ function looksLikeDate(title: string, today: string): boolean {
 }
 
 export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueIndex, today: string): NormalizeReport {
-  const report: NormalizeReport = { events: [], past: 0, invalid: [], unmatchedVenues: {}, filtered: 0, cancelled: 0 };
+  const report: NormalizeReport = { events: [], past: 0, invalid: [], unmatchedVenues: {}, filtered: 0, cancelled: 0, elsewhere: [], people: {} };
   const include = source.include ? new RegExp(source.include, "i") : null;
   const exclude = source.exclude ? new RegExp(source.exclude, "i") : null;
   const venueFilter = source.venueFilter ? new RegExp(source.venueFilter, "i") : null;
@@ -83,33 +90,39 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
       continue;
     }
     const venueId = source.venueId ?? venues.match(r.venueName);
+    // An unknown venue is still worth keeping when the event names performers: it shows on their pages
+    // and to people who follow them. It never counts towards the source's health.
+    const elsewhere = !venueId;
+    let venueKind: VenueKind = "live-venue";
     if (!venueId) {
       const k = r.venueName ?? "(no venue given)";
       if (!unmatchedReport || unmatchedReport.test(k)) report.unmatchedVenues[k] = (report.unmatchedVenues[k] ?? 0) + 1;
-      continue;
-    }
-    const venue = venues.get(venueId);
-    if (!venue) {
-      report.invalid.push(`${r.title}: unknown venueId ${venueId}`);
-      continue;
+      if (!r.people?.length) continue;
+    } else {
+      const venue = venues.get(venueId);
+      if (!venue) {
+        report.invalid.push(`${r.title}: unknown venueId ${venueId}`);
+        continue;
+      }
+      venueKind = venue.kind;
     }
 
     const { startDate, endDate, ongoing, startTime } = r.dates;
-    if ((startDate && !ISO.test(startDate)) || (endDate && !ISO.test(endDate)) || (startDate && endDate && endDate < startDate)) {
-      report.invalid.push(`${r.title}: bad dates ${startDate}…${endDate}`);
-      continue;
-    }
-    if (!startDate && !endDate && !ongoing) {
-      report.invalid.push(`${r.title}: no dates`);
+    const problem =
+      (startDate && !ISO.test(startDate)) || (endDate && !ISO.test(endDate)) || (startDate && endDate && endDate < startDate)
+        ? `${r.title}: bad dates ${startDate}…${endDate}`
+        : !startDate && !endDate && !ongoing
+          ? `${r.title}: no dates`
+          : (startDate && startDate > horizon) || (endDate && endDate > horizon)
+            ? `${r.title}: implausible date ${startDate}…${endDate}`
+            : null;
+    if (problem) {
+      if (!elsewhere) report.invalid.push(problem);
       continue;
     }
     const lastDay = endDate ?? (ongoing ? null : startDate);
     if (lastDay && lastDay < today) {
-      report.past++;
-      continue;
-    }
-    if ((startDate && startDate > horizon) || (endDate && endDate > horizon)) {
-      report.invalid.push(`${r.title}: implausible date ${startDate}…${endDate}`);
+      if (!elsewhere) report.past++;
       continue;
     }
 
@@ -122,19 +135,20 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
       typeLabel: r.typeLabel,
       schemaType: r.schemaType,
       sourceDefault: source.defaults?.type,
-      venueKind: venue.kind,
+      venueKind,
       spanDays,
       oneOff,
     });
-    const category = source.defaults?.category ?? categoryFor(type, venue.kind);
+    const category = source.defaults?.category ?? categoryFor(type, venueKind);
     const shared = (urlCounts.get(r.url) ?? 0) > 1;
-    let id = `${venueId}:${shared ? slugify(`${r.title}-${startDate ?? endDate ?? ""}`) : urlSlug(r.url)}`;
+    const prefix = venueId ?? `~${slugify(r.venueName ?? "elsewhere", 40)}`;
+    let id = `${prefix}:${shared ? slugify(`${r.title}-${startDate ?? endDate ?? ""}`) : urlSlug(r.url)}`;
     for (let n = 2; seen.has(id); n++) id = `${id.replace(/~\d+$/, "")}~${n}`;
     seen.add(id);
 
     const ev: WOEvent = {
       id,
-      venueId,
+      venueId: venueId ?? "",
       sourceId: source.id,
       title: r.title,
       url: r.url,
@@ -149,7 +163,33 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
     if (r.image) ev.image = r.image;
     if (r.description) ev.description = r.description;
     if (r.price) ev.price = r.price;
-    report.events.push(ev);
+    if (r.schedule) ev.schedule = r.schedule;
+    if (r.onSale) ev.onSale = r.onSale;
+    const people = addPeople(report.people, r.people);
+    if (people.length) ev.people = people;
+    if (elsewhere) report.elsewhere.push({ ...ev, ...(r.venueName ? { venueName: r.venueName } : {}) });
+    else report.events.push(ev);
   }
   return report;
+}
+
+/** Record performers (merging what two listings say about the same one); returns their ids. */
+function addPeople(into: Record<string, Person>, raw: RawEvent["people"]): string[] {
+  const ids: string[] = [];
+  for (const p of raw ?? []) {
+    const id = personId(p.name);
+    if (!id || ids.includes(id)) continue;
+    ids.push(id);
+    const had = into[id];
+    const tm = [...new Set([...(had?.tm ?? []), ...(p.tmId ? [p.tmId] : [])])];
+    const links = { ...p.links, ...had?.links };
+    into[id] = {
+      id,
+      name: had?.name ?? p.name,
+      kind: had && had.kind !== "other" ? had.kind : (p.kind ?? "other"),
+      ...(Object.keys(links).length ? { links } : {}),
+      ...(tm.length ? { tm } : {}),
+    };
+  }
+  return ids;
 }
