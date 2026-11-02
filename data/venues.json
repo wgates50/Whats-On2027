@@ -719,6 +719,9 @@
   {
     "id": "frameless",
     "name": "Frameless",
+    "aliases": [
+      "Marble Arch Place"
+    ],
     "kind": "arts-centre",
     "area": "Marble Arch",
     "website": "https://frameless.com",
@@ -1390,14 +1393,26 @@
     "id": "indigo-at-the-o2",
     "name": "indigo at The O2",
     "aliases": [
-      "indigo at the O2",
-      "The O2"
+      "indigo at the O2"
     ],
     "kind": "live-venue",
     "area": "Greenwich",
     "website": "https://www.theo2.co.uk",
     "lat": 51.50246,
     "lng": 0.00489
+  },
+  {
+    "id": "the-o2",
+    "name": "The O2",
+    "aliases": [
+      "The O2 Arena",
+      "O2 Arena"
+    ],
+    "kind": "live-venue",
+    "area": "Greenwich",
+    "website": "https://www.theo2.co.uk",
+    "lat": 51.50294,
+    "lng": 0.0032
   },
   {
     "id": "troxy",
@@ -1446,7 +1461,9 @@
     "name": "EartH Hackney",
     "aliases": [
       "EartH",
-      "Evolutionary Arts Hackney"
+      "Evolutionary Arts Hackney",
+      "EartH Theatre",
+      "EartH Hall"
     ],
     "kind": "live-venue",
     "area": "Dalston",
@@ -1605,7 +1622,8 @@
     "id": "shakespeares-globe",
     "name": "Shakespeare's Globe",
     "aliases": [
-      "The Globe"
+      "The Globe",
+      "Globe Theatre, Shakespeare's Globe"
     ],
     "kind": "theatre",
     "area": "Bankside",

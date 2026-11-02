@@ -87,6 +87,11 @@ running the scrape from somewhere else to dodge it). Disable the source and mark
 **`skipped`** means an API source has no key (`TICKETMASTER_API_KEY` / `SKIDDLE_API_KEY` secrets). It
 is not an error and never opens an issue — leave it alone.
 
+**Ticketmaster junk.** If non-events show up (a new kind of VIP package, parking, attraction
+admission), prefer the source's `exclude` regex in `data/sources.json` (config, auto-merges). The
+adapter's `NOT_AN_EVENT` covers the general patterns. Its `venue-aliases` names are mostly gig venues;
+only add the ones that fit the app (theatres, arts centres, comedy, talks — not pubs and clubs).
+
 ### 2. Venue requests (`venue-request`)
 
 1. Skip if it's already in `data/venues.json` (search name + aliases) — comment and close.

@@ -94,6 +94,98 @@ test("Ticketmaster: maps events, collapses performances into a run, pages, skips
   assert.equal(rep.cancelled, 1);
 });
 
+test("Ticketmaster: busy windows are split so nothing is lost past the API's 1,000-result cap", async () => {
+  process.env.TICKETMASTER_API_KEY = "secret-tm-key";
+  // 100 performances a day for 30 days = 3,000 events: far more than one window can return.
+  const day = (n: number) => new Date(Date.parse(TODAY) + n * 864e5).toISOString().slice(0, 10);
+  const perfs = (days: number, perDay: number) =>
+    Array.from({ length: days * perDay }, (_, i) => ({ ...perf(`e${i}`, day(Math.floor(i / perDay))), name: `Show ${i % perDay}` }));
+  const api = (all: ReturnType<typeof perfs>) =>
+    jsonFetcher((u) => {
+      const [from, to, page] = [u.searchParams.get("startDateTime")!.slice(0, 10), u.searchParams.get("endDateTime")!.slice(0, 10), Number(u.searchParams.get("page"))];
+      assert.ok(page * 200 < 1000, "never asks past the 1,000th result (the API errors)");
+      const hits = all.filter((e) => e.dates.start.localDate >= from && e.dates.start.localDate < to);
+      return { _embedded: { events: hits.slice(page * 200, page * 200 + 200) }, page: { size: 200, totalElements: hits.length, totalPages: Math.ceil(hits.length / 200), number: page } };
+    });
+
+  const f = api(perfs(30, 100));
+  const res = await ticketmaster({ fetcher: f, today: TODAY, log: () => {} }, { segments: ["Arts & Theatre"], days: 30, windowDays: 30 });
+  assert.equal(res.linksFound, 3000); // every performance fetched
+  assert.equal(res.events.length, 100); // collapsed into one run per show
+  assert.deepEqual(res.events[0].dates, { startDate: TODAY, endDate: day(29) });
+  assert.deepEqual(res.warnings, []);
+  assert.ok(f.urls.length <= 20, `${f.urls.length} requests`); // 1 probe + ~3,000/200 pages
+
+  // A single day that's still too busy can't be split: take what the API gives and say so.
+  const g = api(perfs(1, 1200));
+  const one = await ticketmaster({ fetcher: g, today: TODAY, log: () => {} }, { segments: ["Arts & Theatre"], days: 1 });
+  assert.equal(one.linksFound, 1000);
+  assert.match(one.warnings.join(), /over 1000 events in one day/);
+});
+
+test("Ticketmaster: add-ons and attraction admissions aren't events; moved gigs are dropped", () => {
+  const cls = (segment: string, genre: string, type?: string, subType?: string) => ({
+    classifications: [{ primary: true, segment: { name: segment }, genre: { name: genre }, type: type && { name: type }, subType: subType && { name: subType } }],
+  });
+  const notEvents = [
+    { name: "Abba Voyage - VIP Premium Package" },
+    { name: "kwn - VIP Upgrades Only (No Event Tickets Included)" },
+    { name: "Gladiators Live - Venue Premium Tickets" },
+    { name: "The Lord Of The Rings: Official Premium Ticket and Hotel Experiences" },
+    { name: "Frameless Gift Card Redemption" },
+    { name: "London Eye - Standard Experience" },
+    { name: "The Tower of London - Standard All Day Entry" },
+    { name: "Kehlani Extras", ...cls("Miscellaneous", "Undefined", "Upsell", "Concession Voucher") },
+    { name: "The View from The Shard", ...cls("Miscellaneous", "Undefined", "Event Style", "Sightseeing/Facility") },
+  ];
+  for (const x of notEvents) assert.equal(mapTmEvent({ ...perf("n", "2026-12-01"), ...x } as never), null, x.name);
+  // Look-alikes that are real shows stay.
+  for (const name of ["The Dire Straits Experience", "Rock n Roll Freakshow Experience w/Band of Skulls", "The Paddington Bear Experience"])
+    assert.ok(mapTmEvent({ ...perf("k", "2026-12-01"), name } as never), name);
+  assert.equal(mapTmEvent({ ...perf("m", "2026-11-19"), name: "Rizzle Kicks ** MOVED TO O2 ACADEMY BRIXTON" } as never)!.cancelled, true);
+});
+
+test("Ticketmaster: its classification decides the type, so a band's World Tour is a concert", () => {
+  const source: SourceConfig = { id: "ticketmaster", name: "TM", enabled: true, aggregator: true, adapter: { type: "custom", module: "ticketmaster" } };
+  const at = (venue: string, name: string, segment: string, genre: string, subType?: string) =>
+    mapTmEvent({
+      ...perf(name, "2026-11-20"),
+      name,
+      classifications: [{ primary: true, segment: { name: segment }, genre: { name: genre }, subType: subType && { name: subType } }],
+      _embedded: { venues: [{ name: venue, city: { name: "London" } }] },
+    } as never)!;
+  const raws = [
+    at("Roundhouse", "Boy Harsher - The Heartbreak Tour", "Music", "Rock"),
+    at("Alexandra Palace", "Gorgon City", "Music", "Dance/Electronic"),
+    at("Eventim Apollo", "Atsuko Okatsuka - The Big Bowl Tour", "Arts & Theatre", "Comedy"),
+    at("The Lightroom", "Matisse: Joy", "Arts & Theatre", "Fine Art", "Exhibit"),
+    at("The O2", "Mo Gilligan: The Mo You Know", "Arts & Theatre", "Comedy"),
+  ];
+  const rep = normalize(raws, source, new VenueIndex(loadVenues()), TODAY);
+  assert.deepEqual(
+    rep.events.map((e) => [e.venueId, e.type]),
+    [
+      ["roundhouse", "concert"],
+      ["alexandra-palace", "concert"],
+      ["eventim-apollo", "show"],
+      ["lightroom", "exhibition"],
+      ["the-o2", "show"], // the arena, not indigo at The O2
+    ],
+  );
+});
+
+test("Ticketmaster: the same show listed with and without a year or ticket tier is one run", () => {
+  const f = (id: string, name: string, date: string) => mapTmEvent({ ...perf(id, date), name, _embedded: { venues: [{ name: "Marble Arch Place" }] } } as never)!;
+  const runs = collapseRuns([f("1", "FRAMELESS", "2026-11-02"), f("2", "FRAMELESS 2026", "2026-12-31"), f("3", "Illusions STANDARD", "2026-11-03"), f("4", "Illusions PEAK", "2026-11-07")]);
+  assert.deepEqual(
+    runs.map((r) => [r.title, r.dates.startDate, r.dates.endDate]),
+    [
+      ["FRAMELESS", "2026-11-02", "2026-12-31"],
+      ["Illusions STANDARD", "2026-11-03", "2026-11-07"],
+    ],
+  );
+});
+
 test("Ticketmaster: single performance keeps its time; free price detected", () => {
   const e = mapTmEvent({ ...perf("x", "2026-12-01"), priceRanges: [{ min: 0, max: 0 }] } as never)!;
   assert.deepEqual(e.dates, { startDate: "2026-12-01", endDate: null, startTime: "19:30" });

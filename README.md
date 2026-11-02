@@ -6,7 +6,7 @@ at the places you care about. No AI in the app, no API costs.
 - **Calendar**: pick a day → *Happening* (talks, tours, lates, one-night shows) and *On now*
   (exhibitions and show runs), filtered to the places you follow.
 - **Feed**: just announced, this weekend, opening this week, last chance — at your places.
-- **Places**: 246 London museums, galleries, theatres, arts centres and talk/comedy venues to follow.
+- **Places**: over 260 London museums, galleries, theatres, arts centres, music and comedy venues to follow.
 
 ## How it works
 
