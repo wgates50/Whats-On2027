@@ -29,14 +29,19 @@ configs working, adding venues, and teaching the matcher new venue names.
 
 ## Each run
 
+> **GitHub CLI in Claude Code sessions:** GraphQL is blocked, so `gh issue list`, `gh pr create`
+> etc. fail. Use the REST API through `gh api` (recipes below).
+
 ```bash
 git checkout main && git pull && npm ci
-gh issue list --state open --label broken-source --json number,title,author
-gh issue list --state open --label venue-request --json number,title,author
-gh issue list --state open --label venue-aliases --json number,title,author
+R=repos/wgates50/Whats-On2027
+for l in broken-source venue-request venue-aliases; do
+  gh api "$R/issues?state=open&labels=$l&per_page=50" --jq '.[] | select(.pull_request|not) | "\(.number)\t\(.user.login)\t\(.title)"'
+done
+gh api "$R/issues/<n>" --jq .body          # read one issue
 ```
 
-Keep only issues whose author is `wgates50` or `app/github-actions` / `github-actions[bot]`.
+Keep only issues whose author is `wgates50` or `github-actions[bot]`.
 Nothing to do → finish without creating a branch.
 
 ### 1. Broken sources (`broken-source`)
@@ -90,11 +95,23 @@ match. For each name with ≥ 2 events that is clearly a London venue: add it to
 ### 5. Ship
 
 - One branch per run: `claude/maint-YYYY-MM-DD` (the `claude/` prefix is what CI's auto-merge
-  looks for). One commit per fix.
+  looks for). One commit per fix. `git push -u origin claude/maint-YYYY-MM-DD`.
 - PR title `Maintenance YYYY-MM-DD: <summary>`; body lists what changed and `Closes #n` for each
   issue resolved. Not a draft (drafts don't auto-merge).
 - Config-only PRs merge themselves after CI. Code PRs get a `needs-review` label — say so in the
   PR body.
+
+REST recipes (`R=repos/wgates50/Whats-On2027`):
+
+```bash
+# open the PR (write the body to a file first)
+gh api "$R/pulls" -X POST -f title="Maintenance 2026-11-03: fix tate-modern dates" \
+  -f head=claude/maint-2026-11-03 -f base=main -F body=@/tmp/pr-body.md --jq .html_url
+# comment on / label / close an issue
+gh api "$R/issues/<n>/comments" -X POST -f body="What I tried: …"
+gh api "$R/issues/<n>/labels" -X POST -f "labels[]=needs-you"
+gh api "$R/issues/<n>" -X PATCH -f state=closed -f state_reason=completed
+```
 
 ## Reference
 
