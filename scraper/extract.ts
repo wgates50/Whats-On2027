@@ -49,6 +49,20 @@ export function decodeEntities(s: string): string {
 export const clean = (s: string | undefined | null) =>
   s ? decodeEntities(s).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim() : "";
 
+const BLOCKS = "address,article,aside,blockquote,br,dd,div,dl,dt,figcaption,figure,footer,h1,h2,h3,h4,h5,h6,header,hr,li,main,nav,ol,p,pre,section,table,td,th,tr,ul";
+
+/**
+ * An element's text with a space between block-level children. Cheerio's .text() runs adjacent
+ * blocks together — "<p>2 October – 9 December 2018</p><h3>Strange Days</h3>" reads as
+ * "…2018Strange Days", which hides the year — and "Devon Turnbull<br>OJAS" as "Devon TurnbullOJAS".
+ */
+export function textOf(el: ReturnType<CheerioAPI>): string {
+  if (!el.length) return "";
+  const copy = el.first().clone();
+  copy.find(BLOCKS).before(" ").after(" ");
+  return clean(copy.text());
+}
+
 function truncate(s: string, n = 280) {
   if (s.length <= n) return s;
   const cut = s.slice(0, n);
@@ -189,17 +203,17 @@ export function stripSiteSuffix(title: string): string {
 export function pageTitle($: CheerioAPI, selector?: string): string {
   if (selector) {
     for (const part of selector.split(",")) {
-      const t = clean($(part.trim()).first().text());
+      const t = textOf($(part.trim()).first());
       if (t) return t;
     }
   }
-  const h1 = clean($("h1").first().text());
+  const h1 = textOf($("h1").first());
   if (h1) return h1;
   return stripSiteSuffix(meta($, "og:title") ?? clean($("title").first().text()));
 }
 
 export function pageDescription($: CheerioAPI, selector?: string): string | undefined {
-  const t = selector ? clean($(selector).first().text()) : "";
+  const t = selector ? textOf($(selector).first()) : "";
   const d = t || meta($, "og:description") || meta($, "description");
   return d ? truncate(d) : undefined;
 }

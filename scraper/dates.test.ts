@@ -115,3 +115,23 @@ test("keywords only count right before the date", () => {
   assert.deepEqual(p("Opens Saturday, 18 September 2027"), { startDate: "2027-09-18", endDate: null, ongoing: true });
   assert.deepEqual(p("Free to visit until 3 May 2027"), { startDate: null, endDate: "2027-05-03" });
 });
+
+test("a year glued to the next word still counts (date and title in adjacent elements)", () => {
+  assert.deepEqual(p("2 October 2018 – 9 December 2018Strange Days — Memories of the Future→"), { startDate: "2018-10-02", endDate: "2018-12-09", startTime: undefined });
+  assert.deepEqual(p("12 June 2026 – 30 August 2026GENER8ION: VISIONS OF 2034→"), { startDate: "2026-06-12", endDate: "2026-08-30", startTime: undefined });
+  assert.deepEqual(p("October 23, 2026Doors 7pm"), { startDate: "2026-10-23", endDate: null, startTime: "19:00" });
+  assert.equal(p("9 marathons")?.startDate, undefined); // a month needs to end at a word boundary
+});
+
+test("a year on the start carries to an end without one", () => {
+  assert.deepEqual(p("2 October 2018 – 9 December"), { startDate: "2018-10-02", endDate: "2018-12-09", startTime: undefined });
+  assert.deepEqual(p("15 October 2025 – 1 February"), { startDate: "2025-10-15", endDate: "2026-02-01", startTime: undefined });
+  // No year anywhere: still placed relative to today.
+  assert.deepEqual(p("2 October – 9 December"), { startDate: "2026-10-02", endDate: "2026-12-09", startTime: undefined });
+});
+
+test("asides like (closed …) aren't the end of the range", () => {
+  assert.deepEqual(p("2 December 2026 - 20 January 2027 (closed 24-26 December)"), { startDate: "2026-12-02", endDate: "2027-01-20", startTime: undefined });
+  assert.deepEqual(p("Until 3 May 2027 (except Mondays)"), { startDate: null, endDate: "2027-05-03" });
+  assert.deepEqual(p("Sat 7 Nov 2026 (7.30pm)"), { startDate: "2026-11-07", endDate: null, startTime: "19:30" }); // other brackets stay
+});

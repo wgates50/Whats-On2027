@@ -133,7 +133,7 @@ function Feed({ data }: { data: AppData }) {
 
       {plans.length > 0 && (
         <section className="section">
-          <SectionHead title="Your plans" count={plans.length} />
+          <SectionHead title="Your plans" count={plans.length} action={<Link className="link-button" href="/saved/">All saved</Link>} />
           <div className="rows">{plans.map((e, i) => row(e, i, e.startDate && e.startDate > today ? e.startDate : today))}</div>
         </section>
       )}

@@ -11,6 +11,8 @@ at the places you care about. No AI in the app, no API costs.
 - **Places**: over 260 London museums, galleries, theatres, arts centres, music and comedy venues to follow.
   **People**: ~2,000 comedians, bands, speakers and shows with London dates — follow them and their
   dates show up wherever they play, even at venues not in the list.
+- **Saved**: everything you've starred, this week first, then later — with a one-tap tidy-up of
+  anything that's finished.
 
 ## How it works
 

@@ -1900,9 +1900,12 @@
       "cards": {
         "item": "a.block",
         "dates": "div.relative.z-10"
+      },
+      "detail": {
+        "dates": "div.mb-8 > div.mb-6.space-y-1, div.mb-8 > p.text-sm.text-muted-foreground"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Cards carry dates for past shows only; current shows' cards are undated, so their own pages are read (detail.dates)."
   },
   {
     "id": "the-showroom",

@@ -8,6 +8,7 @@ const TABS = [
   { href: "/", label: "Calendar", icon: Icon.calendar, match: (p: string) => p === "/" },
   { href: "/feed/", label: "Feed", icon: Icon.feed, match: (p: string) => p.startsWith("/feed") },
   { href: "/places/", label: "Places", icon: Icon.places, match: (p: string) => p.startsWith("/places") || p.startsWith("/person") },
+  { href: "/saved/", label: "Saved", icon: Icon.saved, match: (p: string) => p.startsWith("/saved") },
 ];
 
 export function TabBar() {
