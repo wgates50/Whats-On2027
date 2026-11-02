@@ -1,6 +1,6 @@
 // Date logic shared by the client components. All dates are London calendar days (YYYY-MM-DD).
 
-import type { WOEvent } from "./types";
+import { SCHEDULE_DIGITS, type WOEvent } from "./types";
 
 export function londonToday(now = new Date()): string {
   const p = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/London", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(now);
@@ -131,3 +131,60 @@ export const dayOfWeek = (day: string) => new Date(day + "T12:00:00Z").getUTCDay
 export function venueClosedOn(hours: (string | null)[] | undefined, day: string): boolean {
   return !!hours && hours[dayOfWeek(day)] === null && hours.some((h) => h !== null);
 }
+
+// ---------------------------------------------------------------- performances (Ticketmaster schedules)
+
+const DIGIT = (c: string) => SCHEDULE_DIGITS.indexOf(c);
+
+/**
+ * Performances of a run on `day`: null when we don't know (no schedule, or outside what it covers),
+ * otherwise the start times — empty when there's no performance that day. A schedule that only
+ * records which days have performances gives ["" ] for a performance at an unknown time.
+ */
+export function performancesOn(e: Pick<WOEvent, "schedule">, day: string): string[] | null {
+  const s = e.schedule;
+  if (!s) return null;
+  const i = daysBetween(s.from, day);
+  if (i < 0 || i >= s.days.length) return null;
+  const mask = DIGIT(s.days[i]);
+  if (mask < 0) return null; // "." — nothing listed for a while: don't claim it's dark
+  if (mask === 0) return [];
+  if (!s.times.length) return [""];
+  return s.times.filter((_, b) => mask & (1 << b));
+}
+
+/** A run that's on, but has no performance this day (e.g. Sundays at most West End shows). */
+export const noPerformanceOn = (e: WOEvent, day: string) => !isOneOff(e) && performancesOn(e, day)?.length === 0;
+
+const DAY_PLURAL = ["Sundays", "Mondays", "Tuesdays", "Wednesdays", "Thursdays", "Fridays", "Saturdays"];
+
+/** "No performances on Sundays or Mondays" — weekdays never played in at least two weeks of schedule. */
+export function darkDaysText(e: Pick<WOEvent, "schedule">): string | null {
+  const s = e.schedule;
+  if (!s || s.days.replace(/\./g, "").length < 14) return null;
+  const played = new Set<number>();
+  for (let i = 0; i < s.days.length; i++) if (DIGIT(s.days[i]) > 0) played.add(dayOfWeek(addDays(s.from, i)));
+  const dark = [1, 2, 3, 4, 5, 6, 0].filter((d) => !played.has(d)).map((d) => DAY_PLURAL[d]);
+  if (!dark.length || dark.length > 4) return null;
+  return `No performances on ${dark.length === 1 ? dark[0] : `${dark.slice(0, -1).join(", ")} or ${dark[dark.length - 1]}`}`;
+}
+
+// ---------------------------------------------------------------- on-sale dates
+
+/** An ISO instant as a London calendar day + HH:MM. */
+export function londonParts(iso: string): { day: string; time: string } {
+  const p = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/London", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date(iso));
+  const g = (t: string) => p.find((x) => x.type === t)!.value;
+  return { day: `${g("year")}-${g("month")}-${g("day")}`, time: `${g("hour")}:${g("minute")}` };
+}
+
+/** "today 10:00", "tomorrow 09:00", "Fri 6 Nov, 10:00" — relative to the London day `today`. */
+export function whenInstant(iso: string, today: string): string {
+  const { day, time } = londonParts(iso);
+  if (day === today) return `today ${time}`;
+  if (day === addDays(today, 1)) return `tomorrow ${time}`;
+  return `${weekdayShort(day)} ${shortDate(day, day.slice(0, 4) !== today.slice(0, 4))}, ${time}`;
+}
+
+/** Tickets not on general sale yet at `now` (ISO)? */
+export const notOnSaleYet = (e: Pick<WOEvent, "onSale">, now: string) => !!e.onSale && e.onSale.start > now;

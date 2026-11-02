@@ -3,7 +3,7 @@
 
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import ticketmaster, { collapseRuns, mapTmEvent } from "./adapters/custom/ticketmaster.ts";
+import ticketmaster, { collapseRuns, mapTmEvent, scheduleOf } from "./adapters/custom/ticketmaster.ts";
 import skiddle, { mapSkiddleEvent } from "./adapters/custom/skiddle.ts";
 import { MissingKeyError } from "./adapters/index.ts";
 import { redact, type Fetcher, type FetchResult } from "./fetcher.ts";
@@ -11,6 +11,7 @@ import { normalize } from "./normalize.ts";
 import { VenueIndex } from "./venues.ts";
 import { loadVenues } from "./config.ts";
 import type { SourceConfig } from "../lib/types.ts";
+import { darkDaysText, noPerformanceOn, performancesOn } from "../lib/when.ts";
 
 const TODAY = "2026-11-02";
 
@@ -69,7 +70,7 @@ test("Ticketmaster: maps events, collapses performances into a run, pages, skips
     return {
       _embedded: {
         events: [
-          perf("a3", "2026-11-28"),
+          perf("a3", "2026-11-12"),
           { ...perf("c1", "2026-11-10"), name: "Cancelled Gig", dates: { start: { localDate: "2026-11-10", localTime: "20:00:00" }, status: { code: "canceled" } } },
         ],
       },
@@ -80,7 +81,7 @@ test("Ticketmaster: maps events, collapses performances into a run, pages, skips
   assert.equal(f.urls.length, 2); // page 0 and 1 of the only window
   assert.ok(f.urls.every((u) => u.includes("apikey=secret-tm-key") && u.includes("city=London") && u.includes("countryCode=GB")));
   const hamlet = res.events.find((e) => e.title === "Hamlet Hail to the Thief")!;
-  assert.deepEqual(hamlet.dates, { startDate: "2026-11-05", endDate: "2026-11-28" });
+  assert.deepEqual(hamlet.dates, { startDate: "2026-11-05", endDate: "2026-11-12" });
   assert.equal(hamlet.image, "https://img/wide.jpg");
   assert.equal(hamlet.venueName, "Barbican Theatre");
   assert.equal(hamlet.typeLabel, "Arts & Theatre Theatre");
@@ -174,16 +175,152 @@ test("Ticketmaster: its classification decides the type, so a band's World Tour 
   );
 });
 
-test("Ticketmaster: the same show listed with and without a year or ticket tier is one run", () => {
-  const f = (id: string, name: string, date: string) => mapTmEvent({ ...perf(id, date), name, _embedded: { venues: [{ name: "Marble Arch Place" }] } } as never)!;
-  const runs = collapseRuns([f("1", "FRAMELESS", "2026-11-02"), f("2", "FRAMELESS 2026", "2026-12-31"), f("3", "Illusions STANDARD", "2026-11-03"), f("4", "Illusions PEAK", "2026-11-07")]);
+test("Ticketmaster: variants of one show are one run; sparse dates are separate listings", () => {
+  const at = (venue: string) => (id: string, name: string, date: string) =>
+    mapTmEvent({ ...perf(id, date), name, _embedded: { venues: [{ name: venue }] } } as never)!;
+  const mk = at("Marble Arch Place");
+  const runs = collapseRuns([
+    mk("1", "FRAMELESS", "2026-11-02"),
+    mk("2", "FRAMELESS 2026", "2026-11-03"),
+    mk("3", "FRAMELESS", "2026-11-04"),
+    mk("4", "FRAMELESS 2026", "2026-11-05"),
+    mk("5", "Illusions STANDARD", "2026-11-03"),
+    mk("6", "Illusions PEAK", "2026-11-04"),
+  ]);
   assert.deepEqual(
     runs.map((r) => [r.title, r.dates.startDate, r.dates.endDate]),
     [
-      ["FRAMELESS", "2026-11-02", "2026-12-31"],
-      ["Illusions STANDARD", "2026-11-03", "2026-11-07"],
+      ["FRAMELESS", "2026-11-02", "2026-11-05"],
+      ["Illusions", "2026-11-03", "2026-11-04"],
     ],
   );
+
+  // Performance variants (colour tracks, relaxed/signed shows) belong to the main run.
+  const gl = at("Gillian Lynne Theatre");
+  const traitors = collapseRuns(["Orange", "Pink", "Blue", "Green", "Yellow", "Brown"].map((c, i) => gl(c, `The Traitors - Acts of Betrayal - ${c} Performance`, `2027-05-1${i}`)));
+  assert.deepEqual(traitors.map((r) => [r.title, r.dates.startDate, r.dates.endDate]), [["The Traitors - Acts of Betrayal", "2027-05-10", "2027-05-15"]]);
+
+  // Two nights five months apart are two listings, not a "run" from November to April…
+  const pal = at("The London Palladium");
+  const murray = collapseRuns([pal("m1", "Al Murray - All You Need Is Guv", "2026-11-06"), pal("m2", "Al Murray - All You Need Is Guv", "2027-04-09")]);
+  assert.deepEqual(murray.map((r) => [r.dates.startDate, r.dates.endDate]), [["2026-11-06", null], ["2027-04-09", null]]);
+  // …a weekly comedy night is a series of dates…
+  const weekly = collapseRuns([0, 7, 14, 21, 28].map((d) => pal(`w${d}`, "Late Night Laughs", new Date(Date.parse("2026-11-04") + d * 864e5).toISOString().slice(0, 10))));
+  assert.equal(weekly.length, 5);
+  // …but a long run with three weeks missing from Ticketmaster stays one run, the gap "not known".
+  const hm = at("His Majesty's Theatre");
+  const days = (from: string, n: number) => Array.from({ length: n }, (_, i) => new Date(Date.parse(from) + i * 864e5).toISOString().slice(0, 10));
+  const phantom = collapseRuns([...days("2026-11-02", 41), ...days("2027-01-04", 30)].map((d) => hm(d, "The Phantom of the Opera", d)));
+  assert.equal(phantom.length, 1);
+  assert.deepEqual(phantom[0].dates, { startDate: "2026-11-02", endDate: "2027-02-02" });
+  assert.equal(performancesOn({ schedule: phantom[0].schedule }, "2026-12-25"), null);
+  assert.deepEqual(performancesOn({ schedule: phantom[0].schedule }, "2026-12-01"), ["19:30"]);
+});
+
+test("Ticketmaster: a run's schedule records which days have performances and when", () => {
+  // Three weeks of a West End-style week: dark Sundays, matinées Wednesday and Saturday.
+  const perfs = [];
+  for (let i = 0; i < 21; i++) {
+    const d = new Date(Date.parse("2026-11-02") + i * 864e5).toISOString().slice(0, 10);
+    const dow = new Date(d + "T12:00:00Z").getUTCDay();
+    if (dow === 0) continue;
+    for (const t of dow === 3 || dow === 6 ? ["14:30", "19:30"] : ["19:30"])
+      perfs.push(mapTmEvent({ ...perf(`${d}-${t}`, d), dates: { start: { localDate: d, localTime: `${t}:00` }, status: { code: "onsale" } } } as never)!);
+  }
+  const [run] = collapseRuns(perfs);
+  assert.deepEqual(run.dates, { startDate: "2026-11-02", endDate: "2026-11-21" });
+  assert.deepEqual(run.schedule?.times, ["14:30", "19:30"]);
+  assert.equal(run.schedule?.days.length, 20);
+
+  const ev = { ...run, startDate: "2026-11-02", endDate: "2026-11-21", schedule: run.schedule } as never;
+  assert.deepEqual(performancesOn(ev, "2026-11-02"), ["19:30"]); // Monday
+  assert.deepEqual(performancesOn(ev, "2026-11-04"), ["14:30", "19:30"]); // Wednesday
+  assert.deepEqual(performancesOn(ev, "2026-11-08"), []); // Sunday: dark
+  assert.equal(performancesOn(ev, "2026-12-25"), null); // beyond what Ticketmaster told us
+  assert.equal(noPerformanceOn({ ...(ev as object), type: "show" } as never, "2026-11-08"), true);
+  assert.equal(darkDaysText(ev), "No performances on Sundays");
+
+  // Too many different times (or some missing) → just which days have a performance.
+  const odd = ["10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00"].map((t, i) =>
+    mapTmEvent({ ...perf(`o${i}`, `2026-11-0${i + 2}`), dates: { start: { localDate: `2026-11-0${i + 2}`, localTime: `${t}:00` } } } as never)!,
+  );
+  const s = scheduleOf(odd)!;
+  assert.deepEqual([s.times, s.days], [[], "1111111"]);
+  assert.deepEqual(performancesOn({ schedule: s }, "2026-11-03"), [""]);
+  // Two nights in a row is a one-off, not a run: no schedule.
+  assert.equal(scheduleOf(odd.slice(0, 2)), undefined);
+
+  // A fortnight with nothing listed mid-run is "not known", not dark (Ticketmaster may not sell those).
+  const gappy = ["2026-12-10", "2026-12-11", "2026-12-12", "2027-01-04", "2027-01-05"].map((d) =>
+    mapTmEvent({ ...perf(d, d), dates: { start: { localDate: d, localTime: "19:30:00" } } } as never)!,
+  );
+  const g = scheduleOf(gappy)!;
+  assert.equal(g.days, "111" + ".".repeat(22) + "11");
+  assert.equal(performancesOn({ schedule: g }, "2026-12-25"), null);
+  assert.deepEqual(performancesOn({ schedule: g }, "2026-12-11"), ["19:30"]);
+});
+
+test("Ticketmaster: on-sale dates — only while no performance is on sale yet", () => {
+  const sale = (id: string, date: string, onsale: string, presales?: unknown[]) =>
+    mapTmEvent({ ...perf(id, date), name: "Gregory Porter", sales: { public: { startDateTime: onsale }, presales } } as never)!;
+  const one = sale("g1", "2027-07-03", "2026-11-06T09:00:00Z", [
+    { name: "Artist Presale", startDateTime: "2026-11-04T09:00:00Z", endDateTime: "2026-11-05T22:00:00Z" },
+    { name: "Priority from O2", startDateTime: "2026-11-03T10:00:00Z", endDateTime: "2026-11-05T22:00:00Z" },
+    { name: "After general sale", startDateTime: "2026-11-07T10:00:00Z" },
+  ]);
+  assert.deepEqual(one.onSale, {
+    start: "2026-11-06T09:00:00Z",
+    presales: [
+      { name: "Priority from O2", start: "2026-11-03T10:00:00Z" },
+      { name: "Artist Presale", start: "2026-11-04T09:00:00Z" },
+    ],
+  });
+  const NOW = "2026-11-02T05:17:00Z";
+  assert.equal(collapseRuns([one], NOW)[0].onSale?.start, "2026-11-06T09:00:00Z");
+  assert.equal(collapseRuns([one], "2026-11-06T09:30:00Z")[0].onSale, undefined); // on sale now
+  // A run where some performances are already on sale isn't "on sale soon".
+  const run = collapseRuns([sale("a", "2027-01-10", "2026-10-01T09:00:00Z"), sale("b", "2027-01-12", "2026-11-20T09:00:00Z")], NOW);
+  assert.deepEqual([run.length, run[0].onSale], [1, undefined]);
+  // Through normalize the date reaches the event.
+  const source: SourceConfig = { id: "ticketmaster", name: "TM", enabled: true, aggregator: true, adapter: { type: "custom", module: "ticketmaster" } };
+  const rep = normalize(collapseRuns([one], NOW), source, new VenueIndex(loadVenues()), TODAY);
+  assert.equal(rep.events[0].onSale?.start, "2026-11-06T09:00:00Z");
+});
+
+test("Ticketmaster: performers become people; their dates at unlisted venues are kept for them", () => {
+  const act = (venue: string, name: string, attractions: unknown[], segment = "Arts & Theatre", genre = "Comedy") =>
+    mapTmEvent({
+      ...perf(name + venue, "2026-11-22"),
+      name,
+      classifications: [{ primary: true, segment: { name: segment }, genre: { name: genre } }],
+      _embedded: { venues: [{ name: venue, city: { name: "London" } }], attractions },
+    } as never)!;
+  const bill = {
+    id: "K8vZ9175zT0",
+    name: "Bill Bailey",
+    classifications: [{ primary: true, segment: { name: "Arts & Theatre" }, genre: { name: "Comedy" } }],
+    externalLinks: { homepage: [{ url: "https://billbailey.co.uk" }], twitter: [{ url: "https://x.com/billbailey" }], wiki: [{ url: "https://en.wikipedia.org/wiki/Bill_Bailey" }] },
+  };
+  const band = { id: "K8x", name: "Muse", classifications: [{ primary: true, segment: { name: "Music" }, genre: { name: "Rock" } }], externalLinks: { spotify: [{ url: "https://open.spotify.com/artist/x" }] } };
+  const club = { id: "K8c", name: "The Comedy Store London", classifications: [{ primary: true, segment: { name: "Arts & Theatre" }, genre: { name: "Comedy" } }] };
+  assert.equal(act("The Comedy Store", "The Best in Stand Up", [club]).people, undefined); // the venue isn't a person
+  const raws = collapseRuns([
+    act("The O2", "Bill Bailey : Vaudevillean", [bill]),
+    act("O2 Academy Brixton", "Muse - The Wow! Signal Europa Tour", [band], "Music", "Rock"), // a venue we don't list
+    act("O2 Academy Brixton", "Some Band Nobody Lists", [], "Music", "Rock"), // unlisted venue, no performer → dropped
+  ]);
+  assert.deepEqual(raws[0].people, [
+    { name: "Bill Bailey", kind: "comedy", links: { homepage: "https://billbailey.co.uk", wiki: "https://en.wikipedia.org/wiki/Bill_Bailey" }, tmId: "K8vZ9175zT0" },
+  ]);
+  const source: SourceConfig = { id: "ticketmaster", name: "TM", enabled: true, aggregator: true, adapter: { type: "custom", module: "ticketmaster" } };
+  const rep = normalize(raws, source, new VenueIndex(loadVenues()), TODAY);
+  assert.deepEqual(rep.events.map((e) => [e.venueId, e.people]), [["the-o2", ["bill-bailey"]]]);
+  assert.deepEqual(rep.elsewhere.map((e) => [e.venueId, e.venueName, e.type, e.people]), [["", "O2 Academy Brixton", "concert", ["muse"]]]);
+  assert.ok(rep.elsewhere[0].id.startsWith("~o2-academy-brixton:"));
+  assert.deepEqual(Object.keys(rep.people).sort(), ["bill-bailey", "muse"]);
+  assert.deepEqual(rep.people.muse, { id: "muse", name: "Muse", kind: "music", links: { spotify: "https://open.spotify.com/artist/x" }, tm: ["K8x"] });
+  // Unknown venue names are still reported for the maintenance task, kept or not.
+  assert.equal(rep.unmatchedVenues["O2 Academy Brixton"], 2);
 });
 
 test("Ticketmaster: single performance keeps its time; free price detected", () => {
@@ -240,4 +377,18 @@ test("API keys are redacted from anything that gets logged", () => {
     "https://app.ticketmaster.com/discovery/v2/events.json?apikey=***&city=London",
   );
   assert.equal(redact("https://www.skiddle.com/api/v1/events/search/?api_key=SECRET&limit=100"), "https://www.skiddle.com/api/v1/events/search/?api_key=***&limit=100");
+});
+
+test("Skiddle: artists (when the API includes them) become people", () => {
+  const e = mapSkiddleEvent({
+    id: 9,
+    eventname: "Josh Widdicombe: Not My Cup of Tea",
+    EventCode: "COMEDY",
+    date: "2026-11-20",
+    startdate: "2026-11-20T19:30:00+00:00",
+    venue: { name: "Leicester Square Theatre", town: "London" },
+    artists: [{ artistid: "77", name: "Josh Widdicombe" }, { name: " " }],
+  })!;
+  assert.deepEqual(e.people, [{ name: "Josh Widdicombe", kind: "comedy" }]);
+  assert.equal(mapSkiddleEvent({ id: 10, eventname: "No artists field", date: "2026-11-20" })!.people, undefined);
 });

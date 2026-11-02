@@ -9,22 +9,28 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
 - `data/venues.json` — every place you can follow (id is permanent: follows are stored against it).
 - `data/sources.json` — where events come from. `venueId` = one venue's own site; `aggregator: true` =
   feeds many venues, matched by name/aliases (`scraper/venues.ts`).
-- `data/events.json`, `data/health.json`, `data/cache/` — **generated** by the daily scrape. Don't hand-edit.
+- `data/events.json`, `data/health.json`, `data/people.json`, `data/cache/` — **generated** by the daily scrape.
+  Don't hand-edit. `people.json` = performers named by the ticketing APIs + their dates at venues we
+  don't list (`elsewhere`, venueId `""`); people's ids are name slugs (follows are stored against them).
   (Bump `CACHE_VERSION` in `scraper/run.ts` when you change page parsing in a way that changes cached results.)
 - `data/manual-events.json` — hand-added events (via the "Add an event" issue form → workflow).
 - `data/hours.json` — opening hours from OpenStreetMap via Nominatim (`npm run hours`, weekly in CI;
   parser in `lib/hours.ts`). © OpenStreetMap contributors — keep the credit where hours are shown.
 - API sources: `scraper/adapters/custom/ticketmaster.ts`, `skiddle.ts` (keys from Actions secrets;
   `skipped` without them; tested with sample responses in `scraper/apis.test.ts`, no fixtures).
-  Ticketmaster: busy date windows split themselves (API stops at 1,000 results); add-ons and
-  attraction admissions are dropped by `NOT_AN_EVENT`; its classification sets `schemaType`. Their
-  events link to their pages and the app credits them ("View on Ticketmaster") — keep that.
+  Ticketmaster (12 months ahead): busy date windows split themselves (API stops at 1,000 results);
+  add-ons and attraction admissions are dropped by `NOT_AN_EVENT`; its classification sets
+  `schemaType`. Runs carry a `schedule` (which days have performances, and times), `onSale` (general
+  sale + presales, only while nothing's on sale yet) and `people`. The scrape copies these onto the
+  venue's own listing when it wins de-duplication. Their events link to their pages and the app credits
+  them ("View on Ticketmaster") — keep that.
 - `scraper/` — `run.ts` (daily), `adapters/` (`pages` = listing/cards/detail pages + JSON-LD, `ics`),
   `dates.ts` (UK date-range parser), `classify.ts` (type/category rules), `normalize.ts`,
   `discover.ts` / `probe.ts` (config helpers), `fixture.ts` + `fixtures/` (recorded pages for tests).
 - `app/`, `components/`, `lib/` — Next.js 16 static-export PWA. Data reaches the app as
-  `public/data/app.json` (built by `scripts/build-data.ts` in `prebuild`). Follows/saved live in
-  localStorage (`lib/store.ts`).
+  `public/data/app.json` and `public/data/people.json` (loaded only for people pages or when you follow
+  someone), built by `scripts/build-data.ts` in `prebuild`. Follows (places and people)/saved live in
+  localStorage (`lib/store.ts`). One static `/person/?id=…` page serves every performer.
 - `.github/workflows/` — `scrape.yml` (daily 05:17 UTC, opens/closes `broken-source` issues),
   `ci.yml` (typecheck, tests, build; auto-merges `claude/*` PRs that only touch config + fixtures),
   `add-event.yml`.

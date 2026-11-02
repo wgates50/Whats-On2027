@@ -2,7 +2,16 @@
 
 import * as cheerio from "cheerio";
 import type { CheerioAPI } from "cheerio";
+import type { OnSale, Person, Schedule } from "../lib/types.ts";
 import { londonDateTime, parseDateRange, type ParsedRange } from "./dates.ts";
+
+/** A performer as an API names them (becomes a Person, id = slug of the name). */
+export interface RawPerson {
+  name: string;
+  kind?: Person["kind"];
+  links?: Person["links"];
+  tmId?: string;
+}
 
 /** What an adapter produces, before venue matching / classification / ids. */
 export interface RawEvent {
@@ -16,6 +25,9 @@ export interface RawEvent {
   schemaType?: string; // e.g. "ExhibitionEvent", "TheaterEvent"
   typeLabel?: string; // a type tag shown on the site, e.g. "Display", "Talk"
   cancelled?: boolean;
+  schedule?: Schedule;
+  onSale?: OnSale;
+  people?: RawPerson[];
 }
 
 export function load(html: string): CheerioAPI {

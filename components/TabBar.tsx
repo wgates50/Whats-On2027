@@ -7,7 +7,7 @@ import { Icon } from "./ui";
 const TABS = [
   { href: "/", label: "Calendar", icon: Icon.calendar, match: (p: string) => p === "/" },
   { href: "/feed/", label: "Feed", icon: Icon.feed, match: (p: string) => p.startsWith("/feed") },
-  { href: "/places/", label: "Places", icon: Icon.places, match: (p: string) => p.startsWith("/places") },
+  { href: "/places/", label: "Places", icon: Icon.places, match: (p: string) => p.startsWith("/places") || p.startsWith("/person") },
 ];
 
 export function TabBar() {

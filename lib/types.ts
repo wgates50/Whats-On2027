@@ -159,6 +159,42 @@ export interface WOEvent {
   description?: string;
   price?: "free" | "paid";
   firstSeen: string; // YYYY-MM-DD the app first saw it — drives the "new" feed
+  /** Which days of a run actually have performances, and when (from Ticketmaster). */
+  schedule?: Schedule;
+  /** Tickets aren't on general sale yet. */
+  onSale?: OnSale;
+  /** Performers (ids in data/people.json). */
+  people?: string[];
+  /** Only for events at venues we don't list (kept because a performer's on): the venue as named. */
+  venueName?: string;
+}
+
+/**
+ * Performances within a run. `days` has one character per day from `from`; each is a bitmask over
+ * `times` written as one SCHEDULE_DIGITS character ("0" = no performance that day, "." = not known —
+ * a week or more with nothing listed). With no `times`, "1" just means "a performance that day".
+ */
+export interface Schedule {
+  from: string; // YYYY-MM-DD
+  times: string[]; // HH:MM, at most 6
+  days: string;
+}
+export const SCHEDULE_DIGITS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_";
+
+export interface OnSale {
+  start: string; // general sale, ISO UTC
+  presales?: { name: string; start: string }[]; // earliest first
+}
+
+export type PersonKind = "music" | "comedy" | "theatre" | "dance" | "family" | "talk" | "other";
+
+/** Someone (or some act) you can follow: from ticketing APIs' performer lists. */
+export interface Person {
+  id: string; // slug of the name — stable (follows are stored against it)
+  name: string;
+  kind: PersonKind;
+  links?: Partial<Record<"homepage" | "spotify" | "instagram" | "wiki" | "youtube", string>>;
+  tm?: string[]; // Ticketmaster attraction ids
 }
 
 export type HealthStatus =

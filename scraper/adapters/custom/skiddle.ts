@@ -3,8 +3,9 @@
 //
 // Env: SKIDDLE_API_KEY. Without it the source is "skipped" (not an error).
 
+import type { Person } from "../../../lib/types.ts";
 import { addDays, londonDateTime, type ParsedRange } from "../../dates.ts";
-import { clean, textToPrice, type RawEvent } from "../../extract.ts";
+import { clean, textToPrice, type RawEvent, type RawPerson } from "../../extract.ts";
 import { MissingKeyError, type AdapterContext, type AdapterResult, type CustomAdapter } from "../index.ts";
 
 const BASE = "https://www.skiddle.com/api/v1/events/search/";
@@ -23,6 +24,8 @@ const CODE_LABEL: Record<string, string> = {
 };
 /** …and, where Skiddle's code is unambiguous, a schema.org type (outranks title words like "UK Tour"). */
 const CODE_SCHEMA: Record<string, string> = { THEATRE: "TheaterEvent", COMEDY: "ComedyEvent", LIVE: "MusicEvent", KIDS: "ChildrensEvent" };
+/** What kind of act the event's artists are. */
+const CODE_KIND: Record<string, Person["kind"]> = { LIVE: "music", COMEDY: "comedy", THEATRE: "theatre", KIDS: "family" };
 
 interface SkEvent {
   id: string | number;
@@ -38,6 +41,8 @@ interface SkEvent {
   enddate?: string;
   description?: string;
   entryprice?: string;
+  /** With description=1 Skiddle adds who's on (not in its docs' examples — read defensively). */
+  artists?: { artistid?: string | number; name?: string }[];
 }
 interface SkResponse {
   error?: number | string;
@@ -55,6 +60,10 @@ export function mapSkiddleEvent(e: SkEvent): RawEvent | null {
   // Skiddle end times often run past midnight; only treat it as a run if it ends on a later *day* + 1.
   const multiDay = en && en.date > s.date && (Date.parse(en.date) - Date.parse(s.date)) / 864e5 >= 2;
   const dates: ParsedRange = multiDay ? { startDate: s.date, endDate: en!.date } : { startDate: s.date, endDate: null, startTime: s.time };
+  const people: RawPerson[] = (Array.isArray(e.artists) ? e.artists : [])
+    .map((a) => clean(a?.name))
+    .filter(Boolean)
+    .map((name) => ({ name, kind: (e.EventCode && CODE_KIND[e.EventCode]) || "other" }));
   const price = e.entryprice ? (/^\s*(free|£\s*0(\.00)?)\s*$/i.test(e.entryprice) ? "free" : textToPrice(e.entryprice) ?? (/\d/.test(e.entryprice) ? "paid" : undefined)) : undefined;
   return {
     url: e.link ?? `https://www.skiddle.com/e/${e.id}`,
@@ -67,6 +76,7 @@ export function mapSkiddleEvent(e: SkEvent): RawEvent | null {
     typeLabel: e.EventCode ? CODE_LABEL[e.EventCode] ?? e.EventCode : undefined,
     schemaType: e.EventCode ? CODE_SCHEMA[e.EventCode] : undefined,
     cancelled: e.cancelled === true || e.cancelled === 1 || e.cancelled === "1",
+    ...(people.length ? { people } : {}),
   };
 }
 

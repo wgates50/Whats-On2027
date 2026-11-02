@@ -87,6 +87,10 @@ running the scrape from somewhere else to dodge it). Disable the source and mark
 **`skipped`** means an API source has no key (`TICKETMASTER_API_KEY` / `SKIDDLE_API_KEY` secrets). It
 is not an error and never opens an issue — leave it alone.
 
+**People** (`data/people.json`) are generated from the ticketing APIs' performer lists — nothing to
+maintain. Their dates at venues we don't list live there too (`elsewhere`), so a missing venue doesn't
+hide a followed performer's gig; still add the venue if it fits the app.
+
 **Ticketmaster junk.** If non-events show up (a new kind of VIP package, parking, attraction
 admission), prefer the source's `exclude` regex in `data/sources.json` (config, auto-merges). The
 adapter's `NOT_AN_EVENT` covers the general patterns. Its `venue-aliases` names are mostly gig venues;

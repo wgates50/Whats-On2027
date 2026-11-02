@@ -1,6 +1,6 @@
 // Offline support: app shell + latest listings are kept on the device.
 // Network-first for pages and data (always fresh when online), cache-first for hashed assets.
-const CACHE = "whatson-v1";
+const CACHE = "whatson-v2";
 const SHELL = ["/", "/feed/", "/places/", "/data/app.json", "/manifest.webmanifest", "/icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
@@ -42,6 +42,11 @@ self.addEventListener("fetch", (e) => {
         }
         return res;
       })
-      .catch(async () => (await caches.match(req)) || (req.mode === "navigate" ? caches.match("/") : Response.error())),
+      .catch(
+        async () =>
+          (await caches.match(req)) ||
+          // /person/?id=… is one page for everyone: any cached copy will do.
+          (req.mode === "navigate" ? (await caches.match(req, { ignoreSearch: true })) || caches.match("/") : Response.error()),
+      ),
   );
 });

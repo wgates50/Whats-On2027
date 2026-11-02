@@ -8,9 +8,9 @@
 
 import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import type { HealthStatus, SourceConfig, WOEvent } from "../lib/types.ts";
+import type { HealthStatus, Person, SourceConfig, WOEvent } from "../lib/types.ts";
 import { MissingKeyError, runAdapter, type CachedDetail, type DetailCache } from "./adapters/index.ts";
-import { loadEvents, loadHealth, loadSources, loadVenues, writeJson, type HealthFile } from "./config.ts";
+import { loadEvents, loadHealth, loadPeople, loadSources, loadVenues, writeJson, type HealthFile } from "./config.ts";
 import { todayLondon } from "./dates.ts";
 import { BlockedError, createFetcher } from "./fetcher.ts";
 import { normalize } from "./normalize.ts";
@@ -24,6 +24,8 @@ interface Outcome {
   events: WOEvent[];
   warnings: string[];
   unmatchedVenues: Record<string, number>;
+  elsewhere: WOEvent[];
+  people: Record<string, Person>;
   ms: number;
 }
 
@@ -43,6 +45,7 @@ const allSources = loadSources();
 const sources = allSources.filter((s) => s.enabled && (!only || only.includes(s.id)));
 if (only) for (const id of only) if (!allSources.some((s) => s.id === id)) console.warn(`⚠ unknown source: ${id}`);
 const prevEvents = loadEvents().events;
+const prevPeople = loadPeople();
 const prevHealth = loadHealth();
 const fetcher = createFetcher({ mode: "live" });
 
@@ -74,7 +77,7 @@ function saveCache(s: SourceConfig, cache: DetailCache) {
 
 async function runOne(source: SourceConfig): Promise<Outcome> {
   const t0 = Date.now();
-  const base = { source, events: [] as WOEvent[], warnings: [] as string[], unmatchedVenues: {} };
+  const base = { source, events: [] as WOEvent[], warnings: [] as string[], unmatchedVenues: {}, elsewhere: [] as WOEvent[], people: {} };
   const cache = source.adapter.type === "pages" && source.adapter.cacheDays ? loadCache(source) : undefined;
   try {
     // Adapters stop fetching at the deadline and return what they have; the timeout is only a backstop.
@@ -114,7 +117,17 @@ async function runOne(source: SourceConfig): Promise<Outcome> {
       status = "dropped";
       message = `${rep.events.length} events, usually ~${baseline}`;
     }
-    return { ...base, status, message, events: rep.events, warnings: res.warnings, unmatchedVenues: rep.unmatchedVenues, ms: Date.now() - t0 };
+    return {
+      ...base,
+      status,
+      message,
+      events: rep.events,
+      warnings: res.warnings,
+      unmatchedVenues: rep.unmatchedVenues,
+      elsewhere: rep.elsewhere,
+      people: rep.people,
+      ms: Date.now() - t0,
+    };
   } catch (e) {
     if (cache && !dry && cache.size) saveCache(source, cache); // keep partial progress
     if (e instanceof MissingKeyError) return { ...base, status: "skipped", message: e.message, ms: Date.now() - t0 };
@@ -141,6 +154,15 @@ const outcomes = await pool(sources, 6, async (s) => {
   console.log(`${o.status === "ok" ? "✓" : o.status === "skipped" ? "–" : "✗"} ${s.id.padEnd(34)} ${o.status.padEnd(8)} ${String(o.events.length).padStart(4)} events  ${(o.ms / 1000).toFixed(0)}s${o.message ? `  — ${o.message}` : ""}`);
   return o;
 });
+
+// A source's first successful run brings its whole programme at once (a new venue, a new API key) —
+// that's not "just announced", so date it to when the app started. Same for the first people.json.
+const startedOn = prevEvents.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), today);
+for (const o of outcomes) {
+  const first = o.status === "ok" && !prevHealth.sources[o.source.id]?.lastOk;
+  for (const e of first ? o.events : []) e.firstSeen = startedOn;
+  for (const e of first || !prevPeople.generatedAt ? o.elsewhere : []) e.firstSeen = startedOn;
+}
 
 // ---------------------------------------------------------------- merge
 
@@ -175,12 +197,26 @@ const byKey = new Map<string, WOEvent>();
 const byVenue = new Map<string, WOEvent[]>();
 const prevById = new Map(prevEvents.map((e) => [e.id, e]));
 const prevByKey = new Map(prevEvents.map((e) => [keyOf(e), e]));
+/** The venue's own listing wins, but keeps what only the ticketing API knew. */
+const enrich = (kept: WOEvent, dup: WOEvent) => {
+  if (dup.schedule && !kept.schedule) kept.schedule = dup.schedule;
+  if (dup.onSale && !kept.onSale) kept.onSale = dup.onSale;
+  if (dup.people?.length) kept.people = [...new Set([...(kept.people ?? []), ...dup.people])];
+};
 for (const e of merged) {
   const k = keyOf(e);
-  if (byKey.has(k)) continue;
+  const same = byKey.get(k);
+  if (same) {
+    if (same.sourceId !== e.sourceId) enrich(same, e);
+    continue;
+  }
   const kept = byVenue.get(e.venueId) ?? [];
   // Only across sources: one site's own "Tour" and "BSL Tour" are separate events.
-  if (kept.some((x) => x.sourceId !== e.sourceId && sameThing(x, e))) continue;
+  const twin = kept.find((x) => x.sourceId !== e.sourceId && sameThing(x, e));
+  if (twin) {
+    enrich(twin, e);
+    continue;
+  }
   const firstSeen = [e.firstSeen, prevById.get(e.id)?.firstSeen, prevByKey.get(k)?.firstSeen].filter(Boolean).sort()[0]!;
   const ev = { ...e, firstSeen };
   byKey.set(k, ev);
@@ -189,6 +225,49 @@ for (const e of merged) {
 const events = [...byKey.values()].sort(
   (a, b) => (a.startDate ?? "").localeCompare(b.startDate ?? "") || a.venueId.localeCompare(b.venueId) || a.title.localeCompare(b.title),
 );
+
+// ---------------------------------------------------------------- people
+
+// Performers' dates at venues we don't list. Same carry-over rules as events: a source that failed
+// (or wasn't run) keeps its previous, still-current ones.
+const prevElsewhere = new Map(prevPeople.elsewhere.map((e) => [e.id, e]));
+const elsewhereAll: WOEvent[] = [];
+for (const o of outcomes) {
+  elsewhereAll.push(...o.elsewhere);
+  if (o.status !== "ok") {
+    const have = new Set(o.elsewhere.map((e) => e.id));
+    elsewhereAll.push(...prevPeople.elsewhere.filter((e) => e.sourceId === o.source.id && !have.has(e.id) && isCurrent(e)));
+  }
+}
+for (const e of prevPeople.elsewhere) if (!ran.has(e.sourceId) && (only ? true : stillConfigured.has(e.sourceId)) && isCurrent(e)) elsewhereAll.push(e);
+const elsewhereKey = (e: WOEvent) => `${normName(e.venueName ?? "")}|${normName(e.title)}`;
+const elsewhereByKey = new Map<string, WOEvent>();
+for (const e of elsewhereAll) {
+  const k = elsewhereKey(e);
+  const had = elsewhereByKey.get(k);
+  if (had) {
+    if (had.sourceId !== e.sourceId) enrich(had, e);
+    continue;
+  }
+  const firstSeen = [e.firstSeen, prevElsewhere.get(e.id)?.firstSeen].filter(Boolean).sort()[0]!;
+  elsewhereByKey.set(k, { ...e, firstSeen });
+}
+const elsewhere = [...elsewhereByKey.values()].sort(
+  (a, b) => (a.startDate ?? "").localeCompare(b.startDate ?? "") || (a.venueName ?? "").localeCompare(b.venueName ?? "") || a.title.localeCompare(b.title),
+);
+
+// Everyone named by a current event (here or elsewhere); what the APIs said this run wins.
+const peopleById = new Map<string, Person>(prevPeople.people.map((p) => [p.id, p]));
+for (const o of outcomes)
+  for (const p of Object.values(o.people)) {
+    const had = peopleById.get(p.id);
+    peopleById.set(p.id, had ? { ...had, ...p, links: { ...had.links, ...p.links }, tm: [...new Set([...(had.tm ?? []), ...(p.tm ?? [])])] } : p);
+  }
+const named = new Set([...events, ...elsewhere].flatMap((e) => e.people ?? []));
+const people = [...peopleById.values()]
+  .filter((p) => named.has(p.id))
+  .map((p) => ({ ...p, ...(p.links && !Object.keys(p.links).length ? { links: undefined } : {}), ...(p.tm && !p.tm.length ? { tm: undefined } : {}) }))
+  .sort((a, b) => a.name.localeCompare(b.name));
 
 // ---------------------------------------------------------------- health
 
@@ -237,7 +316,9 @@ if (dry) {
     if (um.length) console.log(`  unmatched venues: ${um.map(([k, v]) => `${k} (${v})`).join(", ")}`);
     if (o.warnings.length) console.log(`  warnings: ${o.warnings.slice(0, 5).join(" | ")}`);
   }
+  console.log(`\npeople: ${people.length} performers · ${elsewhere.length} dates at other venues`);
 } else {
   writeJson("events.json", { generatedAt: now, events });
+  writeJson("people.json", { generatedAt: now, people, elsewhere });
   writeJson("health.json", health);
 }

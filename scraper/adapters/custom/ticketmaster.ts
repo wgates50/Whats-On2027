@@ -7,9 +7,11 @@
 // Terms: Ticketmaster requires attribution and links back to their event pages — we always link
 // to the Ticketmaster URL and credit them in the app.
 
+import { SCHEDULE_DIGITS, type OnSale, type Person, type Schedule } from "../../../lib/types.ts";
 import { addDays, type ParsedRange } from "../../dates.ts";
-import { clean, type RawEvent } from "../../extract.ts";
+import { clean, type RawEvent, type RawPerson } from "../../extract.ts";
 import { spanOf } from "../pages.ts";
+import { normName } from "../../venues.ts";
 import { MissingKeyError, type AdapterContext, type AdapterResult, type CustomAdapter } from "../index.ts";
 
 const BASE = "https://app.ticketmaster.com/discovery/v2/events.json";
@@ -43,7 +45,17 @@ interface TmEvent {
   classifications?: TmClassification[];
   priceRanges?: { min?: number; max?: number }[];
   info?: string;
-  _embedded?: { venues?: { name?: string; city?: { name?: string } }[] };
+  sales?: {
+    public?: { startDateTime?: string; startTBD?: boolean; startTBA?: boolean };
+    presales?: { name?: string; startDateTime?: string; endDateTime?: string }[];
+  };
+  _embedded?: { venues?: { name?: string; city?: { name?: string } }[]; attractions?: TmAttraction[] };
+}
+interface TmAttraction {
+  id?: string;
+  name?: string;
+  classifications?: TmClassification[];
+  externalLinks?: Record<string, { url?: string }[] | undefined>;
 }
 interface TmResponse {
   _embedded?: { events?: TmEvent[] };
@@ -86,6 +98,46 @@ function schemaFor(c?: TmClassification): string | undefined {
   return undefined;
 }
 
+/** What sort of act a performer is, from their own (or the event's) classification. */
+function kindOf(c?: TmClassification): Person["kind"] {
+  const segment = c?.segment?.name ?? "";
+  const genre = c?.genre?.name ?? "";
+  if (/lecture|seminar/i.test(c?.subType?.name ?? "") || /spoken word/i.test(genre)) return "talk";
+  if (segment === "Music" || /classical|opera/i.test(genre)) return "music";
+  if (/comedy/i.test(genre)) return "comedy";
+  if (/children|family/i.test(genre)) return "family";
+  if (/dance/i.test(genre)) return "dance";
+  if (segment === "Arts & Theatre") return "theatre";
+  return "other";
+}
+
+const LINK_KINDS = ["homepage", "spotify", "instagram", "wiki", "youtube"] as const;
+
+function personOf(a: TmAttraction, eventClass?: TmClassification, venueName?: string): RawPerson | null {
+  const name = clean(a.name);
+  if (!name || NOT_AN_EVENT.test(name)) return null;
+  // "The Comedy Store London" at The Comedy Store is the venue's own programme, not someone to follow.
+  if (venueName && normName(name) === normName(venueName)) return null;
+  const links: NonNullable<RawPerson["links"]> = {};
+  for (const k of LINK_KINDS) {
+    const url = a.externalLinks?.[k]?.[0]?.url;
+    if (url && /^https?:\/\//.test(url)) links[k] = url;
+  }
+  const c = a.classifications?.find((x) => x.primary) ?? a.classifications?.[0];
+  return { name, kind: kindOf(c?.segment?.name && c.segment.name !== "Undefined" ? c : eventClass), ...(Object.keys(links).length ? { links } : {}), ...(a.id ? { tmId: a.id } : {}) };
+}
+
+function onSaleOf(e: TmEvent): OnSale | undefined {
+  const pub = e.sales?.public;
+  if (!pub?.startDateTime || pub.startTBD || pub.startTBA) return undefined;
+  const presales = (e.sales?.presales ?? [])
+    .filter((p) => p.name && p.startDateTime && p.startDateTime < pub.startDateTime!)
+    .sort((a, b) => a.startDateTime!.localeCompare(b.startDateTime!))
+    .slice(0, 3)
+    .map((p) => ({ name: clean(p.name), start: p.startDateTime! }));
+  return { start: pub.startDateTime, ...(presales.length ? { presales } : {}) };
+}
+
 export function mapTmEvent(e: TmEvent): RawEvent | null {
   if (e.test) return null;
   const status = e.dates?.status?.code;
@@ -101,6 +153,8 @@ export function mapTmEvent(e: TmEvent): RawEvent | null {
   const exhibit = /exhibit|museum/i.test(c?.subType?.name ?? ""); // immersive shows, Frameless, Lightroom
   const label = exhibit ? "Exhibition" : [c?.segment?.name, c?.genre?.name].filter((x) => x && x !== "Undefined").join(" ");
   const prices = (e.priceRanges ?? []).flatMap((p) => [p.min, p.max]).filter((x): x is number => typeof x === "number");
+  const onSale = onSaleOf(e);
+  const people = (e._embedded?.attractions ?? []).map((a) => personOf(a, c, venue?.name)).filter((p): p is RawPerson => !!p);
   return {
     url: e.url ?? `https://www.ticketmaster.co.uk/event/${e.id}`,
     title: clean(e.name),
@@ -112,19 +166,105 @@ export function mapTmEvent(e: TmEvent): RawEvent | null {
     typeLabel: label || undefined,
     schemaType: exhibit ? undefined : schemaFor(c),
     cancelled: status === "canceled" || MOVED.test(e.name),
+    ...(onSale ? { onSale } : {}),
+    ...(people.length ? { people } : {}),
   };
 }
 
-/** Same show, different listing: "FRAMELESS" / "FRAMELESS 2026", "… STANDARD" / "… PEAK" tickets. */
-const runKey = (e: RawEvent) =>
-  `${(e.venueName ?? "").toLowerCase()}|${e.title
-    .toLowerCase()
-    .replace(/\s*[-–:|(]?\s*\b(standard|peak|off[- ]peak)\)?\s*$/, "")
-    .replace(/\s*[-–:|(]?\s*\b20\d\d\)?\s*$/, "")
-    .trim()}`;
+const dayIndex = (from: string, day: string) => Math.round((Date.parse(day) - Date.parse(from)) / 864e5);
 
-/** One listing per show per venue: many performances → one run from first to last date. */
-export function collapseRuns(events: RawEvent[]): RawEvent[] {
+/**
+ * Which days of a run have performances, and at what times (see Schedule in lib/types.ts). Only for
+ * runs longer than a few days — shorter ones are one-offs in the app and show their own time.
+ */
+export function scheduleOf(perfs: RawEvent[]): Schedule | undefined {
+  const dated = perfs.filter((p) => p.dates.startDate && !p.dates.endDate);
+  const days = dated.map((p) => p.dates.startDate!).sort();
+  if (dated.length < 2 || dayIndex(days[0], days[days.length - 1]) < 4) return undefined;
+  const freq = new Map<string, number>();
+  for (const p of dated) if (p.dates.startTime) freq.set(p.dates.startTime, (freq.get(p.dates.startTime) ?? 0) + 1);
+  // Up to 6 distinct times fit the encoding; otherwise (or if some times are missing) record just
+  // which days have a performance.
+  const times = freq.size <= 6 && dated.every((p) => p.dates.startTime) ? [...freq.keys()].sort() : [];
+  const masks = new Array<number>(dayIndex(days[0], days[days.length - 1]) + 1).fill(0);
+  for (const p of dated) masks[dayIndex(days[0], p.dates.startDate!)] |= times.length ? 1 << times.indexOf(p.dates.startTime!) : 1;
+  const chars = masks.map((m) => SCHEDULE_DIGITS[m]);
+  // A week or more with nothing listed, mid-run, is more likely dates Ticketmaster doesn't sell (sold
+  // elsewhere, not released yet) than a dark theatre: mark it unknown rather than "no performance".
+  for (let i = 0; i < chars.length; ) {
+    let j = i;
+    while (j < chars.length && chars[j] === "0") j++;
+    if (j - i >= 7) chars.fill(".", i, j);
+    i = j > i ? j : i + 1;
+  }
+  return { from: days[0], times, days: chars.join("") };
+}
+
+/** A run is "on sale soon" only if none of its performances is on sale yet. */
+function runOnSale(perfs: RawEvent[], now: string): OnSale | undefined {
+  if (perfs.some((p) => !p.onSale || p.onSale.start <= now)) return undefined;
+  return [...perfs].sort((a, b) => a.onSale!.start.localeCompare(b.onSale!.start))[0].onSale;
+}
+
+function peopleOf(perfs: RawEvent[]): RawPerson[] | undefined {
+  const byName = new Map<string, RawPerson>();
+  for (const p of perfs) for (const x of p.people ?? []) if (!byName.has(x.name.toLowerCase())) byName.set(x.name.toLowerCase(), x);
+  return byName.size ? [...byName.values()] : undefined;
+}
+
+/**
+ * The same show listed under variant names: "FRAMELESS" / "FRAMELESS 2026", "… STANDARD" / "… PEAK"
+ * tickets, "The Traitors - Acts of Betrayal - Orange Performance", "Hamilton - Relaxed Performance".
+ */
+export function baseTitle(title: string): string {
+  return (
+    title
+      .replace(/\s*[-–:|]\s*[\w'’ ]{1,30}\bperformance\s*$/i, "")
+      .replace(/\s*[-–:|(]?\s*\b(standard|peak|off[- ]peak)\)?\s*$/i, "")
+      .replace(/\s*[-–:|(]?\s*\b20\d\d\)?\s*$/, "")
+      .trim() || title
+  );
+}
+const runKey = (e: RawEvent) => `${(e.venueName ?? "").toLowerCase()}|${baseTitle(e.title).toLowerCase()}`;
+
+const firstDay = (c: RawEvent[]) => c[0].dates.startDate!;
+const lastDay = (c: RawEvent[]) => c[c.length - 1].dates.endDate ?? c[c.length - 1].dates.startDate!;
+const spanDays = (c: RawEvent[]) => dayIndex(firstDay(c), lastDay(c)) + 1;
+
+/**
+ * Performances (sorted, dated) → the listings they make. A show that plays most days is one run; a
+ * comedian's two Palladium nights five months apart, or a monthly improv night, are separate dates.
+ *  - split wherever two performances are 2+ weeks apart;
+ *  - …but two long stretches either side of a gap stay one run (Phantom with its Christmas dates
+ *    not on Ticketmaster): the gap becomes "not known" in the schedule;
+ *  - a stretch with performances on under ~30% of its days is a series of dates, one listing each.
+ */
+export function splitRuns(perfs: RawEvent[]): RawEvent[][] {
+  const clusters: RawEvent[][] = [];
+  for (const p of perfs) {
+    const c = clusters[clusters.length - 1];
+    if (c && dayIndex(lastDay(c), p.dates.startDate!) < 14) c.push(p);
+    else clusters.push([p]);
+  }
+  const joined: RawEvent[][] = [];
+  for (const c of clusters) {
+    const prev = joined[joined.length - 1];
+    if (prev && spanDays(prev) >= 14 && spanDays(c) >= 14) prev.push(...c);
+    else joined.push([...c]);
+  }
+  return joined.flatMap((c) => {
+    const days = new Set(c.map((p) => p.dates.startDate));
+    if (spanDays(c) <= 4 || days.size / spanDays(c) >= 0.3) return [c];
+    return [...days].map((d) => c.filter((p) => p.dates.startDate === d));
+  });
+}
+
+/**
+ * One listing per show per venue: many performances → runs (see splitRuns), each with its
+ * performance schedule, its performers, and its on-sale date if no performance is on sale yet.
+ * `now` (ISO) decides what "on sale" means.
+ */
+export function collapseRuns(events: RawEvent[], now = new Date().toISOString()): RawEvent[] {
   const groups = new Map<string, RawEvent[]>();
   for (const e of events) {
     const k = runKey(e);
@@ -138,7 +278,15 @@ export function collapseRuns(events: RawEvent[]): RawEvent[] {
       continue;
     }
     const sorted = [...live].sort((a, b) => (a.dates.startDate ?? "").localeCompare(b.dates.startDate ?? ""));
-    out.push(sorted.length === 1 ? sorted[0] : { ...sorted[0], dates: spanOf(sorted.map((e) => e.dates)) });
+    for (const c of splitRuns(sorted)) {
+      const { onSale: _o, people: _p, ...first } = c[0];
+      const title = new Set(c.map((e) => e.title)).size > 1 ? baseTitle(first.title) : first.title;
+      const run: RawEvent = c.length === 1 ? first : { ...first, title, dates: spanOf(c.map((e) => e.dates)) };
+      const schedule = scheduleOf(c);
+      const onSale = runOnSale(c, now);
+      const people = peopleOf(c);
+      out.push({ ...run, ...(schedule ? { schedule } : {}), ...(onSale ? { onSale } : {}), ...(people ? { people } : {}) });
+    }
   }
   return out;
 }
