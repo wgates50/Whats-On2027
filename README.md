@@ -4,9 +4,13 @@ A personal, installable web app (PWA) for what's on in London — **exhibitions,
 at the places you care about. No AI in the app, no API costs.
 
 - **Calendar**: pick a day → *Happening* (talks, tours, lates, one-night shows) and *On now*
-  (exhibitions and show runs), filtered to the places you follow.
-- **Feed**: just announced, this weekend, opening this week, last chance — at your places.
+  (exhibitions and show runs), filtered to the places and people you follow. Shows say when they're
+  on that day — or that there's no performance (e.g. Sundays in the West End).
+- **Feed**: on sale soon (with presales), people you follow, just announced, this weekend, opening
+  this week, last chance.
 - **Places**: over 260 London museums, galleries, theatres, arts centres, music and comedy venues to follow.
+  **People**: ~2,000 comedians, bands, speakers and shows with London dates — follow them and their
+  dates show up wherever they play, even at venues not in the list.
 
 ## How it works
 
@@ -48,6 +52,9 @@ free, and the sources are simply *skipped* until a key is added:
 Add each in GitHub: repo → **Settings → Secrets and variables → Actions → New repository secret**.
 The next daily scrape picks them up (or run *Actions → Daily scrape → Run workflow*). Keys stay in
 GitHub — they're never in the app or the logs.
+
+Ticketmaster also gives each show's performance days and times, on-sale dates and performers (that's
+where the People list comes from). It has no prices for UK events and no sold-out status on a free key.
 
 Opening hours come from OpenStreetMap (no key; refreshed weekly) and show on venue pages and as
 "Venue closed" on the calendar.
