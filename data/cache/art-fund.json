@@ -449,6 +449,22 @@
    },
    "at": "2026-11-02"
   },
+  "https://www.artfund.org/explore/exhibitions/2025/10/11/tai-shani-the-spell-or-the-dream": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2025/10/11/tai-shani-the-spell-or-the-dream",
+    "title": "Tai Shani: The Spell or The Dream",
+    "dates": {
+     "startDate": "2025-10-11",
+     "endDate": "2027-04-11"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/42C1F343-7A96-4024-BAD4790F1E8C58B1/67f7199a1ba302c15b9ff46fbb09fac1-md.jpg",
+    "description": "Major commission of Turner Prize-winning artist evokes myth of eternal slumber to imagine new political possibilities.",
+    "venueName": "Jupiter Artland, Edinburgh",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-03"
+  },
   "https://www.artfund.org/explore/exhibitions/2025/11/01/beyond-the-visual-blindness-and-expanded-sculpture": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2025/11/01/beyond-the-visual-blindness-and-expanded-sculpture",
@@ -1324,22 +1340,6 @@
     "image": "https://d3ir5jsauc24hh.cloudfront.net/0a95de7a-2c72-42ca-b00d-30f466559260/9c90513dd81456d9345264bde6ff0d8e-md.png",
     "description": "A fascinating exhibition exploring the life, work, and lasting influence of one of Britain's most celebrated literary figures",
     "venueName": "Dimbola Museum & Galleries, Freshwater Bay",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-02"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/06/13/mirror-moon": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/06/13/mirror-moon",
-    "title": "Mirror Moon",
-    "dates": {
-     "startDate": "2026-06-13",
-     "endDate": "2026-11-02"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/70a1646f-3581-4d64-8c02-1c969a7b32b7/dccbd519e4289396f02da90b31d70f4c-md.jpg",
-    "description": "See and feel the lunar surface like never before in this brand new work by contemporary artist Luke Jerram.",
-    "venueName": "Royal Observatory Greenwich, London",
     "schemaType": "Event",
     "cancelled": false
    },

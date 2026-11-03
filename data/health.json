@@ -1,35 +1,37 @@
 {
-  "checkedAt": "2026-11-02T12:21:30.450Z",
+  "checkedAt": "2026-11-03T12:45:34.267Z",
   "sources": {
     "official-london-theatre": {
       "sourceId": "official-london-theatre",
       "status": "blocked",
       "count": 0,
-      "previousCount": 128,
+      "previousCount": 0,
       "message": "HTTP 403 (site is refusing automated requests)",
-      "checkedAt": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
       "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 128,
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     "tate-modern": {
       "sourceId": "tate-modern",
       "status": "ok",
-      "count": 24,
+      "count": 25,
       "previousCount": 24,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 24,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 25,
+      "configKey": "97866a2aeafd",
       "consecutiveFailures": 0
     },
     "tate-britain": {
       "sourceId": "tate-britain",
       "status": "ok",
-      "count": 17,
+      "count": 18,
       "previousCount": 17,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 17,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 18,
+      "configKey": "2543422b088c",
       "consecutiveFailures": 0
     },
     "vam": {
@@ -37,16 +39,17 @@
       "status": "ok",
       "count": 85,
       "previousCount": 85,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 85,
+      "configKey": "4b67447c7c89",
       "consecutiveFailures": 0,
       "unmatchedVenues": {
-        "Online": 7,
+        "Online": 6,
         "No venue": 1
       },
       "warnings": [
-        "6 cards had no parseable dates (94 did)"
+        "6 cards had no parseable dates (92 did)"
       ]
     },
     "national-gallery": {
@@ -54,9 +57,10 @@
       "status": "ok",
       "count": 8,
       "previousCount": 8,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 8,
+      "configKey": "92fcf201b9a9",
       "consecutiveFailures": 0
     },
     "barbican": {
@@ -64,9 +68,10 @@
       "status": "ok",
       "count": 56,
       "previousCount": 56,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 56,
+      "configKey": "295022f1b0f6",
       "consecutiveFailures": 0
     },
     "sadlers-wells": {
@@ -74,9 +79,10 @@
       "status": "ok",
       "count": 37,
       "previousCount": 37,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 37,
+      "configKey": "92c376717363",
       "consecutiveFailures": 0,
       "unmatchedVenues": {
         "(no venue given)": 1
@@ -87,30 +93,32 @@
       "status": "ok",
       "count": 10,
       "previousCount": 10,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 10,
+      "configKey": "e75f64f093d0",
       "consecutiveFailures": 0
     },
     "serpentine": {
       "sourceId": "serpentine",
       "status": "blocked",
       "count": 0,
-      "previousCount": 9,
+      "previousCount": 0,
       "message": "HTTP 403 (site is refusing automated requests)",
-      "checkedAt": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
       "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 9,
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     "whitechapel": {
       "sourceId": "whitechapel",
       "status": "ok",
       "count": 6,
       "previousCount": 6,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 6,
+      "configKey": "514c1448b25e",
       "consecutiveFailures": 0
     },
     "photographers-gallery": {
@@ -118,9 +126,10 @@
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 12,
+      "configKey": "c14bfd6c0d39",
       "consecutiveFailures": 0
     },
     "design-museum": {
@@ -128,9 +137,10 @@
       "status": "ok",
       "count": 6,
       "previousCount": 6,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 6,
+      "configKey": "44b0f825ed6e",
       "consecutiveFailures": 0
     },
     "saatchi-gallery": {
@@ -138,9 +148,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "2d1e9d5ff7c4",
       "consecutiveFailures": 0
     },
     "somerset-house": {
@@ -148,9 +159,10 @@
       "status": "ok",
       "count": 10,
       "previousCount": 10,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 10,
+      "configKey": "978edc40fc1f",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (10 did)"
@@ -161,9 +173,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "7a1cbeb2b25f",
       "consecutiveFailures": 0
     },
     "natural-history-museum": {
@@ -171,9 +184,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "85635af5e866",
       "consecutiveFailures": 0,
       "warnings": [
         "6 cards had no parseable dates (3 did)"
@@ -183,21 +197,22 @@
       "sourceId": "wellcome-collection",
       "status": "empty",
       "count": 0,
-      "previousCount": 15,
+      "previousCount": 0,
       "message": "0 current events (adapter returned 0; 0 already finished; 0 unknown venue names; 0 links found)",
-      "checkedAt": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
       "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 15,
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     "horniman-museum-and-gardens": {
       "sourceId": "horniman-museum-and-gardens",
       "status": "ok",
       "count": 14,
       "previousCount": 14,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 14,
+      "configKey": "49cf1bbb6830",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (14 did)"
@@ -208,9 +223,10 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "a6ac7e9434fb",
       "consecutiveFailures": 0
     },
     "the-wallace-collection": {
@@ -218,9 +234,10 @@
       "status": "ok",
       "count": 30,
       "previousCount": 30,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 30,
+      "configKey": "f1b34bb5b663",
       "consecutiveFailures": 0
     },
     "william-morris-gallery": {
@@ -228,9 +245,10 @@
       "status": "ok",
       "count": 10,
       "previousCount": 10,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 10,
+      "configKey": "c042cdfdc6ec",
       "consecutiveFailures": 0
     },
     "charles-dickens-museum": {
@@ -238,9 +256,10 @@
       "status": "ok",
       "count": 8,
       "previousCount": 8,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 8,
+      "configKey": "4ec4665af2b1",
       "consecutiveFailures": 0,
       "warnings": [
         "3 cards had no parseable dates (9 did)"
@@ -251,9 +270,10 @@
       "status": "ok",
       "count": 26,
       "previousCount": 26,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 26,
+      "configKey": "9628ebfdc5bf",
       "consecutiveFailures": 0,
       "warnings": [
         "14 cards had no parseable dates (26 did)"
@@ -264,9 +284,10 @@
       "status": "ok",
       "count": 6,
       "previousCount": 6,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 6,
+      "configKey": "e0e21bc67fb3",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (6 did)"
@@ -276,21 +297,22 @@
       "sourceId": "freud-museum-london",
       "status": "blocked",
       "count": 0,
-      "previousCount": 26,
+      "previousCount": 0,
       "message": "HTTP 403 (site is refusing automated requests)",
-      "checkedAt": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
       "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 26,
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     "the-foundling-museum": {
       "sourceId": "the-foundling-museum",
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 12,
+      "configKey": "ef212bca2578",
       "consecutiveFailures": 0
     },
     "cartoon-museum": {
@@ -298,19 +320,21 @@
       "status": "ok",
       "count": 22,
       "previousCount": 22,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 22,
+      "configKey": "4f4d9ef00cef",
       "consecutiveFailures": 0
     },
     "leighton-house": {
       "sourceId": "leighton-house",
       "status": "ok",
-      "count": 5,
+      "count": 6,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 5,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 6,
+      "configKey": "23812737a6b4",
       "consecutiveFailures": 0,
       "warnings": [
         "4 cards had no parseable dates (6 did)"
@@ -321,9 +345,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "a6b3af6e7b57",
       "consecutiveFailures": 0,
       "warnings": [
         "3 cards had no parseable dates (3 did)"
@@ -332,11 +357,12 @@
     "kenwood": {
       "sourceId": "kenwood",
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "previousCount": 7,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 7,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 6,
+      "configKey": "fff3488ff03b",
       "consecutiveFailures": 0
     },
     "science-gallery-london": {
@@ -344,9 +370,10 @@
       "status": "ok",
       "count": 28,
       "previousCount": 28,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 28,
+      "configKey": "268fc914a50a",
       "consecutiveFailures": 0
     },
     "two-temple-place": {
@@ -354,9 +381,10 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 5,
+      "configKey": "279aea91f27d",
       "consecutiveFailures": 0,
       "warnings": [
         "543 cards had no parseable dates (5 did)"
@@ -367,9 +395,10 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "3cf276e47fb8",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (15 did)"
@@ -380,9 +409,10 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 5,
+      "configKey": "f69645ed39db",
       "consecutiveFailures": 0,
       "warnings": [
         "6 cards had no parseable dates (5 did)"
@@ -393,9 +423,10 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "a07c24006c67",
       "consecutiveFailures": 0
     },
     "south-london-gallery": {
@@ -403,9 +434,10 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 5,
+      "configKey": "5ee1e2d0c83f",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (5 did)"
@@ -416,9 +448,10 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "60925eeb3126",
       "consecutiveFailures": 0,
       "warnings": [
         "2 cards had no parseable dates (6 did)"
@@ -429,9 +462,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "61f996a541e3",
       "consecutiveFailures": 0
     },
     "lightroom": {
@@ -439,9 +473,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "7f4debfe9102",
       "consecutiveFailures": 0
     },
     "white-cube-masons-yard": {
@@ -449,9 +484,10 @@
       "status": "ok",
       "count": 2,
       "previousCount": 2,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 2,
+      "configKey": "d6ea0438d567",
       "consecutiveFailures": 0
     },
     "white-cube-bermondsey": {
@@ -459,9 +495,10 @@
       "status": "ok",
       "count": 2,
       "previousCount": 2,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 2,
+      "configKey": "d6ea0438d567",
       "consecutiveFailures": 0
     },
     "victoria-miro": {
@@ -469,9 +506,10 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 5,
+      "configKey": "affe30849983",
       "consecutiveFailures": 0,
       "warnings": [
         "2 cards had no parseable dates (10 did)"
@@ -482,9 +520,10 @@
       "status": "ok",
       "count": 1,
       "previousCount": 1,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 1,
+      "configKey": "ad960267efa8",
       "consecutiveFailures": 0
     },
     "thaddaeus-ropac-london": {
@@ -492,9 +531,10 @@
       "status": "ok",
       "count": 1,
       "previousCount": 1,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 1,
+      "configKey": "b0064adca92f",
       "consecutiveFailures": 0
     },
     "pace-london": {
@@ -502,9 +542,10 @@
       "status": "ok",
       "count": 1,
       "previousCount": 1,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 1,
+      "configKey": "5d45a0ec4877",
       "consecutiveFailures": 0
     },
     "david-zwirner-london": {
@@ -512,9 +553,10 @@
       "status": "ok",
       "count": 1,
       "previousCount": 1,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 1,
+      "configKey": "b8bc1e86f575",
       "consecutiveFailures": 0
     },
     "alison-jacques": {
@@ -522,9 +564,10 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 5,
+      "configKey": "ca4fed728e46",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (5 did)"
@@ -535,9 +578,10 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 5,
+      "configKey": "e2c8573a90a5",
       "consecutiveFailures": 0
     },
     "carlos-ishikawa": {
@@ -545,9 +589,10 @@
       "status": "ok",
       "count": 1,
       "previousCount": 1,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 1,
+      "configKey": "f412337b2490",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (76 did)"
@@ -558,9 +603,10 @@
       "status": "ok",
       "count": 6,
       "previousCount": 6,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 6,
+      "configKey": "bcc801e68ac1",
       "consecutiveFailures": 0
     },
     "almine-rech-london": {
@@ -568,10 +614,11 @@
       "status": "ok",
       "count": 0,
       "previousCount": 0,
-      "message": "nothing matching the venue filter right now (7 listed elsewhere)",
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "message": "nothing matching the venue filter right now (6 listed elsewhere)",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 0,
+      "configKey": "e4f1b23782e4",
       "consecutiveFailures": 0
     },
     "cristea-roberts-gallery": {
@@ -579,9 +626,10 @@
       "status": "ok",
       "count": 8,
       "previousCount": 8,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 8,
+      "configKey": "e0b4dff92c64",
       "consecutiveFailures": 0,
       "warnings": [
         "4 cards had no parseable dates (11 did)"
@@ -591,10 +639,11 @@
       "sourceId": "galerie-max-hetzler-london",
       "status": "ok",
       "count": 2,
-      "previousCount": 1,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "previousCount": 2,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 2,
+      "configKey": "d4bb8eb35f1e",
       "consecutiveFailures": 0,
       "warnings": [
         "12 cards had no parseable dates (726 did)"
@@ -605,12 +654,13 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "5beddb983280",
       "consecutiveFailures": 0,
       "warnings": [
-        "2 cards had no parseable dates (5 did)"
+        "2 cards had no parseable dates (4 did)"
       ]
     },
     "richard-saltoun-gallery": {
@@ -618,9 +668,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "0d60bebbb076",
       "consecutiveFailures": 0
     },
     "grimm-london": {
@@ -628,9 +679,10 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 9,
+      "configKey": "4c35755522f9",
       "consecutiveFailures": 0
     },
     "roundhouse": {
@@ -638,9 +690,10 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 9,
+      "configKey": "6027683039cd",
       "consecutiveFailures": 0
     },
     "battersea-arts-centre": {
@@ -648,30 +701,32 @@
       "status": "ok",
       "count": 21,
       "previousCount": 21,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 21,
+      "configKey": "2b43b991bac1",
       "consecutiveFailures": 0
     },
     "alexandra-palace": {
       "sourceId": "alexandra-palace",
       "status": "blocked",
       "count": 0,
-      "previousCount": 56,
+      "previousCount": 0,
       "message": "HTTP 403 (site is refusing automated requests)",
-      "checkedAt": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
       "lastOk": "2026-11-02T11:02:05.070Z",
       "lastOkCount": 56,
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     "shoreditch-town-hall": {
       "sourceId": "shoreditch-town-hall",
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "c65143ae5d56",
       "consecutiveFailures": 0
     },
     "conway-hall": {
@@ -679,9 +734,10 @@
       "status": "ok",
       "count": 7,
       "previousCount": 7,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 7,
+      "configKey": "1971a526caf7",
       "consecutiveFailures": 0,
       "warnings": [
         "6 cards had no parseable dates (6 did)"
@@ -692,9 +748,10 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 5,
+      "configKey": "1bd3cc656e26",
       "consecutiveFailures": 0
     },
     "wigmore-hall": {
@@ -702,9 +759,10 @@
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 12,
+      "configKey": "6e0dfdf06ae8",
       "consecutiveFailures": 0
     },
     "gresham-college": {
@@ -712,9 +770,10 @@
       "status": "ok",
       "count": 8,
       "previousCount": 8,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 8,
+      "configKey": "d8b5665f0b60",
       "consecutiveFailures": 0
     },
     "cadogan-hall": {
@@ -722,9 +781,10 @@
       "status": "ok",
       "count": 11,
       "previousCount": 11,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 11,
+      "configKey": "58884f3e4785",
       "consecutiveFailures": 0
     },
     "the-albany": {
@@ -732,39 +792,43 @@
       "status": "ok",
       "count": 13,
       "previousCount": 13,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 13,
+      "configKey": "55d48253fa65",
       "consecutiveFailures": 0
     },
     "eventim-apollo": {
       "sourceId": "eventim-apollo",
       "status": "ok",
-      "count": 79,
+      "count": 78,
       "previousCount": 79,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 79,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 78,
+      "configKey": "de79316a5f1c",
       "consecutiveFailures": 0
     },
     "union-chapel": {
       "sourceId": "union-chapel",
       "status": "ok",
-      "count": 115,
+      "count": 118,
       "previousCount": 115,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 115,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 118,
+      "configKey": "5d71994ad8fb",
       "consecutiveFailures": 0
     },
     "st-martin-in-the-fields": {
       "sourceId": "st-martin-in-the-fields",
       "status": "ok",
-      "count": 2,
+      "count": 3,
       "previousCount": 2,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 2,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 3,
+      "configKey": "2d536481adc1",
       "consecutiveFailures": 0
     },
     "st-johns-smith-square": {
@@ -772,9 +836,10 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "4f23963c5197",
       "consecutiveFailures": 0,
       "warnings": [
         "2 cards had no parseable dates (4 did)"
@@ -785,9 +850,10 @@
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 12,
+      "configKey": "3afa89de5f27",
       "consecutiveFailures": 0
     },
     "bloomsbury-theatre": {
@@ -795,19 +861,21 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 9,
+      "configKey": "367b4b988b64",
       "consecutiveFailures": 0
     },
     "earth-hackney": {
       "sourceId": "earth-hackney",
       "status": "ok",
-      "count": 68,
+      "count": 69,
       "previousCount": 68,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 68,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 69,
+      "configKey": "dc2d05a77ce8",
       "consecutiveFailures": 0
     },
     "hackney-empire": {
@@ -815,9 +883,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "899a44e50bfd",
       "consecutiveFailures": 0
     },
     "up-the-creek": {
@@ -825,9 +894,10 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "392068eb1b42",
       "consecutiveFailures": 0
     },
     "leicester-square-theatre": {
@@ -835,9 +905,10 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 9,
+      "configKey": "c018f03937b3",
       "consecutiveFailures": 0
     },
     "the-comedy-store": {
@@ -845,9 +916,10 @@
       "status": "ok",
       "count": 141,
       "previousCount": 141,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 141,
+      "configKey": "8cd43840a7ba",
       "consecutiveFailures": 0,
       "warnings": [
         "5 cards had no parseable dates (141 did)"
@@ -858,9 +930,10 @@
       "status": "ok",
       "count": 16,
       "previousCount": 16,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 16,
+      "configKey": "3e6126437f66",
       "consecutiveFailures": 0
     },
     "soho-theatre": {
@@ -868,19 +941,21 @@
       "status": "ok",
       "count": 18,
       "previousCount": 18,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 18,
+      "configKey": "cf6ddd1f04ee",
       "consecutiveFailures": 0
     },
     "shakespeares-globe": {
       "sourceId": "shakespeares-globe",
       "status": "ok",
       "count": 33,
-      "previousCount": 25,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "previousCount": 33,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 33,
+      "configKey": "c7810cbf6455",
       "consecutiveFailures": 0
     },
     "almeida-theatre": {
@@ -888,9 +963,10 @@
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 12,
+      "configKey": "d0dd0e004213",
       "consecutiveFailures": 0,
       "warnings": [
         "2 cards had no parseable dates (13 did)"
@@ -901,9 +977,10 @@
       "status": "ok",
       "count": 20,
       "previousCount": 20,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 20,
+      "configKey": "353b3736af77",
       "consecutiveFailures": 0,
       "warnings": [
         "13 cards had no parseable dates (20 did)"
@@ -914,9 +991,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "bc825610d2d6",
       "consecutiveFailures": 0,
       "warnings": [
         "4 cards had no parseable dates (3 did)"
@@ -927,9 +1005,10 @@
       "status": "ok",
       "count": 22,
       "previousCount": 22,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 22,
+      "configKey": "c7eb0162605f",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (23 did)"
@@ -940,9 +1019,10 @@
       "status": "ok",
       "count": 26,
       "previousCount": 26,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 26,
+      "configKey": "7c43c7115f1f",
       "consecutiveFailures": 0
     },
     "arcola-theatre": {
@@ -950,9 +1030,10 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "839b7d27bdb5",
       "consecutiveFailures": 0
     },
     "kings-head-theatre": {
@@ -960,9 +1041,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "36611c3d4367",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (3 did)"
@@ -973,9 +1055,10 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 9,
+      "configKey": "d00099c793fb",
       "consecutiveFailures": 0
     },
     "polka-theatre": {
@@ -983,9 +1066,10 @@
       "status": "ok",
       "count": 9,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 9,
+      "configKey": "dc059085c9bb",
       "consecutiveFailures": 0
     },
     "little-angel-theatre": {
@@ -993,9 +1077,10 @@
       "status": "ok",
       "count": 7,
       "previousCount": 7,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 7,
+      "configKey": "af3d8d326b5a",
       "consecutiveFailures": 0
     },
     "the-yard-theatre": {
@@ -1003,9 +1088,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "35cda372c8ed",
       "consecutiveFailures": 0,
       "warnings": [
         "2 cards had no parseable dates (3 did)"
@@ -1016,19 +1102,21 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 5,
+      "configKey": "a84dd5bfc473",
       "consecutiveFailures": 0
     },
     "brixton-house": {
       "sourceId": "brixton-house",
       "status": "ok",
-      "count": 12,
+      "count": 13,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 12,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 13,
+      "configKey": "b2de5556088c",
       "consecutiveFailures": 0
     },
     "royal-opera-house": {
@@ -1036,9 +1124,10 @@
       "status": "ok",
       "count": 13,
       "previousCount": 13,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 13,
+      "configKey": "7d016fb7a51c",
       "consecutiveFailures": 0,
       "warnings": [
         "55 cards had no parseable dates (13 did)"
@@ -1049,9 +1138,10 @@
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 12,
+      "configKey": "cc9956694504",
       "consecutiveFailures": 0
     },
     "arts-theatre": {
@@ -1059,9 +1149,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "9ca05524c62d",
       "consecutiveFailures": 0
     },
     "london-coliseum": {
@@ -1069,19 +1160,21 @@
       "status": "ok",
       "count": 19,
       "previousCount": 19,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 19,
+      "configKey": "577c9158c4c0",
       "consecutiveFailures": 0
     },
     "art-fund": {
       "sourceId": "art-fund",
       "status": "ok",
-      "count": 85,
+      "count": 84,
       "previousCount": 85,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 85,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 84,
+      "configKey": "afb8b6fde8ac",
       "consecutiveFailures": 0
     },
     "royal-geographical-society": {
@@ -1089,22 +1182,24 @@
       "status": "ok",
       "count": 5,
       "previousCount": 5,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 5,
+      "configKey": "0c99f74b72c2",
       "consecutiveFailures": 0
     },
     "british-library": {
       "sourceId": "british-library",
       "status": "ok",
-      "count": 9,
+      "count": 8,
       "previousCount": 9,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 9,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 8,
+      "configKey": "bc62caaddbf0",
       "consecutiveFailures": 0,
       "warnings": [
-        "8 cards had no parseable dates (9 did)"
+        "9 cards had no parseable dates (8 did)"
       ]
     },
     "museum-of-the-home": {
@@ -1112,9 +1207,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "58f21a5b60c9",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (3 did)"
@@ -1125,9 +1221,10 @@
       "status": "ok",
       "count": 16,
       "previousCount": 16,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 16,
+      "configKey": "427fb9ad1c5d",
       "consecutiveFailures": 0
     },
     "the-courtauld-gallery": {
@@ -1135,9 +1232,10 @@
       "status": "ok",
       "count": 20,
       "previousCount": 20,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 20,
+      "configKey": "4328ec2d0432",
       "consecutiveFailures": 0
     },
     "estorick-collection": {
@@ -1145,9 +1243,10 @@
       "status": "ok",
       "count": 6,
       "previousCount": 6,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 6,
+      "configKey": "a54c5db4abae",
       "consecutiveFailures": 0
     },
     "japan-house-london": {
@@ -1155,32 +1254,32 @@
       "status": "ok",
       "count": 12,
       "previousCount": 12,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 12,
+      "configKey": "d6bc5ad4f0a1",
       "consecutiveFailures": 0
     },
     "180-studios": {
       "sourceId": "180-studios",
       "status": "ok",
-      "count": 36,
+      "count": 2,
       "previousCount": 36,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 36,
-      "consecutiveFailures": 0,
-      "warnings": [
-        "3 cards had no parseable dates (39 did)"
-      ]
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 2,
+      "configKey": "48b95337207e",
+      "consecutiveFailures": 0
     },
     "the-showroom": {
       "sourceId": "the-showroom",
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "2afe1a44a510",
       "consecutiveFailures": 0
     },
     "goldsmiths-cca": {
@@ -1188,9 +1287,10 @@
       "status": "ok",
       "count": 3,
       "previousCount": 3,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 3,
+      "configKey": "0a5f78b67950",
       "consecutiveFailures": 0,
       "warnings": [
         "1 cards had no parseable dates (3 did)"
@@ -1201,9 +1301,10 @@
       "status": "ok",
       "count": 7,
       "previousCount": 7,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 7,
+      "configKey": "aae1808330ad",
       "consecutiveFailures": 0
     },
     "pleasance-theatre": {
@@ -1211,9 +1312,10 @@
       "status": "ok",
       "count": 40,
       "previousCount": 40,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 40,
+      "configKey": "74f99c6a6f65",
       "consecutiveFailures": 0,
       "warnings": [
         "24 links over maxLinks (40) were skipped"
@@ -1224,19 +1326,21 @@
       "status": "ok",
       "count": 4,
       "previousCount": 4,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 4,
+      "configKey": "14c10f10404e",
       "consecutiveFailures": 0
     },
     "southwark-playhouse-borough": {
       "sourceId": "southwark-playhouse-borough",
       "status": "ok",
-      "count": 7,
+      "count": 8,
       "previousCount": 7,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
-      "lastOkCount": 7,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 8,
+      "configKey": "42231af0c513",
       "consecutiveFailures": 0
     },
     "southwark-playhouse-elephant": {
@@ -1244,9 +1348,10 @@
       "status": "ok",
       "count": 2,
       "previousCount": 2,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 2,
+      "configKey": "42231af0c513",
       "consecutiveFailures": 0
     },
     "menier-chocolate-factory": {
@@ -1254,9 +1359,10 @@
       "status": "ok",
       "count": 2,
       "previousCount": 2,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 2,
+      "configKey": "893ebb832211",
       "consecutiveFailures": 0
     },
     "at-sohoplace": {
@@ -1264,9 +1370,10 @@
       "status": "ok",
       "count": 2,
       "previousCount": 2,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 2,
+      "configKey": "f52a1750f946",
       "consecutiveFailures": 0
     },
     "troxy": {
@@ -1274,10 +1381,77 @@
       "status": "ok",
       "count": 31,
       "previousCount": 31,
-      "checkedAt": "2026-11-02T12:21:30.450Z",
-      "lastOk": "2026-11-02T12:21:30.450Z",
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
       "lastOkCount": 31,
+      "configKey": "074163bea387",
       "consecutiveFailures": 0
+    },
+    "ticketmaster": {
+      "sourceId": "ticketmaster",
+      "status": "ok",
+      "count": 916,
+      "previousCount": 0,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 916,
+      "configKey": "e7fde4359450",
+      "consecutiveFailures": 0,
+      "unmatchedVenues": {
+        "Big Belly Comedy - Southbank": 25,
+        "Bush Hall": 17,
+        "Hoxton Hall": 11,
+        "The Courtyard Theatre": 10,
+        "Hackney Church": 8,
+        "Woolwich Works": 5,
+        "St Pancras Old Church": 5,
+        "Judi Dench Theatre": 2,
+        "New Wimbledon Theatre": 2,
+        "London The Old Church (Stoke Newington)": 2,
+        "JW Marriott Grosvenor House London": 2,
+        "The Theatre at the Hippodrome Casino": 1,
+        "Redbridge Drama Centre": 1,
+        "Westminster Cathedral": 1,
+        "Kings Place (Hall One)": 1,
+        "Theatreship": 1,
+        "St Matthias Church": 1,
+        "Chats Palace Arts Centre": 1,
+        "All Saints Church, Kingston upon Thames": 1,
+        "Walthamstow Trades Hall": 1
+      }
+    },
+    "skiddle": {
+      "sourceId": "skiddle",
+      "status": "ok",
+      "count": 818,
+      "previousCount": 0,
+      "checkedAt": "2026-11-03T12:45:34.267Z",
+      "lastOk": "2026-11-03T12:45:34.267Z",
+      "lastOkCount": 818,
+      "configKey": "836337c50038",
+      "consecutiveFailures": 0,
+      "unmatchedVenues": {
+        "Big Belly Bar And Comedy Club Southbank": 35,
+        "Queen's Theatre": 29,
+        "Apollo Victoria Theater": 28,
+        "The Playhouse": 28,
+        "Chamber Country Hall": 28,
+        "Prince Edward Theatre Old Compton St London W1D 4HS": 26,
+        "Riverside Building County Hall Westminster Bridge Road": 22,
+        "The Garden Vauxhall": 21,
+        "Old Vic Theatre": 19,
+        "Apollo Shaftesbury Avenue": 17,
+        "Actors Church (St Paul's Covent Garden)": 11,
+        "Kensington United Reformed Church": 10,
+        "St Giles In The Fields Church": 8,
+        "The Islington Townhouse": 7,
+        "St Mary Le Strand Church": 7,
+        "1901 Arts Club": 6,
+        "St Olave Church": 6,
+        "St Paul's Church Covent Garden": 4,
+        "St James Church Sussex Gardens": 3,
+        "Basing House": 3
+      }
     }
   }
 }
