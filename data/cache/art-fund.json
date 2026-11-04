@@ -4033,6 +4033,22 @@
    },
    "at": "2026-11-02"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/10/24/land-shaping-legacies": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/10/24/land-shaping-legacies",
+    "title": "Land-Shaping Legacies",
+    "dates": {
+     "startDate": "2026-10-24",
+     "endDate": "2027-04-01"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/c0756b85-0a39-4fd6-9988-05dad5eaef2f/6f28df5f7dda4b424b7bbf24dfa7d7c7-md.jpg",
+    "description": "Land Shaping-Legacies explores how art, collections and communities shape our understanding of County Durham.",
+    "venueName": "The Bowes Museum, Barnard Castle",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-04"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/10/24/ls-lowry-the-battle-of-life": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/10/24/ls-lowry-the-battle-of-life",
@@ -4129,6 +4145,22 @@
    },
    "at": "2026-11-02"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/10/27/quite-shameless-cultural-reflections-on-the-vampire": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/10/27/quite-shameless-cultural-reflections-on-the-vampire",
+    "title": "Quite Shameless: Cultural Reflections on the Vampire",
+    "dates": {
+     "startDate": "2026-10-27",
+     "endDate": "2027-05-29"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/e5b6b040-9b4d-4bb2-ae95-25e43b6a0010/301f7534c7eb211794e16fae25354daa-md.jpg",
+    "description": "Sink your teeth into this Quite Shameless exhibition and explore the rich and unsettling legacy of the vampire.",
+    "venueName": "Treasures of the Brotherton, Leeds",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-04"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/10/30/agatha-christie": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/10/30/agatha-christie",
@@ -4161,21 +4193,21 @@
    },
    "at": "2026-11-02"
   },
-  "https://www.artfund.org/explore/exhibitions/2026/10/31/magic-and-mess-the-artists-studio-revealed": {
+  "https://www.artfund.org/explore/exhibitions/2026/11/03/40th-mckechnie-open-art-exhibition": {
    "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/10/31/magic-and-mess-the-artists-studio-revealed",
-    "title": "Magic and Mess: The Artist's Studio Revealed",
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/03/40th-mckechnie-open-art-exhibition",
+    "title": "40th McKechnie Open Art Exhibition",
     "dates": {
-     "startDate": "2026-10-31",
-     "endDate": "2027-03-21"
+     "startDate": "2026-11-03",
+     "endDate": "2027-01-16"
     },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/0da9967d-c1f9-43f4-b9c3-cad45ee1fdc1/ce41b74f9411bfc8f5670b304249d1ca-md.jpg",
-    "description": "Exploring the 19th-century artist's studio as a place for artmaking and as a source of inspiration.",
-    "venueName": "Leighton House, London",
+    "image": "https://dw4k6npnyoqvk.cloudfront.net/seo/fav-icon-512.png",
+    "description": "Open Art Exhibition celebrating local artists and makers from the South Ayrshire region.",
+    "venueName": "The McKechnie Institute, Girvan",
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-04"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/04/mad-bloomsbury": {
    "raw": {
@@ -4192,6 +4224,22 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/06/katie-shannon-backprunevirginruin": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/06/katie-shannon-backprunevirginruin",
+    "title": "Katie Shannon: BACK/PRUNE/VIRGIN/RUIN",
+    "dates": {
+     "startDate": "2026-11-06",
+     "endDate": "2026-12-13"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/45db9af0-3b17-4bfd-8d17-290c527943ab/0be15be0a2baf8cb6aad7c0f55b5ab9f-md.jpg",
+    "description": "Katie Shannon is the latest artist to participate in Goldsmiths Centre for Contemporary art's commissioning series, Episodes.",
+    "venueName": "Goldsmiths Centre for Contemporary Art, London",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-04"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/06/magic-at-the-mansion": {
    "raw": {
@@ -4256,6 +4304,38 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/07/magic-and-mess-the-artists-studio-revealed": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/07/magic-and-mess-the-artists-studio-revealed",
+    "title": "Magic and Mess: The Artist's Studio Revealed",
+    "dates": {
+     "startDate": "2026-11-07",
+     "endDate": "2027-03-21"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/0da9967d-c1f9-43f4-b9c3-cad45ee1fdc1/ce41b74f9411bfc8f5670b304249d1ca-md.jpg",
+    "description": "Exploring the 19th-century artist's studio as a place for artmaking and as a source of inspiration.",
+    "venueName": "Leighton House, London",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-04"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/07/picturing-place-three-carlisle-artists-bushby-bough-blacklock": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/07/picturing-place-three-carlisle-artists-bushby-bough-blacklock",
+    "title": "Picturing Place - Three Carlisle Artists: Bushby, Bough & Blacklock",
+    "dates": {
+     "startDate": "2026-11-07",
+     "endDate": "2027-01-09"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/c83607d9-0887-48af-945a-f1534fb87af8/bedd43f5a1b70a247bb993db20cb6b08-md.jpg",
+    "description": "Three artists who capture the beauty, everyday business and timeless qualities of Carlisle and its rural surrounds.",
+    "venueName": "Tullie, Carlisle",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-04"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/07/present-makers-2026": {
    "raw": {
@@ -4481,6 +4561,22 @@
    },
    "at": "2026-11-02"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/11/14/the-pleasure-garden-by-lubaina-himid-and-rebecca-chesney": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/14/the-pleasure-garden-by-lubaina-himid-and-rebecca-chesney",
+    "title": "The Pleasure Garden by Lubaina Himid and Rebecca Chesney",
+    "dates": {
+     "startDate": "2026-11-14",
+     "endDate": "2027-01-31"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/4388ff92-f40e-4558-a382-76525e88bcb0/3c1a9a6e13efd82860ce233cd99ca002-md.png",
+    "description": "New work by two of the country’s leading contemporary artists",
+    "venueName": "Ushaw Historic House, Chapels And Gardens, Durham",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-04"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/11/14/the-ty-pawb-open-2026": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/11/14/the-ty-pawb-open-2026",
@@ -4512,6 +4608,22 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/20/eilish-briscoe-i-dont-have-the-words": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/20/eilish-briscoe-i-dont-have-the-words",
+    "title": "Eilish Briscoe: i don’t have the words",
+    "dates": {
+     "startDate": "2026-11-20",
+     "endDate": "2027-04-17"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/4da0758a-efc2-45de-a066-e56566f25926/d4b941dc55f7d4ed3fe4a382f9d054dc-md.png",
+    "description": "Exploring the relationship between art, language and health.",
+    "venueName": "Abbot Hall Art Gallery, Kendal",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-04"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/alfred-wallis-an-artists-artist": {
    "raw": {
@@ -4688,6 +4800,22 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/21/small-on-the-wall-art-fair": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/21/small-on-the-wall-art-fair",
+    "title": "Small on the Wall Art Fair",
+    "dates": {
+     "startDate": "2026-11-21",
+     "endDate": "2026-12-13"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/c167c270-84da-4c38-ab69-bb6023b96f9d/e637792f663878cd9efd96ed0e889995-md.jpg",
+    "description": "Art at convenient sizes and affordable prices",
+    "venueName": "Discover Bucks Museum, Aylesbury",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-04"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/23/ross-loveday-a-journey-in-carborundum": {
    "raw": {
@@ -4943,6 +5071,22 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2027/01/23/barn-close-carlisles-arts-crafts-house": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2027/01/23/barn-close-carlisles-arts-crafts-house",
+    "title": "Barn Close: Carlisle's Arts & Crafts House",
+    "dates": {
+     "startDate": "2027-01-23",
+     "endDate": "2027-05-09"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/d1ec121f-33d5-4cdf-bd9f-701bf1f18306/05a756aa574793b4d1f034bcadc95be5-md.jpg",
+    "description": "Celebrating the standout Arts & Crafts home of Edwin and Maud Scott-Nicholson in its 125th anniversary year.",
+    "venueName": "Tullie, Carlisle",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-04"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/23/carla-accardi": {
    "raw": {
