@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T12:58:03.987Z",
+  "generatedAt": "2026-11-05T13:10:23.232Z",
   "people": [
     {
       "id": "1000mods",
@@ -274,6 +274,14 @@
       ]
     },
     {
+      "id": "adam-cohen",
+      "name": "Adam Cohen",
+      "kind": "music",
+      "tm": [
+        "K8vZ9171_hV"
+      ]
+    },
+    {
       "id": "adam-grant",
       "name": "Adam Grant",
       "kind": "talk",
@@ -340,11 +348,6 @@
       "tm": [
         "K8vZ917-fP0"
       ]
-    },
-    {
-      "id": "adrian-mills",
-      "name": "Adrian Mills",
-      "kind": "music"
     },
     {
       "id": "adriana-mater",
@@ -422,21 +425,6 @@
       "kind": "music",
       "tm": [
         "K8vZ9174lG0"
-      ]
-    },
-    {
-      "id": "against-the-current",
-      "name": "Against the Current",
-      "kind": "music",
-      "links": {
-        "homepage": "http://www.atcofficial.com/",
-        "spotify": "https://open.spotify.com/artist/6yhD1KjhLxIETFF7vIRf8B",
-        "instagram": "https://www.instagram.com/againstthecurrentny",
-        "wiki": "https://en.wikipedia.org/wiki/Against_the_Current_(band)",
-        "youtube": "https://www.youtube.com/user/againstthecurrentNY"
-      },
-      "tm": [
-        "K8vZ917CME0"
       ]
     },
     {
@@ -645,8 +633,22 @@
       ]
     },
     {
+      "id": "alex-bonney",
+      "name": "Alex Bonney",
+      "kind": "music",
+      "links": {
+        "homepage": "https://alexbonney.co.uk/",
+        "spotify": "https://open.spotify.com/artist/5EVDKWBhzxBXkeALJ5AUHH",
+        "instagram": "https://www.instagram.com/albonney/",
+        "youtube": "https://www.youtube.com/channel/UC5OCgSFrPgmPwM58dEbe3Yw"
+      },
+      "tm": [
+        "K8vZ917LhzV"
+      ]
+    },
+    {
       "id": "alex-farell",
-      "name": "ALEX FARELL",
+      "name": "Alex Farell",
       "kind": "music",
       "tm": [
         "K8vZ917q7T0"
@@ -966,14 +968,6 @@
       ]
     },
     {
-      "id": "amy-wadge",
-      "name": "Amy Wadge",
-      "kind": "music",
-      "tm": [
-        "K8vZ917jDP0"
-      ]
-    },
-    {
       "id": "amy-winehouse",
       "name": "Amy Winehouse",
       "kind": "music"
@@ -1094,11 +1088,6 @@
       ]
     },
     {
-      "id": "anetha",
-      "name": "Anetha",
-      "kind": "music"
-    },
-    {
       "id": "angele",
       "name": "Angèle",
       "kind": "music",
@@ -1163,6 +1152,20 @@
       ]
     },
     {
+      "id": "anna-meredith",
+      "name": "Anna Meredith",
+      "kind": "music",
+      "links": {
+        "homepage": "https://www.annameredith.com",
+        "spotify": "https://open.spotify.com/artist/5zDUidkda0GoYHu2vMr3G2",
+        "instagram": "https://www.instagram.com/annahmeredith/",
+        "youtube": "https://www.youtube.com/user/ANNAMEREDITHVEVO"
+      },
+      "tm": [
+        "K8vZ917pO10"
+      ]
+    },
+    {
       "id": "anna-von-hausswolff",
       "name": "Anna Von Hausswolff",
       "kind": "music",
@@ -1173,6 +1176,11 @@
       "tm": [
         "K8vZ9172Id7"
       ]
+    },
+    {
+      "id": "annalie-wilson",
+      "name": "Annalie Wilson",
+      "kind": "music"
     },
     {
       "id": "annastasia-baker",
@@ -1326,20 +1334,6 @@
       },
       "tm": [
         "K8vZ917hxw0"
-      ]
-    },
-    {
-      "id": "architects-uk",
-      "name": "Architects (UK)",
-      "kind": "music",
-      "links": {
-        "homepage": "https://www.architectsofficial.com/",
-        "spotify": "https://open.spotify.com/artist/3ZztVuWxHzNpl0THurTFCv?autoplay=true",
-        "instagram": "https://www.instagram.com/architects/",
-        "youtube": "https://www.youtube.com/channel/UCdp-kaIi7YO2WmNQ-LafmpA"
-      },
-      "tm": [
-        "K8vZ917Cch7"
       ]
     },
     {
@@ -2214,11 +2208,6 @@
       ]
     },
     {
-      "id": "benwal",
-      "name": "Benwal",
-      "kind": "music"
-    },
-    {
       "id": "berat-mert-demir",
       "name": "Berat Mert Demir",
       "kind": "music",
@@ -2463,18 +2452,6 @@
       "kind": "comedy",
       "tm": [
         "K8vZ9175zT0"
-      ]
-    },
-    {
-      "id": "bill-orcutt",
-      "name": "Bill Orcutt",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/49ECnwhYzm6Nu97puMvwjG",
-        "instagram": "https://www.instagram.com/palilaliarecords/#"
-      },
-      "tm": [
-        "K8vZ917Gs20"
       ]
     },
     {
@@ -3268,11 +3245,6 @@
       ]
     },
     {
-      "id": "brat",
-      "name": "BRAT",
-      "kind": "music"
-    },
-    {
       "id": "brave-rival",
       "name": "Brave Rival",
       "kind": "music",
@@ -3364,6 +3336,14 @@
       },
       "tm": [
         "K8vZ917-lc0"
+      ]
+    },
+    {
+      "id": "brixton-disco-festival",
+      "name": "Brixton Disco Festival",
+      "kind": "music",
+      "tm": [
+        "K8vZ917qS80"
       ]
     },
     {
@@ -3641,18 +3621,6 @@
       "kind": "music",
       "tm": [
         "K8vZ917CcT7"
-      ]
-    },
-    {
-      "id": "calibro-35",
-      "name": "Calibro 35",
-      "kind": "music",
-      "links": {
-        "homepage": "http://www.calibro35.com/",
-        "youtube": "https://www.youtube.com/channel/UCV42CN40G-kP-epSEURDCdQ"
-      },
-      "tm": [
-        "K8vZ9173epf"
       ]
     },
     {
@@ -4141,14 +4109,6 @@
       ]
     },
     {
-      "id": "charls",
-      "name": "CHARLS",
-      "kind": "music",
-      "tm": [
-        "K8vZ917-OS0"
-      ]
-    },
-    {
       "id": "chase-and-status",
       "name": "Chase & Status",
       "kind": "music",
@@ -4168,20 +4128,6 @@
       "kind": "music",
       "tm": [
         "K8vZ917QKSV"
-      ]
-    },
-    {
-      "id": "chasing-abbey",
-      "name": "Chasing Abbey",
-      "kind": "music",
-      "links": {
-        "homepage": "https://www.chasingabbey.ie/",
-        "spotify": "https://open.spotify.com/artist/6toMXnM9tcozz7OmgxWtZg",
-        "instagram": "https://www.instagram.com/chasingabbey/",
-        "youtube": "https://www.youtube.com/channel/UCwjKCrii8_OVIwM9p2oSCrQ"
-      },
-      "tm": [
-        "K8vZ917pZ37"
       ]
     },
     {
@@ -4625,14 +4571,6 @@
       ]
     },
     {
-      "id": "claytown-troupe",
-      "name": "Claytown Troupe",
-      "kind": "music",
-      "tm": [
-        "K8vZ917o837"
-      ]
-    },
-    {
       "id": "clementine-douglas",
       "name": "Clementine Douglas",
       "kind": "music",
@@ -4719,11 +4657,6 @@
       "tm": [
         "K8vZ917-Pb0"
       ]
-    },
-    {
-      "id": "clouds",
-      "name": "Clouds",
-      "kind": "music"
     },
     {
       "id": "club-nights-the-jazz-cafe",
@@ -5608,17 +5541,6 @@
       ]
     },
     {
-      "id": "daniele-mizar",
-      "name": "Daniele Mizar",
-      "kind": "music",
-      "links": {
-        "instagram": "https://www.instagram.com/danielemizar/"
-      },
-      "tm": [
-        "K8vZ917qEEf"
-      ]
-    },
-    {
       "id": "daniele-silvestri",
       "name": "Daniele Silvestri",
       "kind": "music",
@@ -5925,6 +5847,18 @@
       },
       "tm": [
         "K8vZ917jUaf"
+      ]
+    },
+    {
+      "id": "daydreamers",
+      "name": "daydreamers",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2uRvlfS3M0Fix0OdsEzSw8",
+        "instagram": "https://www.instagram.com/daydreamers_uk/"
+      },
+      "tm": [
+        "K8vZ917qKz7"
       ]
     },
     {
@@ -6243,18 +6177,6 @@
       "kind": "theatre",
       "tm": [
         "K8vZ917-hY0"
-      ]
-    },
-    {
-      "id": "dermot-henry",
-      "name": "Dermot Henry",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/0RhsllRA8vVKWSiBxuF77H",
-        "instagram": "https://www.instagram.com/dermotphenry/"
-      },
-      "tm": [
-        "K8vZ917rj07"
       ]
     },
     {
@@ -8108,6 +8030,14 @@
       ]
     },
     {
+      "id": "everybody-knows-leonard-cohen",
+      "name": "Everybody Knows Leonard Cohen",
+      "kind": "music",
+      "tm": [
+        "K8vZ917x1H0"
+      ]
+    },
+    {
       "id": "evil-invaders",
       "name": "Evil Invaders",
       "kind": "music",
@@ -8226,6 +8156,11 @@
       ]
     },
     {
+      "id": "family-art-club",
+      "name": "Family Art Club",
+      "kind": "music"
+    },
+    {
       "id": "family-band",
       "name": "Family Band",
       "kind": "music",
@@ -8254,11 +8189,6 @@
       "tm": [
         "K8vZ917rJSV"
       ]
-    },
-    {
-      "id": "faster-horses",
-      "name": "Faster Horses",
-      "kind": "music"
     },
     {
       "id": "fat-freddys-drop",
@@ -8784,6 +8714,29 @@
       ]
     },
     {
+      "id": "frank-turner",
+      "name": "Frank Turner",
+      "kind": "music",
+      "links": {
+        "homepage": "http://frank-turner.com/",
+        "spotify": "https://open.spotify.com/artist/27M9shmwhIjRo7WntpT9Rp?autoplay=true",
+        "instagram": "https://www.instagram.com/frankturner/?hl=en",
+        "wiki": "https://en.wikipedia.org/wiki/Frank_Turner",
+        "youtube": "https://www.youtube.com/user/frankturner"
+      },
+      "tm": [
+        "K8vZ917Gd90"
+      ]
+    },
+    {
+      "id": "frank-turner-and-the-sleeping-souls",
+      "name": "Frank Turner & the Sleeping Souls",
+      "kind": "music",
+      "tm": [
+        "K8vZ917_gE7"
+      ]
+    },
+    {
       "id": "frank-vs-back-to-black",
       "name": "Frank vs Back to Black",
       "kind": "music",
@@ -8903,14 +8856,6 @@
       },
       "tm": [
         "K8vZ9171FtV"
-      ]
-    },
-    {
-      "id": "frozemode",
-      "name": "Frozemode",
-      "kind": "music",
-      "tm": [
-        "K8vZ917hWDV"
       ]
     },
     {
@@ -9145,6 +9090,21 @@
       ]
     },
     {
+      "id": "general-levy",
+      "name": "General Levy",
+      "kind": "music",
+      "links": {
+        "homepage": "https://generallevy.co.uk/",
+        "spotify": "https://open.spotify.com/artist/2bHgAaZ7qbGbMMXwAQm48I?autoplay=true",
+        "instagram": "https://www.instagram.com/generallevy/",
+        "wiki": "https://en.wikipedia.org/wiki/General_Levy",
+        "youtube": "https://www.youtube.com/channel/UC9OlYx1dYJFJhZwAhX1sU3Q"
+      },
+      "tm": [
+        "K8vZ9178D67"
+      ]
+    },
+    {
       "id": "genesis-owusu",
       "name": "Genesis Owusu",
       "kind": "music",
@@ -9201,6 +9161,18 @@
       "kind": "theatre",
       "tm": [
         "K8vZ9175IZ0"
+      ]
+    },
+    {
+      "id": "george-crowley",
+      "name": "George Crowley",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3e1ksaa0miXosHCRmDUZHj",
+        "instagram": "https://www.instagram.com/crowzone/"
+      },
+      "tm": [
+        "K8vZ917-zX0"
       ]
     },
     {
@@ -9586,18 +9558,6 @@
       },
       "tm": [
         "K8vZ9171CDf"
-      ]
-    },
-    {
-      "id": "go-jo",
-      "name": "Go-Jo",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/7CslUrDCYnm3vMtKZJZGNv",
-        "youtube": "https://www.youtube.com/channel/UCkMorGOAMGROfFaC_34owvw"
-      },
-      "tm": [
-        "K8vZ917hxc0"
       ]
     },
     {
@@ -10166,11 +10126,6 @@
       "tm": [
         "K8vZ917r4wV"
       ]
-    },
-    {
-      "id": "hanaa",
-      "name": "Hanaa",
-      "kind": "music"
     },
     {
       "id": "hang-massive",
@@ -12005,6 +11960,20 @@
       ]
     },
     {
+      "id": "james-emmanuel",
+      "name": "James Emmanuel",
+      "kind": "music",
+      "links": {
+        "homepage": "https://www.jamesemmanuel.co.uk/",
+        "spotify": "https://open.spotify.com/artist/1V4RGSGobXXjpikiHlO2ex",
+        "instagram": "https://www.instagram.com/jamesemmanuelofficial/",
+        "youtube": "https://www.youtube.com/channel/UCB2mAunm3DC4vUarw6-FdHw"
+      },
+      "tm": [
+        "K8vZ917rEGf"
+      ]
+    },
+    {
       "id": "james-kitchman",
       "name": "James Kitchman",
       "kind": "music",
@@ -12069,6 +12038,18 @@
       },
       "tm": [
         "K8vZ9175mlV"
+      ]
+    },
+    {
+      "id": "jamie-bower",
+      "name": "Jamie Bower",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7GIZ7nZRCs6XrIsXL2UZO1",
+        "instagram": "https://www.instagram.com/bowerjamie/"
+      },
+      "tm": [
+        "K8vZ917x1U7"
       ]
     },
     {
@@ -12181,6 +12162,14 @@
       },
       "tm": [
         "K8vZ917-Tj7"
+      ]
+    },
+    {
+      "id": "jay-sean",
+      "name": "Jay Sean",
+      "kind": "music",
+      "tm": [
+        "K8vZ9175Enf"
       ]
     },
     {
@@ -12522,6 +12511,14 @@
       ]
     },
     {
+      "id": "joey-page",
+      "name": "Joey Page",
+      "kind": "comedy",
+      "tm": [
+        "K8vZ917qxLV"
+      ]
+    },
+    {
       "id": "johannes-radebe",
       "name": "Johannes Radebe",
       "kind": "dance",
@@ -12838,6 +12835,14 @@
       },
       "tm": [
         "K8vZ917p2-0"
+      ]
+    },
+    {
+      "id": "joshua-idehen",
+      "name": "Joshua Idehen",
+      "kind": "music",
+      "tm": [
+        "K8vZ917jbmV"
       ]
     },
     {
@@ -13223,9 +13228,9 @@
     {
       "id": "kane-brown",
       "name": "Kane Brown",
-      "kind": "comedy",
+      "kind": "music",
       "links": {
-        "instagram": "https://www.instagram.com/kane_brown_comedy/",
+        "instagram": "https://www.instagram.com/kanebrown_music",
         "homepage": "https://www.kanebrownmusic.com/",
         "spotify": "https://open.spotify.com/artist/3oSJ7TBVCWMDMiYjXNiCKE",
         "wiki": "https://en.wikipedia.org/wiki/Kane_Brown",
@@ -13452,21 +13457,6 @@
       "kind": "comedy",
       "tm": [
         "K8vZ9175l87"
-      ]
-    },
-    {
-      "id": "kelela",
-      "name": "Kelela",
-      "kind": "music",
-      "links": {
-        "homepage": "https://www.kelela.co/",
-        "spotify": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60?autoplay=true",
-        "instagram": "http://instagram.com/kelelam",
-        "wiki": "https://en.wikipedia.org/wiki/Kelela",
-        "youtube": "https://www.youtube.com/channel/UCI2aWCbAUZDzZZ5a5GDtRew"
-      },
-      "tm": [
-        "K8vZ91731M7"
       ]
     },
     {
@@ -13764,6 +13754,19 @@
       ]
     },
     {
+      "id": "kingfishr",
+      "name": "Kingfishr",
+      "kind": "music",
+      "links": {
+        "homepage": "https://www.kingfishr.ie/",
+        "spotify": "https://open.spotify.com/artist/6c2qQFq3xfxFJndX6wSe4f",
+        "instagram": "https://www.instagram.com/kingfishrofficial/"
+      },
+      "tm": [
+        "K8vZ917hplV"
+      ]
+    },
+    {
       "id": "kingh",
       "name": "Kingh",
       "kind": "music",
@@ -13847,11 +13850,6 @@
       ]
     },
     {
-      "id": "kobosil",
-      "name": "Kobosil",
-      "kind": "music"
-    },
-    {
       "id": "kodaline",
       "name": "Kodaline",
       "kind": "music",
@@ -13892,21 +13890,6 @@
       },
       "tm": [
         "K8vZ91715VV"
-      ]
-    },
-    {
-      "id": "korn",
-      "name": "Korn",
-      "kind": "music",
-      "links": {
-        "homepage": "http://www.korn.com/",
-        "spotify": "https://open.spotify.com/artist/3RNrq3jvMZxD9ZyoOZbQOD",
-        "instagram": "http://instagram.com/korn_official",
-        "wiki": "https://en.wikipedia.org/wiki/Korn",
-        "youtube": "https://www.youtube.com/user/kornchannel"
-      },
-      "tm": [
-        "K8vZ9171fF7"
       ]
     },
     {
@@ -14236,14 +14219,6 @@
       },
       "tm": [
         "K8vZ917rDX7"
-      ]
-    },
-    {
-      "id": "laura-jurd",
-      "name": "Laura Jurd",
-      "kind": "music",
-      "tm": [
-        "K8vZ917hCT0"
       ]
     },
     {
@@ -15644,17 +15619,6 @@
       ]
     },
     {
-      "id": "mark-lasis",
-      "name": "Mark Lasis",
-      "kind": "music",
-      "links": {
-        "instagram": "https://www.instagram.com/markl.asis/"
-      },
-      "tm": [
-        "K8vZ917-RWV"
-      ]
-    },
-    {
       "id": "mark-lockheart",
       "name": "Mark Lockheart",
       "kind": "music",
@@ -15985,6 +15949,11 @@
       ]
     },
     {
+      "id": "matt-kent",
+      "name": "Matt Kent",
+      "kind": "music"
+    },
+    {
       "id": "matt-lang",
       "name": "Matt Lang",
       "kind": "music",
@@ -16112,20 +16081,6 @@
       ]
     },
     {
-      "id": "max-and-harvey",
-      "name": "Max & Harvey",
-      "kind": "music",
-      "links": {
-        "homepage": "https://maxandharveyofficial.com/",
-        "spotify": "https://open.spotify.com/artist/1c9HvyZemDcNy18QrNFeTN?si=gfc8vttuRliMKsccq1193g",
-        "instagram": "http://instagram.com/maxandharvey",
-        "youtube": "https://www.youtube.com/channel/UCJR6A06hCDNcnJdZXwc2BEg"
-      },
-      "tm": [
-        "K8vZ917pq70"
-      ]
-    },
-    {
       "id": "mayor-of-londons-new-years-eve-fireworks",
       "name": "Mayor of London's New Year's Eve Fireworks",
       "kind": "other",
@@ -16176,11 +16131,6 @@
       "tm": [
         "K8vZ917L15f"
       ]
-    },
-    {
-      "id": "mcr-t",
-      "name": "MCR-T",
-      "kind": "music"
     },
     {
       "id": "meaner-loy",
@@ -17227,6 +17177,17 @@
       ]
     },
     {
+      "id": "murkage-dave",
+      "name": "Murkage Dave",
+      "kind": "music",
+      "links": {
+        "instagram": "https://www.instagram.com/murkagedave/"
+      },
+      "tm": [
+        "K8vZ917rYC0"
+      ]
+    },
+    {
       "id": "murphy",
       "name": "Murphy",
       "kind": "music",
@@ -17255,11 +17216,6 @@
       "tm": [
         "K8vZ917Qg0f"
       ]
-    },
-    {
-      "id": "mxgn",
-      "name": "mxgn",
-      "kind": "music"
     },
     {
       "id": "my-darling-clementine",
@@ -17752,6 +17708,14 @@
       ]
     },
     {
+      "id": "nicola-conte",
+      "name": "Nicola Conte",
+      "kind": "music",
+      "tm": [
+        "K8vZ917CYTV"
+      ]
+    },
+    {
       "id": "nier-orchestra-concert",
       "name": "NieR: Orchestra Concert",
       "kind": "music",
@@ -18003,11 +17967,6 @@
       "tm": [
         "K8vZ917GeV0"
       ]
-    },
-    {
-      "id": "novah",
-      "name": "NOVAH",
-      "kind": "music"
     },
     {
       "id": "novulent",
@@ -19395,14 +19354,6 @@
       ]
     },
     {
-      "id": "pixy",
-      "name": "PIXY",
-      "kind": "music",
-      "tm": [
-        "K8vZ917QRR0"
-      ]
-    },
-    {
       "id": "placebo",
       "name": "Placebo",
       "kind": "music",
@@ -19580,11 +19531,6 @@
       "tm": [
         "K8vZ917rdR7"
       ]
-    },
-    {
-      "id": "pretty-addicted",
-      "name": "Pretty Addicted",
-      "kind": "music"
     },
     {
       "id": "prince-abdi",
@@ -19956,18 +19902,6 @@
       },
       "tm": [
         "K8vZ917Kvt7"
-      ]
-    },
-    {
-      "id": "rayhon",
-      "name": "Rayhon",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/37HfGkP2W977nomn9i3cAI",
-        "instagram": "https://www.instagram.com/rayhonganieva/"
-      },
-      "tm": [
-        "K8vZ917-ZkV"
       ]
     },
     {
@@ -21308,11 +21242,6 @@
       "kind": "music"
     },
     {
-      "id": "samuel-moriero",
-      "name": "Samuel Moriero",
-      "kind": "music"
-    },
-    {
       "id": "sanctus-iuda",
       "name": "SANCTUS IUDA",
       "kind": "music",
@@ -22327,11 +22256,6 @@
       ]
     },
     {
-      "id": "slvl",
-      "name": "SLVL",
-      "kind": "music"
-    },
-    {
       "id": "small-brown-bike",
       "name": "Small Brown Bike",
       "kind": "music",
@@ -22634,6 +22558,14 @@
       "kind": "music"
     },
     {
+      "id": "soul-city",
+      "name": "Soul City",
+      "kind": "music",
+      "tm": [
+        "K8vZ917K187"
+      ]
+    },
+    {
       "id": "soul-ii-soul",
       "name": "Soul II Soul",
       "kind": "music",
@@ -22716,11 +22648,6 @@
       "tm": [
         "K8vZ9173K20"
       ]
-    },
-    {
-      "id": "spfdj",
-      "name": "SPFDJ",
-      "kind": "music"
     },
     {
       "id": "spice",
@@ -23157,6 +23084,11 @@
       "tm": [
         "K8vZ917OWqf"
       ]
+    },
+    {
+      "id": "strawberry-fires",
+      "name": "Strawberry Fires",
+      "kind": "music"
     },
     {
       "id": "streets-of-london-starry-night",
@@ -24961,7 +24893,7 @@
     {
       "id": "the-interrupters",
       "name": "The Interrupters",
-      "kind": "music",
+      "kind": "other",
       "links": {
         "homepage": "https://wearetheinterrupters.com/",
         "spotify": "https://open.spotify.com/artist/25Maank76ry2Tmbi2Ql1SF",
@@ -24969,7 +24901,8 @@
         "youtube": "https://www.youtube.com/channel/UCHLYhebp9oaoqj_u0yG0ZYA"
       },
       "tm": [
-        "K8vZ917oanf"
+        "K8vZ917oanf",
+        "K8vZ917CXv7"
       ]
     },
     {
@@ -25740,20 +25673,6 @@
       ]
     },
     {
-      "id": "the-selecter",
-      "name": "The Selecter",
-      "kind": "music",
-      "links": {
-        "homepage": "http://www.theselecter.net/",
-        "instagram": "https://www.instagram.com/theselecterofficial/",
-        "wiki": "https://en.wikipedia.org/wiki/The_Selecter",
-        "youtube": "https://www.youtube.com/TheSelecterofficial"
-      },
-      "tm": [
-        "K8vZ9172F77"
-      ]
-    },
-    {
       "id": "the-sharon-shannon-big-band",
       "name": "The Sharon Shannon Big Band",
       "kind": "music",
@@ -25877,11 +25796,6 @@
       "tm": [
         "K8vZ9172LZV"
       ]
-    },
-    {
-      "id": "the-slates",
-      "name": "The Slates",
-      "kind": "music"
     },
     {
       "id": "the-smartest-giant-in-town",
@@ -26210,14 +26124,6 @@
       },
       "tm": [
         "K8vZ917KSff"
-      ]
-    },
-    {
-      "id": "the-west-end-jerseys",
-      "name": "The West End Jerseys",
-      "kind": "music",
-      "tm": [
-        "K8vZ917rkSV"
       ]
     },
     {
@@ -26610,6 +26516,19 @@
       ]
     },
     {
+      "id": "tim-giles",
+      "name": "Tim Giles",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5JgrHTUNDpnZrWXswiQmMi",
+        "instagram": "https://www.instagram.com/tim0__g/",
+        "youtube": "https://www.youtube.com/channel/UC3jJ2hM2qMk99dyMYV9ZqTA"
+      },
+      "tm": [
+        "K8vZ917--hV"
+      ]
+    },
+    {
       "id": "tim-key",
       "name": "Tim Key",
       "kind": "comedy",
@@ -26962,20 +26881,6 @@
       ]
     },
     {
-      "id": "tortoise",
-      "name": "Tortoise",
-      "kind": "music",
-      "links": {
-        "homepage": "http://www.trts.com/",
-        "spotify": "https://open.spotify.com/artist/3WggbHDpj4rPKbL97zG5MQ?autoplay=true",
-        "instagram": "https://www.instagram.com/trts/",
-        "wiki": "https://en.wikipedia.org/wiki/Tortoise_(band)"
-      },
-      "tm": [
-        "K8vZ9171pk0"
-      ]
-    },
-    {
       "id": "tortured-demon",
       "name": "Tortured Demon",
       "kind": "music",
@@ -27217,11 +27122,6 @@
       ]
     },
     {
-      "id": "trym",
-      "name": "Trym",
-      "kind": "music"
-    },
-    {
       "id": "ttssfu",
       "name": "TTSSFU",
       "kind": "music",
@@ -27256,14 +27156,6 @@
       },
       "tm": [
         "K8vZ917OzF7"
-      ]
-    },
-    {
-      "id": "turner-cody",
-      "name": "Turner Cody",
-      "kind": "music",
-      "tm": [
-        "K8vZ917G2d0"
       ]
     },
     {
@@ -28737,11 +28629,6 @@
       ]
     },
     {
-      "id": "yoshiko",
-      "name": "Yoshiko",
-      "kind": "music"
-    },
-    {
       "id": "you-me-and-comedy",
       "name": "You Me and Comedy",
       "kind": "comedy",
@@ -28816,6 +28703,20 @@
       ]
     },
     {
+      "id": "zara-mcfarlane",
+      "name": "Zara McFarlane",
+      "kind": "music",
+      "links": {
+        "homepage": "http://www.zaramcfarlane.com/",
+        "spotify": "https://open.spotify.com/artist/2KwROtmoJfRcQHqDMiV6uo",
+        "instagram": "https://www.instagram.com/zaramcfarlane",
+        "youtube": "http://www.youtube.com/playlist"
+      },
+      "tm": [
+        "K8vZ917ovk7"
+      ]
+    },
+    {
       "id": "zebrahead",
       "name": "Zebrahead",
       "kind": "music",
@@ -28879,15 +28780,15 @@
       "venueId": "",
       "sourceId": "ticketmaster",
       "title": "ABBA Voyage",
-      "url": "https://theatre.ticketmaster.co.uk/book/1H8DJ-abba-voyage-admissions/#perf=1H8DJ-I8L&date=2026-11-04&time=7.45PM",
+      "url": "https://theatre.ticketmaster.co.uk/book/1H8DJ-abba-voyage-admissions/#perf=1H8DJ-I8Z&date=2026-11-05&time=7.45PM",
       "type": "concert",
       "category": "shows",
-      "startDate": "2026-11-04",
+      "startDate": "2026-11-05",
       "endDate": "2027-06-28",
       "firstSeen": "2026-11-02",
       "image": "https://s1.ticketm.net/dam/a/ff6/ee6672ad-77bc-4de3-b7c8-8a8ebf5bfff6_RETINA_LANDSCAPE_16_9.jpg",
       "schedule": {
-        "from": "2026-11-04",
+        "from": "2026-11-05",
         "times": [
           "13:00",
           "14:00",
@@ -28896,7 +28797,7 @@
           "19:00",
           "19:45"
         ],
-        "days": "wwwA900wwwA900wwwA900wwwA900wwwA900wwwA900wwwA9www0009Aww40A900wwwA900wwwA900wwwA900wwwA800wwwA900wwwA9w0wwwA900wwwA900wwwA900wwwA900www4900www4i40www4900www4900www4900www4900wwwA940wwwA900wwwA900wwwA90000wA940wwwA9w00wwA9w00wwA9w00wwA9w"
+        "days": "wwA900wwwA900wwwA900wwwA900wwwA900wwwA900wwwA9www0009Aww40A900wwwA900wwwA900wwwA900wwwA800wwwA900wwwA9w0wwwA900wwwA900wwwA900wwwA900www4900www4i40www4900www4900www4900www4900wwwA940wwwA900wwwA900wwwA90000wA940wwwA9w00wwA9w00wwA9w00wwA9w"
       },
       "people": [
         "abba-voyage"
@@ -28911,521 +28812,24 @@
       "url": "https://www.universe.com/events/big-belly-comedy-club-voted-london-s-best-comedy-club-tickets-LMKGWQ?ref=ticketmaster",
       "type": "show",
       "category": "shows",
-      "startDate": "2026-11-04",
+      "startDate": "2026-11-05",
       "endDate": "2026-11-30",
       "firstSeen": "2026-11-02",
       "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg",
       "schedule": {
-        "from": "2026-11-04",
+        "from": "2026-11-05",
         "times": [
           "17:30",
           "19:30",
           "20:00"
         ],
-        "days": "222502222250222225022222502"
+        "days": "22502222250222225022222502"
       },
       "people": [
         "big-belly-comedy-club",
         "big-belly-stand-up-comedy-show"
       ],
       "venueName": "Big Belly Comedy - Southbank"
-    },
-    {
-      "id": "~blue-note-london:event-2300651ba2530ffa",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Sampa the Great",
-      "url": "https://www.ticketmaster.co.uk/sampa-the-great-london-04-11-2026/event/2300651BA2530FFA",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/e/e78/83139058-da6f-40a3-8b54-297805168e78_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Doors open at 5pm, two hours before the event starts.",
-      "people": [
-        "sampa-the-great"
-      ],
-      "venueName": "Blue Note London"
-    },
-    {
-      "id": "~boisdale-canary-wharf:events-the-west-end-jerseys-tickets-mk13v7-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "The West End Jerseys",
-      "url": "https://www.universe.com/events/the-west-end-jerseys-tickets-MK13V7?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "20:30",
-      "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "the-west-end-jerseys"
-      ],
-      "venueName": "Boisdale, Canary Wharf"
-    },
-    {
-      "id": "~four-quarters:events-pixy-tickets-ml07vn-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "PIXY",
-      "url": "https://www.universe.com/events/pixy-tickets-ML07VN?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "pixy"
-      ],
-      "venueName": "Four Quarters"
-    },
-    {
-      "id": "~hackney-church:events-pitchfork-festival-london-tortoise-tickets-mgtlcz-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Pitchfork Festival London: Tortoise",
-      "url": "https://www.universe.com/events/pitchfork-festival-london-tortoise-tickets-MGTLCZ?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/ef8/cb512e00-bad5-468c-bf7e-3cebe11deef8_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "tortoise",
-        "bill-orcutt"
-      ],
-      "venueName": "Hackney Church"
-    },
-    {
-      "id": "~hoxton-hall:event-3700650e414ec540",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Dermot Henry",
-      "url": "https://www.ticketmaster.co.uk/dermot-henry-london-04-11-2026/event/3700650E414EC540",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/5d9/402daee4-e472-444d-bdac-0e7c6d7c65d9_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Plus support from TESNI",
-      "people": [
-        "dermot-henry"
-      ],
-      "venueName": "Hoxton Hall"
-    },
-    {
-      "id": "~jazz-cafe:events-calibro-35-tickets-721bcs-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Calibro 35",
-      "url": "https://www.universe.com/events/calibro-35-tickets-721BCS?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "calibro-35",
-        "daniele-mizar"
-      ],
-      "venueName": "Jazz Cafe"
-    },
-    {
-      "id": "~judi-dench-theatre:book-1hmdj-avenue-q",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Avenue Q",
-      "url": "https://theatre.ticketmaster.co.uk/book/1HMDJ-avenue-q/#perf=1HMDJ-78&date=2026-11-04&time=7.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": "2027-01-03",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/8a6/9e4839cf-ab9f-41f3-9ce3-4c7cd05b48a6_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-04",
-        "times": [
-          "14:30",
-          "15:00",
-          "19:30"
-        ],
-        "days": "4455044445504444550444455044445504444550444455054500464551052"
-      },
-      "people": [
-        "avenue-q"
-      ],
-      "venueName": "Judi Dench Theatre"
-    },
-    {
-      "id": "~morocco-bound:bossa-nova-tribute-to-joo-gilberto-live-at-morocco-bound-42835259",
-      "venueId": "",
-      "sourceId": "skiddle",
-      "title": "Bossa Nova - Tribute to João Gilberto - Live at Morocco Bound",
-      "url": "https://www.skiddle.com/whats-on/London/Morocco-Bound/Bossa-Nova---Tribute-to-Joo-Gilberto---Live-at-Morocco-Bound/42835259/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/d/5/7/2359874_80993524_Bossa-Nova---Tribute-to-Jo--o-Gilberto---Live-at-Morocco-Bound.jpg",
-      "description": "Mario Bakuna pays tribute to the father of bossa nova, João Gilberto.",
-      "people": [
-        "mario-bakuna"
-      ],
-      "venueName": "Morocco Bound"
-    },
-    {
-      "id": "~new-cross-inn:events-frozemode-tickets-9qfx5r-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Frozemode",
-      "url": "https://www.universe.com/events/frozemode-tickets-9QFX5R?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:00",
-      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "frozemode"
-      ],
-      "venueName": "New Cross Inn"
-    },
-    {
-      "id": "~o2-academy-brixton:event-3e0064bbdbef590b",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Kelela - New Avatar Live",
-      "url": "https://www.ticketmaster.co.uk/kelela-new-avatar-live-london-04-11-2026/event/3E0064BBDBEF590B",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/112/defbb126-0d29-44e6-9760-afc6b2941112_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must ",
-      "people": [
-        "kelela"
-      ],
-      "venueName": "O2 Academy Brixton"
-    },
-    {
-      "id": "~o2-academy-islington:event-3e0064d6fcce6d69",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Max & Harvey: In A Decade",
-      "url": "https://www.ticketmaster.co.uk/max-harvey-in-a-decade-london-04-11-2026/event/3E0064D6FCCE6D69",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:00",
-      "image": "https://s1.ticketm.net/dam/a/c98/faf5ecf8-1daf-4d46-bfe1-ec41b8b00c98_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "people": [
-        "max-and-harvey"
-      ],
-      "venueName": "O2 Academy Islington"
-    },
-    {
-      "id": "~o2-academy2-islington:event-3e00654d6eac0e7b",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Go-Jo",
-      "url": "https://www.ticketmaster.co.uk/gojo-london-04-11-2026/event/3E00654D6EAC0E7B",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/bf9/1994c907-7a09-41f5-833b-b23228be8bf9_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "people": [
-        "go-jo"
-      ],
-      "venueName": "O2 Academy2 Islington"
-    },
-    {
-      "id": "~o2-forum-kentish-town:event-3e00636ad3af6674",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "The Mission- Gods Own Medicine 40th Anniversary Shows",
-      "url": "https://www.ticketmaster.co.uk/the-mission-gods-own-medicine-40th-london-04-11-2026/event/3E00636AD3AF6674",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": "2026-11-07",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/6a7/198276d3-981d-492e-9210-6c37f523e6a7_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Wednesday 4th - God's Own Medicine in full plus B-sides Thursday 5th - Best of the following albums: First Chapter Children Grains of Sand Neverland Aura Brightest Light Friday 6th - Best of the following albums: God's Own Medicine Carved in Sand Masque Blue God is a Bullet Anoth",
-      "people": [
-        "the-mission",
-        "claytown-troupe",
-        "mouth-ulcers",
-        "power-of-dreams"
-      ],
-      "venueName": "O2 Forum Kentish Town"
-    },
-    {
-      "id": "~o2-forum-kentish-town:event-3e00636b9187395a",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "The Mission: Gods Own Medicine 40th Anniversary Shows - 4-Day Ticket",
-      "url": "https://www.ticketmaster.co.uk/the-mission-gods-own-medicine-40th-london-04-11-2026/event/3E00636B9187395A",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": "2026-11-07",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/6a7/198276d3-981d-492e-9210-6c37f523e6a7_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Wednesday 4th - God's Own Medicine in full plus B-sides Thursday 5th - Best of the following albums: First Chapter Children Grains of Sand Neverland Aura Brightest Light Friday 6th - Best of the following albums: God's Own Medicine Carved in Sand Masque Blue God is a Bullet Anoth",
-      "people": [
-        "the-mission"
-      ],
-      "venueName": "O2 Forum Kentish Town"
-    },
-    {
-      "id": "~piano-bar-soho:events-live-jazz-from-the-piano-bar-at-red-room-studios-soho-tickets-zd6fxl-ref",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Live Jazz from the Piano Bar at Red Room Studios, Soho",
-      "url": "https://www.universe.com/events/live-jazz-from-the-piano-bar-at-red-room-studios-soho-tickets-ZD6FXL?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": "2026-12-17",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/2c6/5a4e99e1-a13c-4559-b4ce-b802a60f72c6_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-04",
-        "times": [
-          "18:30",
-          "20:30"
-        ],
-        "days": "33300003230000333000030000003330000033000333"
-      },
-      "people": [
-        "soho-live-music-club",
-        "soho-jazz-festival"
-      ],
-      "venueName": "Piano Bar Soho"
-    },
-    {
-      "id": "~president-hotel:book-1gltr-faulty-towers-the-dining-experience-in-londons-west-end-2024",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Faulty Towers the Dining Experience",
-      "url": "https://theatre.ticketmaster.co.uk/book/1GLTR-faulty-towers-the-dining-experience-in-londons-west-end-2024/#perf=1GLTR-21K&date=2026-11-04&time=7.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": "2027-11-03",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/15e/dda96bd9-563a-48b8-95e1-7226ffd7715e_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-04",
-        "times": [
-          "12:30",
-          "13:30",
-          "14:30",
-          "18:30",
-          "19:30"
-        ],
-        "days": "gggi200gggi200gigia00gigia00gigia00gigia00gigi2.................ggi2000ggi2000ggi2000ggi200gggi200gggi200gggi200gggi200gggi200gggi200gggi200gggi400gggi200gggi200gggi2000ggi200gggi200gggi200gggi200gggi200gggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi0000ggi2000ggi2000ggg2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi200gggi200gggi200gggi200gggi100g"
-      },
-      "people": [
-        "faulty-towers-the-dining-experience"
-      ],
-      "venueName": "President Hotel"
-    },
-    {
-      "id": "~scala:event-1f006496b903537d",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Chasing Abbey",
-      "url": "https://www.ticketmaster.co.uk/chasing-abbey-london-04-11-2026/event/1F006496B903537D",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/1ff/95850e19-40f5-4cd4-9963-d0d2d7dd21ff_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "chasing-abbey"
-      ],
-      "venueName": "Scala"
-    },
-    {
-      "id": "~the-black-heart:brat-smouldering-tomb-pretty-addicted-42616572",
-      "venueId": "",
-      "sourceId": "skiddle",
-      "title": "BRAT / Smouldering Tomb / Pretty Addicted",
-      "url": "https://www.skiddle.com/whats-on/London/The-Black-Heart/BRAT--Smouldering-Tomb--Pretty-Addicted/42616572/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/c/8/6/2311922_11369196_brat.jpg",
-      "description": "BRAT's self-described barbiegrind / bimboviolence hits The Black Heart in Camden Town this November! With Smouldering Tomb and Pretty Addicted.",
-      "people": [
-        "pretty-addicted",
-        "brat"
-      ],
-      "venueName": "The Black Heart"
-    },
-    {
-      "id": "~the-elephants-head:the-slates-london-43127779",
-      "venueId": "",
-      "sourceId": "skiddle",
-      "title": "The Slates - London",
-      "url": "https://www.skiddle.com/whats-on/London/The-Elephants-Head/The-Slates---London/43127779/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "16:30",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/a/c/3/2458729_42e09cfc_the-slates-london.jpg",
-      "description": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
-      "people": [
-        "the-slates"
-      ],
-      "venueName": "The Elephants Head"
-    },
-    {
-      "id": "~the-lower-third-up:charls-the-lower-third-up-tickets-14302194-referral-id-tmfeed",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "CHARLS",
-      "url": "https://www.ticketweb.uk/event/charls-the-lower-third-up-tickets/14302194?REFERRAL_ID=tmfeed",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://s1.ticketm.net/dam/a/469/9e6f24ee-cbf8-477c-97a7-e825a98f0469_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "charls"
-      ],
-      "venueName": "The Lower Third (UP)"
-    },
-    {
-      "id": "~the-questors-theatre:questors-comedy-festival-ft-ed-byrne-and-sally-anne-hayward-43125382",
-      "venueId": "",
-      "sourceId": "skiddle",
-      "title": "Questors Comedy Festival ft. Ed Byrne and Sally-Anne Hayward",
-      "url": "https://www.skiddle.com/whats-on/London/The-Questors-Theatre/Questors-Comedy-Festival-ft-Ed-Byrne-and-Sally-Anne-Hayward/43125382/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/9/b/3/2457841_a8b97e96_questors-comedy-festival-ft-ed-byrne-and-sally-anne-hayward.jpg",
-      "description": "Get ready for a night of stand up comedy from two outstanding comedians, right here in Ealing.",
-      "price": "paid",
-      "people": [
-        "ed-byrne"
-      ],
-      "venueName": "The Questors Theatre"
-    },
-    {
-      "id": "~the-theatre-at-the-hippodrome-casino:book-1fhac-magic-mike-live-bp-9",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Magic Mike Live!",
-      "url": "https://theatre.ticketmaster.co.uk/book/1FHAC-magic-mike-live-bp-9/#perf=1FHAC-22A&date=2026-11-04&time=7.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": "2027-11-03",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/3e7/62c8d4be-2b0c-4ecc-a11c-5912742693e7_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-04",
-        "times": [],
-        "days": "1111100111110011111001111100111110011111001111101100110111111.........1111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111.......................1111100111110011111001111100111110011111001"
-      },
-      "people": [
-        "magic-mike-live"
-      ],
-      "venueName": "The Theatre at the Hippodrome Casino"
-    },
-    {
-      "id": "~the-troubadour:turner-cody-charles-bueller-troubadour-tickets-14324974-referral-id-tmfeed",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Turner Cody + Charles Bueller + Clary Campbell Carter",
-      "url": "https://www.ticketweb.uk/event/turner-cody-charles-bueller-troubadour-tickets/14324974?REFERRAL_ID=tmfeed",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "20:00",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "turner-cody"
-      ],
-      "venueName": "The Troubadour"
-    },
-    {
-      "id": "~vortex-jazz-club:events-mark-lasis-quintet-downstairs-tickets-d3r4cq-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Mark Lasis Quintet (Downstairs)",
-      "url": "https://www.universe.com/events/mark-lasis-quintet-downstairs-tickets-D3R4CQ?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:45",
-      "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "mark-lasis"
-      ],
-      "venueName": "Vortex Jazz Club"
-    },
-    {
-      "id": "~vortex-jazz-club:events-rebecka-edlund-trio-ft-laura-jurd-ruth-goller-tickets-kt3l2v-ref-ticketma",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Rebecka Edlund Trio ft Laura Jurd & Ruth Goller",
-      "url": "https://www.universe.com/events/rebecka-edlund-trio-ft-laura-jurd-ruth-goller-tickets-KT3L2V?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:45",
-      "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "rebecka-edlund",
-        "laura-jurd"
-      ],
-      "venueName": "Vortex Jazz Club"
     },
     {
       "id": "~blondies:events-atlas-theory-tickets-1z7jcx-ref-ticketmaster",
@@ -29594,6 +28998,32 @@
       "venueName": "Jazz Cafe"
     },
     {
+      "id": "~judi-dench-theatre:book-1hmdj-avenue-q",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Avenue Q",
+      "url": "https://theatre.ticketmaster.co.uk/book/1HMDJ-avenue-q/#perf=1HMDJ-79&date=2026-11-05&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/8a6/9e4839cf-ab9f-41f3-9ce3-4c7cd05b48a6_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-05",
+        "times": [
+          "14:30",
+          "15:00",
+          "19:30"
+        ],
+        "days": "455044445504444550444455044445504444550444455054500464551052"
+      },
+      "people": [
+        "avenue-q"
+      ],
+      "venueName": "Judi Dench Theatre"
+    },
+    {
       "id": "~london-barfly:event-1f006524d97e3cc8",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -29651,6 +29081,80 @@
       "venueName": "O2 Academy2 Islington"
     },
     {
+      "id": "~o2-forum-kentish-town:event-3e0063671012d43f",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "The Mission- Gods Own Medicine 40th Anniversary Shows",
+      "url": "https://www.ticketmaster.co.uk/the-mission-gods-own-medicine-40th-london-05-11-2026/event/3E0063671012D43F",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-05",
+      "image": "https://s1.ticketm.net/dam/a/6a7/198276d3-981d-492e-9210-6c37f523e6a7_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "Wednesday 4th - God's Own Medicine in full plus B-sides Thursday 5th - Best of the following albums: First Chapter Children Grains of Sand Neverland Aura Brightest Light Support from SpaceAcre Friday 6th - Best of the following albums: God's Own Medicine Carved in Sand Masque Blu",
+      "people": [
+        "the-mission",
+        "mouth-ulcers",
+        "power-of-dreams"
+      ],
+      "venueName": "O2 Forum Kentish Town"
+    },
+    {
+      "id": "~piano-bar-soho:events-live-jazz-from-the-piano-bar-at-red-room-studios-soho-tickets-zd6fxl-ref",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Live Jazz from the Piano Bar at Red Room Studios, Soho",
+      "url": "https://www.universe.com/events/live-jazz-from-the-piano-bar-at-red-room-studios-soho-tickets-ZD6FXL?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-17",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/2c6/5a4e99e1-a13c-4559-b4ce-b802a60f72c6_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-05",
+        "times": [
+          "18:30",
+          "20:30"
+        ],
+        "days": "3300003230000333000030000003330000033000333"
+      },
+      "people": [
+        "soho-live-music-club",
+        "soho-jazz-festival"
+      ],
+      "venueName": "Piano Bar Soho"
+    },
+    {
+      "id": "~president-hotel:book-1gltr-faulty-towers-the-dining-experience-in-londons-west-end-2024",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Faulty Towers the Dining Experience",
+      "url": "https://theatre.ticketmaster.co.uk/book/1GLTR-faulty-towers-the-dining-experience-in-londons-west-end-2024/#perf=1GLTR-21M&date=2026-11-05&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": "2027-11-04",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/15e/dda96bd9-563a-48b8-95e1-7226ffd7715e_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-05",
+        "times": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "18:30",
+          "19:30"
+        ],
+        "days": "ggi200gggi200gigia00gigia00gigia00gigia00gigi2.................ggi2000ggi2000ggi2000ggi200gggi200gggi200gggi200gggi200gggi200gggi200gggi200gggi400gggi200gggi200gggi2000ggi200gggi200gggi200gggi200gggi200gggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi0000ggi2000ggi2000ggg2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi200gggi200gggi200gggi200gggi100gg"
+      },
+      "people": [
+        "faulty-towers-the-dining-experience"
+      ],
+      "venueName": "President Hotel"
+    },
+    {
       "id": "~scala:event-1f0064a8db1f55c7",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -29704,6 +29208,28 @@
         "danko-jones"
       ],
       "venueName": "The Garage"
+    },
+    {
+      "id": "~the-theatre-at-the-hippodrome-casino:book-1fhac-magic-mike-live-bp-9",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Magic Mike Live!",
+      "url": "https://theatre.ticketmaster.co.uk/book/1FHAC-magic-mike-live-bp-9/#perf=1FHAC-22B&date=2026-11-05&time=7.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-05",
+      "endDate": "2027-11-04",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/3e7/62c8d4be-2b0c-4ecc-a11c-5912742693e7_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-05",
+        "times": [],
+        "days": "111100111110011111001111100111110011111001111101100110111111.........1111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111.......................11111001111100111110011111001111100111110011"
+      },
+      "people": [
+        "magic-mike-live"
+      ],
+      "venueName": "The Theatre at the Hippodrome Casino"
     },
     {
       "id": "~top-secret-comedy-club:events-lol-ladies-of-laughter-london-tickets-9xp75l-ref-ticketmaster",
@@ -30107,19 +29633,18 @@
       "venueName": "New Cross Inn"
     },
     {
-      "id": "~o2-academy-islington:event-3e006467a37039fd",
+      "id": "~o2-academy-islington:events-forever-nu-25th-anniversary-of-toxicity-iowa-special-tickets-63cyd8-ref-t",
       "venueId": "",
       "sourceId": "ticketmaster",
-      "title": "FOREVER NU - 25th anniversary of Toxicity & Iowa special!",
-      "url": "https://www.ticketmaster.co.uk/forever-nu-25th-anniversary-of-toxicity-london-06-11-2026/event/3E006467A37039FD",
+      "title": "FOREVER NU - 25th anniversary of Toxicity & IOWA special!",
+      "url": "https://www.universe.com/events/forever-nu-25th-anniversary-of-toxicity-iowa-special-tickets-63CYD8?ref=ticketmaster",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-06",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
+      "firstSeen": "2026-11-05",
+      "startTime": "18:00",
       "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "FOREVER NU - 25th anniversary of Toxicity & Iowa special! Chop Suey, Slip-Not, A7Xperience, Propa Roach Featuring members of Dragonforce, Anti-Nowhere League, Tigertailz and Sinsaenum, Chop Suey and Slip-NOT have cemented themselves as two of the best tribute acts in the UK! This",
       "people": [
         "chopsuey",
         "slip-not",
@@ -31513,6 +31038,27 @@
       "venueName": "The Victoria"
     },
     {
+      "id": "~vortex-jazz-club:events-crowley-bonney-brice-harlan-downstairs-tickets-28wbpd-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Crowley / Bonney / Brice / Harlan (Downstairs)",
+      "url": "https://www.universe.com/events/crowley-bonney-brice-harlan-downstairs-tickets-28WBPD?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "18:45",
+      "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "alex-bonney",
+        "olie-brice",
+        "george-crowley",
+        "tim-giles"
+      ],
+      "venueName": "Vortex Jazz Club"
+    },
+    {
       "id": "~vortex-jazz-club:events-family-band-tickets-ctjh53-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -32078,24 +31624,6 @@
         "osibisa"
       ],
       "venueName": "Boisdale, Canary Wharf"
-    },
-    {
-      "id": "~bush-hall:michael-mcgovern-bush-hall-tickets-14883483-referral-id-tmfeed",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Michael McGovern",
-      "url": "https://www.ticketweb.uk/event/michael-mcgovern-bush-hall-tickets/14883483?REFERRAL_ID=tmfeed",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-13",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/af4/60b52055-73d6-4d37-bfcd-8b7e6e7b9af4_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "michael-mcgovern"
-      ],
-      "venueName": "Bush Hall"
     },
     {
       "id": "~electric-ballroom:event-1f006478e78c8049",
@@ -35509,6 +35037,25 @@
       "venueName": "Bush Hall"
     },
     {
+      "id": "~george-tarven:family-art-clubrunning-standardamistakeholiday-43159388",
+      "venueId": "",
+      "sourceId": "skiddle",
+      "title": "Family Art Club+Running Standard+amistakeholiday",
+      "url": "https://www.skiddle.com/whats-on/London/George-Tarven/Family-Art-ClubRunning-Standardamistakeholiday/43159388/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-23",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "19:30",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/1/8/e/2466640_78c06119_family-art-club-running-standard-amistakeholiday.jpg",
+      "description": "A night of our favorite music from Leeds and London at George Tarven. For people who likes indie and chamber music.",
+      "people": [
+        "family-art-club"
+      ],
+      "venueName": "George Tarven"
+    },
+    {
       "id": "~hoxton-hall:event-3700655e9f7b4f46",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -35521,9 +35068,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/b83/fc8731b4-e6a1-44b4-87ed-93b77339db83_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-05T10:00:00Z"
-      },
       "people": [
         "victor-ray"
       ],
@@ -37759,16 +37303,16 @@
       "venueName": "Village Underground"
     },
     {
-      "id": "~vortex-jazz-club:events-mark-kavuma-banger-factory-tickets-9sh864-ref-ticketmaster",
+      "id": "~vortex-jazz-club:events-mark-kavuma-quintet-tickets-9sh864-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
-      "title": "Mark Kavuma - Banger Factory",
-      "url": "https://www.universe.com/events/mark-kavuma-banger-factory-tickets-9SH864?ref=ticketmaster",
+      "title": "Mark Kavuma Quintet",
+      "url": "https://www.universe.com/events/mark-kavuma-quintet-tickets-9SH864?ref=ticketmaster",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-28",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-05",
       "startTime": "19:45",
       "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
       "people": [
@@ -40475,6 +40019,25 @@
       "venueName": "Jazz Cafe"
     },
     {
+      "id": "~morocco-bound:bossa-nova-tribute-to-joo-gilberto-live-at-morocco-bound-42835261",
+      "venueId": "",
+      "sourceId": "skiddle",
+      "title": "Bossa Nova - Tribute to João Gilberto - Live at Morocco Bound",
+      "url": "https://www.skiddle.com/whats-on/London/Morocco-Bound/Bossa-Nova---Tribute-to-Joo-Gilberto---Live-at-Morocco-Bound/42835261/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-12-08",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "19:00",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/b/2/9/2359876_83995840_Bossa-Nova---Tribute-to-Jo--o-Gilberto---Live-at-Morocco-Bound.jpg",
+      "description": "Mario Bakuna pays tribute to the father of bossa nova, João Gilberto.",
+      "people": [
+        "mario-bakuna"
+      ],
+      "venueName": "Morocco Bound"
+    },
+    {
       "id": "~new-cross-inn:events-splint-r-tickets-p0r9n3-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -40578,6 +40141,25 @@
       "venueName": "O2 Forum Kentish Town"
     },
     {
+      "id": "~outernet-live:events-joshua-idehen-outernet-tickets-2bp6cs-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "JOSHUA IDEHEN @ Outernet",
+      "url": "https://www.universe.com/events/joshua-idehen-outernet-tickets-2BP6CS?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-12-08",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "joshua-idehen",
+        "murkage-dave"
+      ],
+      "venueName": "Outernet Live"
+    },
+    {
       "id": "~the-black-heart:events-junior-tickets-2jv81r-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -40630,6 +40212,26 @@
         "ziggy-zeitgeist"
       ],
       "venueName": "Blue Note London"
+    },
+    {
+      "id": "~exmouth-market-church-hall:in-search-of-the-light-43147404",
+      "venueId": "",
+      "sourceId": "skiddle",
+      "title": "In Search Of The Light",
+      "url": "https://www.skiddle.com/whats-on/London/Exmouth-Market-Church-Hall/In-Search-Of-The-Light/43147404/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-12-09",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "19:00",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/0/3/f/2465951_b72ba217_in-search-of-the-light.jpg",
+      "description": "An intimate, festive evening with singer-songwriter Annalie Wilson, plus support from Matt Kent",
+      "people": [
+        "matt-kent",
+        "annalie-wilson"
+      ],
+      "venueName": "Exmouth Market Church Hall"
     },
     {
       "id": "~hoxton-hall:events-james-yorkston-tickets-hd8jwy-ref-ticketmaster",
@@ -41062,6 +40664,25 @@
         "nick-helm"
       ],
       "venueName": "Swimmer At The Grafton"
+    },
+    {
+      "id": "~the-finsbury:this-feeling-london-43160335",
+      "venueId": "",
+      "sourceId": "skiddle",
+      "title": "This Feeling - London",
+      "url": "https://www.skiddle.com/whats-on/London/The-Finsbury/This-Feeling---London/43160335/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-12-10",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "19:30",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/6/9/1/2467168_26ec870b_this-feeling-london.jpg",
+      "description": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
+      "people": [
+        "strawberry-fires"
+      ],
+      "venueName": "The Finsbury"
     },
     {
       "id": "~the-troubadour:events-drez-camino-special-guests-tickets-ftxqwy-ref-ticketmaster",
@@ -43133,40 +42754,6 @@
       "venueName": "Bricks"
     },
     {
-      "id": "~drumsheds:teletech-43045664",
-      "venueId": "",
-      "sourceId": "skiddle",
-      "title": "Teletech",
-      "url": "https://www.skiddle.com/whats-on/London/Drumsheds/Teletech/43045664/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-12-19",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "13:00",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/3/9/6/2451982_881f0b1f_teletech.jpg",
-      "description": "After a huge sold-out debut earlier this year, Teletech heads back down South for another monumental edition at Drumsheds.",
-      "people": [
-        "novah",
-        "anetha",
-        "kobosil",
-        "mcr-t",
-        "trym",
-        "yoshiko",
-        "samuel-moriero",
-        "adrian-mills",
-        "clouds",
-        "slvl",
-        "benwal",
-        "alex-farell",
-        "faster-horses",
-        "spfdj",
-        "mxgn",
-        "hanaa"
-      ],
-      "venueName": "Drumsheds"
-    },
-    {
       "id": "~electric-brixton:events-rnb-mania-londons-r-b-festival-tickets-swfk03-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -43684,25 +43271,6 @@
       "venueName": "New Cross Inn"
     },
     {
-      "id": "~big-belly-comedy-southbank:events-thurs-24th-dec-stand-up-comedy-show-big-belly-comedy-club-tickets-5w2r6n",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Thurs 24th Dec - Stand Up Comedy Show - Big Belly Comedy Club",
-      "url": "https://www.universe.com/events/thurs-24th-dec-stand-up-comedy-show-big-belly-comedy-club-tickets-5W2R6N?ref=ticketmaster",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-12-24",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "big-belly-comedy-club",
-        "big-belly-stand-up-comedy-show"
-      ],
-      "venueName": "Big Belly Comedy - Southbank"
-    },
-    {
       "id": "~jazz-cafe:events-a-motown-christmas-tickets-0g8qx3-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -43720,44 +43288,6 @@
         "motown-christmas"
       ],
       "venueName": "Jazz Cafe"
-    },
-    {
-      "id": "~big-belly-comedy-southbank:events-fri-25th-dec-6-30pm-doors-7pm-stand-up-comedy-show-big-belly-comedy-ticke",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Fri 25th Dec - 6.30pm Doors | 7pm Stand Up Comedy Show - Big Belly Comedy",
-      "url": "https://www.universe.com/events/fri-25th-dec-6-30pm-doors-7pm-stand-up-comedy-show-big-belly-comedy-tickets-V7YDJQ?ref=ticketmaster",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-12-25",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "big-belly-comedy-club",
-        "big-belly-stand-up-comedy-show"
-      ],
-      "venueName": "Big Belly Comedy - Southbank"
-    },
-    {
-      "id": "~big-belly-comedy-southbank:events-fri-25th-dec-8-30pm-doors-9pm-stand-up-comedy-show-big-belly-comedy-ticke",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Fri 25th Dec - 8.30pm Doors | 9pm Stand Up Comedy Show - Big Belly Comedy",
-      "url": "https://www.universe.com/events/fri-25th-dec-8-30pm-doors-9pm-stand-up-comedy-show-big-belly-comedy-tickets-LJ31B5?ref=ticketmaster",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-12-25",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "20:30",
-      "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "big-belly-comedy-club",
-        "big-belly-stand-up-comedy-show"
-      ],
-      "venueName": "Big Belly Comedy - Southbank"
     },
     {
       "id": "~blue-note-london:event-23006542ae9e0fc2",
@@ -44347,9 +43877,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "22:30",
       "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-05T10:00:00Z"
-      },
       "people": [
         "club-nights-the-jazz-cafe",
         "afro-house-party-at-jazz-cafe"
@@ -44440,11 +43967,27 @@
       "firstSeen": "2026-11-02",
       "startTime": "22:30",
       "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-05T10:00:00Z"
-      },
       "people": [
         "club-nights-the-jazz-cafe"
+      ],
+      "venueName": "Jazz Cafe"
+    },
+    {
+      "id": "~jazz-cafe:events-soulcity-a-dance-thing-tickets-nkch1v-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "soulcity - a dance thing",
+      "url": "https://www.universe.com/events/soulcity-a-dance-thing-tickets-NKCH1V?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-01-02",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "22:30",
+      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "club-nights-the-jazz-cafe",
+        "soul-city"
       ],
       "venueName": "Jazz Cafe"
     },
@@ -44689,6 +44232,25 @@
       "venueName": "New Cross Inn"
     },
     {
+      "id": "~the-top-secret-comedy-club:bring-the-laughter-in-london-43159877",
+      "venueId": "",
+      "sourceId": "skiddle",
+      "title": "Bring The Laughter in London",
+      "url": "https://www.skiddle.com/whats-on/London/The-Top-Secret-Comedy-Club/Bring-The-Laughter-in-London/43159877/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-07",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "18:00",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/5/9/0/2466909_540d36e5_bring-the-laughter-in-london.jpg",
+      "description": "If you've joined us before, you already know the vibe... and if not, this is the perfect one to start with",
+      "people": [
+        "tommy-sandhu"
+      ],
+      "venueName": "The Top Secret Comedy Club"
+    },
+    {
       "id": "~blue-note-london:event-2300655eaffe1412",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -44796,7 +44358,8 @@
         "start": "2026-11-06T10:00:00Z"
       },
       "people": [
-        "club-nights-the-jazz-cafe"
+        "club-nights-the-jazz-cafe",
+        "general-levy"
       ],
       "venueName": "Jazz Cafe"
     },
@@ -47079,9 +46642,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "22:30",
       "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-05T10:00:00Z"
-      },
       "people": [
         "club-nights-the-jazz-cafe",
         "dar-disku"
@@ -47181,16 +46741,16 @@
       "venueName": "The Dome London"
     },
     {
-      "id": "~the-lower-third:event-3500655c15fbd959",
+      "id": "~the-garage:event-1f006564d7ab624a",
       "venueId": "",
       "sourceId": "ticketmaster",
       "title": "Alex Sampson",
-      "url": "https://www.ticketmaster.co.uk/alex-sampson-london-05-02-2027/event/3500655C15FBD959",
+      "url": "https://www.ticketmaster.co.uk/alex-sampson-london-05-02-2027/event/1F006564D7AB624A",
       "type": "concert",
       "category": "shows",
       "startDate": "2027-02-05",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-05",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/311/aacd43ca-5887-4488-b228-f05768880311_RETINA_LANDSCAPE_16_9.jpg",
       "onSale": {
@@ -47199,7 +46759,7 @@
       "people": [
         "alex-sampson"
       ],
-      "venueName": "The Lower Third"
+      "venueName": "The Garage"
     },
     {
       "id": "~village-underground:event-350064c8d9f6b2a4",
@@ -47697,9 +47257,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "22:30",
       "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-05T10:00:00Z"
-      },
       "people": [
         "club-nights-the-jazz-cafe"
       ],
@@ -48368,7 +47925,7 @@
       "id": "~o2-forum-kentish-town:event-3e00655d0425a67a",
       "venueId": "",
       "sourceId": "ticketmaster",
-      "title": "Slam Dunk Winter Jam Tour Feat Zebrahead + Acquabats!",
+      "title": "Slam Dunk Winter Jam Tour Feat Zebrahead + The Aquabats!",
       "url": "https://www.ticketmaster.co.uk/slam-dunk-winter-jam-tour-feat-london-18-02-2027/event/3E00655D0425A67A",
       "type": "concert",
       "category": "shows",
@@ -48629,7 +48186,7 @@
       "id": "~number-90-lock:events-dj-boring-tickets-9h6ynz-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
-      "title": "DJ Boring",
+      "title": "DJ BORING",
       "url": "https://www.universe.com/events/dj-boring-tickets-9H6YNZ?ref=ticketmaster",
       "type": "concert",
       "category": "shows",
@@ -50121,7 +49678,7 @@
       "type": "show",
       "category": "shows",
       "startDate": "2027-03-10",
-      "endDate": "2027-11-03",
+      "endDate": "2027-11-04",
       "firstSeen": "2026-11-02",
       "image": "https://s1.ticketm.net/dam/a/22a/4f38ea9f-f407-4cb3-bb5a-a220cfaeb22a_RETINA_LANDSCAPE_16_9.jpg",
       "schedule": {
@@ -50132,7 +49689,7 @@
           "19:00",
           "19:30"
         ],
-        "days": "488a004488a0444a8a044588a044588a0404a8a004588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a0445"
+        "days": "488a004488a0444a8a044588a044588a0404a8a004588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a04458"
       },
       "people": [
         "the-notebook"
@@ -50783,7 +50340,7 @@
       "endDate": null,
       "firstSeen": "2026-11-04",
       "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/794/ab54a3c6-a0a5-4cf7-812f-37a2ba2b1794_1545451_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/43a/b5eeb750-1e3f-4620-b868-2c6b22eab43a_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
       "onSale": {
         "start": "2026-11-06T10:00:00Z",
@@ -51214,6 +50771,27 @@
       "venueName": "New Cross Inn"
     },
     {
+      "id": "~outernet-live:events-anna-meredith-tickets-jfkqvc-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Anna Meredith",
+      "url": "https://www.universe.com/events/anna-meredith-tickets-JFKQVC?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-03-24",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/a/f22/4fa3fe27-a04a-4dc4-87e3-b35624b56f22_580871_RETINA_LANDSCAPE_16_9.jpg",
+      "onSale": {
+        "start": "2026-11-13T10:00:00Z"
+      },
+      "people": [
+        "anna-meredith"
+      ],
+      "venueName": "Outernet Live"
+    },
+    {
       "id": "~the-lower-third:event-35006533b2e891cd",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -51244,9 +50822,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/6fa/34a8977c-1a43-495f-a716-1cdea12846fa_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-05T10:00:00Z"
-      },
       "people": [
         "emei"
       ],
@@ -51574,6 +51149,27 @@
       "venueName": "O2 Forum Kentish Town"
     },
     {
+      "id": "~bush-hall:events-james-emmanuel-tickets-vcbthj-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "James Emmanuel",
+      "url": "https://www.universe.com/events/james-emmanuel-tickets-VCBTHJ?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-03-31",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_RETINA_LANDSCAPE_16_9.jpg",
+      "onSale": {
+        "start": "2026-11-06T10:00:00Z"
+      },
+      "people": [
+        "james-emmanuel"
+      ],
+      "venueName": "Bush Hall"
+    },
+    {
       "id": "~o2-academy-brixton:event-3e006537b4ea31f2",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -51658,9 +51254,6 @@
       "firstSeen": "2026-11-04",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-05T10:00:00Z"
-      },
       "people": [
         "meryl-streek"
       ],
@@ -52011,6 +51604,27 @@
       "venueName": "OVO Arena Wembley"
     },
     {
+      "id": "~the-lexington:events-daydreamers-tickets-f6nxts-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "daydreamers",
+      "url": "https://www.universe.com/events/daydreamers-tickets-F6NXTS?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-04-09",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+      "onSale": {
+        "start": "2026-11-11T10:00:00Z"
+      },
+      "people": [
+        "daydreamers"
+      ],
+      "venueName": "The Lexington"
+    },
+    {
       "id": "~100-club:events-martin-turner-tickets-1fvtcx-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -52027,6 +51641,24 @@
         "martin-turners-wishbone-ash"
       ],
       "venueName": "100 Club"
+    },
+    {
+      "id": "~bush-hall:michael-mcgovern-bush-hall-tickets-14883483-referral-id-tmfeed",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Michael McGovern",
+      "url": "https://www.ticketweb.uk/event/michael-mcgovern-bush-hall-tickets/14883483?REFERRAL_ID=tmfeed",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-04-10",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/a/af4/60b52055-73d6-4d37-bfcd-8b7e6e7b9af4_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "michael-mcgovern"
+      ],
+      "venueName": "Bush Hall"
     },
     {
       "id": "~new-cross-inn:events-mob-47-tickets-r1n4f3-ref-ticketmaster",
@@ -52485,7 +52117,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/f36/73e61d58-b6a6-494e-afc9-6921c9875f36_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/429/297530b5-c1c0-4b54-9d6c-b6e61167d429_RETINA_LANDSCAPE_16_9.jpg",
       "people": [
         "tom-mcguire-and-the-brassholes"
       ],
@@ -52563,6 +52195,25 @@
         "gio-dara"
       ],
       "venueName": "The Courtyard Theatre"
+    },
+    {
+      "id": "~jazz-cafe:events-nicola-conte-umoja-live-feat-zara-mcfarlane-tickets-rzy190-ref-ticketmast",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Nicola Conte Umoja Live feat. Zara McFarlane",
+      "url": "https://www.universe.com/events/nicola-conte-umoja-live-feat-zara-mcfarlane-tickets-RZY190?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-04-23",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "18:30",
+      "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "nicola-conte",
+        "zara-mcfarlane"
+      ],
+      "venueName": "Jazz Cafe"
     },
     {
       "id": "~koko:events-the-coronas-tickets-05jdcm-ref-ticketmaster",
@@ -52753,9 +52404,6 @@
       "firstSeen": "2026-11-04",
       "startTime": "19:30",
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-05T10:00:00Z"
-      },
       "people": [
         "a-hawk-and-a-hacksaw"
       ],
@@ -52895,6 +52543,24 @@
       "venueName": "Electric Ballroom"
     },
     {
+      "id": "~electric-brixton:events-brixton-disco-festival-2027-tickets-vngz05-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Brixton Disco Festival 2027",
+      "url": "https://www.universe.com/events/brixton-disco-festival-2027-tickets-VNGZ05?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-05-01",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "14:00",
+      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "brixton-disco-festival"
+      ],
+      "venueName": "Electric Brixton"
+    },
+    {
       "id": "~new-cross-inn:events-gbh-tickets-7kyxz9-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -52930,6 +52596,27 @@
         "charlotte-cardin"
       ],
       "venueName": "O2 Forum Kentish Town"
+    },
+    {
+      "id": "~jazz-cafe:events-congo-natty-friends-bank-holiday-sunday-tickets-c4576h-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Congo Natty & Friends (Bank Holiday Sunday)",
+      "url": "https://www.universe.com/events/congo-natty-friends-bank-holiday-sunday-tickets-C4576H?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-05-02",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "22:30",
+      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
+      "onSale": {
+        "start": "2026-11-10T10:00:00Z"
+      },
+      "people": [
+        "club-nights-the-jazz-cafe"
+      ],
+      "venueName": "Jazz Cafe"
     },
     {
       "id": "~jazz-cafe:events-mexican-institute-of-sound-tickets-425k07-ref-ticketmaster",
@@ -53969,10 +53656,17 @@
       "type": "concert",
       "category": "shows",
       "startDate": "2027-06-18",
-      "endDate": "2027-06-19",
+      "endDate": "2027-06-22",
       "firstSeen": "2026-11-02",
       "image": "https://s1.ticketm.net/dam/a/b8c/b64c930d-ed29-455b-9888-b8ee237f7b8c_RETINA_LANDSCAPE_16_9.jpg",
       "description": "A max of 4 tickets per person and per household Tickets in excess may be cancelled. Tickets must not be purchased with the intention of reselling them for profit. Any tickets purchased, resold or offered for resale in breach of these special conditions may be cancelled",
+      "schedule": {
+        "from": "2027-06-18",
+        "times": [
+          "17:30"
+        ],
+        "days": "11001"
+      },
       "onSale": {
         "start": "2026-11-06T10:00:00Z",
         "presales": [
@@ -54109,7 +53803,7 @@
       "id": "~hampton-court:event-1f00655fe9318a8a",
       "venueId": "",
       "sourceId": "ticketmaster",
-      "title": "Hampton Court Palace Festival Presents the Corrs",
+      "title": "Hampton Court Palace Festival Presents The Corrs",
       "url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-the-london-23-06-2027/event/1F00655FE9318A8A",
       "type": "concert",
       "category": "shows",
@@ -54118,7 +53812,7 @@
       "firstSeen": "2026-11-02",
       "startTime": "17:30",
       "image": "https://s1.ticketm.net/dam/a/cd4/804743e1-8e23-4278-a1e9-fd3f2b5fdcd4_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Hampton Court Palace and its beautiful grounds provide the perfect setting for a midsummer evening concert. As well as the fantastic music line-up, it's famous for creating a truly unforgettable experience. Artists perform in the Palace's main courtyard providing a fantastic back",
+      "description": "A highlight of the summer calendar, Hampton Court Palace Festival brings a series of performances by world-renowned artists to the truly unique setting of Base Court, the palace's spine-tinglingly intimate Tudor courtyard. Before the concert soak up the atmosphere in the East Fro",
       "onSale": {
         "start": "2026-11-06T10:00:00Z",
         "presales": [
@@ -54206,7 +53900,7 @@
       "firstSeen": "2026-11-02",
       "startTime": "17:30",
       "image": "https://s1.ticketm.net/dam/a/c98/9bc2328d-3d1e-4fb5-8cc8-07a43094cc98_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Hampton Court Palace and its beautiful grounds provide the perfect setting for a midsummer evening concert. As well as the fantastic music line-up, it's famous for creating a truly unforgettable experience. Artists perform in the Palace's main courtyard providing a fantastic back",
+      "description": "A highlight of the summer calendar, Hampton Court Palace Festival brings a series of performances by world-renowned artists to the truly unique setting of Base Court, the palace's spine-tinglingly intimate Tudor courtyard. Before the concert soak up the atmosphere in the East Fro",
       "onSale": {
         "start": "2026-11-06T10:00:00Z",
         "presales": [
@@ -54706,7 +54400,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/659/c4905359-809a-41f4-8b8e-2c58abe96659_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/da8/d914e72f-9d12-4cb9-9d70-043c3af7bda8_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
       "people": [
         "from-the-jam"
@@ -54791,6 +54485,38 @@
         "mike-tindall"
       ],
       "venueName": "JW Marriott Grosvenor House London"
+    },
+    {
+      "id": "~o2-forum-kentish-town:event-3e00654dd99b572d",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Jay Sean",
+      "url": "https://www.ticketmaster.co.uk/jay-sean-london-09-10-2027/event/3E00654DD99B572D",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-10-09",
+      "endDate": null,
+      "firstSeen": "2026-11-05",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/a/67a/63fd596f-74a6-402e-8e46-96124425867a_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
+      "onSale": {
+        "start": "2026-11-13T10:00:00Z",
+        "presales": [
+          {
+            "name": "Priority from O2",
+            "start": "2026-11-11T10:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-11-12T10:00:00Z"
+          }
+        ]
+      },
+      "people": [
+        "jay-sean"
+      ],
+      "venueName": "O2 Forum Kentish Town"
     },
     {
       "id": "~electric-brixton:events-jain-tickets-2z986d-ref-ticketmaster",
@@ -54891,6 +54617,25 @@
         "meshuggah",
         "periphery",
         "vildhjarta"
+      ],
+      "venueName": "OVO Arena Wembley"
+    },
+    {
+      "id": "~ovo-arena-wembley:event-37006537eb7374ad",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Frank Turner Presents: Lost Evenings X - Multi-Day Event",
+      "url": "https://www.ticketmaster.co.uk/frank-turner-presents-lost-evenings-x-london-04-11-2027/event/37006537EB7374AD",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-11-04",
+      "endDate": "2027-11-07",
+      "firstSeen": "2026-11-05",
+      "image": "https://s1.ticketm.net/dam/a/79c/7fdd85f3-05c0-4335-89f8-d666cb65079c_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "Frank Turner Presents: Lost Evenings X The Final Festival Doors 5pm Curfew 11pm Weekend Ticket valid for entry for all 4 nights -- Thursday 4 November 2027, Friday 5 November 2027, Saturday 6 November 2027, Sunday 7 November 2027. Frank Turner and Lost Evenings have partnered wit",
+      "people": [
+        "frank-turner-and-the-sleeping-souls",
+        "frank-turner"
       ],
       "venueName": "OVO Arena Wembley"
     }

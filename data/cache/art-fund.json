@@ -4401,22 +4401,6 @@
    },
    "at": "2026-11-02"
   },
-  "https://www.artfund.org/explore/exhibitions/2026/11/08/lascar-stephen-tennant": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/11/08/lascar-stephen-tennant",
-    "title": "Lascar - Stephen Tennant",
-    "dates": {
-     "startDate": "2026-11-08",
-     "endDate": "2027-02-28"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/b5325e77-1736-4c8e-bdec-929e97eea12f/7e9b70251acb39a34627cddc2356764b-md.jpg",
-    "description": "An exhibition of paintings, drawings, scrapbooks and ephemera from our extensive collection",
-    "venueName": "The Viktor Wynd Museum of Curiosities, Fine Art & UnNatural History, London",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-02"
-  },
   "https://www.artfund.org/explore/exhibitions/2026/11/08/monica-poole-natures-dark-beauty": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/11/08/monica-poole-natures-dark-beauty",
@@ -4432,6 +4416,22 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/12/stephen-tennant-an-exhibition-6aeb10a6d48da": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/12/stephen-tennant-an-exhibition-6aeb10a6d48da",
+    "title": "Stephen Tennant – An Exhibition",
+    "dates": {
+     "startDate": "2026-11-12",
+     "endDate": "2027-02-28"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/9beaae6c-9119-4d32-a21a-6d438476c4bf/e989bd91707774cb579ba1715d3dbfbc-md.jpg",
+    "description": "The first exhibition devoted to the brightest of the Bright Young People. Free admission.",
+    "venueName": "The Viktor Wynd Museum of Curiosities, Fine Art & UnNatural History, London",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-05"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/12/vanessa-bell-and-duncan-grant-inside-bloomsbury": {
    "raw": {
