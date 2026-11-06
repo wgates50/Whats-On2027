@@ -157,7 +157,7 @@
   {
     "id": "serpentine",
     "name": "Serpentine (South & North)",
-    "enabled": true,
+    "enabled": false,
     "aggregator": true,
     "adapter": {
       "type": "pages",
@@ -173,7 +173,8 @@
         "venue": "span.meta__term",
         "description": "p.teaser__text"
       }
-    }
+    },
+    "notes": "Disabled 2026-11-06: serpentinegalleries.org answers HTTP 403 to the daily scrape (refuses automated requests), so per the maintenance rules we do not work around it. Serpentine South still gets exhibitions via Art Fund; Serpentine North is marked manualOnly."
   },
   {
     "id": "whitechapel",

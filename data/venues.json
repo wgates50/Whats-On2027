@@ -341,7 +341,9 @@
     "area": "Kensington Gardens",
     "website": "https://www.serpentinegalleries.org",
     "lat": 51.50709,
-    "lng": -0.17126
+    "lng": -0.17126,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403). Events come from aggregators (if any) or manual adds."
   },
   {
     "id": "whitechapel-gallery",
