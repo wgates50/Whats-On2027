@@ -7,7 +7,8 @@
 
 import { useSyncExternalStore } from "react";
 import { mergeDocs, newCode, type SyncDoc } from "./syncData";
-import { laterDay, onLocalChange, readPrefs, writeSyncedPrefs } from "./store";
+import { keepMemos, laterDay, onLocalChange, readPrefs, writeSyncedPrefs } from "./store";
+import type { Memo } from "./types";
 
 export interface SyncState {
   code: string;
@@ -70,7 +71,7 @@ async function call(method: "GET" | "PUT", code: string, doc?: SyncDoc): Promise
   });
 }
 
-type Lists = { follows: string[]; people: string[]; saved: string[]; likes?: string[]; seenUpTo?: string };
+type Lists = { follows: string[]; people: string[]; saved: string[]; likes?: string[]; visited?: string[]; memo?: Record<string, Memo>; seenUpTo?: string };
 const docOf = (p: Lists, updatedAt: string): SyncDoc => ({
   v: 1,
   updatedAt,
@@ -78,6 +79,8 @@ const docOf = (p: Lists, updatedAt: string): SyncDoc => ({
   people: p.people,
   saved: p.saved,
   ...(p.likes?.length ? { likes: p.likes } : {}),
+  ...(p.visited?.length ? { visited: p.visited } : {}),
+  ...(p.memo && Object.keys(p.memo).length ? { memo: p.memo } : {}),
   ...(p.seenUpTo ? { seenUpTo: p.seenUpTo } : {}),
 });
 
@@ -101,6 +104,9 @@ async function run(): Promise<void> {
     people: p.people,
     saved: p.saved,
     likes: p.likes ?? [],
+    visited: p.visited ?? [],
+    // Memos are reference data: keep what either copy knows, for whatever is still saved or visited.
+    memo: keepMemos({ ...local.memo, ...p.memo }, p.saved, p.visited ?? []),
     seenUpTo: laterDay(local.seenUpTo, p.seenUpTo) || undefined,
   });
   try {
@@ -116,7 +122,8 @@ async function run(): Promise<void> {
     const remote = (await res.json()) as SyncDoc;
     const remoteChanged = remote.updatedAt !== s.agreedAt;
     // Joining with lists of its own counts as a change here, so they're merged rather than replaced.
-    const joining = s.agreedAt === undefined && local.follows.length + local.people.length + local.saved.length + (local.likes?.length ?? 0) > 0;
+    const joining =
+      s.agreedAt === undefined && local.follows.length + local.people.length + local.saved.length + (local.likes?.length ?? 0) + (local.visited?.length ?? 0) > 0;
     const localChanged = rev > (s.pushedRev ?? 0) || joining;
     let agreedAt = s.agreedAt;
     if (remoteChanged && localChanged) {

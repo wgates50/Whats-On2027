@@ -176,8 +176,10 @@ export interface WOEvent {
   genres?: string[];
   /** Theme ids (data/themes.json) — worked out at build time, not stored in events.json. */
   themes?: string[];
-  /** Not tagged yet: themes guessed from genres/title ("guess") or borrowed from the venue ("venue"). */
-  themesFrom?: "guess" | "venue";
+  /** Not tagged yet: themes guessed from genres/title ("guess"), the description ("details") or borrowed from the venue ("venue"). */
+  themesFrom?: "guess" | "details" | "venue";
+  /** Distinctive words from the title and description (artists, materials, subjects) — build time, for connections. */
+  kw?: string[];
 }
 
 /**
@@ -208,6 +210,19 @@ export interface Person {
   tm?: string[]; // Ticketmaster attraction ids
   genres?: string[]; // from the ticketing APIs, e.g. "Music/Jazz"
   themes?: string[]; // worked out at build time
+}
+
+/**
+ * What a saved or visited event was about — kept with your preferences (and synced), so your taste
+ * outlives the listing.
+ */
+export interface Memo {
+  t: string; // title
+  v: string; // venue id
+  ty?: EventType;
+  th?: string[]; // themes
+  kw?: string[]; // distinctive words
+  d?: string; // YYYY-MM-DD: when you went, or when it was on
 }
 
 export type ThemeGroup = "art" | "ideas" | "stage" | "music" | "screen" | "more";

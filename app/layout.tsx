@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Instrument_Serif, Schibsted_Grotesk } from "next/font/google";
 import { SWRegister } from "@/components/SWRegister";
 import { SyncAgent } from "@/components/SyncAgent";
+import { MemoKeeper } from "@/components/MemoKeeper";
 import { TabBar } from "@/components/TabBar";
 import { APP_NAME, APP_TAGLINE } from "@/lib/site";
 import "./globals.css";
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <TabBar />
         <SWRegister />
         <SyncAgent />
+        <MemoKeeper />
       </body>
     </html>
   );

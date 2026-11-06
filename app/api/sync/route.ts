@@ -30,7 +30,7 @@ export async function PUT(req: Request) {
   const store = syncStore();
   if (!store) return json({ error: "Sync isn't set up on the server yet." }, 503);
   const text = await req.text();
-  if (text.length > 200_000) return json({ error: "Too big." }, 413);
+  if (text.length > 600_000) return json({ error: "Too big." }, 413);
   let doc;
   try {
     doc = cleanDoc(JSON.parse(text));

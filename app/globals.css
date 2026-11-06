@@ -202,6 +202,14 @@ img { max-width: 100%; display: block; }
 .empty p { margin: 0 0 10px; }
 .link-button { font: 600 13.5px/1 var(--font-body); text-decoration: underline; text-underline-offset: 3px; color: var(--ink); white-space: nowrap; }
 .seen-bar { margin: 14px 0 0; color: var(--ink-3); font: 400 13.5px/1.4 var(--font-body); }
+.badge--been { border-color: var(--ink-3); color: var(--ink-2); }
+.row__actions .is-been { color: var(--accent); }
+.been { list-style: none; margin: 12px 0 0; padding: 0; }
+.been__item { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+.been__main { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.been__title { font: 400 19px/1.2 var(--font-display); }
+.been__meta { color: var(--ink-3); font-size: 13px; }
+.been__actions { display: flex; gap: 6px; flex: none; }
 .rows--seen { opacity: 0.75; }
 .colophon { margin: 40px 0 0; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--ink-3); font-size: 13px; }
 

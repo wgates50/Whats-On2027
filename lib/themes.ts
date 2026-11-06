@@ -80,16 +80,30 @@ export function venueThemes(v: Pick<Venue, "id" | "kind">, tags: TagsFile): stri
 
 export interface Guess {
   themes: string[];
-  /** The strongest evidence: the APIs' genres > words in the title > the event type > the venue. */
-  from: "genres" | "title" | "type" | "venue" | "none";
+  /** The strongest evidence: the APIs' genres > words in the title > the description > the event type > the venue. */
+  from: "genres" | "title" | "details" | "type" | "venue" | "none";
 }
 
 /** A first guess at an event's themes, before the maintenance task has tagged it. */
-export function guessEventThemes(e: Pick<WOEvent, "title" | "type" | "genres">, venue: string[], t: Themes): Guess {
+/** Themes a description can suggest: subjects, not formats or seasons ("join our talk this Christmas"). */
+const DETAIL_SKIP = new Set([...FORMAT, "festive", "podcasts", "tributes", "food-drink"]);
+
+export function guessEventThemes(e: Pick<WOEvent, "title" | "type" | "genres"> & { description?: string }, venue: string[], t: Themes): Guess {
   const byGenre = genreThemes(e.genres, t);
-  const byTitle = t.match.filter(([th, re]) => (!th.types || th.types.includes(e.type)) && re.test(e.title)).map(([th]) => th.id);
+  const suits = (th: Theme) => !th.types || th.types.includes(e.type);
+  const byTitle = t.match.filter(([th, re]) => suits(th) && re.test(e.title)).map(([th]) => th.id);
+  // Nothing from the genres or title? The description often says what it's about (first few lines).
+  const subject = (ids: string[]) => ids.some((id) => !FORMAT.has(id));
+  const text = e.description?.slice(0, 400) ?? "";
+  const byDetails =
+    subject([...byGenre, ...byTitle]) || !text
+      ? []
+      : t.match
+          .filter(([th, re]) => suits(th) && !DETAIL_SKIP.has(th.id) && re.test(text))
+          .map(([th]) => th.id)
+          .slice(0, 2);
   const byType = TYPE_THEME[e.type] ? [TYPE_THEME[e.type]!] : [];
-  const found = uniq([...byGenre, ...byTitle, ...byType]);
+  const found = uniq([...byGenre, ...byTitle, ...byDetails, ...byType]);
   // Nothing about the subject? Borrow the venue's — but only where the venue is mainly that kind of
   // place: a gig at Union Chapel (folk first, comedy too) mustn't become comedy because it's typed a
   // "show", nor jazz at the Barbican (art first) classical. A generic "event" borrows only from a venue
@@ -110,7 +124,7 @@ export function guessEventThemes(e: Pick<WOEvent, "title" | "type" | "genres">, 
   const themes = uniq([...found, ...byVenue.slice(0, borrow)])
     .filter((id) => t.byId.has(id))
     .slice(0, MAX_THEMES);
-  const from = byGenre.length ? "genres" : byTitle.length ? "title" : byType.length ? "type" : byVenue.length ? "venue" : "none";
+  const from = byGenre.length ? "genres" : byTitle.length ? "title" : byDetails.length ? "details" : byType.length ? "type" : byVenue.length ? "venue" : "none";
   return { themes, from };
 }
 
