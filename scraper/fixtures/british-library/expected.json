@@ -85,20 +85,6 @@
       "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/Coaching-Sessions-web-header.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1791988236&s=55f29768ceb4de8ca1d6d8670720c3ba"
     },
     {
-      "id": "british-library:events-teacher-cpd-oscar-wilde-in-context",
-      "venueId": "british-library",
-      "sourceId": "british-library",
-      "title": "Teacher CPD: Oscar Wilde in Context",
-      "url": "https://events.bl.uk/events/teacher-cpd-oscar-wilde-in-context",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "16:00",
-      "image": "https://british-library.transforms.svdcdn.com/production/Digital-Learning/Photograph-of-Oscar-Wilde.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1787739721&s=561624cec70700dce7acce1289b1ee93"
-    },
-    {
       "id": "british-library:events-history-of-medicine-study-day",
       "venueId": "british-library",
       "sourceId": "british-library",

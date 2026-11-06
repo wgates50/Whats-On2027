@@ -54,6 +54,7 @@ const GUIDED =
   /\b(guided|backstage|behind the scenes|walking|building|architecture|architectural|heritage|history|historic|bsl|audio[- ]described|touch|curators?|exhibition|gallery|highlights|spotlight|members'?|private)\b/i;
 
 const LABEL_RULES: Rules = [
+  [/\bexhibition views?\b/i, "event"], // members' previews of an exhibition, not the exhibition
   [/\bexhibitions?\b/i, "exhibition"],
   [/\b(display|installation|collection)\b/i, "display"],
   [/\blates?\b/i, "late"],
@@ -64,6 +65,9 @@ const LABEL_RULES: Rules = [
   [/\b(films?|cinema|screenings?)\b/i, "screening"],
   [/\b(theatre|dance|opera|ballet|performance|comedy|musicals?|circus|podcasts?|cabaret)\b/i, "show"],
   [/\b(concerts?|classical|music|gigs?|jazz)\b/i, "concert"],
+  [/\b(study days?|conferences?)\b/i, "talk"],
+  // Recurring activities across a season, not exhibitions (the V&A's "Drop-in", "Open studio").
+  [/\b(drop[- ]ins?|open studios?|special events?)\b/i, "event"],
   [/\b(art|design|visual arts?)\b/i, "exhibition"], // generic section labels like "Art & design"
 ];
 
@@ -125,6 +129,32 @@ export function classifyType(opts: {
     if ((opts.spanDays ?? 0) >= 21) return "exhibition";
   }
   return KIND_DEFAULT[opts.venueKind];
+}
+
+/** Courses you enrol on — the V&A Academy's, astronomy courses, "short course", teachers' CPD. */
+const COURSE_TITLE =
+  /\b(year|short|online|evening|weekend|one-day|day|foundation|intermediate|introductory|beginners'?|professional development)\s+courses?\b|\bcpd\b/i;
+const FOR_SCHOOLS = /\bschools?\s*(&|and)\s*colleges\b|\bschools:\s|\bschools'?\s+(screen|workshops?|sessions?|programme)\b|\bks[1-5]\b|\beyfs\b/i;
+const ONLINE = /^\s*online\b|\(\s*(online|livestream|live stream)\s*\)|\blivestream\b|\bevento online\b|\bonline (event|talk|lecture|session|workshop)\b/i;
+
+/**
+ * Listings that aren't things to go to on a day: enrolment courses, sessions for school groups, a
+ * season's overview page, and online-only events (often a livestream of a talk listed in person too).
+ * Returns why (they're left out), or null.
+ */
+export function notAnEvent(r: { url: string; title: string; typeLabel?: string }): string | null {
+  const label = r.typeLabel?.trim() ?? "";
+  let path = "";
+  try {
+    path = new URL(r.url).pathname.toLowerCase() + "/";
+  } catch {
+    /* ignore */
+  }
+  if (/\bcourses?\b|professional development|\bcpd\b/i.test(label) || COURSE_TITLE.test(r.title) || /\/(courses?|[\w-]+-courses)\//.test(path)) return "course";
+  if (/^seasons?$/i.test(label)) return "season overview";
+  if (FOR_SCHOOLS.test(r.title)) return "for schools";
+  if (ONLINE.test(r.title)) return "online";
+  return null;
 }
 
 export function categoryFor(type: EventType, venueKind: VenueKind): Category {

@@ -2,7 +2,7 @@
 
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { classifyType } from "./classify.ts";
+import { classifyType, notAnEvent } from "./classify.ts";
 
 const at = (title: string, venueKind: Parameters<typeof classifyType>[0]["venueKind"], typeLabel?: string) =>
   classifyType({ url: "https://example.org/whats-on/x", title, typeLabel, venueKind, oneOff: true });
@@ -18,4 +18,30 @@ test("a touring act's 'World Tour' isn't a guided tour; real guided tours still 
   for (const t of ["Globe Theatre Guided Tour", "Behind the Scenes Tour", "History Tours", "Tea and Tour", "Union Chapel Guided Tour | December 2026", "Curator Tour: 2026 Acquisitions"])
     assert.equal(at(t, "theatre"), "tour", t);
   assert.equal(at("Exhibition tour", "museum"), "tour");
+});
+
+test("courses, schools sessions, season pages and online-only events aren't events to go to", () => {
+  const no = (title: string, url = "https://example.org/event/x", typeLabel?: string) => notAnEvent({ title, url, typeLabel });
+  assert.equal(no("A History of London: 1066–1666 (In-person)", undefined, "V&A Academy year course"), "course");
+  assert.equal(no("Pearls", undefined, "V&A Academy online course"), "course");
+  assert.equal(no("Foundation Astrophysics", "https://www.rmg.co.uk/whats-on/astronomy-courses/foundation-astrophysics"), "course");
+  assert.equal(no("Life Drawing Short Course"), "course");
+  assert.equal(no("Online CPD: Teaching Macbeth at Key Stage 4"), "course");
+  assert.equal(no("Christmas 2026", undefined, "Season"), "season overview");
+  assert.equal(no("Young V&A Schools: Design Takeover – KS3 (Autumn 2026)"), "for schools");
+  assert.equal(no("V&A East Schools and Colleges: In-person workshops"), "for schools");
+  assert.equal(no("I Am Roland Mouret (Livestream - Rescheduled)"), "online");
+  assert.equal(no("ONLINE – Two Women: Book Launch with Jacqueline Rose"), "online");
+  // …but not these
+  for (const t of ["School of Rock", "Guildhall School: Autumn Opera Scenes", "Life Drawing at the Museum", "Love Online", "Of Course I Can"])
+    assert.equal(no(t, `https://example.org/shows/${t.toLowerCase().replace(/\W+/g, "-")}`), null, t);
+  assert.equal(no("Schiaparelli: Fashion Becomes Art", "https://www.vam.ac.uk/exhibitions/schiaparelli", "Exhibition"), null);
+});
+
+test("the V&A's drop-ins and open studios are events, not exhibitions", () => {
+  const at = (title: string, typeLabel: string) => classifyType({ url: "https://www.vam.ac.uk/event/x/y", title, typeLabel, venueKind: "museum", spanDays: 90 });
+  assert.equal(at("Play Saturdays (Sept-Dec 2026)", "Drop-in"), "event");
+  assert.equal(at("Makers Club", "Open studio"), "event");
+  assert.equal(at("Members' Preview Day: Constantinople to Istanbul", "V&A Membership exhibition view"), "event");
+  assert.equal(at("Upstart presents: Creative Frequencies", "Conferences and study days"), "talk");
 });

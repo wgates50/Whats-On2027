@@ -98,6 +98,11 @@ opened, its pages keep the text somewhere else: add the source's `"enrich": { "d
 maintain. Their dates at venues we don't list live there too (`elsewhere`), so a missing venue doesn't
 hide a followed performer's gig; still add the venue if it fits the app.
 
+**Not events.** Enrolment courses (the V&A Academy's, astronomy courses, "short course", teachers' CPD),
+sessions for school groups, "Season" overview pages and online-only events are left out for every
+source (`notAnEvent` in `scraper/classify.ts`). If another kind slips through for one site, use that
+source's `exclude` regex (config).
+
 **Ticketmaster junk.** If non-events show up (a new kind of VIP package, parking, attraction
 admission), prefer the source's `exclude` regex in `data/sources.json` (config, auto-merges). The
 adapter's `NOT_AN_EVENT` covers the general patterns. Its `venue-aliases` names are mostly gig venues;

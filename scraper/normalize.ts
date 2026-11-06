@@ -4,7 +4,7 @@
 import type { Person, SourceConfig, VenueKind, WOEvent } from "../lib/types.ts";
 import { addDays, parseDateRange } from "./dates.ts";
 import type { RawEvent } from "./extract.ts";
-import { categoryFor, classifyType } from "./classify.ts";
+import { categoryFor, classifyType, notAnEvent } from "./classify.ts";
 import type { VenueIndex } from "./venues.ts";
 
 export interface NormalizeReport {
@@ -12,7 +12,7 @@ export interface NormalizeReport {
   past: number; // already finished — dropped, not an error
   invalid: string[]; // failed validation — counts against health
   unmatchedVenues: Record<string, number>; // aggregator venue names we don't know
-  filtered: number; // removed by include/exclude
+  filtered: number; // removed by include/exclude, or not an event to go to (courses, schools, online)
   cancelled: number;
   /** Events at venues we don't list, kept only because they name performers (venueId ""). */
   elsewhere: WOEvent[];
@@ -81,7 +81,7 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
       continue;
     }
     const hay = `${r.title} ${r.url}`;
-    if ((include && !include.test(hay)) || (exclude && exclude.test(hay))) {
+    if ((include && !include.test(hay)) || (exclude && exclude.test(hay)) || notAnEvent(r)) {
       report.filtered++;
       continue;
     }

@@ -213,19 +213,6 @@
       "image": "https://www.freud.org.uk/wp-content/uploads/2020/01/HP-12-600x450.jpg"
     },
     {
-      "id": "freud-museum-london:event-online-case-by-case-psychoanalysis-and-the-political-discourse-book-launch",
-      "venueId": "freud-museum-london",
-      "sourceId": "freud-museum-london",
-      "title": "ONLINE – Case by Case: Psychoanalysis and the Political Discourse | Book Launch with Patricia Gherovici & Jamieson Webster",
-      "url": "https://www.freud.org.uk/event/online-case-by-case-psychoanalysis-and-the-political-discourse-book-launch-with-patricia-gherovici-jamieson-webster/",
-      "type": "talk",
-      "category": "art-events",
-      "startDate": "2026-11-20",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://www.freud.org.uk/wp-content/uploads/2026/09/1790173597441-7a25472b-b7d7-4080-9f02-1a9c86e5244b_1-339x450.jpg"
-    },
-    {
       "id": "freud-museum-london:event-in-house-case-by-case-psychoanalysis-and-the-political-discourse-book-laun",
       "venueId": "freud-museum-london",
       "sourceId": "freud-museum-london",
@@ -237,19 +224,6 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "image": "https://www.freud.org.uk/wp-content/uploads/2026/09/1790173597441-7a25472b-b7d7-4080-9f02-1a9c86e5244b_1-339x450.jpg"
-    },
-    {
-      "id": "freud-museum-london:event-por-que-a-psicanalise-ainda-importa-evento-online",
-      "venueId": "freud-museum-london",
-      "sourceId": "freud-museum-london",
-      "title": "Por que a psicanálise ainda importa ? ( Evento online)",
-      "url": "https://www.freud.org.uk/event/por-que-a-psicanalise-ainda-importa-evento-online/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-19",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://www.freud.org.uk/wp-content/uploads/2026/07/christian-dunker-foto-600x450.jpeg"
     },
     {
       "id": "freud-museum-london:event-por-que-a-psicanalise-ainda-importa-evento-presencial",
@@ -270,19 +244,6 @@
       "sourceId": "freud-museum-london",
       "title": "IN PERSON – Symposium & Book Launch of ‘Psychoanalysis Otherwise’ with Raluca Soreanu & Ana Minozzo",
       "url": "https://www.freud.org.uk/event/in-person-symposium-book-launch-of-psychoanalysis-otherwise-with-raluca-soreanu-ana-minozzo/",
-      "type": "talk",
-      "category": "art-events",
-      "startDate": "2026-11-16",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://www.freud.org.uk/wp-content/uploads/2026/09/Picture1.png"
-    },
-    {
-      "id": "freud-museum-london:event-online-symposium-book-launch-of-psychoanalysis-otherwise-with-raluca-sorea",
-      "venueId": "freud-museum-london",
-      "sourceId": "freud-museum-london",
-      "title": "ONLINE – Symposium & Book Launch of ‘Psychoanalysis Otherwise’ with Raluca Soreanu & Ana Minozzo",
-      "url": "https://www.freud.org.uk/event/online-symposium-book-launch-of-psychoanalysis-otherwise-with-raluca-soreanu-ana-minozzo/",
       "type": "talk",
       "category": "art-events",
       "startDate": "2026-11-16",
@@ -328,19 +289,6 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "image": "https://www.freud.org.uk/wp-content/uploads/2026/07/IMG_0773-600x450.jpg"
-    },
-    {
-      "id": "freud-museum-london:event-online-two-women-book-launch-with-jacqueline-rose",
-      "venueId": "freud-museum-london",
-      "sourceId": "freud-museum-london",
-      "title": "ONLINE – Two Women: Book Launch with Jacqueline Rose",
-      "url": "https://www.freud.org.uk/event/online-two-women-book-launch-with-jacqueline-rose/",
-      "type": "talk",
-      "category": "art-events",
-      "startDate": "2026-11-06",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://www.freud.org.uk/wp-content/uploads/2026/07/Two-Women-framed-600x450.jpg"
     },
     {
       "id": "freud-museum-london:event-in-house-two-women-book-launch-with-jacqueline-rose",

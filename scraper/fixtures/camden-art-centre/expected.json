@@ -18,18 +18,6 @@
   "rawCount": 5,
   "events": [
     {
-      "id": "camden-art-centre:whats-on-life-drawing-short-course-autumn-2026",
-      "venueId": "camden-art-centre",
-      "sourceId": "camden-art-centre",
-      "title": "Life Drawing Short Course",
-      "url": "https://camdenartcentre.org/whats-on/life-drawing-short-course-autumn-2026",
-      "type": "workshop",
-      "category": "art-events",
-      "startDate": "2026-11-19",
-      "endDate": "2026-12-10",
-      "firstSeen": "2026-11-02"
-    },
-    {
       "id": "camden-art-centre:whats-on-natural-dyes-study-group",
       "venueId": "camden-art-centre",
       "sourceId": "camden-art-centre",
