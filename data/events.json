@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T13:10:23.232Z",
+  "generatedAt": "2026-11-06T12:55:18.596Z",
   "events": [
     {
       "id": "alison-jacques:news-ana-mendieta-23",
@@ -172,11 +172,11 @@
       "firstSeen": "2026-11-02",
       "image": "https://images.lightroom.uk/uploads/2026/02/DB_StaticButtons11_1920x1080-1.jpg?resize=16%2C10&gravity",
       "schedule": {
-        "from": "2026-11-05",
+        "from": "2026-11-06",
         "times": [
           "12:30"
         ],
-        "days": "111000011100001110000111000001100001110000111.......111000000111111"
+        "days": "11000011100001110000111000001100001110000111.......111000000111111"
       },
       "people": [
         "david-bowie-youre-not-alone"
@@ -195,11 +195,11 @@
       "firstSeen": "2026-11-02",
       "image": "https://images.lightroom.uk/uploads/2026/03/LTL_StaticButtons_ImageUpdate10_1920x1080.jpeg?resize=16%2C10&gravity",
       "schedule": {
-        "from": "2026-11-05",
+        "from": "2026-11-06",
         "times": [
           "10:00"
         ],
-        "days": "1111111111111111111111111100011111111111111111111100111110111"
+        "days": "111111111111111111111111100011111111111111111111100111110111"
       },
       "people": [
         "larger-than-life-starring-wallace-and-gromit-shaun-and-more"
@@ -491,7 +491,7 @@
       "startDate": null,
       "endDate": "2026-12-17",
       "firstSeen": "2026-11-02",
-      "image": "https://assets-cdn.vam.ac.uk/2026/10/23/08/31/21/f4a80ef9-6d02-4ba6-aad3-cdaac8af934f/upperground-dj-sets_320.jpg"
+      "image": "https://assets-cdn.vam.ac.uk/2026/11/06/11/39/52/013d5084-a8eb-4895-a947-7d0667ee6e83/upperground-dj-sets_320.jpg"
     },
     {
       "id": "v-and-a-east-storehouse:ngy9lzgdjl-v-a-east-make-space-oct-dec-2026",
@@ -1490,7 +1490,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Concrete and Clay: Archiving the Barbican",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2025/event/concrete-and-clay-archiving-the-barbican",
+      "url": "https://www.barbican.org.uk/whats-on/2025/event/concrete-and-clay-archiving-the-barbican",
       "type": "tour",
       "category": "art-events",
       "startDate": "2025-02-10",
@@ -1610,31 +1610,6 @@
       ]
     },
     {
-      "id": "roundhouse:whats-on-animation-club-au26",
-      "venueId": "roundhouse",
-      "sourceId": "roundhouse",
-      "title": "Animation Club",
-      "url": "https://www.roundhouse.org.uk/whats-on/animation-club-au26/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2025-11-05",
-      "endDate": "2026-11-12",
-      "firstSeen": "2026-11-03",
-      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Intro-to-Movement-1-1260x1280.png"
-    },
-    {
-      "id": "soho-theatre:events-counting-cracking",
-      "venueId": "soho-theatre",
-      "sourceId": "soho-theatre",
-      "title": "Counting and Cracking",
-      "url": "https://sohotheatre.com/events/counting-cracking/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2025-11-05",
-      "endDate": "2027-07-10",
-      "firstSeen": "2026-11-05"
-    },
-    {
       "id": "roundhouse:whats-on-drama-club-au26",
       "venueId": "roundhouse",
       "sourceId": "roundhouse",
@@ -1659,6 +1634,32 @@
       "endDate": "2026-12-05",
       "firstSeen": "2026-11-04",
       "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/RH3_PJSS7333-1260x1280.jpg"
+    },
+    {
+      "id": "roundhouse:whats-on-how-to-use-roundhouse-creative-studios-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "How to use Roundhouse Creative Studios",
+      "url": "https://www.roundhouse.org.uk/whats-on/how-to-use-roundhouse-creative-studios-au26/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2025-11-09",
+      "endDate": "2026-12-14",
+      "firstSeen": "2026-11-06",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/How-to-use-Roundhouse-Creative-Studios-1260x1280.png"
+    },
+    {
+      "id": "roundhouse:whats-on-drop-in-music-prod-15-17-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Music Producers Drop In (15-17)",
+      "url": "https://www.roundhouse.org.uk/whats-on/drop-in-music-prod-15-17-au26/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2025-11-10",
+      "endDate": "2026-11-24",
+      "firstSeen": "2026-11-06",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Music-Producers-Drop-In-11-14-1260x1280.png"
     },
     {
       "id": "troubadour-canary-wharf-theatre:show-the-hunger-games-on-stage-111466358",
@@ -3136,7 +3137,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Yuko Mohri: In Concert",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/yuko-mohri-in-concert",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/yuko-mohri-in-concert",
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2026-10-01",
@@ -3427,18 +3428,6 @@
       "image": "https://www.whitechapelgallery.org/wp-content/uploads/2026/09/Gaby-Sahhar-Abstraction-570x428.jpg"
     },
     {
-      "id": "arcola-theatre:event-the-banality-of-evil",
-      "venueId": "arcola-theatre",
-      "sourceId": "arcola-theatre",
-      "title": "The Banality of Evil: Hannah Arendt, France, 1940",
-      "url": "https://www.arcolatheatre.com/event/the-banality-of-evil/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-10-08",
-      "endDate": "2026-11-07",
-      "firstSeen": "2026-11-02"
-    },
-    {
       "id": "garden-museum:08-sabine-moritz-lie-down-in-green-pastures",
       "venueId": "garden-museum",
       "sourceId": "art-fund",
@@ -3534,7 +3523,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Robert Ryman: The Real Thing",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/robert-ryman-the-real-thing",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/robert-ryman-the-real-thing",
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2026-10-09",
@@ -3566,19 +3555,6 @@
       "endDate": "2027-06-30",
       "firstSeen": "2026-11-02",
       "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2138/news2.jpg"
-    },
-    {
-      "id": "garden-museum:whats-on-threads-of-ascent-tapestries-by-clare-woods",
-      "venueId": "garden-museum",
-      "sourceId": "garden-museum",
-      "title": "Threads of Ascent: Tapestries by Clare Woods",
-      "url": "https://www.gardenmuseum.org.uk/whats-on/threads-of-ascent-tapestries-by-clare-woods/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-10-09",
-      "endDate": "2026-11-05",
-      "firstSeen": "2026-11-02",
-      "image": "https://www.gardenmuseum.org.uk/wp-content/uploads/2026/08/TheTakeOver2026_DovecotxClareWoods_cDovecotStudios_PhotobyPhilWilkinson_crop-916x516.jpg"
     },
     {
       "id": "grimm-london:exhibitions-378-charles-avery-where-rocco-found-a-dead-monster-or-the",
@@ -3812,7 +3788,7 @@
       "id": "tate-modern:tate-modern-tarek-atoui",
       "venueId": "tate-modern",
       "sourceId": "tate-modern",
-      "title": "Hyundai Commission Tarek Atoui",
+      "title": "Hyundai Commission Tarek Atoui: Hold",
       "url": "https://www.tate.org.uk/whats-on/tate-modern/tarek-atoui",
       "type": "exhibition",
       "category": "exhibitions",
@@ -4336,7 +4312,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Relaxed View of Robert Ryman: The Real Thing",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/relaxed-view-of-robert-ryman-the-real-thing",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/relaxed-view-of-robert-ryman-the-real-thing",
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2026-10-28",
@@ -4426,13 +4402,13 @@
       "endDate": "2027-01-23",
       "firstSeen": "2026-11-02",
       "schedule": {
-        "from": "2026-11-05",
+        "from": "2026-11-06",
         "times": [
           "14:30",
           "19:15",
           "19:45"
         ],
-        "days": "44504542450444545044454504445450444545044454505450004455105044454504445450444545"
+        "days": "4504542450444545044454504445450444545044454505450004455105044454504445450444545"
       },
       "people": [
         "hamlet-hail-to-the-thief"
@@ -4443,7 +4419,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Double Bill: Amelia al ballo & Trouble in Tahiti",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/double-bill-amelia-al-ballo-trouble-in-tahiti",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/double-bill-amelia-al-ballo-trouble-in-tahiti",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-02",
@@ -4539,74 +4515,6 @@
       "image": "https://images.almeida.co.uk/uploads/2025/05/GoldenBoy_Artwork_Website.jpg?resize=16%2C10&gravity"
     },
     {
-      "id": "barbican:event-london-symphony-orchestrathomas-ades",
-      "venueId": "barbican",
-      "sourceId": "barbican",
-      "title": "London Symphony Orchestra/Thomas Adès",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/london-symphony-orchestrathomas-ades",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00"
-    },
-    {
-      "id": "british-library:events-how-to-build-a-brand-story-for-your-business",
-      "venueId": "british-library",
-      "sourceId": "british-library",
-      "title": "How to build a brand story for your business",
-      "url": "https://events.bl.uk/events/how-to-build-a-brand-story-for-your-business",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-03",
-      "startTime": "14:00",
-      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/bl_bipc_speed_dating_shoot_28_01_2026_055.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1791991029&s=9581124206803683d6e37786d9baffd0"
-    },
-    {
-      "id": "british-library:events-the-agatha-cure",
-      "venueId": "british-library",
-      "sourceId": "british-library",
-      "title": "The Agatha Cure",
-      "url": "https://events.bl.uk/events/the-agatha-cure",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-04",
-      "startTime": "19:00",
-      "image": "https://british-library.transforms.svdcdn.com/production/Cultural-Events/2000x1026-Agatha-Cure-no-text.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1786616844&s=20bf319a0c1689aec88a9267a57882e1"
-    },
-    {
-      "id": "chisenhale-gallery:whats-on-panel-discussion-with-mati-diop-dr-eva-namusoke-and-dr-jennifer-nansubu",
-      "venueId": "chisenhale-gallery",
-      "sourceId": "chisenhale-gallery",
-      "title": "Panel discussion with Mati Diop, Dr Eva Namusoke, and Dr Jennifer Nansubuga Makumbi, chaired by Dr Nobunye Levin.",
-      "url": "https://chisenhale.org.uk/whats-on/panel-discussion-with-mati-diop-dr-eva-namusoke-and-dr-jennifer-nansubuga-makumbi-chaired/",
-      "type": "talk",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "20:30",
-      "image": "https://chisenhale.org.uk/img/contain/600/480/2026/09/28/3_Panel_2_5x4"
-    },
-    {
-      "id": "clapham-grand:event-eastbenders-2",
-      "venueId": "clapham-grand",
-      "sourceId": "clapham-grand",
-      "title": "EastBenders",
-      "url": "https://claphamgrand.com/event/eastbenders-2/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30"
-    },
-    {
       "id": "david-zwirner-london:2026-no-plan-at-all-prints-from-borch-editions",
       "venueId": "david-zwirner-london",
       "sourceId": "david-zwirner-london",
@@ -4617,367 +4525,6 @@
       "startDate": "2026-11-05",
       "endDate": "2026-12-19",
       "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "earth-hackney:events-actress-kmru-joy-guidry-5th-nov-earth-london-tickets-3oank8",
-      "venueId": "earth-hackney",
-      "sourceId": "earth-hackney",
-      "title": "Actress + KMRU + Joy Guidry",
-      "url": "https://earthackney.co.uk/events/actress-kmru-joy-guidry-5th-nov-earth-london-tickets-3oank8/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://dice-media.imgix.net/attachments/2026-06-04/d4b75e73-4456-4c4b-a8a5-1132916ee366.jpg?auto=format&compress&q=70&h=800&w=800&fit=crop&crop=faces,center"
-    },
-    {
-      "id": "earth-hackney:events-los-thuthanaka-joshua-chuqimia-crampton-5th-nov-earth-london-tickets-dk27",
-      "venueId": "earth-hackney",
-      "sourceId": "earth-hackney",
-      "title": "LOS THUTHANAKA + Joshua Chuqimia Crampton",
-      "url": "https://earthackney.co.uk/events/los-thuthanaka-joshua-chuqimia-crampton-5th-nov-earth-london-tickets-dk2776/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://dice-media.imgix.net/attachments/2026-06-04/5ff378dd-6dbf-471a-b484-2d6614f832d2.jpg?auto=format&compress&q=70&h=800&w=800&fit=crop&crop=faces,center"
-    },
-    {
-      "id": "eventim-apollo:event-sam-campbell-eventim-apollo-21061836-affiliate-hal",
-      "venueId": "eventim-apollo",
-      "sourceId": "eventim-apollo",
-      "title": "Sam Campbell: Kid Giblet",
-      "url": "https://www.eventim.co.uk/event/sam-campbell-eventim-apollo-21061836/?affiliate=HAL",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://aeg-media-assets.b-cdn.net/eventim/images/SC-Poster-1080x1080.png?width=768&height=768&focus_crop=1080,1080,0.5,0.5"
-    },
-    {
-      "id": "frameless:events-frameless-tickets-9wjrgv-ref-ticketmaster",
-      "venueId": "frameless",
-      "sourceId": "ticketmaster",
-      "title": "FRAMELESS",
-      "url": "https://www.universe.com/events/frameless-tickets-9WJRGV?ref=ticketmaster",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-05",
-      "endDate": "2026-12-31",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-05",
-        "times": [],
-        "days": "111111111111111111111111111111111111111111111111110111111"
-      },
-      "people": [
-        "frameless"
-      ]
-    },
-    {
-      "id": "gresham-college:whats-on-guantanamo-euphrates",
-      "venueId": "gresham-college",
-      "sourceId": "gresham-college",
-      "title": "Guantanamo on the Euphrates: What Next for Detainees in Syria?",
-      "url": "https://www.gresham.ac.uk/whats-on/guantanamo-euphrates",
-      "type": "talk",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "islington-assembly-hall:event-1f0064f6aa2b2a3e",
-      "venueId": "islington-assembly-hall",
-      "sourceId": "ticketmaster",
-      "title": "Children of Zeus",
-      "url": "https://www.ticketmaster.co.uk/children-of-zeus-london-05-11-2026/event/1F0064F6AA2B2A3E",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/532/9e91286c-bfe8-40ee-8636-51e9e9927532_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "children-of-zeus"
-      ]
-    },
-    {
-      "id": "kings-head-theatre:book-1j55e-double-bill-tell-me-straight-aggy",
-      "venueId": "kings-head-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Double Bill: Tell Me Straight & Aggy",
-      "url": "https://theatre.ticketmaster.co.uk/book/1J55E-double-bill-tell-me-straight-aggy/#perf=1J55E-N&date=2026-11-05&time=7.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-14",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-05",
-        "times": [
-          "14:00",
-          "15:00",
-          "18:00",
-          "19:00"
-        ],
-        "days": "885088a881"
-      },
-      "people": [
-        "double-bill-tell-me-straight-and-aggy"
-      ]
-    },
-    {
-      "id": "leicester-square-theatre:show-barry-from-watford-shooting-from-the-new-hip",
-      "venueId": "leicester-square-theatre",
-      "sourceId": "leicester-square-theatre",
-      "title": "Barry from Watford: Shooting from the (new) hip",
-      "url": "https://www.leicestersquaretheatre.com/show/barry-from-watford-shooting-from-the-new-hip/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "leighton-house:museums-drink-and-draw-drawn-water",
-      "venueId": "leighton-house",
-      "sourceId": "leighton-house",
-      "title": "Drink and Draw: Drawn to the Water",
-      "url": "https://www.rbkc.gov.uk/museums/drink-and-draw-drawn-water",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "little-angel-theatre:whats-on-the-pied-piper-a-rats-tale",
-      "venueId": "little-angel-theatre",
-      "sourceId": "little-angel-theatre",
-      "title": "The Pied Piper: A Rat's Tale",
-      "url": "https://www.littleangeltheatre.com/whats-on/the-pied-piper-a-rats-tale/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-07",
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "london-coliseum:events-tosca",
-      "venueId": "london-coliseum",
-      "sourceId": "london-coliseum",
-      "title": "Tosca",
-      "url": "https://londoncoliseum.org/events/tosca/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-12-11",
-      "firstSeen": "2026-11-02",
-      "people": [
-        "tosca"
-      ]
-    },
-    {
-      "id": "london-county-hall:book-1guz8-ticketmaster",
-      "venueId": "london-county-hall",
-      "sourceId": "ticketmaster",
-      "title": "The Paddington Bear Experience",
-      "url": "https://attractions.ticketmaster.co.uk/book/1GUZ8-TICKETMASTER/#date=2026-11-05",
-      "type": "family",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-12-31",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/b4e/2774004c-cf38-4a53-9d2e-7d0d311adb4e_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-05",
-        "times": [
-          "10:00"
-        ],
-        "days": "111111111111111111111111111111111111111111111111110111111"
-      },
-      "people": [
-        "the-paddington-bear-experience"
-      ]
-    },
-    {
-      "id": "london-palladium:event-37006373fb0f93ef",
-      "venueId": "london-palladium",
-      "sourceId": "ticketmaster",
-      "title": "Mike Wozniak: The Bench",
-      "url": "https://www.ticketmaster.co.uk/mike-wozniak-the-bench-london-05-11-2026/event/37006373FB0F93EF",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/a/8bf/20e8d742-2b8e-43d5-8398-dfa42f6f18bf_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "mike-wozniak"
-      ]
-    },
-    {
-      "id": "museum-of-comedy:akn-aslan",
-      "venueId": "museum-of-comedy",
-      "sourceId": "museum-of-comedy",
-      "title": "Akın Aslan",
-      "url": "https://www.museumofcomedy.com/akn-aslan/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34834.jpg",
-      "description": "Stand-Up sahnelerinden, Uykusuz Dergisi i&ccedil;in yazdığı yazılardan veya YouTube'da yayınladığı 'İYİ HUYLU' isimli tek kişilik g&ouml;sterisinden tanıdığınız başarılı komedyen Akın Aslan, tek kişilik g&ouml;sterisi ile 5 Kasım Perşembe 20.30'da Londra Museum of Comedy'de!"
-    },
-    {
-      "id": "museum-of-comedy:lianna-holston-haha-oh-god-3rd-ed",
-      "venueId": "museum-of-comedy",
-      "sourceId": "museum-of-comedy",
-      "title": "Lianna Holston: Haha, Oh God (3rd Ed.)",
-      "url": "https://www.museumofcomedy.com/lianna-holston-haha-oh-god-3rd-ed/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34849.png",
-      "description": "A work in progress comedy show about Lianna’s biggest, most scandalous secret and the fallout from blabbing it to everybody at the 2026 Edinburgh Fringe. Lianna's accolades include: BBC New Comedy Awards 2025 (Regional Finalist), Funny Women Stage Award 2025 (Semi-Finalist),…"
-    },
-    {
-      "id": "national-theatre:productions-cloud-9",
-      "venueId": "national-theatre",
-      "sourceId": "national-theatre",
-      "title": "Cloud 9",
-      "url": "https://www.nationaltheatre.org.uk/productions/cloud-9/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2027-01-13",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.nationaltheatre.org.uk/uploads/2026/05/Cloud-9-National-Theatre-1500x1500-1.jpg?resize=150%2C150&gravity",
-      "description": "What happens when identity, power and desire collide across time? Caryl Churchill’s daring classic is reimagined by Dominic Cooke in a bold new production."
-    },
-    {
-      "id": "national-theatre:productions-some-woman",
-      "venueId": "national-theatre",
-      "sourceId": "national-theatre",
-      "title": "Some Woman",
-      "url": "https://www.nationaltheatre.org.uk/productions/some-woman/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-21",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.nationaltheatre.org.uk/uploads/2026/04/Some-Woman-Anne-Marie-Duff-National-Theatre-2000x2000-1.jpg?resize=150%2C150&gravity",
-      "description": "What happens when an ordinary woman refuses to be quiet? Anne-Marie Duff (Bad Sisters) features in this provocative new play by Helen Edmundson, directed by Blanche McIntyre."
-    },
-    {
-      "id": "o2-shepherds-bush-empire:event-3e0064bcd4785a52",
-      "venueId": "o2-shepherds-bush-empire",
-      "sourceId": "ticketmaster",
-      "title": "Deaf Havana - Fools & Worthless Liars + More",
-      "url": "https://www.ticketmaster.co.uk/deaf-havana-fools-worthless-liars-more-london-05-11-2026/event/3E0064BCD4785A52",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-06",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/ab9/f2d1f272-1a5f-4050-8a61-2cb9b492fab9_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must ",
-      "people": [
-        "deaf-havana",
-        "the-dangerous-summer"
-      ]
-    },
-    {
-      "id": "outernet-london:ma9ee7a01283",
-      "venueId": "outernet-london",
-      "sourceId": "outernet-london",
-      "title": "BBC Music Introducing",
-      "url": "https://link.dice.fm/ma9ee7a01283",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-04",
-      "startTime": "19:00",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-07/69c9adb6-0999-4b5e-b3b0-b3399e4d6fc0.jpg"
-    },
-    {
-      "id": "outernet-london:j8d6e1f0dd21",
-      "venueId": "outernet-london",
-      "sourceId": "outernet-london",
-      "title": "New Music Showcase",
-      "url": "https://link.dice.fm/J8d6e1f0dd21",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-04",
-      "startTime": "19:00",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-15/89ae921f-8bc1-47fd-9f11-1f3c57466d32.jpg"
-    },
-    {
-      "id": "park-theatre:events-the-revlon-girl",
-      "venueId": "park-theatre",
-      "sourceId": "park-theatre",
-      "title": "The Revlon Girl",
-      "url": "https://parktheatre.co.uk/events/the-revlon-girl/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-14",
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "pleasance-theatre:event-jake-detenber-headstrong-work-progress",
-      "venueId": "pleasance-theatre",
-      "sourceId": "pleasance-theatre",
-      "title": "Jake Detenber: Headstrong - Work in Progress",
-      "url": "https://www.pleasance.co.uk/event/jake-detenber-headstrong-work-progress",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "pleasance-theatre:event-monkey",
-      "venueId": "pleasance-theatre",
-      "sourceId": "pleasance-theatre",
-      "title": "The Monkey",
-      "url": "https://www.pleasance.co.uk/event/monkey",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "polka-theatre:event-the-sleep-show",
-      "venueId": "polka-theatre",
-      "sourceId": "polka-theatre",
-      "title": "The Sleep Show",
-      "url": "https://polkatheatre.com/event/the-sleep-show/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-08",
-      "firstSeen": "2026-11-02",
-      "image": "https://polkatheatre.com/wp-content/uploads/2026/05/1920x1080-Website-listing-The-Sleep-Show-640x427.png"
     },
     {
       "id": "richard-saltoun-gallery:exhibitions-165-dia-al-azzawi-let-me-tell-you-a-story-to-break",
@@ -4993,373 +4540,6 @@
       "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-richardsaltoun2/usr/images/exhibitions/main_image_override/165/daa046_03-2.jpg"
     },
     {
-      "id": "roundhouse:whats-on-drop-in-dj-18-25-au26",
-      "venueId": "roundhouse",
-      "sourceId": "roundhouse",
-      "title": "DJ Drop In",
-      "url": "https://www.roundhouse.org.uk/whats-on/drop-in-dj-18-25-au26/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-26",
-      "firstSeen": "2026-11-03",
-      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Autumn-Term-2026-Website-Images-1260x1280.png"
-    },
-    {
-      "id": "roundhouse:whats-on-drop-in-music-prod-18-25-au26",
-      "venueId": "roundhouse",
-      "sourceId": "roundhouse",
-      "title": "Music Producers Drop In (18-25)",
-      "url": "https://www.roundhouse.org.uk/whats-on/drop-in-music-prod-18-25-au26/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-26",
-      "firstSeen": "2026-11-03",
-      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Music-Producers-Half-Term-1260x1280.png"
-    },
-    {
-      "id": "roundhouse:whats-on-slayyyter",
-      "venueId": "roundhouse",
-      "sourceId": "roundhouse",
-      "title": "Slayyyter: THE WOR$T GIRL IN THE WORLD TOUR",
-      "url": "https://www.roundhouse.org.uk/whats-on/slayyyter/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-03",
-      "image": "https://assets.roundhouse.org.uk/app/uploads/2026/03/Golden-Time.png",
-      "people": [
-        "slayyyter",
-        "pearly-drops"
-      ]
-    },
-    {
-      "id": "royal-opera-house:tickets-and-events-roh-behind-the-scene-tour-details",
-      "venueId": "royal-opera-house",
-      "sourceId": "royal-opera-house",
-      "title": "Behind the Scenes Tour",
-      "url": "https://www.rbo.org.uk/tickets-and-events/roh-behind-the-scene-tour-details",
-      "type": "tour",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2027-01-31",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.prismic.io/royal-opera-house/aFPx6Wv-Iw5OKLRo_NutcrackerTour%C2%A92023VeronikaWard.jpg?auto=format%2Ccompress&rect=825%2C347%2C4519%2C3389&w=600&h=960"
-    },
-    {
-      "id": "royal-opera-house:production-manon-kenneth-macmillan",
-      "venueId": "royal-opera-house",
-      "sourceId": "royal-opera-house",
-      "title": "Manon",
-      "url": "https://www.rbo.org.uk/production/manon-kenneth-macmillan",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-25",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.prismic.io/royal-opera-house/acv_oZGXnQHGZJC4_HERO_2627_MANON_20240115_TheRoyalBallet_Manon_Hayward_Sambe_ROH_%C2%A9FoteiniChristofilopoulou-123.jpg?auto=format,compress&rect=404,0,6455,4841&w=600&h=960"
-    },
-    {
-      "id": "royal-opera-house:tickets-and-events-opera-on-the-terrace-details",
-      "venueId": "royal-opera-house",
-      "sourceId": "royal-opera-house",
-      "title": "Opera on the Terrace",
-      "url": "https://www.rbo.org.uk/tickets-and-events/opera-on-the-terrace-details",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-29",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.prismic.io/royal-opera-house/E1mUd-daG4gS-Q38_CicoriaOperaNights14.6SINGERS08.jpg?auto=format%2Ccompress&rect=0%2C1395%2C4480%2C3360&w=600&h=960"
-    },
-    {
-      "id": "sadlers-wells:whats-on-g-cornejo-tango-after-dark",
-      "venueId": "sadlers-wells",
-      "sourceId": "sadlers-wells",
-      "title": "Germán Cornejo’s Tango After Dark",
-      "url": "https://www.sadlerswells.com/whats-on/g-cornejo-tango-after-dark/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-09",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2025/11/tango_after_dark-scaled.jpg?resize=15%2C15&gravity"
-    },
-    {
-      "id": "sadlers-wells-east:whats-on-lost-dog-the-last-hamlet",
-      "venueId": "sadlers-wells-east",
-      "sourceId": "sadlers-wells",
-      "title": "Lost Dog – The Last Hamlet",
-      "url": "https://www.sadlerswells.com/whats-on/lost-dog-the-last-hamlet/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-07",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/04/Lost-Dog_The-Last-Hamlet_Landscape_2700x1080_photo-credit_Camilla-Greenwell-1-scaled.jpg?resize=15%2C15&gravity"
-    },
-    {
-      "id": "sadlers-wells-east:whats-on-the-dance-floor-takeover-margam-vr-divya-kasturi",
-      "venueId": "sadlers-wells-east",
-      "sourceId": "sadlers-wells",
-      "title": "The Dance Floor Takeover: MargaM VR – Divya Kasturi",
-      "url": "https://www.sadlerswells.com/whats-on/the-dance-floor-takeover-margam-vr-divya-kasturi/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-07",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/SW-Masthead-2-scaled.jpg?resize=15%2C15&gravity&webp=1"
-    },
-    {
-      "id": "shakespeares-globe:whats-on-globe-theatre-guided-tour",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "Globe Theatre Guided Tour",
-      "url": "https://www.shakespearesglobe.com/whats-on/globe-theatre-guided-tour/",
-      "type": "tour",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2027-01-31",
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "st-johns-smith-square:event-create-yarmouth-26-melodies-of-home",
-      "venueId": "st-johns-smith-square",
-      "sourceId": "st-johns-smith-square",
-      "title": "Create Yarmouth ’26: Melodies of Home",
-      "url": "https://www.sinfoniasmithsq.org.uk/event/create-yarmouth-26-melodies-of-home/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://www.sinfoniasmithsq.org.uk/wp-content/uploads/2026/10/st-george-s-theatre-1280x720.jpg"
-    },
-    {
-      "id": "st-martin-in-the-fields:whats-on-great-sacred-music-remember-remember-the-fifth-of-november",
-      "venueId": "st-martin-in-the-fields",
-      "sourceId": "st-martin-in-the-fields",
-      "title": "Great Sacred Music: Remember, remember the Fifth of November",
-      "url": "https://www.stmartin-in-the-fields.org/whats-on/great-sacred-music-remember-remember-the-fifth-of-november/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-05",
-      "startTime": "13:00"
-    },
-    {
-      "id": "st-martin-in-the-fields:whats-on-morning-prayer-9",
-      "venueId": "st-martin-in-the-fields",
-      "sourceId": "st-martin-in-the-fields",
-      "title": "Morning Prayer",
-      "url": "https://www.stmartin-in-the-fields.org/whats-on/morning-prayer-9/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-05",
-      "startTime": "08:30"
-    },
-    {
-      "id": "the-arts-at-marble-arch:book-1huml-burlesque",
-      "venueId": "the-arts-at-marble-arch",
-      "sourceId": "ticketmaster",
-      "title": "Burlesque",
-      "url": "https://theatre.ticketmaster.co.uk/book/1HUML-burlesque/#perf=1HUML-1Q&date=2026-11-05&time=3.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2027-01-31",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/cc1/16a24012-57e9-41f6-bc37-ae36ad7d1cc1_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-05",
-        "times": [
-          "14:00",
-          "15:00",
-          "16:00",
-          "19:00",
-          "19:30"
-        ],
-        "days": "igi40ggigi40ggigi40ggigi40ggigi40ggigi40ggigi40gi20g90gi2gi90ggigi40ggigi40ggigi40ggigi4"
-      },
-      "people": [
-        "burlesque-the-musical"
-      ]
-    },
-    {
-      "id": "the-comedy-store:events-charity",
-      "venueId": "the-comedy-store",
-      "sourceId": "the-comedy-store",
-      "title": "5 world-class stand up comedians",
-      "url": "https://london.thecomedystore.co.uk/events/charity",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://comedy-store.transforms.svdcdn.com/production/images/2026/headers/CS-Header-BISU.jpg?w=728&h=291&q=90&auto=format&fit=crop&dm=1773230162&s=6d32378c309f7cbb1f366c73af3b5253"
-    },
-    {
-      "id": "the-comedy-store:events-the-best-in-stand-up-thursday-5th-november-tickets-c1bkrq-ref-ticketmaste",
-      "venueId": "the-comedy-store",
-      "sourceId": "ticketmaster",
-      "title": "The Best in Stand Up - Thursday 5th November",
-      "url": "https://www.universe.com/events/the-best-in-stand-up-thursday-5th-november-tickets-C1BKRQ?ref=ticketmaster",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://s1.ticketm.net/dam/a/052/43ca2da6-c221-4c1d-97b3-59f21dc0d052_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "the-best-in-stand-up"
-      ]
-    },
-    {
-      "id": "the-foundling-museum:event-yap-jose-teixeira",
-      "venueId": "the-foundling-museum",
-      "sourceId": "the-foundling-museum",
-      "title": "Young Artists’ Platform: José Teixeira",
-      "url": "https://foundlingmuseum.org.uk/event/yap-jose-teixeira/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "the-o2:book-1gy5a-mamma-mia-the-party",
-      "venueId": "the-o2",
-      "sourceId": "ticketmaster",
-      "title": "Mamma Mia! The Party",
-      "url": "https://theatre.ticketmaster.co.uk/book/1GY5A-mamma-mia-the-party/#perf=1GY5A-186&date=2026-11-05&time=6.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2027-11-04",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/dd1/8cfa7d0c-241e-41b8-a131-75f4813bfdd1_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-05",
-        "times": [
-          "11:00",
-          "12:00",
-          "17:30",
-          "18:30"
-        ],
-        "days": "88aa08888aa08888aa08888aa00888aa00888aa00888aa08a000a08880aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888a200888aa00888aa00888aa08880aa00888a200888aa00088aa00880aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888a50088"
-      },
-      "people": [
-        "mamma-mia-the-party"
-      ]
-    },
-    {
-      "id": "the-o2:event-3500651c98b965a7",
-      "venueId": "the-o2",
-      "sourceId": "ticketmaster",
-      "title": "Stevie Wonder: Songs In The Key of Life Performances",
-      "url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-london-05-11-2026/event/3500651C98B965A7",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/a/4a7/9603adc8-0157-4354-9704-6215ea6f64a7_RETINA_LANDSCAPE_16_9.jpg",
-      "people": [
-        "stevie-wonder"
-      ]
-    },
-    {
-      "id": "the-photographers-gallery:whats-on-artist-talk-charlie-phillips",
-      "venueId": "the-photographers-gallery",
-      "sourceId": "photographers-gallery",
-      "title": "Artist Talk: Charlie Phillips",
-      "url": "https://thephotographersgallery.org.uk/whats-on/artist-talk-charlie-phillips",
-      "type": "talk",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "description": "Hear Charlie Phillips speak about his long awaited retrospective publication."
-    },
-    {
-      "id": "the-wallace-collection:events-highlights-of-the-collection-tours",
-      "venueId": "the-wallace-collection",
-      "sourceId": "the-wallace-collection",
-      "title": "Highlights of the Collection Tours",
-      "url": "https://www.wallacecollection.org/whats-on/events/highlights-of-the-collection-tours/",
-      "type": "tour",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://www.wallacecollection.org/media/images/dt_tour.c33a289e.fill-720x720.jpg"
-    },
-    {
-      "id": "the-wallace-collection:events-metamorphoses-porcelain-sculpture-by-rachel-kneebone",
-      "venueId": "the-wallace-collection",
-      "sourceId": "the-wallace-collection",
-      "title": "Metamorphoses: Porcelain Sculpture by Rachel Kneebone",
-      "url": "https://www.wallacecollection.org/whats-on/events/metamorphoses-porcelain-sculpture-by-rachel-kneebone/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://www.wallacecollection.org/media/images/image-ad2f72b3-e2a8-4ef2-86c5-ab38.2e16d0ba.fill-720x720.jpg"
-    },
-    {
-      "id": "the-wallace-collection:events-winston-churchill-the-painter",
-      "venueId": "the-wallace-collection",
-      "sourceId": "the-wallace-collection",
-      "title": "Winston Churchill: The Painter",
-      "url": "https://www.wallacecollection.org/whats-on/events/winston-churchill-the-painter/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://www.wallacecollection.org/media/images/image-ef611f09-3a51-4744-b483-1f18.2e16d0ba.fill-720x720.jpg"
-    },
-    {
-      "id": "troxy:event-dabeull",
-      "venueId": "troxy",
-      "sourceId": "troxy",
-      "title": "Dabeull",
-      "url": "https://troxy.co.uk/event/dabeull/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
-      "description": "Dabeull is a visionary French producer and artist, widely regarded as a leading figure in the global funk revival. With his unmistakable blend of punchy basslines, retro synthesizers, and sensual vocals, he has carved out an unique place on the international music scene. Known…",
-      "people": [
-        "dabeull"
-      ]
-    },
-    {
-      "id": "union-chapel:whats-on-joan-as-police-woman-20-years-of-real-life-tour-5-nov",
-      "venueId": "union-chapel",
-      "sourceId": "union-chapel",
-      "title": "Joan As Police Woman 20 Years of Real Life Tour 5 Nov",
-      "url": "https://unionchapel.org.uk/whats-on/joan-as-police-woman-20-years-of-real-life-tour-5-nov",
-      "type": "tour",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
       "id": "v-and-a-south-kensington:pjzxzj4oqj-ahrc-cdp-20th-anniversary-conference-nov-2026",
       "venueId": "v-and-a-south-kensington",
       "sourceId": "vam",
@@ -5373,19 +4553,6 @@
       "image": "https://assets-cdn.vam.ac.uk/2026/10/08/16/39/34/5e9e08d5-6eec-4a79-8df7-5c3cdf504b85/collaborative-doctoral-partnerships-20th-anniversary-conference_320.jpg"
     },
     {
-      "id": "v-and-a-south-kensington:o5bxmy2m8o-lunchtime-lecture-5-november-2026",
-      "venueId": "v-and-a-south-kensington",
-      "sourceId": "vam",
-      "title": "Lunchtime Lectures: Curating Urushi Now: Contemporary Japanese Lacquer",
-      "url": "https://www.vam.ac.uk/event/O5BXmy2m8o/lunchtime-lecture-5-november-2026",
-      "type": "talk",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://assets-cdn.vam.ac.uk/2026/09/04/09/50/57/72d8a63a-48e5-4664-8dd4-12d3cf1f6eb0/lunchtime-lectures-curating-urushi-now-contemporary-japanese-lacquer_320.jpg"
-    },
-    {
       "id": "v-and-a-south-kensington:vkempxnk-members-preview-day-constantinople",
       "venueId": "v-and-a-south-kensington",
       "sourceId": "vam",
@@ -5397,49 +4564,6 @@
       "endDate": "2026-11-06",
       "firstSeen": "2026-11-02",
       "image": "https://assets-cdn.vam.ac.uk/2026/06/08/16/27/48/9b716f33-a7d4-495f-b96c-ba74208a04f2/members-preview-day-constantinople_320.jpg"
-    },
-    {
-      "id": "v-and-a-south-kensington:rzgeeojrrn-members-welcome-tour-05-11-2026",
-      "venueId": "v-and-a-south-kensington",
-      "sourceId": "vam",
-      "title": "Members' Welcome Tour",
-      "url": "https://www.vam.ac.uk/event/RZGEEojRrn/members-welcome-tour-05-11-2026",
-      "type": "tour",
-      "category": "art-events",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://assets-cdn.vam.ac.uk/2026/09/08/15/23/32/bd561737-bc4e-4087-ab91-f83967035038/members-welcome-tour-05-11-2026_320.jpg"
-    },
-    {
-      "id": "wigmore-hall:whats-on-202611051930",
-      "venueId": "wigmore-hall",
-      "sourceId": "wigmore-hall",
-      "title": "Elias String Quartet",
-      "url": "https://www.wigmore-hall.org.uk/whats-on/202611051930",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://admin.wigmore-hall.org.uk/images/rJ2UIPAAgOoNBiNhf5AoVL2bOaA=/6481/width-400/.phpref52905sizewebextjpgpage1alternative-1watermarkedknoattachtruevaccess_k_BBE7fBG",
-      "description": "Donald Grant, R Schumann and Sally Beamish"
-    },
-    {
-      "id": "wigmore-hall:whats-on-202611051300",
-      "venueId": "wigmore-hall",
-      "sourceId": "wigmore-hall",
-      "title": "The Purcell School Chamber Soloists; Alex Redington",
-      "url": "https://www.wigmore-hall.org.uk/whats-on/202611051300",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "13:00",
-      "image": "https://admin.wigmore-hall.org.uk/images/iCogJqnZ-OJQuXEm0RRCYE2VCDk=/6478/width-400/.phpref49400sizewebextjpgpage1alternative-1watermarkedknoattachtruevaccess_k_LlFGdZZ",
-      "description": "Bacewicz and Enescu"
     },
     {
       "id": "young-v-and-a:7zmomnpegwj-play-after-school-nov-dec-2026",
@@ -5485,7 +4609,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Robert Ryman: Exhibition Tour with Curatorial Assistant...",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/robert-ryman-exhibition-tour-with-curatorial-assistant",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/robert-ryman-exhibition-tour-with-curatorial-assistant",
       "type": "tour",
       "category": "art-events",
       "startDate": "2026-11-06",
@@ -5498,7 +4622,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Sinfonia of London: Rachmaninoff Piano Concerto No. 2",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/sinfonia-of-london-rachmaninoff-piano-concerto-no-2",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/sinfonia-of-london-rachmaninoff-piano-concerto-no-2",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-06",
@@ -5530,61 +4654,6 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "image": "https://www.bloomsburytheatre.com/sites/default/files/2026-06/1610%20ratio_2.jpg"
-    },
-    {
-      "id": "british-library:events-coaching-session-4-financial-planning",
-      "venueId": "british-library",
-      "sourceId": "british-library",
-      "title": "Coaching session 4: Financial planning",
-      "url": "https://events.bl.uk/events/coaching-session-4-financial-planning",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-06",
-      "endDate": "2026-12-18",
-      "firstSeen": "2026-11-02",
-      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/Coaching-Sessions-web-header.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1791988236&s=55f29768ceb4de8ca1d6d8670720c3ba"
-    },
-    {
-      "id": "british-library:events-comics-and-creatures-make-your-own-magical-worlds",
-      "venueId": "british-library",
-      "sourceId": "british-library",
-      "title": "Comics and Creatures Create-along: Make Your Own Magical Worlds",
-      "url": "https://events.bl.uk/events/comics-and-creatures-make-your-own-magical-worlds",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-06",
-      "endDate": null,
-      "firstSeen": "2026-11-05",
-      "startTime": "11:00",
-      "image": "https://british-library.transforms.svdcdn.com/production/School-workshops-London/Comics-and-Creatures-Make-Your-Own-Magical-Worlds-event-image.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1793287966&s=7e99640fbed1198cccde11ade5f4b32b"
-    },
-    {
-      "id": "british-library:events-music-sound-vision-doctoral-day",
-      "venueId": "british-library",
-      "sourceId": "british-library",
-      "title": "Doctoral Open Day: Music, Sound and Vision",
-      "url": "https://events.bl.uk/events/music-sound-vision-doctoral-day",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-06",
-      "endDate": null,
-      "firstSeen": "2026-11-05",
-      "startTime": "11:30",
-      "image": "https://british-library.transforms.svdcdn.com/production/Research-Services-event-images/doc-open-day-image-sound-and-vision.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1748879470&s=2efbd2b075603e337a2565ca59134230"
-    },
-    {
-      "id": "british-library:events-how-to-start-and-run-a-successful-restaurant-coffee-bar-or-food-business",
-      "venueId": "british-library",
-      "sourceId": "british-library",
-      "title": "How to Start and Run a Successful Restaurant, Coffee Bar or Food Business",
-      "url": "https://events.bl.uk/events/how-to-start-and-run-a-successful-restaurant-coffee-bar-or-food-business",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-06",
-      "endDate": null,
-      "firstSeen": "2026-11-04",
-      "startTime": "10:00",
-      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/get-published.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1751294021&s=5a5bbbed2edcfea1621cc0e06402cf9d"
     },
     {
       "id": "clapham-grand:event-the-rocky-horror-picture-show-movie-night-2",
@@ -5644,6 +4713,27 @@
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
       "image": "https://dice-media.imgix.net/attachments/2026-06-09/e9088eba-46f8-4d64-8363-ca566d2b7da5.jpg?auto=format&compress&q=70&h=800&w=800&fit=crop&crop=faces,center"
+    },
+    {
+      "id": "frameless:events-frameless-tickets-9wjrgv-ref-ticketmaster",
+      "venueId": "frameless",
+      "sourceId": "ticketmaster",
+      "title": "FRAMELESS",
+      "url": "https://www.universe.com/events/frameless-tickets-9WJRGV?ref=ticketmaster",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-06",
+      "endDate": "2026-12-31",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-06",
+        "times": [],
+        "days": "11111111111111111111111111111111111111111111111110111111"
+      },
+      "people": [
+        "frameless"
+      ]
     },
     {
       "id": "freud-museum-london:event-in-house-two-women-book-launch-with-jacqueline-rose",
@@ -5709,7 +4799,7 @@
       "startDate": "2026-11-06",
       "endDate": "2027-01-09",
       "firstSeen": "2026-11-02",
-      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/382/ak26032-detail-1.jpg"
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/382/grimm_11.4.26_3.jpg"
     },
     {
       "id": "grimm-london:exhibitions-383-gareth-cadwallader-goodnight-moon",
@@ -5722,7 +4812,7 @@
       "startDate": "2026-11-06",
       "endDate": "2027-01-09",
       "firstSeen": "2026-11-02",
-      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/383/gareth-cadwallader_goodnight-moon-2024-25_gca25001_detail-1.jpg"
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-grimm/usr/images/exhibitions/main_image_override/383/grimm_11.4.26_4.jpg"
     },
     {
       "id": "house-of-sisters-grimm:afro-jazz-night-at-igoli-bar-fitzrovia-london-43049603",
@@ -5769,6 +4859,32 @@
       "price": "free"
     },
     {
+      "id": "kings-head-theatre:book-1j55e-double-bill-tell-me-straight-aggy",
+      "venueId": "kings-head-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Double Bill: Tell Me Straight & Aggy",
+      "url": "https://theatre.ticketmaster.co.uk/book/1J55E-double-bill-tell-me-straight-aggy/#perf=1J55E-O&date=2026-11-06&time=7.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-06",
+        "times": [
+          "14:00",
+          "15:00",
+          "18:00",
+          "19:00"
+        ],
+        "days": "85088a881"
+      },
+      "people": [
+        "double-bill-tell-me-straight-and-aggy"
+      ]
+    },
+    {
       "id": "leicester-square-theatre:show-rachel-fairburn-vexy-beasts",
       "venueId": "leicester-square-theatre",
       "sourceId": "leicester-square-theatre",
@@ -5796,6 +4912,18 @@
       "firstSeen": "2026-11-02"
     },
     {
+      "id": "little-angel-theatre:whats-on-the-pied-piper-a-rats-tale",
+      "venueId": "little-angel-theatre",
+      "sourceId": "little-angel-theatre",
+      "title": "The Pied Piper: A Rat's Tale",
+      "url": "https://www.littleangeltheatre.com/whats-on/the-pied-piper-a-rats-tale/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02"
+    },
+    {
       "id": "london-coliseum:events-iphigenie-en-tauride",
       "venueId": "london-coliseum",
       "sourceId": "london-coliseum",
@@ -5816,6 +4944,29 @@
       },
       "people": [
         "iphigenie-en-tauride"
+      ]
+    },
+    {
+      "id": "london-county-hall:book-1guz8-ticketmaster",
+      "venueId": "london-county-hall",
+      "sourceId": "ticketmaster",
+      "title": "The Paddington Bear Experience",
+      "url": "https://attractions.ticketmaster.co.uk/book/1GUZ8-TICKETMASTER/#date=2026-11-06",
+      "type": "family",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-12-31",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/b4e/2774004c-cf38-4a53-9d2e-7d0d311adb4e_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-06",
+        "times": [
+          "10:00"
+        ],
+        "days": "11111111111111111111111111111111111111111111111110111111"
+      },
+      "people": [
+        "the-paddington-bear-experience"
       ]
     },
     {
@@ -5848,7 +4999,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34852.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34888.jpg",
       "description": "Now in it’s 17th year. Leicester Square Theatre’s showcase for the UK's best up & coming New Comedians.The best acts from almost 40 heats compete for a place in the grand final at Leicester Square Theatre, the cash prize & the coveted title of New Comedian of the Year. Previous…"
     },
     {
@@ -5865,6 +5016,67 @@
       "startTime": "19:30"
     },
     {
+      "id": "national-theatre:productions-cloud-9",
+      "venueId": "national-theatre",
+      "sourceId": "national-theatre",
+      "title": "Cloud 9",
+      "url": "https://www.nationaltheatre.org.uk/productions/cloud-9/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2027-01-13",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.nationaltheatre.org.uk/uploads/2026/05/Cloud-9-National-Theatre-1500x1500-1.jpg?resize=150%2C150&gravity",
+      "description": "What happens when identity, power and desire collide across time? Caryl Churchill’s daring classic is reimagined by Dominic Cooke in a bold new production."
+    },
+    {
+      "id": "national-theatre:productions-some-woman",
+      "venueId": "national-theatre",
+      "sourceId": "national-theatre",
+      "title": "Some Woman",
+      "url": "https://www.nationaltheatre.org.uk/productions/some-woman/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.nationaltheatre.org.uk/uploads/2026/04/Some-Woman-Anne-Marie-Duff-National-Theatre-2000x2000-1.jpg?resize=150%2C150&gravity",
+      "description": "What happens when an ordinary woman refuses to be quiet? Anne-Marie Duff (Bad Sisters) features in this provocative new play by Helen Edmundson, directed by Blanche McIntyre."
+    },
+    {
+      "id": "o2-shepherds-bush-empire:event-3e0064adc4e850a1",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "ticketmaster",
+      "title": "Deaf Havana - Fools & Worthless Liars + More",
+      "url": "https://www.ticketmaster.co.uk/deaf-havana-fools-worthless-liars-more-london-06-11-2026/event/3E0064ADC4E850A1",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/a/ab9/f2d1f272-1a5f-4050-8a61-2cb9b492fab9_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must ",
+      "people": [
+        "deaf-havana",
+        "the-dangerous-summer"
+      ]
+    },
+    {
+      "id": "outernet-london:xb09e67a1a21",
+      "venueId": "outernet-london",
+      "sourceId": "outernet-london",
+      "title": "Dani Sylvia",
+      "url": "https://link.dice.fm/xb09e67a1a21",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "19:00",
+      "image": "https://dice-media.imgix.net/attachments/2026-01-21/09c838f9-1d9b-4a05-966f-feed0bfc446c.jpg"
+    },
+    {
       "id": "outernet-london:n8ea024f5ded",
       "venueId": "outernet-london",
       "sourceId": "outernet-london",
@@ -5877,6 +5089,31 @@
       "firstSeen": "2026-11-05",
       "startTime": "19:00",
       "image": "https://dice-media.imgix.net/attachments/2026-10-06/62d0c919-85ee-4adc-8784-b0186cd84876.jpg"
+    },
+    {
+      "id": "park-theatre:events-the-revlon-girl",
+      "venueId": "park-theatre",
+      "sourceId": "park-theatre",
+      "title": "The Revlon Girl",
+      "url": "https://parktheatre.co.uk/events/the-revlon-girl/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "polka-theatre:event-the-sleep-show",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "The Sleep Show",
+      "url": "https://polkatheatre.com/event/the-sleep-show/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/05/1920x1080-Website-listing-The-Sleep-Show-640x427.png"
     },
     {
       "id": "roundhouse:whats-on-the-avalanches",
@@ -5940,6 +5177,45 @@
       "firstSeen": "2026-11-02"
     },
     {
+      "id": "royal-opera-house:tickets-and-events-roh-behind-the-scene-tour-details",
+      "venueId": "royal-opera-house",
+      "sourceId": "royal-opera-house",
+      "title": "Behind the Scenes Tour",
+      "url": "https://www.rbo.org.uk/tickets-and-events/roh-behind-the-scene-tour-details",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/royal-opera-house/aFPx6Wv-Iw5OKLRo_NutcrackerTour%C2%A92023VeronikaWard.jpg?auto=format%2Ccompress&rect=825%2C347%2C4519%2C3389&w=600&h=960"
+    },
+    {
+      "id": "royal-opera-house:production-manon-kenneth-macmillan",
+      "venueId": "royal-opera-house",
+      "sourceId": "royal-opera-house",
+      "title": "Manon",
+      "url": "https://www.rbo.org.uk/production/manon-kenneth-macmillan",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-25",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/royal-opera-house/acv_oZGXnQHGZJC4_HERO_2627_MANON_20240115_TheRoyalBallet_Manon_Hayward_Sambe_ROH_%C2%A9FoteiniChristofilopoulou-123.jpg?auto=format,compress&rect=404,0,6455,4841&w=600&h=960"
+    },
+    {
+      "id": "royal-opera-house:tickets-and-events-opera-on-the-terrace-details",
+      "venueId": "royal-opera-house",
+      "sourceId": "royal-opera-house",
+      "title": "Opera on the Terrace",
+      "url": "https://www.rbo.org.uk/tickets-and-events/opera-on-the-terrace-details",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-29",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/royal-opera-house/E1mUd-daG4gS-Q38_CicoriaOperaNights14.6SINGERS08.jpg?auto=format%2Ccompress&rect=0%2C1395%2C4480%2C3360&w=600&h=960"
+    },
+    {
       "id": "sadlers-wells:whats-on-culture-club-2026",
       "venueId": "sadlers-wells",
       "sourceId": "sadlers-wells",
@@ -5950,7 +5226,46 @@
       "startDate": "2026-11-06",
       "endDate": "2027-03-19",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2025/07/20220916_SadlersWells_CultureClubWorkshop_SadlersWells_FoteiniChristofilopoulou-2-scaled.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2025/07/20220916_SadlersWells_CultureClubWorkshop_SadlersWells_FoteiniChristofilopoulou-2-scaled.jpg?resize=15%2C15&gravity&webp=1"
+    },
+    {
+      "id": "sadlers-wells:whats-on-g-cornejo-tango-after-dark",
+      "venueId": "sadlers-wells",
+      "sourceId": "sadlers-wells",
+      "title": "Germán Cornejo’s Tango After Dark",
+      "url": "https://www.sadlerswells.com/whats-on/g-cornejo-tango-after-dark/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-09",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2025/11/tango_after_dark-scaled.jpg?resize=15%2C15&gravity&webp=1"
+    },
+    {
+      "id": "sadlers-wells-east:whats-on-lost-dog-the-last-hamlet",
+      "venueId": "sadlers-wells-east",
+      "sourceId": "sadlers-wells",
+      "title": "Lost Dog – The Last Hamlet",
+      "url": "https://www.sadlerswells.com/whats-on/lost-dog-the-last-hamlet/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/04/Lost-Dog_The-Last-Hamlet_Landscape_2700x1080_photo-credit_Camilla-Greenwell-1-scaled.jpg?resize=15%2C15&gravity&webp=1"
+    },
+    {
+      "id": "sadlers-wells-east:whats-on-the-dance-floor-takeover-margam-vr-divya-kasturi",
+      "venueId": "sadlers-wells-east",
+      "sourceId": "sadlers-wells",
+      "title": "The Dance Floor Takeover: MargaM VR – Divya Kasturi",
+      "url": "https://www.sadlerswells.com/whats-on/the-dance-floor-takeover-margam-vr-divya-kasturi/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-07",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.sadlerswells.com/uploads/2026/10/SW-Masthead-2-scaled.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "sam-wanamaker-playhouse:show-julius-caesar-111474968",
@@ -5965,6 +5280,18 @@
       "firstSeen": "2026-11-02",
       "image": "https://officiallondontheatre.com/app/uploads/2026/07/SeeTickets_1200x600_Globe_JuliusCaesar.jpg",
       "description": "Take your place as a citizen of Rome, and experience Shakespeare’s epic thriller Julius Caesar in the intimate, candlelit Sam Wanamaker Playhouse."
+    },
+    {
+      "id": "shakespeares-globe:whats-on-globe-theatre-guided-tour",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Globe Theatre Guided Tour",
+      "url": "https://www.shakespearesglobe.com/whats-on/globe-theatre-guided-tour/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02"
     },
     {
       "id": "shakespeares-globe:whats-on-julius-caesar",
@@ -6020,6 +5347,32 @@
       "firstSeen": "2026-11-02"
     },
     {
+      "id": "st-martin-in-the-fields:whats-on-catherina-lee-violin-and-miles-walter-piano",
+      "venueId": "st-martin-in-the-fields",
+      "sourceId": "st-martin-in-the-fields",
+      "title": "Catherina Lee, violin and Miles Walter, piano",
+      "url": "https://www.stmartin-in-the-fields.org/whats-on/catherina-lee-violin-and-miles-walter-piano/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "13:00"
+    },
+    {
+      "id": "st-martin-in-the-fields:whats-on-st-martin-in-the-fields-300-years-at-the-heart-and-on-the-edge",
+      "venueId": "st-martin-in-the-fields",
+      "sourceId": "st-martin-in-the-fields",
+      "title": "St Martin-in-the-Fields: 300 Years at the Heart and on the Edge",
+      "url": "https://www.stmartin-in-the-fields.org/whats-on/st-martin-in-the-fields-300-years-at-the-heart-and-on-the-edge/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "11:00"
+    },
+    {
       "id": "tate-britain:tate-britain-tates-public-records-from-the-90s",
       "venueId": "tate-britain",
       "sourceId": "tate-britain",
@@ -6063,6 +5416,46 @@
       "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/Inji-Efflatoun-Dreams-of-the-Detainee.width-600.jpg"
     },
     {
+      "id": "the-arts-at-marble-arch:book-1huml-burlesque",
+      "venueId": "the-arts-at-marble-arch",
+      "sourceId": "ticketmaster",
+      "title": "Burlesque",
+      "url": "https://theatre.ticketmaster.co.uk/book/1HUML-burlesque/#perf=1HUML-1S&date=2026-11-06&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/cc1/16a24012-57e9-41f6-bc37-ae36ad7d1cc1_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-06",
+        "times": [
+          "14:00",
+          "15:00",
+          "16:00",
+          "19:00",
+          "19:30"
+        ],
+        "days": "gi40ggigi40ggigi40ggigi40ggigi40ggigi40ggigi40gi20g90gi2gi90ggigi40ggigi40ggigi40ggigi4"
+      },
+      "people": [
+        "burlesque-the-musical"
+      ]
+    },
+    {
+      "id": "the-comedy-store:events-charity",
+      "venueId": "the-comedy-store",
+      "sourceId": "the-comedy-store",
+      "title": "5 world-class stand up comedians",
+      "url": "https://london.thecomedystore.co.uk/events/charity",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://comedy-store.transforms.svdcdn.com/production/images/2026/headers/CS-Header-BISU.jpg?w=728&h=291&q=90&auto=format&fit=crop&dm=1773230162&s=6d32378c309f7cbb1f366c73af3b5253"
+    },
+    {
       "id": "the-comedy-store:events-the-best-in-stand-up-friday-6th-november-tickets-1ngvw2-ref-ticketmaster",
       "venueId": "the-comedy-store",
       "sourceId": "ticketmaster",
@@ -6090,6 +5483,32 @@
       "startDate": "2026-11-06",
       "endDate": null,
       "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-o2:book-1gy5a-mamma-mia-the-party",
+      "venueId": "the-o2",
+      "sourceId": "ticketmaster",
+      "title": "Mamma Mia! The Party",
+      "url": "https://theatre.ticketmaster.co.uk/book/1GY5A-mamma-mia-the-party/#perf=1GY5A-187&date=2026-11-06&time=6.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-06",
+      "endDate": "2027-11-05",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/dd1/8cfa7d0c-241e-41b8-a131-75f4813bfdd1_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-06",
+        "times": [
+          "11:00",
+          "12:00",
+          "17:30",
+          "18:30"
+        ],
+        "days": "8aa08888aa08888aa08888aa00888aa00888aa00888aa08a000a08880aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888a200888aa00888aa00888aa08880aa00888a200888aa00088aa00880aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888a500888"
+      },
+      "people": [
+        "mamma-mia-the-party"
+      ]
     },
     {
       "id": "the-o2:event-35006497c5ea4534",
@@ -6139,6 +5558,45 @@
       "description": "Join Sarah Cook, Zeno Gries, Charlotte Kent, Alasdair Milne and others to discuss to how artists’ agency has become entangled with artificial intelligence."
     },
     {
+      "id": "the-wallace-collection:events-highlights-of-the-collection-tours",
+      "venueId": "the-wallace-collection",
+      "sourceId": "the-wallace-collection",
+      "title": "Highlights of the Collection Tours",
+      "url": "https://www.wallacecollection.org/whats-on/events/highlights-of-the-collection-tours/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wallacecollection.org/media/images/dt_tour.c33a289e.fill-720x720.jpg"
+    },
+    {
+      "id": "the-wallace-collection:events-metamorphoses-porcelain-sculpture-by-rachel-kneebone",
+      "venueId": "the-wallace-collection",
+      "sourceId": "the-wallace-collection",
+      "title": "Metamorphoses: Porcelain Sculpture by Rachel Kneebone",
+      "url": "https://www.wallacecollection.org/whats-on/events/metamorphoses-porcelain-sculpture-by-rachel-kneebone/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wallacecollection.org/media/images/image-ad2f72b3-e2a8-4ef2-86c5-ab38.2e16d0ba.fill-720x720.jpg"
+    },
+    {
+      "id": "the-wallace-collection:events-winston-churchill-the-painter",
+      "venueId": "the-wallace-collection",
+      "sourceId": "the-wallace-collection",
+      "title": "Winston Churchill: The Painter",
+      "url": "https://www.wallacecollection.org/whats-on/events/winston-churchill-the-painter/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "image": "https://www.wallacecollection.org/media/images/image-ef611f09-3a51-4744-b483-1f18.2e16d0ba.fill-720x720.jpg"
+    },
+    {
       "id": "troxy:event-bassvictim-friends",
       "venueId": "troxy",
       "sourceId": "troxy",
@@ -6168,17 +5626,18 @@
       "firstSeen": "2026-11-02"
     },
     {
-      "id": "up-the-creek:events-the-friday-night-show-tickets-fq26rm-unii-trigger-open-the-friday-night-s",
+      "id": "up-the-creek:events-the-friday-night-show-tickets-fq26rm-ref-ticketmaster",
       "venueId": "up-the-creek",
-      "sourceId": "up-the-creek",
+      "sourceId": "ticketmaster",
       "title": "THE FRIDAY NIGHT SHOW!",
-      "url": "https://www.universe.com/events/the-friday-night-show-tickets-FQ26RM?unii-trigger-open=the-friday-night-show-tickets-FQ26RM",
+      "url": "https://www.universe.com/events/the-friday-night-show-tickets-FQ26RM?ref=ticketmaster",
       "type": "show",
       "category": "shows",
       "startDate": "2026-11-06",
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "18:00",
+      "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg",
       "people": [
         "the-friday-night-show-at-up-the-creek"
       ]
@@ -6379,6 +5838,20 @@
       "image": "https://british-library.transforms.svdcdn.com/production/family-event-images/LM-Marple-and-Mr.-Poirot-1.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1792083210&s=0c84fa908c05441f7938469f0d626707"
     },
     {
+      "id": "british-library:events-family-workshops-alex-t-smith-presents-j-algerno",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Family Workshops: Alex T Smith presents J. Algernon Pickle",
+      "url": "https://events.bl.uk/events/family-workshops-alex-t-smith-presents-j-algerno",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "11:00",
+      "image": "https://british-library.transforms.svdcdn.com/production/family-event-images/Alex-T-smith-2-1.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1792083094&s=b7bc770817e6aaf15acd37b1aac6193f"
+    },
+    {
       "id": "clapham-grand:event-bongos-bingo-nov26-2",
       "venueId": "clapham-grand",
       "sourceId": "clapham-grand",
@@ -6492,6 +5965,21 @@
       "firstSeen": "2026-11-02"
     },
     {
+      "id": "london-coliseum:events-tosca",
+      "venueId": "london-coliseum",
+      "sourceId": "london-coliseum",
+      "title": "Tosca",
+      "url": "https://londoncoliseum.org/events/tosca/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-07",
+      "endDate": "2026-12-11",
+      "firstSeen": "2026-11-02",
+      "people": [
+        "tosca"
+      ]
+    },
+    {
       "id": "london-museum:whats-on-great-fire-of-london-family-walk",
       "venueId": "london-museum",
       "sourceId": "london-museum",
@@ -6576,6 +6064,20 @@
         "ryan-beatty",
         "girlsweetvoiced"
       ]
+    },
+    {
+      "id": "outernet-london:i966d8e219bb",
+      "venueId": "outernet-london",
+      "sourceId": "outernet-london",
+      "title": "Jesse Garwood",
+      "url": "https://link.dice.fm/i966d8e219bb",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-07",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "19:00",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-14/f59c80ff-33ac-4122-9aa7-4e5ab6617fca.jpg"
     },
     {
       "id": "pleasance-theatre:event-peter-rugman-mort-whimsey-animagical-museum-delights-work-progress",
@@ -7059,6 +6561,19 @@
       "image": "https://assets-cdn.vam.ac.uk/2026/10/17/10/00/58/152dac0f-c538-46fc-8dfc-6714962eb1d6/power-of-play-together-nov-2026_320.jpg"
     },
     {
+      "id": "barbican:event-london-symphony-orchestrathomas-ades-0",
+      "venueId": "barbican",
+      "sourceId": "barbican",
+      "title": "London Symphony Orchestra/Thomas Adès",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/london-symphony-orchestrathomas-ades-0",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-08",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00"
+    },
+    {
       "id": "barbican:event-the-music-of-stranger-things",
       "venueId": "barbican",
       "sourceId": "barbican",
@@ -7306,7 +6821,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "11:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34857.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34893.jpg",
       "description": "This is a story about a little turtle who, one day, pondered where all the droplets go. To answer this question, he had to embark on an adventure. We invite young viewers to join this journey with the little turtle, from a tiny stream to the vast ocean. (Russian language)"
     },
     {
@@ -7352,18 +6867,17 @@
       "firstSeen": "2026-11-02"
     },
     {
-      "id": "roundhouse:event-1f0062fcedff2747",
+      "id": "roundhouse:whats-on-infinity-song",
       "venueId": "roundhouse",
-      "sourceId": "ticketmaster",
+      "sourceId": "roundhouse",
       "title": "Infinity Song",
-      "url": "https://www.ticketmaster.co.uk/infinity-song-london-08-11-2026/event/1F0062FCEDFF2747",
-      "type": "concert",
-      "category": "shows",
+      "url": "https://www.roundhouse.org.uk/whats-on/infinity-song/",
+      "type": "event",
+      "category": "art-events",
       "startDate": "2026-11-08",
       "endDate": null,
       "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/606/b2b3c421-c9b2-416c-b82a-e0f68c97f606_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2025/07/IMG_5157-1260x1280.jpg",
       "people": [
         "infinity-song"
       ]
@@ -7580,6 +7094,47 @@
       "startTime": "20:00"
     },
     {
+      "id": "british-library:events-introduction-to-copyright-for-business",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Introduction to copyright for business",
+      "url": "https://events.bl.uk/events/introduction-to-copyright-for-business",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-09",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "11:00",
+      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/BIPC-March-2026_179.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1791474085&s=611befe7d81237a0044aa51f6c898752"
+    },
+    {
+      "id": "british-library:events-making-sense-of-the-mid-term-elections",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Making Sense of the Mid-Term Elections",
+      "url": "https://events.bl.uk/events/making-sense-of-the-mid-term-elections",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-09",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "18:30",
+      "image": "https://british-library.transforms.svdcdn.com/production/Eccles-event-images/DemingsGravesCongress.JPG?w=556&h=293&q=100&auto=format&fit=crop&dm=1792082945&s=0cc5773fde5f6afd30a58a81d7062e20"
+    },
+    {
+      "id": "british-library:events-us-politics-today",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "US Politics Today",
+      "url": "https://events.bl.uk/events/us-politics-today",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-13",
+      "firstSeen": "2026-11-06",
+      "image": "https://british-library.transforms.svdcdn.com/production/Cultural-Events/Donald-Trump.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1780668793&s=8ea7ac70ce630fed4e74baff89157fbf"
+    },
+    {
       "id": "conway-hall:event-marina-litvinenko-on-russia-putin-and-resistance",
       "venueId": "conway-hall",
       "sourceId": "conway-hall",
@@ -7656,6 +7211,19 @@
       ]
     },
     {
+      "id": "roundhouse:whats-on-writer-director-ideas-lab-au26",
+      "venueId": "roundhouse",
+      "sourceId": "roundhouse",
+      "title": "Film Writer/Director Ideas Lab",
+      "url": "https://www.roundhouse.org.uk/whats-on/writer-director-ideas-lab-au26/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-09",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://assets.roundhouse.org.uk/app/uploads/2025/07/FilmWirter-Ideas-Lab-1260x1280.png"
+    },
+    {
       "id": "royal-geographical-society:upcoming-events-40-years-of-polar-expeditions",
       "venueId": "royal-geographical-society",
       "sourceId": "royal-geographical-society",
@@ -7678,6 +7246,18 @@
       "startDate": "2026-11-09",
       "endDate": "2026-11-16",
       "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "royal-geographical-society:upcoming-events-lecture-supper-9-november",
+      "venueId": "royal-geographical-society",
+      "sourceId": "royal-geographical-society",
+      "title": "Monday night lecture supper - 9 November",
+      "url": "https://www.rgs.org/events/upcoming-events/lecture-supper-9-november/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-09",
+      "endDate": null,
+      "firstSeen": "2026-11-06"
     },
     {
       "id": "royal-geographical-society:upcoming-events-moving-mountains-women-climbers",
@@ -7856,7 +7436,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Inmo Yang plays Bartok’s First Violin Concerto",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/inmo-yang-plays-bartoks-first-violin-concerto",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/inmo-yang-plays-bartoks-first-violin-concerto",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-10",
@@ -7875,6 +7455,34 @@
       "startDate": "2026-11-10",
       "endDate": "2026-11-11",
       "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "british-library:events-how-to-raise-capital-for-business-growth",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "How to raise capital for business growth",
+      "url": "https://events.bl.uk/events/how-to-raise-capital-for-business-growth",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "13:00",
+      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/0M8A0624.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1791384146&s=b462fd7183a12986788f5483baad16d1"
+    },
+    {
+      "id": "british-library:events-what-is-a-trade-mark-and-how-to-search-for-one",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "What is a trade mark and how to search for one?",
+      "url": "https://events.bl.uk/events/what-is-a-trade-mark-and-how-to-search-for-one",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "11:00",
+      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/library-visitor-book-issue-desk.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1769614488&s=92f63c5d94f4a1527e7d37531765c2e2"
     },
     {
       "id": "garden-museum:whats-on-winter-flowers-week-2026",
@@ -8018,6 +7626,18 @@
       "startDate": "2026-11-10",
       "endDate": null,
       "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "royal-geographical-society:upcoming-events-sustainable-logistics-live-2026",
+      "venueId": "royal-geographical-society",
+      "sourceId": "royal-geographical-society",
+      "title": "Sustainable Logistics live 2026",
+      "url": "https://www.rgs.org/events/upcoming-events/sustainable-logistics-live-2026/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-10",
+      "endDate": null,
+      "firstSeen": "2026-11-06"
     },
     {
       "id": "sadlers-wells-east:whats-on-humanhood-vortex",
@@ -8246,7 +7866,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "London Symphony Orchestra/Half Six Fix – Steve Reich at 90",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/london-symphony-orchestrahalf-six-fix-steve-reich-at-90",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/london-symphony-orchestrahalf-six-fix-steve-reich-at-90",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-11",
@@ -8441,7 +8061,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34835.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34872.jpg",
       "description": "A stand-up comedy show about a series of bad decisions! After a big break-up and an underwhelming near-death experience, Andrew Coleman made a whole bunch of mistakes. This year, instead of learning from them, he’s sharing them with you. This award-winning comedian brings his…"
     },
     {
@@ -8456,7 +8076,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34841.png",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34878.png",
       "description": "How do you learn to be strong and when are you allowed to leave? Jen Zheng is a prodigy: married at 23 and divorced at 26. Now she’s working on becoming a widow for the killer vibes. She always had potential for great-mistakes, because with strict Chinese parents there is always…"
     },
     {
@@ -8717,6 +8337,36 @@
       "image": "https://images.prismic.io/wellcomecollection/airHxKlQnVZVEN6z_BTG260520152042-Edit.jpg?w=1338&auto=compress%2Cformat&rect=&q=50"
     },
     {
+      "id": "wigmore-hall:whats-on-202611111300",
+      "venueId": "wigmore-hall",
+      "sourceId": "wigmore-hall",
+      "title": "Chloe Chua Julien Quentin",
+      "url": "https://www.wigmore-hall.org.uk/whats-on/202611111300",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "13:00",
+      "image": "https://admin.wigmore-hall.org.uk/images/6dGbST0lu65a_TzrWPl7yvrxjyw=/6495/width-400/.phpref52873sizewebextjpgpage1alternative-1watermarkedknoattachtruevaccess_k_q4cAmQe",
+      "description": "Beethoven, Tartini and Waxman"
+    },
+    {
+      "id": "wigmore-hall:whats-on-202611111930",
+      "venueId": "wigmore-hall",
+      "sourceId": "wigmore-hall",
+      "title": "Stile Antico",
+      "url": "https://www.wigmore-hall.org.uk/whats-on/202611111930",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-11",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "19:30",
+      "image": "https://admin.wigmore-hall.org.uk/images/a-7moLhKz7YGe2Hk1MN4PEsioq8=/6491/width-400/.phpref53119sizewb2extjpgpage1alternative-1watermarkedknoattachtruevaccess_k_ZAZZ1HO",
+      "description": "Discord to Harmony: Renaissance music of war and peace"
+    },
+    {
       "id": "wiltons-music-hall:whats-on-tricity-vogues-all-girl-swing-band-3",
       "venueId": "wiltons-music-hall",
       "sourceId": "wiltons-music-hall",
@@ -8734,7 +8384,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "London Symphony Orchestra/Susanna Mälkki",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/london-symphony-orchestrasusanna-malkki",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/london-symphony-orchestrasusanna-malkki",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-12",
@@ -8993,7 +8643,7 @@
       "startDate": "2026-11-12",
       "endDate": "2026-12-17",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2023/11/family_freestyle-scaled.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2023/11/family_freestyle-scaled.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "somerset-house:whats-on-skate-lates-26-27",
@@ -9137,18 +8787,17 @@
       ]
     },
     {
-      "id": "up-the-creek:events-the-blackout-12-november-tickets-96d25p-ref-ticketmaster",
+      "id": "up-the-creek:events-the-blackout-12-november-tickets-96d25p-unii-trigger-open-the-blackout-12",
       "venueId": "up-the-creek",
-      "sourceId": "ticketmaster",
+      "sourceId": "up-the-creek",
       "title": "THE BLACKOUT - 12 NOVEMBER",
-      "url": "https://www.universe.com/events/the-blackout-12-november-tickets-96D25P?ref=ticketmaster",
+      "url": "https://www.universe.com/events/the-blackout-12-november-tickets-96D25P?unii-trigger-open=the-blackout-12-november-tickets-96D25P",
       "type": "show",
       "category": "shows",
       "startDate": "2026-11-12",
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg",
       "people": [
         "the-blackout-comedy-night"
       ]
@@ -9284,6 +8933,19 @@
       "startTime": "11:30"
     },
     {
+      "id": "barbican:event-guildhall-big-band-harlem-renaissance",
+      "venueId": "barbican",
+      "sourceId": "barbican",
+      "title": "Guildhall Big Band: Harlem Renaissance",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/guildhall-big-band-harlem-renaissance",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "19:00"
+    },
+    {
       "id": "battersea-arts-centre:whats-on-escaping-oneself",
       "venueId": "battersea-arts-centre",
       "sourceId": "battersea-arts-centre",
@@ -9405,6 +9067,18 @@
       "image": "https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://assets.japanhouselondon.uk/production/uploads/2026/10/beyond-the-realm-of-fashion-talk-by-curator-yamaguchi-souta-1196760566.jpg",
       "description": "For the opening of Tradition/Rebellion exhibition, co-curator Yamaguchi Souta offers insights into how fashion can contribute to culture.",
       "price": "free"
+    },
+    {
+      "id": "leicester-square-theatre:show-tom-stade-rules",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "Tom Stade Rules",
+      "url": "https://www.leicestersquaretheatre.com/show/tom-stade-rules/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-14",
+      "firstSeen": "2026-11-06"
     },
     {
       "id": "london-coliseum:events-sessions-at-the-london-coliseum-black-country-new-road",
@@ -9666,6 +9340,32 @@
       ]
     },
     {
+      "id": "v-and-a-south-kensington:redq1m7prz-in-celebration-of-winifred-atwell",
+      "venueId": "v-and-a-south-kensington",
+      "sourceId": "vam",
+      "title": "In Celebration of Winifred Atwell",
+      "url": "https://www.vam.ac.uk/event/ReDq1m7PrZ/in-celebration-of-winifred-atwell",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://assets-cdn.vam.ac.uk/2026/09/01/17/25/48/bcd1aeb8-078b-4cd2-9a82-3befab95601d/in-celebration-of-winifred-atwell_320.jpg"
+    },
+    {
+      "id": "v-and-a-south-kensington:xewjn9emax-members-tour-protected-by-powerful-saints-belief-and-ritual-10",
+      "venueId": "v-and-a-south-kensington",
+      "sourceId": "vam",
+      "title": "Members Tour: Protected by Powerful Saints: Belief and Ritual",
+      "url": "https://www.vam.ac.uk/event/XEwjn9EMAx/members-tour-protected-by-powerful-saints-belief-and-ritual-10",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://assets-cdn.vam.ac.uk/2026/10/07/11/30/52/1bd67fe8-dec1-471f-b062-152ee9336115/members-tour-protected-by-powerful-saints-belief-and-ritual_320.jpg"
+    },
+    {
       "id": "victoria-miro:exhibitions-684",
       "venueId": "victoria-miro",
       "sourceId": "victoria-miro",
@@ -9690,6 +9390,19 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00"
+    },
+    {
+      "id": "young-v-and-a:njplzjvmrp-rhythm-makers-nov-dec-2026",
+      "venueId": "young-v-and-a",
+      "sourceId": "vam",
+      "title": "Rhythm Makers (Nov-Dec 2026)",
+      "url": "https://www.vam.ac.uk/event/NjPlZJVMRp/rhythm-makers-nov-dec-2026",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-13",
+      "endDate": "2026-12-11",
+      "firstSeen": "2026-11-06",
+      "image": "https://assets-cdn.vam.ac.uk/2026/10/22/17/20/02/7d9a3852-42c5-420b-bf6d-7685cae99ae9/rhythm-makers-nov-dec-2026_320.jpg"
     },
     {
       "id": "alexandra-palace:whats-on-bill-ryder-jones",
@@ -10288,7 +10001,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "’Round Midnight",
-      "url": "https://www.barbican.org.uk/whats-on/2026/event/round-midnight",
+      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/round-midnight",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-15",
@@ -10509,6 +10222,20 @@
       "firstSeen": "2026-11-02"
     },
     {
+      "id": "st-johns-smith-square:event-when-david-heard",
+      "venueId": "st-johns-smith-square",
+      "sourceId": "st-johns-smith-square",
+      "title": "When David Heard",
+      "url": "https://www.sinfoniasmithsq.org.uk/event/when-david-heard/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-15",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "19:30",
+      "image": "https://www.sinfoniasmithsq.org.uk/wp-content/uploads/2026/06/greg-rakozy-oMpAz-DN-9I-unsplash-1280x720.jpg"
+    },
+    {
       "id": "the-comedy-store:events-the-comedy-store-players-sunday-15th-november-tickets-wbl5x6-ref-ticketma",
       "venueId": "the-comedy-store",
       "sourceId": "ticketmaster",
@@ -10685,7 +10412,8 @@
       "image": "https://s1.ticketm.net/dam/a/eb8/c01b43dc-4b64-4662-a1cf-272cd5cc9eb8_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must ",
       "people": [
-        "anna-von-hausswolff"
+        "anna-von-hausswolff",
+        "penelope-trappes"
       ]
     },
     {
@@ -10855,7 +10583,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Monteverdi: L’incoronazione di Poppea",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/monteverdi-lincoronazione-di-poppea",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/monteverdi-lincoronazione-di-poppea",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-17",
@@ -10970,7 +10698,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34838.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34875.jpg",
       "description": "Support the recent graduates of Charlie’s Character Comedy Course at the Museum of Comedy! Watch 12 brand new characters come to life for the very first time in front of an audience. This showcase is an exciting opportunity for students to try out the material they have…"
     },
     {
@@ -11042,6 +10770,20 @@
       "startDate": "2026-11-17",
       "endDate": "2027-04-18",
       "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-photobooth-workshop-disrupted-portraits",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Photobooth workshop | Disrupted Portraits",
+      "url": "https://thephotographersgallery.org.uk/whats-on/photobooth-workshop-disrupted-portraits",
+      "type": "workshop",
+      "category": "art-events",
+      "startDate": "2026-11-17",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "18:30",
+      "description": "Break the set rules of the machine in this workshop led by artist Jenny Lewis"
     },
     {
       "id": "the-wallace-collection:events-members-preview-of-our-medici-display",
@@ -11125,7 +10867,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Ryman in Rhythm: Sarathy Korwar",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/ryman-in-rhythm-sarathy-korwar",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/ryman-in-rhythm-sarathy-korwar",
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2026-11-18",
@@ -11271,7 +11013,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34836.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34873.jpg",
       "description": "Sketch comedy show with Carwyn Blayney (BBC New Comedy Awards) and Ekow Quartey (BBC's Amandaland). Blayney & Quartey present an hour of different characters and sketches. Developed through Channel Four Comedy’s Comedy Labs Cymru, come along to meet a heap of weird and relatable…"
     },
     {
@@ -11499,7 +11241,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "London Symphony Orchestra/Soweto Kinch",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/london-symphony-orchestrasoweto-kinch",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/london-symphony-orchestrasoweto-kinch",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-19",
@@ -11644,6 +11386,23 @@
       "firstSeen": "2026-11-02"
     },
     {
+      "id": "leicester-square-theatre:event-37006565be7e7d2d",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Rachel Parris: the Rachel Parris Songbook",
+      "url": "https://www.ticketmaster.co.uk/rachel-parris-the-rachel-parris-songbook-london-19-11-2026/event/37006565BE7E7D2D",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-19",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/a/87e/d53a0e0f-8ea3-4b84-83f6-928f7af9987e_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "rachel-parris"
+      ]
+    },
+    {
       "id": "museum-of-comedy:give-your-body-joy-the-connor-felix-story",
       "venueId": "museum-of-comedy",
       "sourceId": "museum-of-comedy",
@@ -11655,7 +11414,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34844.png",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34881.png",
       "description": "In 1996, a remix of a Spanish pop song by Los del Rio, released by the Bayside Boys took the whole world by storm - all thanks to a set of simple, easy to follow, dance moves. In 2013, one man decided to do that dance longer than anyone ever had before. Today, he still has not…"
     },
     {
@@ -11894,24 +11653,23 @@
       ]
     },
     {
-      "id": "barbican:event-church-of-sound-10th-birthday-british-jazz-songbook",
+      "id": "barbican:event-jules-cunningham-michael-clark-technique-class-workshop",
       "venueId": "barbican",
       "sourceId": "barbican",
-      "title": "Church of Sound 10th Birthday | British Jazz Songbook",
-      "url": "https://www.barbican.org.uk/whats-on/2026/event/church-of-sound-10th-birthday-british-jazz-songbook",
-      "type": "concert",
-      "category": "shows",
+      "title": "Jules Cunningham & Michael Clark Technique Class & Workshop",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/jules-cunningham-michael-clark-technique-class-workshop",
+      "type": "workshop",
+      "category": "art-events",
       "startDate": "2026-11-20",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30"
+      "endDate": "2026-11-27",
+      "firstSeen": "2026-11-06"
     },
     {
       "id": "barbican:event-robert-ryman-a-new-way-of-seeing-courtauld-symposium",
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Robert Ryman: A New Way of Seeing – Courtauld Symposium",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/robert-ryman-a-new-way-of-seeing-courtauld-symposium",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/robert-ryman-a-new-way-of-seeing-courtauld-symposium",
       "type": "talk",
       "category": "art-events",
       "startDate": "2026-11-20",
@@ -11944,6 +11702,19 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "image": "https://brixtonhouse.co.uk/wp-content/uploads/2026/03/Comedy_Web-Assets_1920x1080_2-373x280.png"
+    },
+    {
+      "id": "clapham-grand:event-live-at-the-clapham-grand-with-joel-dommet",
+      "venueId": "clapham-grand",
+      "sourceId": "clapham-grand",
+      "title": "Live At The Clapham Grand with Joel Dommett",
+      "url": "https://claphamgrand.com/event/live-at-the-clapham-grand-with-joel-dommet/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-20",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "18:30"
     },
     {
       "id": "earth-hackney:events-balearic-london-x-jex-opolis-20th-nov-earth-london-tickets-bbg8ak",
@@ -12114,7 +11885,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34837.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34874.jpg",
       "description": "British Comedy Guide presents the BCG Pro Talent Awards for Performance 2026. Hosted by top comic Toussaint Douglass, the night will see five acts competing for the trophy. There'll also be a set from the brilliant Starter winner."
     },
     {
@@ -12198,7 +11969,7 @@
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2026-11-20",
-      "endDate": "2026-12-11",
+      "endDate": "2026-12-12",
       "firstSeen": "2026-11-02"
     },
     {
@@ -12631,7 +12402,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "15:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34833.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34871.jpg",
       "description": "Rising stars from the UK comedy scene! A showcase of new and emerging stand ups, fresh from the Above Your Nerve comedy course. See the comedians of the future here first."
     },
     {
@@ -12646,7 +12417,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34843.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34880.jpg",
       "description": "By Court Order, convicts Rocco and Tony have been given the choice of prison or performing an improv comedy show as community service. They chose prison. But the Court chose improv. And you better be there, or else! Larceny, bribery, extortion, and hilarity are all likely. Come…"
     },
     {
@@ -13202,7 +12973,7 @@
       "startDate": "2026-11-22",
       "endDate": null,
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2024/09/take-a-bow-guest-event-icon.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2024/09/take-a-bow-guest-event-icon.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "soho-theatre:events-luxury-live",
@@ -13567,6 +13338,18 @@
       "description": "the sky beneath my skin"
     },
     {
+      "id": "gresham-college:whats-on-london-dialect",
+      "venueId": "gresham-college",
+      "sourceId": "gresham-college",
+      "title": "Sixteenth-Century London Dialect: How Londoners Spoke in Sir Thomas Gresham’s Time",
+      "url": "https://www.gresham.ac.uk/whats-on/london-dialect",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-24",
+      "endDate": null,
+      "firstSeen": "2026-11-06"
+    },
+    {
       "id": "hayward-gallery:24-nan-goldin-you-never-did-anything-wrong",
       "venueId": "hayward-gallery",
       "sourceId": "art-fund",
@@ -13622,7 +13405,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34847.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34884.jpg",
       "description": "Edinburgh Comedy Award nominee Josh Glanc is making a musical. It’s about car racing. It’s also about him making a musical about car racing. It's not finished, but you can watch him figure it out. Multi-instrumentalist Connor Morel joins Josh as he attempts to perform his…"
     },
     {
@@ -13771,7 +13554,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "London Symphony Orchestra/Half Six Fix – Vaughan Williams",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/london-symphony-orchestrahalf-six-fix-vaughan-williams",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/london-symphony-orchestrahalf-six-fix-vaughan-williams",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-25",
@@ -13914,7 +13697,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34855.png",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34891.png",
       "description": "They say it takes balls to do Stand Up – well Newman & Sapper are good sports, if not good at sport…. more lower league (fighting relegation) than chasing premiere status. But here they are, making their debut by kicking around some ideas and pitching some funny sketches. The…"
     },
     {
@@ -13929,7 +13712,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34864.png",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34900.png",
       "description": "The Instant Musical - just add suggestions! Formed in 2025, The Instant Musical team are set on bringing happy chaos to musical theatre. At every performance a fully improvised musical is created on the spot, brimming with heart warming and hilarious songs, catchy lyrics, dance…"
     },
     {
@@ -14133,7 +13916,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Guildhall School: Autumn Opera Scenes",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/guildhall-school-autumn-opera-scenes",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/guildhall-school-autumn-opera-scenes",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-26",
@@ -14145,7 +13928,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "London Symphony Orchestra/Sir Antonio Pappano",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/london-symphony-orchestrasir-antonio-pappano-7",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/london-symphony-orchestrasir-antonio-pappano-7",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-26",
@@ -14260,7 +14043,7 @@
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
       "image": "https://d31fr2pwly4c4s.cloudfront.net/b/5/5/2348711_1789999088_dick-whittington-adult.jpg",
-      "description": "Adults-only panto Dick Whittington and His Cat returns for a third year, with special guest stars from musical theatre and drag.",
+      "description": "An adults-only panto returns for a third year, with Dick Whittington, his cat and a special guest star from musical theatre and drag.",
       "price": "paid"
     },
     {
@@ -14544,13 +14327,26 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Free Friday Lunchtime Concert: Relaxed Concert",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/free-friday-lunchtime-concert-relaxed-concert-0",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/free-friday-lunchtime-concert-relaxed-concert-0",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-27",
       "endDate": null,
       "firstSeen": "2026-11-05",
       "startTime": "12:30"
+    },
+    {
+      "id": "barbican:event-semyon-bychkov-conducts-mahlers-seventh-symphony",
+      "venueId": "barbican",
+      "sourceId": "barbican",
+      "title": "Semyon Bychkov conducts Mahler’s Seventh Symphony",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/semyon-bychkov-conducts-mahlers-seventh-symphony",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-27",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "19:30"
     },
     {
       "id": "cadogan-hall:book-1jagr-comedy-at-cadogan-hall-with-joe-lycett",
@@ -14758,8 +14554,9 @@
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-27",
-      "endDate": "2026-11-28",
+      "endDate": null,
       "firstSeen": "2026-11-02",
+      "startTime": "19:30",
       "image": "https://s1.ticketm.net/dam/a/348/04757786-7779-4d73-82e5-87c82e80a348_RETINA_LANDSCAPE_16_9.jpg",
       "people": [
         "jools-holland-and-his-rhythm-and-blues-orchestra"
@@ -14839,6 +14636,18 @@
       ]
     },
     {
+      "id": "the-foundling-museum:event-the-42nd-annual-conference-on-music-in-18th-century-britain",
+      "venueId": "the-foundling-museum",
+      "sourceId": "the-foundling-museum",
+      "title": "The 42nd Annual Conference on Music in 18th-Century Britain",
+      "url": "https://foundlingmuseum.org.uk/event/the-42nd-annual-conference-on-music-in-18th-century-britain/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-27",
+      "endDate": null,
+      "firstSeen": "2026-11-06"
+    },
+    {
       "id": "the-o2:event-35006511a3fa225c",
       "venueId": "the-o2",
       "sourceId": "ticketmaster",
@@ -14894,6 +14703,19 @@
       "startDate": "2026-11-27",
       "endDate": null,
       "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "william-morris-gallery:event-winter-late-2026",
+      "venueId": "william-morris-gallery",
+      "sourceId": "william-morris-gallery",
+      "title": "Winter Late",
+      "url": "https://www.wmgallery.org.uk/event/winter-late-2026/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-27",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/11/Natural-Voices-choir-at-2025-late-3-to-2-1024x683.jpeg"
     },
     {
       "id": "wiltons-music-hall:whats-on-jazz-noel",
@@ -15160,7 +14982,7 @@
       "startDate": "2026-11-28",
       "endDate": null,
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/1000197817.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/1000197817.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "shakespeares-globe:whats-on-pinocchio",
@@ -15925,6 +15747,18 @@
       ]
     },
     {
+      "id": "soho-theatre:events-the-guardians-year-in-review-2026-hosted-by-suzi-ruffell",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "The Guardian’s year in review 2026 hosted by Suzi Ruffell",
+      "url": "https://sohotheatre.com/events/the-guardians-year-in-review-2026-hosted-by-suzi-ruffell/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-01",
+      "endDate": null,
+      "firstSeen": "2026-11-06"
+    },
+    {
       "id": "the-comedy-store:event-big-love-big-laughs-2026",
       "venueId": "the-comedy-store",
       "sourceId": "the-comedy-store",
@@ -16458,6 +16292,21 @@
       ]
     },
     {
+      "id": "museum-of-comedy:fab-goualin-mixed-messages",
+      "venueId": "museum-of-comedy",
+      "sourceId": "museum-of-comedy",
+      "title": "Fab Goualin - Mixed Messages",
+      "url": "https://www.museumofcomedy.com/fab-goualin-mixed-messages/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-03",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "20:30",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34879.jpg",
+      "description": "Edinburgh debut from BBC New Comedy Award 2025 semi-finalist, Leicester Square Theatre New Comedian of the Year 2025 finalist and So You Think You're Funny? 2024 finalist, Fab Goualin. A show about being mixed-race, middle class, and misunderstood. Growing up, Fab often being…"
+    },
+    {
       "id": "o2-shepherds-bush-empire:event-3e006451a4ef3443",
       "venueId": "o2-shepherds-bush-empire",
       "sourceId": "ticketmaster",
@@ -16536,6 +16385,48 @@
       "people": [
         "christmas-best-in-stand-up"
       ]
+    },
+    {
+      "id": "the-courtauld-gallery:whats-on-film-screening-sierra-de-teruel-days-of-hope-1938",
+      "venueId": "the-courtauld-gallery",
+      "sourceId": "the-courtauld-gallery",
+      "title": "Film Screening ‘Sierra de Teruel/Days of Hope’, 1938",
+      "url": "https://courtauld.ac.uk/whats-on/film-screening-sierra-de-teruel-days-of-hope-1938/",
+      "type": "screening",
+      "category": "shows",
+      "startDate": "2026-12-03",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://courtauld.ac.uk/wp-content/uploads/2025/11/Social-Courtauld_RGB_Black.png",
+      "description": "You are warmly invited to the UK premiere of the newly restored film Sierra de Teruel followed by a discussion."
+    },
+    {
+      "id": "the-courtauld-gallery:whats-on-living-museums",
+      "venueId": "the-courtauld-gallery",
+      "sourceId": "the-courtauld-gallery",
+      "title": "Living Museums",
+      "url": "https://courtauld.ac.uk/whats-on/living-museums/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-03",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://courtauld.ac.uk/wp-content/uploads/2025/11/Social-Courtauld_RGB_Black.png",
+      "description": "Panel discussion with philologist Donatien Grau (Musée du Louvre), and artists Goshka Macuga and Richard Wentworth."
+    },
+    {
+      "id": "the-courtauld-gallery:whats-on-warburg-malraux-picasso-atlas-album-archive",
+      "venueId": "the-courtauld-gallery",
+      "sourceId": "the-courtauld-gallery",
+      "title": "Warburg, Malraux, Picasso: Atlas, Album, Archive",
+      "url": "https://courtauld.ac.uk/whats-on/warburg-malraux-picasso-atlas-album-archive/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-03",
+      "endDate": "2026-12-05",
+      "firstSeen": "2026-11-06",
+      "image": "https://courtauld.ac.uk/wp-content/uploads/2025/11/Social-Courtauld_RGB_Black.png",
+      "description": "Throughout 2026 events are taking place internationally to mark the fiftieth anniversary of the death of André Malraux, the adventurer, writer and first French Minister of Culture."
     },
     {
       "id": "the-o2:event-3500645aa23334f2",
@@ -16630,7 +16521,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Robert Ryman: Exhibition Tour with Curator Wells Fray-Smith",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/robert-ryman-exhibition-tour-with-curator-wells-fray-smith",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/robert-ryman-exhibition-tour-with-curator-wells-fray-smith",
       "type": "tour",
       "category": "art-events",
       "startDate": "2026-12-04",
@@ -16782,6 +16673,21 @@
       "startDate": "2026-12-04",
       "endDate": "2027-03-27",
       "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "museum-of-comedy:dangerous-improvisations",
+      "venueId": "museum-of-comedy",
+      "sourceId": "museum-of-comedy",
+      "title": "DANGEROUS IMPROVISATIONS",
+      "url": "https://www.museumofcomedy.com/dangerous-improvisations/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-04",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "20:30",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-34877.jpg",
+      "description": "Marquise Le Vag, and Vicomte Le Cock, two French aristocratic ass-hats, mess with the lives of all around them in a vainglorious attempt to seduce each other and everyone in the audience. Be prepared to be seduced, betrayed, used and thrown away like last season’s fashion! And…"
     },
     {
       "id": "o2-shepherds-bush-empire:event-3e0064589ebc29d9",
@@ -17001,6 +16907,19 @@
       "people": [
         "jim-bob"
       ]
+    },
+    {
+      "id": "kenwood:whats-on-kenwood-community-christmas-wreath-trail",
+      "venueId": "kenwood",
+      "sourceId": "kenwood",
+      "title": "Community Christmas Wreath Trail at Kenwood",
+      "url": "https://www.english-heritage.org.uk/visit/whats-on/kenwood-community-christmas-wreath-trail/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-12-05",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-06",
+      "image": "https://www.english-heritage.org.uk/siteassets/home/visit/whats-on-202627/london/eh62050-christmas-wreath-480x480px.jpg?w=550&h=350&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219"
     },
     {
       "id": "o2-shepherds-bush-empire:event-3e00644aa8084679",
@@ -17759,6 +17678,19 @@
       ]
     },
     {
+      "id": "sadlers-wells-east:whats-on-graham-technique-class-l-d-smith",
+      "venueId": "sadlers-wells-east",
+      "sourceId": "sadlers-wells",
+      "title": "Graham Technique Class with Laurel Dalley Smith",
+      "url": "https://www.sadlerswells.com/whats-on/graham-technique-class-l-d-smith/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-10",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://images.sadlerswells.com/uploads/2026/10/Prelude_4_018.jpg?resize=15%2C15&gravity"
+    },
+    {
       "id": "southwark-playhouse-borough:productions-sherlocks-last-tape",
       "venueId": "southwark-playhouse-borough",
       "sourceId": "southwark-playhouse-borough",
@@ -17860,18 +17792,21 @@
       "startDate": "2026-12-10",
       "endDate": null,
       "firstSeen": "2026-11-03",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-05T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "joy-crookes"
       ]
+    },
+    {
+      "id": "union-chapel:whats-on-war-child-presents-joy-crookes-unplugged-early-show",
+      "venueId": "union-chapel",
+      "sourceId": "union-chapel",
+      "title": "War Child Presents: Joy Crookes Unplugged (Early Show)",
+      "url": "https://unionchapel.org.uk/whats-on/war-child-presents-joy-crookes-unplugged-early-show",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-10",
+      "endDate": null,
+      "firstSeen": "2026-11-06"
     },
     {
       "id": "wellcome-collection:events-audrey-amiss-rudy-loewe-relaxed-openings",
@@ -17904,7 +17839,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Ryman in Rhythm: tyroneisaacstuart",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2026/event/ryman-in-rhythm-tyroneisaacstuart",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/ryman-in-rhythm-tyroneisaacstuart",
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2026-12-11",
@@ -18523,15 +18458,6 @@
       "endDate": "2026-12-16",
       "firstSeen": "2026-11-02",
       "image": "https://s1.ticketm.net/dam/a/a5e/6f03491d-abe4-4ce1-a77f-9cb100487a5e_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority From O2 Presale",
-            "start": "2026-11-04T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "gad-elmaleh"
       ]
@@ -18611,6 +18537,23 @@
       "image": "https://s1.ticketm.net/dam/a/4d0/0b32f9a3-92e3-4104-b81b-41de2a58c4d0_RETINA_LANDSCAPE_16_9.jpg",
       "people": [
         "old-rope"
+      ]
+    },
+    {
+      "id": "troxy:event-comedy-queens-4",
+      "venueId": "troxy",
+      "sourceId": "troxy",
+      "title": "Comedy Queens 4",
+      "url": "https://troxy.co.uk/event/comedy-queens-4/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-14",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+      "description": "Comedy Queens are back! Get ready to Laugh! Get ready for a night of female comedy royalty, featuring hilarious talent around the world. Your cheeks will hurt; you?ll laugh your socks off and you?ll be glad you came! Charity Partner: Forgotten Women ? Through Comedy Queens,…",
+      "people": [
+        "comedy-queens"
       ]
     },
     {
@@ -19569,7 +19512,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "12:00",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/0/8/3/2323047_1137db1c_girlypop-live-s-short-n-sweetmas-the-clapham-grand-london.jpg",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/0/8/3/2323047_6a7ec29f_girlypop-live-s-short-n-sweetmas-the-clapham-grand-london.jpg",
       "description": "GirlyPop Live is returning to The Clapham Grand, London with your favourite Pop icons in one live show brought to you by the best tribute acts!"
     },
     {
@@ -19768,7 +19711,7 @@
       "firstSeen": "2026-11-02",
       "startTime": "11:00",
       "image": "https://d31fr2pwly4c4s.cloudfront.net/3/9/b/2333433_d08d0e88_catseye-the-clapham-grand-london.jpg",
-      "description": "CATSEYE: the ultimate KATSEYE tribute experience live at The Clapham Grand on Tuesday 28th and Wednesday 30th December. All the hits & fierce energy."
+      "description": "CATSEYE: the ultimate KATSEYE tribute experience live at The Clapham Grand on Tuesday 29th and Wednesday 30th December. All the hits & fierce energy."
     },
     {
       "id": "the-comedy-store:events-christmas-best-in-stand-up-tuesday-29th-december-tickets-j6ct9w-ref-ticke",
@@ -20563,7 +20506,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Audio Described Tour of Robert Ryman: The Real Thing",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2027/event/audio-described-tour-of-robert-ryman-the-real-thing",
+      "url": "https://www.barbican.org.uk/whats-on/2027/event/audio-described-tour-of-robert-ryman-the-real-thing",
       "type": "tour",
       "category": "art-events",
       "startDate": "2027-01-18",
@@ -20709,7 +20652,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "BSL Tour of Robert Ryman: The Real Thing",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2027/event/bsl-tour-of-robert-ryman-the-real-thing",
+      "url": "https://www.barbican.org.uk/whats-on/2027/event/bsl-tour-of-robert-ryman-the-real-thing",
       "type": "tour",
       "category": "art-events",
       "startDate": "2027-01-20",
@@ -20880,19 +20823,6 @@
       "people": [
         "ryan-long"
       ]
-    },
-    {
-      "id": "william-morris-gallery:event-lee-miller-at-farleys-house",
-      "venueId": "william-morris-gallery",
-      "sourceId": "william-morris-gallery",
-      "title": "Lee Miller at Farleys House",
-      "url": "https://www.wmgallery.org.uk/event/lee-miller-at-farleys-house/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2027-01-21",
-      "endDate": null,
-      "firstSeen": "2026-11-05",
-      "image": "https://www.wmgallery.org.uk/wp-content/uploads/2026/11/COPYRI2.jpg"
     },
     {
       "id": "eventim-apollo:event-metaphor-refantazio-orchestra-concert-eventim-apollo-21392900-affiliate-ha",
@@ -21144,15 +21074,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/af4/e0cb1d18-a8f3-4dc7-9d03-22ca1784aaf4_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Show start 19:30pm",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Comedy Presale",
-            "start": "2026-11-05T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "paul-chowdhry"
       ]
@@ -21257,7 +21178,7 @@
       "startDate": "2027-01-26",
       "endDate": "2027-01-27",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/03/tao_dance.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2026/03/tao_dance.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "lightroom:whats-on-matisse-joy",
@@ -21350,6 +21271,30 @@
       "image": "https://s1.ticketm.net/dam/a/831/b666e6af-043c-40e4-abfe-7c00d5a37831_1752841_RETINA_LANDSCAPE_16_9.jpg",
       "people": [
         "classic-rock-show"
+      ]
+    },
+    {
+      "id": "criterion-theatre:book-1jctj-redcliffe",
+      "venueId": "criterion-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Redcliffe: a New Musical",
+      "url": "https://theatre.ticketmaster.co.uk/book/1JCTJ-redcliffe/#perf=1JCTJ-2&date=2027-01-28&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-28",
+      "endDate": "2027-04-17",
+      "firstSeen": "2026-11-06",
+      "image": "https://s1.ticketm.net/dam/a/7bd/d6765749-7ddb-4b48-aba8-1ac33872d7bd_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2027-01-28",
+        "times": [
+          "14:30",
+          "19:30"
+        ],
+        "days": "22202230230222323022232302223230222323022232302223230222323002332302223230222323"
+      },
+      "people": [
+        "redcliffe"
       ]
     },
     {
@@ -21543,7 +21488,7 @@
       "startDate": "2027-01-29",
       "endDate": "2027-01-30",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/03/amusement_phase_rose_prize.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/03/amusement_phase_rose_prize.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "sadlers-wells-east:whats-on-stopgap-dance-company-lived-fiction",
@@ -21734,7 +21679,7 @@
       "startDate": "2027-01-30",
       "endDate": "2027-01-31",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/09/kabuki_guest_event.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/09/kabuki_guest_event.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "science-gallery-london:sgl-events-friday-late-tales-of-entanglement",
@@ -21907,9 +21852,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Doors: 19:00",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z"
-      },
       "people": [
         "everybody-knows-leonard-cohen",
         "adam-cohen"
@@ -21974,7 +21916,7 @@
       "startDate": "2027-02-02",
       "endDate": "2027-02-03",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/03/shimmering_rose_prize.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/03/shimmering_rose_prize.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "sadlers-wells-east:whats-on-dorothee-munyaneza-cie-kadidi-umuko",
@@ -22117,7 +22059,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "RRyman, today",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2027/event/rryman-today",
+      "url": "https://www.barbican.org.uk/whats-on/2027/event/rryman-today",
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2027-02-04",
@@ -22218,7 +22160,7 @@
       "startDate": "2027-02-04",
       "endDate": "2027-02-06",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/03/sharon_eyal.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/03/sharon_eyal.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "the-comedy-store:events-the-best-in-stand-up-thursday-4th-february-2027-tickets-7m5643-ref-ticket",
@@ -22347,6 +22289,30 @@
       "people": [
         "sofia-camara"
       ]
+    },
+    {
+      "id": "pleasance-theatre:event-fewcans-drama-queen",
+      "venueId": "pleasance-theatre",
+      "sourceId": "pleasance-theatre",
+      "title": "Fewcans: The Drama Queen",
+      "url": "https://www.pleasance.co.uk/event/fewcans-drama-queen",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-05",
+      "endDate": "2027-02-06",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "pleasance-theatre:event-no-place-scone",
+      "venueId": "pleasance-theatre",
+      "sourceId": "pleasance-theatre",
+      "title": "No Place Like Scone",
+      "url": "https://www.pleasance.co.uk/event/no-place-scone",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-05",
+      "endDate": "2027-02-06",
+      "firstSeen": "2026-11-06"
     },
     {
       "id": "sadlers-wells-east:whats-on-pontes-ferreira-repertorio-n3",
@@ -22948,7 +22914,8 @@
       "image": "https://s1.ticketm.net/dam/a/0e7/e5547df1-9f39-410a-8b88-517486d990e7_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
       "people": [
-        "theory-of-a-deadman"
+        "theory-of-a-deadman",
+        "eddie-and-the-getaway"
       ]
     },
     {
@@ -22972,14 +22939,14 @@
       "id": "sadlers-wells:whats-on-pina-bausch-palermo-palermo",
       "venueId": "sadlers-wells",
       "sourceId": "sadlers-wells",
-      "title": "Tanztheater Wuppertal Pina Bausch: Palermo Palermo",
+      "title": "Tanztheater Wuppertal Pina Bausch - Palermo Palermo",
       "url": "https://www.sadlerswells.com/whats-on/pina-bausch-palermo-palermo/",
       "type": "show",
       "category": "shows",
       "startDate": "2027-02-11",
       "endDate": "2027-02-21",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-alt-2-Palermo-Palermo-Pina-Bausch-Julie-Freichel-2700-x-1080-scaled_960x960_acf_cropped.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-alt-2-Palermo-Palermo-Pina-Bausch-Julie-Freichel-2700-x-1080-scaled_960x960_acf_cropped.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "serpentine-south:whats-on-pierre-alechinksy",
@@ -23912,9 +23879,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/bdc/d5cd5c5d-f586-4e54-bc68-962551370bdc_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z"
-      },
       "people": [
         "jesse-welles"
       ]
@@ -24378,7 +24342,7 @@
       "startDate": "2027-02-25",
       "endDate": "2027-02-27",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/08/LEAD-IMAGE-Brazilian-Perspectives-SPDC-2700-x-1080--Iari-Davies-scaled.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/08/LEAD-IMAGE-Brazilian-Perspectives-SPDC-2700-x-1080--Iari-Davies-scaled.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "tate-modern:tate-modern-monet",
@@ -24460,7 +24424,7 @@
       "venueId": "barbican",
       "sourceId": "barbican",
       "title": "Ryman in Rhythm: Soweto Kinch",
-      "url": "https://www.barbican.org.uk/index%2Ephp/whats-on/2027/event/ryman-in-rhythm-soweto-kinch",
+      "url": "https://www.barbican.org.uk/whats-on/2027/event/ryman-in-rhythm-soweto-kinch",
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2027-02-26",
@@ -24584,15 +24548,6 @@
       "firstSeen": "2026-11-05",
       "startTime": "18:30",
       "image": "https://s1.ticketm.net/dam/a/0e3/8b15d3c6-2d2a-485a-b79a-685c3c2720e3_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-04T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "jamie-bower"
       ]
@@ -24644,15 +24599,6 @@
       "firstSeen": "2026-11-04",
       "startTime": "19:30",
       "image": "https://s1.ticketm.net/dam/a/c04/82c4ccb1-a3c6-4527-8c7c-42d696788c04_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-11-05T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "hannah-east"
       ]
@@ -25619,7 +25565,7 @@
       "startDate": "2027-03-10",
       "endDate": "2027-03-14",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Coppelia-Scottish-Ballet-2700-x-1080--Cem-Gultepe-scaled.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Coppelia-Scottish-Ballet-2700-x-1080--Cem-Gultepe-scaled.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "shaftesbury-theatre:show-the-notebook-a-new-musical-111478138",
@@ -26066,7 +26012,7 @@
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2027-03-13",
-      "endDate": "2028-01-02",
+      "endDate": "2027-03-21",
       "firstSeen": "2026-11-02",
       "image": "https://vanda-production-assets.s3.amazonaws.com/2026/07/09/14/13/13/0d380060-85ce-4e22-91f6-0d40df3a5444/960.jpg",
       "description": "Celebrating the creative explosion across music and fashion from 1972 – 85."
@@ -26200,15 +26146,6 @@
       "endDate": null,
       "firstSeen": "2026-11-03",
       "image": "https://aeg-media-assets.b-cdn.net/eventim/images/BND_London_1080x1080.jpg?width=768&height=768&focus_crop=1080,1080,0.5,0.5",
-      "onSale": {
-        "start": "2026-11-06T12:00:00Z",
-        "presales": [
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-11-05T12:00:00Z"
-          }
-        ]
-      },
       "people": [
         "benidorm-the-reunion"
       ]
@@ -26258,7 +26195,7 @@
       "startDate": "2027-03-16",
       "endDate": "2027-03-17",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-EXXY-Dan-Daw--Hugo-Glendinning-scaled.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-EXXY-Dan-Daw--Hugo-Glendinning-scaled.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "serpentine-north:whats-on-matt-copson",
@@ -26341,7 +26278,7 @@
       "startDate": "2027-03-17",
       "endDate": "2027-03-19",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Terrain_BorisCharmatz_Muette--Laurent-Philippe_05.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Terrain_BorisCharmatz_Muette--Laurent-Philippe_05.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "whitechapel-gallery:exhibitions-through-holes-in-the-clouds",
@@ -26449,7 +26386,10 @@
       "category": "shows",
       "startDate": "2027-03-18",
       "endDate": null,
-      "firstSeen": "2026-11-02"
+      "firstSeen": "2026-11-02",
+      "people": [
+        "jorge-vercillo"
+      ]
     },
     {
       "id": "cadogan-hall:event-1f0064e7c1217a8e",
@@ -26532,7 +26472,7 @@
       "startDate": "2027-03-19",
       "endDate": "2027-04-03",
       "firstSeen": "2026-11-02",
-      "image": "https://images.sadlerswells.com/uploads/2026/09/The-Grat-Gatsby_thumbnail.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2026/09/The-Grat-Gatsby_thumbnail.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "the-comedy-store:events-the-best-in-stand-up-friday-19th-march-2027-tickets-w5prj8-ref-ticketmast",
@@ -26906,16 +26846,17 @@
       ]
     },
     {
-      "id": "barbican:event-death-note-the-musical",
+      "id": "barbican:book-1ja7y-death-note-the-musical",
       "venueId": "barbican",
-      "sourceId": "barbican",
-      "title": "Death Note: The Musical",
-      "url": "https://www.barbican.org.uk/whats-on/2027/event/death-note-the-musical",
+      "sourceId": "ticketmaster",
+      "title": "Death Note The Musical",
+      "url": "https://theatre.ticketmaster.co.uk/book/1JA7Y-death-note-the-musical/#perf=1JA7Y-5&date=2027-03-23&time=7.45PM",
       "type": "show",
       "category": "shows",
       "startDate": "2027-03-23",
       "endDate": "2027-05-15",
       "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/fec/9f385554-d993-4873-bd4b-ce8591757fec_RETINA_LANDSCAPE_16_9.jpg",
       "schedule": {
         "from": "2027-03-23",
         "times": [
@@ -27409,23 +27350,6 @@
       "startTime": "19:30",
       "image": "https://s1.ticketm.net/dam/a/b53/bc77cb31-0470-472d-8d11-1b0297e43b53_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Children under the age of 4 (including babes in arms) will not be admitted into the theatre. Anyone aged 15 or under must be accompanied by an adult (18+) and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a valid ti",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Live Nation Presale",
-            "start": "2026-11-05T10:00:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-11-05T10:00:00Z"
-          },
-          {
-            "name": "Cuffe & Taylor Presale",
-            "start": "2026-11-05T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "michael-starring-ben"
       ]
@@ -27441,7 +27365,7 @@
       "startDate": "2027-04-01",
       "endDate": "2027-04-11",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE_ENB-My-First-Ballet-Cinderella_Zara-Picken_2700-x-1080-scaled_960x960_acf_cropped.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE_ENB-My-First-Ballet-Cinderella_Zara-Picken_2700-x-1080-scaled_960x960_acf_cropped.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "royal-albert-hall:event-1f006546c9594668",
@@ -27513,7 +27437,7 @@
       "startDate": "2027-04-02",
       "endDate": null,
       "firstSeen": "2026-11-02",
-      "image": "https://aeg-media-assets.b-cdn.net/eventim/images/Aurie-Styla-Maverick-Tour-Image-SQ.jpg?width=768&height=768&focus_crop=1080,1080,0.5,0.5",
+      "image": "https://aeg-media-assets.b-cdn.net/eventim/images/Aurie-Styla-Clean-Socials-SQ.jpg?width=768&height=768&focus_crop=2250,2250,0.5,0.5",
       "people": [
         "aurie-styla"
       ]
@@ -27875,7 +27799,7 @@
       "startDate": "2027-04-07",
       "endDate": "2027-04-10",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/09/LEAD-IMAGE-HANSEL-AND-GRETEL-BALLETLORENT--Luke-Waddington-scaled.png?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/09/LEAD-IMAGE-HANSEL-AND-GRETEL-BALLETLORENT--Luke-Waddington-scaled.png?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "union-chapel:whats-on-union-chapel-guided-tour-april-2027",
@@ -27917,7 +27841,7 @@
       "startDate": "2027-04-08",
       "endDate": "2027-04-10",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Landscapes-Xenia-Aidonpoulou--Camilla-Greenwell-2700-x-1080-scaled.png?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Landscapes-Xenia-Aidonpoulou--Camilla-Greenwell-2700-x-1080-scaled.png?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "the-comedy-store:events-the-best-in-stand-up-thursday-8th-april-2027-tickets-3vrtbn-ref-ticketmas",
@@ -28662,6 +28586,23 @@
       ]
     },
     {
+      "id": "london-palladium:event-37006564ae913f5b",
+      "venueId": "london-palladium",
+      "sourceId": "ticketmaster",
+      "title": "Mike Wozniak: The Bench",
+      "url": "https://www.ticketmaster.co.uk/mike-wozniak-the-bench-london-17-04-2027/event/37006564AE913F5B",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-04-17",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:30",
+      "image": "https://s1.ticketm.net/dam/a/8bf/20e8d742-2b8e-43d5-8398-dfa42f6f18bf_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "mike-wozniak"
+      ]
+    },
+    {
       "id": "noel-coward-theatre:show-amadeus-111474474",
       "venueId": "noel-coward-theatre",
       "sourceId": "official-london-theatre",
@@ -28830,7 +28771,7 @@
       "startDate": "2027-04-21",
       "endDate": "2027-04-24",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2024/01/6-KP_Assembly-Hall-photoMichael-Slobodian-1.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2024/01/6-KP_Assembly-Hall-photoMichael-Slobodian-1.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "the-comedy-store:kane-brown-2027-04-21",
@@ -28900,7 +28841,7 @@
       "startDate": "2027-04-22",
       "endDate": "2027-04-24",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Kabel-Matsena--Kirsten-McTernan-2700x1080-1-scaled.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Kabel-Matsena--Kirsten-McTernan-2700x1080-1-scaled.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "tate-modern:tate-modern-ink",
@@ -29201,7 +29142,7 @@
       "startDate": "2027-04-28",
       "endDate": "2027-05-01",
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Sincerely-The-Breakfast-Club-Drew-Forsyth-2700-x-1080px-scaled_960x960_acf_cropped.jpg?resize=15%2C15&gravity&webp=1"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/LEAD-IMAGE-Sincerely-The-Breakfast-Club-Drew-Forsyth-2700-x-1080px-scaled_960x960_acf_cropped.jpg?resize=15%2C15&gravity"
     },
     {
       "id": "the-o2:event-35006489e7d2a5cd",
@@ -29305,7 +29246,7 @@
       "startDate": "2027-04-30",
       "endDate": null,
       "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/bc_from_endz-scaled.jpg?resize=15%2C15&gravity"
+      "image": "https://images.sadlerswells.com/uploads/2026/10/bc_from_endz-scaled.jpg?resize=15%2C15&gravity&webp=1"
     },
     {
       "id": "the-comedy-store:events-the-best-in-stand-up-friday-30th-april-2027-tickets-2px9dv-ref-ticketmast",
@@ -29414,19 +29355,6 @@
       ]
     },
     {
-      "id": "sadlers-wells:whats-on-breakin-convention-festival-2027",
-      "venueId": "sadlers-wells",
-      "sourceId": "sadlers-wells",
-      "title": "Breakin' Convention Festival 2027",
-      "url": "https://www.sadlerswells.com/whats-on/breakin-convention-festival-2027/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2027-05-01",
-      "endDate": "2027-05-02",
-      "firstSeen": "2026-11-05",
-      "image": "https://images.sadlerswells.com/uploads/2026/10/SW-Masthead-scaled.jpg?resize=15%2C15&gravity"
-    },
-    {
       "id": "troxy:event-meute",
       "venueId": "troxy",
       "sourceId": "troxy",
@@ -29484,19 +29412,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/b80/ba45f498-767e-4ab5-b7b9-b9e843336b80_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority From O2",
-            "start": "2026-11-04T10:00:00Z"
-          },
-          {
-            "name": "Live Nation",
-            "start": "2026-11-05T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "whitney"
       ]
@@ -29517,36 +29432,17 @@
       ]
     },
     {
-      "id": "o2-shepherds-bush-empire:event-3e00655de1038090",
+      "id": "o2-shepherds-bush-empire:events-ravyn-lenae-tickets-ae1105379",
       "venueId": "o2-shepherds-bush-empire",
-      "sourceId": "ticketmaster",
+      "sourceId": "o2-shepherds-bush-empire",
       "title": "Ravyn Lenae",
-      "url": "https://www.ticketmaster.co.uk/ravyn-lenae-london-05-05-2027/event/3E00655DE1038090",
-      "type": "concert",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/ravyn-lenae-tickets-ae1105379",
+      "type": "show",
       "category": "shows",
       "startDate": "2027-05-05",
       "endDate": null,
       "firstSeen": "2026-11-03",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/bc7/fa24a3cc-a878-45c0-b3e3-9f74022afbc7_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-04T10:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-04T10:00:00Z"
-          },
-          {
-            "name": "Live Nation Presale",
-            "start": "2026-11-05T10:00:00Z"
-          }
-        ]
-      },
+      "image": "https://dynamicmedia.livenationinternational.com/q/h/m/648e0778-fa0e-45c2-9ae8-2385a1d07cb8.jpg?format=webp&width=3840&quality=75",
       "people": [
         "ravyn-lenae"
       ]
@@ -30280,6 +30176,19 @@
       ]
     },
     {
+      "id": "o2-shepherds-bush-empire:events-roots-and-soul-tickets-ae1708763",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Babylon by Bus",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/roots-and-soul-tickets-ae1708763",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-05-16",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://dynamicmedia.livenationinternational.com/h/m/q/605ec2bd-d300-417c-b10d-70a01bd5b8dd.png?format=webp&width=3840&quality=75"
+    },
+    {
       "id": "royal-albert-hall:event-1f00655a9d682fdd",
       "venueId": "royal-albert-hall",
       "sourceId": "ticketmaster",
@@ -30495,36 +30404,17 @@
       ]
     },
     {
-      "id": "o2-shepherds-bush-empire:event-3e00655ce9b19342",
+      "id": "o2-shepherds-bush-empire:events-rend-collective-tickets-ae728439",
       "venueId": "o2-shepherds-bush-empire",
-      "sourceId": "ticketmaster",
+      "sourceId": "o2-shepherds-bush-empire",
       "title": "Rend Collective",
-      "url": "https://www.ticketmaster.co.uk/rend-collective-london-21-05-2027/event/3E00655CE9B19342",
-      "type": "concert",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/rend-collective-tickets-ae728439",
+      "type": "show",
       "category": "shows",
       "startDate": "2027-05-21",
       "endDate": null,
       "firstSeen": "2026-11-03",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/39b/dcd39833-da73-4cf6-bb8b-384026f9d39b_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-04T10:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-04T10:00:00Z"
-          },
-          {
-            "name": "Live Nation Presale",
-            "start": "2026-11-05T10:00:00Z"
-          }
-        ]
-      },
+      "image": "https://dynamicmedia.livenationinternational.com/x/r/i/e2bec74b-a5c8-44bf-ae7e-f6c3c2ac36e5.jpg?format=webp&width=3840&quality=75",
       "people": [
         "rend-collective"
       ]
@@ -30662,15 +30552,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "18:30",
       "image": "https://s1.ticketm.net/dam/a/6ea/28c08c2a-ff5f-4eae-8884-7df6ae1e66ea_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-04T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "william-hanson"
       ]
@@ -30821,9 +30702,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "18:45",
       "image": "https://s1.ticketm.net/dam/a/2c3/f299f438-3c95-4e62-a928-2053c41812c3_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z"
-      },
       "people": [
         "fabio-and-grooverider"
       ]
@@ -30877,7 +30755,7 @@
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/189/ecd7a461-1fc8-494e-a788-60c3758c2189_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
+      "description": "Plus support from John Head (Shack / The Pale Fountains / The Strands) Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sur",
       "people": [
         "love-with-johnny-echols"
       ]
@@ -31014,16 +30892,13 @@
       "sourceId": "ticketmaster",
       "title": "The Interrupters",
       "url": "https://www.ticketmaster.co.uk/the-interrupters-london-01-06-2027/event/1F00655ED28D88F1",
-      "type": "screening",
+      "type": "concert",
       "category": "shows",
       "startDate": "2027-06-01",
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/6a3/5e4dca90-be5c-4cd5-9dbd-05cf8685f6a3_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z"
-      },
+      "image": "https://s1.ticketm.net/dam/a/81a/a0627f8e-5b45-45b8-8752-49721f6ef81a_RETINA_LANDSCAPE_16_9.jpg",
       "people": [
         "the-interrupters"
       ]
@@ -31174,6 +31049,23 @@
       },
       "people": [
         "charlie-and-the-chocolate-factory"
+      ]
+    },
+    {
+      "id": "soho-theatre-walthamstow:event-35006564f207a775",
+      "venueId": "soho-theatre-walthamstow",
+      "sourceId": "ticketmaster",
+      "title": "Fatiha El-Ghorri: Cockney Stacking Doll",
+      "url": "https://www.ticketmaster.co.uk/fatiha-elghorri-cockney-stacking-doll-london-04-06-2027/event/35006564F207A775",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-04",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "19:30",
+      "image": "https://s1.ticketm.net/dam/a/70a/49a04955-ee4f-4437-9073-72cd0c74470a_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "fatiha-el-ghorri"
       ]
     },
     {
@@ -31404,6 +31296,40 @@
       "people": [
         "chuck-prophet",
         "peter-bruntnell"
+      ]
+    },
+    {
+      "id": "troxy:event-hyukoh",
+      "venueId": "troxy",
+      "sourceId": "troxy",
+      "title": "Hyukoh",
+      "url": "https://troxy.co.uk/event/hyukoh/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-06-16",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+      "description": "More than a decade after their breakthrough, HYUKOH have grown from a defining voice in South Korea’s burgeoning indie scene into one of the country’s most distinctive and internationally recognized alternative bands. Emerging from Seoul’s Hongdae club circuit, the four-piece…",
+      "onSale": {
+        "start": "2026-11-12T10:00:00Z",
+        "presales": [
+          {
+            "name": "Priority from O2",
+            "start": "2026-11-10T10:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-11-11T10:00:00Z"
+          },
+          {
+            "name": "Live Nation Presale",
+            "start": "2026-11-11T10:00:00Z"
+          }
+        ]
+      },
+      "people": [
+        "hyukoh"
       ]
     },
     {
@@ -31856,19 +31782,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "18:30",
       "image": "https://s1.ticketm.net/dam/a/179/9822aa05-0f56-477b-9ccd-862e6a772179_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-04T10:00:00Z"
-          },
-          {
-            "name": "Live Nation Presale",
-            "start": "2026-11-05T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "scorpions",
         "europe"
@@ -32057,6 +31970,32 @@
       "endDate": "2027-08-08",
       "firstSeen": "2026-11-02",
       "image": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/288485/Mog_770x460px_bd6972d61eb1009bded0659566c5f859.jpg"
+    },
+    {
+      "id": "the-o2:event-3500656531c7516c",
+      "venueId": "the-o2",
+      "sourceId": "ticketmaster",
+      "title": "Jamiroquai",
+      "url": "https://www.ticketmaster.co.uk/jamiroquai-london-15-07-2027/event/3500656531C7516C",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-07-15",
+      "endDate": "2027-07-19",
+      "firstSeen": "2026-11-06",
+      "image": "https://s1.ticketm.net/dam/a/4f6/d1ce9beb-1096-4bd7-9f95-50655f0a74f6_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2027-07-15",
+        "times": [
+          "18:30"
+        ],
+        "days": "11001"
+      },
+      "onSale": {
+        "start": "2026-11-13T09:00:00Z"
+      },
+      "people": [
+        "jamiroquai"
+      ]
     },
     {
       "id": "union-chapel:whats-on-johns-boys-welsh-male-voice-choir",
@@ -32332,6 +32271,19 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "image": "https://images.squarespace-cdn.com/content/v1/636d0f1190ba4247110f5c4a/1711114911604-D1XTZOJ8VMDAX80WCG3F/Manga-advanced.jpg"
+    },
+    {
+      "id": "regents-park-open-air-theatre:production-anansi-2026",
+      "venueId": "regents-park-open-air-theatre",
+      "sourceId": "regents-park-open-air-theatre",
+      "title": "Anansi the Spider",
+      "url": "https://openairtheatre.com/production/anansi-2026",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-08-15",
+      "endDate": "2027-09-06",
+      "firstSeen": "2026-11-06",
+      "image": "https://openairtheatre.com/uploads/images/_435xAUTO_crop_center-center_none/Anansi-the-Spider-2026-Thumbnail.png"
     },
     {
       "id": "cartoon-museum:whats-on-events-small-press-day-at-the-cartoon-museum-2024",
@@ -32635,6 +32587,23 @@
       ]
     },
     {
+      "id": "cadogan-hall:event-1f0065648cc62318",
+      "venueId": "cadogan-hall",
+      "sourceId": "ticketmaster",
+      "title": "Gyles Brandreth: Up Memory Lane!",
+      "url": "https://www.ticketmaster.co.uk/gyles-brandreth-up-memory-lane-london-05-09-2027/event/1F0065648CC62318",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-09-05",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "startTime": "15:00",
+      "image": "https://s1.ticketm.net/dam/a/08d/8dd978a8-dca6-474b-9539-a9cbb854408d_RETINA_LANDSCAPE_16_9.jpg",
+      "people": [
+        "gyles-brandreth"
+      ]
+    },
+    {
       "id": "the-o2:event-35006462afb63268",
       "venueId": "the-o2",
       "sourceId": "ticketmaster",
@@ -32667,6 +32636,31 @@
       "description": "Doors Open: 18:30 Start: 20:00",
       "people": [
         "national-tv-awards"
+      ]
+    },
+    {
+      "id": "eventim-apollo:event-the-jack-ash-show-eventim-apollo-22356285-affiliate-hal",
+      "venueId": "eventim-apollo",
+      "sourceId": "eventim-apollo",
+      "title": "The Jack & Ash Show",
+      "url": "https://www.eventim.co.uk/event/the-jack-ash-show-eventim-apollo-22356285/?affiliate=HAL",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-09-10",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://aeg-media-assets.b-cdn.net/eventim/images/JackAsh_Podcast-Podcast-Cover-Art.png?width=768&height=768&focus_crop=3000,3000,0.5,0.5",
+      "onSale": {
+        "start": "2026-11-13T10:00:00Z",
+        "presales": [
+          {
+            "name": "O2 Presale",
+            "start": "2026-11-10T10:00:00Z"
+          }
+        ]
+      },
+      "people": [
+        "the-jack-and-ash-show"
       ]
     },
     {
@@ -32732,19 +32726,6 @@
       "firstSeen": "2026-11-02",
       "image": "https://s1.ticketm.net/dam/a/2c5/e1ab180f-14cc-4dbf-bcb3-39641d1202c5_RETINA_LANDSCAPE_16_9.jpg",
       "description": "All Ages: U16s accompanied by an adult, U14s in seats.",
-      "onSale": {
-        "start": "2026-11-06T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority From O2",
-            "start": "2026-11-04T10:00:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-11-05T10:00:00Z"
-          }
-        ]
-      },
       "people": [
         "the-sisters-of-mercy"
       ]
@@ -33124,9 +33105,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "18:30",
       "image": "https://s1.ticketm.net/dam/a/4f1/8f5edc2c-7346-4835-afbc-dcdcfa61b4f1_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T09:00:00Z"
-      },
       "people": [
         "the-teskey-brothers"
       ]
@@ -33223,9 +33201,6 @@
       "firstSeen": "2026-11-02",
       "startTime": "12:30",
       "image": "https://s1.ticketm.net/dam/a/2b5/b20ba84d-a466-4ca1-8213-9405e4d362b5_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-06T09:30:00Z"
-      },
       "people": [
         "s-club"
       ]
@@ -33321,7 +33296,7 @@
       "type": "show",
       "category": "shows",
       "startDate": "2027-10-27",
-      "endDate": "2027-11-04",
+      "endDate": "2027-11-05",
       "firstSeen": "2026-11-02",
       "image": "https://s1.ticketm.net/dam/a/e93/e7f25bb6-2437-4b1e-b610-e9d0e4775e93_RETINA_LANDSCAPE_16_9.jpg",
       "schedule": {
@@ -33330,7 +33305,7 @@
           "14:30",
           "19:30"
         ],
-        "days": "222320022"
+        "days": "2223200222"
       },
       "people": [
         "alan-carr"
@@ -33469,7 +33444,10 @@
       "startDate": "2027-11-05",
       "endDate": null,
       "firstSeen": "2026-11-02",
-      "image": "https://aeg-media-assets.b-cdn.net/eventim/images/IL-VOLO-1080x1080-copy-1.jpg?width=768&height=768&focus_crop=1080,1080,0.5,0.5"
+      "image": "https://aeg-media-assets.b-cdn.net/eventim/images/IL-VOLO-1080x1080-copy-1.jpg?width=768&height=768&focus_crop=1080,1080,0.5,0.5",
+      "people": [
+        "il-volo"
+      ]
     },
     {
       "id": "tate-modern:tate-modern-edvard-munch",

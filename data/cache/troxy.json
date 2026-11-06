@@ -79,6 +79,19 @@
    },
    "at": "2026-11-02"
   },
+  "https://troxy.co.uk/event/comedy-queens-4": {
+   "raw": {
+    "url": "https://troxy.co.uk/event/comedy-queens-4/",
+    "title": "Comedy Queens 4",
+    "dates": {
+     "startDate": "2026-12-14",
+     "endDate": null
+    },
+    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "description": "Comedy Queens are back! Get ready to Laugh! Get ready for a night of female comedy royalty, featuring hilarious talent around the world. Your cheeks will hurt; you?ll laugh your socks off and you?ll be glad you came! Charity Partner: Forgotten Women ? Through Comedy Queens,…"
+   },
+   "at": "2026-11-06"
+  },
   "https://troxy.co.uk/event/crush-40": {
    "raw": {
     "url": "https://troxy.co.uk/event/crush-40/",
@@ -89,19 +102,6 @@
     },
     "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
     "description": "Experience a landmark moment as Crush 40 bring their first?and final?world tour to London. This unforgettable show celebrates the music that defined a generation, featuring fan-favourite tracks from the Sonic the Hedgehog franchise and beyond. More than just a concert, the…"
-   },
-   "at": "2026-11-02"
-  },
-  "https://troxy.co.uk/event/dabeull": {
-   "raw": {
-    "url": "https://troxy.co.uk/event/dabeull/",
-    "title": "Dabeull",
-    "dates": {
-     "startDate": "2026-11-05",
-     "endDate": null
-    },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
-    "description": "Dabeull is a visionary French producer and artist, widely regarded as a leading figure in the global funk revival. With his unmistakable blend of punchy basslines, retro synthesizers, and sensual vocals, he has carved out an unique place on the international music scene. Known…"
    },
    "at": "2026-11-02"
   },
@@ -156,6 +156,19 @@
     "description": "Georgian National Ballet “Sukhishvili” Comes to the UK On 7 October 2027, the world-famous Georgian National Ballet “Sukhishvili” is heading to London, where Troxy will come alive with the energy, colour and spirit of a timeless dance tradition. Admired around the world, the…"
    },
    "at": "2026-11-02"
+  },
+  "https://troxy.co.uk/event/hyukoh": {
+   "raw": {
+    "url": "https://troxy.co.uk/event/hyukoh/",
+    "title": "Hyukoh",
+    "dates": {
+     "startDate": "2027-06-16",
+     "endDate": null
+    },
+    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "description": "More than a decade after their breakthrough, HYUKOH have grown from a defining voice in South Korea’s burgeoning indie scene into one of the country’s most distinctive and internationally recognized alternative bands. Emerging from Seoul’s Hongdae club circuit, the four-piece…"
+   },
+   "at": "2026-11-06"
   },
   "https://troxy.co.uk/event/jacob-banks": {
    "raw": {
