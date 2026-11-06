@@ -9,7 +9,8 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
 - `data/venues.json` — every place you can follow (id is permanent: follows are stored against it).
 - `data/sources.json` — where events come from. `venueId` = one venue's own site; `aggregator: true` =
   feeds many venues, matched by name/aliases (`scraper/venues.ts`).
-- `data/events.json`, `data/health.json`, `data/people.json`, `data/cache/` — **generated** by the daily scrape.
+- `data/events.json`, `data/health.json`, `data/people.json`, `data/cache/` — **generated** by the daily scrape
+  (`data/cache/enrich.json` = descriptions/images read from events' own pages by `scraper/enrich.ts`).
   Don't hand-edit. `people.json` = performers named by the ticketing APIs + their dates at venues we
   don't list (`elsewhere`, venueId `""`); people's ids are name slugs (follows are stored against them).
   (Bump `CACHE_VERSION` in `scraper/run.ts` when you change page parsing in a way that changes cached results.)

@@ -69,7 +69,8 @@ Opening hours come from OpenStreetMap (no key; refreshed weekly) and show on ven
 2. Every push to `main` (including the daily data commit) redeploys automatically.
 3. For device sync, add free storage: project → **Storage → Create → Blob**, name `whatson-sync`,
    region London, access **Private**, and connect it to the project (all environments). That adds
-   `BLOB_READ_WRITE_TOKEN`; redeploy once. Without it everything else works and Sync says it isn't set up.
+   `BLOB_READ_WRITE_TOKEN` / `BLOB_STORE_ID` to the project (nothing to copy anywhere); redeploy once.
+   Without it everything else works and Sync says it isn't set up.
 
 All pages are prerendered; the only server code is `/api/sync` (a few requests a day, well within
 Vercel's free tier).

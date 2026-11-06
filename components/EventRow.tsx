@@ -6,7 +6,7 @@ import type { VenueLite } from "@/lib/data";
 import type { WOEvent } from "@/lib/types";
 import { usePrefs } from "@/lib/store";
 import { usePeopleData } from "@/lib/useData";
-import { BADGE_LABEL, badges, darkDaysText, icsFor, isOneOff, londonParts, notOnSaleYet, performancesOn, rangeText, shortDate, weekdayShort, whenInstant, whenText } from "@/lib/when";
+import { BADGE_LABEL, badges, darkDaysText, dayOfWeek, icsFor, isOneOff, londonParts, notOnSaleYet, performancesOn, rangeText, shortDate, weekdayShort, whenInstant, whenText } from "@/lib/when";
 import { Icon } from "./ui";
 
 const TYPE_LABEL: Record<WOEvent["type"], string> = {
@@ -121,6 +121,7 @@ export function EventRow({
             />
           )}
           <p className="row__range">{rangeText(e)}</p>
+          {showVenue && venueName && <Where venue={venue} name={venueName} e={e} day={day} today={today} />}
           {darkDaysText(e) && <p className="row__note">{darkDaysText(e)}</p>}
           {onSaleSoon && (
             <p className="row__note">
@@ -141,7 +142,6 @@ export function EventRow({
             </a>
             <button onClick={addToCalendar}>Add to calendar</button>
             <button onClick={share}>Share</button>
-            {venue && showVenue && <Link href={`/places/${venue.id}/`}>{venue.name}</Link>}
           </div>
         </div>
       )}
@@ -175,6 +175,30 @@ function People({ ids }: { ids: string[] }) {
           </span>
         );
       })}
+    </p>
+  );
+}
+
+/** Where it is: the venue (linked), its area, its hours that day for things you drop in on, and directions. */
+function Where({ venue, name, e, day, today }: { venue?: VenueLite; name: string; e: WOEvent; day: string; today: string }) {
+  const dropIn = !isOneOff(e) && (e.category === "exhibitions" || e.type === "display" || e.type === "exhibition");
+  const h = dropIn ? venue?.hours?.[dayOfWeek(day)] : undefined;
+  const when = day === today ? "today" : weekdayShort(day);
+  const hours = !dropIn || !venue?.hours ? null : h ? `Open ${when} ${h}` : `Closed ${when}`;
+  const maps = venue?.lat && venue.lng ? `https://www.google.com/maps/search/?api=1&query=${venue.lat}%2C${venue.lng}` : null;
+  return (
+    <p className="row__where">
+      {venue ? <Link href={`/places/${venue.id}/`}>{venue.name}</Link> : name}
+      {venue?.area ? <span> · {venue.area}</span> : null}
+      {hours ? <span> · {hours}</span> : null}
+      {maps ? (
+        <span>
+          {" · "}
+          <a href={maps} target="_blank" rel="noopener noreferrer">
+            Directions {Icon.arrow}
+          </a>
+        </span>
+      ) : null}
     </p>
   );
 }

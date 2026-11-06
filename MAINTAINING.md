@@ -88,6 +88,12 @@ running the scrape from somewhere else to dodge it). Disable the source and mark
 **`skipped`** means an API source has no key (`TICKETMASTER_API_KEY` / `SKIDDLE_API_KEY` secrets). It
 is not an error and never opens an issue — leave it alone.
 
+**Event details.** After each scrape, events whose listing card had no description or image get them
+from the event's own page (JSON-LD, then og:description/og:image), once per page, cached in
+`data/cache/enrich.json` (25 new pages per site per run). If a venue's events still show nothing when
+opened, its pages keep the text somewhere else: add the source's `"enrich": { "description": "<selector>" }`
+(e.g. Union Chapel's `.pt-4 > p`), found with `npm run discover -- <event url>`. Config only.
+
 **People** (`data/people.json`) are generated from the ticketing APIs' performer lists — nothing to
 maintain. Their dates at venues we don't list live there too (`elsewhere`), so a missing venue doesn't
 hide a followed performer's gig; still add the venue if it fits the app.

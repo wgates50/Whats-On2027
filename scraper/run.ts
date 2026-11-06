@@ -10,7 +10,8 @@ import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import type { HealthStatus, Person, SourceConfig, WOEvent } from "../lib/types.ts";
 import { MissingKeyError, runAdapter, type CachedDetail, type DetailCache } from "./adapters/index.ts";
-import { loadEvents, loadHealth, loadPeople, loadSources, loadVenues, writeJson, type HealthFile } from "./config.ts";
+import { loadEvents, loadHealth, loadPeople, loadSources, loadVenues, readJson, writeJson, type HealthFile } from "./config.ts";
+import { enrich as fillDetails, type EnrichCache } from "./enrich.ts";
 import { addDays, todayLondon } from "./dates.ts";
 import { staleEvents } from "./health.ts";
 import { BlockedError, createFetcher } from "./fetcher.ts";
@@ -282,6 +283,26 @@ const people = [...peopleById.values()]
   .map((p) => ({ ...p, ...(p.links && !Object.keys(p.links).length ? { links: undefined } : {}), ...(p.tm && !p.tm.length ? { tm: undefined } : {}) }))
   .sort((a, b) => a.name.localeCompare(b.name));
 
+// ---------------------------------------------------------------- details
+
+// Listing cards rarely carry a description: read it (and an image) from each event's own page, once.
+const enrichCache = readJson<EnrichCache>("cache/enrich.json", {});
+const pageSources = new Set(allSources.filter((s) => s.adapter.type === "pages").map((s) => s.id));
+if (!dry || args.includes("--enrich")) {
+  const r = await fillDetails(events, {
+    fetcher,
+    cache: enrichCache,
+    today,
+    deadline: Date.now() + 5 * 60_000,
+    eligible: (e) => pageSources.has(e.sourceId),
+    descSelector: (url) => {
+      const e = events.find((x) => x.url === url);
+      return e ? allSources.find((x) => x.id === e.sourceId)?.enrich?.description : undefined;
+    },
+  });
+  console.log(`details: ${r.fetched} event pages read, ${r.filled} events filled in${r.blockedHosts.length ? ` (refused: ${r.blockedHosts.join(", ")})` : ""}`);
+}
+
 // ---------------------------------------------------------------- health
 
 const health: HealthFile = { checkedAt: now, sources: only ? { ...prevHealth.sources } : {} };
@@ -333,6 +354,9 @@ if (dry) {
   console.log(`\npeople: ${people.length} performers · ${elsewhere.length} dates at other venues`);
 } else {
   writeJson("events.json", { generatedAt: now, events });
+  // Keep only pages of current events, so the cache doesn't grow forever.
+  const live = new Set(events.map((e) => e.url));
+  writeJson("cache/enrich.json", Object.fromEntries(Object.entries(enrichCache).filter(([u]) => live.has(u)).sort(([a], [b]) => a.localeCompare(b))));
   writeJson("people.json", { generatedAt: now, people, elsewhere });
   writeJson("health.json", health);
 }

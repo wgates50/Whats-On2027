@@ -1236,7 +1236,10 @@
         "dates": "p.small.text-uppercase"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02.",
+    "enrich": {
+      "description": ".pt-4 > p"
+    }
   },
   {
     "id": "st-martin-in-the-fields",

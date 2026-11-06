@@ -1,5 +1,6 @@
 // Server-side storage for device sync: one small JSON document per sync code, in a private Vercel
-// Blob store (BLOB_READ_WRITE_TOKEN is added when the store is connected to the project). For local
+// Blob store. Connecting the store to the project adds its credentials: BLOB_READ_WRITE_TOKEN, or for
+// newer stores BLOB_STORE_ID (the SDK then signs in with the deployment's own OIDC token). For local
 // testing, SYNC_DEV_DIR points at a folder instead. No store → sync reports "not set up".
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
@@ -12,7 +13,7 @@ export interface SyncStore {
 }
 
 export function syncStore(): SyncStore | null {
-  if (process.env.BLOB_READ_WRITE_TOKEN) {
+  if (process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID) {
     return {
       async read(path) {
         const r = await get(path, { access: "private", useCache: false });

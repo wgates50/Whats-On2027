@@ -73,6 +73,11 @@ export interface SourceConfig {
    * for city-wide APIs where most venues are irrelevant (pubs, clubs…) but missing theatres matter.
    */
   unmatchedReport?: string;
+  /**
+   * Where this site's event pages keep their description, when it isn't in JSON-LD or og:description
+   * (the daily scrape reads it once per event to fill in details the listing cards leave out).
+   */
+  enrich?: { description?: string };
   notes?: string;
 }
 

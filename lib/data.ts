@@ -18,6 +18,8 @@ export interface VenueLite {
   /** Weekly opening hours from OpenStreetMap (0 = Sunday); null = closed that day. */
   hours?: Week;
   hoursPartial?: boolean;
+  lat?: number;
+  lng?: number;
 }
 
 export interface AppData {
@@ -59,6 +61,7 @@ export function loadAppData(): AppData {
         website: v.website,
         coverage: (withEvents.has(v.id) || ownSource.has(v.id) ? "auto" : v.manualOnly ? "manual" : "soon") as VenueLite["coverage"],
         ...(hours.venues[v.id]?.week ? { hours: hours.venues[v.id].week, hoursPartial: !!hours.venues[v.id].partial } : {}),
+        ...(v.lat && v.lng ? { lat: v.lat, lng: v.lng } : {}),
       }))
       .sort((a, b) => a.name.replace(/^the /i, "").localeCompare(b.name.replace(/^the /i, ""))),
     events,
