@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import type { AppData, VenueLite } from "@/lib/data";
 import { THEME_GROUP_LABEL, type Person, type ThemeGroup, type WOEvent } from "@/lib/types";
-import { buildProfile, recommendEvents, recommendPeople, recommendVenues, topThemes, type Profile } from "@/lib/profile";
+import { buildProfile, isAct, isEmpty, recommendEvents, recommendPeople, recommendVenues, topThemes, whyText, type Profile, type Why } from "@/lib/profile";
 import { laterDay, usePrefs, useHydrated } from "@/lib/store";
 import { useAppData, usePeopleData } from "@/lib/useData";
 import { addDays, londonToday } from "@/lib/when";
@@ -47,21 +47,22 @@ function Discover({ data }: { data: AppData }) {
   const events = useMemo(() => new Map(data.events.map((e) => [e.id, e])), [data.events]);
   const persons = useMemo(() => new Map((people?.people ?? []).map((p) => [p.id, p])), [people]);
   const labels = useMemo(() => new Map(data.themes.map((t) => [t.id, t.label])), [data.themes]);
+  const groups = useMemo(() => new Map(data.themes.map((t) => [t.id, t.group as string])), [data.themes]);
   const firstScrape = useMemo(() => data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"), [data.events]);
 
   const profile: Profile = useMemo(
     () =>
-      buildProfile(
-        prefs,
-        (id) => venues.get(id)?.themes,
-        (id) => events.get(id)?.themes,
-        (id) => persons.get(id)?.themes,
-      ),
-    [prefs, venues, events, persons],
+      buildProfile(prefs, {
+        venue: (id) => venues.get(id),
+        event: (id) => events.get(id),
+        person: (id) => persons.get(id),
+        group: (id) => groups.get(id),
+      }),
+    [prefs, venues, events, persons, groups],
   );
 
   // First visit with nothing to go on: open the theme picker (and keep it open while you pick).
-  const empty = profile.size === 0;
+  const empty = isEmpty(profile);
   useEffect(() => {
     if (hydrated && today && empty) setPicking(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -77,7 +78,11 @@ function Discover({ data }: { data: AppData }) {
   const current = data.events.filter((e) => lastDay(e) >= today && (!e.startDate || e.startDate <= addDays(today, 60)));
   const onNow: Record<string, number> = {};
   for (const e of current) onNow[e.venueId] = (onNow[e.venueId] ?? 0) + 1;
-  const withDates = new Set([...current, ...(people?.elsewhere ?? [])].flatMap((e) => e.people ?? []));
+  // How many upcoming London dates each performer has (here or at venues we don't list).
+  const dates = new Map<string, number>();
+  for (const e of [...current, ...(people?.elsewhere ?? []).filter((x) => lastDay(x) >= today)])
+    for (const id of e.people ?? []) dates.set(id, (dates.get(id) ?? 0) + 1);
+  const withDates = new Set(dates.keys());
 
   const nextDay = (e: WOEvent) => (e.startDate && e.startDate > today ? e.startDate : today);
   const row = (e: WOEvent, i: number, why?: string) => (
@@ -164,7 +169,7 @@ function Discover({ data }: { data: AppData }) {
     const places = data.venues
       .filter((v) => has(v.themes))
       .sort((a, b) => rank(a.themes) - rank(b.themes) || (onNow[b.id] ?? 0) - (onNow[a.id] ?? 0) || a.name.localeCompare(b.name));
-    const acts = (people?.people ?? []).filter((p) => has(p.themes) && withDates.has(p.id)).sort((a, b) => a.name.localeCompare(b.name));
+    const acts = (people?.people ?? []).filter((p) => isAct(p) && has(p.themes) && withDates.has(p.id)).sort((a, b) => a.name.localeCompare(b.name));
     return (
       <>
         <header className="masthead masthead--venue">
@@ -202,10 +207,12 @@ function Discover({ data }: { data: AppData }) {
 
   // ---------------------------------------------------------------- for you
   const into = topThemes(profile, 8);
-  const picks = recommendEvents(profile, data.events, { today, follows, people: following, saved, limit: 24 });
-  const placePicks = recommendVenues(profile, data.venues, onNow, follows, 6);
-  const peoplePicks = people ? recommendPeople(profile, people.people, withDates, following, 6) : [];
-  const because = (id?: string) => (id ? `Because you like ${labels.get(id)}` : undefined);
+  const picks = recommendEvents(profile, data.events, { today, follows, people: following, saved, venue: (id) => venues.get(id), limit: 24 });
+  const placePicks = recommendVenues(profile, data.venues, onNow, follows, 8);
+  const peoplePicks = people ? recommendPeople(profile, people.people, dates, following, 6) : [];
+  const label = (id: string) => labels.get(id);
+  // Places and people: the theme, and the place of yours it's like ("Design · like Design Museum").
+  const shortWhy = (w: Why) => `${label(w.theme) ?? w.theme}${w.source?.kind === "venue" ? ` · like ${w.source.name}` : ""}`;
 
   return (
     <>
@@ -250,21 +257,21 @@ function Discover({ data }: { data: AppData }) {
       {picks.length > 0 && (
         <section className="section">
           <SectionHead title="For you" count={picks.length} />
-          <div className="rows">{picks.map((p, i) => row(p.item, i, because(p.reason)))}</div>
+          <div className="rows">{picks.map((p, i) => row(p.item, i, whyText(p.why, label)))}</div>
         </section>
       )}
 
       {placePicks.length > 0 && (
         <section className="section">
           <SectionHead title="Places you might like" />
-          <ul className="places">{placePicks.map((p, i) => placeRow(p.item, i, p.reason && labels.get(p.reason)))}</ul>
+          <ul className="places">{placePicks.map((p, i) => placeRow(p.item, i, shortWhy(p.why)))}</ul>
         </section>
       )}
 
       {peoplePicks.length > 0 && (
         <section className="section">
           <SectionHead title="People you might like" />
-          <ul className="places">{peoplePicks.map((p, i) => personRow(p.item, i, p.reason && labels.get(p.reason)))}</ul>
+          <ul className="places">{peoplePicks.map((p, i) => personRow(p.item, i, shortWhy(p.why)))}</ul>
         </section>
       )}
 

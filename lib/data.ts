@@ -6,7 +6,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import type { Person, SourceConfig, SourceHealth, TagsFile, Theme, ThemeGroup, Venue, VenueKind, WOEvent } from "./types.ts";
 import type { Week } from "./hours.ts";
-import { compileThemes, EMPTY_TAGS, eventThemes, personThemes, venueThemes } from "./themes.ts";
+import { compileThemes, EMPTY_TAGS, guessEventThemes, personThemes, venueThemes } from "./themes.ts";
 
 export interface VenueLite {
   id: string;
@@ -66,9 +66,13 @@ export function loadAppData(): AppData {
   // Each event's themes (tagged, or a first guess); the APIs' genres were only needed for that.
   const events = [...scraped.events, ...manual]
     .filter((e) => venueIds.has(e.venueId))
-    .map(({ genres: _g, ...e }) => {
-      const themes = eventThemes({ ...e, genres: _g }, vThemes.get(e.venueId) ?? [], tags, t);
-      return themes.length ? { ...e, themes } : e;
+    .map(({ genres, ...e }) => {
+      const tagged = tags.events[e.id];
+      if (tagged) return tagged.length ? { ...e, themes: tagged } : e;
+      const g = guessEventThemes({ ...e, genres }, vThemes.get(e.venueId) ?? [], t);
+      if (!g.themes.length) return e;
+      // How sure: read from the API's genres or the title, or (weaker) borrowed from the venue.
+      return { ...e, themes: g.themes, themesFrom: g.from === "genres" || g.from === "title" ? ("guess" as const) : ("venue" as const) };
     });
 
   return (cache = {
