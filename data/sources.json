@@ -1077,7 +1077,8 @@
         "dates": "header.event_details.bg_white"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Sport fixtures (ice hockey, darts, snooker) are excluded: not what the app is for.",
+    "exclude": "\\b(vs?\\.?|darts|snooker)\\b"
   },
   {
     "id": "shoreditch-town-hall",

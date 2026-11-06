@@ -2,7 +2,7 @@
 // what's waiting to be tagged, reading the maintenance task's answers, and checking data/tags.json.
 
 import type { Person, TagsFile, Theme, Venue, WOEvent } from "../lib/types.ts";
-import { compileThemes, guessEventThemes, guessPersonThemes, MAX_THEMES, venueThemes } from "../lib/themes.ts";
+import { compileThemes, guessEventThemes, guessPersonThemes, isAct, MAX_THEMES, venueThemes } from "../lib/themes.ts";
 
 export type Kind = "venue" | "event" | "person";
 const KINDS: Kind[] = ["venue", "event", "person"];
@@ -57,21 +57,25 @@ export function todo(u: Universe, tags: TagsFile, themes: Theme[], opts: { event
     );
   for (const { e, g } of waiting.slice(0, opts.events ?? 250)) {
     const when = e.startDate && e.endDate && e.endDate !== e.startDate ? `${e.startDate} → ${e.endDate}` : (e.startDate ?? (e.endDate ? `until ${e.endDate}` : "ongoing"));
-    const bits = [quote(oneLine(e.title, 100)), e.type, venueById.get(e.venueId)!.name, when];
+    const v = venueById.get(e.venueId)!;
+    const vt = venueThemes(v, tags);
+    const bits = [quote(oneLine(e.title, 100)), e.type, `${v.name}${vt.length ? ` (${vt.join(",")})` : ""}`, when];
     if (e.genres?.length) bits.push(`genres: ${e.genres.join(", ")}`);
-    if (g.themes.length) bits.push(`guess: ${g.themes.join(",")}`);
+    // Only real evidence as a hint: a theme borrowed from the venue is what this step is here to check.
+    if (g.from === "genres" || g.from === "title") bits.push(`guess: ${g.themes.join(",")}`);
     if (e.description) bits.push(quote(oneLine(e.description, 180)));
     lines.push(`event\t${e.id}\t${bits.join(" · ")}`);
   }
 
-  // People: only those on at venues we list, and only when their genres say nothing.
+  // People: acts on at venues we list (not productions or club nights), when neither their genres nor
+  // what kind of act they are (a comedian is comedy) says anything.
   const gigs = new Map<string, string[]>();
   for (const e of current)
     for (const p of e.people ?? []) {
       const l = gigs.get(p) ?? [];
       if (l.length < 2) gigs.set(p, [...l, `${oneLine(e.title, 50)} @ ${venueById.get(e.venueId)!.name}`]);
     }
-  const people = u.people.filter((p) => gigs.has(p.id) && !tags.people[p.id] && !guessPersonThemes({ ...p, kind: "other" }, t).length);
+  const people = u.people.filter((p) => gigs.has(p.id) && !tags.people[p.id] && isAct({ ...p, kind: p.kind === "other" ? "music" : p.kind }) && !guessPersonThemes(p, t).length);
   for (const p of people.slice(0, opts.people ?? 50)) {
     lines.push(`person\t${p.id}\t${p.name} · ${p.kind}${p.genres?.length ? ` · genres: ${p.genres.join(", ")}` : ""} · on: ${gigs.get(p.id)!.map(quote).join("; ")}`);
   }
