@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Serif, Schibsted_Grotesk } from "next/font/google";
 import { SWRegister } from "@/components/SWRegister";
+import { SyncAgent } from "@/components/SyncAgent";
 import { TabBar } from "@/components/TabBar";
 import { APP_NAME, APP_TAGLINE } from "@/lib/site";
 import "./globals.css";
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="shell">{children}</main>
         <TabBar />
         <SWRegister />
+        <SyncAgent />
       </body>
     </html>
   );

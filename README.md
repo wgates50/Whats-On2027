@@ -13,6 +13,8 @@ at the places you care about. No AI in the app, no API costs.
   dates show up wherever they play, even at venues not in the list.
 - **Saved**: everything you've starred, this week first, then later — with a one-tap tidy-up of
   anything that's finished.
+- **Sync**: Saved → *Sync with your other devices*. Turn it on on one device, type the code on the
+  others, and places, people and saved events stay the same everywhere (no account).
 
 ## How it works
 
@@ -65,6 +67,12 @@ Opening hours come from OpenStreetMap (no key; refreshed weekly) and show on ven
 
 1. In Vercel: *Add New → Project → Import* `wgates50/Whats-On2027` (framework: Next.js, defaults).
 2. Every push to `main` (including the daily data commit) redeploys automatically.
+3. For device sync, add free storage: project → **Storage → Create → Blob**, name `whatson-sync`,
+   region London, access **Private**, and connect it to the project (all environments). That adds
+   `BLOB_READ_WRITE_TOKEN`; redeploy once. Without it everything else works and Sync says it isn't set up.
+
+All pages are prerendered; the only server code is `/api/sync` (a few requests a day, well within
+Vercel's free tier).
 
 ## Develop
 

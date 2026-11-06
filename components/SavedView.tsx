@@ -106,6 +106,10 @@ export function SavedView() {
         </section>
       )}
 
+      <p className="nudge">
+        <Link href="/sync/">{"Sync with your other devices"}</Link> — keep places, people and saved events the same on your phone and laptop.
+      </p>
+
       {gone.length > 0 && (
         <p className="colophon">
           {gone.length === 1 ? "1 saved listing has" : `${gone.length} saved listings have`} finished or gone from the listings.{" "}

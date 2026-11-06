@@ -10,6 +10,8 @@ export interface Prefs {
   people: string[]; // performer ids (data/people.json)
   saved: string[]; // event ids
   onlyMine: boolean; // calendar: only followed places and people
+  /** When follows/people/saved last changed (ISO), on this device or via sync. */
+  updatedAt?: string;
 }
 
 const KEY = "whatson:v1";
@@ -28,10 +30,13 @@ function load(): Prefs {
   return current;
 }
 
-function save(next: Prefs) {
-  current = next;
+const localChangeListeners = new Set<() => void>();
+
+function save(next: Prefs, touched = true) {
+  current = touched ? { ...next, updatedAt: new Date().toISOString() } : next;
+  if (touched) localChangeListeners.forEach((l) => l());
   try {
-    localStorage.setItem(KEY, JSON.stringify(next));
+    localStorage.setItem(KEY, JSON.stringify(current));
   } catch {
     /* storage unavailable: keep in memory for this session */
   }
@@ -77,4 +82,14 @@ export function useHydrated() {
     () => true,
     () => false,
   );
+}
+
+// For device sync (lib/sync.ts): read and replace the lists outside React, and hear about changes.
+export const readPrefs = (): Prefs => load();
+/** Replace prefs with what sync agreed on, keeping its updatedAt (so it doesn't count as a new change). */
+export const writeSyncedPrefs = (next: Prefs) => save(next, false);
+/** Changes made on this device (not ones that arrived by sync). */
+export function onLocalChange(l: () => void): () => void {
+  localChangeListeners.add(l);
+  return () => localChangeListeners.delete(l);
 }
