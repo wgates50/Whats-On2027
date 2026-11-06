@@ -2,7 +2,7 @@
   {
     "id": "official-london-theatre",
     "name": "Official London Theatre (West End & beyond)",
-    "enabled": true,
+    "enabled": false,
     "aggregator": true,
     "adapter": {
       "type": "pages",
@@ -13,7 +13,7 @@
     "defaults": {
       "type": "show"
     },
-    "notes": "Society of London Theatre listings. Every show is a JSON-LD TheaterEvent on the listing page; location.title is the venue name (matched via venue names/aliases)."
+    "notes": "Disabled 2026-11-06: officiallondontheatre.com answers HTTP 403 to the daily scrape (refuses automated requests from GitHub servers), so per the maintenance rules we do not work around it. West End and other theatres are still covered by Ticketmaster and Skiddle. Was: Society of London Theatre listings, JSON-LD TheaterEvent on the listing page; location.title is the venue name."
   },
   {
     "id": "tate-modern",
