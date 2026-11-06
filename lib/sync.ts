@@ -70,13 +70,14 @@ async function call(method: "GET" | "PUT", code: string, doc?: SyncDoc): Promise
   });
 }
 
-type Lists = { follows: string[]; people: string[]; saved: string[]; seenUpTo?: string };
+type Lists = { follows: string[]; people: string[]; saved: string[]; likes?: string[]; seenUpTo?: string };
 const docOf = (p: Lists, updatedAt: string): SyncDoc => ({
   v: 1,
   updatedAt,
   follows: p.follows,
   people: p.people,
   saved: p.saved,
+  ...(p.likes?.length ? { likes: p.likes } : {}),
   ...(p.seenUpTo ? { seenUpTo: p.seenUpTo } : {}),
 });
 
@@ -95,7 +96,13 @@ async function run(): Promise<void> {
   const rev = s.rev ?? 0;
   const now = () => new Date().toISOString();
   // "Seen up to" only moves forward: a device on an older version may not send it at all.
-  const lists = (p: Lists) => ({ follows: p.follows, people: p.people, saved: p.saved, seenUpTo: laterDay(local.seenUpTo, p.seenUpTo) || undefined });
+  const lists = (p: Lists) => ({
+    follows: p.follows,
+    people: p.people,
+    saved: p.saved,
+    likes: p.likes ?? [],
+    seenUpTo: laterDay(local.seenUpTo, p.seenUpTo) || undefined,
+  });
   try {
     const res = await call("GET", s.code);
     if (res.status === 404) {
@@ -109,7 +116,7 @@ async function run(): Promise<void> {
     const remote = (await res.json()) as SyncDoc;
     const remoteChanged = remote.updatedAt !== s.agreedAt;
     // Joining with lists of its own counts as a change here, so they're merged rather than replaced.
-    const joining = s.agreedAt === undefined && local.follows.length + local.people.length + local.saved.length > 0;
+    const joining = s.agreedAt === undefined && local.follows.length + local.people.length + local.saved.length + (local.likes?.length ?? 0) > 0;
     const localChanged = rev > (s.pushedRev ?? 0) || joining;
     let agreedAt = s.agreedAt;
     if (remoteChanged && localChanged) {

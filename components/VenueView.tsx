@@ -9,6 +9,7 @@ import { addEventUrl } from "@/lib/site";
 import { dayOfWeek, isOnDay, isOneOff, londonToday } from "@/lib/when";
 import { closedDaysText, type Week } from "@/lib/hours";
 import { EventRow } from "./EventRow";
+import { ThemeChips } from "./ThemeChips";
 import { KIND_LABEL } from "./PlacesView";
 import { Empty, Icon, SectionHead } from "./ui";
 
@@ -59,6 +60,7 @@ export function VenueView({ venue, events, baseline }: { venue: VenueLite; event
             Website {Icon.arrow}
           </a>
         </p>
+        <ThemeChips ids={venue.themes} />
         <button className={`follow follow--big${on ? " is-on" : ""}`} onClick={() => toggleFollow(venue.id)} aria-pressed={on}>
           {on ? Icon.check : Icon.plus}
           <span>{on ? "Following" : "Follow"}</span>

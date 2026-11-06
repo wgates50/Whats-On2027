@@ -172,6 +172,10 @@ export interface WOEvent {
   people?: string[];
   /** Only for events at venues we don't list (kept because a performer's on): the venue as named. */
   venueName?: string;
+  /** The ticketing APIs' own classification, e.g. "Music/Rock/Indie Rock" (a hint for themes). */
+  genres?: string[];
+  /** Theme ids (data/themes.json) — worked out at build time, not stored in events.json. */
+  themes?: string[];
 }
 
 /**
@@ -200,6 +204,44 @@ export interface Person {
   kind: PersonKind;
   links?: Partial<Record<"homepage" | "spotify" | "instagram" | "wiki" | "youtube", string>>;
   tm?: string[]; // Ticketmaster attraction ids
+  genres?: string[]; // from the ticketing APIs, e.g. "Music/Jazz"
+  themes?: string[]; // worked out at build time
+}
+
+export type ThemeGroup = "art" | "ideas" | "stage" | "music" | "screen" | "more";
+
+/**
+ * A theme (data/themes.json): the fixed list venues, events and people are tagged with, so Discover can
+ * learn what you like from what you follow and save. Ids are permanent (tags are stored against them).
+ */
+export interface Theme {
+  id: string;
+  label: string;
+  group: ThemeGroup;
+  /** What it covers — guidance for whoever tags things (the daily maintenance task). */
+  about: string;
+  /** Regex (case-insensitive) on an event's title: a first guess until the event has been tagged. */
+  match?: string;
+  /** Only guess from `match` for these event types. */
+  types?: EventType[];
+  /** Regex (case-insensitive) on the ticketing APIs' genres, e.g. "Music/Rock/Indie Rock". */
+  genres?: string;
+}
+
+export const THEME_GROUP_LABEL: Record<ThemeGroup, string> = {
+  art: "Art & design",
+  ideas: "History & ideas",
+  stage: "Stage",
+  music: "Music",
+  screen: "Film",
+  more: "And also",
+};
+
+/** data/tags.json — themes the daily maintenance task assigned (id → theme ids; [] = none fit). */
+export interface TagsFile {
+  venues: Record<string, string[]>;
+  events: Record<string, string[]>;
+  people: Record<string, string[]>;
 }
 
 export type HealthStatus =

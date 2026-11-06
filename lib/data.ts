@@ -4,8 +4,9 @@
 
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import type { Person, SourceConfig, SourceHealth, Venue, VenueKind, WOEvent } from "./types.ts";
+import type { Person, SourceConfig, SourceHealth, TagsFile, Theme, ThemeGroup, Venue, VenueKind, WOEvent } from "./types.ts";
 import type { Week } from "./hours.ts";
+import { compileThemes, EMPTY_TAGS, eventThemes, personThemes, venueThemes } from "./themes.ts";
 
 export interface VenueLite {
   id: string;
@@ -20,12 +21,21 @@ export interface VenueLite {
   hoursPartial?: boolean;
   lat?: number;
   lng?: number;
+  /** Theme ids: what it's known for. */
+  themes?: string[];
+}
+
+export interface ThemeLite {
+  id: string;
+  label: string;
+  group: ThemeGroup;
 }
 
 export interface AppData {
   generatedAt: string;
   venues: VenueLite[];
   events: WOEvent[];
+  themes: ThemeLite[];
 }
 
 const read = <T>(file: string, fallback: T): T => {
@@ -48,7 +58,18 @@ export function loadAppData(): AppData {
   const withEvents = new Set(scraped.events.map((e) => e.venueId));
   const ownSource = new Set(sources.filter((s) => s.enabled && s.venueId && health.sources[s.id]?.status !== "blocked").map((s) => s.venueId));
 
-  const events = [...scraped.events, ...manual].filter((e) => venueIds.has(e.venueId));
+  const vocab = read<Theme[]>("themes.json", []);
+  const tags = { ...EMPTY_TAGS, ...read<Partial<TagsFile>>("tags.json", {}) };
+  const t = compileThemes(vocab);
+  const vThemes = new Map(venues.map((v) => [v.id, venueThemes(v, tags)]));
+
+  // Each event's themes (tagged, or a first guess); the APIs' genres were only needed for that.
+  const events = [...scraped.events, ...manual]
+    .filter((e) => venueIds.has(e.venueId))
+    .map(({ genres: _g, ...e }) => {
+      const themes = eventThemes({ ...e, genres: _g }, vThemes.get(e.venueId) ?? [], tags, t);
+      return themes.length ? { ...e, themes } : e;
+    });
 
   return (cache = {
     generatedAt: scraped.generatedAt,
@@ -62,9 +83,11 @@ export function loadAppData(): AppData {
         coverage: (withEvents.has(v.id) || ownSource.has(v.id) ? "auto" : v.manualOnly ? "manual" : "soon") as VenueLite["coverage"],
         ...(hours.venues[v.id]?.week ? { hours: hours.venues[v.id].week, hoursPartial: !!hours.venues[v.id].partial } : {}),
         ...(v.lat && v.lng ? { lat: v.lat, lng: v.lng } : {}),
+        ...(vThemes.get(v.id)?.length ? { themes: vThemes.get(v.id) } : {}),
       }))
       .sort((a, b) => a.name.replace(/^the /i, "").localeCompare(b.name.replace(/^the /i, ""))),
     events,
+    themes: vocab.map(({ id, label, group }) => ({ id, label, group })),
   });
 }
 
@@ -76,5 +99,12 @@ export interface PeopleData {
 
 export function loadPeopleData(): PeopleData {
   const file = read<{ people?: Person[]; elsewhere?: WOEvent[] }>("people.json", {});
-  return { people: file.people ?? [], elsewhere: file.elsewhere ?? [] };
+  const t = compileThemes(read<Theme[]>("themes.json", []));
+  const tags = { ...EMPTY_TAGS, ...read<Partial<TagsFile>>("tags.json", {}) };
+  // Each performer's themes (tagged, or from their genres); the genres themselves aren't needed after.
+  const people = (file.people ?? []).map(({ genres, ...p }) => {
+    const themes = personThemes({ ...p, genres }, tags, t);
+    return themes.length ? { ...p, themes } : p;
+  });
+  return { people, elsewhere: (file.elsewhere ?? []).map(({ genres: _g, ...e }) => e) };
 }

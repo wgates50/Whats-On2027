@@ -15,7 +15,8 @@
     "issues": "tsx scraper/issues.ts",
     "prebuild": "tsx scripts/build-data.ts",
     "predev": "tsx scripts/build-data.ts",
-    "hours": "tsx scraper/hours.ts"
+    "hours": "tsx scraper/hours.ts",
+    "themes": "tsx scraper/themes.ts"
   },
   "dependencies": {
     "@vercel/blob": "^2.8.2",

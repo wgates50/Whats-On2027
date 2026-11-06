@@ -304,13 +304,25 @@ test("Ticketmaster: performers become people; their dates at unlisted venues are
   const band = { id: "K8x", name: "Muse", classifications: [{ primary: true, segment: { name: "Music" }, genre: { name: "Rock" } }], externalLinks: { spotify: [{ url: "https://open.spotify.com/artist/x" }] } };
   const club = { id: "K8c", name: "The Comedy Store London", classifications: [{ primary: true, segment: { name: "Arts & Theatre" }, genre: { name: "Comedy" } }] };
   assert.equal(act("The Comedy Store", "The Best in Stand Up", [club]).people, undefined); // the venue isn't a person
+  const rep0Genres = (rs: { title: string; genres?: string[] }[]) => rs.filter((r) => r.genres).map((r) => [r.title, r.genres]);
   const raws = collapseRuns([
     act("The O2", "Bill Bailey : Vaudevillean", [bill]),
     act("O2 Academy Brixton", "Muse - The Wow! Signal Europa Tour", [band], "Music", "Rock"), // a venue we don't list
     act("O2 Academy Brixton", "Some Band Nobody Lists", [], "Music", "Rock"), // unlisted venue, no performer → dropped
   ]);
   assert.deepEqual(raws[0].people, [
-    { name: "Bill Bailey", kind: "comedy", links: { homepage: "https://billbailey.co.uk", wiki: "https://en.wikipedia.org/wiki/Bill_Bailey" }, tmId: "K8vZ9175zT0" },
+    {
+      name: "Bill Bailey",
+      kind: "comedy",
+      links: { homepage: "https://billbailey.co.uk", wiki: "https://en.wikipedia.org/wiki/Bill_Bailey" },
+      tmId: "K8vZ9175zT0",
+      genres: ["Arts & Theatre/Comedy"], // a hint for themes
+    },
+  ]);
+  assert.deepEqual(rep0Genres(raws), [
+    ["Bill Bailey : Vaudevillean", ["Arts & Theatre/Comedy"]],
+    ["Muse - The Wow! Signal Europa Tour", ["Music/Rock"]],
+    ["Some Band Nobody Lists", ["Music/Rock"]],
   ]);
   const source: SourceConfig = { id: "ticketmaster", name: "TM", enabled: true, aggregator: true, adapter: { type: "custom", module: "ticketmaster" } };
   const rep = normalize(raws, source, new VenueIndex(loadVenues()), TODAY);
@@ -318,7 +330,7 @@ test("Ticketmaster: performers become people; their dates at unlisted venues are
   assert.deepEqual(rep.elsewhere.map((e) => [e.venueId, e.venueName, e.type, e.people]), [["", "O2 Academy Brixton", "concert", ["muse"]]]);
   assert.ok(rep.elsewhere[0].id.startsWith("~o2-academy-brixton:"));
   assert.deepEqual(Object.keys(rep.people).sort(), ["bill-bailey", "muse"]);
-  assert.deepEqual(rep.people.muse, { id: "muse", name: "Muse", kind: "music", links: { spotify: "https://open.spotify.com/artist/x" }, tm: ["K8x"] });
+  assert.deepEqual(rep.people.muse, { id: "muse", name: "Muse", kind: "music", links: { spotify: "https://open.spotify.com/artist/x" }, tm: ["K8x"], genres: ["Music/Rock"] });
   // Unknown venue names are still reported for the maintenance task, kept or not.
   assert.equal(rep.unmatchedVenues["O2 Academy Brixton"], 2);
 });

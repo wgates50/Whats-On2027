@@ -9,6 +9,7 @@ export interface Prefs {
   follows: string[]; // venue ids
   people: string[]; // performer ids (data/people.json)
   saved: string[]; // event ids
+  likes: string[]; // theme ids you picked in Discover
   onlyMine: boolean; // calendar: only followed places and people
   /** "Mark all as seen": listings first seen on or before this day (YYYY-MM-DD) aren't new to you. */
   seenUpTo?: string;
@@ -20,7 +21,7 @@ export interface Prefs {
 export const laterDay = (a?: string, b?: string): string => (!a ? (b ?? "") : !b || a >= b ? a : b);
 
 const KEY = "whatson:v1";
-const EMPTY: Prefs = { follows: [], people: [], saved: [], onlyMine: true };
+const EMPTY: Prefs = { follows: [], people: [], saved: [], likes: [], onlyMine: true };
 let current: Prefs | null = null;
 const listeners = new Set<() => void>();
 
@@ -65,7 +66,7 @@ function subscribe(l: () => void) {
 
 export function usePrefs() {
   const prefs = useSyncExternalStore(subscribe, load, () => EMPTY);
-  const toggle = useCallback((key: "follows" | "people" | "saved", id: string) => {
+  const toggle = useCallback((key: "follows" | "people" | "saved" | "likes", id: string) => {
     const p = load();
     const has = p[key].includes(id);
     save({ ...p, [key]: has ? p[key].filter((x) => x !== id) : [...p[key], id] });
@@ -81,6 +82,7 @@ export function usePrefs() {
     toggleFollow: (id: string) => toggle("follows", id),
     togglePerson: (id: string) => toggle("people", id),
     toggleSaved: (id: string) => toggle("saved", id),
+    toggleLike: (id: string) => toggle("likes", id),
     set,
     markSeen,
   };

@@ -15,6 +15,12 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
   don't list (`elsewhere`, venueId `""`); people's ids are name slugs (follows are stored against them).
   (Bump `CACHE_VERSION` in `scraper/run.ts` when you change page parsing in a way that changes cached results.)
 - `data/manual-events.json` — hand-added events (via the "Add an event" issue form → workflow).
+- `data/themes.json` — the fixed list of themes (ids permanent); `data/tags.json` — themes the daily
+  maintenance task assigns to venues, events and performers (`npm run themes -- todo | apply | check`,
+  `scraper/tagging.ts`). Rules in `lib/themes.ts` give first guesses (API genres, title words, the
+  venue's themes) until something's tagged; themes are worked out at build time into `app.json`.
+  **Discover** (`components/DiscoverView.tsx`, `lib/profile.ts`) builds a profile on the device from the
+  themes of what you follow, save and pick, and suggests events, places and people. Still no AI in the app.
 - `data/hours.json` — opening hours from OpenStreetMap via Nominatim (`npm run hours`, weekly in CI;
   parser in `lib/hours.ts`). © OpenStreetMap contributors — keep the credit where hours are shown.
 - API sources: `scraper/adapters/custom/ticketmaster.ts`, `skiddle.ts` (keys from Actions secrets;
@@ -47,6 +53,7 @@ npm run build            # static site → out/
 npm run scrape -- --only <sourceId> --dry
 npm run discover -- <url>
 npm run probe -- <venueId>
+npm run themes -- todo              # what still needs themes (the daily task answers; then: apply <file>)
 npm run fixture -- <sourceId>        # re-record after changing a source config
 npm run fixture -- --rebaseline --all  # after changing classify/venue rules
 ```

@@ -165,6 +165,7 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
     if (r.price) ev.price = r.price;
     if (r.schedule) ev.schedule = r.schedule;
     if (r.onSale) ev.onSale = r.onSale;
+    if (r.genres?.length) ev.genres = r.genres;
     const people = addPeople(report.people, r.people);
     if (people.length) ev.people = people;
     if (elsewhere) report.elsewhere.push({ ...ev, ...(r.venueName ? { venueName: r.venueName } : {}) });
@@ -183,12 +184,14 @@ function addPeople(into: Record<string, Person>, raw: RawEvent["people"]): strin
     const had = into[id];
     const tm = [...new Set([...(had?.tm ?? []), ...(p.tmId ? [p.tmId] : [])])];
     const links = { ...p.links, ...had?.links };
+    const genres = [...new Set([...(had?.genres ?? []), ...(p.genres ?? [])])];
     into[id] = {
       id,
       name: had?.name ?? p.name,
       kind: had && had.kind !== "other" ? had.kind : (p.kind ?? "other"),
       ...(Object.keys(links).length ? { links } : {}),
       ...(tm.length ? { tm } : {}),
+      ...(genres.length ? { genres } : {}),
     };
   }
   return ids;

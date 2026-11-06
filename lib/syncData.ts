@@ -7,6 +7,8 @@ export interface SyncDoc {
   follows: string[];
   people: string[];
   saved: string[];
+  /** Themes you picked in Discover. */
+  likes?: string[];
   /** Listings first seen up to this day (YYYY-MM-DD) are no longer "new" (Mark all as seen). */
   seenUpTo?: string;
 }
@@ -48,22 +50,25 @@ export function cleanDoc(x: unknown): SyncDoc | null {
   const follows = list(o.follows);
   const people = list(o.people ?? []);
   const saved = list(o.saved);
+  const likes = list(o.likes ?? []);
   const updatedAt = typeof o.updatedAt === "string" && !isNaN(Date.parse(o.updatedAt)) ? o.updatedAt : null;
-  if (!follows || !people || !saved || !updatedAt) return null;
+  if (!follows || !people || !saved || !likes || !updatedAt) return null;
   const seenUpTo = typeof o.seenUpTo === "string" && DAY.test(o.seenUpTo) ? o.seenUpTo : undefined;
-  return { v: 1, updatedAt, follows, people, saved, ...(seenUpTo ? { seenUpTo } : {}) };
+  return { v: 1, updatedAt, follows, people, saved, ...(likes.length ? { likes } : {}), ...(seenUpTo ? { seenUpTo } : {}) };
 }
 
 /** Both devices changed since they last agreed: keep everything either of them has (and seen = the later). */
 export function mergeDocs(a: Omit<SyncDoc, "v" | "updatedAt">, b: Omit<SyncDoc, "v" | "updatedAt">, updatedAt: string): SyncDoc {
   const union = (x: string[], y: string[]) => [...new Set([...x, ...y])];
   const seenUpTo = later(a.seenUpTo, b.seenUpTo);
+  const likes = union(a.likes ?? [], b.likes ?? []);
   return {
     v: 1,
     updatedAt,
     follows: union(a.follows, b.follows),
     people: union(a.people, b.people),
     saved: union(a.saved, b.saved),
+    ...(likes.length ? { likes } : {}),
     ...(seenUpTo ? { seenUpTo } : {}),
   };
 }

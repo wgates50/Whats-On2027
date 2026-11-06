@@ -11,6 +11,7 @@ export interface RawPerson {
   kind?: Person["kind"];
   links?: Person["links"];
   tmId?: string;
+  genres?: string[];
 }
 
 /** What an adapter produces, before venue matching / classification / ids. */
@@ -28,6 +29,7 @@ export interface RawEvent {
   schedule?: Schedule;
   onSale?: OnSale;
   people?: RawPerson[];
+  genres?: string[]; // ticketing APIs' classification, e.g. "Music/Rock/Indie Rock"
 }
 
 export function load(html: string): CheerioAPI {

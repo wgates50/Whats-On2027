@@ -7,6 +7,7 @@ import { laterDay, usePrefs, useHydrated } from "@/lib/store";
 import { useAppData, usePeopleData } from "@/lib/useData";
 import { londonToday } from "@/lib/when";
 import { EventRow } from "./EventRow";
+import { ThemeChips } from "./ThemeChips";
 import { PERSON_KIND_LABEL } from "./PlacesView";
 import { Empty, Icon, LoadError, SectionHead } from "./ui";
 
@@ -87,6 +88,7 @@ export function PersonView() {
             </span>
           ))}
         </p>
+        <ThemeChips ids={person.themes} />
         <button className={`follow follow--big${on ? " is-on" : ""}`} onClick={() => togglePerson(person.id)} aria-pressed={on}>
           {on ? Icon.check : Icon.plus}
           <span>{on ? "Following" : "Follow"}</span>
