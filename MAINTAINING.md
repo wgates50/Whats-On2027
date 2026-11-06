@@ -120,8 +120,10 @@ only add the ones that fit the app (theatres, arts centres, comedy, talks — no
 
 The issue lists venue names that aggregators (e.g. Official London Theatre) mention but we can't
 match. For each name with ≥ 2 events that is clearly a London venue: add it to an existing venue's
-`aliases`, or add a new venue (then geocode). Skip non-London or ambiguous names. Then
-`npm run fixture -- --rebaseline --all` and `npm test`.
+`aliases`, or add a new venue (then geocode). Names you decide against (not London, bars, clubs,
+hotels, private hire): add them to `data/ignored-venues.json` as `"<name exactly as listed>": "<why>"`
+so they drop off the issue. Leave genuinely ambiguous names for the owner (comment on the issue).
+Then `npm run fixture -- --rebaseline --all` and `npm test`.
 
 ### 4. Backlog (only if budget remains)
 
@@ -134,8 +136,11 @@ match. For each name with ≥ 2 events that is clearly a London venue: add it to
   looks for). One commit per fix. `git push -u origin claude/maint-YYYY-MM-DD`.
 - PR title `Maintenance YYYY-MM-DD: <summary>`; body lists what changed and `Closes #n` for each
   issue resolved. Not a draft (drafts don't auto-merge).
-- Config-only PRs merge themselves after CI. Code PRs get a `needs-review` label — say so in the
+- Config-only PRs merge themselves after CI, and CI then closes the issues named by `Closes #n`
+  (GitHub itself doesn't when a bot merges). Code PRs get a `needs-review` label — say so in the
   PR body.
+- A disabled source's `broken-source` issue closes itself on the next scrape (with the source's
+  `notes` as the comment), so you don't need to close it by hand.
 
 REST recipes (`R=repos/wgates50/Whats-On2027`):
 
