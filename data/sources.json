@@ -444,7 +444,7 @@
   {
     "id": "freud-museum-london",
     "name": "Freud Museum London",
-    "enabled": true,
+    "enabled": false,
     "venueId": "freud-museum-london",
     "adapter": {
       "type": "pages",
@@ -456,7 +456,7 @@
         "dates": "div.feature-blurb.date"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Disabled 2026-11-06: freud.org.uk answers HTTP 403 to the daily scrape (refuses automated requests), so per the maintenance rules we do not work around it. Exhibitions still come via Art Fund, so the venue is not manualOnly."
   },
   {
     "id": "the-foundling-museum",
@@ -1065,7 +1065,7 @@
   {
     "id": "alexandra-palace",
     "name": "Alexandra Palace",
-    "enabled": true,
+    "enabled": false,
     "venueId": "alexandra-palace",
     "adapter": {
       "type": "pages",
@@ -1077,7 +1077,7 @@
         "dates": "header.event_details.bg_white"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Sport fixtures (ice hockey, darts, snooker) are excluded: not what the app is for.",
+    "notes": "Disabled 2026-11-06: alexandrapalace.com answers HTTP 403 to the daily scrape (refuses automated requests), so per the maintenance rules we do not work around it. Ticketmaster still lists its events, so the venue is not manualOnly.",
     "exclude": "\\b(vs?\\.?|darts|snooker)\\b"
   },
   {
@@ -1538,7 +1538,8 @@
         "dates": "div.card__meta.margin-trim"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "exclude": "/programme/",
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Excludes /programme/ pages (youth company, volunteers, work experience, community groups): participation schemes, not events."
   },
   {
     "id": "arcola-theatre",
