@@ -43,6 +43,8 @@ interface SkEvent {
   entryprice?: string;
   /** With description=1 Skiddle adds who's on (not in its docs' examples — read defensively). */
   artists?: { artistid?: string | number; name?: string }[];
+  /** Music genres, e.g. [{ name: "Indie" }] (read defensively too). */
+  genres?: { genreid?: string | number; name?: string }[];
 }
 interface SkResponse {
   error?: number | string;
@@ -60,10 +62,14 @@ export function mapSkiddleEvent(e: SkEvent): RawEvent | null {
   // Skiddle end times often run past midnight; only treat it as a run if it ends on a later *day* + 1.
   const multiDay = en && en.date > s.date && (Date.parse(en.date) - Date.parse(s.date)) / 864e5 >= 2;
   const dates: ParsedRange = multiDay ? { startDate: s.date, endDate: en!.date } : { startDate: s.date, endDate: null, startTime: s.time };
+  // "Comedy", "Theatre", or for gigs "Music/Indie" — hints for themes.
+  const label = e.EventCode ? CODE_LABEL[e.EventCode] ?? e.EventCode : undefined;
+  const named = (Array.isArray(e.genres) ? e.genres : []).map((g) => clean(g?.name)).filter(Boolean);
+  const genres = named.length ? named.map((g) => `${e.EventCode === "LIVE" ? "Music" : label ?? "Other"}/${g}`) : label ? [label] : [];
   const people: RawPerson[] = (Array.isArray(e.artists) ? e.artists : [])
     .map((a) => clean(a?.name))
     .filter(Boolean)
-    .map((name) => ({ name, kind: (e.EventCode && CODE_KIND[e.EventCode]) || "other" }));
+    .map((name) => ({ name, kind: (e.EventCode && CODE_KIND[e.EventCode]) || "other", ...(named.length ? { genres } : {}) }));
   const price = e.entryprice ? (/^\s*(free|£\s*0(\.00)?)\s*$/i.test(e.entryprice) ? "free" : textToPrice(e.entryprice) ?? (/\d/.test(e.entryprice) ? "paid" : undefined)) : undefined;
   return {
     url: e.link ?? `https://www.skiddle.com/e/${e.id}`,
@@ -73,10 +79,11 @@ export function mapSkiddleEvent(e: SkEvent): RawEvent | null {
     description: e.description ? clean(e.description).slice(0, 280) : undefined,
     price,
     venueName: e.venue?.name ? clean(e.venue.name) : undefined,
-    typeLabel: e.EventCode ? CODE_LABEL[e.EventCode] ?? e.EventCode : undefined,
+    typeLabel: label,
     schemaType: e.EventCode ? CODE_SCHEMA[e.EventCode] : undefined,
     cancelled: e.cancelled === true || e.cancelled === 1 || e.cancelled === "1",
     ...(people.length ? { people } : {}),
+    ...(genres.length ? { genres } : {}),
   };
 }
 

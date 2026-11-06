@@ -7,6 +7,7 @@ import type { WOEvent } from "@/lib/types";
 import { usePrefs } from "@/lib/store";
 import { usePeopleData } from "@/lib/useData";
 import { BADGE_LABEL, badges, darkDaysText, dayOfWeek, icsFor, isOneOff, londonParts, notOnSaleYet, performancesOn, rangeText, shortDate, weekdayShort, whenInstant, whenText } from "@/lib/when";
+import { ThemeChips } from "./ThemeChips";
 import { Icon } from "./ui";
 
 const TYPE_LABEL: Record<WOEvent["type"], string> = {
@@ -39,6 +40,7 @@ export function EventRow({
   index = 0,
   closed = false,
   dated = false,
+  why,
 }: {
   e: WOEvent;
   venue?: VenueLite;
@@ -54,6 +56,8 @@ export function EventRow({
   closed?: boolean;
   /** Lists that aren't about one day (feed, venue and people pages): show a one-off's date, not just its time. */
   dated?: boolean;
+  /** Why it's suggested (Discover), e.g. "Because you like Photography". */
+  why?: string;
 }) {
   const [open, setOpen] = useState(false);
   const b = badges(e, day, today).filter((x) => x !== "new" || e.firstSeen > baseline);
@@ -103,6 +107,7 @@ export function EventRow({
               {BADGE_LABEL[x]}
             </span>
           ))}
+          {why && <span className="row__why">{why}</span>}
         </span>
       </button>
       <button className={`row__save${saved ? " is-saved" : ""}`} onClick={onToggleSaved} aria-pressed={saved} aria-label={saved ? "Remove from plans" : "Save to plans"}>
@@ -135,6 +140,7 @@ export function EventRow({
             </p>
           )}
           {e.description && <p className="row__desc">{e.description}</p>}
+          <ThemeChips ids={e.themes} />
           {e.people?.length ? <People ids={e.people} /> : null}
           <div className="row__actions">
             <a href={e.url} target="_blank" rel="noopener noreferrer">

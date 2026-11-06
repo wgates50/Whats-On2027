@@ -255,6 +255,14 @@ img { max-width: 100%; display: block; }
 .row__where { margin: 0 0 10px; font: 500 13px/1.45 var(--font-body); color: var(--ink-2); }
 .row__where a { color: var(--ink); text-underline-offset: 3px; }
 .row__people { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+.row__why { font: italic 400 13px/1.2 var(--font-body); color: var(--accent); }
+.themes { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+.theme-chip { display: inline-block; padding: 6px 10px; border: 1px solid var(--rule); border-radius: 999px; font: 500 12.5px/1 var(--font-body); color: var(--ink-2); text-decoration: none; }
+.theme-chip:hover { border-color: var(--ink); color: var(--ink); }
+.picker { margin: 4px 0 6px; }
+.picker h3 { margin: 16px 0 8px; font: 700 11px/1.2 var(--font-body); letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); }
+.picker .chips { flex-wrap: wrap; overflow: visible; margin: 0; padding: 0; }
+.place__why { color: var(--accent); }
 .person-chip { display: inline-flex; align-items: center; border: 1px solid var(--rule); border-radius: 999px; padding: 0 0 0 11px; font: 500 13px/1 var(--font-body); }
 .person-chip a { text-decoration: none; padding: 8px 2px 8px 0; }
 .person-chip__follow { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; color: var(--ink-2); }

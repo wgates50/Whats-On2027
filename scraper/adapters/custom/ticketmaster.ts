@@ -98,6 +98,12 @@ function schemaFor(c?: TmClassification): string | undefined {
   return undefined;
 }
 
+/** "Music/Rock/Indie Rock" — Ticketmaster's classification as one path (a hint for themes). */
+export function genrePath(c?: TmClassification): string | undefined {
+  const path = [c?.segment?.name, c?.genre?.name, c?.subGenre?.name].filter((x) => x && !/^(undefined|other)$/i.test(x)).join("/");
+  return path || undefined;
+}
+
 /** What sort of act a performer is, from their own (or the event's) classification. */
 function kindOf(c?: TmClassification): Person["kind"] {
   const segment = c?.segment?.name ?? "";
@@ -124,7 +130,15 @@ function personOf(a: TmAttraction, eventClass?: TmClassification, venueName?: st
     if (url && /^https?:\/\//.test(url)) links[k] = url;
   }
   const c = a.classifications?.find((x) => x.primary) ?? a.classifications?.[0];
-  return { name, kind: kindOf(c?.segment?.name && c.segment.name !== "Undefined" ? c : eventClass), ...(Object.keys(links).length ? { links } : {}), ...(a.id ? { tmId: a.id } : {}) };
+  const own = c?.segment?.name && c.segment.name !== "Undefined" ? c : eventClass;
+  const genres = genrePath(own);
+  return {
+    name,
+    kind: kindOf(own),
+    ...(Object.keys(links).length ? { links } : {}),
+    ...(a.id ? { tmId: a.id } : {}),
+    ...(genres ? { genres: [genres] } : {}),
+  };
 }
 
 function onSaleOf(e: TmEvent): OnSale | undefined {
@@ -155,6 +169,7 @@ export function mapTmEvent(e: TmEvent): RawEvent | null {
   const prices = (e.priceRanges ?? []).flatMap((p) => [p.min, p.max]).filter((x): x is number => typeof x === "number");
   const onSale = onSaleOf(e);
   const people = (e._embedded?.attractions ?? []).map((a) => personOf(a, c, venue?.name)).filter((p): p is RawPerson => !!p);
+  const genres = genrePath(c);
   return {
     url: e.url ?? `https://www.ticketmaster.co.uk/event/${e.id}`,
     title: clean(e.name),
@@ -168,6 +183,7 @@ export function mapTmEvent(e: TmEvent): RawEvent | null {
     cancelled: status === "canceled" || MOVED.test(e.name),
     ...(onSale ? { onSale } : {}),
     ...(people.length ? { people } : {}),
+    ...(genres ? { genres: [genres] } : {}),
   };
 }
 

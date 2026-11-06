@@ -216,6 +216,7 @@ const enrich = (kept: WOEvent, dup: WOEvent) => {
   if (dup.schedule && !kept.schedule) kept.schedule = dup.schedule;
   if (dup.onSale && !kept.onSale) kept.onSale = dup.onSale;
   if (dup.people?.length) kept.people = [...new Set([...(kept.people ?? []), ...dup.people])];
+  if (dup.genres?.length && !kept.genres) kept.genres = dup.genres;
 };
 for (const e of merged) {
   const k = keyOf(e);
@@ -275,12 +276,22 @@ const peopleById = new Map<string, Person>(prevPeople.people.map((p) => [p.id, p
 for (const o of outcomes)
   for (const p of Object.values(o.people)) {
     const had = peopleById.get(p.id);
-    peopleById.set(p.id, had ? { ...had, ...p, links: { ...had.links, ...p.links }, tm: [...new Set([...(had.tm ?? []), ...(p.tm ?? [])])] } : p);
+    peopleById.set(
+      p.id,
+      had
+        ? { ...had, ...p, links: { ...had.links, ...p.links }, tm: [...new Set([...(had.tm ?? []), ...(p.tm ?? [])])], genres: [...new Set([...(had.genres ?? []), ...(p.genres ?? [])])] }
+        : p,
+    );
   }
 const named = new Set([...events, ...elsewhere].flatMap((e) => e.people ?? []));
 const people = [...peopleById.values()]
   .filter((p) => named.has(p.id))
-  .map((p) => ({ ...p, ...(p.links && !Object.keys(p.links).length ? { links: undefined } : {}), ...(p.tm && !p.tm.length ? { tm: undefined } : {}) }))
+  .map((p) => ({
+    ...p,
+    ...(p.links && !Object.keys(p.links).length ? { links: undefined } : {}),
+    ...(p.tm && !p.tm.length ? { tm: undefined } : {}),
+    ...(p.genres && !p.genres.length ? { genres: undefined } : {}),
+  }))
   .sort((a, b) => a.name.localeCompare(b.name));
 
 // ---------------------------------------------------------------- details

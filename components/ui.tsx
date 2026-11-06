@@ -61,6 +61,12 @@ export const Icon = {
       <circle cx="12" cy="10" r="2.2" fill="currentColor" />
     </svg>
   ),
+  discover: (
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+      <path d="M14.8 9.2l-1.7 3.9-3.9 1.7 1.7-3.9z" fill="currentColor" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
+    </svg>
+  ),
   plus: (
     <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
       <path d="M12 5v14M5 12h14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
