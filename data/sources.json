@@ -1538,7 +1538,8 @@
         "dates": "div.card__meta.margin-trim"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "exclude": "/programme/",
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Excludes /programme/ pages (youth company, volunteers, work experience, community groups): participation schemes, not events."
   },
   {
     "id": "arcola-theatre",
