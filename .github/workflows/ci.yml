@@ -48,7 +48,7 @@ jobs:
           git fetch origin "${{ github.base_ref }}" --depth=100
           changed=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD")
           echo "Changed files:"; echo "$changed"
-          disallowed=$(echo "$changed" | grep -vE '^(data/sources\.json|data/venues\.json|data/manual-events\.json|data/ignored-venues\.json|scraper/fixtures/.+)$' || true)
+          disallowed=$(echo "$changed" | grep -vE '^(data/sources\.json|data/venues\.json|data/manual-events\.json|data/ignored-venues\.json|data/tags\.json|scraper/fixtures/.+)$' || true)
           if [ -n "$disallowed" ]; then
             echo "ok=false" >> "$GITHUB_OUTPUT"
             { echo "files<<EOF"; echo "$disallowed"; echo "EOF"; } >> "$GITHUB_OUTPUT"
