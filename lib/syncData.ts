@@ -1,4 +1,4 @@
-// What a device syncs (follows, people, saved events) and how two copies are merged. Shared by the
+// What a device syncs (follows, people, saved events, what you've seen) and how two copies are merged. Shared by the
 // /api/sync route and the app, and unit-tested in scraper/sync.test.ts.
 
 export interface SyncDoc {
@@ -7,7 +7,13 @@ export interface SyncDoc {
   follows: string[];
   people: string[];
   saved: string[];
+  /** Listings first seen up to this day (YYYY-MM-DD) are no longer "new" (Mark all as seen). */
+  seenUpTo?: string;
 }
+
+const DAY = /^\d{4}-\d{2}-\d{2}$/;
+/** The later of two YYYY-MM-DD days (either may be missing). */
+const later = (a?: string, b?: string) => (!a ? b : !b || a >= b ? a : b);
 
 /** 12 characters of Crockford base32 (no I, L, O, U), shown as XXXX-XXXX-XXXX: ~60 bits. */
 const ALPHABET = "0123456789ABCDEFGHJKMNPQRSTVWXYZ";
@@ -44,11 +50,20 @@ export function cleanDoc(x: unknown): SyncDoc | null {
   const saved = list(o.saved);
   const updatedAt = typeof o.updatedAt === "string" && !isNaN(Date.parse(o.updatedAt)) ? o.updatedAt : null;
   if (!follows || !people || !saved || !updatedAt) return null;
-  return { v: 1, updatedAt, follows, people, saved };
+  const seenUpTo = typeof o.seenUpTo === "string" && DAY.test(o.seenUpTo) ? o.seenUpTo : undefined;
+  return { v: 1, updatedAt, follows, people, saved, ...(seenUpTo ? { seenUpTo } : {}) };
 }
 
-/** Both devices changed since they last agreed: keep everything either of them has. */
+/** Both devices changed since they last agreed: keep everything either of them has (and seen = the later). */
 export function mergeDocs(a: Omit<SyncDoc, "v" | "updatedAt">, b: Omit<SyncDoc, "v" | "updatedAt">, updatedAt: string): SyncDoc {
   const union = (x: string[], y: string[]) => [...new Set([...x, ...y])];
-  return { v: 1, updatedAt, follows: union(a.follows, b.follows), people: union(a.people, b.people), saved: union(a.saved, b.saved) };
+  const seenUpTo = later(a.seenUpTo, b.seenUpTo);
+  return {
+    v: 1,
+    updatedAt,
+    follows: union(a.follows, b.follows),
+    people: union(a.people, b.people),
+    saved: union(a.saved, b.saved),
+    ...(seenUpTo ? { seenUpTo } : {}),
+  };
 }

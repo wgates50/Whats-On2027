@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { AppData } from "@/lib/data";
 import type { WOEvent } from "@/lib/types";
-import { usePrefs, useHydrated } from "@/lib/store";
+import { laterDay, usePrefs, useHydrated } from "@/lib/store";
 import { addDays, daysBetween, isOnDay, isOneOff, londonToday, notOnSaleYet, shortDate } from "@/lib/when";
 import { useAppData, usePeopleData } from "@/lib/useData";
 import { EventRow } from "./EventRow";
@@ -38,12 +38,16 @@ const CREDITS: [sourceId: string, name: string][] = [
 
 function Feed({ data }: { data: AppData }) {
   const hydrated = useHydrated();
-  const { prefs, toggleSaved } = usePrefs();
+  const { prefs, toggleSaved, markSeen } = usePrefs();
   const [today, setToday] = useState("");
+  const [showSeen, setShowSeen] = useState(false);
   useEffect(() => setToday(londonToday()), []);
 
   const venues = useMemo(() => new Map(data.venues.map((v) => [v.id, v])), [data.venues]);
-  const baseline = useMemo(() => data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"), [data.events]);
+  // The first scrape found everything at once, so nothing from that day counts as new; after that,
+  // "new" means first listed since you last pressed "Mark all as seen" (synced across devices).
+  const firstScrape = useMemo(() => data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"), [data.events]);
+  const baseline = laterDay(firstScrape, prefs.seenUpTo);
   const follows = useMemo(() => new Set(prefs.follows), [prefs.follows]);
   const followedPeople = useMemo(() => new Set(prefs.people), [prefs.people]);
   const saved = useMemo(() => new Set(prefs.saved), [prefs.saved]);
@@ -63,13 +67,22 @@ function Feed({ data }: { data: AppData }) {
   const now = new Date().toISOString();
   const nextMonth = new Date(Date.now() + 31 * 864e5).toISOString();
 
+  // A reminder of what you've saved for the next week (the Saved tab has the full list).
+  const nextDay = (e: WOEvent) => (e.startDate && e.startDate > today ? e.startDate : today);
   const plans = upcoming
-    .filter((e) => saved.has(e.id))
-    .sort((a, b) => (a.startDate && a.startDate > today ? a.startDate : today).localeCompare(b.startDate && b.startDate > today ? b.startDate : today));
+    .filter((e) => saved.has(e.id) && nextDay(e) <= addDays(today, 7))
+    .sort((a, b) => nextDay(a).localeCompare(nextDay(b)));
 
-  const announced = upcoming
-    .filter((e) => scope(e) && e.firstSeen > baseline && daysBetween(e.firstSeen, today) <= 14)
+  const recent = upcoming
+    .filter((e) => scope(e) && e.firstSeen > firstScrape && daysBetween(e.firstSeen, today) <= 14)
     .sort((a, b) => b.firstSeen.localeCompare(a.firstSeen));
+  const announced = recent.filter((e) => e.firstSeen > baseline);
+  const seenRecently = recent.filter((e) => e.firstSeen <= baseline);
+  const latest = upcoming.reduce((m, e) => (e.firstSeen > m ? e.firstSeen : m), "");
+  const markAllSeen = () => {
+    markSeen(latest);
+    setShowSeen(false);
+  };
 
   // Tickets going on general sale soon (Ticketmaster), soonest first.
   const onSale = upcoming
@@ -133,7 +146,7 @@ function Feed({ data }: { data: AppData }) {
 
       {plans.length > 0 && (
         <section className="section">
-          <SectionHead title="Your plans" count={plans.length} action={<Link className="link-button" href="/saved/">All saved</Link>} />
+          <SectionHead title="Saved · this week" count={plans.length} action={<Link className="link-button" href="/saved/">All saved</Link>} />
           <div className="rows">{plans.map((e, i) => row(e, i, e.startDate && e.startDate > today ? e.startDate : today))}</div>
         </section>
       )}
@@ -159,13 +172,44 @@ function Feed({ data }: { data: AppData }) {
       )}
 
       <section className="section">
-        <SectionHead title="Just announced" count={announced.length} />
+        <SectionHead
+          title="Just announced"
+          count={announced.length}
+          action={
+            announced.length > 0 ? (
+              <button className="link-button" onClick={markAllSeen}>
+                Mark all as seen
+              </button>
+            ) : undefined
+          }
+        />
         {announced.length ? (
-          <div className="rows">{announced.slice(0, cap).map((e, i) => row(e, i))}</div>
+          <>
+            <div className="rows">{announced.slice(0, cap).map((e, i) => row(e, i))}</div>
+            <p className="seen-bar">
+              <button className="link-button" onClick={markAllSeen}>
+                Mark all as seen
+              </button>{" "}
+              — next time you’ll only see what’s new since now.
+            </p>
+          </>
         ) : (
           <Empty>
-            <p>Nothing new {anyFollows ? "for what you follow" : ""} in the last two weeks. New listings appear here the day they’re published.</p>
+            <p>
+              {seenRecently.length ? "You’re up to date." : `Nothing new ${anyFollows ? "for what you follow " : ""}in the last two weeks.`} New listings appear here the
+              morning they’re published.
+            </p>
           </Empty>
+        )}
+        {seenRecently.length > 0 && (
+          <>
+            <p className="seen-bar">
+              <button className="link-button" onClick={() => setShowSeen(!showSeen)} aria-expanded={showSeen}>
+                {showSeen ? "Hide" : "Show"} the {seenRecently.length} you’ve seen
+              </button>
+            </p>
+            {showSeen && <div className="rows rows--seen">{seenRecently.slice(0, cap).map((e, i) => row(e, i))}</div>}
+          </>
         )}
       </section>
 

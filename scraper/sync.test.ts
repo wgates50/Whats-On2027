@@ -35,3 +35,13 @@ test("when both devices changed, nothing followed on either is lost", () => {
     saved: ["e1", "e2"],
   });
 });
+
+test("'seen up to' syncs: well-formed days only, and merging keeps the later one", () => {
+  const base = { updatedAt: "2026-11-06T10:00:00.000Z", follows: [], people: [], saved: [] };
+  assert.equal(cleanDoc({ ...base, seenUpTo: "2026-11-05" })?.seenUpTo, "2026-11-05");
+  assert.equal(cleanDoc({ ...base, seenUpTo: "last week" })?.seenUpTo, undefined); // dropped, doc still fine
+  assert.equal(cleanDoc(base)?.seenUpTo, undefined); // older clients don't send it
+  assert.equal(mergeDocs({ ...base, seenUpTo: "2026-11-04" }, { ...base, seenUpTo: "2026-11-06" }, base.updatedAt).seenUpTo, "2026-11-06");
+  assert.equal(mergeDocs({ ...base, seenUpTo: "2026-11-04" }, base, base.updatedAt).seenUpTo, "2026-11-04");
+  assert.equal("seenUpTo" in mergeDocs(base, base, base.updatedAt), false);
+});

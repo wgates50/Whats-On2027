@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { WOEvent } from "@/lib/types";
-import { usePrefs, useHydrated } from "@/lib/store";
+import { laterDay, usePrefs, useHydrated } from "@/lib/store";
 import { useAppData, usePeopleData } from "@/lib/useData";
 import { londonToday } from "@/lib/when";
 import { EventRow } from "./EventRow";
@@ -63,7 +63,10 @@ export function PersonView() {
   const dates = [...data.events, ...people.elsewhere]
     .filter((e) => e.people?.includes(person.id) && lastDay(e) >= today)
     .sort((a, b) => (a.startDate ?? today).localeCompare(b.startDate ?? today) || a.title.localeCompare(b.title));
-  const baseline = data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999");
+  const baseline = laterDay(
+    data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"),
+    prefs.seenUpTo,
+  );
   const links = Object.entries(person.links ?? {}).filter(([, url]) => url);
 
   return (

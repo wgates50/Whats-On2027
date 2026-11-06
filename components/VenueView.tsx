@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { VenueLite } from "@/lib/data";
 import type { WOEvent } from "@/lib/types";
-import { usePrefs, useHydrated } from "@/lib/store";
+import { laterDay, usePrefs, useHydrated } from "@/lib/store";
 import { addEventUrl } from "@/lib/site";
 import { dayOfWeek, isOnDay, isOneOff, londonToday } from "@/lib/when";
 import { closedDaysText, type Week } from "@/lib/hours";
@@ -36,7 +36,7 @@ export function VenueView({ venue, events, baseline }: { venue: VenueLite; event
       venue={venue}
       day={day}
       today={t}
-      baseline={baseline}
+      baseline={laterDay(baseline, prefs.seenUpTo)}
       followed={on}
       saved={saved.has(e.id)}
       onToggleSaved={() => toggleSaved(e.id)}
