@@ -4,6 +4,9 @@
 
 import type { VenueLite } from "./data";
 import type { EventType, Person, VenueKind, WOEvent } from "./types";
+import { isAct } from "./themes";
+
+export { isAct };
 
 /**
  * How much each signal counts, in total (an item spreads it over its themes, most telling first):
@@ -263,12 +266,6 @@ export function recommendVenues(p: Profile, venues: VenueLite[], onNow: Record<s
 }
 
 /** Acts (not shows: musicians, comedians, speakers, dancers) you don't follow, with London dates. */
-const ACT_KINDS = new Set<Person["kind"]>(["music", "comedy", "talk", "dance"]);
-/** Ticketmaster also lists club nights and line-up shows as "attractions": not someone to follow. */
-const NOT_AN_ACT = /\b(comedy|stand[- ]?up (show|night)|best in stand[- ]?up|open mic|showcase|presents|live at|club|night|carnival|tribute|the musical|experience|festival|awards?)\b/i;
-/** A performer you could follow — not a production, club night or tribute show. */
-export const isAct = (x: Person) => ACT_KINDS.has(x.kind) && !NOT_AN_ACT.test(x.name);
-
 export function recommendPeople(p: Profile, people: Person[], dates: Map<string, number>, following: Set<string>, limit = 6): Match<Person>[] {
   if (isEmpty(p)) return [];
   const cands = people

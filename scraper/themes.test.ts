@@ -42,7 +42,8 @@ test("first guesses: the ticketing APIs' genres, then the title, the type, and t
   assert.deepEqual(g({ title: "In conversation: Zadie Smith", type: "talk" }).themes, ["talks"]);
   // Nothing about the subject: borrow the venue's themes that suit the event type.
   assert.deepEqual(g({ title: "Kevin Bridges", type: "show" }, ["comedy", "musicals"]).themes, ["comedy"]);
-  assert.deepEqual(g({ title: "Night Songs", type: "concert" }, ["plays", "classical"]).themes, ["classical"]);
+  assert.deepEqual(g({ title: "Night Songs", type: "concert" }, ["classical", "plays"]).themes, ["classical"]);
+  assert.deepEqual(g({ title: "Night Songs", type: "concert" }, ["plays", "classical"]).themes, []); // a theatre's concert: can't tell
   assert.deepEqual(g({ title: "Late Medieval", type: "talk" }).themes, ["history", "talks"]); // not a museum late
   assert.deepEqual(g({ title: "Untitled", type: "exhibition" }, ["contemporary-art", "painting", "film"]).themes, ["contemporary-art", "painting"]);
   assert.equal(g({ title: "Untitled", type: "concert" }, ["plays"]).from, "none");

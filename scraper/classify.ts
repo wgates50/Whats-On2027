@@ -135,11 +135,13 @@ export function classifyType(opts: {
 const COURSE_TITLE =
   /\b(year|short|online|evening|weekend|one-day|day|foundation|intermediate|introductory|beginners'?|professional development)\s+courses?\b|\bcpd\b/i;
 const FOR_SCHOOLS = /\bschools?\s*(&|and)\s*colleges\b|\bschools:\s|\bschools'?\s+(screen|workshops?|sessions?|programme)\b|\bks[1-5]\b|\beyfs\b/i;
+/** Sport isn't what the app is for: "Haringey Huskies v Oxford Stars", darts, snooker… */
+const SPORT = /\b(darts|snooker|ice hockey|boxing|wrestling)\b|^(?!.*\b(concert|live|show|musical|play|film|screening|comedy)\b)[^:]{2,40}\sv\s[^:]{2,40}$/i;
 const ONLINE = /^\s*online\b|\(\s*(online|livestream|live stream)\s*\)|\blivestream\b|\bevento online\b|\bonline (event|talk|lecture|session|workshop)\b/i;
 
 /**
  * Listings that aren't things to go to on a day: enrolment courses, sessions for school groups, a
- * season's overview page, and online-only events (often a livestream of a talk listed in person too).
+ * season's overview page, sport, and online-only events (often a livestream of a talk listed in person too).
  * Returns why (they're left out), or null.
  */
 export function notAnEvent(r: { url: string; title: string; typeLabel?: string }): string | null {
@@ -154,6 +156,7 @@ export function notAnEvent(r: { url: string; title: string; typeLabel?: string }
   if (/^seasons?$/i.test(label)) return "season overview";
   if (FOR_SCHOOLS.test(r.title)) return "for schools";
   if (ONLINE.test(r.title)) return "online";
+  if (SPORT.test(r.title)) return "sport";
   return null;
 }
 
