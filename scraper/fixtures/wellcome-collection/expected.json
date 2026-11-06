@@ -1,6 +1,6 @@
 {
   "sourceId": "wellcome-collection",
-  "recordedAt": "2026-11-02",
+  "recordedAt": "2026-11-06",
   "limits": {
     "maxPages": 1,
     "maxLinks": 4
@@ -11,12 +11,65 @@
       "https://wellcomecollection.org/whats-on"
     ],
     "cards": {
-      "item": "a.iScFvn",
-      "dates": "time"
+      "item": "a[data-component$='-promo'], a[href^='/exhibitions/']:has(time)",
+      "dates": "p:has(> time ~ time), p > time",
+      "title": "h2, h3"
     }
   },
-  "rawCount": 24,
+  "rawCount": 26,
   "events": [
+    {
+      "id": "wellcome-collection:exhibitions-the-coming-of-age",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "The Coming of Age",
+      "url": "https://wellcomecollection.org/exhibitions/the-coming-of-age",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-03-26",
+      "endDate": "2026-11-29",
+      "firstSeen": "2026-11-06",
+      "image": "https://images.prismic.io/wellcomecollection/ac4w7pGXnQHGZMe4_SDP_EP003369_260319_2680.jpg?w=1338&auto=compress%2Cformat&rect=0%2C0%2C4000%2C2250&q=50"
+    },
+    {
+      "id": "wellcome-collection:exhibitions-audrey-amiss-the-surviving-exhibitions",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Audrey Amiss: The Surviving Exhibitions",
+      "url": "https://wellcomecollection.org/exhibitions/audrey-amiss-the-surviving-exhibitions",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-07-10",
+      "endDate": "2027-02-07",
+      "firstSeen": "2026-11-06",
+      "image": "https://images.prismic.io/wellcomecollection/iAXrdUQkBhpr5CAB_EP3621_0020.jpg?w=1338&auto=compress%2Cformat&rect=0%2C417%2C4000%2C2250&q=50"
+    },
+    {
+      "id": "wellcome-collection:exhibitions-rudy-loewe-intimacies-of-care-spaces-of-grief-and-possibility",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Rudy Loewe: Intimacies of Care – Spaces of Grief and Possibility",
+      "url": "https://wellcomecollection.org/exhibitions/rudy-loewe-intimacies-of-care-spaces-of-grief-and-possibility",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-07-10",
+      "endDate": "2027-02-07",
+      "firstSeen": "2026-11-06",
+      "image": "https://images.prismic.io/wellcomecollection/9nTrkFmIBv1FMmrS_EP3619_0001.jpg?w=1338&auto=compress%2Cformat&rect=0%2C196%2C4000%2C2250&q=50"
+    },
+    {
+      "id": "wellcome-collection:exhibitions-tenderness-and-rage",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "Tenderness and Rage",
+      "url": "https://wellcomecollection.org/exhibitions/tenderness-and-rage",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-05-29",
+      "endDate": "2027-06-20",
+      "firstSeen": "2026-11-06",
+      "image": "https://images.prismic.io/wellcomecollection/aikf6QeQX7-eXHyo_BTG260520093501.jpg?w=1338&auto=compress%2Cformat&rect=0%2C272%2C3543%2C1993&q=50"
+    },
     {
       "id": "wellcome-collection:events-an-artist-in-everyday-life",
       "venueId": "wellcome-collection",
@@ -27,7 +80,7 @@
       "category": "art-events",
       "startDate": "2026-11-07",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/aO46BJ5xUNkB175r_MAINIMAGEAndreaMindel020722_Credit-RosiePowell.jpg?w=1338&auto=compress%2Cformat&rect=0%2C562%2C6496%2C3654&q=50"
     },
     {
@@ -40,7 +93,7 @@
       "category": "art-events",
       "startDate": "2026-11-07",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/agNhc6YofJOwHJFU_EP_003391_0010.jpg?w=1338&auto=compress%2Cformat&rect=0%2C0%2C4000%2C2250&q=50"
     },
     {
@@ -53,7 +106,7 @@
       "category": "art-events",
       "startDate": "2026-11-11",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/airHxKlQnVZVEN6z_BTG260520152042-Edit.jpg?w=1338&auto=compress%2Cformat&rect=&q=50"
     },
     {
@@ -66,7 +119,7 @@
       "category": "art-events",
       "startDate": "2026-11-14",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/ZtmF1bzzk9ZrXB24_EP_002108_037.jpg?w=1338&auto=compress%2Cformat&rect=446%2C527%2C3540%2C1991&q=50"
     },
     {
@@ -79,7 +132,7 @@
       "category": "art-events",
       "startDate": "2026-11-17",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/airGyKlQnVZVEN55_BTG260520145210.jpg?w=1338&auto=compress%2Cformat&rect=&q=50"
     },
     {
@@ -92,7 +145,7 @@
       "category": "art-events",
       "startDate": "2026-11-18",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/Pkh4OhEfrQprG48j_BTG260701143704.jpg?w=1338&auto=compress%2Cformat&rect=190%2C474%2C3810%2C2143&q=50"
     },
     {
@@ -105,7 +158,7 @@
       "category": "art-events",
       "startDate": "2026-11-22",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/GQorxb6SWRo4e1xA_BTG260701143026.jpg?w=1338&auto=compress%2Cformat&rect=0%2C354%2C4000%2C2250&q=50"
     },
     {
@@ -118,7 +171,7 @@
       "category": "art-events",
       "startDate": "2026-11-24",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/aFQEynfc4bHWiieO_EP_000737_029.jpg?w=1338&auto=compress%2Cformat&rect=0%2C176%2C4000%2C2250&q=50"
     },
     {
@@ -131,7 +184,7 @@
       "category": "art-events",
       "startDate": "2026-11-25",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/afTJUcBOoF08xiln_SDP_EP003369_260319_4447.jpg?w=1338&auto=compress%2Cformat&rect=0%2C137%2C4000%2C2250&q=50"
     },
     {
@@ -144,7 +197,7 @@
       "category": "art-events",
       "startDate": "2026-11-26",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/vRAhz7sdvapGOC9a_EP_003643_003.jpg?w=1338&auto=compress%2Cformat&rect=125%2C962%2C6380%2C3589&q=50"
     },
     {
@@ -157,7 +210,7 @@
       "category": "art-events",
       "startDate": "2026-11-28",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/afTJUMBOoF08xilm_SDP_EP003369_260319_4205.jpg?w=1338&auto=compress%2Cformat&rect=0%2C320%2C4000%2C2250&q=50"
     },
     {
@@ -170,7 +223,7 @@
       "category": "art-events",
       "startDate": "2026-11-29",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/rkHtawbrOkpFMGvy_SDP_EP003626_260702_3114-Edit.jpg?w=1338&auto=compress%2Cformat&rect=&q=50"
     },
     {
@@ -183,7 +236,7 @@
       "category": "art-events",
       "startDate": "2026-12-01",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/P1KNgLJh2aJJoFAr_BTG260520103801-2.jpg?w=1338&auto=compress%2Cformat&rect=0%2C72%2C4000%2C2250&q=50"
     },
     {
@@ -196,8 +249,21 @@
       "category": "art-events",
       "startDate": "2026-12-05",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/cJ4wZJNi582UtbzT_EP3621_0029.jpg?w=1338&auto=compress%2Cformat&rect=162%2C542%2C3774%2C2123&q=50"
+    },
+    {
+      "id": "wellcome-collection:events-these-dreams-are-made-of-blue",
+      "venueId": "wellcome-collection",
+      "sourceId": "wellcome-collection",
+      "title": "These Dreams Are Made of Blue",
+      "url": "https://wellcomecollection.org/events/these-dreams-are-made-of-blue",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-05",
+      "endDate": null,
+      "firstSeen": "2026-11-06",
+      "image": "https://images.prismic.io/wellcomecollection/jVbeclAHfbVuejsG_EP3641_0004.jpg?w=1338&auto=compress%2Cformat&rect=0%2C329%2C4000%2C2250&q=50"
     },
     {
       "id": "wellcome-collection:events-audrey-amiss-rudy-loewe-relaxed-openings",
@@ -209,7 +275,7 @@
       "category": "art-events",
       "startDate": "2026-12-10",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/zuSP8RLJqswQhLFS_EP3619_0070-2.jpg?w=1338&auto=compress%2Cformat&rect=0%2C397%2C4000%2C2250&q=50"
     }
   ]

@@ -341,7 +341,9 @@
     "area": "Kensington Gardens",
     "website": "https://www.serpentinegalleries.org",
     "lat": 51.50709,
-    "lng": -0.17126
+    "lng": -0.17126,
+    "manualOnly": true,
+    "notes": "Own website refuses automated requests (HTTP 403). Events come from aggregators (if any) or manual adds."
   },
   {
     "id": "whitechapel-gallery",
@@ -1599,7 +1601,8 @@
     "id": "the-old-vic",
     "name": "The Old Vic",
     "aliases": [
-      "Old Vic"
+      "Old Vic",
+      "Old Vic Theatre"
     ],
     "kind": "theatre",
     "area": "Waterloo",
@@ -2041,7 +2044,9 @@
     "id": "london-county-hall",
     "name": "London County Hall",
     "aliases": [
-      "County Hall"
+      "County Hall",
+      "Riverside Building County Hall Westminster Bridge Road",
+      "Chamber Country Hall"
     ],
     "kind": "theatre",
     "area": "South Bank",
@@ -2158,6 +2163,9 @@
   {
     "id": "apollo-theatre",
     "name": "Apollo Theatre",
+    "aliases": [
+      "Apollo Shaftesbury Avenue"
+    ],
     "kind": "theatre",
     "area": "Shaftesbury Avenue",
     "website": "https://officiallondontheatre.com/venue/apollo-theatre/",
@@ -2167,6 +2175,9 @@
   {
     "id": "apollo-victoria-theatre",
     "name": "Apollo Victoria Theatre",
+    "aliases": [
+      "Apollo Victoria Theater"
+    ],
     "kind": "theatre",
     "area": "Victoria",
     "website": "https://officiallondontheatre.com/venue/apollo-victoria-theatre/",
@@ -2394,6 +2405,9 @@
   {
     "id": "prince-edward-theatre",
     "name": "Prince Edward Theatre",
+    "aliases": [
+      "Prince Edward Theatre Old Compton St London W1D 4HS"
+    ],
     "kind": "theatre",
     "area": "Soho",
     "website": "https://officiallondontheatre.com/venue/prince-edward-theatre/",
@@ -2675,5 +2689,73 @@
     "website": "https://www.mallgalleries.org.uk",
     "lat": 51.50653,
     "lng": -0.12998
+  },
+  {
+    "id": "big-belly-comedy-southbank",
+    "name": "Big Belly Comedy Club Southbank",
+    "aliases": [
+      "Big Belly Comedy - Southbank",
+      "Big Belly Bar And Comedy Club Southbank"
+    ],
+    "kind": "comedy-club",
+    "area": "South Bank",
+    "website": "https://bigbellycomedy.club",
+    "lat": 51.50781,
+    "lng": -0.10687
+  },
+  {
+    "id": "bush-hall",
+    "name": "Bush Hall",
+    "kind": "live-venue",
+    "area": "Shepherd's Bush",
+    "website": "https://bushhallmusic.co.uk",
+    "lat": 51.50656,
+    "lng": -0.23168
+  },
+  {
+    "id": "hoxton-hall",
+    "name": "Hoxton Hall",
+    "kind": "arts-centre",
+    "area": "Hoxton",
+    "website": "https://www.hoxtonhall.co.uk",
+    "lat": 51.53187,
+    "lng": -0.07977
+  },
+  {
+    "id": "the-courtyard-theatre",
+    "name": "The Courtyard Theatre",
+    "kind": "theatre",
+    "area": "Hoxton",
+    "website": "https://thecourtyard.org.uk",
+    "lat": 51.52798,
+    "lng": -0.08339
+  },
+  {
+    "id": "woolwich-works",
+    "name": "Woolwich Works",
+    "kind": "arts-centre",
+    "area": "Woolwich",
+    "website": "https://www.woolwich.works",
+    "lat": 51.49436,
+    "lng": 0.06999
+  },
+  {
+    "id": "judi-dench-theatre",
+    "name": "Judi Dench Theatre",
+    "kind": "theatre",
+    "area": "Peckham",
+    "website": "https://www.mountview.org.uk",
+    "lat": 51.47484,
+    "lng": -0.06975,
+    "notes": "Mountview drama school's main theatre."
+  },
+  {
+    "id": "new-wimbledon-theatre",
+    "name": "New Wimbledon Theatre",
+    "kind": "theatre",
+    "area": "Wimbledon",
+    "website": "https://www.atgtickets.com/venues/new-wimbledon-theatre/",
+    "lat": 51.41922,
+    "lng": -0.20142
   }
 ]
