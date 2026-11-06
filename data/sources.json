@@ -444,7 +444,7 @@
   {
     "id": "freud-museum-london",
     "name": "Freud Museum London",
-    "enabled": true,
+    "enabled": false,
     "venueId": "freud-museum-london",
     "adapter": {
       "type": "pages",
@@ -456,7 +456,7 @@
         "dates": "div.feature-blurb.date"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Disabled 2026-11-06: freud.org.uk answers HTTP 403 to the daily scrape (refuses automated requests), so per the maintenance rules we do not work around it. Exhibitions still come via Art Fund, so the venue is not manualOnly."
   },
   {
     "id": "the-foundling-museum",
