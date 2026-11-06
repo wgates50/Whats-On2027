@@ -314,11 +314,12 @@
         "https://wellcomecollection.org/whats-on"
       ],
       "cards": {
-        "item": "a.iScFvn",
-        "dates": "time"
+        "item": "a[data-component$='-promo'], a[href^='/exhibitions/']:has(time)",
+        "dates": "p:has(> time ~ time), p > time",
+        "title": "h2, h3"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Cards re-pointed 2026-11-06 at the stable data-component=\"exhibition-promo\"/\"event-promo\" links (plus the featured exhibition). Dates come from the <time> elements: event cards glue the year to the start time (\"…202613:00\"), which misreads."
   },
   {
     "id": "horniman-museum-and-gardens",
