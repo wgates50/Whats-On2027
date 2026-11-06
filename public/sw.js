@@ -1,6 +1,6 @@
 // Offline support: app shell + latest listings are kept on the device.
 // Network-first for pages and data (always fresh when online), cache-first for hashed assets.
-const CACHE = "whatson-v3";
+const CACHE = "whatson-v4";
 const SHELL = ["/", "/feed/", "/places/", "/saved/", "/data/app.json", "/manifest.webmanifest", "/icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
@@ -18,6 +18,7 @@ self.addEventListener("fetch", (e) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return; // venue images etc. go straight to the network
+  if (url.pathname.startsWith("/api/")) return; // sync: always live, never cached
 
   if (url.pathname.startsWith("/_next/static/") || url.pathname.startsWith("/icons/")) {
     e.respondWith(
