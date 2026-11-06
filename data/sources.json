@@ -1065,7 +1065,7 @@
   {
     "id": "alexandra-palace",
     "name": "Alexandra Palace",
-    "enabled": true,
+    "enabled": false,
     "venueId": "alexandra-palace",
     "adapter": {
       "type": "pages",
@@ -1077,7 +1077,7 @@
         "dates": "header.event_details.bg_white"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Sport fixtures (ice hockey, darts, snooker) are excluded: not what the app is for.",
+    "notes": "Disabled 2026-11-06: alexandrapalace.com answers HTTP 403 to the daily scrape (refuses automated requests), so per the maintenance rules we do not work around it. Ticketmaster still lists its events, so the venue is not manualOnly.",
     "exclude": "\\b(vs?\\.?|darts|snooker)\\b"
   },
   {
