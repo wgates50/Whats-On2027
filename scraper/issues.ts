@@ -4,13 +4,15 @@
 //      - invalid (dates/titles don't parse) is reported on the first bad run
 //      - everything else (empty, dropped, errors, blocks) after 2 bad runs in a row — sites
 //        occasionally serve an empty or odd page once; the source keeps its previous events meanwhile
-//    The issue body is refreshed each run; it is closed automatically when the source recovers.
+//    The issue body is refreshed each run; it is closed automatically when the source recovers, or
+//    when it's disabled or removed in data/sources.json.
 //  • Unknown venue names coming from aggregators are collected in one rolling issue
-//    (label: venue-aliases) so the maintainer can add aliases or venues.
+//    (label: venue-aliases) so the maintainer can add aliases or venues. Names they decided not to
+//    list go in data/ignored-venues.json and stop appearing.
 //
 // Env: GITHUB_TOKEN, GITHUB_REPOSITORY (both provided by GitHub Actions).
 
-import { loadHealth, loadSources } from "./config.ts";
+import { loadHealth, loadSources, readJson } from "./config.ts";
 
 const token = process.env.GITHUB_TOKEN;
 const repo = process.env.GITHUB_REPOSITORY;
@@ -65,12 +67,17 @@ async function openIssues(label: string): Promise<Issue[]> {
 
 const health = loadHealth();
 const sources = new Map(loadSources().map((s) => [s.id, s]));
+/** Sources that run: a disabled or removed source's issue has nothing left to fix. */
+const live = (id: string) => sources.get(id)?.enabled === true;
+/** Aggregator venue names the maintainer decided not to list (name → why). */
+const ignored = new Set(Object.keys(readJson<Record<string, string>>("ignored-venues.json", {})).map((n) => n.trim().toLowerCase()));
 await ensureLabels();
 
 const open = await openIssues("broken-source");
 const titleFor = (id: string) => `Source broken: ${id}`;
 
 for (const [id, h] of Object.entries(health.sources)) {
+  if (!live(id)) continue;
   const existing = open.find((i) => i.title === titleFor(id));
   const report = h.status !== "ok" && h.status !== "skipped" && (h.status === "invalid" || h.consecutiveFailures >= 2);
   if (h.status === "ok" || h.status === "skipped") {
@@ -112,25 +119,29 @@ for (const [id, h] of Object.entries(health.sources)) {
   }
 }
 
-// Close issues for sources that no longer exist.
+// Close issues for sources that were disabled (e.g. the site blocks us) or removed.
 for (const i of open) {
   const id = i.title.replace(/^Source broken: /, "");
-  if (!health.sources[id] && !sources.has(id)) {
-    await gh("PATCH", `/repos/${repo}/issues/${i.number}`, { state: "closed", state_reason: "not_planned" });
-  }
+  if (live(id)) continue;
+  const s = sources.get(id);
+  const why = s ? `Source disabled in \`data/sources.json\`${s.notes ? `: ${s.notes}` : "."}` : "Source no longer configured.";
+  await gh("POST", `/repos/${repo}/issues/${i.number}/comments`, { body: why });
+  await gh("PATCH", `/repos/${repo}/issues/${i.number}`, { state: "closed", state_reason: "not_planned" });
+  console.log(`closed #${i.number} (${id}: ${s ? "disabled" : "removed"})`);
 }
 
 // Rolling issue for unknown venue names from aggregators.
 const unmatched: [string, string, number][] = [];
 for (const [id, h] of Object.entries(health.sources))
   for (const [name, n] of Object.entries(h.unmatchedVenues ?? {}))
-    if (!/^(online|offsite|\(no venue given\)|no venue|various|tbc|tba)$/i.test(name)) unmatched.push([id, name, n]);
+    if (!/^(online|offsite|\(no venue given\)|no venue|various|tbc|tba)$/i.test(name) && !ignored.has(name.trim().toLowerCase()))
+      unmatched.push([id, name, n]);
 const [aliasIssue] = await openIssues("venue-aliases");
 if (unmatched.length) {
   const body = [
     `Aggregator sources mention venues we can't match to \`data/venues.json\`. Events at these places are currently dropped.`,
     ``,
-    `For each: if it's a London venue worth listing, add it to \`data/venues.json\` (or add the name to an existing venue's \`aliases\`). If not, ignore it.`,
+    `For each: if it's a London venue worth listing, add it to \`data/venues.json\` (or add the name to an existing venue's \`aliases\`). If not, add it to \`data/ignored-venues.json\` with a few words why, so it stops appearing here.`,
     ``,
     `| source | venue name | events |`,
     `|---|---|---|`,

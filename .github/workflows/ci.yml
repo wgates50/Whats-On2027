@@ -37,6 +37,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      issues: write
     steps:
       - uses: actions/checkout@v5
         with:
@@ -47,7 +48,7 @@ jobs:
           git fetch origin "${{ github.base_ref }}" --depth=100
           changed=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD")
           echo "Changed files:"; echo "$changed"
-          disallowed=$(echo "$changed" | grep -vE '^(data/sources\.json|data/venues\.json|data/manual-events\.json|scraper/fixtures/.+)$' || true)
+          disallowed=$(echo "$changed" | grep -vE '^(data/sources\.json|data/venues\.json|data/manual-events\.json|data/ignored-venues\.json|data/tags\.json|scraper/fixtures/.+)$' || true)
           if [ -n "$disallowed" ]; then
             echo "ok=false" >> "$GITHUB_OUTPUT"
             { echo "files<<EOF"; echo "$disallowed"; echo "EOF"; } >> "$GITHUB_OUTPUT"
@@ -59,6 +60,17 @@ jobs:
         run: gh pr merge "${{ github.event.pull_request.number }}" --squash --delete-branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # GitHub doesn't act on "Closes #n" when the merge is made with GITHUB_TOKEN, so close them here.
+      - name: Close the issues it fixes
+        if: steps.guard.outputs.ok == 'true'
+        run: |
+          for n in $(printf '%s' "$BODY" | grep -oiE '\b(close[sd]?|fix(e[sd])?|resolve[sd]?) #[0-9]+' | grep -oE '[0-9]+$' | sort -u); do
+            gh issue close "$n" --repo "$GITHUB_REPOSITORY" --reason completed --comment "Fixed by #$PR." || true
+          done
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BODY: ${{ github.event.pull_request.body }}
+          PR: ${{ github.event.pull_request.number }}
       - name: Leave for review
         if: steps.guard.outputs.ok != 'true'
         run: |
