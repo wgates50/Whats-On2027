@@ -60,14 +60,16 @@ export function EventRow({
   why?: string;
 }) {
   const [open, setOpen] = useState(false);
-  const b = badges(e, day, today).filter((x) => x !== "new" || e.firstSeen > baseline);
+  // Lists that aren't about one day describe a run as of today ("Opens 20 Nov", not "Opens today").
+  const ref = dated && !isOneOff(e) ? today : day;
+  const b = badges(e, ref, today).filter((x) => x !== "new" || e.firstSeen > baseline);
   const when =
     dated && isOneOff(e) && e.startDate && !(e.endDate && e.endDate !== e.startDate)
       ? `${e.startDate === today ? "Today" : `${weekdayShort(e.startDate)} ${shortDate(e.startDate, e.startDate.slice(0, 4) !== today.slice(0, 4))}`}${e.startTime ? ` · ${e.startTime}` : ""}`
-      : whenText(e, day);
+      : whenText(e, ref);
   const venueName = venue?.name ?? e.venueName;
   // Runs with a Ticketmaster schedule: that day's times, or no performance at all.
-  const perf = isOneOff(e) ? null : performancesOn(e, day);
+  const perf = isOneOff(e) || (e.startDate && e.startDate > ref) ? null : performancesOn(e, ref);
   const times = perf?.filter(Boolean) ?? [];
   const now = new Date().toISOString();
   const onSaleSoon = notOnSaleYet(e, now);
@@ -126,7 +128,7 @@ export function EventRow({
             />
           )}
           <p className="row__range">{rangeText(e)}</p>
-          {showVenue && venueName && <Where venue={venue} name={venueName} e={e} day={day} today={today} />}
+          {showVenue && venueName && <Where venue={venue} name={venueName} e={e} day={ref} today={today} />}
           {darkDaysText(e) && <p className="row__note">{darkDaysText(e)}</p>}
           {onSaleSoon && (
             <p className="row__note">

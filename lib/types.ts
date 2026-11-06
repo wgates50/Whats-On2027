@@ -176,6 +176,8 @@ export interface WOEvent {
   genres?: string[];
   /** Theme ids (data/themes.json) — worked out at build time, not stored in events.json. */
   themes?: string[];
+  /** Not tagged yet: themes guessed from genres/title ("guess") or borrowed from the venue ("venue"). */
+  themesFrom?: "guess" | "venue";
 }
 
 /**

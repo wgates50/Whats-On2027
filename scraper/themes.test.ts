@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 import type { TagsFile, Theme, Venue, WOEvent } from "../lib/types.ts";
 import { compileThemes, guessEventThemes, guessPersonThemes, EMPTY_TAGS } from "../lib/themes.ts";
 import { applyAnswers, check, formatTags, todo } from "./tagging.ts";
-import { buildProfile, recommendEvents, recommendVenues, topThemes } from "../lib/profile.ts";
+import { buildProfile, recommendEvents, recommendPeople, recommendVenues, whyText } from "../lib/profile.ts";
 import { cleanDoc, mergeDocs } from "../lib/syncData.ts";
 
 const themes = JSON.parse(readFileSync(new URL("../data/themes.json", import.meta.url), "utf8")) as Theme[];
@@ -75,34 +75,59 @@ test("the maintenance task's answers are checked before they're saved", () => {
   assert.equal(todo({ ...u, today: "2026-11-06" }, EMPTY_TAGS, themes).lines.length, 3);
 });
 
-test("Discover: a profile from what you follow, save and pick, and what else matches it", () => {
-  const venues = new Map([
-    ["photo-gallery", ["photography", "contemporary-art"]],
-    ["jazz-club", ["jazz"]],
+test("Discover: a profile from what you follow, save and pick, and picks spread across it", () => {
+  const venue = (id: string, kind: string, themes: string[]) => ({ id, name: id, area: "", kind, website: "", coverage: "auto", themes }) as never;
+  const venues = new Map<string, ReturnType<typeof venue>>([
+    ["tate", venue("tate", "public-gallery", ["contemporary-art", "modern-art"])],
+    ["design-museum", venue("design-museum", "museum", ["design", "architecture"])],
+    ["o2", venue("o2", "live-venue", ["pop", "rock", "comedy"])],
+    ["kids-museum", venue("kids-museum", "museum", ["family", "design"])],
+    ["gallery-a", venue("gallery-a", "public-gallery", ["contemporary-art"])],
+    ["gallery-b", venue("gallery-b", "public-gallery", ["contemporary-art"])],
+    ["home", venue("home", "museum", ["design", "history"])],
   ]);
   const events = [
-    ev({ id: "a:1", venueId: "photo-gallery", themes: ["photography"] }),
-    ev({ id: "b:1", venueId: "other-gallery", themes: ["photography", "contemporary-art"] }),
-    ev({ id: "b:2", venueId: "other-gallery", themes: ["photography"] }),
-    ev({ id: "b:3", venueId: "other-gallery", themes: ["photography"] }),
-    ev({ id: "c:1", venueId: "club", themes: ["jazz"] }),
-    ev({ id: "d:1", venueId: "theatre", themes: ["musicals"] }),
-    ev({ id: "e:1", venueId: "old", themes: ["photography"], startDate: "2026-01-01", endDate: "2026-02-01" }),
+    ev({ id: "s:1", venueId: "tate", type: "exhibition", themes: ["fashion", "design"], title: "The 90s: Art and Fashion" }),
+    ev({ id: "a:1", venueId: "gallery-a", type: "exhibition", themes: ["contemporary-art"] }),
+    ev({ id: "a:2", venueId: "gallery-a", type: "exhibition", themes: ["contemporary-art"] }),
+    ev({ id: "b:1", venueId: "gallery-b", type: "exhibition", themes: ["contemporary-art"], themesFrom: "venue" }),
+    ev({ id: "h:1", venueId: "home", type: "exhibition", themes: ["design", "history"] }),
+    ev({ id: "h:2", venueId: "home", type: "workshop", themes: ["design"] }),
+    ev({ id: "k:1", venueId: "kids-museum", type: "exhibition", themes: ["design"] }),
+    ev({ id: "t:1", venueId: "tate", type: "exhibition", themes: ["contemporary-art"] }),
+    ev({ id: "x:1", venueId: "theatre", type: "show", themes: ["musicals"] }),
+    ev({ id: "old:1", venueId: "gallery-a", type: "exhibition", themes: ["contemporary-art"], startDate: "2026-01-01", endDate: "2026-02-01" }),
   ];
   const byId = new Map(events.map((e) => [e.id, e]));
-  const p = buildProfile({ likes: ["jazz"], follows: ["photo-gallery"], saved: ["b:1"], people: [] }, (id) => venues.get(id), (id) => byId.get(id)?.themes, () => undefined);
-  assert.deepEqual(new Set(topThemes(p, 2)), new Set(["photography", "jazz"]));
-  const picks = recommendEvents(p, events, { today: "2026-11-06", follows: new Set(["photo-gallery"]), people: new Set(), saved: new Set(["b:1"]), perVenue: 1 });
+  const p = buildProfile(
+    { likes: [], follows: ["tate", "design-museum", "o2"], saved: ["s:1"], people: [] },
+    { venue: (id) => venues.get(id), event: (id) => byId.get(id), person: () => undefined },
+  );
+  // A saved exhibition outweighs following a big venue that does a bit of everything.
+  assert.ok(p.themes.get("fashion")! > p.themes.get("rock")!);
+  const picks = recommendEvents(p, events, { today: "2026-11-06", follows: new Set(["tate", "design-museum", "o2"]), people: new Set(), saved: new Set(["s:1"]), venue: (id) => venues.get(id) });
   const ids = picks.map((x) => x.item.id);
-  assert.ok(!ids.includes("a:1"), "not from places you already follow");
-  assert.ok(!ids.includes("b:1"), "not what you already saved");
-  assert.ok(!ids.includes("d:1"), "nothing that doesn't match");
-  assert.ok(!ids.includes("e:1"), "nothing that's over");
-  assert.equal(ids.filter((id) => id.startsWith("b:")).length, 1, "one per place");
-  assert.equal(picks.find((x) => x.item.id === "c:1")?.reason, "jazz");
-  const places = recommendVenues(p, [{ id: "jazz-club", name: "Jazz Club", area: "Soho", kind: "live-venue", website: "", coverage: "auto", themes: ["jazz"] }], { "jazz-club": 3 }, new Set());
-  assert.equal(places[0]?.reason, "jazz");
-  assert.deepEqual(recommendEvents(new Map(), events, { today: "2026-11-06", follows: new Set(), people: new Set(), saved: new Set() }), []);
+  assert.ok(!ids.includes("t:1"), "not from places you already follow");
+  assert.ok(!ids.includes("x:1") && !ids.includes("old:1"), "nothing that doesn't match, or that's over");
+  assert.ok(!ids.includes("k:1"), "nothing for children unless families are your thing");
+  assert.ok(new Set(picks.map((x) => x.why.theme)).size >= 2, "spread across your interests, not just the strongest");
+  const three = recommendEvents(p, events, { today: "2026-11-06", follows: new Set(["tate", "design-museum", "o2"]), people: new Set(), saved: new Set(["s:1"]), venue: (id) => venues.get(id), limit: 3 });
+  assert.equal(three.filter((x) => x.item.venueId === "gallery-a").length, 1, "one per place while there's other choice");
+  assert.ok(ids.indexOf("h:1") < ids.indexOf("h:2") || !ids.includes("h:2"), "the kind of thing you go to (exhibitions) first");
+  assert.ok(ids.indexOf("a:1") < ids.indexOf("b:1") || !ids.includes("b:1"), "themes we're sure of beat ones borrowed from the venue");
+  const label = (t: string) => ({ design: "Design", "contemporary-art": "Contemporary art" })[t];
+  const h = picks.find((x) => x.item.id === "h:1")!;
+  assert.equal(whyText(h.why, label), "Because you saved The 90s: Art and Fashion"); // the most similar thing of yours
+  const a = picks.find((x) => x.item.id.startsWith("a:"))!;
+  assert.equal(whyText(a.why, label), "Because you follow tate");
+  assert.equal(whyText({ theme: "design", source: { kind: "liked" } }, label), "Because you like Design");
+  // Places: one per interest; people: acts, not shows or club nights.
+  const places = recommendVenues(p, [...venues.values()] as never, { home: 2, "gallery-a": 2 }, new Set(["tate", "design-museum", "o2"]));
+  assert.deepEqual(new Set(places.map((x) => x.why.theme)).size, places.length);
+  const person = (id: string, name: string, kind: string) => ({ id, name, kind, themes: ["comedy"] }) as never;
+  const acts = recommendPeople(p, [person("a", "A Christmas Carol", "theatre"), person("b", "The Best in Stand Up", "comedy"), person("c", "Dylan Moran", "comedy")], new Map([["a", 5], ["b", 40], ["c", 2]]), new Set());
+  assert.deepEqual(acts.map((x) => x.item.name), ["Dylan Moran"]);
+  assert.deepEqual(recommendEvents(buildProfile({ likes: [], follows: [], saved: [], people: [] }, { venue: () => undefined, event: () => undefined, person: () => undefined }), events, { today: "2026-11-06", follows: new Set(), people: new Set(), saved: new Set(), venue: () => undefined }), []);
 });
 
 test("themes you pick sync too", () => {
