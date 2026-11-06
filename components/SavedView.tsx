@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { WOEvent } from "@/lib/types";
-import { usePrefs, useHydrated } from "@/lib/store";
+import { laterDay, usePrefs, useHydrated } from "@/lib/store";
 import { useAppData, usePeopleData } from "@/lib/useData";
 import { addDays, isOnDay, isOneOff, londonToday } from "@/lib/when";
 import { EventRow } from "./EventRow";
@@ -44,7 +44,10 @@ export function SavedView() {
   // Finished, or gone from the listings (we only keep current events): nothing to show but a tidy-up.
   const peopleLoading = prefs.saved.some((id) => id.startsWith("~")) && !people;
   const gone = peopleLoading ? [] : prefs.saved.filter((id) => !byId.has(id) || lastDay(byId.get(id)!) < today);
-  const baseline = data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999");
+  const baseline = laterDay(
+    data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"),
+    prefs.seenUpTo,
+  );
 
   const row = (e: WOEvent, i: number) => (
     <EventRow

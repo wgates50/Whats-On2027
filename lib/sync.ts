@@ -7,7 +7,7 @@
 
 import { useSyncExternalStore } from "react";
 import { mergeDocs, newCode, type SyncDoc } from "./syncData";
-import { onLocalChange, readPrefs, writeSyncedPrefs } from "./store";
+import { laterDay, onLocalChange, readPrefs, writeSyncedPrefs } from "./store";
 
 export interface SyncState {
   code: string;
@@ -70,12 +70,14 @@ async function call(method: "GET" | "PUT", code: string, doc?: SyncDoc): Promise
   });
 }
 
-const docOf = (p: { follows: string[]; people: string[]; saved: string[] }, updatedAt: string): SyncDoc => ({
+type Lists = { follows: string[]; people: string[]; saved: string[]; seenUpTo?: string };
+const docOf = (p: Lists, updatedAt: string): SyncDoc => ({
   v: 1,
   updatedAt,
   follows: p.follows,
   people: p.people,
   saved: p.saved,
+  ...(p.seenUpTo ? { seenUpTo: p.seenUpTo } : {}),
 });
 
 let inFlight: Promise<void> | null = null;
@@ -92,7 +94,8 @@ async function run(): Promise<void> {
   const local = readPrefs();
   const rev = s.rev ?? 0;
   const now = () => new Date().toISOString();
-  const lists = (p: { follows: string[]; people: string[]; saved: string[] }) => ({ follows: p.follows, people: p.people, saved: p.saved });
+  // "Seen up to" only moves forward: a device on an older version may not send it at all.
+  const lists = (p: Lists) => ({ follows: p.follows, people: p.people, saved: p.saved, seenUpTo: laterDay(local.seenUpTo, p.seenUpTo) || undefined });
   try {
     const res = await call("GET", s.code);
     if (res.status === 404) {

@@ -10,9 +10,14 @@ export interface Prefs {
   people: string[]; // performer ids (data/people.json)
   saved: string[]; // event ids
   onlyMine: boolean; // calendar: only followed places and people
+  /** "Mark all as seen": listings first seen on or before this day (YYYY-MM-DD) aren't new to you. */
+  seenUpTo?: string;
   /** When follows/people/saved last changed (ISO), on this device or via sync. */
   updatedAt?: string;
 }
+
+/** The later of two YYYY-MM-DD days (either may be missing). */
+export const laterDay = (a?: string, b?: string): string => (!a ? (b ?? "") : !b || a >= b ? a : b);
 
 const KEY = "whatson:v1";
 const EMPTY: Prefs = { follows: [], people: [], saved: [], onlyMine: true };
@@ -66,12 +71,18 @@ export function usePrefs() {
     save({ ...p, [key]: has ? p[key].filter((x) => x !== id) : [...p[key], id] });
   }, []);
   const set = useCallback((patch: Partial<Prefs>) => save({ ...load(), ...patch }), []);
+  /** Everything first seen up to this day is no longer new (never moves backwards). */
+  const markSeen = useCallback((upTo: string) => {
+    const p = load();
+    if (laterDay(p.seenUpTo, upTo) !== p.seenUpTo) save({ ...p, seenUpTo: laterDay(p.seenUpTo, upTo) });
+  }, []);
   return {
     prefs,
     toggleFollow: (id: string) => toggle("follows", id),
     togglePerson: (id: string) => toggle("people", id),
     toggleSaved: (id: string) => toggle("saved", id),
     set,
+    markSeen,
   };
 }
 

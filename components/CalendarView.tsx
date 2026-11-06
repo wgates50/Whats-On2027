@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { AppData } from "@/lib/data";
 import type { Category, WOEvent } from "@/lib/types";
-import { usePrefs, useHydrated } from "@/lib/store";
+import { laterDay, usePrefs, useHydrated } from "@/lib/store";
 import { addDays, dayNum, isOnDay, isOneOff, londonToday, monthShort, weekdayLong, weekdayShort, longDate, daysBetween, noPerformanceOn, venueClosedOn } from "@/lib/when";
 import { useAppData, usePeopleData } from "@/lib/useData";
 import { EventRow } from "./EventRow";
@@ -60,7 +60,8 @@ function Calendar({ data }: { data: AppData }) {
   }, [day, cat, today]);
 
   const venues = useMemo(() => new Map(data.venues.map((v) => [v.id, v])), [data.venues]);
-  const baseline = useMemo(() => data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"), [data.events]);
+  const firstScrape = useMemo(() => data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"), [data.events]);
+  const baseline = laterDay(firstScrape, prefs.seenUpTo);
   const follows = useMemo(() => new Set(prefs.follows), [prefs.follows]);
   const followedPeople = useMemo(() => new Set(prefs.people), [prefs.people]);
   const saved = useMemo(() => new Set(prefs.saved), [prefs.saved]);
