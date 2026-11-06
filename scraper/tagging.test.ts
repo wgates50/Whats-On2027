@@ -52,6 +52,16 @@ test("ticketing genres map sensibly", () => {
   assert.deepEqual(genreThemes(["Music/Dance"], t), ["electronic"]);
   assert.deepEqual(genreThemes(["Music/Acoustic"], t), ["folk"]);
   assert.deepEqual(genreThemes(["Arts & Theatre/Spectacular"], t), []);
+  // From the first real scrape with genres: Ticketmaster files most pop acts as Rock/Pop.
+  assert.deepEqual(genreThemes(["Music/Rock/Pop"], t), ["rock", "pop"]);
+  assert.deepEqual(genreThemes(["Arts & Theatre/Theatre/Podcast"], t), ["podcasts"]);
+  assert.deepEqual(genreThemes(["Music/Covers Band/Tribute Act"], t), ["tributes"]);
+  assert.deepEqual(genreThemes(["Music/Orchestral"], t), ["classical"]);
+  assert.deepEqual(genreThemes(["Music/African"], t), ["global-music"]);
+  assert.deepEqual(genreThemes(["Arts & Theatre/Performance Art/Drag"], t), ["cabaret"]);
+  assert.deepEqual(genreThemes(["Music/UK Garage"], t), ["electronic"]);
+  assert.deepEqual(genreThemes(["Music/Rock/Garage Rock"], t), ["rock"]);
+  assert.deepEqual(genreThemes(["Arts & Theatre/Theatre/Mystery"], t), ["plays"]);
 });
 
 test("sport isn't listed", () => {
