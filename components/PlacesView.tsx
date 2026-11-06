@@ -215,7 +215,8 @@ function Places({ venues, counts, events }: { venues: VenueLite[]; counts: Recor
           </section>
 
           <p className="colophon">
-            Missing somewhere? <a href={venueRequestUrl(q)}>Request a place</a> — it gets added automatically by the maintenance task.
+            Missing somewhere? <a href={venueRequestUrl(q)}>Request a place</a> — it gets added automatically by the maintenance task. Following on
+            another device? <Link href="/sync/">Sync them</Link>.
           </p>
         </>
       )}

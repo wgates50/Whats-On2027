@@ -28,7 +28,9 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
 - `scraper/` — `run.ts` (daily), `adapters/` (`pages` = listing/cards/detail pages + JSON-LD, `ics`),
   `dates.ts` (UK date-range parser), `classify.ts` (type/category rules), `normalize.ts`,
   `discover.ts` / `probe.ts` (config helpers), `fixture.ts` + `fixtures/` (recorded pages for tests).
-- `app/`, `components/`, `lib/` — Next.js 16 static-export PWA. Data reaches the app as
+- `app/`, `components/`, `lib/` — Next.js 16 PWA, every page prerendered; the one server route is
+  `app/api/sync` (device sync: one private Vercel Blob document per sync code, `lib/syncStore.ts`,
+  `lib/sync.ts`; `SYNC_DEV_DIR` = local folder store for testing). Data reaches the app as
   `public/data/app.json` and `public/data/people.json` (loaded only for people pages or when you follow
   someone), built by `scripts/build-data.ts` in `prebuild`. Follows (places and people)/saved live in
   localStorage (`lib/store.ts`). One static `/person/?id=…` page serves every performer.

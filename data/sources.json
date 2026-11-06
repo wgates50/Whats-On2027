@@ -2,7 +2,7 @@
   {
     "id": "official-london-theatre",
     "name": "Official London Theatre (West End & beyond)",
-    "enabled": true,
+    "enabled": false,
     "aggregator": true,
     "adapter": {
       "type": "pages",
@@ -13,7 +13,7 @@
     "defaults": {
       "type": "show"
     },
-    "notes": "Society of London Theatre listings. Every show is a JSON-LD TheaterEvent on the listing page; location.title is the venue name (matched via venue names/aliases)."
+    "notes": "Disabled 2026-11-06: officiallondontheatre.com answers HTTP 403 to the daily scrape (refuses automated requests from GitHub servers), so per the maintenance rules we do not work around it. West End and other theatres are still covered by Ticketmaster and Skiddle. Was: Society of London Theatre listings, JSON-LD TheaterEvent on the listing page; location.title is the venue name."
   },
   {
     "id": "tate-modern",
@@ -157,7 +157,7 @@
   {
     "id": "serpentine",
     "name": "Serpentine (South & North)",
-    "enabled": true,
+    "enabled": false,
     "aggregator": true,
     "adapter": {
       "type": "pages",
@@ -173,7 +173,8 @@
         "venue": "span.meta__term",
         "description": "p.teaser__text"
       }
-    }
+    },
+    "notes": "Disabled 2026-11-06: serpentinegalleries.org answers HTTP 403 to the daily scrape (refuses automated requests), so per the maintenance rules we do not work around it. Serpentine South still gets exhibitions via Art Fund; Serpentine North is marked manualOnly."
   },
   {
     "id": "whitechapel",
@@ -314,11 +315,12 @@
         "https://wellcomecollection.org/whats-on"
       ],
       "cards": {
-        "item": "a.iScFvn",
-        "dates": "time"
+        "item": "a[data-component$='-promo'], a[href^='/exhibitions/']:has(time)",
+        "dates": "p:has(> time ~ time), p > time",
+        "title": "h2, h3"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Cards re-pointed 2026-11-06 at the stable data-component=\"exhibition-promo\"/\"event-promo\" links (plus the featured exhibition). Dates come from the <time> elements: event cards glue the year to the start time (\"…202613:00\"), which misreads."
   },
   {
     "id": "horniman-museum-and-gardens",
