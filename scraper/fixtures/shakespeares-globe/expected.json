@@ -186,30 +186,6 @@
       "firstSeen": "2026-11-02"
     },
     {
-      "id": "shakespeares-globe:whats-on-young-actors-short-course-11-13-years",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "Young Actors Short Course (11-13 years)",
-      "url": "https://www.shakespearesglobe.com/whats-on/young-actors-short-course-11-13-years/",
-      "type": "workshop",
-      "category": "shows",
-      "startDate": "2027-02-15",
-      "endDate": "2027-04-06",
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "shakespeares-globe:whats-on-young-actors-short-course-8-10-years",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "Young Actors Short Course (8–10 years)",
-      "url": "https://www.shakespearesglobe.com/whats-on/young-actors-short-course-8-10-years/",
-      "type": "workshop",
-      "category": "shows",
-      "startDate": "2027-02-15",
-      "endDate": "2027-04-06",
-      "firstSeen": "2026-11-02"
-    },
-    {
       "id": "shakespeares-globe:whats-on-romeo-and-juliet-gcse-boost",
       "venueId": "shakespeares-globe",
       "sourceId": "shakespeares-globe",
@@ -255,66 +231,6 @@
       "category": "shows",
       "startDate": "2027-07-19",
       "endDate": "2027-07-30",
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "shakespeares-globe:whats-on-anti-racist-shakespeare-cpd",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "Online CPD: Teaching Anti-Racist Shakespeare",
-      "url": "https://www.shakespearesglobe.com/whats-on/anti-racist-shakespeare-cpd/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2027-02-09",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "shakespeares-globe:whats-on-online-cpd-shakespeare-and-sexuality",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "Online CPD: Teaching Shakespeare and Sexuality",
-      "url": "https://www.shakespearesglobe.com/whats-on/online-cpd-shakespeare-and-sexuality/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2027-02-02",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "shakespeares-globe:whats-on-online-cpd-teaching-shakespeare-and-women",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "Online CPD: Teaching Shakespeare and Women",
-      "url": "https://www.shakespearesglobe.com/whats-on/online-cpd-teaching-shakespeare-and-women/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2027-03-09",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "shakespeares-globe:whats-on-cpd-macbeth-at-ks4-in-person-or-online",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "CPD: Teaching Macbeth at KS4: In Person or Online",
-      "url": "https://www.shakespearesglobe.com/whats-on/cpd-macbeth-at-ks4-in-person-or-online/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2027-01-19",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "shakespeares-globe:whats-on-online-continuing-professional-development-teaching-macbeth-at-key-stag",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "Online CPD: Teaching Macbeth at Key Stage 4",
-      "url": "https://www.shakespearesglobe.com/whats-on/online-continuing-professional-development-teaching-macbeth-at-key-stage-4/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-07",
-      "endDate": null,
       "firstSeen": "2026-11-02"
     }
   ]
