@@ -23,6 +23,9 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
   themes of what you follow, save and pick, and suggests events, places and people. Still no AI in the app.
 - `data/hours.json` — opening hours from OpenStreetMap via Nominatim (`npm run hours`, weekly in CI;
   parser in `lib/hours.ts`). © OpenStreetMap contributors — keep the credit where hours are shown.
+- Site feeds: `scraper/adapters/custom/rigb.ts` reads the Royal Institution's own what's-on JSON file (its
+  page is a script); descriptions come from each event's page via the source's `enrich` selector (the
+  details step reads pages for listing-page sources and any source with `enrich`).
 - API sources: `scraper/adapters/custom/ticketmaster.ts`, `skiddle.ts` (keys from Actions secrets;
   `skipped` without them; tested with sample responses in `scraper/apis.test.ts`, no fixtures).
   Ticketmaster (12 months ahead): busy date windows split themselves (API stops at 1,000 results);

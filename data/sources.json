@@ -1792,6 +1792,20 @@
     "notes": "Cards use styled-components classes — selectors match the stable name part. venueFilter drops online-only/regional events (cards say e.g. 'London and online')."
   },
   {
+    "id": "royal-institution",
+    "name": "Royal Institution",
+    "enabled": true,
+    "venueId": "royal-institution",
+    "adapter": {
+      "type": "custom",
+      "module": "rigb"
+    },
+    "notes": "The what's-on page is a script reading one JSON file the site publishes (its whole current programme, times in UTC): one request a day instead of crawling the sitemap. Livestream-only events are left out; short courses are dropped as courses. The file's excerpts are cut off, so descriptions come from each event's page (enrich).",
+    "enrich": {
+      "description": ".m-banner__body p, section.m-entity__text p"
+    }
+  },
+  {
     "id": "british-library",
     "name": "British Library",
     "enabled": true,
