@@ -295,7 +295,8 @@ const people = [...peopleById.values()]
 
 // Listing cards rarely carry a description: read it (and an image) from each event's own page, once.
 const enrichCache = readJson<EnrichCache>("cache/enrich.json", {});
-const pageSources = new Set(allSources.filter((s) => s.adapter.type === "pages").map((s) => s.id));
+// Venue sites' own listings, and any other source configured with `enrich` (not the ticketing APIs).
+const pageSources = new Set(allSources.filter((s) => s.adapter.type === "pages" || s.enrich).map((s) => s.id));
 if (!dry || args.includes("--enrich")) {
   const r = await fillDetails(events, {
     fetcher,
