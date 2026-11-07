@@ -17,7 +17,7 @@ import { staleEvents } from "./health.ts";
 import { BlockedError, createFetcher } from "./fetcher.ts";
 import { normalize } from "./normalize.ts";
 import { VenueIndex, normName } from "./venues.ts";
-import { sameThing } from "./dedupe.ts";
+import { absorb, sameThing } from "./dedupe.ts";
 
 interface Outcome {
   source: SourceConfig;
@@ -92,6 +92,7 @@ async function runOne(source: SourceConfig): Promise<Outcome> {
     );
     if (cache && !dry) saveCache(source, cache);
     const rep = normalize(res.events, source, index, today);
+    for (const e of rep.defaultTyped) e.typeGuessed = true; // until de-duplication (see absorb in dedupe.ts)
     const stale = staleEvents(rep.events, today);
     if (stale) rep.events = rep.events.filter((e) => !stale.includes(e)); // held back until the source is fixed
     const prev = prevHealth.sources[source.id];
@@ -211,13 +212,8 @@ const byKey = new Map<string, WOEvent>();
 const byVenue = new Map<string, WOEvent[]>();
 const prevById = new Map(prevEvents.map((e) => [e.id, e]));
 const prevByKey = new Map(prevEvents.map((e) => [keyOf(e), e]));
-/** The venue's own listing wins, but keeps what only the ticketing API knew. */
-const enrich = (kept: WOEvent, dup: WOEvent) => {
-  if (dup.schedule && !kept.schedule) kept.schedule = dup.schedule;
-  if (dup.onSale && !kept.onSale) kept.onSale = dup.onSale;
-  if (dup.people?.length) kept.people = [...new Set([...(kept.people ?? []), ...dup.people])];
-  if (dup.genres?.length && !kept.genres) kept.genres = dup.genres;
-};
+const venueById = new Map(venues.map((v) => [v.id, v]));
+const enrich = (kept: WOEvent, dup: WOEvent) => absorb(kept, dup, venueById.get(kept.venueId)?.kind);
 for (const e of merged) {
   const k = keyOf(e);
   const same = byKey.get(k);
@@ -270,6 +266,7 @@ for (const e of elsewhereAll) {
 const elsewhere = [...elsewhereByKey.values()].sort(
   (a, b) => (a.startDate ?? "").localeCompare(b.startDate ?? "") || (a.venueName ?? "").localeCompare(b.venueName ?? "") || a.title.localeCompare(b.title),
 );
+for (const e of [...events, ...elsewhere]) delete e.typeGuessed; // only needed while de-duplicating
 
 // Everyone named by a current event (here or elsewhere); what the APIs said this run wins.
 const peopleById = new Map<string, Person>(prevPeople.people.map((p) => [p.id, p]));

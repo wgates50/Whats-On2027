@@ -42,7 +42,7 @@ const TITLE_STRONG: Rules = [
   [/\b(podcast|live recording|stand-?up|comedy)\b/i, "show"],
   [/\b(workshops?|masterclass|life drawing|course)\b/i, "workshop"],
   [/\b(for families|family (day|fun|trail|workshop)|kids|toddlers?|half[- ]term)\b/i, "family"],
-  [/\b(screening|film season)\b/i, "screening"],
+  [/\b(screening|film (season|festival|programme))\b/i, "screening"],
   [/\b(skate|skating|ice rink)\b/i, "event"],
 ];
 
@@ -73,6 +73,10 @@ const LABEL_RULES: Rules = [
 
 const TITLE_WEAK: Rules = [
   [/\b(concert|orchestra|symphony|recital|string quartet|choir)\b/i, "concert"],
+  // Gig billing, for venues whose listings don't say gig or comedy: "+ support", "with special guests",
+  // "all night long", "DJ set". Weak, so a label still wins (a comedian's "+ special guests", the V&A's
+  // DJ-set drop-ins), as does "stand-up"/"comedy" in the title.
+  [/(\+|\bplus)\s*(support|(very )?special guests?)\b|\bwith (very )?special guests?\b|\ball night( long)?\b|\bdj sets?\b/i, "concert"],
   [/\bexhibition\b/i, "exhibition"],
 ];
 
@@ -95,7 +99,7 @@ const ART_KINDS = new Set<VenueKind>(["museum", "public-gallery", "commercial-ga
 
 const first = (rules: Rules, s: string | undefined) => (s ? rules.find(([re]) => re.test(s))?.[1] : undefined);
 
-export function classifyType(opts: {
+export interface TypeInput {
   url: string;
   title: string;
   typeLabel?: string;
@@ -106,7 +110,10 @@ export function classifyType(opts: {
   spanDays?: number;
   /** A single date (or ≤3-day) event rather than a run. */
   oneOff?: boolean;
-}): EventType {
+}
+
+/** What the listing itself says the type is (its URL, structured data, title or label), if anything. */
+export function typeEvidence(opts: TypeInput): EventType | undefined {
   let path = "";
   try {
     path = new URL(opts.url).pathname.toLowerCase() + "/";
@@ -115,14 +122,19 @@ export function classifyType(opts: {
   }
   const schema = opts.schemaType ? SCHEMA_RULES[opts.schemaType] : undefined;
   const touring = TOURING_ACT.test(opts.title) && !GUIDED.test(opts.title);
-  const t =
+  return (
     first(URL_RULES, path) ??
     schema ??
     first(touring ? TITLE_STRONG.filter(([, type]) => type !== "tour") : TITLE_STRONG, opts.title) ??
     first(LABEL_RULES, opts.typeLabel) ??
     (opts.schemaType === "ExhibitionEvent" || opts.schemaType === "VisualArtsEvent" ? "exhibition" : undefined) ??
-    first(TITLE_WEAK, opts.title) ??
-    opts.sourceDefault;
+    first(TITLE_WEAK, opts.title)
+  );
+}
+
+/** The listing's own evidence, else the source's default, else a guess from the kind of venue. */
+export function classifyType(opts: TypeInput): EventType {
+  const t = typeEvidence(opts) ?? opts.sourceDefault;
   if (t) return t;
   if (ART_KINDS.has(opts.venueKind)) {
     if (opts.oneOff) return "event"; // a one-night thing at a gallery isn't an exhibition

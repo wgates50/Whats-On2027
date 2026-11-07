@@ -148,6 +148,11 @@ export interface WOEvent {
   title: string;
   url: string;
   type: EventType;
+  /**
+   * During a scrape only (never written out): the type is just the source's or the venue kind's
+   * default, so a ticketing API's classification may correct it on de-duplication.
+   */
+  typeGuessed?: true;
   category: Category;
   /**
    * Date semantics:

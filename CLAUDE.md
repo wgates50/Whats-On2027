@@ -33,7 +33,9 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
   add-ons and attraction admissions are dropped by `NOT_AN_EVENT`; its classification sets
   `schemaType`. Runs carry a `schedule` (which days have performances, and times), `onSale` (general
   sale + presales, only while nothing's on sale yet) and `people`. The scrape copies these onto the
-  venue's own listing when it wins de-duplication. Their events link to their pages and the app credits
+  venue's own listing when it wins de-duplication (`absorb` in `scraper/dedupe.ts`), and its classification
+  (gig / show / talk / film) replaces the listing's type when that was only a default (`typeGuessed`, never
+  written out). Their events link to their pages and the app credits
   them ("View on Ticketmaster") — keep that.
 - `scraper/` — `run.ts` (daily), `adapters/` (`pages` = listing/cards/detail pages + JSON-LD, `ics`),
   `dates.ts` (UK date-range parser), `classify.ts` (type/category rules), `normalize.ts`,

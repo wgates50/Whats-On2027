@@ -4,7 +4,7 @@
 import type { Person, SourceConfig, VenueKind, WOEvent } from "../lib/types.ts";
 import { addDays, parseDateRange } from "./dates.ts";
 import type { RawEvent } from "./extract.ts";
-import { categoryFor, classifyType, notAnEvent } from "./classify.ts";
+import { categoryFor, classifyType, notAnEvent, typeEvidence, type TypeInput } from "./classify.ts";
 import type { VenueIndex } from "./venues.ts";
 
 export interface NormalizeReport {
@@ -18,6 +18,11 @@ export interface NormalizeReport {
   elsewhere: WOEvent[];
   /** Performers named by this source's events, by id. */
   people: Record<string, Person>;
+  /**
+   * Events (here or elsewhere) whose type is only a default (the source's, or the venue kind's): nothing
+   * in the listing said. A ticketing API's classification may correct these (`absorb` in dedupe.ts).
+   */
+  defaultTyped: WOEvent[];
 }
 
 /** A performer's id: the slug of their name (so the same act from two APIs is one person). */
@@ -59,7 +64,7 @@ function looksLikeDate(title: string, today: string): boolean {
 }
 
 export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueIndex, today: string): NormalizeReport {
-  const report: NormalizeReport = { events: [], past: 0, invalid: [], unmatchedVenues: {}, filtered: 0, cancelled: 0, elsewhere: [], people: {} };
+  const report: NormalizeReport = { events: [], past: 0, invalid: [], unmatchedVenues: {}, filtered: 0, cancelled: 0, elsewhere: [], people: {}, defaultTyped: [] };
   const include = source.include ? new RegExp(source.include, "i") : null;
   const exclude = source.exclude ? new RegExp(source.exclude, "i") : null;
   const venueFilter = source.venueFilter ? new RegExp(source.venueFilter, "i") : null;
@@ -129,7 +134,7 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
     // Already open with only an end date ("Until 10 Jan") or open-ended → treat as a long run.
     const spanDays = startDate && endDate ? (Date.parse(endDate) - Date.parse(startDate)) / 864e5 : ongoing || endDate ? 999 : undefined;
     const oneOff = !!startDate && !ongoing && (!endDate || (spanDays ?? 0) <= 3);
-    const type = classifyType({
+    const typeInput: TypeInput = {
       url: r.url,
       title: r.title,
       typeLabel: r.typeLabel,
@@ -138,7 +143,8 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
       venueKind,
       spanDays,
       oneOff,
-    });
+    };
+    const type = classifyType(typeInput);
     const category = source.defaults?.category ?? categoryFor(type, venueKind);
     const shared = (urlCounts.get(r.url) ?? 0) > 1;
     const prefix = venueId ?? `~${slugify(r.venueName ?? "elsewhere", 40)}`;
@@ -168,8 +174,9 @@ export function normalize(raws: RawEvent[], source: SourceConfig, venues: VenueI
     if (r.genres?.length) ev.genres = r.genres;
     const people = addPeople(report.people, r.people);
     if (people.length) ev.people = people;
-    if (elsewhere) report.elsewhere.push({ ...ev, ...(r.venueName ? { venueName: r.venueName } : {}) });
-    else report.events.push(ev);
+    const out = elsewhere ? { ...ev, ...(r.venueName ? { venueName: r.venueName } : {}) } : ev;
+    (elsewhere ? report.elsewhere : report.events).push(out);
+    if (!typeEvidence(typeInput)) report.defaultTyped.push(out);
   }
   return report;
 }
