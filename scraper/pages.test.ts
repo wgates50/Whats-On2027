@@ -3,12 +3,12 @@
 
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import type { PagesAdapterConfig, SourceConfig } from "../lib/types.ts";
+import type { PagesAdapterConfig, SourceConfig, WOEvent } from "../lib/types.ts";
 import type { DetailCache } from "./adapters/index.ts";
 import { dateFromUrl, runPages } from "./adapters/pages.ts";
 import type { Fetcher, FetchResult } from "./fetcher.ts";
 import { normalize } from "./normalize.ts";
-import { sameThing } from "./dedupe.ts";
+import { absorb, sameThing } from "./dedupe.ts";
 import { VenueIndex } from "./venues.ts";
 import { loadVenues } from "./config.ts";
 
@@ -122,6 +122,65 @@ test("sameThing: same exhibition from two sources, but not different shows", () 
   assert.ok(sameThing({ title: "The 90s: Art and Fashion", ...run }, { title: "The 90s", startDate: null, endDate: "2027-02-14" }));
   assert.ok(!sameThing({ title: "Frida: The Making of an Icon", ...run }, { title: "Ana Mendieta", ...run }));
   assert.ok(!sameThing({ title: "Monet", ...run }, { title: "Monet", startDate: "2027-02-25", endDate: "2027-06-27" }));
+});
+
+test("absorb: a ticketing API's classification corrects a venue's default type, never its listing's own evidence", () => {
+  const ev = (o: Partial<WOEvent> = {}): WOEvent => ({
+    id: "union-chapel:x",
+    venueId: "union-chapel",
+    sourceId: "union-chapel",
+    title: "Matt Mathews",
+    url: "https://unionchapel.org.uk/whats-on/x",
+    type: "concert",
+    category: "shows",
+    startDate: "2026-12-01",
+    endDate: null,
+    firstSeen: TODAY,
+    ...o,
+  });
+  const tm = (o: Partial<WOEvent>) => ev({ sourceId: "ticketmaster", url: "https://www.ticketmaster.co.uk/x", ...o });
+
+  // Union Chapel's listings default to concert; Ticketmaster knows this one's a comedian.
+  const comic = ev({ typeGuessed: true });
+  absorb(comic, tm({ type: "show", genres: ["Arts & Theatre/Comedy/Comedy"], people: ["matt-mathews"] }), "live-venue");
+  assert.deepEqual([comic.type, comic.category, comic.typeGuessed], ["show", "shows", undefined]);
+  assert.deepEqual([comic.genres, comic.people], [["Arts & Theatre/Comedy/Comedy"], ["matt-mathews"]]);
+
+  // A one-night thing at an arts centre with nothing to say what it was becomes a gig (and a show).
+  const gig = ev({ venueId: "barbican", type: "event", category: "art-events", typeGuessed: true });
+  absorb(gig, tm({ type: "concert" }), "arts-centre");
+  assert.deepEqual([gig.type, gig.category], ["concert", "shows"]);
+  // Talks and films too ("Film/Music": a film with a live score).
+  const film = ev({ title: "William Shakespeare’s Romeo + Juliet", type: "show", typeGuessed: true });
+  absorb(film, tm({ type: "screening" }), "live-venue");
+  assert.equal(film.type, "screening");
+
+  // The listing's own evidence stays: Ticketmaster files film-with-orchestra nights under theatre.
+  const muppets = ev({ title: "The Muppet Christmas Carol in Concert" });
+  absorb(muppets, tm({ type: "show" }), "live-venue");
+  assert.equal(muppets.type, "concert");
+
+  // Nor does a guess give way to the API's own guess, or to another listing site; tours stay tours,
+  // and an API's family or exhibition label doesn't re-type a show.
+  const guess = ev({ type: "show", typeGuessed: true });
+  absorb(guess, tm({ type: "concert", typeGuessed: true }), "live-venue");
+  absorb(guess, ev({ sourceId: "official-london-theatre", type: "concert" }), "live-venue");
+  assert.equal(guess.type, "show");
+  const tour = ev({ type: "tour", typeGuessed: true });
+  absorb(tour, tm({ type: "concert" }), "live-venue");
+  assert.equal(tour.type, "tour");
+  const kids = ev({ type: "show", typeGuessed: true });
+  absorb(kids, tm({ type: "family" }), "live-venue");
+  assert.equal(kids.type, "show");
+});
+
+test("normalize lists the events whose type is only a default", () => {
+  const source: SourceConfig = { id: "union-chapel", name: "Union Chapel", enabled: true, venueId: "union-chapel", defaults: { type: "concert" }, adapter: CFG };
+  const raw = (title: string, typeLabel?: string) => ({ url: `https://unionchapel.org.uk/whats-on/${encodeURIComponent(title)}`, title, typeLabel, dates: { startDate: "2026-12-01", endDate: null } });
+  const rep = normalize([raw("Matt Mathews"), raw("Sunday Jam in Concert"), raw("Tim Key", "Comedy")], source, new VenueIndex(loadVenues()), TODAY);
+  assert.deepEqual(rep.events.map((e) => [e.title, e.type]), [["Matt Mathews", "concert"], ["Sunday Jam in Concert", "concert"], ["Tim Key", "show"]]);
+  assert.deepEqual(rep.defaultTyped.map((e) => e.title), ["Matt Mathews"]);
+  assert.ok(rep.events.every((e) => !("typeGuessed" in e))); // the scrape marks them, not normalize
 });
 
 test("discover builds selectors that survive site redeploys", async () => {

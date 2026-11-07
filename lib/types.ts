@@ -178,6 +178,11 @@ export interface WOEvent {
   themes?: string[];
   /** Not tagged yet: themes guessed from genres/title ("guess") or borrowed from the venue ("venue"). */
   themesFrom?: "guess" | "venue";
+  /**
+   * During a scrape only (never written out): the type is just the source's or the venue kind's
+   * default, so a ticketing API's classification may correct it on de-duplication.
+   */
+  typeGuessed?: true;
 }
 
 /**

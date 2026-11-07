@@ -1237,9 +1237,12 @@
         "dates": "p.small.text-uppercase"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02.",
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Mostly gigs (also some comedy, talks and film): listings default to concert; Ticketmaster's classification corrects the rest when it lists them too.",
     "enrich": {
       "description": ".pt-4 > p"
+    },
+    "defaults": {
+      "type": "concert"
     }
   },
   {
@@ -1338,7 +1341,10 @@
         "dates": "div.list--events__item__dates"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Mostly gigs and club nights: listings default to concert.",
+    "defaults": {
+      "type": "concert"
+    }
   },
   {
     "id": "hackney-empire",
@@ -2101,7 +2107,10 @@
         "timeElements": "p.troxy-event__date time"
       }
     },
-    "notes": "Event pages carry <time datetime> dates; cached so daily runs only fetch new events."
+    "notes": "Event pages carry <time datetime> dates; cached so daily runs only fetch new events. Mostly gigs and club nights: listings default to concert.",
+    "defaults": {
+      "type": "concert"
+    }
   },
   {
     "id": "ticketmaster",
