@@ -1649,6 +1649,22 @@
    },
    "at": "2026-11-02"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/07/11/helen-chadwick-body-and-landscape": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/07/11/helen-chadwick-body-and-landscape",
+    "title": "Helen Chadwick: Body and Landscape",
+    "dates": {
+     "startDate": "2026-07-11",
+     "endDate": "2027-01-10"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/e6572406-131b-4a6c-949b-1f964fdb27b3/dcd33889191b11c1f40432de1a84d8a9-md.jpg",
+    "description": "Amgueddfa Cymru and Oriel y Parc are proud to present the work of pioneering British artist Helen Chadwick (1953–1996).",
+    "venueName": "Oriel y Parc, Haverfordwest",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-07"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/07/16/folkmoot": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/07/16/folkmoot",
@@ -4209,6 +4225,22 @@
    },
    "at": "2026-11-02"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/11/05/fronting-the-map-tracing-the-spatial-history-of-the-polish-armed-forces-in-scotland": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/05/fronting-the-map-tracing-the-spatial-history-of-the-polish-armed-forces-in-scotland",
+    "title": "Fronting the Map: Tracing the Spatial History of the Polish Armed Forces in Scotland",
+    "dates": {
+     "startDate": "2026-11-05",
+     "endDate": "2026-11-15"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/e0c9172a-ea94-4893-8202-cab61d2a2f89/24c0652b818525d386eac3249cf122a4-md.jpg",
+    "description": "Fronting the Map: Tracing the Spatial History of the Polish Armed Forces in Scotland by Sól Association",
+    "venueName": "Biggar & Upper Clydesdale Museum, Biggar",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-07"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/11/06/katie-shannon-backprunevirginruin": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/11/06/katie-shannon-backprunevirginruin",
@@ -4529,6 +4561,22 @@
    },
    "at": "2026-11-02"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/11/14/maybe-ryan-gander": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/14/maybe-ryan-gander",
+    "title": "Maybe: Ryan Gander",
+    "dates": {
+     "startDate": "2026-11-14",
+     "endDate": "2027-04-11"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/3437d082-1c36-4b1a-b17d-09c697784405/76c103fab20357f92cffdb2c4f76f445-md.jpg",
+    "description": "Internationally acclaimed artist Ryan Gander explores how imagination can reshape our collective reality.",
+    "venueName": "Towner Eastbourne, Eastbourne",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-07"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/11/14/people-watching": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/11/14/people-watching",
@@ -4576,6 +4624,22 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/17/friends-of-biggar-bonfire-exhibition-and-community-drop-in": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/17/friends-of-biggar-bonfire-exhibition-and-community-drop-in",
+    "title": "Friends of Biggar Bonfire – Exhibition and Community Drop-in",
+    "dates": {
+     "startDate": "2026-11-17",
+     "endDate": "2026-11-26"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/76bb4a70-b3c6-49aa-852d-3612fcaa7a05/2c82dff1ccf38432ea39bc9e599487fd-md.jpg",
+    "description": "The Friends of Biggar Bonfire will once again be hosting their community drop-in, to learn about the history of the Bonfire.",
+    "venueName": "Biggar & Upper Clydesdale Museum, Biggar",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-07"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/17/where-we-grow-nature-nurture-childhood-6abbe2b46e73e": {
    "raw": {
@@ -4720,6 +4784,22 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/21/michaela-yearwood-dan-the-practice-of-liberation": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/21/michaela-yearwood-dan-the-practice-of-liberation",
+    "title": "Michaela Yearwood-Dan The Practice of Liberation",
+    "dates": {
+     "startDate": "2026-11-21",
+     "endDate": "2027-02-14"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/58501572-44b6-4684-a120-3cff6d9fd30c/06014c4368fc57bd49d78d8b5bb2ecb6-md.jpg",
+    "description": "Bringing painting, ceramics and sound together, Michaela Yearwood-Dan creates a powerfully resonant, immersive space",
+    "venueName": "Towner Eastbourne, Eastbourne",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-07"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/mmm-gotta-try-a-little-harder-it-could-be-sweet": {
    "raw": {
@@ -4880,6 +4960,22 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/28/cabinet-of-curiosities": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/28/cabinet-of-curiosities",
+    "title": "Cabinet of Curiosities",
+    "dates": {
+     "startDate": "2026-11-28",
+     "endDate": "2027-02-21"
+    },
+    "image": "https://dw4k6npnyoqvk.cloudfront.net/seo/fav-icon-512.png",
+    "description": "A biennial exhibition displaying a range of artworks and artefacts from South Ayrshire Council's museum collection.",
+    "venueName": "Rozelle House Galleries, Ayr",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-07"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/28/gifting": {
    "raw": {
@@ -5216,6 +5312,22 @@
    },
    "at": "2026-11-02"
   },
+  "https://www.artfund.org/explore/exhibitions/2027/04/08/light-pours-in-kieran-marsh": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2027/04/08/light-pours-in-kieran-marsh",
+    "title": "Kieran Marsh: Light Pours In",
+    "dates": {
+     "startDate": "2027-04-08",
+     "endDate": "2027-07-05"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/3cbcfe81-0fbd-4e42-b32b-91307e53ea97/5d2760d7ee16a54f11b656fe09127ae2-md.jpg",
+    "description": "Analogue photographs of England's 'Third Places', exploring community, belonging and the quiet beauty of everyday spaces.",
+    "venueName": "Arundells, Salisbury",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-07"
+  },
   "https://www.artfund.org/explore/exhibitions/2027/05/01/unquiet-earth-labour-and-landscapes": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2027/05/01/unquiet-earth-labour-and-landscapes",
@@ -5263,6 +5375,22 @@
     "cancelled": false
    },
    "at": "2026-11-02"
+  },
+  "https://www.artfund.org/explore/exhibitions/2027/05/14/gainsborough-at-home": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2027/05/14/gainsborough-at-home",
+    "title": "Gainsborough at Home",
+    "dates": {
+     "startDate": "2027-05-14",
+     "endDate": "2027-10-31"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/3918f640-5366-4f76-ac27-66e870c5cbbe/b48cf77e7a3d2ff4ab19d949a26c48ea-md.jpg",
+    "description": "Celebrate 300 years since Thomas Gainsborough's birth in the very place he was born.",
+    "venueName": "Gainsborough's House, Sudbury",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-07"
   },
   "https://www.artfund.org/explore/exhibitions/2027/05/17/claire-angel-bonner-monica-escobar-ranaa-farooq-outer-worlds-inner-space-67c1d93ada874": {
    "raw": {
