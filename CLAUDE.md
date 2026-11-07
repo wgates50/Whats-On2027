@@ -40,7 +40,7 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
   `public/data/app.json` and `public/data/people.json` (loaded only for people pages or when you follow
   someone), built by `scripts/build-data.ts` in `prebuild`. Follows (places and people)/saved live in
   localStorage (`lib/store.ts`). One static `/person/?id=…` page serves every performer.
-- `.github/workflows/` — `scrape.yml` (daily 05:17 UTC, opens/closes `broken-source` issues),
+- `.github/workflows/` — `scrape.yml` (daily 21:17 UTC; GitHub often starts it hours late, opens/closes `broken-source` issues),
   `ci.yml` (typecheck, tests, build; auto-merges `claude/*` PRs that only touch config + fixtures),
   `add-event.yml`.
 
