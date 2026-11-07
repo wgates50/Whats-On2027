@@ -1,8 +1,32 @@
 {
-  "https://www.nhm.ac.uk/": {
-    "file": "583282563fd8.html.gz",
+  "https://www.nhm.ac.uk/whats-on.html": {
+    "file": "0daeb01688cc.html.gz",
     "status": 200,
-    "finalUrl": "https://www.nhm.ac.uk/",
+    "finalUrl": "https://www.nhm.ac.uk/whats-on.html",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.nhm.ac.uk/visit/exhibitions/wildlife-photographer-of-the-year.html": {
+    "file": "4b72f45a6415.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/visit/exhibitions/wildlife-photographer-of-the-year.html",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.nhm.ac.uk/visit/exhibitions/jurassic-oceans.html": {
+    "file": "96be9fc12106.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/visit/exhibitions/jurassic-oceans.html",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.nhm.ac.uk/visit/exhibitions/our-story-with-david-attenborough.html": {
+    "file": "ab6b25ad35ed.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/visit/exhibitions/our-story-with-david-attenborough.html",
+    "contentType": "text/html; charset=utf-8"
+  },
+  "https://www.nhm.ac.uk/visit/exhibitions/visions-of-nature.html": {
+    "file": "f8f961e07bf1.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/visit/exhibitions/visions-of-nature.html",
     "contentType": "text/html; charset=utf-8"
   }
 }

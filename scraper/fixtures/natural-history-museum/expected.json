@@ -1,6 +1,6 @@
 {
   "sourceId": "natural-history-museum",
-  "recordedAt": "2026-11-02",
+  "recordedAt": "2026-11-07",
   "limits": {
     "maxPages": 1,
     "maxLinks": 4
@@ -8,50 +8,44 @@
   "adapter": {
     "type": "pages",
     "listUrls": [
-      "https://www.nhm.ac.uk/"
+      "https://www.nhm.ac.uk/whats-on.html"
     ],
-    "cards": {
-      "item": "div.space-y-s-m",
-      "dates": "li.flex.gap-xs"
+    "linkPattern": "^https://www\\.nhm\\.ac\\.uk/visit/exhibitions/[a-z0-9-]+(\\.html)?$",
+    "maxLinks": 20,
+    "detail": {
+      "title": "h1",
+      "dates": "article[data-gtm-component='icon-and-text'] > div"
     }
   },
   "rawCount": 3,
   "events": [
     {
-      "id": "natural-history-museum:exhibitions-wildlife-photographer-of-the-year",
+      "id": "natural-history-museum:exhibitions-wildlife-photographer-of-the-year-html",
       "venueId": "natural-history-museum",
       "sourceId": "natural-history-museum",
       "title": "Wildlife Photographer of the Year",
-      "url": "https://www.nhm.ac.uk/visit/exhibitions/wildlife-photographer-of-the-year",
+      "url": "https://www.nhm.ac.uk/visit/exhibitions/wildlife-photographer-of-the-year.html",
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2026-10-16",
       "endDate": "2027-07-11",
-      "firstSeen": "2026-11-02"
+      "firstSeen": "2026-11-07",
+      "image": "https://www.nhm.ac.uk/content/dam/nhm-www/visit/Exhibitions/wpy/WPY62-polar-bear-tile.png",
+      "description": "Explore the world's best nature photography, exhibited on exquisite light panels for an immersive exhibition like no other."
     },
     {
-      "id": "natural-history-museum:exhibitions-visions-of-nature-html",
-      "venueId": "natural-history-museum",
-      "sourceId": "natural-history-museum",
-      "title": "Visions of Nature",
-      "url": "https://www.nhm.ac.uk/visit/exhibitions/visions-of-nature.html",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": null,
-      "endDate": "2027-01-03",
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "natural-history-museum:exhibitions-jurassic-oceans",
+      "id": "natural-history-museum:exhibitions-jurassic-oceans-html",
       "venueId": "natural-history-museum",
       "sourceId": "natural-history-museum",
       "title": "Jurassic Oceans: Monsters of the Deep",
-      "url": "https://www.nhm.ac.uk/visit/exhibitions/jurassic-oceans",
+      "url": "https://www.nhm.ac.uk/visit/exhibitions/jurassic-oceans.html",
       "type": "exhibition",
       "category": "exhibitions",
-      "startDate": null,
+      "startDate": "2026-05-22",
       "endDate": "2027-01-03",
-      "firstSeen": "2026-11-02"
+      "firstSeen": "2026-11-07",
+      "image": "https://www.nhm.ac.uk/content/dam/nhm-www/visit/Exhibitions/jurassic-oceans/JO-banner-mobile-hero.jpg",
+      "description": "Take a thrilling deep dive back in time into ancient waters with this monstrous exhibition."
     }
   ]
 }

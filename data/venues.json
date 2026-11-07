@@ -1359,6 +1359,9 @@
   {
     "id": "union-chapel",
     "name": "Union Chapel",
+    "aliases": [
+      "Union Chapel Islington"
+    ],
     "kind": "live-venue",
     "area": "Islington",
     "website": "https://unionchapel.org.uk",
@@ -2757,5 +2760,30 @@
     "website": "https://www.atgtickets.com/venues/new-wimbledon-theatre/",
     "lat": 51.41922,
     "lng": -0.20142
+  },
+  {
+    "id": "old-operating-theatre",
+    "name": "Old Operating Theatre Museum and Herb Garret",
+    "aliases": [
+      "Old Operating Theatre Museum And Herb Garret",
+      "The Old Operating Theatre"
+    ],
+    "kind": "museum",
+    "area": "London Bridge",
+    "website": "https://oldoperatingtheatre.com",
+    "lat": 51.50503,
+    "lng": -0.08852
+  },
+  {
+    "id": "greenwood-theatre",
+    "name": "Greenwood Theatre",
+    "aliases": [
+      "The Greenwood Theatre"
+    ],
+    "kind": "theatre",
+    "area": "London Bridge",
+    "website": "https://www.kcl.ac.uk/greenwood",
+    "lat": 51.50249,
+    "lng": -0.08597
   }
 ]
