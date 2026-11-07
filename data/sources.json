@@ -295,14 +295,16 @@
     "adapter": {
       "type": "pages",
       "listUrls": [
-        "https://www.nhm.ac.uk/"
+        "https://www.nhm.ac.uk/whats-on.html"
       ],
-      "cards": {
-        "item": "div.space-y-s-m",
-        "dates": "li.flex.gap-xs"
+      "linkPattern": "^https://www\\.nhm\\.ac\\.uk/visit/exhibitions/[a-z0-9-]+(\\.html)?$",
+      "maxLinks": 20,
+      "detail": {
+        "title": "h1",
+        "dates": "article[data-gtm-component='icon-and-text'] > div"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Re-pointed 2026-11-07: the homepage cards went; now follows the what's-on page's /visit/exhibitions/ links and reads dates from the icon-and-text info blocks on each exhibition page. Visions of Nature (mixed-reality experience) publishes no dates, so it is not picked up."
   },
   {
     "id": "wellcome-collection",
