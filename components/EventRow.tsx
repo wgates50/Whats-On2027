@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import type { VenueLite } from "@/lib/data";
 import type { WOEvent } from "@/lib/types";
-import { usePrefs } from "@/lib/store";
+import { memoOf, usePrefs } from "@/lib/store";
 import { usePeopleData } from "@/lib/useData";
 import { BADGE_LABEL, badges, darkDaysText, dayOfWeek, icsFor, isOneOff, londonParts, notOnSaleYet, performancesOn, rangeText, shortDate, weekdayShort, whenInstant, whenText } from "@/lib/when";
 import { ThemeChips } from "./ThemeChips";
@@ -60,6 +60,16 @@ export function EventRow({
   why?: string;
 }) {
   const [open, setOpen] = useState(false);
+  const { prefs, toggleVisited, remember } = usePrefs();
+  const been = prefs.visited.includes(e.id);
+  // You can only have been to something that's started.
+  const canHaveBeen = !e.startDate || e.startDate <= today;
+  const visitDay = e.startDate && e.startDate > today ? e.startDate : isOneOff(e) && e.startDate ? e.startDate : today;
+  const toggleSave = () => {
+    onToggleSaved();
+    // Remember what it was, so it still counts for your taste once it's gone from the listings.
+    if (!saved) remember({ [e.id]: memoOf(e, e.startDate && e.startDate > today ? e.startDate : today) });
+  };
   // Lists that aren't about one day describe a run as of today ("Opens 20 Nov", not "Opens today").
   const ref = dated && !isOneOff(e) ? today : day;
   const b = badges(e, ref, today).filter((x) => x !== "new" || e.firstSeen > baseline);
@@ -109,10 +119,11 @@ export function EventRow({
               {BADGE_LABEL[x]}
             </span>
           ))}
+          {been && <span className="badge badge--been">Been</span>}
           {why && <span className="row__why">{why}</span>}
         </span>
       </button>
-      <button className={`row__save${saved ? " is-saved" : ""}`} onClick={onToggleSaved} aria-pressed={saved} aria-label={saved ? "Remove from plans" : "Save to plans"}>
+      <button className={`row__save${saved ? " is-saved" : ""}`} onClick={toggleSave} aria-pressed={saved} aria-label={saved ? "Remove from plans" : "Save to plans"}>
         {Icon.star(saved)}
       </button>
       {open && (
@@ -148,6 +159,11 @@ export function EventRow({
             <a href={e.url} target="_blank" rel="noopener noreferrer">
               {VIA[e.sourceId] ? `View on ${VIA[e.sourceId]}` : "Visit site"} {Icon.arrow}
             </a>
+            {canHaveBeen && (
+              <button className={been ? "is-been" : undefined} onClick={() => toggleVisited(e.id, memoOf(e, visitDay))} aria-pressed={been}>
+                {been ? "✓ Been" : "I’ve been"}
+              </button>
+            )}
             <button onClick={addToCalendar}>Add to calendar</button>
             <button onClick={share}>Share</button>
           </div>

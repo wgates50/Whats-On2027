@@ -7,6 +7,7 @@ import { join } from "node:path";
 import type { Person, SourceConfig, SourceHealth, TagsFile, Theme, ThemeGroup, Venue, VenueKind, WOEvent } from "./types.ts";
 import type { Week } from "./hours.ts";
 import { compileThemes, EMPTY_TAGS, guessEventThemes, personThemes, venueThemes } from "./themes.ts";
+import { keywords } from "./keywords.ts";
 
 export interface VenueLite {
   id: string;
@@ -64,16 +65,20 @@ export function loadAppData(): AppData {
   const vThemes = new Map(venues.map((v) => [v.id, venueThemes(v, tags)]));
 
   // Each event's themes (tagged, or a first guess); the APIs' genres were only needed for that.
-  const events = [...scraped.events, ...manual]
-    .filter((e) => venueIds.has(e.venueId))
-    .map(({ genres, ...e }) => {
-      const tagged = tags.events[e.id];
-      if (tagged) return tagged.length ? { ...e, themes: tagged } : e;
-      const g = guessEventThemes({ ...e, genres }, vThemes.get(e.venueId) ?? [], t);
-      if (!g.themes.length) return e;
-      // How sure: read from the API's genres or the title, or (weaker) borrowed from the venue.
-      return { ...e, themes: g.themes, themesFrom: g.from === "genres" || g.from === "title" ? ("guess" as const) : ("venue" as const) };
-    });
+  const listed = [...scraped.events, ...manual].filter((e) => venueIds.has(e.venueId));
+  const venueName = new Map(venues.map((v) => [v.id, v.name]));
+  const kw = keywords(listed.map((e) => ({ ...e, venueName: venueName.get(e.venueId) })));
+  const events = listed.map(({ genres, ...e }) => {
+    const words = kw.get(e.id);
+    const withKw = words ? { ...e, kw: words } : e;
+    const tagged = tags.events[e.id];
+    if (tagged) return tagged.length ? { ...withKw, themes: tagged } : withKw;
+    const g = guessEventThemes({ ...e, genres }, vThemes.get(e.venueId) ?? [], t);
+    if (!g.themes.length) return withKw;
+    // How sure: the API's genres or the title, the description, or (weakest) borrowed from the venue.
+    const themesFrom = g.from === "genres" || g.from === "title" ? ("guess" as const) : g.from === "details" ? ("details" as const) : ("venue" as const);
+    return { ...withKw, themes: g.themes, themesFrom };
+  });
 
   return (cache = {
     generatedAt: scraped.generatedAt,

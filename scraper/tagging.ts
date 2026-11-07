@@ -45,7 +45,7 @@ export function todo(u: Universe, tags: TagsFile, themes: Theme[], opts: { event
   }
 
   // Events: those the rules know least about first (no genres, no telling title), then the soonest.
-  const tier = { none: 0, venue: 1, type: 1, title: 2, genres: 3 } as const;
+  const tier = { none: 0, venue: 1, type: 1, details: 1, title: 2, genres: 3 } as const;
   const waiting = current
     .filter((e) => !tags.events[e.id])
     .map((e) => ({ e, g: guessEventThemes(e, venueThemes(venueById.get(e.venueId)!, tags), t) }))
@@ -63,7 +63,7 @@ export function todo(u: Universe, tags: TagsFile, themes: Theme[], opts: { event
     if (e.genres?.length) bits.push(`genres: ${e.genres.join(", ")}`);
     // Only real evidence as a hint: a theme borrowed from the venue is what this step is here to check.
     if (g.from === "genres" || g.from === "title") bits.push(`guess: ${g.themes.join(",")}`);
-    if (e.description) bits.push(quote(oneLine(e.description, 180)));
+    if (e.description) bits.push(quote(oneLine(e.description, 300)));
     lines.push(`event\t${e.id}\t${bits.join(" · ")}`);
   }
 

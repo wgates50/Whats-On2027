@@ -3,7 +3,7 @@
 // come with the app's data (see lib/themes.ts).
 
 import type { VenueLite } from "./data";
-import type { EventType, Person, VenueKind, WOEvent } from "./types";
+import type { EventType, Memo, Person, VenueKind, WOEvent } from "./types";
 import { isAct } from "./themes";
 
 export { isAct };
@@ -13,7 +13,7 @@ export { isAct };
  * a theme you picked, a saved event, a followed act, a followed place. A place counts least: big
  * venues do a bit of everything, so following the O2 says less than saving one exhibition.
  */
-export const WEIGHT = { liked: 4, saved: 3, person: 2, venue: 1 } as const;
+export const WEIGHT = { visited: 4, liked: 4, saved: 3, person: 2, venue: 1 } as const;
 const POSITION = [1, 0.7, 0.5, 0.4];
 const pos = (i: number) => POSITION[i] ?? 0.3;
 /** An item's weight spread over its themes. */
@@ -41,7 +41,7 @@ const GROUP_TYPE: Record<string, EventType> = { art: "exhibition", ideas: "exhib
 /** Where a theme in your profile came from — for "Because you saved …". */
 export type Source =
   | { kind: "liked" }
-  | { kind: "saved"; title: string; themes: string[] }
+  | { kind: "visited" | "saved"; title: string; themes: string[]; kw: string[] }
   | { kind: "person"; name: string; themes: string[] }
   | { kind: "venue"; name: string; themes: string[] };
 
@@ -51,6 +51,8 @@ export interface Profile {
   types: Map<EventType, number>;
   kinds: Map<VenueKind, number>;
   sources: Map<string, (Source & { weight: number })[]>;
+  /** What you've been to and saved — to connect suggestions to ("Because you saved X · Westwood"). */
+  anchors: { kind: "visited" | "saved"; id: string; title: string; themes: string[]; kw: string[] }[];
 }
 
 export interface Signals {
@@ -58,6 +60,9 @@ export interface Signals {
   follows: string[];
   saved: string[];
   people: string[];
+  visited?: string[];
+  /** What saved/visited events were, for ones no longer listed. */
+  memo?: Record<string, Memo>;
 }
 
 export interface Lookups {
@@ -69,7 +74,7 @@ export interface Lookups {
 }
 
 export function buildProfile(s: Signals, l: Lookups): Profile {
-  const p: Profile = { themes: new Map(), types: new Map(), kinds: new Map(), sources: new Map() };
+  const p: Profile = { themes: new Map(), types: new Map(), kinds: new Map(), sources: new Map(), anchors: [] };
   const add = <K>(m: Map<K, number>, k: K, w: number) => m.set(k, (m.get(k) ?? 0) + w);
   const credit = (themes: string[] | undefined, total: number, src: Source) => {
     for (const [t, w] of spread(themes ?? [], total)) {
@@ -82,13 +87,20 @@ export function buildProfile(s: Signals, l: Lookups): Profile {
     const type = GROUP_TYPE[l.group?.(t) ?? ""];
     if (type) add(p.types, type, 1);
   }
-  for (const id of s.saved) {
-    const e = l.event(id);
-    if (!e) continue;
-    credit(e.themes, WEIGHT.saved, { kind: "saved", title: e.title, themes: e.themes ?? [] });
-    add(p.types, e.type, 3);
-    const v = l.venue(e.venueId);
-    if (v) add(p.kinds, v.kind, 1);
+  // Things you've been to count most, then things you've saved (the listing, or what we remembered of it).
+  const visited = new Set(s.visited ?? []);
+  for (const [kind, ids] of [["visited", [...visited]], ["saved", s.saved.filter((id) => !visited.has(id))]] as const) {
+    for (const id of ids) {
+      const e = l.event(id);
+      const m = s.memo?.[id];
+      const thing = e ? { title: e.title, themes: e.themes ?? [], kw: e.kw ?? [], type: e.type, venue: e.venueId } : m ? { title: m.t, themes: m.th ?? [], kw: m.kw ?? [], type: m.ty, venue: m.v } : null;
+      if (!thing) continue;
+      credit(thing.themes, WEIGHT[kind], { kind, title: thing.title, themes: thing.themes, kw: thing.kw });
+      p.anchors.push({ kind, id, title: thing.title, themes: thing.themes, kw: thing.kw });
+      if (thing.type) add(p.types, thing.type, kind === "visited" ? 4 : 3);
+      const v = l.venue(thing.venue);
+      if (v) add(p.kinds, v.kind, kind === "visited" ? 2 : 1);
+    }
   }
   for (const id of s.people) {
     const x = l.person(id);
@@ -146,13 +158,47 @@ function fit<K>(m: Map<K, number>, k: K, floor: number): number {
 export interface Why {
   theme: string;
   source?: Source;
+  /** A real connection to something you went to or saved, and what they share (themes, words). */
+  link?: { kind: "visited" | "saved"; title: string; shared: string[] };
+}
+
+/** How common each theme is across the listings (share of all of them). */
+export function themeShare(events: Pick<WOEvent, "themes">[]): Map<string, number> {
+  const df = new Map<string, number>();
+  for (const e of events) for (const t of e.themes ?? []) df.set(t, (df.get(t) ?? 0) + 1);
+  return new Map([...df].map(([t, n]) => [t, n / Math.max(1, events.length)]));
+}
+/** A theme on more than 4% of listings (Contemporary art, Comedy…) is too common to be a connection by itself. */
+const COMMON = 0.04;
+const common = (t: string, share?: Map<string, number>) => (share?.get(t) ?? 0) > COMMON;
+
+/**
+ * The thing you went to or saved that a suggestion is most like: distinctive words in common (an
+ * artist, a material, a subject) and themes in common that aren't everywhere. None → no connection.
+ */
+export function connect(e: Pick<WOEvent, "themes" | "kw"> & { id?: string }, p: Profile, share?: Map<string, number>) {
+  let best: { anchor: Profile["anchors"][number]; shared: string[]; strength: number } | undefined;
+  for (const a of p.anchors) {
+    if (a.id === e.id) continue;
+    const words = (e.kw ?? []).filter((w) => a.kw.includes(w));
+    const themes = (e.themes ?? []).filter((t) => a.themes.includes(t));
+    const specific = themes.filter((t) => !common(t, share));
+    const strength = words.length + specific.length + 0.25 * (themes.length - specific.length);
+    if (strength >= 1 && (!best || strength > best.strength || (strength === best.strength && a.kind === "visited")))
+      best = { anchor: a, shared: [...specific, ...words.filter((w) => !specific.some((t) => t === w || t.startsWith(`${w}-`)))], strength };
+  }
+  return best;
 }
 
 /** The saved event / followed place most like the suggestion, among those behind its theme. */
-function explain(theme: string, themes: string[], p: Profile): Why {
+function explain(theme: string, themes: string[], p: Profile, share?: Map<string, number>): Why {
   const overlap = (xs: string[]) => xs.filter((x) => themes.includes(x)).length;
-  const rank = { liked: 3, saved: 2, person: 1, venue: 0 } as const;
-  const srcs = p.sources.get(theme) ?? [];
+  const rank = { liked: 3, visited: 2, saved: 2, person: 1, venue: 0 } as const;
+  // Only cite a saved/visited thing when it really is alike: more than one theme in common, or a theme
+  // that isn't everywhere ("Because you saved Ryoji Ikeda" for any contemporary art at all says nothing).
+  const srcs = (p.sources.get(theme) ?? []).filter(
+    (x) => (x.kind !== "saved" && x.kind !== "visited") || overlap(x.themes) >= 2 || !common(theme, share),
+  );
   // The most similar thing of yours (most themes in common), a saved event over a followed place on a tie.
   const best = [...srcs].sort(
     (a, b) =>
@@ -208,7 +254,7 @@ function diversify<T>(all: Match<T>[], p: Profile, limit: number, placeOf: (x: T
 const lastDay = (e: WOEvent) => e.endDate ?? (e.ongoing ? "9999" : (e.startDate ?? "9999"));
 const days = (a: string, b: string) => (Date.parse(b) - Date.parse(a)) / 864e5;
 /** Themes that were assigned (tagged, or read from the API's genres / the title) count fully; ones borrowed from the venue, less. */
-const EVIDENCE = { guess: 0.85, venue: 0.6 } as const;
+const EVIDENCE = { guess: 0.85, details: 0.75, venue: 0.6 } as const;
 
 /**
  * Events you might like that you wouldn't otherwise see: not already saved, not at places you follow
@@ -225,6 +271,10 @@ export function recommendEvents(
     people: Set<string>;
     saved: Set<string>;
     venue: (id: string) => VenueLite | undefined;
+    /** Things you've been to (not suggested again). */
+    visited?: Set<string>;
+    /** How common each theme is (themeShare) — tells a real connection from a shared broad theme. */
+    share?: Map<string, number>;
     horizon?: number;
     limit?: number;
   },
@@ -233,7 +283,7 @@ export function recommendEvents(
   const horizon = o.horizon ?? 60;
   const cands: Match<WOEvent>[] = [];
   for (const e of events) {
-    if (o.saved.has(e.id) || o.follows.has(e.venueId) || e.people?.some((x) => o.people.has(x))) continue;
+    if (o.saved.has(e.id) || o.visited?.has(e.id) || o.follows.has(e.venueId) || e.people?.some((x) => o.people.has(x))) continue;
     if (lastDay(e) < o.today || (e.startDate && days(o.today, e.startDate) > horizon)) continue;
     const m = match(e.themes, p);
     if (!m.theme) continue;
@@ -247,19 +297,23 @@ export function recommendEvents(
     if (end <= 14) score *= 1.1; // last chance
     if (e.startDate && e.startDate >= o.today && days(o.today, e.startDate) <= 14) score *= 1.1;
     if (days(e.firstSeen, o.today) <= 7) score *= 1.1;
-    cands.push({ item: e, score, why: explain(m.theme, e.themes ?? [], p) });
+    // Like something you went to or saved (same artist, material, subject): worth up to twice as much.
+    const c = connect(e, p, o.share);
+    if (c) score *= 1 + 0.4 * Math.min(c.strength, 2.5);
+    const why: Why = c ? { theme: m.theme, link: { kind: c.anchor.kind, title: c.anchor.title, shared: c.shared } } : explain(m.theme, e.themes ?? [], p, o.share);
+    cands.push({ item: e, score, why });
   }
   return diversify(cands, p, o.limit ?? 24, (e) => e.venueId);
 }
 
 /** Places you don't follow that match you and have something on — one per interest. */
-export function recommendVenues(p: Profile, venues: VenueLite[], onNow: Record<string, number>, follows: Set<string>, limit = 8): Match<VenueLite>[] {
+export function recommendVenues(p: Profile, venues: VenueLite[], onNow: Record<string, number>, follows: Set<string>, limit = 8, share?: Map<string, number>): Match<VenueLite>[] {
   if (isEmpty(p)) return [];
   const cands = venues
     .filter((v) => !follows.has(v.id) && (onNow[v.id] ?? 0) > 0)
     .map((v) => {
       const m = match(v.themes, p);
-      return { item: v, score: m.score * fit(p.kinds, v.kind, 0.5) * (1 + 0.15 * Math.log1p(onNow[v.id] ?? 0)), why: explain(m.theme ?? "", v.themes ?? [], p) };
+      return { item: v, score: m.score * fit(p.kinds, v.kind, 0.5) * (1 + 0.15 * Math.log1p(onNow[v.id] ?? 0)), why: explain(m.theme ?? "", v.themes ?? [], p, share) };
     })
     .filter((x) => x.score > 0 && x.why.theme);
   return diversify(cands, p, limit, (v) => v.id).map((x) => x);
@@ -287,6 +341,15 @@ export function whyText(w: Why, label: (theme: string) => string | undefined): s
     const t = title.replace(/^members'?\s[^:]*:\s*/i, ""); // "Members' Preview Day: X" → "X"
     return t.length > 38 ? `${t.slice(0, 36).replace(/\s+\S*$/, "")}…` : t;
   };
+  // "Because you saved The 90s: Art and Fashion · Westwood, Fashion & textiles"
+  if (w.link) {
+    const what = w.link.shared
+      .slice(0, 2)
+      .map((x) => label(x) ?? x.charAt(0).toUpperCase() + x.slice(1))
+      .join(", ");
+    return `Because you ${w.link.kind === "visited" ? "went to" : "saved"} ${clip(w.link.title)}${what ? ` · ${what}` : ""}`;
+  }
+  if (s?.kind === "visited") return `Because you went to ${clip(s.title)}`;
   if (s?.kind === "saved") return `Because you saved ${clip(s.title)}`;
   if (s?.kind === "venue" || s?.kind === "person") return `Because you follow ${s.name}`;
   return `Because you like ${label(w.theme) ?? w.theme}`;

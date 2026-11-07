@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import type { AppData, VenueLite } from "@/lib/data";
 import { THEME_GROUP_LABEL, type Person, type ThemeGroup, type WOEvent } from "@/lib/types";
-import { buildProfile, isAct, isEmpty, recommendEvents, recommendPeople, recommendVenues, topThemes, whyText, type Profile, type Why } from "@/lib/profile";
+import { buildProfile, isAct, isEmpty, recommendEvents, recommendPeople, recommendVenues, themeShare, topThemes, whyText, type Profile, type Why } from "@/lib/profile";
 import { laterDay, usePrefs, useHydrated } from "@/lib/store";
 import { useAppData, usePeopleData } from "@/lib/useData";
 import { addDays, londonToday } from "@/lib/when";
@@ -48,6 +48,7 @@ function Discover({ data }: { data: AppData }) {
   const persons = useMemo(() => new Map((people?.people ?? []).map((p) => [p.id, p])), [people]);
   const labels = useMemo(() => new Map(data.themes.map((t) => [t.id, t.label])), [data.themes]);
   const groups = useMemo(() => new Map(data.themes.map((t) => [t.id, t.group as string])), [data.themes]);
+  const share = useMemo(() => themeShare(data.events), [data.events]);
   const firstScrape = useMemo(() => data.events.reduce((m, e) => (e.firstSeen < m ? e.firstSeen : m), "9999"), [data.events]);
 
   const profile: Profile = useMemo(
@@ -207,8 +208,17 @@ function Discover({ data }: { data: AppData }) {
 
   // ---------------------------------------------------------------- for you
   const into = topThemes(profile, 8);
-  const picks = recommendEvents(profile, data.events, { today, follows, people: following, saved, venue: (id) => venues.get(id), limit: 24 });
-  const placePicks = recommendVenues(profile, data.venues, onNow, follows, 8);
+  const picks = recommendEvents(profile, data.events, {
+    today,
+    follows,
+    people: following,
+    saved,
+    visited: new Set(prefs.visited),
+    share,
+    venue: (id) => venues.get(id),
+    limit: 24,
+  });
+  const placePicks = recommendVenues(profile, data.venues, onNow, follows, 8, share);
   const peoplePicks = people ? recommendPeople(profile, people.people, dates, following, 6) : [];
   const label = (id: string) => labels.get(id);
   // Places and people: the theme, and the place of yours it's like ("Design · like Design Museum").

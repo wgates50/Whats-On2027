@@ -118,7 +118,7 @@ test("Discover: a profile from what you follow, save and pick, and picks spread 
   assert.ok(ids.indexOf("a:1") < ids.indexOf("b:1") || !ids.includes("b:1"), "themes we're sure of beat ones borrowed from the venue");
   const label = (t: string) => ({ design: "Design", "contemporary-art": "Contemporary art" })[t];
   const h = picks.find((x) => x.item.id === "h:1")!;
-  assert.equal(whyText(h.why, label), "Because you saved The 90s: Art and Fashion"); // the most similar thing of yours
+  assert.equal(whyText(h.why, label), "Because you saved The 90s: Art and Fashion · Design"); // the most similar thing of yours, and what you share
   const a = picks.find((x) => x.item.id.startsWith("a:"))!;
   assert.equal(whyText(a.why, label), "Because you follow tate");
   assert.equal(whyText({ theme: "design", source: { kind: "liked" } }, label), "Because you like Design");
@@ -136,4 +136,66 @@ test("themes you pick sync too", () => {
   assert.deepEqual(cleanDoc({ ...base, likes: ["jazz"] })?.likes, ["jazz"]);
   assert.equal(cleanDoc({ ...base, likes: ["<x>"] }), null);
   assert.deepEqual(mergeDocs({ ...base, likes: ["jazz"] }, { ...base, likes: ["opera"] }, base.updatedAt).likes, ["jazz", "opera"]);
+});
+
+test("distinctive words: names, materials and subjects — not filler, not the venue, not what every listing says", async () => {
+  const { keywords, tokens } = await import("../lib/keywords.ts");
+  assert.deepEqual(tokens("Sheila Hicks's textiles: an exhibition in London, 2026"), ["sheila", "hick", "textile"]);
+  const items = [
+    { id: "a", title: "Sheila Hicks: Beyond", description: "Woven textiles and fibre sculpture at Alison Jacques gallery.", venueName: "Alison Jacques" },
+    { id: "b", title: "Threads", description: "Woven textiles from Peru.", venueName: "Somewhere" },
+    ...Array.from({ length: 100 }, (_, i) => ({ id: `x${i}`, title: `Show ${i}`, description: "A new exhibition celebrating painting." })),
+  ];
+  const kw = keywords(items);
+  assert.ok(kw.get("a")!.includes("sheila") && kw.get("a")!.includes("hick")); // names in the title stay, even unique
+  assert.ok(kw.get("a")!.includes("textile") && kw.get("a")!.includes("woven")); // shared with "b": connects them
+  assert.ok(!kw.get("a")!.includes("jacque") && !kw.get("a")!.includes("alison")); // its own venue
+  assert.ok(!kw.get("a")!.includes("fibre")); // only in one description: filler
+  assert.ok(!kw.get("x1")?.includes("painting")); // in every listing: connects nothing
+});
+
+test("Discover: what you've been to counts most, outlives the listing, and connections must be real", () => {
+  const venue = (id: string, themes: string[]) => ({ id, name: id, area: "", kind: "public-gallery", website: "", coverage: "auto", themes }) as never;
+  const venues = new Map<string, ReturnType<typeof venue>>([["g", venue("g", ["contemporary-art"])], ["h", venue("h", ["contemporary-art"])]]);
+  const events = [
+    ev({ id: "hicks", venueId: "g", type: "exhibition", title: "Sheila Hicks: Beyond", themes: ["craft", "contemporary-art"], kw: ["sheila", "hick", "textile", "woven"] }),
+    ev({ id: "other", venueId: "h", type: "exhibition", title: "Untitled", themes: ["contemporary-art"], kw: ["katie", "shannon"] }),
+    ev({ id: "been-here", venueId: "h", type: "exhibition", title: "Already seen", themes: ["craft"] }),
+  ];
+  const byId = new Map(events.map((e) => [e.id, e]));
+  // A textiles show you went to that has since closed: only its memo is left.
+  const memo = { "gone:threads": { t: "Threads", v: "g", ty: "exhibition" as const, th: ["craft", "contemporary-art"], kw: ["textile", "woven"], d: "2026-10-01" } };
+  const p = buildProfile(
+    { likes: [], follows: [], saved: ["gone:ryoji"], people: [], visited: ["gone:threads", "been-here"], memo: { ...memo, "gone:ryoji": { t: "Ryoji Ikeda", v: "g", th: ["digital-art", "contemporary-art"], kw: ["ikeda"] } } },
+    { venue: (id) => venues.get(id), event: (id) => byId.get(id), person: () => undefined },
+  );
+  assert.ok(p.themes.get("craft")! > p.themes.get("digital-art")!, "been to outweighs saved");
+  const share = new Map([["contemporary-art", 0.3], ["craft", 0.01], ["digital-art", 0.01]]);
+  const picks = recommendEvents(p, events, { today: "2026-11-06", follows: new Set(), people: new Set(), saved: new Set(), visited: new Set(["been-here"]), share, venue: (id) => venues.get(id) });
+  assert.ok(!picks.some((x) => x.item.id === "been-here"), "not what you've been to");
+  const hicks = picks.find((x) => x.item.id === "hicks")!;
+  const label = (t: string) => ({ craft: "Craft & ceramics", "contemporary-art": "Contemporary art" })[t];
+  assert.equal(whyText(hicks.why, label), "Because you went to Threads · Craft & ceramics, Textile");
+  // Sharing only a broad theme with something you saved isn't a reason to cite it.
+  const other = picks.find((x) => x.item.id === "other");
+  if (other) assert.doesNotMatch(whyText(other.why, label), /Ryoji/);
+});
+
+test("a description can suggest themes when the title doesn't", () => {
+  const g = guessEventThemes({ title: "Episodes", type: "exhibition", description: "A new series of black-and-white photographs taken in shopping centres." }, ["contemporary-art"], t);
+  assert.deepEqual(g.themes, ["photography"]);
+  assert.equal(g.from, "details");
+  // …but not formats or seasons ("join our talk this Christmas").
+  assert.deepEqual(guessEventThemes({ title: "Episodes", type: "exhibition", description: "Join our curator talk this Christmas." }, [], t).themes, []);
+});
+
+test("visited events and memos sync, validated and merged", () => {
+  const base = { updatedAt: "2026-11-06T10:00:00.000Z", follows: [], people: [], saved: ["a"] };
+  const memo = { a: { t: "Sheila Hicks", v: "alison-jacques", th: ["craft"], kw: ["hick", "textile"], d: "2026-11-06" }, "bad id!": { t: "x", v: "y" }, b: { t: 42 } };
+  const doc = cleanDoc({ ...base, visited: ["b"], memo })!;
+  assert.deepEqual(doc.visited, ["b"]);
+  assert.deepEqual(Object.keys(doc.memo!), ["a"]); // bad entries dropped, the document kept
+  const merged = mergeDocs({ ...base, visited: ["b"], memo: { a: doc.memo!.a, z: { t: "Unsaved", v: "v" } } }, { ...base, saved: [], visited: ["c"] }, base.updatedAt);
+  assert.deepEqual(merged.visited, ["b", "c"]);
+  assert.deepEqual(Object.keys(merged.memo!), ["a"]); // z is neither saved nor visited
 });

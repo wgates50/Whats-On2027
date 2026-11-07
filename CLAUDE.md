@@ -20,7 +20,11 @@ from deterministic scrapers configured in JSON. Claude's role is *maintenance on
   `scraper/tagging.ts`). Rules in `lib/themes.ts` give first guesses (API genres, title words, the
   venue's themes) until something's tagged; themes are worked out at build time into `app.json`.
   **Discover** (`components/DiscoverView.tsx`, `lib/profile.ts`) builds a profile on the device from the
-  themes of what you follow, save and pick, and suggests events, places and people. Still no AI in the app.
+  themes of what you follow, save, pick and have been to ("I've been" on a listing; `visited` + `memo` in
+  prefs, so what you saved/went to still counts after the listing has gone), and suggests events, places
+  and people. Suggestions cite a real connection — shared distinctive words from titles/descriptions
+  (`lib/keywords.ts`, build time) or a theme that isn't everywhere — not just a broad shared theme.
+  Still no AI in the app.
 - `data/hours.json` — opening hours from OpenStreetMap via Nominatim (`npm run hours`, weekly in CI;
   parser in `lib/hours.ts`). © OpenStreetMap contributors — keep the credit where hours are shown.
 - API sources: `scraper/adapters/custom/ticketmaster.ts`, `skiddle.ts` (keys from Actions secrets;
