@@ -5,7 +5,9 @@ name: Daily scrape
 
 on:
   schedule:
-    - cron: "17 5 * * *" # 05:17 UTC daily
+    # 21:17 UTC daily. GitHub starts scheduled runs late (the old 05:17 slot started ~12:50–13:10 every
+    # day), so an evening slot still lands well before the morning maintenance task (08:23 London).
+    - cron: "17 21 * * *"
   workflow_dispatch:
     inputs:
       only:
