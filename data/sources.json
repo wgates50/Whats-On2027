@@ -1262,7 +1262,8 @@
         "dates": "p.EV_ListDate"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "exclude": "\\b(Eucharist|Evensong|Holy Communion|Compline|Morning Prayer|Evening Prayer|Noon Service)\\b",
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Excludes church services (Eucharist, Evensong, Noon Service…), which the homepage lists alongside concerts. Only the homepage shows a few upcoming items; /whats-on/ is built client-side (no events in the HTML) — needs a better listing source."
   },
   {
     "id": "indigo-at-the-o2",

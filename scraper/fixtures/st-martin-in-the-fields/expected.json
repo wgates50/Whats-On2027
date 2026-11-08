@@ -1,6 +1,6 @@
 {
   "sourceId": "st-martin-in-the-fields",
-  "recordedAt": "2026-11-02",
+  "recordedAt": "2026-11-08",
   "limits": {
     "maxPages": 1,
     "maxLinks": 4
@@ -27,20 +27,7 @@
       "category": "shows",
       "startDate": "2026-11-19",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00"
-    },
-    {
-      "id": "st-martin-in-the-fields:whats-on-here-i-stand-thant-myint-u",
-      "venueId": "st-martin-in-the-fields",
-      "sourceId": "st-martin-in-the-fields",
-      "title": "Here I Stand: Thant Myint-U",
-      "url": "https://www.stmartin-in-the-fields.org/whats-on/here-i-stand-thant-myint-u/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-02",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-08",
       "startTime": "19:00"
     }
   ]
