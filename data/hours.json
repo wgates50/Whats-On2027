@@ -1,26 +1,26 @@
 {
- "generatedAt": "2026-11-02T13:21:15.164Z",
+ "generatedAt": "2026-11-09T00:52:30.888Z",
  "attribution": "Opening hours © OpenStreetMap contributors (ODbL)",
  "venues": {
   "180-studios": {
    "osm": "N13319613901",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "adelphi-theatre": {
    "osm": "W313005904",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "aldwych-theatre": {
    "osm": "W148386208",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "alexandra-palace": {
    "osm": "W4768526",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "alison-jacques": {
    "osm": "N6109669976",
@@ -30,7 +30,7 @@
   "almeida-theatre": {
    "osm": "N299597608",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "almine-rech-london": {
    "checkedAt": "2026-11-02"
@@ -38,7 +38,7 @@
   "ambassadors-theatre": {
    "osm": "W149173451",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "anaesthesia-museum": {
    "osm": "N12546753235",
@@ -53,7 +53,7 @@
     null
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "annely-juda-fine-art": {
    "osm": "N5617882773",
@@ -68,17 +68,17 @@
     "11:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "apollo-theatre": {
    "osm": "W149173453",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "apollo-victoria-theatre": {
    "osm": "W219800264",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "apsley-house": {
    "osm": "W120316250",
@@ -93,7 +93,7 @@
     "11:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "arcadia-missa": {
    "checkedAt": "2026-11-02"
@@ -101,17 +101,17 @@
   "arcola-theatre": {
    "osm": "W397640221",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "arts-theatre": {
    "osm": "W175158246",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "at-sohoplace": {
    "osm": "N10251739583",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "bank-of-england-museum": {
    "osm": "N4513341393",
@@ -126,30 +126,33 @@
     null
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "barbican": {
    "osm": "N3076573910",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "battersea-arts-centre": {
    "osm": "W28671469",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "ben-brown-fine-arts": {
    "osm": "N5756877173",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "ben-uri-gallery": {
    "checkedAt": "2026-11-02"
   },
+  "big-belly-comedy-southbank": {
+   "checkedAt": "2026-11-09"
+  },
   "bishopsgate-institute": {
    "osm": "W290003411",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "bloomsbury-theatre": {
    "osm": "W383553353",
@@ -164,12 +167,12 @@
     null
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "bridge-theatre": {
    "osm": "N5210995811",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "british-library": {
    "osm": "W4680891",
@@ -184,7 +187,7 @@
     "09:30–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "british-museum": {
    "osm": "R177044",
@@ -199,32 +202,37 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "brixton-house": {
    "osm": "W1565021370",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "burgh-house": {
    "osm": "W77250946",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
+  },
+  "bush-hall": {
+   "osm": "W931657720",
+   "hours": null,
+   "checkedAt": "2026-11-09"
   },
   "bush-theatre": {
    "osm": "W112603207",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "cadogan-hall": {
    "osm": "W95437784",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "cambridge-theatre": {
    "osm": "W149173456",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "camden-art-centre": {
    "checkedAt": "2026-11-02"
@@ -245,12 +253,12 @@
     "10:30–17:30"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "charing-cross-theatre": {
    "osm": "N345886715",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "charles-dickens-museum": {
    "osm": "N334631276",
@@ -265,7 +273,7 @@
     "10:00–16:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "chisenhale-gallery": {
    "checkedAt": "2026-11-02"
@@ -273,17 +281,17 @@
   "clapham-grand": {
    "osm": "N1112173871",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "conway-hall": {
    "osm": "R1179437",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "coronet-theatre": {
    "osm": "W268111722",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "cristea-roberts-gallery": {
    "checkedAt": "2026-11-02"
@@ -291,12 +299,12 @@
   "criterion-theatre": {
    "osm": "W149173459",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "david-zwirner-london": {
    "osm": "W211553360",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "design-museum": {
    "osm": "W640554759",
@@ -311,22 +319,22 @@
     "10:00–18:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "dominion-theatre": {
    "osm": "W183366864",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "donmar-warehouse": {
    "osm": "N4547813306",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "duchess-theatre": {
    "osm": "W219799643",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "dulwich-picture-gallery": {
    "osm": "W4961350",
@@ -341,12 +349,12 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "earth-hackney": {
    "osm": "W224191969",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "emerald-theatre": {
    "checkedAt": "2026-11-02"
@@ -354,7 +362,7 @@
   "emmanuel-centre": {
    "osm": "W528133471",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "empress-museum": {
    "checkedAt": "2026-11-02"
@@ -372,12 +380,12 @@
     "11:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "eventim-apollo": {
    "osm": "W29204026",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "fashion-and-textile-museum": {
    "osm": "W101154182",
@@ -392,12 +400,12 @@
     "11:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "finborough-theatre": {
    "osm": "N5105802355",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "florence-nightingale-museum": {
    "osm": "N5741257603",
@@ -412,22 +420,22 @@
     "10:00–17:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "flowers-gallery": {
    "osm": "W281939480",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "fortune-theatre": {
    "osm": "W80207930",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "frameless": {
    "osm": "N10554955616",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "freud-museum-london": {
    "osm": "W103107384",
@@ -442,7 +450,7 @@
     "10:30–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "frith-street-gallery": {
    "osm": "N4270562972",
@@ -457,12 +465,12 @@
     "11:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "gagosian-britannia-street": {
    "osm": "N1961648003",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "gagosian-davies-street": {
    "osm": "N5824660822",
@@ -477,12 +485,12 @@
     null
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "gagosian-grosvenor-hill": {
    "osm": "N5750646138",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "galerie-max-hetzler-london": {
    "checkedAt": "2026-11-02"
@@ -500,17 +508,17 @@
     "10:00–17:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "garrick-theatre": {
    "osm": "W149173464",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "gasworks": {
    "osm": "W1119554312",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "gazelli-art-house": {
    "osm": "W289953446",
@@ -525,17 +533,17 @@
     "11:00–19:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "gielgud-theatre": {
    "osm": "W149173466",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "gillian-lynne-theatre": {
    "osm": "W278113372",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "goldsmiths-cca": {
    "checkedAt": "2026-11-02"
@@ -543,15 +551,20 @@
   "goodman-gallery-london": {
    "checkedAt": "2026-11-02"
   },
+  "greenwood-theatre": {
+   "osm": "W90404378",
+   "hours": null,
+   "checkedAt": "2026-11-09"
+  },
   "gresham-college": {
    "osm": "W159740584",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "grimm-london": {
    "osm": "N13740556401",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "guildhall-art-gallery": {
    "osm": "W156172966",
@@ -566,22 +579,22 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "hackney-empire": {
    "osm": "W45748937",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "hampstead-theatre": {
    "osm": "W123702968",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "harold-pinter-theatre": {
    "osm": "W219802225",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "hauser-and-wirth-london": {
    "osm": "N4191567189",
@@ -596,7 +609,7 @@
     "10:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "hayward-gallery": {
    "osm": "W25913653",
@@ -611,7 +624,7 @@
     "10:00–20:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "headstone-manor-and-museum": {
    "checkedAt": "2026-11-02"
@@ -619,32 +632,37 @@
   "herald-st": {
    "osm": "W172859512",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "hippodrome-casino": {
    "osm": "N2790497168",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "his-majestys-theatre": {
    "osm": "W143641503",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "hollybush-gardens": {
    "osm": "W5930232",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "horniman-museum-and-gardens": {
    "osm": "W5095245",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "house-of-sisters-grimm": {
    "osm": "N13740556401",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
+  },
+  "hoxton-hall": {
+   "osm": "W397717627",
+   "hours": null,
+   "checkedAt": "2026-11-09"
   },
   "hunterian-museum": {
    "osm": "N3349882188",
@@ -659,22 +677,22 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "ica": {
    "osm": "N5015865539",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "indigo-at-the-o2": {
    "osm": "W1240494120",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "islington-assembly-hall": {
    "osm": "N13330291607",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "iwm-london": {
    "osm": "W8614496",
@@ -689,7 +707,7 @@
     "10:00–18:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "japan-house-london": {
    "osm": "N6476410685",
@@ -704,17 +722,20 @@
     "10:00–20:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "jermyn-street-theatre": {
    "osm": "W149173468",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "jewish-museum-london": {
    "osm": "W232592410",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
+  },
+  "judi-dench-theatre": {
+   "checkedAt": "2026-11-09"
   },
   "kate-macgarry": {
    "checkedAt": "2026-11-02"
@@ -732,42 +753,42 @@
     "10:00–16:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "kiln-theatre": {
    "osm": "W77665068",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "kings-head-theatre": {
    "osm": "N13690652428",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "kings-place": {
    "osm": "W27511817",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "leicester-square-theatre": {
    "osm": "N3758690563",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "leighton-house": {
    "osm": "W523394114",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "lightroom": {
    "osm": "N11008671201",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "lisson-gallery": {
    "osm": "W689445497",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "little-angel-theatre": {
    "osm": "N824412278",
@@ -782,17 +803,17 @@
     "11:00–15:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "london-coliseum": {
    "osm": "W107035569",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "london-county-hall": {
    "osm": "R1789966",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "london-mithraeum-bloomberg-space": {
    "osm": "W512846335",
@@ -807,7 +828,7 @@
     "10:00–18:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "london-museum": {
    "osm": "W8614496",
@@ -822,7 +843,7 @@
     "10:00–18:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "london-museum-docklands": {
    "osm": "W140144139",
@@ -837,12 +858,12 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "london-palladium": {
    "osm": "W65489484",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "london-transport-museum": {
    "osm": "W44599803",
@@ -857,42 +878,42 @@
     "10:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "lso-st-lukes": {
    "osm": "W34182087",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "lux": {
    "osm": "W721275319",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "lyceum-theatre": {
    "osm": "W27163672",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "lyric-hammersmith": {
    "osm": "W29205167",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "lyric-theatre": {
    "osm": "W149173469",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "mall-galleries": {
    "osm": "N5015865538",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "marylebone-theatre": {
    "osm": "W1109747107",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "maureen-paley": {
    "checkedAt": "2026-11-02"
@@ -900,7 +921,7 @@
   "mazzoleni-london": {
    "osm": "W211553387",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "menier-chocolate-factory": {
    "checkedAt": "2026-11-02"
@@ -921,12 +942,12 @@
     "10:00–17:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "museum-of-comedy": {
    "osm": "N5656403457",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "museum-of-the-home": {
    "osm": "W706183718",
@@ -941,7 +962,7 @@
     "10:00–17:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "national-gallery": {
    "osm": "W4372002",
@@ -956,7 +977,7 @@
     "10:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "national-maritime-museum": {
    "osm": "W183090506",
@@ -971,7 +992,7 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "national-portrait-gallery": {
    "osm": "W59161723",
@@ -986,12 +1007,12 @@
     "10:30–21:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "national-theatre": {
    "osm": "R2023676",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "natural-history-museum": {
    "osm": "W24436446",
@@ -1006,7 +1027,12 @@
     "10:00–17:30"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
+  },
+  "new-wimbledon-theatre": {
+   "osm": "W480477260",
+   "hours": null,
+   "checkedAt": "2026-11-09"
   },
   "newport-street-gallery": {
    "osm": "W375901213",
@@ -1021,72 +1047,87 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "noel-coward-theatre": {
    "osm": "W146481556",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "novello-theatre": {
    "osm": "W322465230",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "o2-shepherds-bush-empire": {
    "osm": "W14131687",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
+  },
+  "old-operating-theatre": {
+   "osm": "W90404358",
+   "hours": "Th-Su 10:30-17:00",
+   "week": [
+    "10:30–17:00",
+    null,
+    null,
+    null,
+    "10:30–17:00",
+    "10:30–17:00",
+    "10:30–17:00"
+   ],
+   "partial": false,
+   "checkedAt": "2026-11-09"
   },
   "old-royal-naval-college": {
    "osm": "W35535194",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "omnibus-theatre": {
    "osm": "N9754910121",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "orange-tree-theatre": {
    "osm": "W432769892",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "outernet-london": {
    "osm": "W1083568906",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "pace-london": {
    "osm": "N5678923419",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "palace-theatre": {
    "osm": "W149173471",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "park-theatre": {
    "osm": "N2342065222",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "peacock-theatre": {
    "osm": "W23613986",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "phoenix-theatre": {
    "osm": "W107056902",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "piccadilly-theatre": {
    "osm": "W149173473",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "pilar-corrias": {
    "checkedAt": "2026-11-02"
@@ -1094,17 +1135,17 @@
   "pitzhanger-manor-and-gallery": {
    "osm": "N27408513",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "playhouse-theatre": {
    "osm": "W104081019",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "pleasance-theatre": {
    "osm": "N469790006",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "polka-theatre": {
    "osm": "W480477230",
@@ -1119,17 +1160,17 @@
     "10:00–16:30"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "prince-edward-theatre": {
    "osm": "W149173474",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "prince-of-wales-theatre": {
    "osm": "W149173476",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "queens-house": {
    "osm": "R15327162",
@@ -1144,27 +1185,27 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "quentin-blake-centre-for-illustration": {
    "osm": "N13583467062",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "raven-row": {
    "osm": "W4515547",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "regents-park-open-air-theatre": {
    "osm": "W26747380",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "rich-mix": {
    "osm": "W274608954",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "richard-saltoun-gallery": {
    "checkedAt": "2026-11-02"
@@ -1172,37 +1213,37 @@
   "richmond-theatre": {
    "osm": "W296360192",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "riverside-studios": {
    "osm": "N11435284025",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "rose-theatre-kingston": {
    "osm": "W893715519",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "roundhouse": {
    "osm": "W1110282368",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-academy-of-arts": {
    "osm": "W31510288",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-albert-hall": {
    "osm": "W372860405",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-botanic-gardens-kew": {
    "osm": "W4806023",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-college-of-nursing-library-and-museum": {
    "checkedAt": "2026-11-02"
@@ -1210,22 +1251,22 @@
   "royal-college-of-physicians-museum": {
    "osm": "N6307248821",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-court-theatre": {
    "osm": "W147249460",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-geographical-society": {
    "osm": "W23734116",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-institution": {
    "osm": "W128812567",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-observatory-greenwich": {
    "osm": "W268533448",
@@ -1240,17 +1281,17 @@
     "10:00–18:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-opera-house": {
    "osm": "W33721672",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "royal-society": {
    "osm": "W23734116",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "saatchi-gallery": {
    "osm": "W5317958",
@@ -1265,7 +1306,7 @@
     "11:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "sadie-coles-hq": {
    "checkedAt": "2026-11-02"
@@ -1273,27 +1314,27 @@
   "sadlers-wells": {
    "osm": "W98992534",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "sadlers-wells-east": {
    "osm": "W1042201704",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "sam-wanamaker-playhouse": {
    "osm": "W82459276",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "savoy-theatre": {
    "osm": "W490638255",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "science-gallery-london": {
    "osm": "W566205515",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "science-museum": {
    "osm": "W27765411",
@@ -1308,7 +1349,7 @@
     "10:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "serpentine-north": {
    "osm": "W161783824",
@@ -1323,7 +1364,7 @@
     "10:00–18:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "serpentine-south": {
    "osm": "W27186032",
@@ -1338,12 +1379,12 @@
     "10:00–19:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "shaftesbury-theatre": {
    "osm": "W81459092",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "shakespeares-globe": {
    "osm": "R1239793",
@@ -1358,17 +1399,17 @@
     "09:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "shoreditch-town-hall": {
    "osm": "W163829206",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "simon-lee-gallery": {
    "osm": "N5723935030",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "sir-john-soanes-museum": {
    "osm": "W61453261",
@@ -1383,17 +1424,17 @@
     "10:00–16:30"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "soho-theatre": {
    "osm": "W149173479",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "soho-theatre-walthamstow": {
    "osm": "W130410583",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "somerset-house": {
    "osm": "N662669394",
@@ -1408,12 +1449,12 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "sondheim-theatre": {
    "osm": "W149173477",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "south-london-gallery": {
    "osm": "W67163594",
@@ -1428,47 +1469,47 @@
     "11:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "southbank-centre": {
    "osm": "R1698905",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "southwark-playhouse-borough": {
    "osm": "N368369090",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "southwark-playhouse-elephant": {
    "osm": "W966019680",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "spruth-magers-london": {
    "osm": "W289941745",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "st-johns-smith-square": {
    "osm": "W118720812",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "st-martin-in-the-fields": {
    "osm": "W30734422",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "st-martins-theatre": {
    "osm": "W40412564",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "stephen-friedman-gallery": {
    "osm": "N5662521323",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "studio-voltaire": {
    "osm": "N4723196972",
@@ -1483,7 +1524,7 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "tate-britain": {
    "osm": "W24553580",
@@ -1498,7 +1539,7 @@
     "10:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "tate-modern": {
    "osm": "W24642569",
@@ -1513,17 +1554,17 @@
     "10:00–21:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "thaddaeus-ropac-london": {
    "osm": "N5716384121",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-albany": {
    "osm": "W372018543",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-approach": {
    "checkedAt": "2026-11-02"
@@ -1531,7 +1572,7 @@
   "the-arts-at-marble-arch": {
    "osm": "W1516152878",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-brown-collection": {
    "osm": "W134060144",
@@ -1546,7 +1587,7 @@
     "10:30–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-comedy-store": {
    "checkedAt": "2026-11-02"
@@ -1564,7 +1605,12 @@
     "10:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
+  },
+  "the-courtyard-theatre": {
+   "osm": "N334370373",
+   "hours": null,
+   "checkedAt": "2026-11-09"
   },
   "the-fan-museum": {
    "osm": "N910356813",
@@ -1579,7 +1625,7 @@
     "11:00–17:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-foundling-museum": {
    "checkedAt": "2026-11-02"
@@ -1587,22 +1633,27 @@
   "the-kings-gallery": {
    "osm": "N1289223308",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-linnean-society-of-london": {
    "osm": "N352673237",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
+  },
+  "the-o2": {
+   "osm": "R1895281",
+   "hours": null,
+   "checkedAt": "2026-11-09"
   },
   "the-old-vic": {
    "osm": "W23486376",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-other-palace": {
    "osm": "W505856495",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-photographers-gallery": {
    "osm": "W65489529",
@@ -1617,12 +1668,12 @@
     "10:00–18:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-place": {
    "osm": "W513152399",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-postal-museum": {
    "osm": "N4973585223",
@@ -1637,17 +1688,17 @@
     "10:00–17:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-showroom": {
    "osm": "N6495297744",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-vaults": {
    "osm": "N3249860773",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-wallace-collection": {
    "osm": "W83488820",
@@ -1662,27 +1713,27 @@
     "10:00–23:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "the-yard-theatre": {
    "osm": "W1365253784",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "theatre-royal-drury-lane": {
    "osm": "W81071485",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "theatre-royal-haymarket": {
    "osm": "W153661824",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "theatre-royal-stratford-east": {
    "osm": "W117361135",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "timothy-taylor": {
    "checkedAt": "2026-11-02"
@@ -1693,12 +1744,12 @@
   "tom-stoppard-theatre": {
    "osm": "W149173463",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "trafalgar-theatre": {
    "osm": "W140469329",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "troubadour-canary-wharf-theatre": {
    "checkedAt": "2026-11-02"
@@ -1709,7 +1760,7 @@
   "troxy": {
    "osm": "W190715113",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "turbine-theatre": {
    "checkedAt": "2026-11-02"
@@ -1717,7 +1768,7 @@
   "two-temple-place": {
    "osm": "W98485763",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "underbelly-boulevard": {
    "checkedAt": "2026-11-02"
@@ -1725,12 +1776,12 @@
   "unicorn-theatre": {
    "osm": "W34140817",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "union-chapel": {
    "osm": "W27815160",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "unit-london": {
    "osm": "N9425465875",
@@ -1745,12 +1796,12 @@
     "10:00–19:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "up-the-creek": {
    "osm": "W806959513",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "v-and-a-east-museum": {
    "osm": "W1042201707",
@@ -1765,7 +1816,7 @@
     "10:00–22:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "v-and-a-east-storehouse": {
    "osm": "N12278757767",
@@ -1780,7 +1831,7 @@
     "10:00–22:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "v-and-a-south-kensington": {
    "osm": "R29795",
@@ -1795,7 +1846,7 @@
     "10:00–17:45"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "vagina-museum": {
    "osm": "N12076130969",
@@ -1810,22 +1861,22 @@
     "10:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "vaudeville-theatre": {
    "osm": "W99952331",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "victoria-miro": {
    "osm": "N5628140857",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "victoria-palace-theatre": {
    "osm": "W107160897",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "viktor-wynd-museum": {
    "osm": "N4973886525",
@@ -1840,12 +1891,12 @@
     "12:00–23:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "waddington-custot": {
    "osm": "N456717387",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "wellcome-collection": {
    "osm": "N2617821322",
@@ -1860,7 +1911,7 @@
     "10:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "white-cube-bermondsey": {
    "osm": "W102403106",
@@ -1875,7 +1926,7 @@
     "10:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "white-cube-masons-yard": {
    "checkedAt": "2026-11-02"
@@ -1893,12 +1944,12 @@
     "11:00–18:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "wigmore-hall": {
    "osm": "W149173487",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "william-morris-gallery": {
    "osm": "W181770911",
@@ -1913,7 +1964,7 @@
     "10:00–17:00"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "wiltons-music-hall": {
    "osm": "W264532955",
@@ -1928,12 +1979,17 @@
     "17:00–23:00"
    ],
    "partial": false,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
+  },
+  "woolwich-works": {
+   "osm": "N10792721555",
+   "hours": null,
+   "checkedAt": "2026-11-09"
   },
   "wyndhams-theatre": {
    "osm": "W139940240",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "young-v-and-a": {
    "osm": "W10790633",
@@ -1948,17 +2004,17 @@
     "10:00–17:45"
    ],
    "partial": true,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "young-vic": {
    "osm": "W109866484",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   },
   "zabludowicz-collection": {
    "osm": "W85252923",
    "hours": null,
-   "checkedAt": "2026-11-02"
+   "checkedAt": "2026-11-09"
   }
  }
 }

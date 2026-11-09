@@ -1633,22 +1633,6 @@
    },
    "at": "2026-11-02"
   },
-  "https://www.artfund.org/explore/exhibitions/2026/07/11/endangered-crafts": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/07/11/endangered-crafts",
-    "title": "Endangered Crafts",
-    "dates": {
-     "startDate": "2026-07-11",
-     "endDate": "2026-11-07"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/5db0de52-6f1a-4f0d-8eee-a65ea4f1ca7d/fe3c83fbd6bbc30f5bfa3a7fdcae79f6-md.jpg",
-    "description": "Endangered Crafts is a major group exhibition exploring glassmaking skills that are endangered in the UK.",
-    "venueName": "Stourbridge Glass Museum, Wordsley",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-02"
-  },
   "https://www.artfund.org/explore/exhibitions/2026/07/11/helen-chadwick-body-and-landscape": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/07/11/helen-chadwick-body-and-landscape",
@@ -3532,22 +3516,6 @@
     "image": "https://d3ir5jsauc24hh.cloudfront.net/757c9c6c-869c-4620-9d4a-0713ae852599/1ceb5259005008ebe5031d414d0aa8cb-md.jpg",
     "description": "Step inside the anarchic, joyful worlds of Aardman’s most beloved characters.",
     "venueName": "Lightroom, London",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-02"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/10/14/lets-clay": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/10/14/lets-clay",
-    "title": "Let's Clay!",
-    "dates": {
-     "startDate": "2026-10-14",
-     "endDate": "2026-11-07"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/fa7b28c5-7017-4ee8-8fd5-24f32f7c6d81/00eb2a84afa07449c9f222e61a7a78b3-md.jpg",
-    "description": "To celebrate our 75th birthday month we are transforming our galleries into a working ceramics studio, open to all!",
-    "venueName": "The Burton at Bideford, Bideford",
     "schemaType": "Event",
     "cancelled": false
    },
