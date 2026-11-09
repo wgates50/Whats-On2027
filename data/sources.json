@@ -1658,19 +1658,19 @@
   {
     "id": "regents-park-open-air-theatre",
     "name": "Regent's Park Open Air Theatre",
-    "enabled": true,
+    "enabled": false,
     "venueId": "regents-park-open-air-theatre",
     "adapter": {
       "type": "pages",
       "listUrls": [
-        "https://openairtheatre.com/past-productions/whats-on"
+        "https://openairtheatre.com/whats-on/productions"
       ],
       "cards": {
         "item": "a.ProductionTeaser-link",
         "dates": "div.ProductionTeaser-content"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Disabled 2026-11-09 for the winter: it read /past-productions/ (last season and touring shows, cards without years), so the finished 2026 season appeared as 2027. listUrls now points at the in-park productions page, which is empty between seasons — re-enable (and `npm run fixture -- regents-park-open-air-theatre`) once the 2027 season is listed there."
   },
   {
     "id": "brixton-house",
