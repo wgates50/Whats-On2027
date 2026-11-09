@@ -485,14 +485,16 @@
     "adapter": {
       "type": "pages",
       "listUrls": [
+        "https://www.cartoonmuseum.org/whats-on-exhibitions",
         "https://www.cartoonmuseum.org/whats-on-events"
       ],
       "cards": {
-        "item": "article.eventlist-event.eventlist-event--past",
-        "dates": "div.eventlist-column-date"
+        "item": "article.eventlist-event",
+        "dates": "ul.eventlist-meta",
+        "title": "h1.eventlist-title"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Fixed 2026-11-09: it read the events page's past list, whose dates have no year, so 2024–25 events showed as 2027. Now reads exhibitions + events, with dates from the full-date meta line (past items drop out)."
   },
   {
     "id": "leighton-house",
