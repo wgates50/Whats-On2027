@@ -485,14 +485,16 @@
     "adapter": {
       "type": "pages",
       "listUrls": [
+        "https://www.cartoonmuseum.org/whats-on-exhibitions",
         "https://www.cartoonmuseum.org/whats-on-events"
       ],
       "cards": {
-        "item": "article.eventlist-event.eventlist-event--past",
-        "dates": "div.eventlist-column-date"
+        "item": "article.eventlist-event",
+        "dates": "ul.eventlist-meta",
+        "title": "h1.eventlist-title"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Fixed 2026-11-09: it read the events page's past list, whose dates have no year, so 2024–25 events showed as 2027. Now reads exhibitions + events, with dates from the full-date meta line (past items drop out)."
   },
   {
     "id": "leighton-house",
@@ -556,11 +558,12 @@
         "https://london.sciencegallery.com/sgl-events"
       ],
       "cards": {
-        "item": "article.eventlist-event.eventlist-event--past",
-        "dates": "a.eventlist-column-date"
+        "item": "article.eventlist-event",
+        "dates": "ul.eventlist-meta",
+        "title": "h1.eventlist-title"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Fixed 2026-11-09: it read the Squarespace past list, whose dates have no year, so past events showed as next year. Now reads every card with dates from the full-date meta line (past items drop out)."
   },
   {
     "id": "two-temple-place",
@@ -1655,19 +1658,19 @@
   {
     "id": "regents-park-open-air-theatre",
     "name": "Regent's Park Open Air Theatre",
-    "enabled": true,
+    "enabled": false,
     "venueId": "regents-park-open-air-theatre",
     "adapter": {
       "type": "pages",
       "listUrls": [
-        "https://openairtheatre.com/past-productions/whats-on"
+        "https://openairtheatre.com/whats-on/productions"
       ],
       "cards": {
         "item": "a.ProductionTeaser-link",
         "dates": "div.ProductionTeaser-content"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Disabled 2026-11-09 for the winter: it read /past-productions/ (last season and touring shows, cards without years), so the finished 2026 season appeared as 2027. listUrls now points at the in-park productions page, which is empty between seasons — re-enable (and `npm run fixture -- regents-park-open-air-theatre`) once the 2027 season is listed there."
   },
   {
     "id": "brixton-house",

@@ -1,4 +1,10 @@
 {
+  "https://www.cartoonmuseum.org/whats-on-exhibitions": {
+    "file": "41621a8792e5.html.gz",
+    "status": 200,
+    "finalUrl": "https://www.cartoonmuseum.org/whats-on-exhibitions",
+    "contentType": "text/html;charset=utf-8"
+  },
   "https://www.cartoonmuseum.org/whats-on-events": {
     "file": "d1e8ab4dd5e5.html.gz",
     "status": 200,
