@@ -550,7 +550,7 @@
   {
     "id": "science-gallery-london",
     "name": "Science Gallery London",
-    "enabled": true,
+    "enabled": false,
     "venueId": "science-gallery-london",
     "adapter": {
       "type": "pages",
@@ -563,7 +563,7 @@
         "title": "h1.eventlist-title"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Fixed 2026-11-09: it read the Squarespace past list, whose dates have no year, so past events showed as next year. Now reads every card with dates from the full-date meta line (past items drop out)."
+    "notes": "Disabled 2026-11-11: its events page lists only past events (all 30 items finished), so it scrapes empty; disabling also drops the old wrongly-dated items it produced before the 2026-11-09 date fix. The config is correct — re-enable when the gallery lists upcoming events (fixture already recorded)."
   },
   {
     "id": "two-temple-place",
