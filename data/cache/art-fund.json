@@ -79,7 +79,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2021/01/06/from-fiery-blaze-to-fire-brigades": {
    "raw": {
@@ -175,7 +175,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2024/02/12/the-textile-collection-of-elisabeth-frink-661541e2a5b57": {
    "raw": {
@@ -287,7 +287,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2025/02/04/the-age-of-ai-678f788dd1eb2": {
    "raw": {
@@ -415,7 +415,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2025/07/25/millais-in-perthshire": {
    "raw": {
@@ -511,7 +511,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2025/11/21/art-deco-the-golden-age-of-poster-design": {
    "raw": {
@@ -543,7 +543,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/01/31/special-exhibition-battle-bowlers-football-boots": {
    "raw": {
@@ -767,7 +767,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/21/on-the-line-100-years-of-strikes-and-solidarity": {
    "raw": {
@@ -1135,7 +1135,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/05/09/beneath-the-surface-a-century-of-studio-ceramics-in-britain": {
    "raw": {
@@ -1279,7 +1279,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/05/27/make-believe": {
    "raw": {
@@ -1407,7 +1407,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/06/20/tree-of-life": {
    "raw": {
@@ -1519,7 +1519,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/04/tish-murtha-and-kuba-ryniewicz": {
    "raw": {
@@ -1551,7 +1551,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/07/ghost-story-into-the-gothic-imagination": {
    "raw": {
@@ -1791,23 +1791,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/07/31/cats-of-cambridge": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/07/31/cats-of-cambridge",
-    "title": "Cats of Cambridge",
-    "dates": {
-     "startDate": "2026-07-31",
-     "endDate": "2026-11-09"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/a51246d6-953e-4be6-920f-dc861375b3a0/11fadfed84613f78f83128bd73d9a730-md.png",
-    "description": "From feline friends to fine ceramics, explore Cats of Cambridge at the Museum of Cambridge.",
-    "venueName": "Museum of Cambridge, Cambridge",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/31/childhood-in-war": {
    "raw": {
@@ -1983,7 +1967,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/05/photology-john-herschel-henry-talbot-and-early-photography": {
    "raw": {
@@ -1999,7 +1983,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/05/sing-o-sad-heart-hamish-mann-poet-playwright-philosopher": {
    "raw": {
@@ -2111,7 +2095,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/11/drawing-together-the-bath-academy-of-art-at-corsham": {
    "raw": {
@@ -2287,7 +2271,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/16/tumbling-stones-wiggly-tin-hilary-grisewood": {
    "raw": {
@@ -2319,7 +2303,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/18/new-faces-new-focus-stories-we-share-6a8dae5f66d5a": {
    "raw": {
@@ -2415,7 +2399,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/19/outfall-by-bryony-gillard": {
    "raw": {
@@ -2447,7 +2431,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/19/simon-carter-from-the-landscape": {
    "raw": {
@@ -2591,7 +2575,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/26/art-then-british-painting-sculpture-and-drawing-1910-1960": {
    "raw": {
@@ -2655,7 +2639,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/26/olivia-bax": {
    "raw": {
@@ -2687,7 +2671,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/26/the-art-of-roller-skating-by-debby-besford": {
    "raw": {
@@ -2863,7 +2847,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/03/ancient-landscape-modern-times": {
    "raw": {
@@ -2943,7 +2927,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/03/marking-out-the-boundaries": {
    "raw": {
@@ -2959,7 +2943,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/03/renoir-and-love": {
    "raw": {
@@ -3087,7 +3071,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/07/the-art-of-the-newlyn-school-paintings-from-the-bowerman-collection": {
    "raw": {
@@ -3135,7 +3119,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/08/light-and-magic-the-birth-of-art-photography": {
    "raw": {
@@ -3151,7 +3135,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/08/robert-ryman": {
    "raw": {
@@ -3359,7 +3343,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/13/jacob-talbot-a-space-to-breathe-6aa80b06d551d": {
    "raw": {
@@ -3375,7 +3359,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/13/misery-and-beauty-harry-beckers-portrait-of-east-anglian-farm-labour": {
    "raw": {
@@ -3631,7 +3615,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/17/joy-gregory-catching-flies-with-honey": {
    "raw": {
@@ -3807,7 +3791,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/23/beyond-bayeux-tapestry-now": {
    "raw": {
@@ -3855,7 +3839,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/24/flowing-from-the-fells": {
    "raw": {
@@ -4607,7 +4591,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/kenneth-dingwall": {
    "raw": {
@@ -4927,7 +4911,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/09/sweethearts-and-soldiers": {
    "raw": {
@@ -5038,7 +5022,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/23/the-singing-forest": {
    "raw": {
@@ -5262,7 +5246,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2027/05/22/carla-van-de-puttelaar-facing-the-law-portraits-past-present": {
    "raw": {
@@ -5374,7 +5358,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2027/10/23/david-bowie-on-tour": {
    "raw": {
