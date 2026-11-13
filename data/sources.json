@@ -1701,10 +1701,10 @@
       ],
       "cards": {
         "item": "a.targetLink",
-        "dates": "span.sc-kyhYQx.dfXjrA"
+        "dates": "p[class*='typography-module_overline--large'], p[class*='typography-module_overline']"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Dates re-pointed 2026-11-13 at the typography-module overline (stable CSS-module prefix) after the generated styled-components class changed."
   },
   {
     "id": "wiltons-music-hall",

@@ -1,6 +1,6 @@
 {
   "sourceId": "royal-opera-house",
-  "recordedAt": "2026-11-02",
+  "recordedAt": "2026-11-13",
   "limits": {
     "maxPages": 1,
     "maxLinks": 4
@@ -12,37 +12,11 @@
     ],
     "cards": {
       "item": "a.targetLink",
-      "dates": "span.sc-kyhYQx.dfXjrA"
+      "dates": "p[class*='typography-module_overline--large'], p[class*='typography-module_overline']"
     }
   },
-  "rawCount": 13,
+  "rawCount": 15,
   "events": [
-    {
-      "id": "royal-opera-house:production-manon-kenneth-macmillan",
-      "venueId": "royal-opera-house",
-      "sourceId": "royal-opera-house",
-      "title": "Manon",
-      "url": "https://www.rbo.org.uk/production/manon-kenneth-macmillan",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-25",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.prismic.io/royal-opera-house/acv_oZGXnQHGZJC4_HERO_2627_MANON_20240115_TheRoyalBallet_Manon_Hayward_Sambe_ROH_%C2%A9FoteiniChristofilopoulou-123.jpg?auto=format,compress&rect=404,0,6455,4841&w=600&h=960"
-    },
-    {
-      "id": "royal-opera-house:production-carmen-damiano-michieletto",
-      "venueId": "royal-opera-house",
-      "sourceId": "royal-opera-house",
-      "title": "Carmen",
-      "url": "https://www.rbo.org.uk/production/carmen-damiano-michieletto",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-02",
-      "endDate": "2026-11-21",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.prismic.io/royal-opera-house/aam--FxvIZEnjYRC_CARMEN_2627_Carmen_ROH_3913_2.jpg?auto=format,compress&rect=234,0,3736,2802&w=600&h=960"
-    },
     {
       "id": "royal-opera-house:production-visionaries-robbins-and-macmillan",
       "venueId": "royal-opera-house",
@@ -51,9 +25,9 @@
       "url": "https://www.rbo.org.uk/production/visionaries-robbins-and-macmillan",
       "type": "show",
       "category": "shows",
-      "startDate": "2026-11-09",
+      "startDate": "2026-11-17",
       "endDate": "2026-11-28",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/aal7m1xvIZEnjW5W_HERO_VISIONARY_HM2021-Dancers-at-a-Gathering-03.jpg?auto=format,compress&rect=107,0,4287,3215&w=600&h=960"
     },
     {
@@ -66,7 +40,7 @@
       "category": "shows",
       "startDate": "2026-11-30",
       "endDate": "2026-12-18",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/aiA6WQeQX7-eWqg7_szilveszter_mako_RBO-1_EXT_WEB.jpg?auto=format%2Ccompress&rect=25%2C401%2C4950%2C3713&w=600&h=960"
     },
     {
@@ -79,7 +53,7 @@
       "category": "shows",
       "startDate": "2026-12-03",
       "endDate": "2027-01-13",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/acv5qZGXnQHGZI_t_HERO_NUTS_V2_2627_DSC3599_V2.jpg?auto=format,compress&rect=0,1134,5430,4073&w=600&h=960"
     },
     {
@@ -92,8 +66,60 @@
       "category": "shows",
       "startDate": "2026-12-13",
       "endDate": "2027-02-17",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/aanBrVxvIZEnjYTI_HERO_FLUTE_2627_300TuuliTakalaasQueenoftheNightinTheMagicFlute-C-ROH2019.PhotographedbyTristramKenton.jpg?auto=format,compress&rect=320,0,4104,3078&w=600&h=960"
+    },
+    {
+      "id": "royal-opera-house:production-good-sometimes-queen-ola-ince",
+      "venueId": "royal-opera-house",
+      "sourceId": "royal-opera-house",
+      "title": "Good Sometimes Queen",
+      "url": "https://www.rbo.org.uk/production/good-sometimes-queen-ola-ince",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-23",
+      "endDate": "2027-01-29",
+      "firstSeen": "2026-11-13",
+      "image": "https://images.prismic.io/royal-opera-house/adeUpZ1ZCF7ETBlh_GSQ_HERO_CopyrightMilesAldridge.jpg?auto=format%2Ccompress&rect=408%2C198%2C2855%2C2141&w=600&h=960"
+    },
+    {
+      "id": "royal-opera-house:production-landmarks-unmissable-ashton",
+      "venueId": "royal-opera-house",
+      "sourceId": "royal-opera-house",
+      "title": "Landmarks: Unmissable Ashton",
+      "url": "https://www.rbo.org.uk/production/landmarks-unmissable-ashton",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-01-25",
+      "endDate": "2027-03-19",
+      "firstSeen": "2026-11-13",
+      "image": "https://images.prismic.io/royal-opera-house/aal8_lxvIZEnjW6q_HERO_LANDMARKS_AshtonMixedBill-17-10-14-RoyalBallet-1876.jpg?auto=format,compress&rect=444,0,5113,3835&w=600&h=960"
+    },
+    {
+      "id": "royal-opera-house:production-manon-kenneth-macmillan",
+      "venueId": "royal-opera-house",
+      "sourceId": "royal-opera-house",
+      "title": "Manon",
+      "url": "https://www.rbo.org.uk/production/manon-kenneth-macmillan",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-25",
+      "firstSeen": "2026-11-13",
+      "image": "https://images.prismic.io/royal-opera-house/acv_oZGXnQHGZJC4_HERO_2627_MANON_20240115_TheRoyalBallet_Manon_Hayward_Sambe_ROH_%C2%A9FoteiniChristofilopoulou-123.jpg?auto=format,compress&rect=404,0,6455,4841&w=600&h=960"
+    },
+    {
+      "id": "royal-opera-house:production-carmen-damiano-michieletto",
+      "venueId": "royal-opera-house",
+      "sourceId": "royal-opera-house",
+      "title": "Carmen",
+      "url": "https://www.rbo.org.uk/production/carmen-damiano-michieletto",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-21",
+      "firstSeen": "2026-11-13",
+      "image": "https://images.prismic.io/royal-opera-house/aam--FxvIZEnjYRC_CARMEN_2627_Carmen_ROH_3913_2.jpg?auto=format,compress&rect=234,0,3736,2802&w=600&h=960"
     },
     {
       "id": "royal-opera-house:tickets-and-events-tea-and-tour-details",
@@ -105,7 +131,7 @@
       "category": "shows",
       "startDate": "2026-11-22",
       "endDate": "2027-01-23",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/aGz2yEMqNJQqHq0K_Swan-Lake-afternoon-tea-%C2%A92025-Eleonora-Boscarelli.jpg?auto=format%2Ccompress&rect=294%2C0%2C6652%2C4989&w=600&h=960"
     },
     {
@@ -116,9 +142,9 @@
       "url": "https://www.rbo.org.uk/production/recitals-at-lunch",
       "type": "show",
       "category": "shows",
-      "startDate": "2026-11-02",
+      "startDate": "2026-11-23",
       "endDate": "2027-04-26",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/plk9rwS3IoL9g7Mi_JetteParkerArtists2025.avif?auto=format,compress&rect=0,0,1024,768&w=600&h=960"
     },
     {
@@ -131,7 +157,7 @@
       "category": "shows",
       "startDate": "2026-11-20",
       "endDate": "2027-04-30",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/L0LL3mvaG1-UvZg-_WilliamBracewellandFumiKanekorehearsingduringBalletStudioLive6December2018%C2%A9ROH%2C2018.PhotographedbyRachelCherry-9-.jpg?auto=format,compress&rect=311,0,5324,3993&w=600&h=960"
     },
     {
@@ -143,8 +169,8 @@
       "type": "tour",
       "category": "shows",
       "startDate": "2026-11-21",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
+      "endDate": "2027-01-30",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/ZpaOUB5LeNNTxNOa_veronikaward-roh-tour-adults-2023-135.jpg?auto=format,compress?auto=compress,format&rect=1264,0,4449,3337&w=600&h=960"
     },
     {
@@ -157,7 +183,7 @@
       "category": "shows",
       "startDate": "2026-11-15",
       "endDate": "2027-04-04",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/Z5uo5pbqstJ9-DcA_RBOFamilySundayBlackHistoryMonthLauraAziz2024-180.jpg?auto=format,compress&rect=359,0,5747,4310&w=600&h=960"
     },
     {
@@ -168,9 +194,9 @@
       "url": "https://www.rbo.org.uk/tickets-and-events/opera-on-the-terrace-details",
       "type": "show",
       "category": "shows",
-      "startDate": "2026-11-02",
+      "startDate": "2026-11-13",
       "endDate": "2026-11-29",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/E1mUd-daG4gS-Q38_CicoriaOperaNights14.6SINGERS08.jpg?auto=format%2Ccompress&rect=0%2C1395%2C4480%2C3360&w=600&h=960"
     },
     {
@@ -181,9 +207,9 @@
       "url": "https://www.rbo.org.uk/tickets-and-events/roh-behind-the-scene-tour-details",
       "type": "tour",
       "category": "shows",
-      "startDate": "2026-11-02",
+      "startDate": "2026-11-13",
       "endDate": "2027-01-31",
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-13",
       "image": "https://images.prismic.io/royal-opera-house/aFPx6Wv-Iw5OKLRo_NutcrackerTour%C2%A92023VeronikaWard.jpg?auto=format%2Ccompress&rect=825%2C347%2C4519%2C3389&w=600&h=960"
     }
   ]
