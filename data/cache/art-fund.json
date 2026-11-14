@@ -31,7 +31,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2017/01/01/designer-maker-user": {
    "raw": {
@@ -63,7 +63,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2020/03/27/celebrating-the-linnean-societys-first-women-fellows": {
    "raw": {
@@ -223,7 +223,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2024/03/19/sculpture-in-the-park": {
    "raw": {
@@ -303,7 +303,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2025/04/03/the-dark-room-67f817336d606": {
    "raw": {
@@ -335,7 +335,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2025/05/24/becoming-shakespeare": {
    "raw": {
@@ -479,7 +479,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2025/11/13/pilots-paramedics-and-propellers-flying-ambulances": {
    "raw": {
@@ -527,7 +527,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2025/12/13/wwii-and-the-blitz": {
    "raw": {
@@ -607,7 +607,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/02/13/horrible-science-cosmic-chaos": {
    "raw": {
@@ -815,7 +815,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/24/amongst-the-trees-and-terraces-donald-towner-1903-1985": {
    "raw": {
@@ -879,7 +879,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/27/four-seasons": {
    "raw": {
@@ -959,7 +959,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/31/under-the-hawthorn-tree": {
    "raw": {
@@ -976,6 +976,22 @@
     "cancelled": false
    },
    "at": "2026-11-12"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/04/01/under-the-frame": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/04/01/under-the-frame",
+    "title": "Under the Frame",
+    "dates": {
+     "startDate": "2026-04-01",
+     "endDate": "2027-03-31"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/6d0e1c08-1849-4288-a250-90f68af50651/ccfc81d94df427e4404d956432606ca5-md.jpg",
+    "description": "Staff favourites from the museum's fine art collection.",
+    "venueName": "Lancaster City Museum, Lancaster",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/04/03/catwalk-the-art-of-the-fashion-show": {
    "raw": {
@@ -1095,7 +1111,7 @@
     "title": "David Bowie: You're Not Alone",
     "dates": {
      "startDate": "2026-04-22",
-     "endDate": "2027-01-10"
+     "endDate": "2027-04-10"
     },
     "image": "https://d3ir5jsauc24hh.cloudfront.net/3ab477ad-7c07-4f62-8b79-cd0785baa99f/6b35ab2958bede67804e60c46d8c1403-md.jpg",
     "description": "Be transported into the many worlds of David Bowie.",
@@ -1103,7 +1119,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/04/29/between-feeling-and-unfeeling-art-and-anaesthesia": {
    "raw": {
@@ -1215,7 +1231,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/05/22/jurassic-oceans-monsters-of-the-deep": {
    "raw": {
@@ -1231,7 +1247,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/05/23/edward-bawden-snails-for-all": {
    "raw": {
@@ -1263,7 +1279,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/05/23/winston-churchill-the-painter": {
    "raw": {
@@ -1419,11 +1435,11 @@
     },
     "image": "https://d3ir5jsauc24hh.cloudfront.net/fb8aa013-5cb3-4f18-b7d1-78dd4aeb8410/7f78375f9135e1a965d37cbb2ff34d62-md.jpg",
     "description": "'Tree of Life' by Seyi Adelekun is an immersive installation which invites visitors to move in and around the tree’s trunk.",
-    "venueName": "Sainsbury Centre, Norwich",
+    "venueName": "Sainsbury Museum and Art Centre, Norwich",
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/06/24/happiness-the-ken-dodd-exhibition": {
    "raw": {
@@ -1455,7 +1471,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/06/26/tides-of-treasure": {
    "raw": {
@@ -1583,7 +1599,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/10/willard-wigan-tiny-world": {
    "raw": {
@@ -1695,7 +1711,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/18/mystery-academy-school-for-young-detectives-69ea377397080": {
    "raw": {
@@ -1759,7 +1775,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/25/the-town-swarmed-with-culture-amershams-wartime-creative-cosmopolitan-community": {
    "raw": {
@@ -1855,7 +1871,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/08/17/carry-the-clouds-away": {
    "raw": {
@@ -2063,7 +2079,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/10/monika-sosnowska-weight-of-matter": {
    "raw": {
@@ -2127,7 +2143,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/12/gifted-new-acquisitions-at-the-city-art-centre": {
    "raw": {
@@ -2223,7 +2239,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/16/fuam-2026-the-friends-of-university-art-and-music-graduate-art-prize": {
    "raw": {
@@ -2495,7 +2511,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/23/what-remains": {
    "raw": {
@@ -2591,7 +2607,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/26/edge-where-the-land-meets-the-sea-6a75ddfe3f9ab": {
    "raw": {
@@ -2799,7 +2815,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/02/ossie-clark-celia-birtwell": {
    "raw": {
@@ -2831,7 +2847,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/02/paola-estrella-deep-time-currents": {
    "raw": {
@@ -2991,7 +3007,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/03/whats-in-store": {
    "raw": {
@@ -3007,7 +3023,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/06/swaying-in-the-wind-frederick-yvan-manuel-gay-a-contemporary-french-fan-maker": {
    "raw": {
@@ -3103,7 +3119,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/08/justin-caguiat-change-ringing": {
    "raw": {
@@ -3167,7 +3183,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/08/the-90s": {
    "raw": {
@@ -3247,7 +3263,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/09/sarah-cunningham-midnight-sun-6a5615cecdf34": {
    "raw": {
@@ -3385,13 +3401,13 @@
      "startDate": "2026-10-14",
      "endDate": "2027-01-04"
     },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/757c9c6c-869c-4620-9d4a-0713ae852599/1ceb5259005008ebe5031d414d0aa8cb-md.jpg",
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/27405802-b680-461e-a904-0c759dbaf89c/62e0ba39c167aa978a71416b4b8d88f2-md.jpg",
     "description": "Step inside the anarchic, joyful worlds of Aardman’s most beloved characters.",
     "venueName": "Lightroom, London",
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/14/michael-landy-future-ruins": {
    "raw": {
@@ -3487,7 +3503,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/16/alfred-janes-maker-of-pictures": {
    "raw": {
@@ -3743,7 +3759,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/21/standing-with-giants": {
    "raw": {
@@ -3775,7 +3791,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/23/becoming-america-how-science-shaped-a-nation": {
    "raw": {
@@ -3823,7 +3839,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/24/constable-to-contemporary": {
    "raw": {
@@ -3887,7 +3903,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-04"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/24/ls-lowry-the-battle-of-life": {
    "raw": {
@@ -3999,7 +4015,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-04"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/30/agatha-christie": {
    "raw": {
@@ -4015,7 +4031,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/30/miasma": {
    "raw": {
@@ -4177,6 +4193,22 @@
    },
    "at": "2026-11-13"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/11/07/peter-beard-a-walk-on-the-wild-side": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/07/peter-beard-a-walk-on-the-wild-side",
+    "title": "Peter Beard: A Walk on the Wild Side",
+    "dates": {
+     "startDate": "2026-11-07",
+     "endDate": "2027-02-28"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/482ece5e-be75-4623-b765-792e636d6f11/4b89b43d6d71c2b935ca91ba3131424e-md.jpg",
+    "description": "A selection of works from private collection, offering a glimpse into the artist’s distinctive visual world.",
+    "venueName": "Newlands House Gallery, Petworth",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-14"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/11/07/picturing-place-three-carlisle-artists-bushby-bough-blacklock": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/11/07/picturing-place-three-carlisle-artists-bushby-bough-blacklock",
@@ -4255,7 +4287,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/08/monica-poole-natures-dark-beauty": {
    "raw": {
@@ -4315,11 +4347,11 @@
     },
     "image": "https://d3ir5jsauc24hh.cloudfront.net/acb04ec3-7f10-4c39-b50f-8a88e7802cf5/35e3fbf10a8a43fdec8fcfee35c3f22b-md.jpg",
     "description": "Reflecting on how deep connections are formed, broken, remembered and mourned, and asking whether love ever truly ends.",
-    "venueName": "Sainsbury Centre, Norwich",
+    "venueName": "Sainsbury Museum and Art Centre, Norwich",
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/13/how-do-we-find-love": {
    "raw": {
@@ -4385,6 +4417,22 @@
    },
    "at": "2026-11-13"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/11/14/jo-chapman-and-molly-thomson-chance-encounters": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/14/jo-chapman-and-molly-thomson-chance-encounters",
+    "title": "Jo Chapman and Molly Thomson: Chance Encounters",
+    "dates": {
+     "startDate": "2026-11-14",
+     "endDate": "2027-01-31"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/35432b9f-e1d4-45e0-917f-6b212a454e43/2b9b513b6b0712c8c587beb30aed3902-md.jpg",
+    "description": "Chance Encounters brings together Jo Chapman and Molly Thomson, two artists whose works reveal the intelligence of making.",
+    "venueName": "Firstsite, Colchester",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-14"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/11/14/lace-and-legacy-fashion-treasures-from-the-blackborne-collection": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/11/14/lace-and-legacy-fashion-treasures-from-the-blackborne-collection",
@@ -4431,7 +4479,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/14/the-pleasure-garden-by-lubaina-himid-and-rebecca-chesney": {
    "raw": {
@@ -4465,6 +4513,22 @@
    },
    "at": "2026-11-12"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/11/16/phenomenal-bodies": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/16/phenomenal-bodies",
+    "title": "Phenomenal Bodies",
+    "dates": {
+     "startDate": "2026-11-16",
+     "endDate": "2027-01-29"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/f241f6e7-2b30-4d9a-bf91-d544da1ef107/2e03a67b9cf98cb143a685006041c421-md.jpg",
+    "description": "An exhibition exploring the body and disability",
+    "venueName": "Lamb Gallery, Dundee",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-14"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/11/17/friends-of-biggar-bonfire-exhibition-and-community-drop-in": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/11/17/friends-of-biggar-bonfire-exhibition-and-community-drop-in",
@@ -4495,7 +4559,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/20/eilish-briscoe-i-dont-have-the-words": {
    "raw": {
@@ -4527,7 +4591,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/barbara-hepworth-and-greece": {
    "raw": {
@@ -4559,7 +4623,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/cosmos-the-art-of-observing-space-6adf5ff736628": {
    "raw": {
@@ -4721,6 +4785,22 @@
    },
    "at": "2026-11-04"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/11/21/through-the-lens": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/21/through-the-lens",
+    "title": "Through the Lens",
+    "dates": {
+     "startDate": "2026-11-21",
+     "endDate": "2027-06-06"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/f0f10cff-e0f4-4550-9d06-4d476eab9cd4/0abeaaab09ecf0d8b6501573ccbfcbf1-md.jpg",
+    "description": "Sam Thompson's photography: a powerful record of Lancaster's working class communities a century ago.",
+    "venueName": "Lancaster City Museum, Lancaster",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-14"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/11/23/ross-loveday-a-journey-in-carborundum": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/11/23/ross-loveday-a-journey-in-carborundum",
@@ -4767,7 +4847,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/26/royal-institute-of-oil-painters-annual-exhibition-2026-6a8c71fd0d3f9": {
    "raw": {
@@ -4927,7 +5007,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/13/frank-bowling-dennis-de-caires": {
    "raw": {
@@ -4944,6 +5024,22 @@
     "cancelled": false
    },
    "at": "2026-11-10"
+  },
+  "https://www.artfund.org/explore/exhibitions/2027/01/14/thuy-tien-nguyen-press-release": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2027/01/14/thuy-tien-nguyen-press-release",
+    "title": "Thuy Tien Nguyen: Press, Release",
+    "dates": {
+     "startDate": "2027-01-14",
+     "endDate": "2027-03-27"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/e66c3bcf-0b77-4d2c-bdb1-2fc958f1a418/63f0f88683815d12d600434a1f5803d5-md.jpg",
+    "description": "Working primarily with sculpture and installation, Tien examines personal and collective memories.",
+    "venueName": "Gasworks, London",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/16/dylan-bowen-building-shapes": {
    "raw": {
@@ -5070,7 +5166,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/30/rebecca-moss-dream-machines": {
    "raw": {
@@ -5086,7 +5182,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2027/02/01/100-years-of-the-st-ives-society-of-artists": {
    "raw": {
@@ -5102,7 +5198,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2027/02/01/the-geoffrey-and-carol-holland-trust-selected-works": {
    "raw": {
@@ -5150,7 +5246,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   },
   "https://www.artfund.org/explore/exhibitions/2027/04/08/light-pours-in-kieran-marsh": {
    "raw": {
@@ -5374,7 +5470,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-14"
   }
  }
 }
