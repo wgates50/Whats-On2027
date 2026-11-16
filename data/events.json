@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T01:00:37.826Z",
+  "generatedAt": "2026-11-16T01:00:25.221Z",
   "events": [
     {
       "id": "alison-jacques:news-ana-mendieta-23",
@@ -170,20 +170,6 @@
       "description": "Get up close to hundreds of beautiful butterflies in our tropical indoor Butterfly House."
     },
     {
-      "id": "horniman-museum-and-gardens:event-meeting-mohini",
-      "venueId": "horniman-museum-and-gardens",
-      "sourceId": "horniman-museum-and-gardens",
-      "title": "Meeting Mohini",
-      "url": "https://www.horniman.ac.uk/event/meeting-mohini/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": null,
-      "endDate": "2026-11-15",
-      "firstSeen": "2026-11-02",
-      "image": "https://cdn.horniman.ac.uk/wp-content/uploads/2025/11/Gharana-from-Meeting-Mohini.-Image-credit-Zoya-Thomas-Lobo-Horniman-Museum-and-Gardens-382x382.jpg?strip=all",
-      "description": "This new photographic display looks at Koovagam and spotlights Indian transgender culture through the lens of Zoya Thomas Lobo, India’s first transgender photojournalist."
-    },
-    {
       "id": "lightroom:whats-on-david-bowie-youre-not-alone",
       "venueId": "lightroom",
       "sourceId": "lightroom",
@@ -223,11 +209,11 @@
       "firstSeen": "2026-11-02",
       "image": "https://images.lightroom.uk/uploads/2026/03/LTL_StaticButtons_ImageUpdate10_1920x1080.jpeg?resize=16%2C10&gravity",
       "schedule": {
-        "from": "2026-11-15",
+        "from": "2026-11-16",
         "times": [
           "10:00"
         ],
-        "days": "111111111111111100011111111111111111111100111110111"
+        "days": "11111111111111100011111111111111111111100111110111"
       },
       "people": [
         "larger-than-life-starring-wallace-and-gromit-shaun-and-more"
@@ -865,21 +851,6 @@
       "image": "https://static-assets.artlogic.net/w_1200,h_630,c_fill,g_xy_center,x_w_mul_0.49,y_h_mul_0.26,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/exhibitions/hero_image/items/ca/caee41e1b5cf4bf6bbc483789e81f0d4/vm.jpg?focal=49,26"
     },
     {
-      "id": "young-v-and-a:exhibitions-inside-aardman-wallace-gromit-and-friends",
-      "venueId": "young-v-and-a",
-      "sourceId": "vam",
-      "title": "Inside Aardman: Wallace & Gromit and Friends",
-      "url": "https://www.vam.ac.uk/exhibitions/inside-aardman-wallace-gromit-and-friends",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-02-12",
-      "endDate": "2026-11-15",
-      "firstSeen": "2026-11-02",
-      "image": "https://vanda-production-assets.s3.amazonaws.com/2026/02/19/15/08/27/dafde0b4-6e15-43fd-9c8d-84ea80174a2d/960.jpg",
-      "description": "Go behind the scenes of stop-motion animation and explore how Aardman’s iconic characters and worlds are brought to life",
-      "price": "paid"
-    },
-    {
       "id": "design-museum:exhibitions-platform-simone-brewster",
       "venueId": "design-museum",
       "sourceId": "design-museum",
@@ -974,21 +945,6 @@
       "firstSeen": "2026-11-06",
       "image": "https://images.prismic.io/wellcomecollection/ac4w7pGXnQHGZMe4_SDP_EP003369_260319_2680.jpg?w=1338&auto=compress%2Cformat&rect=0%2C0%2C4000%2C2250&q=50",
       "description": "Our new exhibition explores experiences and perceptions of ageing, from adolescence to older age, and asks how societies can adapt to ensure everyone ages better."
-    },
-    {
-      "id": "v-and-a-south-kensington:exhibitions-schiaparelli",
-      "venueId": "v-and-a-south-kensington",
-      "sourceId": "vam",
-      "title": "Schiaparelli: Fashion Becomes Art",
-      "url": "https://www.vam.ac.uk/exhibitions/schiaparelli",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-03-28",
-      "endDate": "2026-11-15",
-      "firstSeen": "2026-11-02",
-      "image": "https://vanda-production-assets.s3.amazonaws.com/2025/07/03/11/54/12/e3dcd86a-6a75-4326-8d88-e12190757996/960.jpg",
-      "description": "\"For me, dress designing is not a profession but an art.\" – Elsa Schiaparelli",
-      "price": "paid"
     },
     {
       "id": "v-and-a-east-museum:exhibitions-the-music-is-black-a-british-story",
@@ -1280,20 +1236,6 @@
       "endDate": "2027-01-17",
       "firstSeen": "2026-11-02",
       "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/Ana_Mendieta_lead_img.width-600.jpg"
-    },
-    {
-      "id": "jewish-museum-london:16-two-rooms-by-jewish-museum-london",
-      "venueId": "jewish-museum-london",
-      "sourceId": "art-fund",
-      "title": "Two Rooms by Jewish Museum London",
-      "url": "https://www.artfund.org/explore/exhibitions/2026/07/16/two-rooms-by-jewish-museum-london",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-07-16",
-      "endDate": "2026-11-15",
-      "firstSeen": "2026-11-02",
-      "image": "https://d3ir5jsauc24hh.cloudfront.net/07825435-1615-41e7-ba00-5c84a9a2c91b/e336d3d18190a67897afca7fdd2f3205-md.jpg",
-      "description": "Two Rooms by Jewish Museum London is our brand new interim space"
     },
     {
       "id": "london-mithraeum-bloomberg-space:16-folkmoot",
@@ -1601,20 +1543,6 @@
       "endDate": "2027-01-20",
       "firstSeen": "2026-11-02",
       "image": "https://static-assets.artlogic.net/w_1200,h_630,c_fill,f_auto,fl_lossy,q_auto:good/ws-flowers/usr/images/exhibitions/main_image_override/items/28/281a35bca6094dcc9c516cb11436bdff/846084b9415e7b701d4d6af6fd22bddeba7fbd6f-1-.jpg"
-    },
-    {
-      "id": "the-photographers-gallery:whats-on-roots",
-      "venueId": "the-photographers-gallery",
-      "sourceId": "photographers-gallery",
-      "title": "Roots",
-      "url": "https://thephotographersgallery.org.uk/whats-on/roots",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-09-18",
-      "endDate": "2026-11-15",
-      "firstSeen": "2026-11-02",
-      "description": "This group exhibition at The Print Sales Gallery explores trees, memory, cultural heritage and belonging through photography and mixed media across global landscapes.",
-      "image": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/banner%20image%20for%20website%20ROOTS%20PRINT%20SALES.jpg.webp?itok=IJMskid4"
     },
     {
       "id": "at-sohoplace:shows-whos-afraid-of-virginia-woolf-2026",
@@ -2892,20 +2820,6 @@
       "image": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2023-01/S3949-001.jpg.webp?itok=CpvZ4zo1"
     },
     {
-      "id": "royal-geographical-society:upcoming-events-exploration-now-exhibition",
-      "venueId": "royal-geographical-society",
-      "sourceId": "royal-geographical-society",
-      "title": "Exploration now: fieldwork and expeditions today",
-      "url": "https://www.rgs.org/events/upcoming-events/exploration-now-exhibition/",
-      "type": "talk",
-      "category": "shows",
-      "startDate": "2026-11-09",
-      "endDate": "2026-11-16",
-      "firstSeen": "2026-11-04",
-      "description": "Discover how exploration thrives today through Society-supported expeditions.",
-      "image": "https://www.rgs.org/media/2tjlz4a1/art-of-exploration-gathering-banner.jpg?rxy=0.5764411027568922,0.21714675596229102&v=1dd5e16a10ba7d0"
-    },
-    {
       "id": "almeida-theatre:whats-on-desire-under-the-elms",
       "venueId": "almeida-theatre",
       "sourceId": "almeida-theatre",
@@ -2917,19 +2831,6 @@
       "endDate": "2026-12-23",
       "firstSeen": "2026-11-02",
       "image": "https://images.almeida.co.uk/uploads/2025/05/DUTE-Website-3.jpg?resize=16%2C10&gravity"
-    },
-    {
-      "id": "garden-museum:whats-on-winter-flowers-week-2026",
-      "venueId": "garden-museum",
-      "sourceId": "garden-museum",
-      "title": "Winter Flowers Week 2026",
-      "url": "https://www.gardenmuseum.org.uk/whats-on/winter-flowers-week-2026/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-10",
-      "endDate": "2026-11-15",
-      "firstSeen": "2026-11-02",
-      "image": "https://www.gardenmuseum.org.uk/wp-content/uploads/2026/09/TGM.D2.ECH_.26-28-916x516.jpg"
     },
     {
       "id": "saatchi-gallery:exhibition-beyond-the-streets",
@@ -2944,20 +2845,6 @@
       "firstSeen": "2026-11-02",
       "image": "https://www.saatchigallery.com/wp-content/uploads/2023/01/saatchi-logo-black.jpg",
       "description": "Saatchi Gallery » BEYOND THE STREETS 11 November 2026 - 5 May 2027 » BEYOND THE STREETS returns with an all-new exhibition, bringing together new, historic and previously unseen works by leading figures in international street culture. Spanning more than ten rooms and bringing…"
-    },
-    {
-      "id": "somerset-house:whats-on-skate-extended-sessions",
-      "venueId": "somerset-house",
-      "sourceId": "somerset-house",
-      "title": "Extended Skate Sessions",
-      "url": "https://www.somersethouse.org.uk/whats-on/skate-extended-sessions",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-11",
-      "endDate": "2026-11-23",
-      "firstSeen": "2026-11-02",
-      "description": "Step onto the ice and stay a little longer. This winter, we’re hosting special Extended Skate Sessions at Somerset House, giving you a full 90 minutes on London’s most beautiful outdoor rink.",
-      "image": "https://admin.somersethouse.org.uk/images/3Ms-Qtd_f-XrcpRoe60GrfSnDSQ=/6892/width-56/Skate_Extended_Sessions_HEADER.jpg"
     },
     {
       "id": "somerset-house:whats-on-skate-somerset-house",
@@ -3073,20 +2960,6 @@
       "description": "The first exhibition devoted to the brightest of the Bright Young People. Free admission."
     },
     {
-      "id": "south-london-gallery:events-ma-fine-art-research-festival-2026",
-      "venueId": "south-london-gallery",
-      "sourceId": "south-london-gallery",
-      "title": "Dispersion: Celebrating Practice-Led Research",
-      "url": "https://www.southlondongallery.org/events/ma-fine-art-research-festival-2026/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-13",
-      "endDate": "2026-11-15",
-      "firstSeen": "2026-11-04",
-      "image": "https://www.southlondongallery.org/wp-content/uploads/2026/11/https___cdn.evbuc_.com_images_1196919143_380785845111_1_original-640x426.jpg",
-      "description": "Join us for Dispersion, a showcase by CCoA MA Fine Art Research Course. Presenting a vibrant spectrum of research with artist books, essays, performances, screenings, talks, workshops and zines by graduating students from MA Fine Art. DISPERSION This event celebrates…"
-    },
-    {
       "id": "victoria-miro:exhibitions-684",
       "venueId": "victoria-miro",
       "sourceId": "victoria-miro",
@@ -3113,27 +2986,6 @@
       "firstSeen": "2026-11-10",
       "image": "https://static-assets.artlogic.net/w_600,h_600,c_limit,f_auto,fl_lossy,q_auto:good/ws-alancristea/usr/images/news/main_image/2143/new-news-6.jpg",
       "description": "A solo exhibition of work by one of Britain’s most celebrated artists, renowned for work that explores the relationship between material, process and the natural world. This exhibition highlights the vital role of works on paper, reflecting both the natural formations and shapes…"
-    },
-    {
-      "id": "eventim-apollo:artist-kwn-affiliate-hal",
-      "venueId": "eventim-apollo",
-      "sourceId": "eventim-apollo",
-      "title": "kwn",
-      "url": "https://www.eventim.co.uk/artist/kwn/?affiliate=HAL",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-14",
-      "endDate": "2026-11-15",
-      "firstSeen": "2026-11-02",
-      "image": "https://aeg-media-assets.b-cdn.net/eventim/images/SQ-12.png?width=768&height=768&focus_crop=2295,2295,0.5,0.5",
-      "people": [
-        "kwn",
-        "keyrah",
-        "miller-black"
-      ],
-      "genres": [
-        "Music/R&B/Soul"
-      ]
     },
     {
       "id": "lyric-hammersmith:shows-cinderella-2026",
@@ -3332,641 +3184,6 @@
       "image": "https://assets-cdn.vam.ac.uk/2017/01/24/15/11/03/66948007-01b4-46a5-94a7-262a629c2836/Blind-partially-sighted-2006AX6788.jpg"
     },
     {
-      "id": "v-and-a-south-kensington:bblyrwqq-schiaparelli-members-morning-view-november-26",
-      "venueId": "v-and-a-south-kensington",
-      "sourceId": "vam",
-      "title": "Schiaparelli Members' Closing Weekend Morning Views",
-      "url": "https://www.vam.ac.uk/event/bBLYrwqQ/schiaparelli-members-morning-view-november-26",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-14",
-      "endDate": "2026-11-15",
-      "firstSeen": "2026-11-07",
-      "image": "https://assets-cdn.vam.ac.uk/2026/09/16/13/20/48/caa5a5f4-ec7f-4150-90b5-838d665dc004/schiaparelli-members-morning-view-14-15-november-26_320.jpg",
-      "description": "Join us for a Members-only morning view of the first UK exhibition dedicated to Elsa Schiaparelli"
-    },
-    {
-      "id": "apollo-theatre:book-1j21u-derren-brown-only-human",
-      "venueId": "apollo-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Derren Brown: Only Human",
-      "url": "https://theatre.ticketmaster.co.uk/book/1J21U-derren-brown-only-human/#perf=1J21U-11&date=2026-11-15&time=3.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-01-30",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/64e/158f176f-31dd-4513-8291-e733d47ed64e_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "14:30",
-          "15:00",
-          "19:30"
-        ],
-        "days": "20444452044445204444520444452044445204400050444052044445204444520444452044445"
-      },
-      "genres": [
-        "Miscellaneous/Psychics/Mediums/Hypnotists/Psychics/Mediums/Hypnotists"
-      ],
-      "people": [
-        "derren-brown"
-      ]
-    },
-    {
-      "id": "apollo-victoria-theatre:book-1du1l-apollo-victoria-london-wicked",
-      "venueId": "apollo-victoria-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Wicked",
-      "url": "https://theatre.ticketmaster.co.uk/book/1DU1L-apollo-victoria-london-wicked/#perf=1DU1L-612&date=2026-11-15&time=2.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-05-29",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/782/f34f4ed8-6150-49aa-b845-eb7009bf3782_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "14:30",
-          "19:30"
-        ],
-        "days": "1023223102322310232231023223102303312330023233023100300002232230223223022322302232230223223022332302232230223223022322302232230223223022332302232230223223022322302232230223223022322302232230223223"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "wicked-london"
-      ]
-    },
-    {
-      "id": "barbican:event-round-midnight",
-      "venueId": "barbican",
-      "sourceId": "barbican",
-      "title": "’Round Midnight",
-      "url": "https://www.barbican.org.uk/whats-on/2026/event/round-midnight",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "15:00",
-      "description": "Join Soweto Kinch and 'Round Midnight for a special live edition of BBC Radio 3’s jazz show, featuring artists in London for EFG London Jazz Festival.",
-      "image": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-09/Round%20Midnight.png.avif?itok=KwZvqWgU"
-    },
-    {
-      "id": "barbican:event-anouar-brahem-after-the-last-sky",
-      "venueId": "barbican",
-      "sourceId": "barbican",
-      "title": "Anouar Brahem: After the Last Sky",
-      "url": "https://www.barbican.org.uk/whats-on/2026/event/anouar-brahem-after-the-last-sky",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "genres": [
-        "Music/Jazz/Jazz"
-      ],
-      "description": "Performing his poignant new album with an international and intergenerational quartet, blending traditional Arabic music with broader influences.",
-      "image": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-03/_AnouarBrahem011_Photo%20Marco%20Borggreve.jpeg.avif?itok=2iiws_Sj"
-    },
-    {
-      "id": "barbican:event-yasuaki-shimizu",
-      "venueId": "barbican",
-      "sourceId": "barbican",
-      "title": "Yasuaki Shimizu",
-      "url": "https://www.barbican.org.uk/whats-on/2026/event/yasuaki-shimizu",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "description": "Maverick saxophonist Yasuaki Shimizu brings his genre-defying sound to EFG London Jazz Festival following a sold-out North American tour.",
-      "image": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-05/Yasuaki%20Shimizu_sax2_1f5e97fc.jpg.avif?itok=JySyQzs-"
-    },
-    {
-      "id": "cadogan-hall:event-1f006477bcff4fc4",
-      "venueId": "cadogan-hall",
-      "sourceId": "ticketmaster",
-      "title": "Lizz Wright",
-      "url": "https://www.ticketmaster.co.uk/lizz-wright-london-15-11-2026/event/1F006477BCFF4FC4",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/a/839/c97a3df2-c024-4a22-86a2-1f7ef8552839_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Jazz/Jazz"
-      ],
-      "people": [
-        "lizz-wright"
-      ]
-    },
-    {
-      "id": "cambridge-theatre:book-1fy3y-matilda-the-musical",
-      "venueId": "cambridge-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Matilda The Musical",
-      "url": "https://theatre.ticketmaster.co.uk/book/1FY3Y-matilda-the-musical/#perf=1FY3Y-40M&date=2026-11-15&time=2.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-09-05",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/fdd/4b80bee9-88fb-4393-8c79-49c61a15cfdd_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "14:00",
-          "15:00",
-          "17:00",
-          "19:00"
-        ],
-        "days": "1089889108988910898891089889108198910990089099149108988910898891..........88910898891089889108998910898891089889108988910898891089889208998910898891089889108988910898891089889108988910898891089889108198910898890089889108988910898891089889108988910898891089989108988910898891089889108988910898891"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "matilda-the-musical"
-      ]
-    },
-    {
-      "id": "conway-hall:",
-      "venueId": "conway-hall",
-      "sourceId": "conway-hall",
-      "title": "Raphael Wallfisch & Simon Callaghan",
-      "url": "https://www.conwayhall.org.uk/",
-      "type": "talk",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-14",
-      "startTime": "18:30",
-      "image": "https://www.conwayhall.org.uk/wp-content/uploads/2026/07/Raphael-Simon-WEB-600x600.jpg",
-      "description": "One of the world's most recorded cellists joins Artistic Director Simon Callaghan to explore a fascinating byway of the repertoire."
-    },
-    {
-      "id": "conway-hall:event-raphael-wallfisch-simon-callaghan-3",
-      "venueId": "conway-hall",
-      "sourceId": "conway-hall",
-      "title": "Sunday Concerts: Raphael Wallfisch & Simon Callaghan",
-      "url": "https://www.conwayhall.org.uk/whats-on/event/raphael-wallfisch-simon-callaghan-3/",
-      "type": "talk",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-04",
-      "startTime": "18:30",
-      "description": "One of the world's most recorded cellists joins Artistic Director Simon Callaghan to explore a fascinating byway of the repertoire.",
-      "image": "https://www.conwayhall.org.uk/wp-content/uploads/2026/07/Raphael-Simon-WEB-400x400.jpg"
-    },
-    {
-      "id": "criterion-theatre:book-1gtbn-titanique",
-      "venueId": "criterion-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Titanique",
-      "url": "https://theatre.ticketmaster.co.uk/book/1GTBN-titanique/#perf=1GTBN-22V&date=2026-11-15&time=2.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-01-03",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/1f2/3812eff6-4904-4d2b-a9a7-32df4bee31f2_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "14:00",
-          "14:30",
-          "15:00",
-          "17:00",
-          "19:00",
-          "19:30"
-        ],
-        "days": "i0wwwwAi0wwwwAi0wwwwAi0wwwwAi0wwwwAi0AA100i0AA80Ai"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "titanique"
-      ]
-    },
-    {
-      "id": "duchess-theatre:book-17yy4-the-play-that-goes-wrong",
-      "venueId": "duchess-theatre",
-      "sourceId": "ticketmaster",
-      "title": "The Play That Goes Wrong",
-      "url": "https://theatre.ticketmaster.co.uk/book/17YY4-the-play-that-goes-wrong/#perf=17YY4-82P&date=2026-11-15&time=3.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-11-14",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/b34/f95d9e28-7767-41b1-a632-ad9c5897fb34_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [],
-        "days": "10111111011111101111110111111011111101110110111011011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Comedy"
-      ],
-      "people": [
-        "the-play-that-goes-wrong"
-      ]
-    },
-    {
-      "id": "earth-hackney:events-gigue-production-presents-dolu-kadehi-ters-tut-full-band-live-in-london-1",
-      "venueId": "earth-hackney",
-      "sourceId": "earth-hackney",
-      "title": "Gigue Production Presents: Dolu Kadehi Ters Tut – Full Band Live in London!",
-      "url": "https://earthackney.co.uk/events/gigue-production-presents-dolu-kadehi-ters-tut-full-band-live-in-london-15th-nov-earth-london-tickets-l8kvwb/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://dice-media.imgix.net/attachments/2026-07-21/f1997429-93eb-4cdd-9ac4-45477c31aecd.jpg?auto=format&compress&q=70&h=800&w=800&fit=crop&crop=faces,center",
-      "description": "This event will take place in EartH Hall. **Gigue Production Presents: Dolu Kadehi Ters Tut – Full Band Live in London** After last year’s sold-out acoustic sho"
-    },
-    {
-      "id": "earth-hackney:events-joyce-moreno-15th-nov-earth-london-tickets-eomnwo",
-      "venueId": "earth-hackney",
-      "sourceId": "earth-hackney",
-      "title": "Joyce Moreno",
-      "url": "https://earthackney.co.uk/events/joyce-moreno-15th-nov-earth-london-tickets-eomnwo/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://dice-media.imgix.net/attachments/2026-05-07/1cee8dd8-469d-45ee-b1ba-c31e1951a578.jpg?auto=format&compress&q=70&h=800&w=800&fit=crop&crop=faces,center",
-      "description": "This event will take place in EartH Theatre. Born in Rio de Janeiro, four-times Grammy nominee, singer, composer, arranger and instrumentalist JOYCE MORENO has"
-    },
-    {
-      "id": "empress-museum:book-1gpnu-come-alive",
-      "venueId": "empress-museum",
-      "sourceId": "ticketmaster",
-      "title": "Come Alive! The Greatest Showman Circus Spectacular",
-      "url": "https://theatre.ticketmaster.co.uk/book/1GPNU-come-alive/#perf=1GPNU-21Z&date=2026-11-15&time=2.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-08-29",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/52f/58c9a7e4-8a9f-4d9e-8f68-9d448df0852f_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "13:30",
-          "14:30",
-          "15:30",
-          "18:30",
-          "19:30",
-          "20:30"
-        ],
-        "days": "200ggii200igii200ggii200ggii200iggi20ii00gigii00i200ggii200ggii200ggii200ggii200ggii200ggii200i2ii200ggii200ggii200ggii200ggii200g2giA002i2ii002i2i200ggii200ggii200gi2i900ggii200ggii200ggii200ggii200i2ii200ggii200ggii200igii200ggii200ggii200ggii200i2ii200i22i200i2ii200g2ii200g2ii200i2ii2"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "come-alive-the-greatest-showman-circus-spectacular"
-      ]
-    },
-    {
-      "id": "frameless:events-frameless-2026-tickets-q8ygsx-ref-ticketmaster",
-      "venueId": "frameless",
-      "sourceId": "ticketmaster",
-      "title": "FRAMELESS",
-      "url": "https://www.universe.com/events/frameless-2026-tickets-Q8YGSX?ref=ticketmaster",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-15",
-      "endDate": "2026-12-31",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [],
-        "days": "11111111111111111111111111111111111111110111111"
-      },
-      "genres": [
-        "Miscellaneous"
-      ],
-      "people": [
-        "frameless"
-      ]
-    },
-    {
-      "id": "gielgud-theatre:book-1h4kn-oliver",
-      "venueId": "gielgud-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Oliver!",
-      "url": "https://theatre.ticketmaster.co.uk/book/1H4KN-oliver/#perf=1H4KN-196&date=2026-11-15&time=2.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-03-14",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/932/2dbb9ff7-7168-47a1-b329-59764f35c932_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "13:00",
-          "14:30",
-          "19:00",
-          "19:30"
-        ],
-        "days": "204a88a204a88a204a88a204a88a204a88a02aa100a8aa10a204a88a204a88a204a88a204a88a204a88a204a88a204a88a204a88a204a88a204a88a2"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "oliver-touring"
-      ]
-    },
-    {
-      "id": "gillian-lynne-theatre:book-1g7ha-my-neighbour-totoro",
-      "venueId": "gillian-lynne-theatre",
-      "sourceId": "ticketmaster",
-      "title": "My Neighbour Totoro",
-      "url": "https://theatre.ticketmaster.co.uk/book/1G7HA-my-neighbour-totoro/#perf=1G7HA-19L&date=2026-11-15&time=2.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-01-10",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/33a/d54a4304-6f62-46bf-ac84-f993da95833a_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "13:00",
-          "14:00",
-          "17:00",
-          "18:00",
-          "19:00"
-        ],
-        "days": "20ggigi20ggigi20ggigi20ggigi20ggigi20ii20090ig24i20ggigi2"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Drama"
-      ],
-      "people": [
-        "my-neighbour-totoro"
-      ]
-    },
-    {
-      "id": "hippodrome-casino:magic-mike-live-42815359",
-      "venueId": "hippodrome-casino",
-      "sourceId": "skiddle",
-      "title": "Magic Mike Live",
-      "url": "https://www.skiddle.com/whats-on/London/Hippodrome-Casino/Magic-Mike-Live/42815359/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "16:00",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/4/7/6/2353824_1790688307_magic-mike-live.jpg",
-      "description": "Created by Channing Tatum, MAGIC MIKE LIVE delivers sizzling 360-degree entertainment with dance, acrobatics and music.",
-      "price": "paid",
-      "genres": [
-        "Theatre"
-      ]
-    },
-    {
-      "id": "japan-house-london:whats-on-traditionrebellion-coming-of-age-style-in-kitakyushu-japan",
-      "venueId": "japan-house-london",
-      "sourceId": "japan-house-london",
-      "title": "Tradition/Rebellion: Coming-of-Age Style in Kitakyushu, Japan",
-      "url": "https://www.japanhouselondon.uk/whats-on/traditionrebellion-coming-of-age-style-in-kitakyushu-japan/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-15",
-      "endDate": "2027-04-18",
-      "firstSeen": "2026-11-02",
-      "image": "https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://assets.japanhouselondon.uk/production/uploads/2026/09/traditionrebellion-coming-of-age-style-in-kitakyushu-japan-1193827728.jpg",
-      "description": "From fur-trimmed kimono to gravity-defying hair, Tradition/Rebellion is a world of colour and creativity.",
-      "price": "free"
-    },
-    {
-      "id": "leicester-square-theatre:show-bollywood-time-machine-2-0",
-      "venueId": "leicester-square-theatre",
-      "sourceId": "leicester-square-theatre",
-      "title": "Bollywood Time Machine 2.0",
-      "url": "https://www.leicestersquaretheatre.com/show/bollywood-time-machine-2-0/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-07",
-      "description": "Bollywood Time Machine 2.0 – New Songs. New Dialogues. Same Magic. Step back – and fast-forward – through the dazzling eras of Indian cinema with Bollywood Time Machine 2026, now reimagined with brand new songs, fresh dialogues and dance performances! Experience breathtaking…",
-      "image": "https://www.leicestersquaretheatre.com/wp-content/uploads/2026/11/bollywood-time-machine-2-0_image_873662861_147017.jpg"
-    },
-    {
-      "id": "london-county-hall:book-1guz8-ticketmaster",
-      "venueId": "london-county-hall",
-      "sourceId": "ticketmaster",
-      "title": "The Paddington Bear Experience",
-      "url": "https://attractions.ticketmaster.co.uk/book/1GUZ8-TICKETMASTER/#date=2026-11-15",
-      "type": "family",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2026-12-31",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/b4e/2774004c-cf38-4a53-9d2e-7d0d311adb4e_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "10:00"
-        ],
-        "days": "11111111111111111111111111111111111111110111111"
-      },
-      "genres": [
-        "Miscellaneous/Family"
-      ],
-      "people": [
-        "the-paddington-bear-experience"
-      ]
-    },
-    {
-      "id": "london-county-hall:book-1hw10-witness-for-the-prosecution-county-hall",
-      "venueId": "london-county-hall",
-      "sourceId": "ticketmaster",
-      "title": "Witness for the Prosecution",
-      "url": "https://theatre.ticketmaster.co.uk/book/1HW10-witness-for-the-prosecution-county-hall/#perf=1HW10-1F&date=2026-11-15&time=3.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-09-19",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/366/f7c22ef7-8776-47fa-b0ad-d95761707366_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "13:00",
-          "14:30",
-          "15:00",
-          "19:30"
-        ],
-        "days": "4088a8a4088a8a4088a8a4088a8a4088a8a40aa100a8aa10a408aa8a4088a8a4088a8a4088a8a4088a8a408888a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a408aa8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4080a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Drama"
-      ],
-      "people": [
-        "witness-for-the-prosecution"
-      ]
-    },
-    {
-      "id": "london-museum:whats-on-mudlarks-family-gallery",
-      "venueId": "london-museum",
-      "sourceId": "london-museum",
-      "title": "Mudlarks family gallery",
-      "url": "https://www.londonmuseum.org.uk/whats-on/mudlarks-family-gallery/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-15",
-      "endDate": "2026-11-29",
-      "firstSeen": "2026-11-02",
-      "description": "Get hands-on in this interactive space in east London for children aged up to 8 years old with soft play and water tables.",
-      "image": "https://media.londonmuseum.org.uk/images/WagtailSource-Family-G.width-1200.height-630.format-jpeg.jpg"
-    },
-    {
-      "id": "london-museum:whats-on-roman-fort-gate-tours",
-      "venueId": "london-museum",
-      "sourceId": "london-museum",
-      "title": "Roman fort gate tours",
-      "url": "https://www.londonmuseum.org.uk/whats-on/roman-fort-gate-tours/",
-      "type": "tour",
-      "category": "art-events",
-      "startDate": "2026-11-15",
-      "endDate": "2026-11-29",
-      "firstSeen": "2026-11-02",
-      "description": "See the remains of Roman London's military fort – hidden beneath the streets",
-      "image": "https://media.londonmuseum.org.uk/images/WagtailSource-Londiniu.width-1200.height-630.format-jpeg.jpg"
-    },
-    {
-      "id": "london-museum:whats-on-secrets-of-the-warehouse-tour",
-      "venueId": "london-museum",
-      "sourceId": "london-museum",
-      "title": "Wonders of the warehouse",
-      "url": "https://www.londonmuseum.org.uk/whats-on/secrets-of-the-warehouse-tour/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": "2026-11-15",
-      "endDate": "2026-11-23",
-      "firstSeen": "2026-11-02",
-      "description": "Delve into the hidden history of our Georgian museum building",
-      "image": "https://media.londonmuseum.org.uk/images/View-of-the-London-Doc.width-1200.height-630.format-jpeg.jpg"
-    },
-    {
-      "id": "london-palladium:event-370064bbf2ed423e",
-      "venueId": "london-palladium",
-      "sourceId": "ticketmaster",
-      "title": "Absolute Radio Live",
-      "url": "https://www.ticketmaster.co.uk/absolute-radio-live-london-15-11-2026/event/370064BBF2ED423E",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/a/401/d8f6bffd-71cb-4804-a65e-4c5677f7b401_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Absolute Radio Live returns to The London Palladium for radio's biggest comedy night, as hosts Matt Forde and Jon Richardson take to the stage to raise money for Prostate Cancer UK. The evening will once again feature an all-star line-up of some of the biggest names in comedy. Ke",
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ],
-      "people": [
-        "absolute-radio-live"
-      ]
-    },
-    {
-      "id": "london-palladium:event-370064d93a68c9f1",
-      "venueId": "london-palladium",
-      "sourceId": "ticketmaster",
-      "title": "Magic West End Christmas",
-      "url": "https://www.ticketmaster.co.uk/magic-west-end-christmas-london-15-11-2026/event/370064D93A68C9F1",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "14:00",
-      "image": "https://s1.ticketm.net/dam/a/ed9/4973d769-4ba4-4341-b129-e912a1ed3ed9_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Start time: 15:00",
-      "genres": [
-        "Music/Holiday/Christmas Music"
-      ],
-      "people": [
-        "magic-west-end-christmas"
-      ]
-    },
-    {
-      "id": "lyceum-theatre:book-1dr6r-lyceum-theatre-london-disneys-the-lion-king",
-      "venueId": "lyceum-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Disney's THE LION KING",
-      "url": "https://theatre.ticketmaster.co.uk/book/1DR6R-lyceum-theatre-london-disneys-the-lion-king/#perf=1DR6R-614&date=2026-11-15&time=2.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-07-25",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/7df/81c5def3-5f8a-4230-9bdb-a5d2b03797df_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "13:30",
-          "14:30",
-          "15:30",
-          "19:30"
-        ],
-        "days": "208a88a208a88a208a88a208a88a208a88a20aa10820aa28a208a88a208a88a208a80a208a88a208a88a208a88a208aa8a208a88a208a88a208a88a208a88a208a88a408aa8a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a008a88a208a88a208a88a208a88a2"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "disneys-the-lion-king-uk"
-      ]
-    },
-    {
-      "id": "lyric-theatre:event-zkr9uzkbzl4ze8-4-z7du",
-      "venueId": "lyric-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Hadestown",
-      "url": "https://www.ticketmaster.co.uk/hadestown-london-15-11-2026/event/ZKr9uZKbZL4Ze8-4-Z7du",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-11-14",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/a15/7b13031e-c0ba-40de-91db-d9384c70aa15_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [],
-        "days": "10111111011111101111110111111011111101110011111011011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "hadestown-touring"
-      ]
-    },
-    {
       "id": "national-maritime-museum:queens-house-santas-grotto-queens-house-relaxed-sessions",
       "venueId": "national-maritime-museum",
       "sourceId": "national-maritime-museum",
@@ -3995,87 +3212,6 @@
       "image": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2026-02/Unboxing%20the%20Universe%20Hero%20Crop%201.jpg.webp?itok=DonDapVC"
     },
     {
-      "id": "o2-shepherds-bush-empire:event-3e0064aee41f4418",
-      "venueId": "o2-shepherds-bush-empire",
-      "sourceId": "ticketmaster",
-      "title": "Michelle Buteau: The Surviving and Thriving Tour",
-      "url": "https://www.ticketmaster.co.uk/michelle-buteau-the-surviving-and-thriving-london-15-11-2026/event/3E0064AEE41F4418",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/a/060/644247d5-e358-4ecf-a6af-f6b57292c060_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must ",
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ],
-      "people": [
-        "michelle-buteau",
-        "chantel-nash"
-      ]
-    },
-    {
-      "id": "orange-tree-theatre:whats-on-sunday-morning-coffee-concert",
-      "venueId": "orange-tree-theatre",
-      "sourceId": "orange-tree-theatre",
-      "title": "Sunday Morning Coffee Concert",
-      "url": "https://orangetreetheatre.co.uk/whats-on/sunday-morning-coffee-concert/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "description": "Dorothea Vogel, violist of the much-loved Allegri Quartet, returns to the OT to present a series of chamber concerts with friends.",
-      "image": "https://orangetreetheatre.co.uk/wp-content/uploads/2023/08/T9780.jpg"
-    },
-    {
-      "id": "outernet-london:p13875e79237",
-      "venueId": "outernet-london",
-      "sourceId": "outernet-london",
-      "title": "Live: Lox, Noa Lauryn & Emilia Anastazja EFG London Jazz Festival",
-      "url": "https://link.dice.fm/p13875e79237",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-14",
-      "startTime": "19:00",
-      "image": "https://dice-media.imgix.net/attachments/2026-08-06/36e7b66d-4aaa-4e65-8e3d-950b6fbbfee3.jpg",
-      "description": "Global Soul Takeover x EFG Lndon Jazz Festival **LOX** He has been composing, performing & recording his own original music since 2023 & has just released his debut jazz-fusion concept album. His explosive, exciting live shows have granted him opportunities like: - A monthly…"
-    },
-    {
-      "id": "palace-theatre:book-1j44r-harry-potter-and-the-cursed-child-one-part",
-      "venueId": "palace-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Harry Potter and the Cursed Child - One Part Show",
-      "url": "https://theatre.ticketmaster.co.uk/book/1J44R-harry-potter-and-the-cursed-child-one-part/#perf=1J44R-18&date=2026-11-15&time=2.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-06-27",
-      "firstSeen": "2026-11-06",
-      "image": "https://s1.ticketm.net/dam/a/be4/d80a13cc-d8e4-4960-8f07-ad051359abe4_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "13:00",
-          "14:30",
-          "15:30",
-          "17:00",
-          "19:00"
-        ],
-        "days": "20ghggh20ghggh20ghggh20ghggh20ghggh20hh100h0hh18h20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghghh20ggggh20ghggh20gh0gh20ghggh20ggggh40ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh2"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Drama"
-      ],
-      "people": [
-        "harry-potter-and-the-cursed-child-ny"
-      ]
-    },
-    {
       "id": "park-theatre:events-comedy-club-4-kids",
       "venueId": "park-theatre",
       "sourceId": "park-theatre",
@@ -4088,497 +3224,6 @@
       "firstSeen": "2026-11-02",
       "description": "Since 2005, the Comedy Club 4 Kids has been getting the best stand-ups, sketch acts and cabaret stars from the international circuit to do their thing for an audience of children (aged 6+) and their families… but without the rude bits!",
       "image": "https://parktheatre.co.uk/wp-content/uploads/2025/04/CC4K-Web-scaled.jpg"
-    },
-    {
-      "id": "phoenix-theatre:book-1fhdy-stranger-things-the-first-shadow",
-      "venueId": "phoenix-theatre",
-      "sourceId": "ticketmaster",
-      "title": "Stranger Things: The First Shadow",
-      "url": "https://theatre.ticketmaster.co.uk/book/1FHDY-stranger-things-the-first-shadow/#perf=1FHDY-24N&date=2026-11-15&time=3.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2026-12-20",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/ec0/5f90acba-9d7c-48c0-9010-7b97062e6ec0_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "13:00",
-          "15:00",
-          "19:00"
-        ],
-        "days": "204445520444552044455204405520444552"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Drama"
-      ],
-      "people": [
-        "stranger-things"
-      ]
-    },
-    {
-      "id": "pleasance-theatre:event-comedians-table-read-heated-rivalry",
-      "venueId": "pleasance-theatre",
-      "sourceId": "pleasance-theatre",
-      "title": "COMEDIANS TABLE READ HEATED RIVALRY",
-      "url": "https://www.pleasance.co.uk/event/comedians-table-read-heated-rivalry",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "polka-theatre:event-christmas-lights",
-      "venueId": "polka-theatre",
-      "sourceId": "polka-theatre",
-      "title": "Christmas Lights",
-      "url": "https://polkatheatre.com/event/christmas-lights/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2026-11-22",
-      "firstSeen": "2026-11-02",
-      "image": "https://polkatheatre.com/wp-content/uploads/2026/05/1920x1080-Website-listing-Christmas-Lights-2-640x427.png",
-      "description": "Christmas is around the corner in a playful, visually dazzling show where the power of friendship can light up the dark. A Filskit Theatre Company production. Originally co-produced by Z-arts and Wonder Arts."
-    },
-    {
-      "id": "polka-theatre:event-peter-pan",
-      "venueId": "polka-theatre",
-      "sourceId": "polka-theatre",
-      "title": "Peter Pan",
-      "url": "https://polkatheatre.com/event/peter-pan/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-01-24",
-      "firstSeen": "2026-11-02",
-      "image": "https://polkatheatre.com/wp-content/uploads/2026/04/644-x-285-website-2-640x285.png",
-      "description": "Take flight with Peter, Wendy and Tink in this remixed musical production of the much-loved story. With all original songs and sounds performed live and acapella by a company of award-winning vocalists, beatboxers, and rappers, this is Peter Pan as you’ve never heard it before!…"
-    },
-    {
-      "id": "royal-opera-house:tickets-and-events-family-sundays-details",
-      "venueId": "royal-opera-house",
-      "sourceId": "royal-opera-house",
-      "title": "Family Sundays",
-      "url": "https://www.rbo.org.uk/tickets-and-events/family-sundays-details",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-04-04",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.prismic.io/royal-opera-house/Z5uo5pbqstJ9-DcA_RBOFamilySundayBlackHistoryMonthLauraAziz2024-180.jpg?auto=format,compress&rect=359,0,5747,4310&w=600&h=960",
-      "description": "Find out about Family Sundays at the Royal Opera House. Perfect for families with children aged 3 to 10 enjoy creative sessions filled with informal performances, hands-on workshops and behind-the-scenes fun."
-    },
-    {
-      "id": "royal-opera-house:tickets-and-events-opera-on-the-terrace-details",
-      "venueId": "royal-opera-house",
-      "sourceId": "royal-opera-house",
-      "title": "Opera on the Terrace",
-      "url": "https://www.rbo.org.uk/tickets-and-events/opera-on-the-terrace-details",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2026-11-29",
-      "firstSeen": "2026-11-02",
-      "image": "https://images.prismic.io/royal-opera-house/E1mUd-daG4gS-Q38_CicoriaOperaNights14.6SINGERS08.jpg?auto=format%2Ccompress&rect=0%2C1395%2C4480%2C3360&w=600&h=960",
-      "description": "Find out about Opera on the Terrace at the Royal Opera House. Experience a unique evening of food, wine and performance, curated by Michelin-starred chef Angela Hartnett and the team at Cicoria."
-    },
-    {
-      "id": "shakespeares-globe:whats-on-globe-theatre-guided-tour",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "Globe Theatre Guided Tour",
-      "url": "https://www.shakespearesglobe.com/whats-on/globe-theatre-guided-tour/",
-      "type": "tour",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-01-31",
-      "firstSeen": "2026-11-02",
-      "description": "A unique experience that brings to life 400 years of history, transports you back to Shakespeare's London celebrating iconic stage plays of the Globe Theatre.",
-      "image": "https://images.shakespearesglobe.com/uploads/2025/04/GlobeTheatreGuidedTour_SocialWebsite_AW_1600-x-1000.jpg?fit=1024%2C1024"
-    },
-    {
-      "id": "shakespeares-globe:whats-on-premium-globe-guided-tour",
-      "venueId": "shakespeares-globe",
-      "sourceId": "shakespeares-globe",
-      "title": "Premium Globe Guided Tour",
-      "url": "https://www.shakespearesglobe.com/whats-on/premium-globe-guided-tour/",
-      "type": "tour",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-01-31",
-      "firstSeen": "2026-11-02",
-      "description": "A unique experience that transports you back to Shakespeare's London with an exclusive view from the Globe Theatre stage.",
-      "image": "https://images.shakespearesglobe.com/uploads/2024/10/Premium-Globe-Tour-1600x1000-1.png?fit=1024%2C1024"
-    },
-    {
-      "id": "soho-theatre:events-nobuyuki-tsujii-philharmonia-chamber-players",
-      "venueId": "soho-theatre",
-      "sourceId": "soho-theatre",
-      "title": "Nobuyuki Tsujii & Philharmonia Chamber Players",
-      "url": "https://sohotheatre.com/events/nobuyuki-tsujii-philharmonia-chamber-players/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "st-johns-smith-square:event-when-david-heard",
-      "venueId": "st-johns-smith-square",
-      "sourceId": "st-johns-smith-square",
-      "title": "When David Heard",
-      "url": "https://www.sinfoniasmithsq.org.uk/event/when-david-heard/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-06",
-      "startTime": "19:30",
-      "image": "https://www.sinfoniasmithsq.org.uk/wp-content/uploads/2026/06/greg-rakozy-oMpAz-DN-9I-unsplash-1280x720.jpg"
-    },
-    {
-      "id": "the-arts-at-marble-arch:book-1huml-burlesque",
-      "venueId": "the-arts-at-marble-arch",
-      "sourceId": "ticketmaster",
-      "title": "Burlesque",
-      "url": "https://theatre.ticketmaster.co.uk/book/1HUML-burlesque/#perf=1HUML-23&date=2026-11-15&time=4.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-01-31",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/cc1/16a24012-57e9-41f6-bc37-ae36ad7d1cc1_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "14:00",
-          "15:00",
-          "16:00",
-          "19:00",
-          "19:30"
-        ],
-        "days": "40ggigi40ggigi40ggigi40ggigi40ggigi40gi20g90gi2gi90ggigi40ggigi40ggigi40ggigi4"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "burlesque-the-musical"
-      ]
-    },
-    {
-      "id": "the-arts-at-marble-arch:book-1j8mu-million-dollar-quartet",
-      "venueId": "the-arts-at-marble-arch",
-      "sourceId": "ticketmaster",
-      "title": "Million Dollar Quartet",
-      "url": "https://theatre.ticketmaster.co.uk/book/1J8MU-million-dollar-quartet/#perf=1J8MU-2D&date=2026-11-15&time=3.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2026-12-06",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/61b/17ffc144-716d-4e9f-9f9d-9aa7d458f61b_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "14:30",
-          "15:00",
-          "19:30"
-        ],
-        "days": "2044545204454520445452"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "million-dollar-quartet-chicago"
-      ]
-    },
-    {
-      "id": "the-comedy-store:events-charity",
-      "venueId": "the-comedy-store",
-      "sourceId": "the-comedy-store",
-      "title": "The Comedy Store Players",
-      "url": "https://london.thecomedystore.co.uk/events/charity",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://comedy-store.transforms.svdcdn.com/production/images/2026/headers/CS-Header-CSP.jpg?w=728&h=291&q=90&auto=format&fit=crop&dm=1773261725&s=f0ace4e9fe30a677f273912245b902a5",
-      "people": [
-        "the-comedy-store-players"
-      ],
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ]
-    },
-    {
-      "id": "the-o2:book-1gy5a-mamma-mia-the-party",
-      "venueId": "the-o2",
-      "sourceId": "ticketmaster",
-      "title": "Mamma Mia! The Party",
-      "url": "https://theatre.ticketmaster.co.uk/book/1GY5A-mamma-mia-the-party/#perf=1GY5A-18H&date=2026-11-15&time=12.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-11-14",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/dd1/8cfa7d0c-241e-41b8-a131-75f4813bfdd1_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "11:00",
-          "12:00",
-          "17:30",
-          "18:30"
-        ],
-        "days": "a08888aa08888aa00888aa00888aa00888aa08a000a08880aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888a200888aa00888aa00888aa08880aa00888a200888aa00088aa00880aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888a500888aa00888aa"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "mamma-mia-the-party"
-      ]
-    },
-    {
-      "id": "the-o2:event-350064caed82d478",
-      "venueId": "the-o2",
-      "sourceId": "ticketmaster",
-      "title": "Muse - The Wow! Signal Europa Tour",
-      "url": "https://www.ticketmaster.co.uk/muse-the-wow-signal-europa-tour-london-15-11-2026/event/350064CAED82D478",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2026-11-16",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/7e6/55af6c0e-e72e-45fc-95ac-eaafdccb27e6_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "£1* from every ticket sold on this show will be donated to LIVE Trust, protecting, expanding and supporting grassroots music in the UK. *Subject to taxes. Charity Number: 1211251 Ticketmaster Resale and Ticket Transfer will be available no later than 90 days from the onsale date.",
-      "genres": [
-        "Music/Rock/Alternative Rock"
-      ],
-      "people": [
-        "muse",
-        "dead-poet-society"
-      ]
-    },
-    {
-      "id": "troubadour-canary-wharf-theatre:book-1hun0-the-hunger-games-on-stage",
-      "venueId": "troubadour-canary-wharf-theatre",
-      "sourceId": "ticketmaster",
-      "title": "The Hunger Games - On Stage",
-      "url": "https://theatre.ticketmaster.co.uk/book/1HUN0-the-hunger-games-on-stage/#perf=1HUN0-92&date=2026-11-15&time=3.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-02-14",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/2f9/38290dbe-1589-428a-86ca-0361da7422f9_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "14:30",
-          "15:00",
-          "19:30"
-        ],
-        "days": "20444552044455204445520444552044455205500055151052044455204445520444552044455204445520444552"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Drama"
-      ],
-      "people": [
-        "the-hunger-games-on-stage"
-      ]
-    },
-    {
-      "id": "troubadour-wembley-park-theatre:book-1j3bu-high-school-musical",
-      "venueId": "troubadour-wembley-park-theatre",
-      "sourceId": "ticketmaster",
-      "title": "High School Musical",
-      "url": "https://theatre.ticketmaster.co.uk/book/1J3BU-high-school-musical/#perf=1J3BU-15&date=2026-11-15&time=1.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-01-03",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/d09/e9f2d32d-ab56-4535-a580-bec99251fd09_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "13:00",
-          "14:30",
-          "17:30",
-          "19:30"
-        ],
-        "days": "5008a8a5008a8a5008a8a5008a8a5008a8a50aa10a58aa10a1"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "high-school-musical"
-      ]
-    },
-    {
-      "id": "troxy:event-mihai-bobonete",
-      "venueId": "troxy",
-      "sourceId": "troxy",
-      "title": "Mihai Bobonete",
-      "url": "https://troxy.co.uk/event/mihai-bobonete/",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
-      "description": "Mihai Bobonete returns to London with a brand-new stand-up comedy show: ?Revela?ie?. New material, new stories, and enough ideas to make you think a little? but not too much, because after all, you came here to laugh ;). Opening the show, as always, is Mihai Rait, also ready…",
-      "people": [
-        "mihai-bobonete"
-      ],
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ]
-    },
-    {
-      "id": "underbelly-boulevard:book-1j2aa-sophies-surprise-christmas-party",
-      "venueId": "underbelly-boulevard",
-      "sourceId": "ticketmaster",
-      "title": "Sophie's Surprise Christmas Party",
-      "url": "https://theatre.ticketmaster.co.uk/book/1J2AA-sophies-surprise-christmas-party/#perf=1J2AA-5&date=2026-11-15&time=5.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-01-10",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/5f8/2de1a9ca-2bc5-4321-ae37-215ac794b5f8_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "17:00",
-          "19:00",
-          "20:00",
-          "20:30",
-          "21:30"
-        ],
-        "days": "10224ii1022i2i1028i2i1022i2i1022i2i02i2000202240i102222i1"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Comedy"
-      ],
-      "people": [
-        "sophies-surprise-christmas-party"
-      ]
-    },
-    {
-      "id": "union-chapel:whats-on-dave-okumu-friends",
-      "venueId": "union-chapel",
-      "sourceId": "union-chapel",
-      "title": "Dave Okumu & Friends",
-      "url": "https://unionchapel.org.uk/whats-on/dave-okumu-friends",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "description": "Following performances of A Prayer for D’Angelo over the past year at MU, Church of Sound, and We Out Here Festival, Dave Okumu returns with a new gathering exploring his musical ancestors. Drawing from a far-reaching catalogue spanning generations-from Nina Simone and Sly…"
-    },
-    {
-      "id": "union-chapel:whats-on-house-of-rainbow-monthly-in-person-fellowship",
-      "venueId": "union-chapel",
-      "sourceId": "union-chapel",
-      "title": "House Of Rainbow Monthly In-Person Fellowship",
-      "url": "https://unionchapel.org.uk/whats-on/house-of-rainbow-monthly-in-person-fellowship",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-04",
-      "description": "The in-person House of Rainbow meeting is a sacred space to breathe, belong, and believe together. Come as you are. Bring your questions, your faith, your full self. There’s room for prayer, conversation, laughter, and deep community."
-    },
-    {
-      "id": "up-the-creek:events-the-sunday-service-w-adam-bloom-tickets-4zk203-unii-trigger-open-the-sund",
-      "venueId": "up-the-creek",
-      "sourceId": "up-the-creek",
-      "title": "The Sunday Service w/ Adam Bloom",
-      "url": "https://www.universe.com/events/the-sunday-service-w-adam-bloom-tickets-4ZK203?unii-trigger-open=the-sunday-service-w-adam-bloom-tickets-4ZK203",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-08",
-      "startTime": "18:30",
-      "people": [
-        "adam-bloom",
-        "sunday-night-comedy-at-up-the-creek"
-      ],
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ]
-    },
-    {
-      "id": "vaudeville-theatre:book-1dyc8-six-vau",
-      "venueId": "vaudeville-theatre",
-      "sourceId": "ticketmaster",
-      "title": "SIX The Musical",
-      "url": "https://theatre.ticketmaster.co.uk/book/1DYC8-six-vau/#perf=1DYC8-690&date=2026-11-15&time=3.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": "2027-11-14",
-      "firstSeen": "2026-11-06",
-      "image": "https://s1.ticketm.net/dam/a/8de/ab16e57b-0a9f-4ea4-9e1f-7bbc7923d8de_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-15",
-        "times": [
-          "14:00",
-          "15:00",
-          "16:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "days": "i0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0AA00Ai0AAAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwwwAi0wwAwAi0wwAwAA0wwAwAi0wwAwAi0wwAwA20wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwA0Ai0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwwwAi0wwAwAi0wwAwAi0wwAwAi0wwAwA20wwAwAi0wwAwAi0wwwwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwA90wwAwAi0wwAwAi"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Musical"
-      ],
-      "people": [
-        "six-the-musical"
-      ]
-    },
-    {
-      "id": "wigmore-hall:whats-on-202611151930",
-      "venueId": "wigmore-hall",
-      "sourceId": "wigmore-hall",
-      "title": "Angela Hewitt Basel Chamber Orchestra; Baptiste Lopez",
-      "url": "https://www.wigmore-hall.org.uk/whats-on/202611151930",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-11",
-      "startTime": "19:30",
-      "image": "https://admin.wigmore-hall.org.uk/images/K1LN5rfeNCQD70s30d6Q-yPQGug=/6517/width-400/.phpref53036sizewebextjpgpage1alternative-1watermarkedknoattachtruevaccess_k_F4J0VnC",
-      "description": "Bach, CPE Bach, JC Bach and Mozart"
-    },
-    {
-      "id": "wigmore-hall:whats-on-202611151130",
-      "venueId": "wigmore-hall",
-      "sourceId": "wigmore-hall",
-      "title": "Kleio Quartet",
-      "url": "https://www.wigmore-hall.org.uk/whats-on/202611151130",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-15",
-      "endDate": null,
-      "firstSeen": "2026-11-10",
-      "startTime": "11:30",
-      "image": "https://admin.wigmore-hall.org.uk/images/8FhnYHAe50wv-xgGBXlBnXz1xyI=/6492/width-400/.phpref55049sizewebextjpgpage1alternative-1watermarkedknoattachtruevaccess_k_4s5YBdz",
-      "description": "Haydn and Nielsen"
     },
     {
       "id": "adelphi-theatre:event-z3r9uzkbzl4zef7a5zee",
@@ -4825,6 +3470,30 @@
       ]
     },
     {
+      "id": "frameless:events-frameless-tickets-9wjrgv-ref-ticketmaster",
+      "venueId": "frameless",
+      "sourceId": "ticketmaster",
+      "title": "FRAMELESS",
+      "url": "https://www.universe.com/events/frameless-tickets-9WJRGV?ref=ticketmaster",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-16",
+      "endDate": "2026-12-31",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-16",
+        "times": [],
+        "days": "1111111111111111111111111111111111111110111111"
+      },
+      "genres": [
+        "Miscellaneous"
+      ],
+      "people": [
+        "frameless"
+      ]
+    },
+    {
       "id": "his-majestys-theatre:book-1fu7r-the-phantom-of-the-opera",
       "venueId": "his-majestys-theatre",
       "sourceId": "ticketmaster",
@@ -4850,6 +3519,21 @@
       "people": [
         "the-phantom-of-the-opera"
       ]
+    },
+    {
+      "id": "japan-house-london:whats-on-traditionrebellion-coming-of-age-style-in-kitakyushu-japan",
+      "venueId": "japan-house-london",
+      "sourceId": "japan-house-london",
+      "title": "Tradition/Rebellion: Coming-of-Age Style in Kitakyushu, Japan",
+      "url": "https://www.japanhouselondon.uk/whats-on/traditionrebellion-coming-of-age-style-in-kitakyushu-japan/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-16",
+      "endDate": "2027-04-18",
+      "firstSeen": "2026-11-02",
+      "image": "https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://www.japanhouselondon.uk/cdn-cgi/image/format=auto,q=75/https://assets.japanhouselondon.uk/production/uploads/2026/09/traditionrebellion-coming-of-age-style-in-kitakyushu-japan-1193827728.jpg",
+      "description": "From fur-trimmed kimono to gravity-defying hair, Tradition/Rebellion is a world of colour and creativity.",
+      "price": "free"
     },
     {
       "id": "judi-dench-theatre:book-1hmdj-avenue-q",
@@ -4925,6 +3609,75 @@
       "genres": [
         "Theatre"
       ]
+    },
+    {
+      "id": "london-county-hall:book-1guz8-ticketmaster",
+      "venueId": "london-county-hall",
+      "sourceId": "ticketmaster",
+      "title": "The Paddington Bear Experience",
+      "url": "https://attractions.ticketmaster.co.uk/book/1GUZ8-TICKETMASTER/#date=2026-11-16",
+      "type": "family",
+      "category": "shows",
+      "startDate": "2026-11-16",
+      "endDate": "2026-12-31",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/b4e/2774004c-cf38-4a53-9d2e-7d0d311adb4e_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-16",
+        "times": [
+          "10:00"
+        ],
+        "days": "1111111111111111111111111111111111111110111111"
+      },
+      "genres": [
+        "Miscellaneous/Family"
+      ],
+      "people": [
+        "the-paddington-bear-experience"
+      ]
+    },
+    {
+      "id": "london-museum:whats-on-mudlarks-family-gallery",
+      "venueId": "london-museum",
+      "sourceId": "london-museum",
+      "title": "Mudlarks family gallery",
+      "url": "https://www.londonmuseum.org.uk/whats-on/mudlarks-family-gallery/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-29",
+      "firstSeen": "2026-11-02",
+      "description": "Get hands-on in this interactive space in east London for children aged up to 8 years old with soft play and water tables.",
+      "image": "https://media.londonmuseum.org.uk/images/WagtailSource-Family-G.width-1200.height-630.format-jpeg.jpg"
+    },
+    {
+      "id": "london-museum:whats-on-secrets-of-the-warehouse-tour",
+      "venueId": "london-museum",
+      "sourceId": "london-museum",
+      "title": "Wonders of the warehouse",
+      "url": "https://www.londonmuseum.org.uk/whats-on/secrets-of-the-warehouse-tour/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-23",
+      "firstSeen": "2026-11-02",
+      "description": "Delve into the hidden history of our Georgian museum building",
+      "image": "https://media.londonmuseum.org.uk/images/View-of-the-London-Doc.width-1200.height-630.format-jpeg.jpg"
+    },
+    {
+      "id": "museum-of-comedy:whats-on-comedy",
+      "venueId": "museum-of-comedy",
+      "sourceId": "museum-of-comedy",
+      "title": "The Monday Club",
+      "url": "https://www.museumofcomedy.com/whats-on/comedy/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-16",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "19:00",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35222.jpg",
+      "description": "\"A brilliant, friendly night of top-tier comedians practicing new gags\" - Time OutGrab yourself a drink and join us in the Museum bar for a relaxed weekly night of new material from some of the finest comedians on the circuit. Featuring pro acts, new acts and maybe the odd one…"
     },
     {
       "id": "national-maritime-museum:national-maritime-museum-flamsteed-lecture-secret-history-space-mission",
@@ -5321,6 +4074,20 @@
       "description": "Find out about Behind the Scenes Tour at the Royal Opera House. Take a look in the areas that are normally off-limits to the public, including rehearsal studios, costumes and production workshops."
     },
     {
+      "id": "royal-opera-house:tickets-and-events-opera-on-the-terrace-details",
+      "venueId": "royal-opera-house",
+      "sourceId": "royal-opera-house",
+      "title": "Opera on the Terrace",
+      "url": "https://www.rbo.org.uk/tickets-and-events/opera-on-the-terrace-details",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-29",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/royal-opera-house/E1mUd-daG4gS-Q38_CicoriaOperaNights14.6SINGERS08.jpg?auto=format%2Ccompress&rect=0%2C1395%2C4480%2C3360&w=600&h=960",
+      "description": "Find out about Opera on the Terrace at the Royal Opera House. Experience a unique evening of food, wine and performance, curated by Michelin-starred chef Angela Hartnett and the team at Cicoria."
+    },
+    {
       "id": "shaftesbury-theatre:avenue-q-42672107",
       "venueId": "shaftesbury-theatre",
       "sourceId": "skiddle",
@@ -5333,11 +4100,25 @@
       "firstSeen": "2026-11-02",
       "startTime": "19:30",
       "image": "https://d31fr2pwly4c4s.cloudfront.net/3/3/6/2324833_1787287612_avenue-q.jpg",
-      "description": "The three-time Tony Award-winning Avenue Q returns with infectious songs, lovable characters and original Broadway director Jason Moore.",
+      "description": "Three-time Tony Award-winning Avenue Q returns with mischievous humour, infectious songs and loveable characters, leaving audiences smiling.",
       "price": "paid",
       "genres": [
         "Theatre"
       ]
+    },
+    {
+      "id": "shakespeares-globe:whats-on-globe-theatre-guided-tour",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Globe Theatre Guided Tour",
+      "url": "https://www.shakespearesglobe.com/whats-on/globe-theatre-guided-tour/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-16",
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02",
+      "description": "A unique experience that brings to life 400 years of history, transports you back to Shakespeare's London celebrating iconic stage plays of the Globe Theatre.",
+      "image": "https://images.shakespearesglobe.com/uploads/2025/04/GlobeTheatreGuidedTour_SocialWebsite_AW_1600-x-1000.jpg?fit=1024%2C1024"
     },
     {
       "id": "shakespeares-globe:whats-on-julius-caesar",
@@ -5467,11 +4248,11 @@
       "description": "Sheroes Collective presents its first public library exhibition, showcasing the work of 16 women activist artists."
     },
     {
-      "id": "the-comedy-store:event-spread-a-smile-comedy-night-2026",
+      "id": "the-comedy-store:events-charity",
       "venueId": "the-comedy-store",
       "sourceId": "the-comedy-store",
       "title": "Spread a Smile Comedy Night 2026",
-      "url": "https://london.thecomedystore.co.uk/event/spread-a-smile-comedy-night-2026",
+      "url": "https://london.thecomedystore.co.uk/events/charity",
       "type": "show",
       "category": "shows",
       "startDate": "2026-11-16",
@@ -5487,8 +4268,7 @@
       ],
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
-      ],
-      "description": "The Spread a Smile Comedy Night will once again return to The Comedy Store, London, on Monday 16 November 2026 for another unforgettable night of stand-up comedy.Hosted and curated by Spread a Smile's amazing Ambassador, Suzi Ruffell, the evening promises to be a brilliant night…"
+      ]
     },
     {
       "id": "the-courtauld-gallery:whats-on-sacred-flowscapes-negotiating-and-imagining-the-spaces-of-chinese-relig",
@@ -5503,6 +4283,28 @@
       "firstSeen": "2026-11-02",
       "image": "https://courtauld.ac.uk/wp-content/uploads/2025/11/Social-Courtauld_RGB_Black.png",
       "description": "Join Terence Heng as he maps out the making of Chinese Religion sacred spaces, showing how such spaces are a product of “spiritual imagination”, a material and embodied process through which individuals and groups find ways to co-exist with state policy and urban planning."
+    },
+    {
+      "id": "the-o2:event-350064cb99518d1d",
+      "venueId": "the-o2",
+      "sourceId": "ticketmaster",
+      "title": "Muse - The Wow! Signal Europa Tour",
+      "url": "https://www.ticketmaster.co.uk/muse-the-wow-signal-europa-tour-london-16-11-2026/event/350064CB99518D1D",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-16",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "18:30",
+      "image": "https://s1.ticketm.net/dam/a/7e6/55af6c0e-e72e-45fc-95ac-eaafdccb27e6_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "£1* from every ticket sold on this show will be donated to LIVE Trust, protecting, expanding and supporting grassroots music in the UK. *Subject to taxes. Charity Number: 1211251 Ticketmaster Resale and Ticket Transfer will be available no later than 90 days from the onsale date.",
+      "genres": [
+        "Music/Rock/Alternative Rock"
+      ],
+      "people": [
+        "muse",
+        "dead-poet-society"
+      ]
     },
     {
       "id": "the-old-vic:event-zor9uzkbzl4zefdrdzk",
@@ -5796,6 +4598,61 @@
       "image": "https://alisonjacques.com/uploads/images/_1333x1000_crop_center-center_none/AJG-SH-Detail-00709a.jpg"
     },
     {
+      "id": "apollo-theatre:book-1j21u-derren-brown-only-human",
+      "venueId": "apollo-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Derren Brown: Only Human",
+      "url": "https://theatre.ticketmaster.co.uk/book/1J21U-derren-brown-only-human/#perf=1J21U-12&date=2026-11-17&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-01-30",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/64e/158f176f-31dd-4513-8291-e733d47ed64e_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "14:30",
+          "15:00",
+          "19:30"
+        ],
+        "days": "444452044445204444520444452044445204400050444052044445204444520444452044445"
+      },
+      "genres": [
+        "Miscellaneous/Psychics/Mediums/Hypnotists/Psychics/Mediums/Hypnotists"
+      ],
+      "people": [
+        "derren-brown"
+      ]
+    },
+    {
+      "id": "apollo-victoria-theatre:book-1du1l-apollo-victoria-london-wicked",
+      "venueId": "apollo-victoria-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Wicked",
+      "url": "https://theatre.ticketmaster.co.uk/book/1DU1L-apollo-victoria-london-wicked/#perf=1DU1L-613&date=2026-11-17&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-05-29",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/782/f34f4ed8-6150-49aa-b845-eb7009bf3782_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "14:30",
+          "19:30"
+        ],
+        "days": "23223102322310232231023223102303312330023233023100300002232230223223022322302232230223223022332302232230223223022322302232230223223022332302232230223223022322302232230223223022322302232230223223"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "wicked-london"
+      ]
+    },
+    {
       "id": "arcola-theatre:event-the-ugly-one",
       "venueId": "arcola-theatre",
       "sourceId": "arcola-theatre",
@@ -5938,6 +4795,90 @@
       ]
     },
     {
+      "id": "cambridge-theatre:book-1fy3y-matilda-the-musical",
+      "venueId": "cambridge-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Matilda The Musical",
+      "url": "https://theatre.ticketmaster.co.uk/book/1FY3Y-matilda-the-musical/#perf=1FY3Y-40N&date=2026-11-17&time=7.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-09-05",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/fdd/4b80bee9-88fb-4393-8c79-49c61a15cfdd_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "14:00",
+          "15:00",
+          "17:00",
+          "19:00"
+        ],
+        "days": "89889108988910898891089889108198910990089099149108988910898891..........88910898891089889108998910898891089889108988910898891089889208998910898891089889108988910898891089889108988910898891089889108198910898890089889108988910898891089889108988910898891089989108988910898891089889108988910898891"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "matilda-the-musical"
+      ]
+    },
+    {
+      "id": "criterion-theatre:book-1gtbn-titanique",
+      "venueId": "criterion-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Titanique",
+      "url": "https://theatre.ticketmaster.co.uk/book/1GTBN-titanique/#perf=1GTBN-22X&date=2026-11-17&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/1f2/3812eff6-4904-4d2b-a9a7-32df4bee31f2_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "14:00",
+          "14:30",
+          "15:00",
+          "17:00",
+          "19:00",
+          "19:30"
+        ],
+        "days": "wwwwAi0wwwwAi0wwwwAi0wwwwAi0wwwwAi0AA100i0AA80Ai"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "titanique"
+      ]
+    },
+    {
+      "id": "duchess-theatre:book-17yy4-the-play-that-goes-wrong",
+      "venueId": "duchess-theatre",
+      "sourceId": "ticketmaster",
+      "title": "The Play That Goes Wrong",
+      "url": "https://theatre.ticketmaster.co.uk/book/17YY4-the-play-that-goes-wrong/#perf=17YY4-82R&date=2026-11-17&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/b34/f95d9e28-7767-41b1-a632-ad9c5897fb34_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [],
+        "days": "111111011111101111110111111011111101110110111011011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Comedy"
+      ],
+      "people": [
+        "the-play-that-goes-wrong"
+      ]
+    },
+    {
       "id": "emerald-theatre:events-the-van-morrison-alumni-band-tickets-p0g16j-ref-ticketmaster",
       "venueId": "emerald-theatre",
       "sourceId": "ticketmaster",
@@ -6002,6 +4943,65 @@
       ]
     },
     {
+      "id": "gielgud-theatre:book-1h4kn-oliver",
+      "venueId": "gielgud-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Oliver!",
+      "url": "https://theatre.ticketmaster.co.uk/book/1H4KN-oliver/#perf=1H4KN-197&date=2026-11-17&time=7.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-03-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/932/2dbb9ff7-7168-47a1-b329-59764f35c932_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "13:00",
+          "14:30",
+          "19:00",
+          "19:30"
+        ],
+        "days": "4a88a204a88a204a88a204a88a204a88a02aa100a8aa10a204a88a204a88a204a88a204a88a204a88a204a88a204a88a204a88a204a88a204a88a2"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "oliver-touring"
+      ]
+    },
+    {
+      "id": "gillian-lynne-theatre:book-1g7ha-my-neighbour-totoro",
+      "venueId": "gillian-lynne-theatre",
+      "sourceId": "ticketmaster",
+      "title": "My Neighbour Totoro",
+      "url": "https://theatre.ticketmaster.co.uk/book/1G7HA-my-neighbour-totoro/#perf=1G7HA-19M&date=2026-11-17&time=7.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/33a/d54a4304-6f62-46bf-ac84-f993da95833a_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "13:00",
+          "14:00",
+          "17:00",
+          "18:00",
+          "19:00"
+        ],
+        "days": "ggigi20ggigi20ggigi20ggigi20ggigi20ii20090ig24i20ggigi2"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Drama"
+      ],
+      "people": [
+        "my-neighbour-totoro"
+      ]
+    },
+    {
       "id": "harold-pinter-theatre:event-z3r9uzkbzl4ze3x4uze",
       "venueId": "harold-pinter-theatre",
       "sourceId": "ticketmaster",
@@ -6043,6 +5043,102 @@
       "image": "https://www.rbkc.gov.uk/museums/sites/museums/files/2024-07/Website%20-%20Cards%20%2830%29.png"
     },
     {
+      "id": "london-county-hall:book-1hw10-witness-for-the-prosecution-county-hall",
+      "venueId": "london-county-hall",
+      "sourceId": "ticketmaster",
+      "title": "Witness for the Prosecution",
+      "url": "https://theatre.ticketmaster.co.uk/book/1HW10-witness-for-the-prosecution-county-hall/#perf=1HW10-1G&date=2026-11-17&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-09-19",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/366/f7c22ef7-8776-47fa-b0ad-d95761707366_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "13:00",
+          "14:30",
+          "15:00",
+          "19:30"
+        ],
+        "days": "88a8a4088a8a4088a8a4088a8a4088a8a40aa100a8aa10a408aa8a4088a8a4088a8a4088a8a4088a8a408888a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a408aa8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4080a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4088a8a4"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Drama"
+      ],
+      "people": [
+        "witness-for-the-prosecution"
+      ]
+    },
+    {
+      "id": "london-museum:whats-on-roman-fort-gate-tours",
+      "venueId": "london-museum",
+      "sourceId": "london-museum",
+      "title": "Roman fort gate tours",
+      "url": "https://www.londonmuseum.org.uk/whats-on/roman-fort-gate-tours/",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-29",
+      "firstSeen": "2026-11-02",
+      "description": "See the remains of Roman London's military fort – hidden beneath the streets",
+      "image": "https://media.londonmuseum.org.uk/images/WagtailSource-Londiniu.width-1200.height-630.format-jpeg.jpg"
+    },
+    {
+      "id": "lyceum-theatre:book-1dr6r-lyceum-theatre-london-disneys-the-lion-king",
+      "venueId": "lyceum-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Disney's THE LION KING",
+      "url": "https://theatre.ticketmaster.co.uk/book/1DR6R-lyceum-theatre-london-disneys-the-lion-king/#perf=1DR6R-615&date=2026-11-17&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-07-25",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/7df/81c5def3-5f8a-4230-9bdb-a5d2b03797df_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "13:30",
+          "14:30",
+          "15:30",
+          "19:30"
+        ],
+        "days": "8a88a208a88a208a88a208a88a208a88a20aa10820aa28a208a88a208a88a208a80a208a88a208a88a208a88a208aa8a208a88a208a88a208a88a208a88a208a88a408aa8a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a208a88a008a88a208a88a208a88a208a88a2"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "disneys-the-lion-king-uk"
+      ]
+    },
+    {
+      "id": "lyric-theatre:event-zkr9uzkbzl4ze8-4-z77o",
+      "venueId": "lyric-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Hadestown",
+      "url": "https://www.ticketmaster.co.uk/hadestown-london-17-11-2026/event/ZKr9uZKbZL4Ze8-4-Z77O",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/a15/7b13031e-c0ba-40de-91db-d9384c70aa15_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [],
+        "days": "111111011111101111110111111011111101110011111011011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "hadestown-touring"
+      ]
+    },
+    {
       "id": "museum-of-comedy:character-comedy-showcase1",
       "venueId": "museum-of-comedy",
       "sourceId": "museum-of-comedy",
@@ -6054,7 +5150,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35163.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35196.jpg",
       "description": "Support the recent graduates of Charlie’s Character Comedy Course at the Museum of Comedy! Watch 12 brand new characters come to life for the very first time in front of an audience. This showcase is an exciting opportunity for students to try out the material they have…"
     },
     {
@@ -6094,6 +5190,51 @@
       ]
     },
     {
+      "id": "outernet-london:vd78d0edfaf8",
+      "venueId": "outernet-london",
+      "sourceId": "outernet-london",
+      "title": "Outpost Drive : The Outpost Tour",
+      "url": "https://link.dice.fm/vd78d0edfaf8",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-17",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "19:00",
+      "image": "https://dice-media.imgix.net/attachments/2026-05-13/1122fda1-0da3-4792-8993-34fc673967de.jpg",
+      "description": "Outpost Drive will hit the road this November for their debut headline run, The Outpost Tour, celebrating the release of their highly anticipated debut album The Outpost. For the first time ever, the transatlantic Country/Americana duo will bring their full-band live show across…"
+    },
+    {
+      "id": "palace-theatre:book-1j44r-harry-potter-and-the-cursed-child-one-part",
+      "venueId": "palace-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Harry Potter and the Cursed Child - One Part Show",
+      "url": "https://theatre.ticketmaster.co.uk/book/1J44R-harry-potter-and-the-cursed-child-one-part/#perf=1J44R-19&date=2026-11-17&time=7.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-06-27",
+      "firstSeen": "2026-11-06",
+      "image": "https://s1.ticketm.net/dam/a/be4/d80a13cc-d8e4-4960-8f07-ad051359abe4_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "13:00",
+          "14:30",
+          "15:30",
+          "17:00",
+          "19:00"
+        ],
+        "days": "ghggh20ghggh20ghggh20ghggh20ghggh20hh100h0hh18h20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghghh20ggggh20ghggh20gh0gh20ghggh20ggggh40ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh20ghggh2"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Drama"
+      ],
+      "people": [
+        "harry-potter-and-the-cursed-child-ny"
+      ]
+    },
+    {
       "id": "park-theatre:events-goblin",
       "venueId": "park-theatre",
       "sourceId": "park-theatre",
@@ -6106,6 +5247,34 @@
       "firstSeen": "2026-11-02",
       "description": "Goblin is a dark, comedic solo performance about the transformative power of being seen. Written & performed by Derek Mitchell, the show follows emo kid Eliot as he transforms into a grown-up who yearns to find his goblin again.",
       "image": "https://parktheatre.co.uk/wp-content/uploads/2026/06/Goblin-1920x1080-WEB-1.jpg"
+    },
+    {
+      "id": "phoenix-theatre:book-1fhdy-stranger-things-the-first-shadow",
+      "venueId": "phoenix-theatre",
+      "sourceId": "ticketmaster",
+      "title": "Stranger Things: The First Shadow",
+      "url": "https://theatre.ticketmaster.co.uk/book/1FHDY-stranger-things-the-first-shadow/#perf=1FHDY-24O&date=2026-11-17&time=7.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2026-12-20",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/ec0/5f90acba-9d7c-48c0-9010-7b97062e6ec0_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "13:00",
+          "15:00",
+          "19:00"
+        ],
+        "days": "4445520444552044455204405520444552"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Drama"
+      ],
+      "people": [
+        "stranger-things"
+      ]
     },
     {
       "id": "pleasance-theatre:event-cut-price-comedy-jan-2026",
@@ -6162,6 +5331,20 @@
       "description": "Two profound meditations on humanity, community and connection. This mixed programme features Jerome Robbins’s Dances at a Gathering and Kenneth MacMillan’s Song of the Earth."
     },
     {
+      "id": "somerset-house:whats-on-skate-extended-sessions",
+      "venueId": "somerset-house",
+      "sourceId": "somerset-house",
+      "title": "Extended Skate Sessions",
+      "url": "https://www.somersethouse.org.uk/whats-on/skate-extended-sessions",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-23",
+      "firstSeen": "2026-11-02",
+      "description": "Step onto the ice and stay a little longer. This winter, we’re hosting special Extended Skate Sessions at Somerset House, giving you a full 90 minutes on London’s most beautiful outdoor rink.",
+      "image": "https://admin.somersethouse.org.uk/images/3Ms-Qtd_f-XrcpRoe60GrfSnDSQ=/6892/width-56/Skate_Extended_Sessions_HEADER.jpg"
+    },
+    {
       "id": "st-martin-in-the-fields:whats-on-baroque-classics-by-candlelight-5",
       "venueId": "st-martin-in-the-fields",
       "sourceId": "st-martin-in-the-fields",
@@ -6173,6 +5356,64 @@
       "endDate": null,
       "firstSeen": "2026-11-11",
       "startTime": "19:00"
+    },
+    {
+      "id": "the-arts-at-marble-arch:book-1huml-burlesque",
+      "venueId": "the-arts-at-marble-arch",
+      "sourceId": "ticketmaster",
+      "title": "Burlesque",
+      "url": "https://theatre.ticketmaster.co.uk/book/1HUML-burlesque/#perf=1HUML-24&date=2026-11-17&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/cc1/16a24012-57e9-41f6-bc37-ae36ad7d1cc1_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "14:00",
+          "15:00",
+          "16:00",
+          "19:00",
+          "19:30"
+        ],
+        "days": "ggigi40ggigi40ggigi40ggigi40ggigi40gi20g90gi2gi90ggigi40ggigi40ggigi40ggigi4"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "burlesque-the-musical"
+      ]
+    },
+    {
+      "id": "the-arts-at-marble-arch:book-1j8mu-million-dollar-quartet",
+      "venueId": "the-arts-at-marble-arch",
+      "sourceId": "ticketmaster",
+      "title": "Million Dollar Quartet",
+      "url": "https://theatre.ticketmaster.co.uk/book/1J8MU-million-dollar-quartet/#perf=1J8MU-2E&date=2026-11-17&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2026-12-06",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/61b/17ffc144-716d-4e9f-9f9d-9aa7d458f61b_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "14:30",
+          "15:00",
+          "19:30"
+        ],
+        "days": "44545204454520445452"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "million-dollar-quartet-chicago"
+      ]
     },
     {
       "id": "the-comedy-store:event-whats-funny-about-2026",
@@ -6215,6 +5456,35 @@
       "firstSeen": "2026-11-02",
       "description": "Where We Grow explores the powerful relationship between childhood, care and the natural world. Free with Museum admission. Book today.",
       "image": "https://foundlingmuseum.org.uk/wp-content/uploads/2026/08/192_ANDY-HOLDEN_Nov-21-2024_M8R8S-STUDIO_8bit-TIFF_M8R8S-STUDIO.jpg"
+    },
+    {
+      "id": "the-o2:book-1gy5a-mamma-mia-the-party",
+      "venueId": "the-o2",
+      "sourceId": "ticketmaster",
+      "title": "Mamma Mia! The Party",
+      "url": "https://theatre.ticketmaster.co.uk/book/1GY5A-mamma-mia-the-party/#perf=1GY5A-22L&date=2026-11-17&time=6.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-11-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/dd1/8cfa7d0c-241e-41b8-a131-75f4813bfdd1_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "11:00",
+          "12:00",
+          "17:30",
+          "18:30"
+        ],
+        "days": "8888aa08888aa00888aa00888aa00888aa08a000a08880aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888a200888aa00888aa00888aa08880aa00888a200888aa00088aa00880aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888aa00888a500888aa00888aa"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "mamma-mia-the-party"
+      ]
     },
     {
       "id": "the-photographers-gallery:whats-on-photobooth-workshop-disrupted-portraits",
@@ -6273,6 +5543,64 @@
       "description": "Join artists Eddie Martinez and Dan Nadel, Steven and Ann Ames Curator of Drawing and Prints at the Whitney Museum, at The Drawing Center for a conversation celebrating the launch of Eddie Martinez: 20 Years of Painting , published by Monacelli. The artist’s first comprehensive…"
     },
     {
+      "id": "troubadour-canary-wharf-theatre:book-1hun0-the-hunger-games-on-stage",
+      "venueId": "troubadour-canary-wharf-theatre",
+      "sourceId": "ticketmaster",
+      "title": "The Hunger Games - On Stage",
+      "url": "https://theatre.ticketmaster.co.uk/book/1HUN0-the-hunger-games-on-stage/#perf=1HUN0-93&date=2026-11-17&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-02-14",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/2f9/38290dbe-1589-428a-86ca-0361da7422f9_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "14:30",
+          "15:00",
+          "19:30"
+        ],
+        "days": "444552044455204445520444552044455205500055151052044455204445520444552044455204445520444552"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Drama"
+      ],
+      "people": [
+        "the-hunger-games-on-stage"
+      ]
+    },
+    {
+      "id": "underbelly-boulevard:book-1j2aa-sophies-surprise-christmas-party",
+      "venueId": "underbelly-boulevard",
+      "sourceId": "ticketmaster",
+      "title": "Sophie's Surprise Christmas Party",
+      "url": "https://theatre.ticketmaster.co.uk/book/1J2AA-sophies-surprise-christmas-party/#perf=1J2AA-6&date=2026-11-17&time=7.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-01-10",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/5f8/2de1a9ca-2bc5-4321-ae37-215ac794b5f8_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "17:00",
+          "19:00",
+          "20:00",
+          "20:30",
+          "21:30"
+        ],
+        "days": "224ii1022i2i1028i2i1022i2i1022i2i02i2000202240i102222i1"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Comedy"
+      ],
+      "people": [
+        "sophies-surprise-christmas-party"
+      ]
+    },
+    {
       "id": "union-chapel:whats-on-sam-gendel-sam-wilkes",
       "venueId": "union-chapel",
       "sourceId": "union-chapel",
@@ -6312,6 +5640,37 @@
       "firstSeen": "2026-11-10",
       "image": "https://assets-cdn.vam.ac.uk/2026/09/10/11/56/33/26f6e075-ac5d-4216-869b-7abe6c18038e/the-liberty-scarf_320.jpg",
       "description": "Discover the story behind one of fashion’s most enduring luxury accessories, from Liberty’s historic printworks to its celebrated archive of iconic designs."
+    },
+    {
+      "id": "vaudeville-theatre:book-1dyc8-six-vau",
+      "venueId": "vaudeville-theatre",
+      "sourceId": "ticketmaster",
+      "title": "SIX The Musical",
+      "url": "https://theatre.ticketmaster.co.uk/book/1DYC8-six-vau/#perf=1DYC8-692&date=2026-11-17&time=8.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-17",
+      "endDate": "2027-11-14",
+      "firstSeen": "2026-11-06",
+      "image": "https://s1.ticketm.net/dam/a/8de/ab16e57b-0a9f-4ea4-9e1f-7bbc7923d8de_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-17",
+        "times": [
+          "14:00",
+          "15:00",
+          "16:00",
+          "18:00",
+          "19:00",
+          "20:00"
+        ],
+        "days": "wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0AA00Ai0AAAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwwwAi0wwAwAi0wwAwAA0wwAwAi0wwAwAi0wwAwA20wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwA0Ai0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwwwAi0wwAwAi0wwAwAi0wwAwAi0wwAwA20wwAwAi0wwAwAi0wwwwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwAi0wwAwA90wwAwAi0wwAwAi"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "six-the-musical"
+      ]
     },
     {
       "id": "wellcome-collection:events-bsl-interpreted-tours-of-tenderness-and-rage",
@@ -6403,6 +5762,21 @@
       "genres": [
         "Comedy"
       ]
+    },
+    {
+      "id": "british-library:events-book-marketing-in-layers",
+      "venueId": "british-library",
+      "sourceId": "british-library",
+      "title": "Book Marketing in Layers",
+      "url": "https://events.bl.uk/events/book-marketing-in-layers",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "10:00",
+      "image": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/0M8A9682.jpg?w=556&h=293&q=100&auto=format&fit=crop&dm=1794242162&s=c8460a95a481f30b7975565aaafb6073",
+      "description": "Even the best books need marketing, as there’s so much competition out there. This session focuses on providing a clear visualisation of all the elements which need to come together if you want to sell your books. A great course for new authors so you can plan ahead and hit the…"
     },
     {
       "id": "british-library:events-coaching-session-1-is-starting-a-business-for-me",
@@ -6505,6 +5879,37 @@
       "description": "EartH presents Gigi Masin plus special guests Drawing on his latest album, Movement, Gigi Masin presents a live work in which rhythm becomes architecture and so"
     },
     {
+      "id": "empress-museum:book-1gpnu-come-alive",
+      "venueId": "empress-museum",
+      "sourceId": "ticketmaster",
+      "title": "Come Alive! The Greatest Showman Circus Spectacular",
+      "url": "https://theatre.ticketmaster.co.uk/book/1GPNU-come-alive/#perf=1GPNU-220&date=2026-11-18&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": "2027-08-29",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/52f/58c9a7e4-8a9f-4d9e-8f68-9d448df0852f_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-18",
+        "times": [
+          "13:30",
+          "14:30",
+          "15:30",
+          "18:30",
+          "19:30",
+          "20:30"
+        ],
+        "days": "ggii200igii200ggii200ggii200iggi20ii00gigii00i200ggii200ggii200ggii200ggii200ggii200ggii200i2ii200ggii200ggii200ggii200ggii200g2giA002i2ii002i2i200ggii200ggii200gi2i900ggii200ggii200ggii200ggii200i2ii200ggii200ggii200igii200ggii200ggii200ggii200i2ii200i22i200i2ii200g2ii200g2ii200i2ii2"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "come-alive-the-greatest-showman-circus-spectacular"
+      ]
+    },
+    {
       "id": "estorick-collection:events-life-drawing-at-the-museum-18-november",
       "venueId": "estorick-collection",
       "sourceId": "estorick-collection",
@@ -6543,6 +5948,25 @@
       "firstSeen": "2026-11-04",
       "description": "In this lecture, Jason Allen-Paisant brings together psychoanalytic and critical theory with lived artistic practice to rethink what it means to inhabit Shakespeare’s most charged role.",
       "image": "https://www.gresham.ac.uk/sites/default/files/styles/meta_facebook/public/teaser-override/2026-11-18_1800_Allen-Paisant_Orig_390x230.jpg?itok=T-OA6_ZN"
+    },
+    {
+      "id": "hippodrome-casino:magic-mike-live-42815360",
+      "venueId": "hippodrome-casino",
+      "sourceId": "skiddle",
+      "title": "Magic Mike Live",
+      "url": "https://www.skiddle.com/whats-on/London/Hippodrome-Casino/Magic-Mike-Live/42815360/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-02",
+      "startTime": "19:00",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/3/5/2353825_1790688307_magic-mike-live.jpg",
+      "description": "Created by Channing Tatum, MAGIC MIKE LIVE delivers sizzling 360-degree entertainment, heart-racing dance and acrobatic thrills.",
+      "price": "paid",
+      "genres": [
+        "Theatre"
+      ]
     },
     {
       "id": "horniman-museum-and-gardens:event-walrus-returns",
@@ -6635,7 +6059,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35161.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35194.jpg",
       "description": "Sketch comedy show with Carwyn Blayney (BBC New Comedy Awards) and Ekow Quartey (BBC's Amandaland). Blayney & Quartey present an hour of different characters and sketches. Developed through Channel Four Comedy’s Comedy Labs Cymru, come along to meet a heap of weird and relatable…"
     },
     {
@@ -6652,6 +6076,20 @@
       "startTime": "16:30",
       "description": "Celebrate 100 years of Moana with a special live performance and screening of the pioneering silent film",
       "image": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2026-10/Moana_1.png.webp?itok=VSL74lXu"
+    },
+    {
+      "id": "national-maritime-museum:queens-house-queens-house-ice-rink",
+      "venueId": "national-maritime-museum",
+      "sourceId": "national-maritime-museum",
+      "title": "The Queen's House Ice Rink",
+      "url": "https://www.rmg.co.uk/whats-on/queens-house/queens-house-ice-rink",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-18",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-16",
+      "description": "Don't miss your chance to skate on the most beautiful outdoor ice rink in London",
+      "image": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2023-07/T1403-013_v5_flat.jpg.webp?itok=O3XZLbZh"
     },
     {
       "id": "o2-shepherds-bush-empire:event-3e0064aebdd8320b",
@@ -6674,6 +6112,21 @@
         "waylon-wyatt",
         "colton-bowlin"
       ]
+    },
+    {
+      "id": "outernet-london:nf4e3e4a4011",
+      "venueId": "outernet-london",
+      "sourceId": "outernet-london",
+      "title": "Flower Face",
+      "url": "https://link.dice.fm/nf4e3e4a4011",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "19:00",
+      "image": "https://dice-media.imgix.net/attachments/2026-05-05/64764c87-663e-46a8-832c-a3ed08ca772e.jpg",
+      "description": "Flower Face is the moniker of Montreal’s Ruby McKinnon, a songwriter and visual artist whose catalogue - Fever Dreams (2017), Baby Teeth (2018), The Shark in Your Water (2022), and Girl Prometheus (2024) - traces her evolution from self-produced bedroom goth-folk to cinematic,…"
     },
     {
       "id": "pleasance-theatre:event-pleasance-scratch-november-2026",
@@ -6710,6 +6163,34 @@
       "startDate": "2026-11-18",
       "endDate": null,
       "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "polka-theatre:event-christmas-lights",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "Christmas Lights",
+      "url": "https://polkatheatre.com/event/christmas-lights/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-22",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/05/1920x1080-Website-listing-Christmas-Lights-2-640x427.png",
+      "description": "Christmas is around the corner in a playful, visually dazzling show where the power of friendship can light up the dark. A Filskit Theatre Company production. Originally co-produced by Z-arts and Wonder Arts."
+    },
+    {
+      "id": "polka-theatre:event-peter-pan",
+      "venueId": "polka-theatre",
+      "sourceId": "polka-theatre",
+      "title": "Peter Pan",
+      "url": "https://polkatheatre.com/event/peter-pan/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": "2027-01-24",
+      "firstSeen": "2026-11-02",
+      "image": "https://polkatheatre.com/wp-content/uploads/2026/04/644-x-285-website-2-640x285.png",
+      "description": "Take flight with Peter, Wendy and Tink in this remixed musical production of the much-loved story. With all original songs and sounds performed live and acapella by a company of award-winning vocalists, beatboxers, and rappers, this is Peter Pan as you’ve never heard it before!…"
     },
     {
       "id": "roundhouse:whats-on-fatoumata-diawara",
@@ -6784,6 +6265,20 @@
       "firstSeen": "2026-11-13",
       "description": "Intermediate-level workshop in November. For school teachers who have attended ‘Getting started with ArcGIS’ or acquired equivalent experience.",
       "image": "https://www.rgs.org/media/ti4lv2kh/group-of-people-on-laptops-using-gis.jpeg?rxy=0.4786943009997054,0.42323487853266417&v=1db0dba28887030"
+    },
+    {
+      "id": "royal-geographical-society:upcoming-events-biogeomorphology-nature-positive-future",
+      "venueId": "royal-geographical-society",
+      "sourceId": "royal-geographical-society",
+      "title": "School Member Lecture: How can biogeomorphology contribute to a nature-positive future?",
+      "url": "https://www.rgs.org/events/upcoming-events/biogeomorphology-nature-positive-future/",
+      "type": "talk",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "description": "Our Autumn School Member Lecture with Professor Gemma Harvey on natural processes for support nature recovery and the delivery of ecosystem services.",
+      "image": "https://www.rgs.org/media/wcifjopa/beaver-in-water.jpg?v=1dcf98d0e60c480"
     },
     {
       "id": "royal-opera-house:production-carmen-damiano-michieletto",
@@ -6919,6 +6414,35 @@
       "firstSeen": "2026-11-02",
       "image": "https://www.wallacecollection.org/media/images/image-9d52d39b-98b5-46b5-86e7-56be.2e16d0ba.fill-720x720.jpg",
       "description": "Join us to explore the connections between Rachel Kneebone's sculptures and works from the Wallace Collection."
+    },
+    {
+      "id": "troubadour-wembley-park-theatre:book-1j3bu-high-school-musical",
+      "venueId": "troubadour-wembley-park-theatre",
+      "sourceId": "ticketmaster",
+      "title": "High School Musical",
+      "url": "https://theatre.ticketmaster.co.uk/book/1J3BU-high-school-musical/#perf=1J3BU-17&date=2026-11-18&time=7.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-18",
+      "endDate": "2027-01-03",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/d09/e9f2d32d-ab56-4535-a580-bec99251fd09_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-18",
+        "times": [
+          "13:00",
+          "14:30",
+          "17:30",
+          "19:30"
+        ],
+        "days": "8a8a5008a8a5008a8a5008a8a5008a8a50aa10a58aa10a1"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Musical"
+      ],
+      "people": [
+        "high-school-musical"
+      ]
     },
     {
       "id": "union-chapel:whats-on-charlotte-dos-santos",
@@ -7247,7 +6771,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35168.png",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35201.png",
       "description": "In 1996, a remix of a Spanish pop song by Los del Rio, released by the Bayside Boys took the whole world by storm - all thanks to a set of simple, easy to follow, dance moves. In 2013, one man decided to do that dance longer than anyone ever had before. Today, he still has not…"
     },
     {
@@ -8097,7 +7621,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35162.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35195.jpg",
       "description": "British Comedy Guide presents the BCG Pro Talent Awards for Performance 2026. Hosted by top comic Toussaint Douglass, the night will see five acts competing for the trophy. There'll also be a set from the brilliant Starter winner."
     },
     {
@@ -8497,6 +8021,21 @@
       "firstSeen": "2026-11-02",
       "description": "Exhibition Preview: Thursday 19 November 2026, 6–8pm ‘In the Light of False Suns’, Louise Giovanelli’s exhibition of new paintings at White Cube Mason’s…",
       "image": "https://white-cube.transforms.svdcdn.com/production/uploads/Exhibitions/Gallery-Exhibitions/Masons-Yard/2026/Louise-Giovanelli/Louise-Giovanelli-Ad-Astra-2026_1-crop.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1789987625&s=ae7e28f567b8178e39f8504badaa9eed"
+    },
+    {
+      "id": "wigmore-hall:whats-on-202611201930",
+      "venueId": "wigmore-hall",
+      "sourceId": "wigmore-hall",
+      "title": "Francesca Dego Francesca Leonardi",
+      "url": "https://www.wigmore-hall.org.uk/whats-on/202611201930",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-20",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "19:30",
+      "image": "https://admin.wigmore-hall.org.uk/images/grPZkaDZQlIgBE5BcSBWd-Ttkd4=/6531/width-400/.phpref53062sizewebextjpgpage1alternative-1watermarkedknoattachtruevaccess_k_1GQTImU",
+      "description": "Berio, Debussy, Ravel, Respighi and Tartini"
     },
     {
       "id": "wigmore-hall:whats-on-202611201500",
@@ -8932,7 +8471,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "15:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35160.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35193.jpg",
       "description": "Rising stars from the UK comedy scene! A showcase of new and emerging stand ups, fresh from the Above Your Nerve comedy course. See the comedians of the future here first."
     },
     {
@@ -8947,7 +8486,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35167.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35200.jpg",
       "description": "By Court Order, convicts Rocco and Tony have been given the choice of prison or performing an improv comedy show as community service. They chose prison. But the Court chose improv. And you better be there, or else! Larceny, bribery, extortion, and hilarity are all likely. Come…"
     },
     {
@@ -9203,6 +8742,20 @@
       ]
     },
     {
+      "id": "st-johns-smith-square:event-belshazzars-feast",
+      "venueId": "st-johns-smith-square",
+      "sourceId": "st-johns-smith-square",
+      "title": "Belshazzar’s Feast",
+      "url": "https://www.sinfoniasmithsq.org.uk/event/belshazzars-feast/",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "19:30",
+      "image": "https://www.sinfoniasmithsq.org.uk/wp-content/uploads/2026/05/BBWW-960x720.jpg"
+    },
+    {
       "id": "tate-britain:tate-britain-tate-britain-family-tours",
       "venueId": "tate-britain",
       "sourceId": "tate-britain",
@@ -9431,6 +8984,21 @@
       "description": "Fiercely independent, Nashville-based recording artist, Ron Pope, carved his niche in the digital era’s early days with his breakout hit, “A Drop in the Ocean,” which has amassed over 1 billion streams, earning platinum status in the US, alongside double platinum status in…"
     },
     {
+      "id": "up-the-creek:waitlist-php-idorders-4andevent-jamesy-26-pals-40-up-the-creek",
+      "venueId": "up-the-creek",
+      "sourceId": "up-the-creek",
+      "title": "JAMESY & PALS",
+      "url": "https://up-the-creek.com/waitlist.php?idOrders=4&event=JAMESY+%26+PALS+%40+Up+The+Creek",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "13:00",
+      "description": "Join the waiting list for a sold-out Up the Creek show in Greenwich.",
+      "image": "https://up-the-creek.com/upthecreek/assets/pictures/UpTheCreek-Logo-nocomedyclub.png"
+    },
+    {
       "id": "up-the-creek:events-live-band-karaoke-tickets-x2m86k-ref-ticketmaster",
       "venueId": "up-the-creek",
       "sourceId": "ticketmaster",
@@ -9451,23 +9019,22 @@
       ]
     },
     {
-      "id": "up-the-creek:events-saturday-night-comedy-up-the-creek-tickets-2zc7hl-ref-ticketmaster",
+      "id": "up-the-creek:events-saturday-night-comedy-up-the-creek-tickets-2zc7hl-unii-trigger-open-satur",
       "venueId": "up-the-creek",
-      "sourceId": "ticketmaster",
+      "sourceId": "up-the-creek",
       "title": "SATURDAY NIGHT COMEDY - UP THE CREEK",
-      "url": "https://www.universe.com/events/saturday-night-comedy-up-the-creek-tickets-2ZC7HL?ref=ticketmaster",
+      "url": "https://www.universe.com/events/saturday-night-comedy-up-the-creek-tickets-2ZC7HL?unii-trigger-open=saturday-night-comedy-up-the-creek-tickets-2ZC7HL",
       "type": "show",
       "category": "shows",
       "startDate": "2026-11-21",
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "18:00",
-      "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ],
       "people": [
         "saturday-night-comedy-at-up-the-creek"
+      ],
+      "genres": [
+        "Arts & Theatre/Comedy/Comedy"
       ]
     },
     {
@@ -9497,6 +9064,21 @@
       "firstSeen": "2026-11-14",
       "image": "https://assets-cdn.vam.ac.uk/2026/10/15/18/14/03/5ad80528-91a3-4719-a89f-140113061f01/the-fashion-styling-of-black-british-music-1990-2020_320.jpg",
       "description": "Explore the artistry of fashion styling for Black music within the music industry. Uncover the stories behind the visual and sartorial identities of music genres celebrated in V&A East’s inaugural exhibition, The Music is Black: A British Story."
+    },
+    {
+      "id": "wigmore-hall:whats-on-202611211100",
+      "venueId": "wigmore-hall",
+      "sourceId": "wigmore-hall",
+      "title": "Junyan Chen",
+      "url": "https://www.wigmore-hall.org.uk/whats-on/202611211100",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-21",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "11:00",
+      "image": "https://admin.wigmore-hall.org.uk/images/i83J2KbO-giGctnxBsNf-RDdHgQ=/6746/width-400/.phpref52879sizewebextjpgpage1alternative-1watermarkedknoattachtruevaccess_k_3gFMrV4",
+      "description": "Composer Focus Day: Alex Ho"
     },
     {
       "id": "young-v-and-a:nvgbroppvl-book-reading-with-alex-barrow-nov-2026",
@@ -9542,24 +9124,25 @@
       "image": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-09/seb%20gardner.jpg.avif?itok=5NbqC9X-"
     },
     {
-      "id": "barbican:event-350064eeabfba30c",
+      "id": "barbican:event-the-joy",
       "venueId": "barbican",
-      "sourceId": "ticketmaster",
+      "sourceId": "barbican",
       "title": "The Joy",
-      "url": "https://www.ticketmaster.co.uk/the-joy-london-22-11-2026/event/350064EEABFBA30C",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/the-joy",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-11-22",
       "endDate": null,
       "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://s1.ticketm.net/dam/a/9a1/b457dece-51e8-49d0-a47a-87fa439019a1_RETINA_LANDSCAPE_16_9.jpg",
+      "startTime": "20:00",
+      "people": [
+        "the-joy"
+      ],
       "genres": [
         "Music/Folk/Indie Folk"
       ],
-      "people": [
-        "the-joy"
-      ]
+      "description": "South African vocal group The Joy return to the Barbican, blending rich Zulu harmonies with contemporary songwriting.",
+      "image": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-07/The%20Joy%201.jpg.avif?itok=IA25TVoU"
     },
     {
       "id": "camden-art-centre:whats-on-natural-dyes-study-group",
@@ -9812,24 +9395,24 @@
       ]
     },
     {
-      "id": "the-comedy-store:events-the-comedy-store-players-sunday-22nd-november-tickets-7qgd4z-ref-ticketma",
+      "id": "the-comedy-store:the-comedy-store-players-2026-11-22-19-30",
       "venueId": "the-comedy-store",
-      "sourceId": "ticketmaster",
-      "title": "The Comedy Store Players - Sunday 22nd November",
-      "url": "https://www.universe.com/events/the-comedy-store-players-sunday-22nd-november-tickets-7QGD4Z?ref=ticketmaster",
+      "sourceId": "the-comedy-store",
+      "title": "The Comedy Store Players",
+      "url": "https://london.thecomedystore.co.uk/event/the-comedy-store-players/2026-11-22_19-30",
       "type": "show",
       "category": "shows",
       "startDate": "2026-11-22",
       "endDate": null,
       "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://s1.ticketm.net/dam/a/71b/f50decaa-cfd8-46f5-9921-869e5852571b_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://comedy-store.transforms.svdcdn.com/production/images/2026/headers/CS-Header-CSP.jpg?w=728&h=291&q=90&auto=format&fit=crop&dm=1773261725&s=f0ace4e9fe30a677f273912245b902a5",
+      "people": [
+        "the-comedy-store-players"
+      ],
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
       ],
-      "people": [
-        "the-comedy-store-players"
-      ]
+      "description": "The Comedy Store Players have been wowing audiences for many years with their improvisational skills, creating unique shows every Sunday in the heart of London’s West End. The concept is simple – the team will ask the audience for suggestions of locations, genres and characters,…"
     },
     {
       "id": "the-foundling-museum:event-drink-death-and-debauchery-walking-tour-22-november",
@@ -9956,6 +9539,21 @@
       "firstSeen": "2026-11-02",
       "image": "https://images.prismic.io/wellcomecollection/GQorxb6SWRo4e1xA_BTG260701143026.jpg?w=1338&auto=compress%2Cformat&rect=0%2C354%2C4000%2C2250&q=50",
       "description": "Discover more about our Audrey Amiss and Rudy Loewe exhibitions on one of our BSL-interpreted tours."
+    },
+    {
+      "id": "barbican:event-a-quiet-night-at-the-barbican",
+      "venueId": "barbican",
+      "sourceId": "barbican",
+      "title": "A Quiet Night at The Barbican",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/a-quiet-night-at-the-barbican",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-23",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "19:00",
+      "description": "Join Paul West, Charlie Monaghan and guests for an evening of conversation and music exploring how sound, design and architecture shape the way we experience space.",
+      "image": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-10/Spiritlands.jpeg.avif?itok=I_cEBEc3"
     },
     {
       "id": "bush-hall:events-glenn-jones-tickets-wj6yq0-ref-ticketmaster",
@@ -10261,6 +9859,20 @@
       "description": "DakhaBrakha — is world-music quartet from Kyiv, Ukraine. Reflecting fundamental elements of sound and soul, Ukrainian «ethnic chaos» band DakhaBrakha, create a world of unexpected new music. The name DakhaBrakha is original, outstanding and authentic at the same time. It…"
     },
     {
+      "id": "v-and-a-south-kensington:pkm25omgb22-members-tour-collecting-and-belonging-3",
+      "venueId": "v-and-a-south-kensington",
+      "sourceId": "vam",
+      "title": "Members' Tour: Collecting and Belonging: Judaism",
+      "url": "https://www.vam.ac.uk/event/pKM25OMgB22/members-tour-collecting-and-belonging-3",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-23",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "image": "https://assets-cdn.vam.ac.uk/2026/10/03/08/38/41/721a94f9-61a8-416a-ace2-4abf01f4d758/members-tour-collecting-and-belonging-judaism_320.jpg",
+      "description": "This tour is part of a series exploring multi-faiths at the V&A, celebrating diverse religious traditions across the museum’s collection. Explore the rest of the tours at the bottom of this page."
+    },
+    {
       "id": "wiltons-music-hall:whats-on-the-marriage-of-figaro",
       "venueId": "wiltons-music-hall",
       "sourceId": "wiltons-music-hall",
@@ -10358,9 +9970,9 @@
       "type": "exhibition",
       "category": "exhibitions",
       "startDate": "2026-11-24",
-      "endDate": "2028-03-07",
+      "endDate": "2028-03-14",
       "firstSeen": "2026-11-02",
-      "image": "https://d3ir5jsauc24hh.cloudfront.net/68a70c98-3bf3-4309-8ff0-2bfd92e0152a/f333f1899175c616c826b97c094f91b6-md.jpg",
+      "image": "https://d3ir5jsauc24hh.cloudfront.net/8feb7361-9128-445c-a656-0aec2b8c3fc0/dcdcbbc5467da7b4975ac70843f356d0-md.jpg",
       "description": "Witness the beauty and fragility of the human condition in a major solo show by the acclaimed American artist and activist."
     },
     {
@@ -10418,6 +10030,20 @@
       "description": "Join us at Kenwood on Tuesday 24 November and see a performance by George Robarts and Edward Picton-Turbervill."
     },
     {
+      "id": "leicester-square-theatre:show-ignacio-lopez-nada",
+      "venueId": "leicester-square-theatre",
+      "sourceId": "leicester-square-theatre",
+      "title": "Ignacio Lopez: Nada",
+      "url": "https://www.leicestersquaretheatre.com/show/ignacio-lopez-nada/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-24",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "description": "Gag Reflex in association with A Rush of Laughter presents Ignacio Lopez: Nada . Star of Live At The Apollo, Have I Got News For You, QI, Richard Osman's House of Games & Comedy Central Live; Ignacio Lopez returns with perhaps his most ambitious and pretentious project yet. Nada…",
+      "image": "https://www.leicestersquaretheatre.com/wp-content/uploads/2026/11/ignacio-lopez-nada_image_873659610_95499-1.jpg"
+    },
+    {
       "id": "museum-of-comedy:josh-glanc-the-race-car-musical-work-in-progress",
       "venueId": "museum-of-comedy",
       "sourceId": "museum-of-comedy",
@@ -10429,7 +10055,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35172.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35205.jpg",
       "description": "Edinburgh Comedy Award nominee Josh Glanc is making a musical. It’s about car racing. It’s also about him making a musical about car racing. It's not finished, but you can watch him figure it out. Multi-instrumentalist Connor Morel joins Josh as he attempts to perform his…"
     },
     {
@@ -10766,7 +10392,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35179.png",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35212.png",
       "description": "They say it takes balls to do Stand Up – well Newman & Sapper are good sports, if not good at sport…. more lower league (fighting relegation) than chasing premiere status. But here they are, making their debut by kicking around some ideas and pitching some funny sketches. The…"
     },
     {
@@ -10781,7 +10407,7 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35188.png",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35221.png",
       "description": "The Instant Musical - just add suggestions! Formed in 2025, The Instant Musical team are set on bringing happy chaos to musical theatre. At every performance a fully improvised musical is created on the spot, brimming with heart warming and hilarious songs, catchy lyrics, dance…"
     },
     {
@@ -11436,6 +11062,36 @@
         "squeeze",
         "billy-bragg"
       ]
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-discussion-how-read-face",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Discussion: How to read a face",
+      "url": "https://thephotographersgallery.org.uk/whats-on/discussion-how-read-face",
+      "type": "talk",
+      "category": "art-events",
+      "startDate": "2026-11-26",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "18:30",
+      "description": "Artist Sheung Yiu will discuss his recent book (Inter)faces of Predictions with writer and collaborator Megan Williams.",
+      "image": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/%28Inter%29Faces%20of%20Predictions_scan%20template_1_2_2.jpg.webp?itok=An5r2tnX"
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-exhibition-tour-william-eggleston-all-goes-unnoticed-0",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Exhibition Tour | William Eggleston: All that goes unnoticed",
+      "url": "https://thephotographersgallery.org.uk/whats-on/exhibition-tour-william-eggleston-all-goes-unnoticed-0",
+      "type": "tour",
+      "category": "art-events",
+      "startDate": "2026-11-26",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "18:30",
+      "description": "Join an informal tour of the exhibition to find out more",
+      "image": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/EGGWI0389%281%29%20banner.jpeg.webp?itok=3vLnm2Vf"
     },
     {
       "id": "the-wallace-collection:events-a-simpler-time-the-rediscovery-of-the-middle-ages",
@@ -12896,6 +12552,20 @@
       ]
     },
     {
+      "id": "royal-opera-house:tickets-and-events-family-sundays-details",
+      "venueId": "royal-opera-house",
+      "sourceId": "royal-opera-house",
+      "title": "Family Sundays",
+      "url": "https://www.rbo.org.uk/tickets-and-events/family-sundays-details",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-29",
+      "endDate": "2027-04-04",
+      "firstSeen": "2026-11-02",
+      "image": "https://images.prismic.io/royal-opera-house/Z5uo5pbqstJ9-DcA_RBOFamilySundayBlackHistoryMonthLauraAziz2024-180.jpg?auto=format,compress&rect=359,0,5747,4310&w=600&h=960",
+      "description": "Find out about Family Sundays at the Royal Opera House. Perfect for families with children aged 3 to 10 enjoy creative sessions filled with informal performances, hands-on workshops and behind-the-scenes fun."
+    },
+    {
       "id": "the-comedy-store:beginners-showcase-2026-11-29",
       "venueId": "the-comedy-store",
       "sourceId": "the-comedy-store",
@@ -12963,6 +12633,21 @@
       "people": [
         "the-lord-of-the-rings-the-fellowship-of-the-ring-in-concert"
       ]
+    },
+    {
+      "id": "the-photographers-gallery:whats-on-museum-shop-sunday-2026",
+      "venueId": "the-photographers-gallery",
+      "sourceId": "photographers-gallery",
+      "title": "Museum Shop Sunday 2026",
+      "url": "https://thephotographersgallery.org.uk/whats-on/museum-shop-sunday-2026",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-11-29",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "11:00",
+      "description": "Join us for Museum Shop Sunday and enjoy 10% off in our shop",
+      "image": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/MSS_banner_.jpg.webp?itok=UJK_4mAy"
     },
     {
       "id": "union-chapel:whats-on-ben-watt-and-tracey-thorn-sunday-29th-nov",
@@ -13726,21 +13411,6 @@
       "description": "Join us for animal-inspired playtime fun in our pop-up play space. Expect soft shapes to scramble over, textures to explore and much more."
     },
     {
-      "id": "national-maritime-museum:national-maritime-museum-members-christmas-celebration",
-      "venueId": "national-maritime-museum",
-      "sourceId": "national-maritime-museum",
-      "title": "Members' Christmas celebration",
-      "url": "https://www.rmg.co.uk/whats-on/national-maritime-museum/members-christmas-celebration",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-12-02",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "06:30",
-      "description": "Celebrate the festive period with us at a special out-of-hours opening of the National Maritime Museum",
-      "image": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2023-11/Hithertones.jpg.webp?itok=LhBJiG7N"
-    },
-    {
       "id": "national-theatre:productions-the-rise-and-fall-of-little-voice",
       "venueId": "national-theatre",
       "sourceId": "national-theatre",
@@ -14144,7 +13814,7 @@
       "endDate": null,
       "firstSeen": "2026-11-06",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35166.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35199.jpg",
       "description": "Edinburgh debut from BBC New Comedy Award 2025 semi-finalist, Leicester Square Theatre New Comedian of the Year 2025 finalist and So You Think You're Funny? 2024 finalist, Fab Goualin. A show about being mixed-race, middle class, and misunderstood. Growing up, Fab often being…"
     },
     {
@@ -14644,7 +14314,7 @@
       "endDate": null,
       "firstSeen": "2026-11-06",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35165.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35198.jpg",
       "description": "Marquise Le Vag, and Vicomte Le Cock, two French aristocratic ass-hats, mess with the lives of all around them in a vainglorious attempt to seduce each other and everyone in the audience. Be prepared to be seduced, betrayed, used and thrown away like last season’s fashion! And…"
     },
     {
@@ -14974,7 +14644,7 @@
       "endDate": null,
       "firstSeen": "2026-11-09",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35170.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35203.jpg",
       "description": "It’s a Sherlock Holmes recital, but Watson’s a nightmare. A solo comedy adaptation from the writer of Death Drop and the Misty Divine Mysteries. Based on the story by Sir Arthur Conan Doyle.The secret to Sherlock Holmes’ mystery-solving success isn’t his sharp mind or precise…"
     },
     {
@@ -15224,7 +14894,7 @@
       "endDate": null,
       "firstSeen": "2026-11-12",
       "startTime": "19:00",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35187.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35220.jpg",
       "description": "Examining our noble goals as 21st century feminists and our hypocrisies and insecurities that undermine those goals, The Guilty Feminist podcast has had a spectacular 180 million downloads since 2016. This is the show that proves you don’t have to be perfect to be a force for…"
     },
     {
@@ -15443,6 +15113,18 @@
       "startDate": "2026-12-07",
       "endDate": null,
       "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "soho-theatre:events-christmas-cracker-london-gay-mens-chorus",
+      "venueId": "soho-theatre",
+      "sourceId": "soho-theatre",
+      "title": "Christmas Cracker – London Gay Men’s Chorus",
+      "url": "https://sohotheatre.com/events/christmas-cracker-london-gay-mens-chorus/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-07",
+      "endDate": null,
+      "firstSeen": "2026-11-16"
     },
     {
       "id": "the-o2:event-350064c18ee84835",
@@ -15934,7 +15616,7 @@
       "endDate": null,
       "firstSeen": "2026-11-12",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35185.png",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35218.png",
       "description": "Sameera’s mum was proud when she graduated with a degree in Economics from Cambridge. Less so when she went to clown school. Now Sameera needs to find a job. On LinkedIn, she is a “changemaker, global innovator and value-driven impact leader.” But in life, she has no idea what…"
     },
     {
@@ -16118,7 +15800,7 @@
       "endDate": null,
       "firstSeen": "2026-11-12",
       "startTime": "20:30",
-      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35192.jpg",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35225.jpg",
       "description": "Join chaotic, fast-talking Aussie comedian Jess Fuchs for a Yap Sesh… a loose hour of new jokes and crowd work. You might have seen Jess online, discovered her opening for some of the biggest names in comedy like Gianmarco Soresi, Morgan Jay and Fortune Feimster, or maybe you’re…"
     },
     {
@@ -16258,6 +15940,20 @@
       ]
     },
     {
+      "id": "the-wallace-collection:events-look-and-draw-50",
+      "venueId": "the-wallace-collection",
+      "sourceId": "the-wallace-collection",
+      "title": "Look and Draw",
+      "url": "https://www.wallacecollection.org/whats-on/events/look-and-draw-50/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-10",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "image": "https://www.wallacecollection.org/media/images/image-43dc52bb-483b-45ef-b3bf-f72f.2e16d0ba.fill-720x720.jpg",
+      "description": "Join us to slow down, look closely, and respond creatively to Murillo's masterpiece through digital sketching."
+    },
+    {
       "id": "union-chapel:whats-on-war-child-presents-joy-crookes-unplugged",
       "venueId": "union-chapel",
       "sourceId": "union-chapel",
@@ -16380,6 +16076,21 @@
       "firstSeen": "2026-11-02",
       "startTime": "18:30",
       "image": "https://dice-media.imgix.net/attachments/2026-07-20/38344c04-e088-4508-afc5-3edc576ccdd4.jpg?auto=format&compress&q=70&h=800&w=800&fit=crop&crop=faces,center"
+    },
+    {
+      "id": "museum-of-comedy:christian-dart-stars-in-their-eyes",
+      "venueId": "museum-of-comedy",
+      "sourceId": "museum-of-comedy",
+      "title": "Christian Dart: Stars In Their Eyes!",
+      "url": "https://www.museumofcomedy.com/christian-dart-stars-in-their-eyes/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-11",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "20:30",
+      "image": "https://www.museumofcomedy.com/images/uploads/img-original-35197.png",
+      "description": "Christian Dart: Stars In Their Eyes! Birthday, Christmas Celebrity Comedian Special Edition For Charity It’s multi award-winning comedian Christian Dart’s ACTUAL birthday and so to celebrate he’s gathered 12 of the best comedy acts (and his best friends) on the circuit to…"
     },
     {
       "id": "o2-shepherds-bush-empire:event-3e006471e2bc6971",
@@ -17776,6 +17487,24 @@
       "firstSeen": "2026-11-02",
       "image": "https://images.prismic.io/wellcomecollection/airHxKlQnVZVEN6z_BTG260520152042-Edit.jpg?w=1338&auto=compress%2Cformat&rect=&q=50",
       "description": "Take an audio described tour of 'Tenderness and Rage', a display that explores HIV and AIDS through stories of protest and care."
+    },
+    {
+      "id": "woolwich-works:a-christmas-carol-a-one-man-performance-42793665",
+      "venueId": "woolwich-works",
+      "sourceId": "skiddle",
+      "title": "A Christmas Carol - A One-Man Performance",
+      "url": "https://www.skiddle.com/whats-on/London/Woolwich-Works/A-Christmas-Carol---A-One-Man-Performance/42793665/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-17",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "20:00",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/e/6/a/2348628_23799979_A-Christmas-Carol---A-One-Man-Performance.jpg",
+      "description": "Dickens' A Christmas Carol performed straight from the author's own performance text. One man, no props, no staging. Just the story.",
+      "genres": [
+        "Theatre"
+      ]
     },
     {
       "id": "big-belly-comedy-southbank:events-fri-18th-dec-8-30pm-doors-9pm-stand-up-comedy-show-big-belly-comedy-ticke",
@@ -19250,6 +18979,20 @@
       "endDate": null,
       "firstSeen": "2026-11-02",
       "image": "https://orangetreetheatre.co.uk/wp-content/uploads/2026/08/SS-CF-800x500-1.jpg"
+    },
+    {
+      "id": "shakespeares-globe:whats-on-premium-globe-guided-tour",
+      "venueId": "shakespeares-globe",
+      "sourceId": "shakespeares-globe",
+      "title": "Premium Globe Guided Tour",
+      "url": "https://www.shakespearesglobe.com/whats-on/premium-globe-guided-tour/",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2027-01-09",
+      "endDate": "2027-01-31",
+      "firstSeen": "2026-11-02",
+      "description": "A unique experience that transports you back to Shakespeare's London with an exclusive view from the Globe Theatre stage.",
+      "image": "https://images.shakespearesglobe.com/uploads/2024/10/Premium-Globe-Tour-1600x1000-1.png?fit=1024%2C1024"
     },
     {
       "id": "the-comedy-store:events-the-best-in-stand-up-saturday-9th-january-2027-6-30pm-tickets-49vjzb-ref",
@@ -22719,6 +22462,29 @@
       "description": "Join us for a stellar evening of comedy, raising funds for Crisis, Featuring:Alistair Barrie (MC) “One of the UK's sharpest comedians” The HeraldLine up subject to change:Chris McCausland “Proper stand up, honest straightforward and balls-out funny” ChortleMasie Adams \"A…"
     },
     {
+      "id": "the-comedy-store:laugh-till-it-hurts-in-aid-of-crisis-43189914",
+      "venueId": "the-comedy-store",
+      "sourceId": "skiddle",
+      "title": "Laugh Till It Hurts : In aid of Crisis",
+      "url": "https://www.skiddle.com/whats-on/London/The-Comedy-Store/Laugh-Till-It-Hurts--In-aid-of-Crisis/43189914/",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-10",
+      "endDate": null,
+      "firstSeen": "2026-11-16",
+      "startTime": "19:30",
+      "image": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
+      "description": "Crisis We are the national charity for people experiencing homelessness.",
+      "genres": [
+        "Comedy"
+      ],
+      "people": [
+        "chris-mccausland",
+        "hal-cruttenden",
+        "maisie-adam"
+      ]
+    },
+    {
       "id": "the-courtauld-gallery:whats-on-an-unknown-architectural-drawing-from-the-workshop-of-peter-parler",
       "venueId": "the-courtauld-gallery",
       "sourceId": "the-courtauld-gallery",
@@ -24287,6 +24053,18 @@
       "description": "On February 23, the world's best-loved classicist Dame Mary Beard and the Guardian’s chief culture writer Charlotte Higgins join us at Union Chapel for a special live edition of Instant Classics, the podcast that brings the classical world into conversation with the present.…"
     },
     {
+      "id": "pleasance-theatre:event-john-robertson-excitable-boy",
+      "venueId": "pleasance-theatre",
+      "sourceId": "pleasance-theatre",
+      "title": "John Robertson: Excitable Boy!",
+      "url": "https://www.pleasance.co.uk/event/john-robertson-excitable-boy",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-02-24",
+      "endDate": null,
+      "firstSeen": "2026-11-16"
+    },
+    {
       "id": "sadlers-wells-east:whats-on-jasmin-vardimon-company-lullaby",
       "venueId": "sadlers-wells-east",
       "sourceId": "sadlers-wells",
@@ -25781,7 +25559,7 @@
       "type": "show",
       "category": "shows",
       "startDate": "2027-03-10",
-      "endDate": "2027-11-13",
+      "endDate": "2027-11-15",
       "firstSeen": "2026-11-06",
       "image": "https://s1.ticketm.net/dam/a/22a/4f38ea9f-f407-4cb3-bb5a-a220cfaeb22a_RETINA_LANDSCAPE_16_9.jpg",
       "schedule": {
@@ -25792,7 +25570,7 @@
           "19:00",
           "19:30"
         ],
-        "days": "488a004488a0444a8a044588a044588a0404a8a004588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a"
+        "days": "488a004488a0444a8a044588a044588a0404a8a004588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a044588a04"
       },
       "genres": [
         "Arts & Theatre/Theatre/Musical"
@@ -31270,7 +31048,7 @@
       "type": "show",
       "category": "shows",
       "startDate": "2027-05-13",
-      "endDate": "2027-11-13",
+      "endDate": "2027-11-15",
       "firstSeen": "2026-11-02",
       "image": "https://s1.ticketm.net/dam/a/922/525ddf69-3588-4b7b-b58a-33a22fdcb922_RETINA_LANDSCAPE_16_9.jpg",
       "schedule": {
@@ -31279,7 +31057,7 @@
           "14:30",
           "19:30"
         ],
-        "days": "22202222220222023022322302232230223223022322302232230223223022322302232230223223022322302232230223223022322302232230223223022322302232230223223022322302232230223223022322302232230223223"
+        "days": "2220222222022202302232230223223022322302232230223223022322302232230223223022322302232230223223022322302232230223223022322302232230223223022322302232230223223022322302232230223223022322302"
       },
       "genres": [
         "Arts & Theatre/Theatre/Musical"
@@ -34601,7 +34379,7 @@
       "type": "show",
       "category": "shows",
       "startDate": "2027-10-30",
-      "endDate": "2027-11-13",
+      "endDate": "2027-11-15",
       "firstSeen": "2026-11-14",
       "image": "https://s1.ticketm.net/dam/a/0c7/5157df18-9969-4bb3-ba0c-f9039b3990c7_RETINA_LANDSCAPE_16_9.jpg",
       "schedule": {
@@ -34610,7 +34388,7 @@
           "14:30",
           "19:30"
         ],
-        "days": "202222230222323"
+        "days": "20222223022232302"
       },
       "genres": [
         "Arts & Theatre/Theatre/Drama"
@@ -34837,6 +34615,12 @@
       "startDate": "2027-11-15",
       "endDate": null,
       "firstSeen": "2026-11-02",
+      "people": [
+        "mike-bubbins"
+      ],
+      "genres": [
+        "Arts & Theatre/Comedy/Comedy"
+      ],
       "description": "Ideas Man, noun : 'A person who is particularly good at thinking of new or original ideas.' That's what Mike Bubbins is. Not an admin man. Not an organised man. Not an especially dedicated man. This comedy tour, for instance, is a case in point. Mike has got loads of really…"
     },
     {

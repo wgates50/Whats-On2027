@@ -47,7 +47,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2019/06/01/d-day-interception-intelligence-invasion-6639f266a8041": {
    "raw": {
@@ -111,7 +111,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2022/04/28/the-intelligence-factory-exhibition": {
    "raw": {
@@ -271,7 +271,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2024/06/01/origins": {
    "raw": {
@@ -559,7 +559,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/02/07/curtain-call-costumes-from-stage-and-screen": {
    "raw": {
@@ -576,22 +576,6 @@
     "cancelled": false
    },
    "at": "2026-11-12"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/02/07/reimaginings": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/02/07/reimaginings",
-    "title": "Reimaginings",
-    "dates": {
-     "startDate": "2026-02-07",
-     "endDate": "2026-11-14"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/140dede6-0905-4818-8216-2c838b7a3d88/9ef060514738ae7363e4c85127714c5d-md.jpg",
-    "description": "We are pleased to announce Reimaginings, a new exhibition co-curated by sculptural artist Hannah Lim.",
-    "venueName": "Museum of East Asian Art, Bath",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-13"
   },
   "https://www.artfund.org/explore/exhibitions/2026/02/12/inside-aardman-wallace-and-gromit-and-friends": {
    "raw": {
@@ -639,7 +623,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/02/18/an-a-z-of-beatrix-potter": {
    "raw": {
@@ -735,7 +719,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/17/truth-or-folly": {
    "raw": {
@@ -831,7 +815,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/25/american-connections": {
    "raw": {
@@ -847,7 +831,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/25/soldierly-splendour-the-1st-duke-of-wellingtons-military-uniforms": {
    "raw": {
@@ -1039,7 +1023,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/04/11/colonial-views-of-india-photographs-by-eugene-clutterbuck-impey": {
    "raw": {
@@ -1087,7 +1071,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/04/18/the-music-is-black-a-british-story": {
    "raw": {
@@ -1327,7 +1311,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/06/13/hold-to-this-earth-works-by-contemporary-indigenous-north-american-artists-tia-collection": {
    "raw": {
@@ -1372,22 +1356,6 @@
     "image": "https://d3ir5jsauc24hh.cloudfront.net/e09c411d-a155-4dfd-9d6b-9f4dbf5977b7/62581caaa7c0ce4ff023b9de56acaf6f-md.jpg",
     "description": "IMAGINED TERRITORIES is a new sculpture and public intervention by artist and designer Andy Welland.",
     "venueName": "The Art House, Wakefield",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-10"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/06/20/elizabeth-blackadder-a-life-in-colour": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/06/20/elizabeth-blackadder-a-life-in-colour",
-    "title": "Elizabeth Blackadder: A Life in Colour",
-    "dates": {
-     "startDate": "2026-06-20",
-     "endDate": "2026-11-14"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/d700ee6d-0935-4b5c-b285-d84e9717d649/3f1f5b9ef29d2ad74076ea8b8f1d1145-md.jpg",
-    "description": "Exploring Blackadder's enduring fascination with colour across a wide range of work.",
-    "venueName": "Dovecot Studios, Edinburgh",
     "schemaType": "Event",
     "cancelled": false
    },
@@ -1487,7 +1455,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/06/27/norman-cornish-a-life-in-sketchbooks": {
    "raw": {
@@ -1503,7 +1471,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/04/buried-lives-unearthing-8000-years-of-broadways-history": {
    "raw": {
@@ -1727,7 +1695,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/18/the-pattern-of-life-enid-marx-and-modern-british-design": {
    "raw": {
@@ -1823,7 +1791,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/08/01/gwen-john-strange-beauties-edinburgh": {
    "raw": {
@@ -1951,7 +1919,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/03/40-years-of-exhibitions-whats-next": {
    "raw": {
@@ -2127,7 +2095,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/12/173-annual-open-exhibition": {
    "raw": {
@@ -2223,7 +2191,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/15/bayeux-around-britain": {
    "raw": {
@@ -2351,7 +2319,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/18/zwo-astronomy-photographer-of-the-year": {
    "raw": {
@@ -2543,7 +2511,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/25/fail-we-may-sail-we-must": {
    "raw": {
@@ -2559,7 +2527,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/25/rhyme-reason": {
    "raw": {
@@ -2623,7 +2591,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/26/impressions-of-light-masterpieces-from-muma-le-havre-and-the-bowes-museum": {
    "raw": {
@@ -2671,7 +2639,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/26/paula-rego-visions-of-english-literature": {
    "raw": {
@@ -2735,7 +2703,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/01/disco-inferno": {
    "raw": {
@@ -3103,7 +3071,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/08/aphrodite-the-making-of-a-goddess": {
    "raw": {
@@ -3215,7 +3183,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/09/julia-isidrez-mud-is-everything-6a5615891f374": {
    "raw": {
@@ -3231,7 +3199,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/09/late-night-conversations-stuart-marshall-tamara-krikorian-6abce159571b6": {
    "raw": {
@@ -3279,7 +3247,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/09/tim-walkers-fairyland-love-and-legends": {
    "raw": {
@@ -3327,7 +3295,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/10/the-jillian-riley-showcase": {
    "raw": {
@@ -3344,22 +3312,6 @@
     "cancelled": false
    },
    "at": "2026-11-13"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/10/12/henry-moore-possibilities-in-print": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/10/12/henry-moore-possibilities-in-print",
-    "title": "Henry Moore: Possibilities in Print",
-    "dates": {
-     "startDate": "2026-10-12",
-     "endDate": "2026-11-14"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/a8b87f1f-71e3-40fc-bbe6-aa353ee8aff5/c9e2ec0f5d3579c0db585e996699ed96-md.jpg",
-    "description": "A rare exhibition of etchings and lithographs by one of the greatest sculptors of the 20th century, Henry Moore",
-    "venueName": "Curwen Print Study Centre, Great Thurlow",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-11"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/13/jacob-talbot-a-space-to-breathe-6aa80b06d551d": {
    "raw": {
@@ -3391,7 +3343,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/14/larger-than-life-starring-wallace-gromit-shaun-and-more": {
    "raw": {
@@ -3439,7 +3391,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/14/snap-happy-how-children-became-photographers": {
    "raw": {
@@ -3519,7 +3471,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/16/folklore": {
    "raw": {
@@ -3599,7 +3551,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/16/witches-suffolks-dark-legacy": {
    "raw": {
@@ -3647,7 +3599,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/17/pre-raphaelites-art-and-poetry": {
    "raw": {
@@ -3679,7 +3631,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/17/the-landscape-open-2026": {
    "raw": {
@@ -3967,7 +3919,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/24/the-way-we-live": {
    "raw": {
@@ -4047,7 +3999,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/03/40th-mckechnie-open-art-exhibition": {
    "raw": {
@@ -4111,7 +4063,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-04"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/06/magic-at-the-mansion": {
    "raw": {
@@ -4223,7 +4175,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-04"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/07/present-makers-2026": {
    "raw": {
@@ -4719,7 +4671,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/open": {
    "raw": {
@@ -4815,7 +4767,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/24/nan-goldin-you-never-did-anything-wrong": {
    "raw": {
@@ -4823,15 +4775,15 @@
     "title": "Nan Goldin: You Never Did Anything Wrong",
     "dates": {
      "startDate": "2026-11-24",
-     "endDate": "2028-03-07"
+     "endDate": "2028-03-14"
     },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/68a70c98-3bf3-4309-8ff0-2bfd92e0152a/f333f1899175c616c826b97c094f91b6-md.jpg",
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/8feb7361-9128-445c-a656-0aec2b8c3fc0/dcdcbbc5467da7b4975ac70843f356d0-md.jpg",
     "description": "Witness the beauty and fragility of the human condition in a major solo show by the acclaimed American artist and activist.",
     "venueName": "Hayward Gallery, London",
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/25/peter-blake-in-the-studio": {
    "raw": {
@@ -4971,11 +4923,11 @@
     },
     "image": "https://d3ir5jsauc24hh.cloudfront.net/0c735ff7-c731-4598-a498-b1246dd5377b/952266f75a65f49c59ebb4092ebd51be-md.jpg",
     "description": "Playful, honest, poetic or sardonic, photographic works capture the raw reality of everyday intimacy.",
-    "venueName": "Sainsbury Centre, Norwich",
+    "venueName": "Sainsbury Museum and Art Centre, Norwich",
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/09/joan-miro-painting-and-poetry": {
    "raw": {
@@ -5150,7 +5102,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/27/pastel-society-annual-exhibition-2027-drawn-to-colour": {
    "raw": {
@@ -5278,7 +5230,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2027/05/06/many-stories": {
    "raw": {
@@ -5310,7 +5262,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-02"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2027/05/14/gainsborough-at-home": {
    "raw": {
@@ -5326,7 +5278,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-07"
+   "at": "2026-11-16"
   },
   "https://www.artfund.org/explore/exhibitions/2027/05/17/claire-angel-bonner-monica-escobar-ranaa-farooq-outer-worlds-inner-space-67c1d93ada874": {
    "raw": {
