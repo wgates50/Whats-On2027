@@ -561,22 +561,6 @@
    },
    "at": "2026-11-16"
   },
-  "https://www.artfund.org/explore/exhibitions/2026/02/07/curtain-call-costumes-from-stage-and-screen": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/02/07/curtain-call-costumes-from-stage-and-screen",
-    "title": "Curtain Call: Costumes from Stage and Screen",
-    "dates": {
-     "startDate": "2026-02-07",
-     "endDate": "2026-11-15"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/7D841B41-9DB3-4851-A6E8B9D0C98EE1D5/f2d0c0bbb02707b47a38116aece20b4d-md.png",
-    "description": "Celebrating Dundee’s costume designers of the global stage and screen",
-    "venueName": "The McManus: Dundee's Art Gallery and Museum, Dundee",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-12"
-  },
   "https://www.artfund.org/explore/exhibitions/2026/02/12/inside-aardman-wallace-and-gromit-and-friends": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/02/12/inside-aardman-wallace-and-gromit-and-friends",
@@ -896,22 +880,6 @@
     "cancelled": false
    },
    "at": "2026-11-15"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/03/28/schiaparelli-fashion-becomes-art": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/03/28/schiaparelli-fashion-becomes-art",
-    "title": "Schiaparelli: Fashion Becomes Art",
-    "dates": {
-     "startDate": "2026-03-28",
-     "endDate": "2026-11-15"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/C55C808A-4B48-496F-B969450E2A5CF151/fb3157df2b6045d1767685cc5f1070a2-md.jpg",
-    "description": "Schiaparelli’s surrealist vision transforms fashion into art and pure imagination",
-    "venueName": "V&A South Kensington, London",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-13"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/28/seven-decades-of-contemporary-art-norfolk-contemporary-art-society-at-norwich-castle": {
    "raw": {
@@ -1377,22 +1345,6 @@
    },
    "at": "2026-11-13"
   },
-  "https://www.artfund.org/explore/exhibitions/2026/06/20/joy-like-time": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/06/20/joy-like-time",
-    "title": "Joy Like Time",
-    "dates": {
-     "startDate": "2026-06-20",
-     "endDate": "2026-11-15"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/aed1ea6d-4554-4aa3-91ff-10c65f3d4460/bde1bc7de788881b2867cfb1a1c36e61-md.jpg",
-    "description": "Joy Like Time explores how memory, ritual and renewal intersect through the work of three internationally renowned artists.",
-    "venueName": "Sainsbury Centre, Norwich",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-11"
-  },
   "https://www.artfund.org/explore/exhibitions/2026/06/20/tree-of-life": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/06/20/tree-of-life",
@@ -1612,38 +1564,6 @@
     "image": "https://d3ir5jsauc24hh.cloudfront.net/ffd22992-e8ec-40f5-9823-8cf899e3a919/f0d8e7dde49085779d888031f43d8f56-md.png",
     "description": "London Mithraeum Bloomberg SPACE presents Folkmoot, a new site-specific commission by Anne Ryan.",
     "venueName": "London Mithraeum Bloomberg SPACE, London",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-12"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/07/16/two-rooms-by-jewish-museum-london": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/07/16/two-rooms-by-jewish-museum-london",
-    "title": "Two Rooms by Jewish Museum London",
-    "dates": {
-     "startDate": "2026-07-16",
-     "endDate": "2026-11-15"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/07825435-1615-41e7-ba00-5c84a9a2c91b/e336d3d18190a67897afca7fdd2f3205-md.jpg",
-    "description": "Two Rooms by Jewish Museum London is our brand new interim space",
-    "venueName": "Jewish Museum London, London",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-15"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/07/17/aesthetica-art-prize-2026-6a2abcc77611d": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/07/17/aesthetica-art-prize-2026-6a2abcc77611d",
-    "title": "Aesthetica Art Prize 2026",
-    "dates": {
-     "startDate": "2026-07-17",
-     "endDate": "2026-11-15"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/ad517b3f-cb1e-4b93-9c4c-c3390348497b/04c25a59ab24b67cd03181a01f889af5-md.jpg",
-    "description": "The Aesthetica Art Prize returns, celebrating its 20th year as an international platform for contemporary art.",
-    "venueName": "York Art Gallery, York",
     "schemaType": "Event",
     "cancelled": false
    },
@@ -2332,22 +2252,6 @@
     "image": "https://d3ir5jsauc24hh.cloudfront.net/17bbc563-ee89-4c43-8360-57f59802375b/9dcb2f63f5f319ccc2cf6c1f80d3ce8b-md.jpg",
     "description": "See the world's greatest space photography at the National Maritime Museum.",
     "venueName": "National Maritime Museum, London",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-12"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/09/19/a-dogs-life": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/09/19/a-dogs-life",
-    "title": "A Dog’s Life",
-    "dates": {
-     "startDate": "2026-09-19",
-     "endDate": "2026-11-15"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/3a735b58-ec41-4c44-a0b2-609f0f36486b/63e896a21dc9f1a5bb23272f0915d63d-md.jpg",
-    "description": "This exhibition celebrates the enduring bond between humans and their canine companions.",
-    "venueName": "Leicester Museum & Art Gallery, Leicester",
     "schemaType": "Event",
     "cancelled": false
    },
@@ -4015,7 +3919,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-04"
+   "at": "2026-11-17"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/04/mad-bloomsbury": {
    "raw": {
@@ -4032,22 +3936,6 @@
     "cancelled": false
    },
    "at": "2026-11-13"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/11/05/fronting-the-map-tracing-the-spatial-history-of-the-polish-armed-forces-in-scotland": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/11/05/fronting-the-map-tracing-the-spatial-history-of-the-polish-armed-forces-in-scotland",
-    "title": "Fronting the Map: Tracing the Spatial History of the Polish Armed Forces in Scotland",
-    "dates": {
-     "startDate": "2026-11-05",
-     "endDate": "2026-11-15"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/e0c9172a-ea94-4893-8202-cab61d2a2f89/24c0652b818525d386eac3249cf122a4-md.jpg",
-    "description": "Fronting the Map: Tracing the Spatial History of the Polish Armed Forces in Scotland by Sól Association",
-    "venueName": "Biggar & Upper Clydesdale Museum, Biggar",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-07"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/06/katie-shannon-backprunevirginruin": {
    "raw": {
@@ -4495,7 +4383,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-07"
+   "at": "2026-11-17"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/17/where-we-grow-nature-nurture-childhood-6abbe2b46e73e": {
    "raw": {
