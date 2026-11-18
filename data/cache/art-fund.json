@@ -159,7 +159,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2024/02/12/our-sporting-heritage": {
    "raw": {
@@ -289,22 +289,6 @@
    },
    "at": "2026-11-11"
   },
-  "https://www.artfund.org/explore/exhibitions/2025/02/04/the-age-of-ai-678f788dd1eb2": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2025/02/04/the-age-of-ai-678f788dd1eb2",
-    "title": "The Age of AI",
-    "dates": {
-     "startDate": "2025-02-04",
-     "endDate": "2027-02-05"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/e8b8c439-ea50-4d2a-bd30-dc5ca22cf269/244f66ad2d99e298531a491e0a1185df-md.jpg",
-    "description": "Discover how artificial intelligence is a part of our lives today and how AI could affect our future.",
-    "venueName": "Bletchley Park, Bletchley",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-14"
-  },
   "https://www.artfund.org/explore/exhibitions/2025/04/03/the-dark-room-67f817336d606": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2025/04/03/the-dark-room-67f817336d606",
@@ -319,7 +303,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2025/04/23/jmw-turner-breaking-waves": {
    "raw": {
@@ -367,7 +351,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2025/06/14/all-fired-up-the-art-and-science-of-ceramics-6846fc4ad5986": {
    "raw": {
@@ -689,22 +673,6 @@
    },
    "at": "2026-11-12"
   },
-  "https://www.artfund.org/explore/exhibitions/2026/03/14/beneath-the-great-wave-hokusai-hiroshige-and-ukiyo-e-print": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/03/14/beneath-the-great-wave-hokusai-hiroshige-and-ukiyo-e-print",
-    "title": "Beneath the Great Wave: Hokusai, Hiroshige, and ukiyo-e print",
-    "dates": {
-     "startDate": "2026-03-14",
-     "endDate": "2026-11-16"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/0FE1FF53-0468-4FCC-A7487549178C4866/adf05954efadee0bf0da45adbcee0e64-md.jpg",
-    "description": "Uncover the enduring power of classic Japanese woodblock prints",
-    "venueName": "The Whitworth, Manchester",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-16"
-  },
   "https://www.artfund.org/explore/exhibitions/2026/03/17/truth-or-folly": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/03/17/truth-or-folly",
@@ -719,7 +687,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/17/william-morris-first-with-the-news": {
    "raw": {
@@ -767,7 +735,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/23/works-on-paper-art-and-energy": {
    "raw": {
@@ -863,7 +831,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/27/frank-bowling-seeking-the-sublime": {
    "raw": {
@@ -895,7 +863,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/31/a-sense-of-colour": {
    "raw": {
@@ -975,7 +943,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/04/10/the-founders-galleries": {
    "raw": {
@@ -1023,7 +991,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/04/15/the-rothschild-story": {
    "raw": {
@@ -1119,7 +1087,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/05/12/dialogues-continuing-conversations-from-beneath-the-surface": {
    "raw": {
@@ -1311,7 +1279,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/06/20/andy-welland-imagined-territories": {
    "raw": {
@@ -1327,7 +1295,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/06/20/fotohane-x-the-art-house": {
    "raw": {
@@ -1471,7 +1439,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/07/from-fairlie-to-the-world-the-fife-design-story": {
    "raw": {
@@ -1679,7 +1647,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/29/joe-lycett-every-thing-must-go": {
    "raw": {
@@ -1719,7 +1687,7 @@
     "title": "Gwen John: Strange Beauties",
     "dates": {
      "startDate": "2026-08-01",
-     "endDate": "2027-01-07"
+     "endDate": "2027-01-04"
     },
     "image": "https://d3ir5jsauc24hh.cloudfront.net/D8EFD577-9941-4E1A-8941B43D9F291388/8f8e30f027754622910bef667cfcc6f5-md.jpg",
     "description": "Gwen John’s intimate works reveal a subtle, introspective vision across decades",
@@ -1727,7 +1695,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/08/11/exeters-fine-art-gallery-highlights-from-the-collection": {
    "raw": {
@@ -1855,7 +1823,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/03/turning-the-page-a-history-of-reading": {
    "raw": {
@@ -1983,7 +1951,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/10/the-bayeux-tapestry": {
    "raw": {
@@ -2079,7 +2047,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/14/pat-coogan-retrospective": {
    "raw": {
@@ -2095,7 +2063,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/14/patient-voices-power-truth-understanding": {
    "raw": {
@@ -2143,7 +2111,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/16/pathways-contemporary-textiles": {
    "raw": {
@@ -2639,7 +2607,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/01/polly-braden-against-the-tide": {
    "raw": {
@@ -2671,7 +2639,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/02/es-devlin": {
    "raw": {
@@ -2799,7 +2767,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/03/living-labyrinths-art-fungi": {
    "raw": {
@@ -2863,7 +2831,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/03/the-winter-spotlight-2026": {
    "raw": {
@@ -2911,7 +2879,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/07/cecilia-vicuna-living-threads": {
    "raw": {
@@ -3119,7 +3087,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/09/lessons-of-the-hour-6a8c75173715d": {
    "raw": {
@@ -3183,7 +3151,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/10/out-of-line-banksy-and-the-art-of-dissent": {
    "raw": {
@@ -3327,7 +3295,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/16/2026-open-exhibition": {
    "raw": {
@@ -3391,7 +3359,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/16/in-focus-dame-elizabeth-anionwu": {
    "raw": {
@@ -3471,7 +3439,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/17/dressed-for-duty-fashion-function-and-the-british-army-1800-2026": {
    "raw": {
@@ -3599,7 +3567,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/21/dickensian-london-the-magic-lantern-city": {
    "raw": {
@@ -3775,7 +3743,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/24/maggi-hambling-fireworks": {
    "raw": {
@@ -4159,7 +4127,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-05"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/12/vanessa-bell-and-duncan-grant-inside-bloomsbury": {
    "raw": {
@@ -4203,11 +4171,11 @@
     },
     "image": "https://d3ir5jsauc24hh.cloudfront.net/1315687f-1f71-4bf8-97b6-05626713010e/c038de30633d9fe31ad83dcb95f89c24-md.jpg",
     "description": "Season of exhibitions exploring the profound complexities of human relationships, desire, and intimacy.",
-    "venueName": "Sainsbury Centre, Norwich",
+    "venueName": "Sainsbury Museum and Art Centre, Norwich",
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/13/seiko-kinoshita-distant-shared-memories-of-home": {
    "raw": {
@@ -4335,7 +4303,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-04"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/14/the-ty-pawb-open-2026": {
    "raw": {
@@ -4415,7 +4383,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-04"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/alfred-wallis-an-artists-artist": {
    "raw": {
@@ -4751,7 +4719,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/28/jess-g-morris-chromatic-flow": {
    "raw": {
@@ -4863,7 +4831,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/14/thuy-tien-nguyen-press-release": {
    "raw": {
@@ -4926,7 +4894,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/23/barn-close-carlisles-arts-crafts-house": {
    "raw": {
@@ -4974,7 +4942,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/27/matisse-joy": {
    "raw": {
@@ -5070,7 +5038,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-10"
+   "at": "2026-11-18"
   },
   "https://www.artfund.org/explore/exhibitions/2027/03/26/josie-brookes-and-tom-madge-the-colour-collective": {
    "raw": {
