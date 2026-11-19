@@ -231,10 +231,6 @@
     "i": "https://chisenhale.org.uk/img/contain/1200/1200/2026/09/28/5_Tour_5X4.jpg",
     "at": "2026-11-06"
   },
-  "https://claphamgrand.com/event/2026-h1gher-season-in-europe-uk/": {
-    "i": "https://claphamgrand.com/wp-content/uploads/2026/09/LONDON_1080x1080-1-1080x1000.png",
-    "at": "2026-11-06"
-  },
   "https://claphamgrand.com/event/bongos-bingo-nov26-4/": {
     "d": "Bongo's Bingo takes over The Clapham Grand every weekend for the most wild night out of your life!",
     "i": "https://claphamgrand.com/wp-content/uploads/2026/08/Clapham-Junction-1080x1080px-1080x1000.png",
@@ -278,6 +274,10 @@
   "https://claphamgrand.com/event/semyon-slepakov-2/": {
     "i": "https://claphamgrand.com/wp-content/uploads/2026/08/semyon-square.jpeg",
     "at": "2026-11-12"
+  },
+  "https://claphamgrand.com/event/wilder-fight-night-london-round-9/": {
+    "i": "https://claphamgrand.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-11.57.04.jpeg",
+    "at": "2026-11-19"
   },
   "https://dickensmuseum.com/blogs/all-events/a-christmas-carol-dickens-decendents-2026": {
     "d": "A wonderful opportunity this Christmas to see Dickens's own descendents perform one of Charles Dickens's most popular tales.",
@@ -377,11 +377,6 @@
     "d": "This event will take place in EartH Theatre. Irish folk singer-songwriter Fionn Regan brings his poetic storytelling and intricate acoustic melodies to the stag",
     "i": "https://earthackney.co.uk/wp-content/uploads/2026/10/fionn-regan-19th-mar-earth-london-tickets-92vb59.jpg",
     "at": "2026-11-08"
-  },
-  "https://earthackney.co.uk/events/gigi-masin-18th-nov-earth-london-tickets-av5x8x/": {
-    "d": "EartH presents Gigi Masin plus special guests Drawing on his latest album, Movement, Gigi Masin presents a live work in which rhythm becomes architecture and so",
-    "i": "https://earthackney.co.uk/wp-content/uploads/2026/06/gigi-masin-18th-nov-earth-london-tickets-av5x8x.jpg",
-    "at": "2026-11-06"
   },
   "https://earthackney.co.uk/events/hackney-comedy-experience-with-john-kearns-4th-dec-earth-london-tickets-mxy9v9/": {
     "d": "This event will take place in EartH Theatre. East London’s all-star stand-up show – the **HACKNEY COMEDY EXPERIENCE** – features the alternative comedy circuit’",
@@ -559,40 +554,45 @@
   "https://earthackney.co.uk/events/yawning-portal-merely-niko-demus-7th-dec-earth-london-tickets-q2d98o/": {
     "at": "2026-11-07"
   },
-  "https://events.bl.uk/events/book-marketing-in-layers": {
-    "d": "Even the best books need marketing, as there’s so much competition out there. This session focuses on providing a clear visualisation of all the elements which need to come together if you want to sell your books. A great course for new authors so you can plan ahead and hit the…",
-    "i": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/0M8A9682.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1794242162&s=26f772fd7fa37240d69eb50bc6d17dd3",
-    "at": "2026-11-16"
-  },
-  "https://events.bl.uk/events/coaching-session-1-is-starting-a-business-for-me": {
+  "https://events.bl.uk/events/coaching-sessions-2-3-research-viability-and-business-planning": {
     "d": "Every year, nearly one million people in the UK start their own business. Could you be next?These four coaching sessions will guide you through the fundamentals of starting a business. Working with a small group and supported by a SFEDI accredited business coach, you'll have the…",
     "i": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/Coaching-Sessions-web-header.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1791988236&s=4f89a0315a27b854dcdd464738a09abf",
-    "at": "2026-11-15"
+    "at": "2026-11-19"
   },
-  "https://events.bl.uk/events/diversifying-childrens-books-in-the-classroom-beyond-the-secret-garden": {
-    "d": "This event has been cancelled. We apologise for any inconvenience. Ticketholders will be contacted.Find new ways to introduce and discuss representation in children’s books with this afternoon CPD event, featuring inspirational children’s book authors and experts.Taking place at…",
-    "i": "https://british-library.transforms.svdcdn.com/production/Digital-Learning/Diversifying-Childrens-Books-in-the-Classroom.JPG?w=1200&h=600&q=100&auto=format&fit=crop&crop=focalpoint&fp-x=0.5122&fp-y=0.3475&dm=1792082810&s=9ae5f349aa51268b07a01eb35e972d8e",
-    "at": "2026-11-17"
+  "https://events.bl.uk/events/keeping-your-curriculum-broad-and-balanced": {
+    "d": "Taking place at Library, this conference from the Helen Hamlyn Centre for Pedagogy will explore the vital role of art, music, drama, history, and geography in children’s learning. The arts and humanities subjects can make a special contribution to nurturing creativity,…",
+    "i": "https://british-library.transforms.svdcdn.com/production/Digital-Learning/Keeping-Your-Curriculum-Broad.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1781619976&s=764a0b5a846491c08a86a0b346edcec3",
+    "at": "2026-11-19"
   },
-  "https://events.bl.uk/events/how-to-use-the-library-for-your-research": {
-    "d": "Research can be rewarding, whatever topic you're delving into. But with a collection of over 170 million items, 12 Reading Rooms and different catalogues to explore, where do you start?Join our Reference Specialists for an in-depth introduction to using the Library for your…",
-    "i": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/BritishLibrary_Reading-Rooms_cSamWalton-041.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1794234532&s=1177b37a45e724a5c9a1e4485be05fca",
-    "at": "2026-11-17"
+  "https://events.bl.uk/events/panizzi-lecture-2026": {
+    "d": "A survey of the history and impact of the transmission of ancient Greek thinking across the western world, through manuscript books and translation.Prof. Dimitri Gutas will now be delivering all lectures in this series online. Please book an online ticket below to join…",
+    "i": "https://british-library.transforms.svdcdn.com/production/Cultural-Events/Translation-and-Civilization-from-Antiquity-to-the-Renaissance.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1789992839&s=1c9ed73bdf040ac67b1bdda479506219",
+    "at": "2026-11-19"
   },
-  "https://events.bl.uk/events/introduction-to-registered-designs": {
-    "d": "Almost every organisation has intellectual property of some sort – this webinar helps businesses to understand and protect it.The workshop will explain the basics behind registered design protection and registration, and how to use internet databases and resources to search for…",
-    "i": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/bipc-workshop-image-2.jpeg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1777385857&s=4a606a4ac71bd2e783dd238dc22dd8c1",
-    "at": "2026-11-17"
+  "https://events.bl.uk/events/roger-ackroyd-the-killer-murder": {
+    "d": "Roger Ackroyd was a man who knew too much. He knew the woman he loved had poisoned her first husband. He knew someone was blackmailing her – and now he knew she had taken her own life with a drug overdose. Soon the evening post would let him know who the mystery blackmailer was.…",
+    "i": "https://british-library.transforms.svdcdn.com/production/Cultural-Events/EventImageOptions_TheMurderofRogerAckroydC.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1785347608&s=f7cee1cbf4139527a4f474111907d8bb",
+    "at": "2026-11-19"
   },
-  "https://events.bl.uk/events/libraries-and-positive-climate-action-climate-resilience": {
-    "d": "What do libraries bring to the conversation on climate change?In a time of adverse weather events, libraries are working on ways they can support their users and local communities who face the impacts of climate change.By their nature, libraries are both places of information…",
-    "i": "https://british-library.transforms.svdcdn.com/production/Community-events/Climate-Resilience-event-Maps_K_Top_19_13.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1787741193&s=467d153e1936a25cfd51afb822ae4d84",
-    "at": "2026-11-15"
+  "https://events.bl.uk/events/social-enterprise-day": {
+    "d": "Do you want to build a business that does good and does well? Join us for Social Enterprise Day to learn more about what a social enterprise is, how they work and whether starting a social enterprise is for you.On the day, you will:Learn the difference between a social…",
+    "i": "https://british-library.transforms.svdcdn.com/production/BIPC-event-images/485058557_1207174684747668_8263010537742648184_n-1.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1791991387&s=bc25436d8d86cb0f5ceb0f73176cabdd",
+    "at": "2026-11-19"
   },
-  "https://events.bl.uk/events/pride-and-prejudice": {
-    "d": "A special evening to mark the new Netflix adaptation of Jane Austen's classic, with Emma Corrin, who plays Elizabeth Bennett, and bestselling author and screenwriter Dolly Alderton, who has written the six-part series.Together, they talk to Jack Edwards, often called 'the…",
-    "i": "https://british-library.transforms.svdcdn.com/production/Cultural-Events/2000x1026-Pride-and-Prejudice.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1787325718&s=c05150a833bcc7a03d39d1fea24d10d4",
-    "at": "2026-11-18"
+  "https://events.bl.uk/events/young-adult-crime-fiction-fest": {
+    "d": "In-person sessions for this event are sold out but you can still join online. Find the digital sessions lower down this page.Celebrate young adult fiction with this new crime fiction fest featuring YA authors including Faridah Àbíké-Íyímídé, Sharna Jackson, Jenny Valentine,…",
+    "i": "https://british-library.transforms.svdcdn.com/production/Digital-Learning/YA-crime-fiction-edit.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1789388967&s=e142a8fc45411b4edea971f956cd6279",
+    "at": "2026-11-19"
+  },
+  "https://events.bl.uk/events/young-adult-crime-fiction-fest-lucy-foley-and-friends": {
+    "d": "Join author Lucy Foley for gripping conversations with acclaimed YA authors Faridah Àbíké-Íyímídé, Sharna Jackson and Ravena Guron followed by a discussion with Lead Curator of Agatha Christie: A World of Mystery, Lucy Rowland.Designed to celebrate young adult crime fiction and…",
+    "i": "https://british-library.transforms.svdcdn.com/production/Digital-Learning/Lucy_Foley_credit-Jesse-Dittmar-colour.jpg?w=1200&h=600&q=100&auto=format&fit=crop&dm=1789389978&s=6537ab2bf682ea55be23afeccf24aac0",
+    "at": "2026-11-19"
+  },
+  "https://events.bl.uk/events/young-adult-crime-fiction-fest-patrice-lawrence-and-friends": {
+    "d": "Join Waterstones Children's Laureate Patrice Lawrence for a key note talk, and panel discussion with bestselling authors Jenny Valentine and Rachael Davis-Featherstone. Designed to celebrate young adult crime fiction and inspire reading for pleasure.This festival is linked to…",
+    "i": "https://british-library.transforms.svdcdn.com/production/Profile-images/Patrice-Lawrence.jpg?w=1200&h=600&q=100&auto=format&fit=crop&crop=focalpoint&fp-x=0.5832&fp-y=0.2578&dm=1789389215&s=9ccb467a892f99d701e4c158c6aed9ea",
+    "at": "2026-11-19"
   },
   "https://events.bl.uk/exhibitions/agathachristie": {
     "d": "Discover the extraordinary life of the Queen of Crime.From crossing continents by train to navigating archaeological digs, explore how Christie’s adventure",
@@ -609,10 +609,10 @@
     "i": "https://foundlingmuseum.org.uk/wp-content/uploads/2026/09/Brad-Kella-St-Georges-Hall-WP.jpg",
     "at": "2026-11-07"
   },
-  "https://foundlingmuseum.org.uk/event/christmas-carol-concert-2/": {
-    "d": "Usher in the festive season at the Foundling Museum with the Borough Welsh Choir and a repertoire of Christmas carols!",
-    "i": "https://foundlingmuseum.org.uk/wp-content/uploads/2024/10/Family-concert-in-the-Picture-Gallery-%C2%A9-James-Hopkirk-10.jpg",
-    "at": "2026-11-10"
+  "https://foundlingmuseum.org.uk/event/curator-tour-where-we-grow/": {
+    "d": "Explore our new exhibition 'Where We Grow: nature, nurture & childhood' with exhibition curator Lucy Shanahan.",
+    "i": "https://foundlingmuseum.org.uk/wp-content/uploads/2026/11/Curator-tour-WWG.jpg",
+    "at": "2026-11-19"
   },
   "https://foundlingmuseum.org.uk/event/drink-death-and-debauchery-walking-tour-22-november/": {
     "d": "Join us for a special walking tour through leafy Bloomsbury and London's West End, exploring London's boozy history.",
@@ -683,15 +683,7 @@
     "d": "Goldsmiths Centre for Contemporary Art builds upon the university’s world-renowned reputation for art practice, providing an inspiring source of creativity and debate for artists, students and the public.",
     "at": "2026-11-06"
   },
-  "https://goldsmithscca.art/event-category/performance/": {
-    "d": "Goldsmiths Centre for Contemporary Art builds upon the university’s world-renowned reputation for art practice, providing an inspiring source of creativity and debate for artists, students and the public.",
-    "at": "2026-11-06"
-  },
   "https://goldsmithscca.art/event-category/relaxed-viewing/": {
-    "d": "Goldsmiths Centre for Contemporary Art builds upon the university’s world-renowned reputation for art practice, providing an inspiring source of creativity and debate for artists, students and the public.",
-    "at": "2026-11-06"
-  },
-  "https://goldsmithscca.art/event-category/talk/": {
     "d": "Goldsmiths Centre for Contemporary Art builds upon the university’s world-renowned reputation for art practice, providing an inspiring source of creativity and debate for artists, students and the public.",
     "at": "2026-11-06"
   },
@@ -782,16 +774,6 @@
     "d": "Matisse: Joy with new artwork by Yinka Ilori explores six decades of the pioneering 20th-century artist's practice, from his vibrant paintings and intimate portraits to his radical paper cut-outs.",
     "i": "https://images.lightroom.uk/uploads/2026/09/Matisse_WebsiteStatics_1080x1350.jpg?fit=1024%2C1024",
     "at": "2026-11-06"
-  },
-  "https://link.dice.fm/nf4e3e4a4011": {
-    "d": "Flower Face is the moniker of Montreal’s Ruby McKinnon, a songwriter and visual artist whose catalogue - Fever Dreams (2017), Baby Teeth (2018), The Shark in Your Water (2022), and Girl Prometheus (2024) - traces her evolution from self-produced bedroom goth-folk to cinematic,…",
-    "i": "https://dice-media.imgix.net/attachments/2026-05-05/64764c87-663e-46a8-832c-a3ed08ca772e.jpg?rect=0%2C216%2C1080%2C648",
-    "at": "2026-11-16"
-  },
-  "https://link.dice.fm/Q425da22c504": {
-    "d": "JEDSOUL is a West London singer, songwriter and producer with a deep love for R&B. A student of the genre, he pairs memorable melodies with honest songwriting, drawing on the music that shaped him to tell stories of his own. His sound celebrates the romance, vulnerability and…",
-    "i": "https://dice-media.imgix.net/attachments/2026-10-28/04db2fa8-8ee4-4a8b-97e0-2e509e4c92e8.jpg?rect=0%2C177%2C5308%2C3185",
-    "at": "2026-11-17"
   },
   "https://london.thecomedystore.co.uk/event/beginners-showcase/2026-11-29": {
     "d": "Our Beginners' Comedy Course participants take to the stage! Come and support them and watch what they’ve learnt over the past 6 weeks. Beginners Comedy CourseOur Beginners' Comedy Courses take participants on a journey from social joker to The Comedy Store stage in just 6…",
@@ -904,11 +886,6 @@
     "d": "Shoot From The Hip bring their award-winning, TikTok-viral improvised comedy to The Comedy Store!Featuring chaotic games, epic scenes, and ever-so-slightly unhinged performances, their Metro, Evening Standard, and Time Out-recommended shows are completely unscripted,…",
     "i": "https://comedy-store.transforms.svdcdn.com/production/images/2025/Headers/SFTH-Image-1920-x-700-px.png?w=728&amp;h=291&amp;q=90&amp;auto=format&amp;fit=crop&amp;dm=1769170052&amp;s=00847a3e8c0c2d918eec8581c6c6f2e5",
     "at": "2026-11-06"
-  },
-  "https://london.thecomedystore.co.uk/event/the-best-in-stand-up/2026-11-19_19-30": {
-    "d": "The show that made The Comedy Store famous. World-class stand up comedy from 5 of the funniest people on the planet in a 2 hour extravaganza of belly laughs.Tickets on the door are limited and likely to sell out.Running time: 2 hours approx (with interval).",
-    "i": "https://comedy-store.transforms.svdcdn.com/production/images/2026/headers/CS-Header-BISU.jpg?w=728&amp;h=291&amp;q=90&amp;auto=format&amp;fit=crop&amp;dm=1773230162&amp;s=6d32378c309f7cbb1f366c73af3b5253",
-    "at": "2026-11-14"
   },
   "https://london.thecomedystore.co.uk/event/the-big-laugh-2027": {
     "d": "Join The Big Laugh at The Comedy Store, London on Monday 22 March 2027 for– an unforgettable evening of world-class comedy in support of Young Epilepsy.Performers to be announced shortly:Our 2026 stellar bill of comedians included:Omid Djalili Adam Kay Jo Enright Hal Cruttenden…",
@@ -1340,6 +1317,10 @@
     "d": "Join the bravest explorers this festive season on an unforgettable journey to the wintry wonderland of the South Pole. Get ready to meet some of the most wondrous creatures on Earth, featuring clowning, puppets and plenty of snowy surprises. A Little Bulb production, originally…",
     "at": "2026-11-06"
   },
+  "https://polkatheatre.com/event/big-red-bath/": {
+    "d": "Dive headfirst into a splishy splashy bathtime adventure! Based on Julia Jarman and Adrian Reynolds’ beloved children’s picture book. A Full House and Half Moon co-production",
+    "at": "2026-11-19"
+  },
   "https://polkatheatre.com/event/christmas-lights/": {
     "d": "Christmas is around the corner in a playful, visually dazzling show where the power of friendship can light up the dark. A Filskit Theatre Company production. Originally co-produced by Z-arts and Wonder Arts.",
     "at": "2026-11-06"
@@ -1352,6 +1333,10 @@
     "d": "A 10 week programme which will cover all the essentials for Devising work for Early Years Theatre with Page One Theatre's Chloe Stephens.",
     "at": "2026-11-06"
   },
+  "https://polkatheatre.com/event/peek-a-bloom/": {
+    "d": "Look up, lean back. What do you see? Pause a while and play in a world of giant flowers. A Polka Theatre and Page One Theatre co-production Peek-a-Bloom has been made for two age ranges. Please book the performance date for your child's age: Wednesday 26 - Sunday 30 May: Ages 6…",
+    "at": "2026-11-19"
+  },
   "https://polkatheatre.com/event/peter-pan/": {
     "d": "Take flight with Peter, Wendy and Tink in this remixed musical production of the much-loved story. With all original songs and sounds performed live and acapella by a company of award-winning vocalists, beatboxers, and rappers, this is Peter Pan as you’ve never heard it before!…",
     "at": "2026-11-06"
@@ -1360,6 +1345,10 @@
     "d": "A brand-new production, celebrating female voices of the past and present and the importance of standing up for your beliefs. A Polka Theatre production",
     "at": "2026-11-06"
   },
+  "https://polkatheatre.com/event/shiny/": {
+    "d": "A creative adventure filled with lots of family interaction. A Turned On Its Head production.",
+    "at": "2026-11-19"
+  },
   "https://polkatheatre.com/event/the-bed-and-breakfast-star/": {
     "d": "A brand-new stage adaptation by Emma Dennis-Edwards, based on Jacqueline Wilson’s beloved novel The Bed and Breakfast Star. A Cardboard Citizens and Polka Theatre co-production in association with the Mercury Theatre, presented in partnership with Crisis.",
     "at": "2026-11-06"
@@ -1367,6 +1356,10 @@
   "https://polkatheatre.com/event/the-big-bash-2026/": {
     "d": "Join us for a magical afternoon packed with festive fun, delicious food and drinks, and brilliant entertainment followed by seeing one of our two festive shows. The Big Bash is our annual family fundraiser and every ticket purchased will help to fund free theatre tickets and…",
     "at": "2026-11-06"
+  },
+  "https://polkatheatre.com/event/the-owl-and-the-pussycat/": {
+    "d": "Join Owl and Pussy Cat as they set sail on a nonsense adventure across the high seas, armed with only some honey, some money and a runcible spoon! A Polka Theatre, Derby Theatre and Hiccup Theatre co-production",
+    "at": "2026-11-19"
   },
   "https://ragm.co.uk/paula-rego": {
     "at": "2026-11-10"
@@ -1451,8 +1444,8 @@
   "https://sohotheatre.com/events/paddy-young-will-sir-be-laughing-alone/": {
     "at": "2026-11-06"
   },
-  "https://sohotheatre.com/events/phil-wang-uh-oh/": {
-    "at": "2026-11-06"
+  "https://sohotheatre.com/events/stage4change-presentsour-voice/": {
+    "at": "2026-11-19"
   },
   "https://sohotheatre.com/events/taylor-mac-holiday-sauce/": {
     "at": "2026-11-06"
@@ -1528,6 +1521,10 @@
     "i": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/autofoto%20banner%20image%20for%20website.jpg.webp?itok=ba4y55C3",
     "at": "2026-11-06"
   },
+  "https://thephotographersgallery.org.uk/whats-on/book-launch-talk-signing-journal-du-picture-book": {
+    "i": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/Johanna%20Tagada.jpg.webp?itok=ep-OhS33",
+    "at": "2026-11-19"
+  },
   "https://thephotographersgallery.org.uk/whats-on/book-launch-talk-signing-void-10-years": {
     "i": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/Void%20event.jpg.webp?itok=oCQ0Ar3Z",
     "at": "2026-11-12"
@@ -1544,10 +1541,9 @@
     "i": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/banner%20image%20for%20website%20%28juno%20calypso%29.jpg.webp?itok=cbbQo9EV",
     "at": "2026-11-17"
   },
-  "https://thephotographersgallery.org.uk/whats-on/members-tour-william-eggleston-and-sanle-sory": {
-    "d": "Learn more about the William Eggleston: All that goes unnoticed and Sanlé Sory: Colour Years exhibitions on this special, members-only tour.",
-    "i": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/banner%20image%20for%20website%20%28william%20eggleston%29.jpg.webp?itok=nHK-ki9C",
-    "at": "2026-11-08"
+  "https://thephotographersgallery.org.uk/whats-on/museum-shop-sunday-2026": {
+    "i": "https://thephotographersgallery.org.uk/sites/default/files/styles/meta_facebook/public/images/MSS_banner_.jpg.webp?itok=UJK_4mAy",
+    "at": "2026-11-19"
   },
   "https://thephotographersgallery.org.uk/whats-on/ninagawa-mika-captive-blooms": {
     "d": "Discover large-scale works by NINAGAWA Mika in a free outdoor exhibition in Soho Photography Quarter",
@@ -1576,10 +1572,6 @@
   },
   "https://theshowroom.org/events/gregory-sholette-the-radical-unpresent": {
     "i": "https://theshowroom.org/media/pages/events/gregory-sholette-the-radical-unpresent/1b05c8eeee-1791208428/9780262054119_fc-1000x1000-crop-49-7-12-6.jpg",
-    "at": "2026-11-06"
-  },
-  "https://theshowroom.org/events/polisonics-community-listening-in-action": {
-    "i": "https://theshowroom.org/media/pages/events/polisonics-community-listening-in-action/b2b39056d5-1791210737/screenshot-2026-10-05-at-15.25.20-1000x1000-crop.png",
     "at": "2026-11-06"
   },
   "https://troxy.co.uk/event/kings-of-gaana/": {
@@ -1781,11 +1773,6 @@
     "i": "https://s3.eu-west-2.amazonaws.com/cdn.unionchapel.org.uk/images/KE9F92~1.JPG",
     "at": "2026-11-07"
   },
-  "https://unionchapel.org.uk/whats-on/charlotte-dos-santos": {
-    "d": "Charlotte Dos Santos is a Norwegian-Brazilian artist, composer, and producer whose work moves through a soulful blend of jazz, soul, and R&B. Her debut album Cleo (2017) earned international acclaim from Pitchfork, Bandcamp, and The Fader, positioning her early as a singular voice with a cinematic, deeply personal sound.",
-    "i": "https://s3.eu-west-2.amazonaws.com/cdn.unionchapel.org.uk/images/KE9F92~1.JPG",
-    "at": "2026-11-06"
-  },
   "https://unionchapel.org.uk/whats-on/choirchoirchoir-an-epic-queen-sing-along": {
     "d": "“Why see a show when you can BE the show!?” Choir! Choir! Choir! is the fully interactive, participatory show that turns audience into performer! So get ready to laugh, dance and SING! your hearts out with hundreds of other music-lovers just like you. It’s like a big birthday party for the greatest songs of all time and you’re invited! So grab a friend (or ten), and come out ready to GIVE IT ALL YOU’VE GOT! - all voices welcome, no experience necessary. They Teach, You Sing! Everyone Wins!",
     "i": "https://s3.eu-west-2.amazonaws.com/cdn.unionchapel.org.uk/images/KE9F92~1.JPG",
@@ -1855,6 +1842,11 @@
     "d": "AGMP Concerts present: HUE AND CRY — ‘ELECTRO / ACOUSTIC’ Hue and Cry was formed by brothers Patrick and Gregory Kane in 1983. The duo made a huge impact in the late 80s with the albums Seduced and Abandoned and Remote, as well as massive hit singles Labour of Love, Looking for Linda, Violently (Your Words Hit Me), and Ordinary Angel.",
     "i": "https://s3.eu-west-2.amazonaws.com/cdn.unionchapel.org.uk/images/KE9F92~1.JPG",
     "at": "2026-11-09"
+  },
+  "https://unionchapel.org.uk/whats-on/human-rights-under-occupation-eyewitness-testimonies-from-the-west-bank": {
+    "d": "Union Chapel invites two recently returned volunteers with the Ecumenical Accompaniment Programme in Palestine and Israel (EAPPI) to share their eyewitness accounts of monitoring human rights in the West Bank. The Ecumenical Accompaniment Programme in Palestine and Israel (EAPPI) exists as a response to a call from church leaders in Jerusalem in 2002. They asked the World Council of Churches to bring people to witness the Israeli occupation of Palestine, and to advocate for change. 25 years later, the call is still there, and the need is greater than ever. From the UK & Ireland, Quakers in Britain send ‘Ecumenical Accompaniers’ from all faiths and none to Israel and Palestine, to report on human rights, to accompany communities living under occupation, and to show solidarity with Palestinian and Israeli groups working for peace.",
+    "i": "https://s3.eu-west-2.amazonaws.com/cdn.unionchapel.org.uk/images/KE9F92~1.JPG",
+    "at": "2026-11-19"
   },
   "https://unionchapel.org.uk/whats-on/ian-gillan-talking-gibrish-tour": {
     "d": "The Ian Gillan team are proud to announce that Ian will be touring the UK in the spring of 2027 with his 'Talking Gib'rish Tour'. This very special series of live speaking events will allow audiences to hear personal stories from Ian’s remarkable life and career in music. From his childhood in Hounslow to the global rise of Deep Purple, Ian will reflect on the experiences, music and outlook on life that shaped one of rock’s most influential careers. The tour offers a rare chance to hear directly from a true music icon.",
@@ -2335,11 +2327,6 @@
     "i": "https://dynamicmedia.livenationinternational.com/u/c/j/5ea51cca-36cf-4bfd-bc8d-548fb1e64240.png",
     "at": "2026-11-11"
   },
-  "https://www.academymusicgroup.com/o2shepherdsbushempire/events/declan-j-donovan-tickets-ae1247007": {
-    "d": "Find Declan J Donovan tickets at www.academymusicgroup.com | Videos, biography, tour dates, performance times. VIP packages available.",
-    "i": "https://dynamicmedia.livenationinternational.com/b/k/g/1c3a3e1b-1883-4368-8eb8-dc3bbe25de9f.png",
-    "at": "2026-11-17"
-  },
   "https://www.academymusicgroup.com/o2shepherdsbushempire/events/marcin-tickets-ae1393302": {
     "d": "Find An Evening With Marcin tickets at www.academymusicgroup.com | Videos, biography, tour dates, performance times. VIP packages available.",
     "i": "https://dynamicmedia.livenationinternational.com/c/w/n/07dd7e02-19b6-4a57-8d3f-3c35bcfeb481.png",
@@ -2528,11 +2515,6 @@
     "i": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-10/12.%20Robert%20Ryman%20The%20Real%20Thing%2C%20Installation%20view%2C%20Barbican%20Art%20Gallery.%20%28c%29%20Thomas%20Adank%20and%20Barbican%20Centre.jpg.avif?itok=yKNcw8SV",
     "at": "2026-11-06"
   },
-  "https://www.barbican.org.uk/whats-on/2026/event/ryman-in-rhythm-sarathy-korwar": {
-    "d": "Join us for this intimate performance in the gallery by percussionist Sarathy Korwar as he responds to the work of Robert Ryman.",
-    "i": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-09/Sarathy_8%20by%20Keerthana%20Kunnath%20%281%29.png.avif?itok=sPyJOcg8",
-    "at": "2026-11-07"
-  },
   "https://www.barbican.org.uk/whats-on/2026/event/ryman-in-rhythm-tyroneisaacstuart": {
     "d": "Join us for this intimate performance in the gallery by interdisciplinary and movement artist tyroneisaacstuart as he responds to the work of Robert Ryman.",
     "i": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-09/Half%20Body%20by%20Eike.png.avif?itok=_yXKyDis",
@@ -2617,6 +2599,11 @@
     "d": "Obsession, in all its enveloping and all-encompassing forms, is explored by La Tempête in this towering performance of light, music and movement.",
     "i": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-03/OBSESSION_%28c%29%20Fran%C3%A7ois%20le%20Guen%204.jpg.avif?itok=63s5nVqy",
     "at": "2026-11-08"
+  },
+  "https://www.barbican.org.uk/whats-on/2027/event/dayanita-singh": {
+    "d": "The photographer transforms The Curve into a shifting landscape of images, reflecting the impact of Indian classical music on her pioneering artistic practice.",
+    "i": "https://www.barbican.org.uk/sites/default/files/styles/large/public/images/2026-09/Ustad%20Museum.jpg.avif?itok=FjBvGXdn",
+    "at": "2026-11-19"
   },
   "https://www.barbican.org.uk/whats-on/2027/event/death-note-the-musical": {
     "d": "Based on the iconic Japanese manga phenomenon, this ★★★★★, 'exhilarating' (The Stage) new musical is on 'a whole other level' (The Guardian).",
@@ -2749,11 +2736,6 @@
     "i": "https://www.conwayhall.org.uk/wp-content/uploads/2026/07/AI-and-Online-Disinformation-400x400.jpeg",
     "at": "2026-11-17"
   },
-  "https://www.conwayhall.org.uk/whats-on/event/edward-lloyd/": {
-    "d": "In a new collaborative series with the Royal Northern College of Music celebrating emerging artists, pianist Edward Lloyd performs one of Franz Liszt's most visionary, mystical cycles.",
-    "i": "https://www.conwayhall.org.uk/wp-content/uploads/2026/08/Edward-Lloyd-c-Dik-Ng-WORDPRESS-400x400.jpg",
-    "at": "2026-11-09"
-  },
   "https://www.conwayhall.org.uk/whats-on/event/neurodiversity-and-performance/": {
     "d": "Neurodivergent people create and perform. It could be our over-active minds, a need to carve out our own niche in the world, or a need to express ourselves in a world that doesn’t get us. Join multidisciplinary artist The Mollusc Dimension discussing his creative practice.",
     "i": "https://www.conwayhall.org.uk/wp-content/uploads/2026/07/UnMasked-Neurodiversity-and-Performance-400x400.jpg",
@@ -2763,11 +2745,6 @@
     "d": "This year, The Haunted Landscape , our annual folklore all-dayer, delves into the realms of magic fairies and old gods. We will entertain the Great God Pan with Professor Ronald Hutton and Sara Hannant , discover witch trials with Marion Gibson and walk Britain's haunted lands…",
     "i": "https://www.conwayhall.org.uk/wp-content/uploads/2026/07/Haunted-Landscape-Magic-Fairies-and-Old-Gods-400x400.jpg",
     "at": "2026-11-10"
-  },
-  "https://www.conwayhall.org.uk/whats-on/event/why-pubs-matter/": {
-    "d": "Pubs are an essential part of British culture in all its forms - they grow the social roots for communities and provide safe spaces for groups and gatherings. Join sociologist Amit Singh and pub artist Lydia Wood as they discuss the need to recognise the importance of our pubs…",
-    "i": "https://www.conwayhall.org.uk/wp-content/uploads/2026/07/Why-Pubs-Matter-400x400.png",
-    "at": "2026-11-06"
   },
   "https://www.conwayhall.org.uk/whats-on/event/woolf-quartet/": {
     "d": "Already earning praise for their concentrated, communicative energy, the Woolf Quartet presents a programme of vivid works.",
@@ -2831,8 +2808,8 @@
   "https://www.estorickcollection.com/events/late-thursday-26-nov": {
     "at": "2026-11-11"
   },
-  "https://www.estorickcollection.com/events/life-drawing-at-the-museum-18-november": {
-    "at": "2026-11-06"
+  "https://www.estorickcollection.com/events/life-drawing-at-the-museum-9-december": {
+    "at": "2026-11-19"
   },
   "https://www.estorickcollection.com/events/mini-marvels-early-years-sensory-play-9-december": {
     "at": "2026-11-12"
@@ -2846,8 +2823,8 @@
   "https://www.eventim.co.uk/artist/joanne-mcnally/?affiliate=HAL": {
     "at": "2026-11-17"
   },
-  "https://www.eventim.co.uk/artist/muna/muna-4154519/?affiliate=HAL": {
-    "at": "2026-11-08"
+  "https://www.eventim.co.uk/artist/shen-yun/shen-yun-2027-4209958/?affiliate=HAL": {
+    "at": "2026-11-19"
   },
   "https://www.eventim.co.uk/artist/simon-brodkin/simon-brodkin-4137064/?affiliate=HAL": {
     "at": "2026-11-16"
@@ -2869,6 +2846,9 @@
   },
   "https://www.eventim.co.uk/event/elmiene-eventim-apollo-21272078/?affiliate=HAL": {
     "at": "2026-11-15"
+  },
+  "https://www.eventim.co.uk/event/frank-carter-and-the-sex-pistols-eventim-apollo-21347120/?affiliate=HAL": {
+    "at": "2026-11-19"
   },
   "https://www.eventim.co.uk/event/hermanos-gutierrez-eventim-apollo-21736746/?affiliate=HAL": {
     "at": "2026-11-12"
@@ -2975,16 +2955,6 @@
     "i": "https://www.gresham.ac.uk/sites/default/files/styles/meta_facebook/public/teaser-override/2026-11-25_1800_Mermikides_Orig_390x230.jpg?itok=tRUPRygo",
     "at": "2026-11-12"
   },
-  "https://www.gresham.ac.uk/whats-on/speaking-othello": {
-    "d": "In this lecture, Jason Allen-Paisant brings together psychoanalytic and critical theory with lived artistic practice to rethink what it means to inhabit Shakespeare’s most charged role.",
-    "i": "https://www.gresham.ac.uk/sites/default/files/styles/meta_facebook/public/teaser-override/2026-11-18_1800_Allen-Paisant_Orig_390x230.jpg?itok=T-OA6_ZN",
-    "at": "2026-11-06"
-  },
-  "https://www.gresham.ac.uk/whats-on/transcendence-poetry": {
-    "d": "Looking at some works by Donne, Herbert, and RS Thomas, this lecture explores what it is about the poetic language and form of these ‘Metaphysical Poets’ that lends itself to the expression of the transcendent. Looking at Donne’s use of ‘sympathy’, ‘symphony’ and ‘nearnesse’ in…",
-    "i": "https://www.gresham.ac.uk/sites/default/files/styles/meta_facebook/public/teaser-override/2026-11-18_1300_Oakley_Orig_390x230.jpg?itok=5YFBeP9k",
-    "at": "2026-11-06"
-  },
   "https://www.gresham.ac.uk/whats-on/world-pain": {
     "d": "Pain is there to protect you. It stops you when your hand strays close to a flame or onto the blade of a knife. But imagine an operation or a tooth infection without painkillers.How were painkillers and anaesthetics developed and how do they work? Why might they cause addiction?…",
     "i": "https://www.gresham.ac.uk/sites/default/files/styles/meta_facebook/public/teaser-override/2026-12-03_1800_Higgins_Orig_390x230.jpg?itok=aowanl7H",
@@ -3055,11 +3025,6 @@
     "i": "https://www.horniman.ac.uk/wp-content/uploads/2023/10/Butterfly-House-exterior-summer-cchurcher.jpg",
     "at": "2026-11-06"
   },
-  "https://www.horniman.ac.uk/event/walrus-returns/": {
-    "d": "Be the first to welcome the walrus back and see our new Nature Gallery and see our exciting new displays and installations.",
-    "i": "https://www.horniman.ac.uk/wp-content/uploads/2026/10/8.-2026-09-22-walrus-return-crowdfunder-post-cchurcher-SMALL-scaled.jpg",
-    "at": "2026-11-06"
-  },
   "https://www.horniman.ac.uk/series/adult-garden-workshops/": {
     "d": "Experience nature in new ways through creativity and exploration in our Garden workshops for adults.",
     "i": "https://www.horniman.ac.uk/wp-content/uploads/2026/07/Rightsforweedspress_March_24_426.jpg",
@@ -3094,11 +3059,6 @@
     "i": "https://www.kmfa.gov.tw//ckfinder/userfiles/Images/2026%e3%80%8e%e6%97%a5%e5%b8%b8%e3%83%bb%e8%a7%a3%e7%a2%bc%e3%80%8f%e9%ba%a5%e5%8f%af%c2%b7%e5%85%8b%e9%9b%b7%e6%a0%bc%ef%bc%8d%e9%a6%ac%e4%b8%81%e7%89%b9%e5%b1%95_Banner_KMFA_1810X768(1).jpg",
     "at": "2026-11-06"
   },
-  "https://www.leicestersquaretheatre.com/show/christopher-hall-pizazz/": {
-    "d": "Showman, Jester, Attention Chaser, come with Chris on the ultimate hometown holiday night out. From your 1.5 star hotel, he’ll give you a hilariously fun soir&eacute;e and have you tucked up back in bed at a sensible time. Christopher Hall , once first on the dancefloor and last…",
-    "i": "https://www.leicestersquaretheatre.com/wp-content/uploads/2026/11/christopher-hall-pizazz_image_873660323_104832-1.jpg",
-    "at": "2026-11-06"
-  },
   "https://www.leicestersquaretheatre.com/show/harriet_kemsley_floozy/": {
     "d": "Harriet’s life has been in constant chaos for as long as she can remember. So what happens when things start to go right for the multi-award winning stand-up comedian? Following her eye opening appearance on Last One Laughing UK, Harriet is back on tour with a new show about…",
     "i": "https://www.leicestersquaretheatre.com/wp-content/uploads/2026/11/harriet-kemsley-floozy_image_873659301_91047.jpg",
@@ -3123,6 +3083,11 @@
     "d": "Michael Spicer , the online sensation who brought you the award-winning viral hit The Room Next Door, brings another hilarious and brilliantly entertaining satirical stage show packed with sketches, short films and stories about why we’re witnessing such a gigantic political and…",
     "i": "https://www.leicestersquaretheatre.com/wp-content/uploads/2026/11/michael-spicer-hope-alle28099s-well_image_873660385_105252.jpg",
     "at": "2026-11-11"
+  },
+  "https://www.leicestersquaretheatre.com/show/peter-antoniou-pretty-psychic-tour/": {
+    "d": "From amazing the judges on America’s Got Talent, to headlining in Las Vegas, to selling out shows in London's West End, Peter Antoniou’s mind reading skills have astounded audiences around the globe. Combining razor-sharp British wit with a stunning ability to know exactly what…",
+    "i": "https://www.leicestersquaretheatre.com/wp-content/uploads/2026/11/peter-antoniou-pretty-psychic-tour_image_873662146_137986.jpg",
+    "at": "2026-11-19"
   },
   "https://www.leicestersquaretheatre.com/show/simon-evans-is-staring-at-the-sun/": {
     "d": "Simon Evans is Back! Waaaay back… With growing evidence that we are living in a Computer Simulation – and a pretty glitchy, off-brand simulation at that – and the approaching watershed of the AI Singularity looming like a weirdly pixelated cumulo- nimbus on the horizon, BBC…",
@@ -3293,6 +3258,9 @@
   "https://www.pleasance.co.uk/event/andrew-doherty-work-progress": {
     "at": "2026-11-17"
   },
+  "https://www.pleasance.co.uk/event/anna-hale-show-must-go-work-progress": {
+    "at": "2026-11-19"
+  },
   "https://www.pleasance.co.uk/event/archives-crescent": {
     "at": "2026-11-07"
   },
@@ -3392,9 +3360,6 @@
   "https://www.pleasance.co.uk/event/rosie-jones-anyone-me-work-progress": {
     "at": "2026-11-18"
   },
-  "https://www.pleasance.co.uk/event/sam-coade-jazz-ruined-my-life-work-progress": {
-    "at": "2026-11-06"
-  },
   "https://www.pleasance.co.uk/event/stuart-laws-flies-audience": {
     "at": "2026-11-07"
   },
@@ -3491,35 +3456,30 @@
     "i": "https://images.prismic.io/royal-opera-house/aGz2yEMqNJQqHq0K_Swan-Lake-afternoon-tea-%C2%A92025-Eleonora-Boscarelli.jpg?auto=format%2Ccompress&rect=306%2C0%2C6652%2C4989&w=1280&h=960",
     "at": "2026-11-06"
   },
-  "https://www.rgs.org/events/upcoming-events/biogeomorphology-nature-positive-future/": {
-    "d": "Our Autumn School Member Lecture with Professor Gemma Harvey on natural processes for support nature recovery and the delivery of ecosystem services.",
-    "i": "https://www.rgs.org/media/wcifjopa/beaver-in-water.jpg?v=1dcf98d0e60c480",
-    "at": "2026-11-16"
+  "https://www.rgs.org/events/upcoming-events/alexander-gordon-laing/": {
+    "d": "Two hundred years ago, Major Alexander Gordon Laing wrote a letter from Timbuktu — ‘the first written from that place by any Christian’. This talk recounts Laing’s extraordinary, if woeful Saharan feat.",
+    "i": "https://www.rgs.org/media/yb1b5sgi/timbuktu-skyline.jpg?rxy=0.46867167919799496,0.14132553606237816&v=1dd4516809924a0",
+    "at": "2026-11-19"
   },
   "https://www.rgs.org/events/upcoming-events/breaking-the-ice-exhibition/": {
     "d": "Experience the beauty and fragility of ice through art and exploration.",
     "i": "https://www.rgs.org/media/kjvlfyrw/untitled-design.png?rxy=0.2669172932330827,0.29949874686716793&v=1dd631f1f9b7280",
     "at": "2026-11-17"
   },
-  "https://www.rgs.org/events/upcoming-events/breaking-the-ice-preview/": {
-    "d": "Experience the beauty and fragility of ice through art and exploration.",
-    "i": "https://www.rgs.org/media/kjvlfyrw/untitled-design.png?rxy=0.2669172932330827,0.29949874686716793&v=1dd631f1f9b7280",
-    "at": "2026-11-17"
+  "https://www.rgs.org/events/upcoming-events/fdea-winter-export-conference/": {
+    "d": "The FDEA in-person conference connecting exporters with experts, showcasing tools, policy insights and keynotes, supporting UK food and drink export growth.",
+    "i": "https://www.rgs.org/media/hzglp1hu/green-fruit-and-vegetables.jpg?v=1dd1083fa7eff50",
+    "at": "2026-11-19"
   },
-  "https://www.rgs.org/events/upcoming-events/educational-visits-coordinator-update-november/": {
-    "d": "Opportunity for trained educational visits coordinators to revalidate while looking at current issues and sharing good practice. Workshop on 18 November.",
-    "i": "https://www.rgs.org/media/e4egjvms/mountaineers-group-trekking-mountain.jpeg?v=1db1a56e92ad690",
-    "at": "2026-11-12"
+  "https://www.rgs.org/events/upcoming-events/future-of-british-countryside/": {
+    "d": "This year, the Campaign to Protect Rural England (CPRE) celebrates its 100th anniversary. This lecture explores some of the key moments in the history of our countryside, the wicked issues that we still need to address and looks to the future of the British countryside.",
+    "i": "https://www.rgs.org/media/0ialtigb/vale-of-pewsey-in-wiltshire-by-daniel-wretham.jpg?rxy=0.49624060150375937,0.4086605402394876&v=1dd614fb0023bf0",
+    "at": "2026-11-19"
   },
   "https://www.rgs.org/events/upcoming-events/future-of-food-competition-2026/": {
     "d": "A competition designed to inspire entrepreneurial minds to solve tomorrow’s food challenges through innovation and collaboration.",
     "i": "https://www.rgs.org/media/hzglp1hu/green-fruit-and-vegetables.jpg?v=1dd1083fa7eff50",
     "at": "2026-11-17"
-  },
-  "https://www.rgs.org/events/upcoming-events/going-further-with-arcgis-november-2026/": {
-    "d": "Intermediate-level workshop in November. For school teachers who have attended ‘Getting started with ArcGIS’ or acquired equivalent experience.",
-    "i": "https://www.rgs.org/media/ti4lv2kh/group-of-people-on-laptops-using-gis.jpeg?rxy=0.4786943009997054,0.42323487853266417&v=1db0dba28887030",
-    "at": "2026-11-13"
   },
   "https://www.richardsaltoun.com/exhibitions/163-reena-saini-kallat-elsewhere-is-already-here/": {
     "d": "Richard Saltoun Gallery presents Elsewhere is Already Here , the first solo exhibition in London by Reena Saini Kallat (b. 1973, Delhi, India), one of India's foremost contemporary artists. Working across drawing, photography, sculpture and video, Kallat's practice explores…",
@@ -3601,11 +3561,6 @@
     "i": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2023-11/Hithertones.jpg.webp?itok=LhBJiG7N",
     "at": "2026-11-18"
   },
-  "https://www.rmg.co.uk/whats-on/national-maritime-museum/moana-100": {
-    "d": "Celebrate 100 years of Moana with a special live performance and screening of the pioneering silent film",
-    "i": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2026-10/Moana_1.png.webp?itok=VSL74lXu",
-    "at": "2026-11-06"
-  },
   "https://www.rmg.co.uk/whats-on/national-maritime-museum/peglar-papers-reading-workshop": {
     "d": "Join a series of creative reading workshops focussed on a unique historic manuscript",
     "i": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2026-09/Peglar%20papers%20reading%20workshop.png.webp?itok=vfoh9BZC",
@@ -3631,15 +3586,15 @@
     "i": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2026-11/Gabriel%20Prokofiev%20-%20Jan%202025%20-%20by%20Paul%20Artemis.jpeg.webp?itok=8ruTq_W9",
     "at": "2026-11-06"
   },
+  "https://www.rmg.co.uk/whats-on/queens-house/christmas-concert-queens-house-hithertones": {
+    "d": "Join us for an evening of carols and songs, performed by local vocal ensemble, Hithertones",
+    "i": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2023-11/Hithertones%20Choir.jpg.webp?itok=ClGV4bPt",
+    "at": "2026-11-19"
+  },
   "https://www.rmg.co.uk/whats-on/queens-house/crossings-hidden-passages": {
     "d": "Join us for an afternoon of dance in the Queen's House, connecting architecture, maritime history and migration",
     "i": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2026-10/Dancers%20in%20beige%20and%20brown%20outfits%20on%20the%20Ocean%20Map.jpg.webp?itok=tMaL2p7y",
     "at": "2026-11-06"
-  },
-  "https://www.rmg.co.uk/whats-on/queens-house/lunchtime-concerts-queens-house": {
-    "d": "Enjoy musical performances in the Queen's House given by students from Trinity Laban Conservatoire of Music and Dance",
-    "i": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2022-03/T0939-005.jpg.webp?itok=dkd5H3DV",
-    "at": "2026-11-18"
   },
   "https://www.rmg.co.uk/whats-on/queens-house/queens-house-ice-rink": {
     "d": "Don't miss your chance to skate on the most beautiful outdoor ice rink in London",
@@ -3656,10 +3611,15 @@
     "i": "https://www.rmg.co.uk/sites/default/files/styles/large/public/2026-08/Queens%20House%20Santas%20Grotto%202026%20hero%201920x1080.jpg.webp?itok=cED-Zyv3",
     "at": "2026-11-06"
   },
-  "https://www.roundhouse.org.uk/whats-on/drop-in-circus-and-aerial-au26/": {
-    "d": "Take to the air and learn dynamic new skills. Try hoop, silks, acrobatics, and more at our inclusive Circus and Aerial Drop-In. All abilities welcome.",
-    "i": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Circus-and-Aerial-Skills-Drop-In.png",
-    "at": "2026-11-13"
+  "https://www.roundhouse.org.uk/whats-on/calibre/": {
+    "d": "Calibre head to the Roundhouse in Camden on 21st November 2026 for an exclusive three-hour drum & bass set. Secure tickets now for an unforgettable London show.",
+    "i": "https://assets.roundhouse.org.uk/app/uploads/2026/08/Featured-Image-2-1.png",
+    "at": "2026-11-19"
+  },
+  "https://www.roundhouse.org.uk/whats-on/drama-club-au26/": {
+    "d": "Build performance skills, explore scripts, and devise original work. Join our creative Drama Club to connect with other young actors and theatre makers.",
+    "i": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Drama-Club.png",
+    "at": "2026-11-19"
   },
   "https://www.roundhouse.org.uk/whats-on/drop-in-dj-18-25-au26/": {
     "d": "Master beatmatching, EQing, and professional decks at our weekly DJ Drop-In for ages 18–25. All skill levels are welcome – just show up and mix.",
@@ -3671,33 +3631,30 @@
     "i": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Music-Producers-Half-Term.png",
     "at": "2026-11-15"
   },
-  "https://www.roundhouse.org.uk/whats-on/drop-in-theatre-18-25-au26/": {
-    "d": "Develop your acting, try creative improv, and meet fellow performers at our Theatre Drop-In for ages 18–25. No booking required – just come along.",
-    "i": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Theatre-Drop-In-2.png",
-    "at": "2026-11-14"
-  },
   "https://www.roundhouse.org.uk/whats-on/embrace/": {
     "d": "Celebrate 30 years of Embrace live in London. Iconic Britpop with arena-sized heart. Get your tickets for November now.",
     "i": "https://assets.roundhouse.org.uk/app/uploads/2026/01/Gilberto-Gil-featured-image-1.png",
     "at": "2026-11-18"
   },
-  "https://www.roundhouse.org.uk/whats-on/fatoumata-diawara/": {
-    "d": "Experience Fatoumata Diawara live at Roundhouse, Camden on 18th November 2026. A one-off Jazz performance in an iconic London venue. Book now!",
-    "i": "https://assets.roundhouse.org.uk/app/uploads/2025/12/Featured-Image-3.png",
-    "at": "2026-11-15"
+  "https://www.roundhouse.org.uk/whats-on/performance-makers-15-17-au26/": {
+    "d": "Ready to create original live work? Mix theatre, movement, spoken word, and creative writing in this 8-week intensive for ages 15–17.",
+    "i": "https://assets.roundhouse.org.uk/app/uploads/2026/06/RH3_PJSS7333-scaled.jpg",
+    "at": "2026-11-19"
   },
-  "https://www.roundhouse.org.uk/whats-on/sml-music-industry-au26/": {
-    "d": "Hear from two music industry pro’s in this panel talk on careers in the music industry.",
-    "i": "https://assets.roundhouse.org.uk/app/uploads/2026/07/Self-Made-Live-Inside-Music-Industry.jpg",
-    "at": "2026-11-15"
+  "https://www.roundhouse.org.uk/whats-on/rr-ame-du-soleil-presents/": {
+    "d": "Celebrate Black and queer expression at this multidisciplinary takeover featuring live music, poetry and visual arts.",
+    "i": "https://assets.roundhouse.org.uk/app/uploads/2026/09/Scratch-Night-.png",
+    "at": "2026-11-19"
+  },
+  "https://www.roundhouse.org.uk/whats-on/saturday-sounds-au26/": {
+    "d": "Dive into DJing, production, or songwriting at the Roundhouse. Weekly music workshop London for ages 11–14. Just drop in for £2 a session!",
+    "i": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Saturday-Sounds.png",
+    "at": "2026-11-19"
   },
   "https://www.roundhouse.org.uk/whats-on/sound-for-film-au26/": {
     "d": "Discover the art of sound design and Foley. Learn how to mix, edit, and create immersive audio to bring cinematic stories to life on screen.",
     "i": "https://assets.roundhouse.org.uk/app/uploads/2026/06/Sound-for-Film.png",
     "at": "2026-11-12"
-  },
-  "https://www.roundhouse.org.uk/whats-on/studio-101-vocal-prod-au26/": {
-    "at": "2026-11-13"
   },
   "https://www.sadlerswells.com/whats-on/aditi-mangaldas-dance-company-within/": {
     "d": "Aditi Mangaldas Dance Company - WITHIN - Sadler's Wells Theatre",
@@ -4163,11 +4120,6 @@
     "i": "https://www.southlondongallery.org/wp-content/uploads/2026/09/IMG_7438-1-1-1024x683.jpg",
     "at": "2026-11-06"
   },
-  "https://www.southlondongallery.org/events/film-screening-south-by-south-2/": {
-    "d": "Join us for a screening of two films by Jessica Beshir, programmed by A Month of Single Frames. PROGRAMME Hairat, 2016, (7min) is a meditation on the uniquely symbiotic relationship between man and wild beast. Each night, Yussuf Mume Saleh journeys into the outskirts of the…",
-    "i": "https://www.southlondongallery.org/wp-content/uploads/2026/10/FAYA-DAYI-STILL-5-1024x576.jpg",
-    "at": "2026-11-06"
-  },
   "https://www.southlondongallery.org/events/ways-of-wellbeing-art-creative-health/": {
     "d": "Join us for a morning of discussion about the role that the arts and creative practice plays in supporting the wellbeing of children and young people. Taking Art Block, the SLG’s dedicated space for children and young people, as a starting point, the event brings together…",
     "i": "https://www.southlondongallery.org/wp-content/uploads/2026/10/AB2.jpg",
@@ -4289,10 +4241,6 @@
   "https://www.tate.org.uk/whats-on/tate-modern/julio-le-parc": {
     "i": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/Julio_Le_Parc_Instability_19591991_Lent_by_the.width-600.jpg",
     "at": "2026-11-06"
-  },
-  "https://www.tate.org.uk/whats-on/tate-modern/lgbtqia-tours-at-tate-modern": {
-    "i": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_iBdl4U2.jpg",
-    "at": "2026-11-17"
   },
   "https://www.tate.org.uk/whats-on/tate-modern/light-and-magic": {
     "i": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/Fan_Ho_Smoky_World_ID_067_Light_and_Magic.width-600.jpg",
@@ -4458,6 +4406,11 @@
     "i": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/275903/Santa-banner-updated-credits_9eed5a99b701ba360780d44a67c674dc.png",
     "at": "2026-11-06"
   },
+  "https://www.unicorntheatre.com/events/the-last-wild": {
+    "d": "An enthralling world premiere of Piers Torday's much-loved story In a future where animals no longer exist, twelve-year-old Kester lives in a silent, quara",
+    "i": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/289659/UNICORN_Last-Wild_1280x530_9eed5a99b701ba360780d44a67c674dc.png",
+    "at": "2026-11-19"
+  },
   "https://www.unicorntheatre.com/events/the-magic-callaloo": {
     "d": "Lou, Lou, wishes do come true Long ago and far away, a magic callaloo tree grew in a village square. Whoever ate one of its leaves was granted a wish. One",
     "i": "https://d1lh4fjylgqd8z.cloudfront.net/_imager/files/265874/UNICORN_The-Magic-Callaloo_1280x530_9eed5a99b701ba360780d44a67c674dc.png",
@@ -4495,6 +4448,11 @@
     "d": "Discover luxurious garments from the Najd region",
     "i": "https://vanda-production-assets.s3.amazonaws.com/2026/06/18/09/30/58/df72b52b-3d7d-4635-a8b2-c545718a67a8/golden-threads-dress-from-saudi-arabia_960.jpg",
     "at": "2026-11-06"
+  },
+  "https://www.vam.ac.uk/event/5YY5J1oNZQ/people-home-and-housing-november-2026": {
+    "d": "Guided walk from the former Robin Hood Gardens site to V&A East Storehouse",
+    "i": "https://vanda-production-assets.s3.amazonaws.com/2026/10/13/14/49/26/0a238054-39f0-499c-acfe-9747ad8867ea/people-home-and-housing-november-2026_960.jpg",
+    "at": "2026-11-19"
   },
   "https://www.vam.ac.uk/event/68nGo05wQL/lunchtime-lecture-19-november-2026": {
     "d": "This event is part of the free Lunchtime Lecture series. Booking is recommended but not essential.",
@@ -4586,11 +4544,6 @@
     "i": "https://vanda-production-assets.s3.amazonaws.com/2026/10/15/18/14/03/0908b97b-8464-4afa-9ac3-cd542129145d/the-fashion-styling-of-black-british-music-1990-2020_960.jpg",
     "at": "2026-11-14"
   },
-  "https://www.vam.ac.uk/event/gB97AJPeeX/members-welcome-tour-18-11-2026": {
-    "d": "Recently become a Member or wanting to reconnect with the museum? Join one of our free Members-only introductory tours.",
-    "i": "https://vanda-production-assets.s3.amazonaws.com/2026/09/08/15/24/32/8a5aea18-86cb-45f9-95aa-26dfa6efd101/members-welcome-tour-18-11-2026_960.jpg",
-    "at": "2026-11-11"
-  },
   "https://www.vam.ac.uk/event/gDB2DV0e4rb/sound-explorers-nov-dec-2026": {
     "d": "Free, informal session for families with children aged 0-2",
     "i": "https://vanda-production-assets.s3.amazonaws.com/2026/10/08/13/41/16/8a8cf9c5-bef4-4a64-8324-172fd5756dcb/sound-explorers-nov-dec-2026_960.jpg",
@@ -4620,6 +4573,11 @@
     "d": "A new commission for V&A East’s New Work, exploring the theme The Stories of Clothes",
     "i": "https://assets-cdn.vam.ac.uk/2017/01/24/15/11/03/0cfe3556-39ee-4335-9076-4fd09db6b736/Blind-partially-sighted-2006AX6788.jpg",
     "at": "2026-11-08"
+  },
+  "https://www.vam.ac.uk/event/MdDdmovbzgZ/lunchtime-lecture-26-november-2026": {
+    "d": "This event is part of the free Lunchtime Lecture series. Booking is recommended but not essential.",
+    "i": "https://vanda-production-assets.s3.amazonaws.com/2026/11/11/10/19/21/a5dc1a43-d696-45e6-8ac8-60e73a50793c/lunchtime-lectures-vera-molnar-and-generative-art_960.jpg",
+    "at": "2026-11-19"
   },
   "https://www.vam.ac.uk/event/nDROO4Q5lv/the-body-is-a-relic-how-the-light-gets-in-2026-2027": {
     "d": "A new commission for V&A East’s New Work, exploring the theme The Stories of Clothes",
@@ -4660,6 +4618,11 @@
     "i": "https://vanda-production-assets.s3.amazonaws.com/2026/08/24/15/53/14/20d68ba4-bc01-4703-a725-a0231ca56959/william-morris-his-gardens_960.jpg",
     "at": "2026-11-17"
   },
+  "https://www.vam.ac.uk/event/q6NX8Ob2mMz/biocolour-2026-2027": {
+    "d": "A display of work by four pioneering studios offering new ways to make colour that is safe, lasting – and vibrant.",
+    "i": "https://vanda-production-assets.s3.amazonaws.com/2026/10/27/11/38/17/df0af5b0-ca67-400b-9057-f6f9580a4daf/biocolour_960.jpg",
+    "at": "2026-11-19"
+  },
   "https://www.vam.ac.uk/event/qNX8p578x5/saodat-ismailova-melted-into-the-sun-2026-27": {
     "d": "History and myth converge in this cinematic short film",
     "i": "https://vanda-production-assets.s3.amazonaws.com/2026/07/14/16/09/42/1f25af9f-f3a9-4de3-b5fa-56e95080e7f8/saodat-ismailova-melted-into-the-sun_960.jpg",
@@ -4690,15 +4653,20 @@
     "i": "https://vanda-production-assets.s3.amazonaws.com/2026/11/03/12/18/18/e30fe12a-4739-48a0-89d5-ead67a8fafa1/test-kitchen-resisting-algorithmic-futures_960.jpg",
     "at": "2026-11-13"
   },
-  "https://www.vam.ac.uk/event/WnBAOJGN4O/members-tour-living-rooms-2": {
-    "d": "Explore four fascinating rooms in the British Galleries of the museum which reflect the changing nature of interior design from 1600-1800.",
-    "i": "https://vanda-production-assets.s3.amazonaws.com/2026/10/03/08/35/37/6c99547e-72f1-43b4-b542-d3ae3a85bcc6/members-tour-living-rooms_960.jpg",
-    "at": "2026-11-11"
+  "https://www.vam.ac.uk/event/xX1Dry0Njx/p26054-black-joy-day-the-music-is-black-nov-2026": {
+    "d": "Discover 125 years of Black music-making in Britain, where music, memory and design converge to reveal the creativity, innovation and cultural power at the heart of Black British life.",
+    "i": "https://vanda-production-assets.s3.amazonaws.com/2026/10/15/15/54/03/280b1a2f-9832-4692-a0d2-1c6aa134ab9d/black-joy-day-the-music-is-black-sounds-of-our-stories_960.jpg",
+    "at": "2026-11-19"
   },
   "https://www.vam.ac.uk/event/YdoXOPQ2YE/where-light-meets-plaster-nov-2026": {
     "d": "Join artist Mariam Ashraf to learn about the craft of carving gypsum plaster to make windows with coloured glass in the tradition of Middle Eastern architecture, and carve a small panel for yourself to take home.",
     "i": "https://vanda-production-assets.s3.amazonaws.com/2026/10/27/13/03/18/f9baf525-f2be-4c1d-ad26-955d19aee5f6/where-light-meets-plaster-islamic-art-week-watch-party-and-workshop_960.jpg",
     "at": "2026-11-12"
+  },
+  "https://www.vam.ac.uk/event/YjkdpomXamD/members-tour-donatello-and-michelangelo-13": {
+    "d": "Join V&A Guide Boe Paschall in exploring the works of Donatello and Michelangelo in the V&A's permanent collection.",
+    "i": "https://vanda-production-assets.s3.amazonaws.com/2026/10/03/09/05/19/2ed7fb57-afc7-43dd-bcbf-cdb03e1de062/members-tour-the-genius-of-renaissance-sculptors-donatello-and-michelangelo_960.jpg",
+    "at": "2026-11-19"
   },
   "https://www.vam.ac.uk/exhibitions/chintz": {
     "i": "https://assets-cdn.vam.ac.uk/2026/07/09/11/08/30/ccc957a9-8652-45b1-9d00-f31758f118c2/640.jpg",
@@ -4763,11 +4731,6 @@
     "d": "Discover the arms and armour of Renaissance Italy with the help of Armourer Emeritus, David Edge.",
     "i": "https://www.wallacecollection.org/media/images/image-702fb394-ab2a-4881-961a-c363.2e16d0ba.fill-720x720.jpg",
     "at": "2026-11-07"
-  },
-  "https://www.wallacecollection.org/whats-on/events/arms-and-armour-of-the-wallace-collection/": {
-    "d": "Uncover the remarkable history of arms and armour through one of the finest collections in the world.",
-    "i": "https://www.wallacecollection.org/media/images/image-a6eff327-432b-4394-95a0-21f2.2e16d0ba.fill-720x720.jpg",
-    "at": "2026-11-06"
   },
   "https://www.wallacecollection.org/whats-on/events/audio-described-life-drawing-eleonora-of-toledo/": {
     "d": "Join audio describer Marc Woodhead for a free life drawing session designed for people who are blind or partially sighted.",
@@ -4844,6 +4807,11 @@
     "i": "https://www.wallacecollection.org/media/images/image-43dc52bb-483b-45ef-b3bf-f72f.2e16d0ba.fill-720x720.jpg",
     "at": "2026-11-16"
   },
+  "https://www.wallacecollection.org/whats-on/events/louis-xiv-the-art-of-magnificence/": {
+    "d": "Explore the life and legacy of Louis XIV with Curator of Decorative Arts, Alexander Collins.",
+    "i": "https://www.wallacecollection.org/media/images/image-5887a69e-c81e-4172-8acb-69f1.2e16d0ba.fill-720x720.jpg",
+    "at": "2026-11-19"
+  },
   "https://www.wallacecollection.org/whats-on/events/meeting-of-the-minds-churchill-fdr-and-the-road-to-allied-victory/": {
     "d": "Listen to this lively discussion about the historical importance of Churchill's relationship with Franklin D. Roosevelt.",
     "i": "https://www.wallacecollection.org/media/images/image-8332f25e-9853-4bae-bac2-3e30.2e16d0ba.fill-720x720.jpg",
@@ -4857,11 +4825,6 @@
   "https://www.wallacecollection.org/whats-on/events/metamorphoses-s%C3%A8vres-porcelain/": {
     "d": "Join us to explore the connections between Rachel Kneebone's sculptures and works from the Wallace Collection.",
     "i": "https://www.wallacecollection.org/media/images/image-347e10ec-5afd-4c09-ba4e-3e07.2e16d0ba.fill-720x720.jpg",
-    "at": "2026-11-06"
-  },
-  "https://www.wallacecollection.org/whats-on/events/metamorphoses-the-swing/": {
-    "d": "Join us to explore the connections between Rachel Kneebone's sculptures and works from the Wallace Collection.",
-    "i": "https://www.wallacecollection.org/media/images/image-9d52d39b-98b5-46b5-86e7-56be.2e16d0ba.fill-720x720.jpg",
     "at": "2026-11-06"
   },
   "https://www.wallacecollection.org/whats-on/events/museum-detectives-festive-family-tour/": {
@@ -4912,6 +4875,16 @@
     "d": "Exhibition Preview: Tuesday 24 November 2026, 6–8pm White Cube Bermondsey will present a solo exhibition of recent paintings by Anselm Kiefer (b. 1945,…",
     "i": "https://white-cube.transforms.svdcdn.com/production/uploads/Exhibitions/Gallery-Exhibitions/Bermondsey/2026/Anselm-Kiefer/photo-credit-Waltraud-Forelli.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1784204299&s=b284a85f703d9514a3d6174d377668fe",
     "at": "2026-11-06"
+  },
+  "https://www.whitecube.com/gallery-exhibitions/harland-miller-bermondsey-2027": {
+    "d": "In early 2027, White Cube Bermondsey will present a solo exhibition of works by Harland Miller, exploring time, change and the shifting meanings of…",
+    "i": "https://white-cube.transforms.svdcdn.com/production/uploads/Exhibitions/Gallery-Exhibitions/Bermondsey/2027/Harland-Miller/Harland-Miller-Title-to-be-confirmed-Landscape-Year-to-be-confirmed_1.jpeg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1794997766&s=db56eb63a654d2622e9ba0bcbcfe2b80",
+    "at": "2026-11-19"
+  },
+  "https://www.whitecube.com/gallery-exhibitions/ibrahim-mahama-bermondsey-2027": {
+    "d": "At White Cube Bermondsey, Ibrahim Mahama will present an exhibition that extends his inquiry into the histories carried by materials. Building on the…",
+    "i": "https://white-cube.transforms.svdcdn.com/production/uploads/Exhibitions/Gallery-Exhibitions/Bermondsey/2027/Ibrahim-Mahama/Ibrahim-Mahama-%E2%80%99The-Harvest-Season%E2%80%99-Fondation-Cartier-pour-l%E2%80%99art-contemporain-Paris-22-October-2026-28-February-2027_crop-1.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1794915755&s=0e7028fbf23df6e7eac3ed54d4279d4a",
+    "at": "2026-11-19"
   },
   "https://www.whitecube.com/gallery-exhibitions/kei-imazu-masons-yard-2027": {
     "d": "In January 2027, White Cube Mason’s Yard presents Kei Imazu’s (b. 1980, Yamaguchi, Japan) first solo exhibition in the UK, bringing together oil…",
