@@ -1,0 +1,32 @@
+{
+  "https://fashiontextilemuseum.org/exhibitiondisplay-sitemap.xml": {
+    "file": "993758f0367a.html.gz",
+    "status": 200,
+    "finalUrl": "https://fashiontextilemuseum.org/exhibitiondisplay-sitemap.xml",
+    "contentType": "text/xml; charset=UTF-8"
+  },
+  "https://fashiontextilemuseum.org/exhibitionsdisplays/test-past-exhibition/": {
+    "file": "4a1fbf312f0c.html.gz",
+    "status": 200,
+    "finalUrl": "https://fashiontextilemuseum.org/exhibitionsdisplays/test-past-exhibition/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://fashiontextilemuseum.org/exhibitionsdisplays/kaffe-fassett-the-power-of-pattern/": {
+    "file": "14f08b2c5ea0.html.gz",
+    "status": 200,
+    "finalUrl": "https://fashiontextilemuseum.org/exhibitionsdisplays/kaffe-fassett-the-power-of-pattern/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://fashiontextilemuseum.org/exhibitionsdisplays/150-years-of-the-royal-school-of-needlework-crown-to-catwalk/": {
+    "file": "53fbc20eb41c.html.gz",
+    "status": 200,
+    "finalUrl": "https://fashiontextilemuseum.org/exhibitionsdisplays/150-years-of-the-royal-school-of-needlework-crown-to-catwalk/",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "https://fashiontextilemuseum.org/exhibitionsdisplays/beautiful-people-the-boutique-in-1960s-counterculture/": {
+    "file": "712027bfd6fc.html.gz",
+    "status": 200,
+    "finalUrl": "https://fashiontextilemuseum.org/exhibitionsdisplays/beautiful-people-the-boutique-in-1960s-counterculture/",
+    "contentType": "text/html; charset=UTF-8"
+  }
+}

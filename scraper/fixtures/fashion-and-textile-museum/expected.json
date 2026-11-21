@@ -1,0 +1,23 @@
+{
+  "sourceId": "fashion-and-textile-museum",
+  "recordedAt": "2026-11-21",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://fashiontextilemuseum.org/exhibitiondisplay-sitemap.xml"
+    ],
+    "linkPattern": "^https://fashiontextilemuseum\\.org/exhibitionsdisplays/[a-z0-9-]+/?$",
+    "maxLinks": 60,
+    "cacheDays": 7,
+    "detail": {
+      "title": "h1",
+      "dates": "div.banner-icon-message > div.message"
+    }
+  },
+  "rawCount": 4,
+  "events": []
+}

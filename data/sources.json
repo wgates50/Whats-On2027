@@ -1,5 +1,25 @@
 [
   {
+    "id": "fashion-and-textile-museum",
+    "name": "Fashion and Textile Museum",
+    "enabled": true,
+    "venueId": "fashion-and-textile-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://fashiontextilemuseum.org/exhibitiondisplay-sitemap.xml"
+      ],
+      "linkPattern": "^https://fashiontextilemuseum\\.org/exhibitionsdisplays/[a-z0-9-]+/?$",
+      "maxLinks": 60,
+      "cacheDays": 7,
+      "detail": {
+        "title": "h1",
+        "dates": "div.banner-icon-message > div.message"
+      }
+    },
+    "notes": "Exhibitions from the sitemap (the listing page draws them from a script); dates from each page banner. Added 2026-11-21."
+  },
+  {
     "id": "official-london-theatre",
     "name": "Official London Theatre (West End & beyond)",
     "enabled": false,
@@ -974,14 +994,15 @@
     "adapter": {
       "type": "pages",
       "listUrls": [
-        "https://gazelliarthouse.com/"
+        "https://gazelliarthouse.com/exhibitions/current-forthcoming/"
       ],
       "cards": {
-        "item": "div.inner",
-        "dates": "span.date"
+        "item": "a:has(span.date):not(:has(span.location:not(:contains('London'))))",
+        "dates": "span.date",
+        "title": "h2"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Exhibitions page (current & forthcoming); cards naming another city (New York, Baku) are skipped. Updated 2026-11-21 after the homepage changed."
   },
   {
     "id": "goodman-gallery-london",
