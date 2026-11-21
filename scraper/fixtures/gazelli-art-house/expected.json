@@ -1,6 +1,6 @@
 {
   "sourceId": "gazelli-art-house",
-  "recordedAt": "2026-11-02",
+  "recordedAt": "2026-11-21",
   "limits": {
     "maxPages": 1,
     "maxLinks": 4
@@ -8,62 +8,54 @@
   "adapter": {
     "type": "pages",
     "listUrls": [
-      "https://gazelliarthouse.com/"
+      "https://gazelliarthouse.com/exhibitions/current-forthcoming/"
     ],
     "cards": {
-      "item": "div.inner",
-      "dates": "span.date"
+      "item": "a:has(span.date):not(:has(span.location:not(:contains('London'))))",
+      "dates": "span.date",
+      "title": "h2"
     }
   },
-  "rawCount": 5,
+  "rawCount": 3,
   "events": [
     {
-      "id": "gazelli-art-house:exhibitions-216-in-town-tonight-allen-jones",
+      "id": "gazelli-art-house:exhibitions-216-allen-jones-in-town-tonight-solo-show",
       "venueId": "gazelli-art-house",
       "sourceId": "gazelli-art-house",
-      "title": "Allen Jones : In Town Tonight",
-      "url": "https://gazelliarthouse.com/exhibitions/216-in-town-tonight-allen-jones/",
+      "title": "Allen Jones: In Town Tonight",
+      "url": "https://gazelliarthouse.com/exhibitions/216-allen-jones-in-town-tonight-solo-show/",
       "type": "exhibition",
       "category": "exhibitions",
-      "startDate": null,
+      "startDate": "2026-10-12",
       "endDate": "2026-12-18",
-      "firstSeen": "2026-11-02"
+      "firstSeen": "2026-11-21",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite3047/usr/images/exhibitions/main_image_override/216/dsc_2843-updated.jpg"
     },
     {
-      "id": "gazelli-art-house:exhibitions-215-everything-folds-unfolds-refolds-group-show",
+      "id": "gazelli-art-house:exhibitions-220-project-space-lily-bunney-solo-show",
       "venueId": "gazelli-art-house",
       "sourceId": "gazelli-art-house",
-      "title": "Group Show : Everything Folds, Unfolds, Refolds",
-      "url": "https://gazelliarthouse.com/exhibitions/215-everything-folds-unfolds-refolds-group-show/",
+      "title": "Project Space: Lily Bunney",
+      "url": "https://gazelliarthouse.com/exhibitions/220-project-space-lily-bunney-solo-show/",
       "type": "exhibition",
       "category": "exhibitions",
-      "startDate": null,
-      "endDate": "2026-12-20",
-      "firstSeen": "2026-11-02"
+      "startDate": "2026-11-17",
+      "endDate": "2026-12-18",
+      "firstSeen": "2026-11-21",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite3047/usr/images/exhibitions/main_image_override/220/dsc_3343.jpg"
     },
     {
-      "id": "gazelli-art-house:exhibitions-219-harold-cohen-painting-about-representation-1962-71-solo-show",
+      "id": "gazelli-art-house:exhibitions-223-ai-then-now-group-show",
       "venueId": "gazelli-art-house",
       "sourceId": "gazelli-art-house",
-      "title": "Harold Cohen : Painting About Representation (1962–71)",
-      "url": "https://gazelliarthouse.com/exhibitions/219-harold-cohen-painting-about-representation-1962-71-solo-show/",
+      "title": "AI Then & Now",
+      "url": "https://gazelliarthouse.com/exhibitions/223-ai-then-now-group-show/",
       "type": "exhibition",
       "category": "exhibitions",
-      "startDate": "2026-11-12",
-      "endDate": "2027-01-09",
-      "firstSeen": "2026-11-02"
-    },
-    {
-      "id": "gazelli-art-house:exhibitions-217-dominic-myatt-scree-slope-solo-show",
-      "venueId": "gazelli-art-house",
-      "sourceId": "gazelli-art-house",
-      "title": "Dominic Myatt : Scree Slope",
-      "url": "https://gazelliarthouse.com/exhibitions/217-dominic-myatt-scree-slope-solo-show/",
-      "type": "exhibition",
-      "category": "exhibitions",
-      "startDate": null,
-      "endDate": "2026-11-07",
-      "firstSeen": "2026-11-02"
+      "startDate": "2027-01-15",
+      "endDate": "2027-02-27",
+      "firstSeen": "2026-11-21",
+      "image": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite3047/usr/images/exhibitions/main_image_override/223/261030-ai-web-logo-png2-2-.png"
     }
   ]
 }

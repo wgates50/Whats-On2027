@@ -974,14 +974,15 @@
     "adapter": {
       "type": "pages",
       "listUrls": [
-        "https://gazelliarthouse.com/"
+        "https://gazelliarthouse.com/exhibitions/current-forthcoming/"
       ],
       "cards": {
-        "item": "div.inner",
-        "dates": "span.date"
+        "item": "a:has(span.date):not(:has(span.location:not(:contains('London'))))",
+        "dates": "span.date",
+        "title": "h2"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Exhibitions page (current & forthcoming); cards naming another city (New York, Baku) are skipped. Updated 2026-11-21 after the homepage changed."
   },
   {
     "id": "goodman-gallery-london",
