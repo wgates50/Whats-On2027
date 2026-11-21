@@ -409,10 +409,10 @@
     "name": "Guildhall Art Gallery",
     "kind": "public-gallery",
     "area": "City",
-    "website": "https://www.cityoflondon.gov.uk/things-to-do/guildhall-galleries",
+    "website": "https://www.cityoflondon.gov.uk/things-to-do/attractions-museums-entertainment/guildhall-art-gallery",
     "lat": 51.51551,
     "lng": -0.09141,
-    "notes": "Website URL 404s — find the current Guildhall Art Gallery what's-on page."
+    "notes": "Probed 2026-11-21: what’s-on pages are a script app (dates only in window.REDUX_DATA), so no config source; Art Fund covers its exhibitions."
   },
   {
     "id": "william-morris-gallery",
