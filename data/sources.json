@@ -1,5 +1,25 @@
 [
   {
+    "id": "fashion-and-textile-museum",
+    "name": "Fashion and Textile Museum",
+    "enabled": true,
+    "venueId": "fashion-and-textile-museum",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://fashiontextilemuseum.org/exhibitiondisplay-sitemap.xml"
+      ],
+      "linkPattern": "^https://fashiontextilemuseum\\.org/exhibitionsdisplays/[a-z0-9-]+/?$",
+      "maxLinks": 60,
+      "cacheDays": 7,
+      "detail": {
+        "title": "h1",
+        "dates": "div.banner-icon-message > div.message"
+      }
+    },
+    "notes": "Exhibitions from the sitemap (the listing page draws them from a script); dates from each page banner. Added 2026-11-21."
+  },
+  {
     "id": "official-london-theatre",
     "name": "Official London Theatre (West End & beyond)",
     "enabled": false,

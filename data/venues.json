@@ -471,7 +471,7 @@
     "name": "Fashion and Textile Museum",
     "kind": "museum",
     "area": "Bermondsey",
-    "website": "https://www.fashiontextilemuseum.org",
+    "website": "https://fashiontextilemuseum.org/",
     "lat": 51.50119,
     "lng": -0.08167,
     "notes": "Website didn't respond to the setup environment's network; retry from GitHub Actions (npm run probe -- <id>)."
