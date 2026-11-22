@@ -515,7 +515,7 @@
     "website": "https://www.quentinblakecentre.org",
     "lat": 51.52859,
     "lng": -0.10764,
-    "notes": "Website didn't respond to the setup environment's network; retry from GitHub Actions (npm run probe -- <id>)."
+    "notes": "Probed 2026-11-22: site still not reachable from the maintenance session (connection failed); retry from GitHub Actions (npm run probe -- <id>)."
   },
   {
     "id": "garden-museum",
@@ -533,7 +533,8 @@
     "area": "Notting Hill",
     "website": "https://www.museumofbrands.com",
     "lat": 51.51625,
-    "lng": -0.21117
+    "lng": -0.21117,
+    "notes": "Probed 2026-11-22: no listing page (/whats-on/ redirects to the homepage; card dates are post dates, not run dates)."
   },
   {
     "id": "leighton-house",
