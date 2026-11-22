@@ -95,7 +95,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2021/04/01/for-king-and-country-wwi-exhibition": {
    "raw": {
@@ -127,7 +127,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2023/02/20/natural-history-prints": {
    "raw": {
@@ -335,7 +335,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2025/05/30/art-of-the-possible": {
    "raw": {
@@ -383,7 +383,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2025/07/11/viking-north": {
    "raw": {
@@ -415,7 +415,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2025/09/16/guarding-the-coast-200-years-of-hm-coastguard": {
    "raw": {
@@ -479,7 +479,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2025/11/18/healing-spaces-healthcare-design-past-present-and-future": {
    "raw": {
@@ -545,22 +545,6 @@
    },
    "at": "2026-11-16"
   },
-  "https://www.artfund.org/explore/exhibitions/2026/02/12/inside-aardman-wallace-and-gromit-and-friends": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/02/12/inside-aardman-wallace-and-gromit-and-friends",
-    "title": "Inside Aardman: Wallace & Gromit and Friends",
-    "dates": {
-     "startDate": "2026-02-12",
-     "endDate": null
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/97A151F0-9869-49C1-952DDBB71EC4F291/b2b1f607c19f7078d957c2ca6637c6cd-md.jpg",
-    "description": "Discover 50 years of stop-motion animation from an iconic studio.",
-    "venueName": "Young V&A, Bethnal Green",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-14"
-  },
   "https://www.artfund.org/explore/exhibitions/2026/02/13/horrible-science-cosmic-chaos": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/02/13/horrible-science-cosmic-chaos",
@@ -575,7 +559,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/02/14/the-jolly-postman": {
    "raw": {
@@ -607,7 +591,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/02/18/club-culture-cumbria": {
    "raw": {
@@ -639,7 +623,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/02/26/revolution-revelation-reinforcement-queer-legacies-in-sheffields-art-collection": {
    "raw": {
@@ -671,7 +655,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/03/17/truth-or-folly": {
    "raw": {
@@ -895,7 +879,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/04/01/under-the-frame": {
    "raw": {
@@ -1135,7 +1119,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/05/21/the-art-of-wallpaper-morris-co": {
    "raw": {
@@ -1343,7 +1327,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/06/25/frida-the-making-of-an-icon": {
    "raw": {
@@ -1535,7 +1519,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/18/costume-couture-sixty-years-of-cosprop": {
    "raw": {
@@ -1599,7 +1583,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/07/18/timeless-treasures": {
    "raw": {
@@ -1743,7 +1727,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/08/19/40-objects-40-years": {
    "raw": {
@@ -1759,7 +1743,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/08/22/some-old-some-new-keith-cummings": {
    "raw": {
@@ -1791,7 +1775,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/02/harrow-unearthed-a-litter-legacy": {
    "raw": {
@@ -2031,7 +2015,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/13/potters-potteries-pagans-the-history-of-roman-harrow": {
    "raw": {
@@ -2223,7 +2207,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/19/horrockses-fashions-everyday-glamour-the-art-of-british-ready-to-wear": {
    "raw": {
@@ -2319,7 +2303,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/19/the-harley-open-2026": {
    "raw": {
@@ -2415,7 +2399,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/25/richard-slee-sunlit-uplands-and-withdrawing-rooms": {
    "raw": {
@@ -2479,7 +2463,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/26/laura-knight-the-art-of-community": {
    "raw": {
@@ -2559,7 +2543,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/09/30/balraj-khanna-lines-of-flight": {
    "raw": {
@@ -2591,7 +2575,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/01/korea": {
    "raw": {
@@ -2671,7 +2655,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/02/painting-the-french-riviera": {
    "raw": {
@@ -2719,7 +2703,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/03/dressing-up-fashion-and-nightlife-in-eighteenth-century-hampshire": {
    "raw": {
@@ -2735,7 +2719,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/03/earthly-paradise-william-morris-gallery": {
    "raw": {
@@ -2751,7 +2735,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/03/green-spaces-shared-places": {
    "raw": {
@@ -3279,7 +3263,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/14/william-eggleston-all-that-goes-unnoticed": {
    "raw": {
@@ -3311,7 +3295,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/16/2026-young-artist-open-exhibition": {
    "raw": {
@@ -3441,6 +3425,22 @@
    },
    "at": "2026-11-18"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/10/17/a-formidable-force": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/10/17/a-formidable-force",
+    "title": "A Formidable Force",
+    "dates": {
+     "startDate": "2026-10-17",
+     "endDate": "2027-02-14"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/6f03b500-91ce-4793-b72f-8e6f9ebdeb2c/8f11db08cd8586d49f5783aa16e67eb8-md.jpg",
+    "description": "Water as inspiration in art.",
+    "venueName": "Lancaster Maritime Museum, Lancaster",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-22"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/10/17/dressed-for-duty-fashion-function-and-the-british-army-1800-2026": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/10/17/dressed-for-duty-fashion-function-and-the-british-army-1800-2026",
@@ -3535,7 +3535,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/20/art-unpacked-celebrating-new-acquisitions-since-2020": {
    "raw": {
@@ -3759,7 +3759,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/24/maggi-hambling-war-requiem": {
    "raw": {
@@ -3775,7 +3775,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/10/24/russell-mills-darkness-visible": {
    "raw": {
@@ -3999,7 +3999,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-13"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/07/peter-beard-a-walk-on-the-wild-side": {
    "raw": {
@@ -4047,7 +4047,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/07/the-genie-and-other-stories": {
    "raw": {
@@ -4319,7 +4319,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/16/phenomenal-bodies": {
    "raw": {
@@ -4385,6 +4385,22 @@
    },
    "at": "2026-11-18"
   },
+  "https://www.artfund.org/explore/exhibitions/2026/11/20/the-world-of-the-snowman": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/20/the-world-of-the-snowman",
+    "title": "The World of The Snowman™",
+    "dates": {
+     "startDate": "2026-11-20",
+     "endDate": "2027-02-28"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/fac197d8-0d08-4458-a284-cebe6d8c5827/2c88f735cb0e6c2871bc53061052abf2-md.jpg",
+    "description": "Step into the wonderful world of The Snowman™ and his friends at this enchanting family-friendly exhibition.",
+    "venueName": "Victoria Art Gallery, Bath",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-22"
+  },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/alfred-wallis-an-artists-artist": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/11/21/alfred-wallis-an-artists-artist",
@@ -4447,7 +4463,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/ida-ekblad-worlds-largest-metaphor": {
    "raw": {
@@ -4559,7 +4575,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/21/peggy-guggenheim-in-london-the-making-of-a-collector": {
    "raw": {
@@ -4640,6 +4656,22 @@
     "cancelled": false
    },
    "at": "2026-11-16"
+  },
+  "https://www.artfund.org/explore/exhibitions/2026/11/25/a-new-life": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2026/11/25/a-new-life",
+    "title": "A New Life",
+    "dates": {
+     "startDate": "2026-11-25",
+     "endDate": "2027-06-06"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/b9fdc999-bc14-4a6f-adc6-246259fa172d/8231073bad8a07af589980a97702c00b-md.jpg",
+    "description": "Artist Eveline embroiders Keats's words onto vintage linen.",
+    "venueName": "Keats House, London",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/25/peter-blake-in-the-studio": {
    "raw": {
@@ -4751,7 +4783,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/28/the-open-the-peoples-exhibition": {
    "raw": {
@@ -4910,7 +4942,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-13"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2027/01/23/carla-accardi": {
    "raw": {
@@ -5023,6 +5055,54 @@
     "cancelled": false
    },
    "at": "2026-11-15"
+  },
+  "https://www.artfund.org/explore/exhibitions/2027/02/06/enzo-camacho-ami-lien": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2027/02/06/enzo-camacho-ami-lien",
+    "title": "Enzo Camacho & Ami Lien",
+    "dates": {
+     "startDate": "2027-02-06",
+     "endDate": "2027-05-02"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/802781c1-2659-43ae-971b-e6f551d806a9/f240d588fbea29288c21797b5b7f6141-md.jpg",
+    "description": "Nottingham Contemporary is proud to present an exhibition conceived by artist duo Enzo Camacho and Ami Lien.",
+    "venueName": "Nottingham Contemporary, Nottingham",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-22"
+  },
+  "https://www.artfund.org/explore/exhibitions/2027/02/06/francisco-tun": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2027/02/06/francisco-tun",
+    "title": "Francisco Tún",
+    "dates": {
+     "startDate": "2027-02-06",
+     "endDate": "2027-05-02"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/354e3cd0-a65a-4b14-b835-42cdb7eb33b7/076fbdb5e7453cd7ff3dc30b68f6f194-md.jpg",
+    "description": "In Spring 2027 we will present the work of the late Indigenous Guatemalan artist Francisco Tún (1948–1989).",
+    "venueName": "Nottingham Contemporary, Nottingham",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-22"
+  },
+  "https://www.artfund.org/explore/exhibitions/2027/03/13/draw-with-rob-packedlunchpostit-6aff006743a71": {
+   "raw": {
+    "url": "https://www.artfund.org/explore/exhibitions/2027/03/13/draw-with-rob-packedlunchpostit-6aff006743a71",
+    "title": "Draw with Rob #PackedLunchPostIt",
+    "dates": {
+     "startDate": "2027-03-13",
+     "endDate": "2027-09-05"
+    },
+    "image": "https://d3ir5jsauc24hh.cloudfront.net/504440c9-b645-4de6-8f6a-1631936d0085/8259146c048c735cb1f064114593fcb9-md.jpg",
+    "description": "Step into a world of imagination, creativity, storytelling and love with bestselling author and illustrator Rob Biddulph.",
+    "venueName": "Heath Robinson Museum, Pinner",
+    "schemaType": "Event",
+    "cancelled": false
+   },
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2027/03/20/tulip-fever-art-culture-and-a-global-obsession": {
    "raw": {
@@ -5182,7 +5262,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2027/05/29/powering-the-post-the-hidden-world-of-postal-engineering": {
    "raw": {
@@ -5230,7 +5310,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2027/06/26/making-her-mark-kirkcaldy-galleries": {
    "raw": {
@@ -5246,7 +5326,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://www.artfund.org/explore/exhibitions/2027/09/01/sean-scully-nature-never-sleeps": {
    "raw": {

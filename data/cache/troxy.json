@@ -116,7 +116,7 @@
     "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
     "description": "This is The New Alternative: a new genre for the 21st century. More specifically: a new genre for music?s optimized VC-funded super deluxe remixed AI-enhanced algorithmically perfected wild west 2020s, where a million streams is great, a billion even better, and a trillion well…"
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://troxy.co.uk/event/dnb-allstars-nye-london": {
    "raw": {
@@ -206,7 +206,7 @@
     "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
     "description": "Named after a 9th century Indian saint and poet king, Kula Shaker seemed to have always existed in an alternate reality. Emerging in the midst of Britpop’s lad-culture swagger and retrograde cool, Kula Shaker appeared like a luminous anomaly flooded with Sanskrit and…"
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   },
   "https://troxy.co.uk/event/madra-salach": {
    "raw": {
@@ -286,19 +286,6 @@
    },
    "at": "2026-11-18"
   },
-  "https://troxy.co.uk/event/richie-campbell": {
-   "raw": {
-    "url": "https://troxy.co.uk/event/richie-campbell/",
-    "title": "Richie Campbell",
-    "dates": {
-     "startDate": "2026-11-21",
-     "endDate": null
-    },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
-    "description": "Multi-platinum singer/songwriter Richie Campbell is one of Portugal?s top musical artists and the country?s biggest musical export of the past decade. His distinctive sound fuses R&B, Reggae, and Dancehall into something truly unique and a reflection of Lisbon?s vibrant cultural…"
-   },
-   "at": "2026-11-15"
-  },
   "https://troxy.co.uk/event/story-warz": {
    "raw": {
     "url": "https://troxy.co.uk/event/story-warz/",
@@ -362,7 +349,7 @@
     "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
     "description": "thrown is a Swedish hardcore/metalcore band from Stockholm, featuring vocalist Marcus Lundqvist, guitarists Johan Liljeblad and Andreas Malm, and drummer/producer Buster Odeholm. The band debuted in 2022 with their EP Extended Pain, followed by their debut full-length album…"
    },
-   "at": "2026-11-12"
+   "at": "2026-11-22"
   }
  }
 }
