@@ -561,7 +561,8 @@
     "area": "Holborn",
     "website": "https://hunterianmuseum.org",
     "lat": 51.51528,
-    "lng": -0.11587
+    "lng": -0.11587,
+    "notes": "Probed 2026-11-23: /whats-on/events cards (li.card, div.col-span-4.border-t > p) give only ~2 dated events; exhibitions have no dates. Not worth a source yet."
   },
   {
     "id": "bank-of-england-museum",
@@ -570,7 +571,8 @@
     "area": "City",
     "website": "https://www.bankofengland.co.uk/museum",
     "lat": 51.5142,
-    "lng": -0.08768
+    "lng": -0.08768,
+    "notes": "Probed 2026-11-23: listing has no dates; exhibition pages give free-text runs (\"When: Monday 14 September until Spring 2028\", misread as 2027) or none, so no reliable config. Permanent displays mostly."
   },
   {
     "id": "science-gallery-london",
