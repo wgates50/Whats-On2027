@@ -447,7 +447,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-13"
+   "at": "2026-11-23"
   },
   "https://www.artfund.org/explore/exhibitions/2025/11/01/beyond-the-visual-blindness-and-expanded-sculpture": {
    "raw": {
@@ -1953,22 +1953,6 @@
    },
    "at": "2026-11-20"
   },
-  "https://www.artfund.org/explore/exhibitions/2026/09/11/drawing-together-the-bath-academy-of-art-at-corsham": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/09/11/drawing-together-the-bath-academy-of-art-at-corsham",
-    "title": "Drawing Together: The Bath Academy of Art at Corsham",
-    "dates": {
-     "startDate": "2026-09-11",
-     "endDate": "2026-11-21"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/fa91d8a6-dd83-4039-bd89-baf57ed9c049/ce32923b3b41ae90b30c734bebd75a01-md.jpg",
-    "description": "An exhibition exploring the Bath Academy of Art at Corsham",
-    "venueName": "Young Gallery Salisbury, Salisbury",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-16"
-  },
   "https://www.artfund.org/explore/exhibitions/2026/09/12/173-annual-open-exhibition": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/09/12/173-annual-open-exhibition",
@@ -2497,22 +2481,6 @@
    },
    "at": "2026-11-16"
   },
-  "https://www.artfund.org/explore/exhibitions/2026/09/26/paula-rego-visions-of-english-literature": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/09/26/paula-rego-visions-of-english-literature",
-    "title": "Paula Rego: Visions of English Literature",
-    "dates": {
-     "startDate": "2026-09-26",
-     "endDate": "2026-11-21"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/5daeb8d5-4bd5-4bdf-9e93-fce5b007f5b4/dafe008a5b42d9906f3f1ee772c6e28e-md.jpg",
-    "description": "Explore the extraordinary imagination of one of the great artists, printmakers and storytellers of our time.",
-    "venueName": "Rugby Art Gallery and Museum, Rugby",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-20"
-  },
   "https://www.artfund.org/explore/exhibitions/2026/09/26/the-art-of-roller-skating-by-debby-besford": {
    "raw": {
     "url": "https://www.artfund.org/explore/exhibitions/2026/09/26/the-art-of-roller-skating-by-debby-besford",
@@ -2828,22 +2796,6 @@
     "image": "https://d3ir5jsauc24hh.cloudfront.net/6e83847a-dc0b-4bf7-a85f-9331ee46bfe3/da3134e69e3efb27f3256341ce57b3f8-md.png",
     "description": "A lovingly curated selection of UK designer-makers representing the best in contemporary craft, for collecting & gift-giving.",
     "venueName": "Craft Leeds, Leeds",
-    "schemaType": "Event",
-    "cancelled": false
-   },
-   "at": "2026-11-14"
-  },
-  "https://www.artfund.org/explore/exhibitions/2026/10/03/whats-in-store": {
-   "raw": {
-    "url": "https://www.artfund.org/explore/exhibitions/2026/10/03/whats-in-store",
-    "title": "What's in Store",
-    "dates": {
-     "startDate": "2026-10-03",
-     "endDate": "2026-11-21"
-    },
-    "image": "https://d3ir5jsauc24hh.cloudfront.net/23c5a851-057f-4aaa-9df9-5bdf13e891ef/eec819050aa7b8b19bf89cbc5ad4d175-md.jpg",
-    "description": "An opportunity to see recent additions to the Chippenham Museum collection on display for the first time.",
-    "venueName": "Chippenham Museum, Chippenham",
     "schemaType": "Event",
     "cancelled": false
    },
@@ -4271,7 +4223,7 @@
     "schemaType": "Event",
     "cancelled": false
    },
-   "at": "2026-11-15"
+   "at": "2026-11-23"
   },
   "https://www.artfund.org/explore/exhibitions/2026/11/14/people-watching": {
    "raw": {
