@@ -74,10 +74,10 @@
      "startDate": "2026-12-12",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
     "description": "COCK SPARRER will celebrate their 55th anniversary in 2027. So on the eve of that amazing milestone they return to their native East End of London on 12th Dec 2026 for an East End Christmas knees up to get everyone in the party mood! This year will see the band headline…"
    },
-   "at": "2026-11-13"
+   "at": "2026-11-24"
   },
   "https://troxy.co.uk/event/comedy-queens-4": {
    "raw": {
@@ -130,6 +130,19 @@
     "description": "9pm-4am. Last Entry: 11pm. London, it’s time. DnB Allstars returns for the biggest night of the year, back in the capital, inside one of the best venues in the UK. Troxy is fresh off a full refurb and we’re taking over its huge main room for New Year’s Eve. Full production, one…"
    },
    "at": "2026-11-18"
+  },
+  "https://troxy.co.uk/event/duman": {
+   "raw": {
+    "url": "https://troxy.co.uk/event/duman/",
+    "title": "Duman",
+    "dates": {
+     "startDate": "2027-04-16",
+     "endDate": null
+    },
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
+    "description": "Following their sold-out London show last year, legendary Turkish rock band DUMAN are returning to London for another unforgettable night! Catch them live at Troxy on 16 April 2027. Formed in Istanbul in 1999, DUMAN have become one of the most iconic names in Turkish rock. From…"
+   },
+   "at": "2026-11-24"
   },
   "https://troxy.co.uk/event/georgian-national-ballet-sukhishvili": {
    "raw": {
@@ -191,9 +204,9 @@
      "startDate": "2026-12-06",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png"
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png"
    },
-   "at": "2026-11-11"
+   "at": "2026-11-24"
   },
   "https://troxy.co.uk/event/kula-shaker": {
    "raw": {
@@ -229,10 +242,10 @@
      "startDate": "2027-03-10",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
-    "description": "Malte Marten is one of Europe’s most renowned handpan musicians, celebrated for his positive energy and virtuoso playing. He has built a global audience organically and reaches millions of listeners every month. His music is often described as deeply healing, revealing the…"
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
+    "description": "This March, handpan artist Malte Marten brings his trio to Troxy for a special evening in London. Joined by percussionist Conrado Molina and multi-instrumentalist Bummela, he creates an intimate concert experience built around the resonant sound of the handpan. Malte Marten?s…"
    },
-   "at": "2026-11-13"
+   "at": "2026-11-24"
   },
   "https://troxy.co.uk/event/meute": {
    "raw": {
@@ -286,6 +299,19 @@
    },
    "at": "2026-11-18"
   },
+  "https://troxy.co.uk/event/purple-disco-machine": {
+   "raw": {
+    "url": "https://troxy.co.uk/event/purple-disco-machine/",
+    "title": "Purple Disco Machine",
+    "dates": {
+     "startDate": "2027-11-20",
+     "endDate": null
+    },
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
+    "description": "Purple Disco Machine returns. Fresh off the back of a string of sold out performances across the capital, and a headline show at Magazine Open?Air this summer, the undisputed king of contemporary disco lands in London once again. In Autumn 2027, his live COSMOTROPIA tour takes…"
+   },
+   "at": "2026-11-24"
+  },
   "https://troxy.co.uk/event/story-warz": {
    "raw": {
     "url": "https://troxy.co.uk/event/story-warz/",
@@ -294,10 +320,10 @@
      "startDate": "2027-06-03",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
     "description": "Welcome to Story Warz: A Game of Deceptive Storytelling! Comedians Big Jay Oakerson & Luis J. Gomez face off with some of the biggest names in comedy and entertainment for this hilarious game of wits and deception that can only be won by a true Story Warrior!"
    },
-   "at": "2026-11-13"
+   "at": "2026-11-24"
   },
   "https://troxy.co.uk/event/sylvan-esso": {
    "raw": {
