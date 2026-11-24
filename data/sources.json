@@ -1,5 +1,23 @@
 [
   {
+    "id": "ben-uri-gallery",
+    "name": "Ben Uri Gallery",
+    "enabled": true,
+    "venueId": "ben-uri-gallery",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://benuri.org/exhibitions/"
+      ],
+      "cards": {
+        "item": "li a:has(> div.content > span.date:contains('20'))",
+        "dates": "span.date",
+        "title": "h2"
+      }
+    },
+    "notes": "Exhibitions listing (Artlogic cards). Added 2026-11-24."
+  },
+  {
     "id": "fashion-and-textile-museum",
     "name": "Fashion and Textile Museum",
     "enabled": true,

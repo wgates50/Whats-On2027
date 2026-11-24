@@ -1,0 +1,35 @@
+{
+  "sourceId": "ben-uri-gallery",
+  "recordedAt": "2026-11-24",
+  "limits": {
+    "maxPages": 1,
+    "maxLinks": 4
+  },
+  "adapter": {
+    "type": "pages",
+    "listUrls": [
+      "https://benuri.org/exhibitions/"
+    ],
+    "cards": {
+      "item": "li a:has(> div.content > span.date:contains('20'))",
+      "dates": "span.date",
+      "title": "h2"
+    }
+  },
+  "rawCount": 16,
+  "events": [
+    {
+      "id": "ben-uri-gallery:106-the-abbey-art-centre-as-postwar-refuge-194656-overview",
+      "venueId": "ben-uri-gallery",
+      "sourceId": "ben-uri-gallery",
+      "title": "The Abbey Art Centre as Postwar Refuge: 1946–56",
+      "url": "https://benuri.org/exhibitions/106-the-abbey-art-centre-as-postwar-refuge-194656/overview/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-10-07",
+      "endDate": "2026-12-18",
+      "firstSeen": "2026-11-24",
+      "image": "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-benurigallery/usr/images/exhibitions/main_image_override/106/aac-03-robert-klippel-untitled-1948.jpg"
+    }
+  ]
+}
