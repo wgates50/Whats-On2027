@@ -627,7 +627,9 @@
     "area": "Chalk Farm",
     "website": "https://www.zabludowiczcollection.com",
     "lat": 51.54602,
-    "lng": -0.15324
+    "lng": -0.15324,
+    "manualOnly": true,
+    "notes": "Checked 2026-11-25: the exhibitions archive ends at Dec 2023 and there is no what’s-on page, so the London space appears to have no current programme. manualOnly until it reopens."
   },
   {
     "id": "camden-art-centre",
@@ -679,7 +681,8 @@
     "area": "Spitalfields",
     "website": "https://www.ravenrow.org",
     "lat": 51.51887,
-    "lng": -0.05738
+    "lng": -0.05738,
+    "notes": "Probed 2026-11-25: the site is a script app (the homepage HTML has no listings), so no config source is possible."
   },
   {
     "id": "goldsmiths-cca",
