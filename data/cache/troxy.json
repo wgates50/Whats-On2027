@@ -100,10 +100,10 @@
      "startDate": "2027-02-06",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
     "description": "Experience a landmark moment as Crush 40 bring their first?and final?world tour to London. This unforgettable show celebrates the music that defined a generation, featuring fan-favourite tracks from the Sonic the Hedgehog franchise and beyond. More than just a concert, the…"
    },
-   "at": "2026-11-18"
+   "at": "2026-11-26"
   },
   "https://troxy.co.uk/event/diiv": {
    "raw": {
@@ -126,10 +126,10 @@
      "startDate": "2026-12-31",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
     "description": "9pm-4am. Last Entry: 11pm. London, it’s time. DnB Allstars returns for the biggest night of the year, back in the capital, inside one of the best venues in the UK. Troxy is fresh off a full refurb and we’re taking over its huge main room for New Year’s Eve. Full production, one…"
    },
-   "at": "2026-11-18"
+   "at": "2026-11-26"
   },
   "https://troxy.co.uk/event/duman": {
    "raw": {
@@ -152,10 +152,49 @@
      "startDate": "2027-10-07",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
     "description": "Georgian National Ballet “Sukhishvili” Comes to the UK On 7 October 2027, the world-famous Georgian National Ballet “Sukhishvili” is heading to London, where Troxy will come alive with the energy, colour and spirit of a timeless dance tradition. Admired around the world, the…"
    },
-   "at": "2026-11-14"
+   "at": "2026-11-26"
+  },
+  "https://troxy.co.uk/event/getdown-services": {
+   "raw": {
+    "url": "https://troxy.co.uk/event/getdown-services/",
+    "title": "Getdown Services",
+    "dates": {
+     "startDate": "2027-06-17",
+     "endDate": null
+    },
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
+    "description": "Getdown Services is Josh Law and Ben Sadler, who met at school in Minehead and make music at home in Bristol. Debut album Crisps came out on Breakfast Records in November 2023 and became an underground favourite, followed by the EPs Your Medal’s In The Post and Primordial Slot…"
+   },
+   "at": "2026-11-26"
+  },
+  "https://troxy.co.uk/event/getdown-services-2": {
+   "raw": {
+    "url": "https://troxy.co.uk/event/getdown-services-2/",
+    "title": "Getdown Services",
+    "dates": {
+     "startDate": "2027-06-18",
+     "endDate": null
+    },
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
+    "description": "Getdown Services is Josh Law and Ben Sadler, who met at school in Minehead and make music at home in Bristol. Debut album Crisps came out on Breakfast Records in November 2023 and became an underground favourite, followed by the EPs Your Medal’s In The Post and Primordial Slot…"
+   },
+   "at": "2026-11-26"
+  },
+  "https://troxy.co.uk/event/getdown-services-3": {
+   "raw": {
+    "url": "https://troxy.co.uk/event/getdown-services-3/",
+    "title": "Getdown Services",
+    "dates": {
+     "startDate": "2027-06-19",
+     "endDate": null
+    },
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
+    "description": "Getdown Services is Josh Law and Ben Sadler, who met at school in Minehead and make music at home in Bristol. Debut album Crisps came out on Breakfast Records in November 2023 and became an underground favourite, followed by the EPs Your Medal’s In The Post and Primordial Slot…"
+   },
+   "at": "2026-11-26"
   },
   "https://troxy.co.uk/event/hyukoh": {
    "raw": {
@@ -191,10 +230,10 @@
      "startDate": "2026-12-20",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
     "description": "Join James B Partridge for The Big Christmas Assembly 2026 – the nostalgic, feel-good festive singalong packed with more Christmas classics & throwback mashups than you can throw a glitter-glue halo at."
    },
-   "at": "2026-11-18"
+   "at": "2026-11-26"
   },
   "https://troxy.co.uk/event/kings-of-gaana": {
    "raw": {
@@ -294,10 +333,10 @@
      "startDate": "2027-06-10",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
     "description": "Osees is an American rock band formed in San Francisco, California in 1997, now based in Los Angeles, California. Originally the solo recording project of John Dwyer, the band has evolved through numerous line-up and name changes since its founding, with Dwyer serving as the…"
    },
-   "at": "2026-11-18"
+   "at": "2026-11-26"
   },
   "https://troxy.co.uk/event/purple-disco-machine": {
    "raw": {
@@ -359,10 +398,10 @@
      "startDate": "2026-12-23",
      "endDate": null
     },
-    "image": "https://troxy.co.uk/wp-content/uploads/2023/11/troxy-logo-cover.png",
+    "image": "https://troxy.lon1.digitaloceanspaces.com/wp-content/uploads/2023/11/23144941/troxy-logo-cover.png",
     "description": "This festive season, UCB brings Tchaikovsky’s timeless ballet The Nutcracker to London in a unique and visually striking production. Inspired by E.T.A. Hoffmann’s The Nutcracker and the Mouse King, the story follows Clara and the Nutcracker on an enchanting journey through a…"
    },
-   "at": "2026-11-18"
+   "at": "2026-11-26"
   },
   "https://troxy.co.uk/event/thrown": {
    "raw": {
