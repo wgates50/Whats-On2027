@@ -54,6 +54,26 @@
     "notes": "Disabled 2026-11-06: officiallondontheatre.com answers HTTP 403 to the daily scrape (refuses automated requests from GitHub servers), so per the maintenance rules we do not work around it. West End and other theatres are still covered by Ticketmaster and Skiddle. Was: Society of London Theatre listings, JSON-LD TheaterEvent on the listing page; location.title is the venue name."
   },
   {
+    "id": "sadie-coles-hq",
+    "name": "Sadie Coles HQ",
+    "enabled": true,
+    "venueId": "sadie-coles-hq",
+    "adapter": {
+      "type": "pages",
+      "listUrls": [
+        "https://www.sadiecoles.com/exhibitions"
+      ],
+      "cards": {
+        "item": "a[class*='layout-grid'], li.col-span-4 a.block.no-underline",
+        "title": "div.font-bold, div.font-medium",
+        "dates": "div[class*='text-sm'], div[class*='group-hover']",
+        "venue": "div[class*='text-sm'] > div, div[class*='group-hover'] > div"
+      }
+    },
+    "notes": "Exhibitions page: the featured current show plus the list. venueFilter keeps the three London spaces (W1/SW1 postcodes), dropping Kyoto, Amsterdam etc. Added 2026-11-26.",
+    "venueFilter": "\\b(W1[A-Z]|SW1[A-Z])\\b"
+  },
+  {
     "id": "tate-modern",
     "name": "Tate Modern",
     "enabled": true,
