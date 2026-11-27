@@ -1,6 +1,6 @@
 {
   "sourceId": "o2-shepherds-bush-empire",
-  "recordedAt": "2026-11-02",
+  "recordedAt": "2026-11-27",
   "limits": {
     "maxPages": 1,
     "maxLinks": 4
@@ -12,101 +12,167 @@
     ],
     "cards": {
       "item": "a.MuiButtonBase-root.MuiCardActionArea-root",
-      "dates": "h2.MuiTypography-root.MuiTypography-header3"
+      "dates": "small.MuiTypography-paragraph, h2.MuiTypography-header3",
+      "title": "p.MuiTypography-header4"
     }
   },
-  "rawCount": 7,
+  "rawCount": 12,
   "events": [
     {
-      "id": "o2-shepherds-bush-empire:events-the-flaming-lips-tickets-ae36",
+      "id": "o2-shepherds-bush-empire:events-love-and-comedy-tickets-ae1071958",
       "venueId": "o2-shepherds-bush-empire",
       "sourceId": "o2-shepherds-bush-empire",
-      "title": "The Flaming Lips: The Teardrop Throbs - Live",
-      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/the-flaming-lips-tickets-ae36",
+      "title": "Love & Comedy",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/love-and-comedy-tickets-ae1071958",
       "type": "show",
       "category": "shows",
-      "startDate": "2027-04-03",
+      "startDate": "2027-02-14",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://dynamicmedia.livenationinternational.com/l/q/x/97e7faa7-8229-4723-85dd-c886d256a90e.png?format=webp&width=3840&quality=75"
+      "firstSeen": "2026-11-27",
+      "image": "https://networksites.livenationinternational.com/networksites/krfjkan0/defualt-event-image-amg.jpg?format=webp&width=3840&quality=75"
     },
     {
-      "id": "o2-shepherds-bush-empire:events-d-c5-bcem-tickets-ae3363",
+      "id": "o2-shepherds-bush-empire:events-terry-reid-tribute-tickets-ae1715743",
       "venueId": "o2-shepherds-bush-empire",
       "sourceId": "o2-shepherds-bush-empire",
-      "title": "Dżem",
-      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/d%C5%BCem-tickets-ae3363",
+      "title": "Terry Reid Tribute: Seed of Memory Celebrating The Life and Music of Terry Reid",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/terry-reid-tribute-tickets-ae1715743",
       "type": "show",
       "category": "shows",
-      "startDate": "2027-10-02",
+      "startDate": "2027-02-12",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://dynamicmedia.livenationinternational.com/p/u/x/ad4bcaab-b3fa-4f60-8473-f883969bbd99.png?format=webp&width=3840&quality=75"
+      "firstSeen": "2026-11-27",
+      "image": "https://networksites.livenationinternational.com/networksites/krfjkan0/defualt-event-image-amg.jpg?format=webp&width=3840&quality=75"
     },
     {
-      "id": "o2-shepherds-bush-empire:events-jakov-jozinovic-tickets-ae1707840",
+      "id": "o2-shepherds-bush-empire:events-michael-shannon-and-jason-narducy-tickets-ae1715171",
       "venueId": "o2-shepherds-bush-empire",
       "sourceId": "o2-shepherds-bush-empire",
-      "title": "Jakov Jozinovic",
-      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/jakov-jozinovic-tickets-ae1707840",
+      "title": "Michael Shannon & Jason Narducy and Friends play R.E.M.’s ‘Document’",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/michael-shannon-and-jason-narducy-tickets-ae1715171",
       "type": "show",
       "category": "shows",
-      "startDate": "2027-02-13",
+      "startDate": "2027-11-12",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://dynamicmedia.livenationinternational.com/h/x/a/06d0e7d7-f25f-462f-b719-01a6def2cb3f.jpg?format=webp&width=3840&quality=75"
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/f/u/j/c4d97c05-12e7-4542-89f2-c4b974659ab3.png?format=webp&width=3840&quality=75"
     },
     {
-      "id": "o2-shepherds-bush-empire:events-chvrches-tickets-ae400733",
+      "id": "o2-shepherds-bush-empire:events-jodok-cello-tickets-ae1687411",
       "venueId": "o2-shepherds-bush-empire",
       "sourceId": "o2-shepherds-bush-empire",
-      "title": "CHVRCHES",
-      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/chvrches-tickets-ae400733",
+      "title": "Jodok Cello",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/jodok-cello-tickets-ae1687411",
       "type": "show",
       "category": "shows",
-      "startDate": "2027-05-07",
+      "startDate": "2027-11-03",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://dynamicmedia.livenationinternational.com/n/z/p/b0778127-e8fe-420e-a940-18439ae5c28b.jpg?format=webp&width=3840&quality=75"
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/b/l/w/81b2db35-e3b7-4e16-8897-5ac18014ad0d.jpg?format=webp&width=3840&quality=75"
     },
     {
-      "id": "o2-shepherds-bush-empire:events-the-van-morrison-alumni-band-tickets-ae1705028",
+      "id": "o2-shepherds-bush-empire:events-nish-kumar-tickets-ae795491",
       "venueId": "o2-shepherds-bush-empire",
       "sourceId": "o2-shepherds-bush-empire",
-      "title": "The Van Morrison Alumni Band Live in Concert",
-      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/the-van-morrison-alumni-band-tickets-ae1705028",
+      "title": "Nish Kumar: Angry Humour From a Really Nice Guy",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/nish-kumar-tickets-ae795491",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-27",
+      "endDate": null,
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/g/d/k/aac0edd6-2d77-4ede-9b05-d749f6579363.png?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-little-angels-tickets-ae280973",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Little Angels: Big Bad And Back Tour",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/little-angels-tickets-ae280973",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-11-28",
+      "endDate": null,
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/u/v/k/67f47d7c-9079-4cf0-b06a-50374454e2e8.png?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-peter-antoniou-tickets-ae1654510",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Peter Antoniou: Pretty Psychic Tour",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/peter-antoniou-tickets-ae1654510",
+      "type": "tour",
+      "category": "shows",
+      "startDate": "2026-12-01",
+      "endDate": null,
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/y/e/x/001752e8-da23-4a00-ae94-dd6edd7aae42.jpg?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-sviatoslav-vakarchuk-tickets-ae1608307",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Concert of SLAVA VAKARCHUK in LONDON",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/sviatoslav-vakarchuk-tickets-ae1608307",
       "type": "concert",
       "category": "shows",
-      "startDate": "2027-03-19",
+      "startDate": "2026-12-02",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://dynamicmedia.livenationinternational.com/q/a/q/0ae09ce0-5d5a-4e66-b544-403da3b0389b.jpg?format=webp&width=3840&quality=75"
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/c/g/e/fe86066a-58cd-4141-ac65-d5ea61842c38.png?format=webp&width=3840&quality=75"
     },
     {
-      "id": "o2-shepherds-bush-empire:events-rachel-chinouriri-tickets-ae1274399",
+      "id": "o2-shepherds-bush-empire:events-boys-are-back-again-tickets-ae1653379",
       "venueId": "o2-shepherds-bush-empire",
       "sourceId": "o2-shepherds-bush-empire",
-      "title": "Rachel Chinouriri",
-      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/rachel-chinouriri-tickets-ae1274399",
-      "type": "show",
+      "title": "Boys Are Back Again: East 17 with special guest Blazin’ Squad",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/boys-are-back-again-tickets-ae1653379",
+      "type": "concert",
       "category": "shows",
-      "startDate": "2027-06-03",
+      "startDate": "2026-12-03",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://dynamicmedia.livenationinternational.com/x/q/n/f9dd5ecd-27e7-4fa4-acf5-ec0d333f0721.jpg?format=webp&width=3840&quality=75"
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/b/u/c/4ad2ca9d-cc48-4eaf-9531-4b028ef862fc.jpg?format=webp&width=3840&quality=75"
     },
     {
-      "id": "o2-shepherds-bush-empire:events-sugababes-tickets-ae821",
+      "id": "o2-shepherds-bush-empire:events-dylan-moran-tickets-ae1654452",
       "venueId": "o2-shepherds-bush-empire",
       "sourceId": "o2-shepherds-bush-empire",
-      "title": "Sugababes",
-      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/sugababes-tickets-ae821",
+      "title": "Dylan Moran: Looking For Trouble",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/dylan-moran-tickets-ae1654452",
       "type": "show",
       "category": "shows",
-      "startDate": "2027-03-24",
+      "startDate": "2026-12-04",
       "endDate": null,
-      "firstSeen": "2026-11-02",
-      "image": "https://dynamicmedia.livenationinternational.com/a/u/t/6d6114d0-27d0-4029-888b-53af21675dff.jpg?format=webp&width=3840&quality=75"
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/m/n/f/ecef27a8-7bab-4d57-ab74-830a2ec8ae82.png?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-electric-six-tickets-ae741",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Electric Six",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/electric-six-tickets-ae741",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-05",
+      "endDate": null,
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/s/g/d/c78554fc-dca3-45c0-b636-95eab4c84894.jpg?format=webp&width=3840&quality=75"
+    },
+    {
+      "id": "o2-shepherds-bush-empire:events-dove-ellis-tickets-ae1465178",
+      "venueId": "o2-shepherds-bush-empire",
+      "sourceId": "o2-shepherds-bush-empire",
+      "title": "Dove Ellis",
+      "url": "https://www.academymusicgroup.com/o2shepherdsbushempire/events/dove-ellis-tickets-ae1465178",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-08",
+      "endDate": null,
+      "firstSeen": "2026-11-27",
+      "image": "https://dynamicmedia.livenationinternational.com/x/v/g/e720ff7f-0b03-4030-a641-7efa29f32939.png?format=webp&width=3840&quality=75"
     }
   ]
 }

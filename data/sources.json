@@ -2046,10 +2046,11 @@
       ],
       "cards": {
         "item": "a.MuiButtonBase-root.MuiCardActionArea-root",
-        "dates": "h2.MuiTypography-root.MuiTypography-header3"
+        "dates": "small.MuiTypography-paragraph, h2.MuiTypography-header3",
+        "title": "p.MuiTypography-header4"
       }
     },
-    "notes": "Auto-configured by `npm run probe` on 2026-11-02."
+    "notes": "Auto-configured by `npm run probe` on 2026-11-02. Cards changed on 2026-11-26: title now p.header4, date small.paragraph."
   },
   {
     "id": "pleasance-theatre",
