@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T03:38:32.185Z",
+  "generatedAt": "2026-11-28T03:18:00.871Z",
   "people": [
     {
       "id": "1000mods",
@@ -573,17 +573,6 @@
       ]
     },
     {
-      "id": "ahadadream",
-      "name": "Ahadadream",
-      "kind": "music",
-      "tm": [
-        "K8vZ917hTS7"
-      ],
-      "genres": [
-        "Music/Dance/Electronic/Ambient Techno"
-      ]
-    },
-    {
       "id": "ahir-shah",
       "name": "Ahir Shah",
       "kind": "comedy",
@@ -924,17 +913,6 @@
       ],
       "genres": [
         "Music/Folk/Alternative Folk"
-      ]
-    },
-    {
-      "id": "alice-in-chains-uk",
-      "name": "Alice In Chains Uk",
-      "kind": "music",
-      "tm": [
-        "K8vZ917r9fV"
-      ],
-      "genres": [
-        "Music/Metal/Heavy Metal"
       ]
     },
     {
@@ -1563,23 +1541,6 @@
       ]
     },
     {
-      "id": "arabrot",
-      "name": "Arabrot",
-      "kind": "music",
-      "links": {
-        "homepage": "https://www.arabrot.com/",
-        "spotify": "https://open.spotify.com/artist/1vKXAkXBGSbjgGcOPYLI6j?autoplay=true",
-        "instagram": "https://www.instagram.com/arabrot",
-        "youtube": "https://www.youtube.com/c/%C3%85RABROT"
-      },
-      "tm": [
-        "K8vZ91722z7"
-      ],
-      "genres": [
-        "Music/Rock/Pop"
-      ]
-    },
-    {
       "id": "arankai",
       "name": "Arankai",
       "kind": "music",
@@ -1762,6 +1723,17 @@
       ]
     },
     {
+      "id": "ashley-henry-trio",
+      "name": "Ashley Henry Trio",
+      "kind": "music",
+      "tm": [
+        "K8vZ917xbDf"
+      ],
+      "genres": [
+        "Music/Jazz/Jazz"
+      ]
+    },
+    {
       "id": "ashley-mcbryde",
       "name": "Ashley McBryde",
       "kind": "music",
@@ -1792,6 +1764,22 @@
       ],
       "genres": [
         "Music/Metal/Metal"
+      ]
+    },
+    {
+      "id": "ateez",
+      "name": "ATEEZ",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/68KmkJeZGfwe1OUaivBa2L?autoplay=true",
+        "instagram": "https://www.instagram.com/ateez_official_/",
+        "youtube": "https://www.youtube.com/channel/UC2e4Ukj5Pfr7cb3KpJAFBdQ"
+      },
+      "tm": [
+        "K8vZ9179g3f"
+      ],
+      "genres": [
+        "Music/Pop/K-Pop"
       ]
     },
     {
@@ -1913,6 +1901,22 @@
       ],
       "genres": [
         "Music/Dance/Electronic/Dance/Electronic"
+      ]
+    },
+    {
+      "id": "australian-pink-floyd-show",
+      "name": "Australian Pink Floyd Show",
+      "kind": "music",
+      "links": {
+        "homepage": "https://www.aussiefloyd.com/",
+        "instagram": "https://www.instagram.com/australianpinkfloyd/",
+        "youtube": "https://www.youtube.com/user/aussiefloyddotcom"
+      },
+      "tm": [
+        "K8vZ917GdAV"
+      ],
+      "genres": [
+        "Music/Rock/Pop"
       ]
     },
     {
@@ -2089,6 +2093,24 @@
       },
       "tm": [
         "K8vZ917L5v0"
+      ],
+      "genres": [
+        "Music/Pop/Pop"
+      ]
+    },
+    {
+      "id": "backstreet-boys",
+      "name": "Backstreet Boys",
+      "kind": "music",
+      "links": {
+        "homepage": "http://www.backstreetboys.com/",
+        "spotify": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7",
+        "instagram": "https://www.instagram.com/backstreetboys",
+        "wiki": "https://en.wikipedia.org/wiki/Backstreet_Boys",
+        "youtube": "https://www.youtube.com/user/bsbofficial"
+      },
+      "tm": [
+        "K8vZ91719tf"
       ],
       "genres": [
         "Music/Pop/Pop"
@@ -2552,23 +2574,6 @@
       ]
     },
     {
-      "id": "bellowhead",
-      "name": "Bellowhead",
-      "kind": "music",
-      "links": {
-        "homepage": "http://www.bellowhead.co.uk/",
-        "spotify": "http://open.spotify.com/artist/79fyBJJSUvWw4263rXYDM0",
-        "wiki": "https://en.wikipedia.org/wiki/Bellowhead",
-        "youtube": "https://www.youtube.com/user/thisisbellowhead"
-      },
-      "tm": [
-        "K8vZ917GF2V"
-      ],
-      "genres": [
-        "Music/Folk/Folk"
-      ]
-    },
-    {
       "id": "ben-ellis",
       "name": "Ben Ellis",
       "kind": "music",
@@ -2860,6 +2865,20 @@
       ],
       "genres": [
         "Arts & Theatre/Theatre/Podcast"
+      ]
+    },
+    {
+      "id": "big-massive",
+      "name": "Big Massive",
+      "kind": "music",
+      "links": {
+        "instagram": "https://www.instagram.com/_big.massive/"
+      },
+      "tm": [
+        "K8vZ917xbBV"
+      ],
+      "genres": [
+        "Music/R&B/Jazz Funk"
       ]
     },
     {
@@ -3230,6 +3249,20 @@
       ]
     },
     {
+      "id": "bleach-estate",
+      "name": "Bleach Estate",
+      "kind": "music",
+      "links": {
+        "instagram": "https://www.instagram.com/bleach.estate/"
+      },
+      "tm": [
+        "K8vZ917LfWf"
+      ],
+      "genres": [
+        "Music/Rock/Punk"
+      ]
+    },
+    {
       "id": "bleachers",
       "name": "Bleachers",
       "kind": "music",
@@ -3290,15 +3323,6 @@
       ]
     },
     {
-      "id": "blinked-182",
-      "name": "Blinked 182",
-      "kind": "music",
-      "genres": [
-        "Music/Punk",
-        "Music/Pop Punk"
-      ]
-    },
-    {
       "id": "blinked-182-blink-182-tribute-band",
       "name": "Blinked 182 - Blink 182 Tribute Band",
       "kind": "music",
@@ -3340,24 +3364,6 @@
       ],
       "genres": [
         "Music/Alternative/Alternative"
-      ]
-    },
-    {
-      "id": "blossoms",
-      "name": "Blossoms",
-      "kind": "music",
-      "links": {
-        "homepage": "http://www.blossomsband.co.uk/",
-        "spotify": "https://open.spotify.com/artist/22RISwgVJyZu9lpqAcv1F5?autoplay=true",
-        "instagram": "https://www.instagram.com/blossomsband",
-        "wiki": "https://en.wikipedia.org/wiki/Blossoms_(band)",
-        "youtube": "https://www.youtube.com/channel/UCSp1dH5bOA9crqqE54S8e6w"
-      },
-      "tm": [
-        "K8vZ917K8Tf"
-      ],
-      "genres": [
-        "Music/Rock/Pop"
       ]
     },
     {
@@ -3495,6 +3501,22 @@
       ],
       "genres": [
         "Arts & Theatre/Theatre/Miscellaneous"
+      ]
+    },
+    {
+      "id": "bobbie-dazzle",
+      "name": "Bobbie Dazzle",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3qmMieynVg2ISUwEC54zqY",
+        "instagram": "https://www.instagram.com/bobbiedazzleband/",
+        "youtube": "https://www.facebook.com/profile.php"
+      },
+      "tm": [
+        "K8vZ917qUYf"
+      ],
+      "genres": [
+        "Music/Rock/Glam"
       ]
     },
     {
@@ -4019,15 +4041,6 @@
       ]
     },
     {
-      "id": "bruce-juice",
-      "name": "Bruce Juice",
-      "kind": "music",
-      "genres": [
-        "Music/Rock",
-        "Music/Covers Band/Tribute Act"
-      ]
-    },
-    {
       "id": "bruce-juice-the-springsteen-tribute-band",
       "name": "Bruce Juice - the Springsteen Tribute Band",
       "kind": "music",
@@ -4163,20 +4176,6 @@
       ],
       "genres": [
         "Music/Rock/Pop"
-      ]
-    },
-    {
-      "id": "bunt",
-      "name": "BUNT.",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/intl-de/artist/2CpLIMBoE2ZzyY3ZBCRZ7j"
-      },
-      "tm": [
-        "K8vZ917bQO0"
-      ],
-      "genres": [
-        "Music/Dance/Electronic/Club Dance"
       ]
     },
     {
@@ -4653,23 +4652,6 @@
       ]
     },
     {
-      "id": "cassia",
-      "name": "Cassia",
-      "kind": "music",
-      "links": {
-        "homepage": "https://www.wearecassia.com/",
-        "spotify": "https://open.spotify.com/artist/2413I9w4sRbBz4zi5zgwjX",
-        "instagram": "https://instagram.com/wearecassia",
-        "youtube": "https://youtube.com/wearecassia"
-      },
-      "tm": [
-        "K8vZ917pFRV"
-      ],
-      "genres": [
-        "Music/Rock/Alternative Rock"
-      ]
-    },
-    {
       "id": "castles",
       "name": "Castles",
       "kind": "music",
@@ -4807,17 +4789,6 @@
       ],
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
-      ]
-    },
-    {
-      "id": "chalk",
-      "name": "Chalk",
-      "kind": "music",
-      "tm": [
-        "K8vZ917Qzvf"
-      ],
-      "genres": [
-        "Music/Rock/Alternative Rock"
       ]
     },
     {
@@ -4971,6 +4942,17 @@
       ],
       "genres": [
         "Music/Pop/Pop Rock"
+      ]
+    },
+    {
+      "id": "charm-of-finches",
+      "name": "Charm of Finches",
+      "kind": "music",
+      "tm": [
+        "K8vZ917hE0V"
+      ],
+      "genres": [
+        "Music/Alternative/Alternative"
       ]
     },
     {
@@ -5579,6 +5561,17 @@
       ]
     },
     {
+      "id": "clearwater-creedence-revival",
+      "name": "Clearwater Creedence Revival",
+      "kind": "music",
+      "tm": [
+        "K8vZ917qGG7"
+      ],
+      "genres": [
+        "Music/Pop/Pop Rock"
+      ]
+    },
+    {
       "id": "cleopatrick",
       "name": "Cleopatrick",
       "kind": "music",
@@ -5807,17 +5800,6 @@
       ],
       "genres": [
         "Arts & Theatre/Theatre/Musical"
-      ]
-    },
-    {
-      "id": "comedy-at-cadogan-hall",
-      "name": "Comedy at Cadogan hall",
-      "kind": "comedy",
-      "tm": [
-        "K8vZ917r1W0"
-      ],
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
       ]
     },
     {
@@ -6405,6 +6387,20 @@
       ]
     },
     {
+      "id": "cutscene",
+      "name": "Cutscene",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0qCUl7eOi3PHaDnvBIa7M6"
+      },
+      "tm": [
+        "K8vZ917xuL0"
+      ],
+      "genres": [
+        "Music/Alternative/Alternative"
+      ]
+    },
+    {
       "id": "cvc",
       "name": "CVC",
       "kind": "music",
@@ -6535,6 +6531,20 @@
       ],
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
+      ]
+    },
+    {
+      "id": "dan-byrne",
+      "name": "Dan Byrne",
+      "kind": "music",
+      "links": {
+        "instagram": "https://open.spotify.com/artist/0h3wi5ds4I33B5RnlDZ50n"
+      },
+      "tm": [
+        "K8vZ917q9k0"
+      ],
+      "genres": [
+        "Music/Rock/Alternative Rock"
       ]
     },
     {
@@ -7497,6 +7507,17 @@
       ]
     },
     {
+      "id": "diana-krall",
+      "name": "Diana Krall",
+      "kind": "music",
+      "tm": [
+        "K8vZ9171_p0"
+      ],
+      "genres": [
+        "Music/Jazz/Jazz"
+      ]
+    },
+    {
       "id": "dianne-and-vito",
       "name": "Dianne and Vito",
       "kind": "dance",
@@ -7679,24 +7700,6 @@
       ]
     },
     {
-      "id": "dirty-dc",
-      "name": "Dirty DC",
-      "kind": "music",
-      "links": {
-        "homepage": "https://www.thedirtydc.com",
-        "instagram": "https://www.instagram.com/dirtydcband/",
-        "youtube": "https://www.youtube.com/channel/UCVRpowgDxSiTjd-UPafcEqw"
-      },
-      "tm": [
-        "K8vZ917C9YV"
-      ],
-      "genres": [
-        "Music",
-        "Music/Rock",
-        "Music/Hard Rock"
-      ]
-    },
-    {
       "id": "dirty-honey",
       "name": "Dirty Honey",
       "kind": "music",
@@ -7716,17 +7719,6 @@
       ],
       "genres": [
         "Music/Rock/Folk Rock"
-      ]
-    },
-    {
-      "id": "disgusting-sisters",
-      "name": "Disgusting Sisters",
-      "kind": "music",
-      "tm": [
-        "K8vZ917q5j7"
-      ],
-      "genres": [
-        "Music/Pop/Pop Rock"
       ]
     },
     {
@@ -7840,18 +7832,6 @@
       ],
       "genres": [
         "Music/Alternative/Goth"
-      ]
-    },
-    {
-      "id": "dj-funky-flirt",
-      "name": "DJ Funky Flirt",
-      "kind": "music",
-      "genres": [
-        "Music/House",
-        "Music/UK Garage",
-        "Music/Old Skool",
-        "Music/Club Classics",
-        "Music/Jungle"
       ]
     },
     {
@@ -8226,6 +8206,17 @@
       ],
       "genres": [
         "Music/Rock/Pop"
+      ]
+    },
+    {
+      "id": "dorian-dj",
+      "name": "Dorian DJ",
+      "kind": "music",
+      "tm": [
+        "K8vZ917G9U0"
+      ],
+      "genres": [
+        "Music/Dance/Electronic/Club Dance"
       ]
     },
     {
@@ -8969,23 +8960,6 @@
       ]
     },
     {
-      "id": "eloise",
-      "name": "Eloise",
-      "kind": "music",
-      "links": {
-        "homepage": "https://eloise-music.com/",
-        "spotify": "https://open.spotify.com/artist/7LlIWfvgWlDBXfxCvCFbuC",
-        "instagram": "https://www.instagram.com/eloweeeezy/",
-        "youtube": "https://www.youtube.com/channel/UCh6HumGdJbnxmcXrAuRu7Xg"
-      },
-      "tm": [
-        "K8vZ917pXX0"
-      ],
-      "genres": [
-        "Music/Rock/Pop"
-      ]
-    },
-    {
       "id": "elton-con",
       "name": "Elton Con",
       "kind": "music",
@@ -9582,6 +9556,17 @@
       ]
     },
     {
+      "id": "eyoe-recommends",
+      "name": "EYOE Recommends",
+      "kind": "music",
+      "tm": [
+        "K8vZ917hqL7"
+      ],
+      "genres": [
+        "Music/Alternative/Alternative"
+      ]
+    },
+    {
       "id": "ezra-collective",
       "name": "Ezra Collective",
       "kind": "music",
@@ -9753,6 +9738,17 @@
       ],
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
+      ]
+    },
+    {
+      "id": "fascinating-aida",
+      "name": "Fascinating Aida",
+      "kind": "theatre",
+      "tm": [
+        "K8vZ917GLwf"
+      ],
+      "genres": [
+        "Arts & Theatre/Theatre/Comedy"
       ]
     },
     {
@@ -10054,17 +10050,6 @@
       ],
       "genres": [
         "Music/Alternative/Alternative Rock"
-      ]
-    },
-    {
-      "id": "flint-fire-the-keith-flint-prodigy-tribute-band",
-      "name": "Flint Fire - The Keith Flint Prodigy Tribute Band",
-      "kind": "music",
-      "tm": [
-        "K8vZ917qDXf"
-      ],
-      "genres": [
-        "Music/Alternative/Alternative"
       ]
     },
     {
@@ -10974,16 +10959,6 @@
       ]
     },
     {
-      "id": "ghost-uk",
-      "name": "Ghost UK",
-      "kind": "music",
-      "genres": [
-        "Music/Metal",
-        "Music/Covers Band/Tribute Act",
-        "Music/Nu Metal"
-      ]
-    },
-    {
       "id": "ghost-uk-a-tribute-to-the-band-ghost",
       "name": "Ghost UK: A Tribute to the band Ghost",
       "kind": "music",
@@ -11009,17 +10984,6 @@
       ],
       "genres": [
         "Music/Hip-Hop/Rap/Urban"
-      ]
-    },
-    {
-      "id": "gia-ford",
-      "name": "Gia Ford",
-      "kind": "music",
-      "tm": [
-        "K8vZ917hRt7"
-      ],
-      "genres": [
-        "Music/R&B/R&B"
       ]
     },
     {
@@ -11360,17 +11324,6 @@
       ]
     },
     {
-      "id": "good-health-good-wealth",
-      "name": "Good Health Good Wealth",
-      "kind": "music",
-      "tm": [
-        "K8vZ917_mq7"
-      ],
-      "genres": [
-        "Music/Alternative/Adult Alternative Pop/Rock"
-      ]
-    },
-    {
       "id": "gorgon-city",
       "name": "Gorgon City",
       "kind": "music",
@@ -11492,6 +11445,20 @@
       ],
       "genres": [
         "Music/Rock/Punk"
+      ]
+    },
+    {
+      "id": "grand-pax",
+      "name": "Grand Pax",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7KN4ibZ3dD1ey3lfo3ojQt"
+      },
+      "tm": [
+        "K8vZ917qxT7"
+      ],
+      "genres": [
+        "Music/Alternative/Alternative"
       ]
     },
     {
@@ -12094,17 +12061,6 @@
       ],
       "genres": [
         "Music/Pop/Pop Rock"
-      ]
-    },
-    {
-      "id": "harvey-causon",
-      "name": "Harvey Causon",
-      "kind": "music",
-      "tm": [
-        "K8vZ9179Nsf"
-      ],
-      "genres": [
-        "Music/R&B/Contemporary R&B"
       ]
     },
     {
@@ -13187,6 +13143,20 @@
       ]
     },
     {
+      "id": "if-i-was-a-pony",
+      "name": "if i was a pony",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3t3zwTenPUimx09zxB0hRA"
+      },
+      "tm": [
+        "K8vZ917xGK7"
+      ],
+      "genres": [
+        "Music/Alternative/Alternative"
+      ]
+    },
+    {
       "id": "ife-ogunjobi",
       "name": "Ife Ogunjobi",
       "kind": "music",
@@ -13230,6 +13200,23 @@
       ],
       "genres": [
         "Music/Classical/Classical/Vocal"
+      ]
+    },
+    {
+      "id": "illa-j",
+      "name": "Illa J",
+      "kind": "music",
+      "links": {
+        "homepage": "http://illajmusic.com/",
+        "spotify": "https://open.spotify.com/artist/72zigmOdJbIsz0iIRhCBvp",
+        "instagram": "https://www.instagram.com/illajyanceyboy/",
+        "youtube": "https://www.youtube.com/channel/UCsOhADKXZc6bPV8NXH3UDUA"
+      },
+      "tm": [
+        "K8vZ917GBMf"
+      ],
+      "genres": [
+        "Music/Hip-Hop/Rap/Urban"
       ]
     },
     {
@@ -13541,15 +13528,6 @@
       ]
     },
     {
-      "id": "ion-maiden",
-      "name": "Ion Maiden",
-      "kind": "music",
-      "genres": [
-        "Music/Metal",
-        "Music/Covers Band/Tribute Act"
-      ]
-    },
-    {
       "id": "ion-maiden-fully-charged-tribute-to-iron-maiden",
       "name": "Ion Maiden - Fully Charged Tribute to Iron Maiden",
       "kind": "music",
@@ -13608,17 +13586,6 @@
       ],
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
-      ]
-    },
-    {
-      "id": "ireland",
-      "name": "Ireland",
-      "kind": "other",
-      "tm": [
-        "K8vZ9175B7V"
-      ],
-      "genres": [
-        "Sports/Rugby/Rugby Union"
       ]
     },
     {
@@ -14130,6 +14097,17 @@
       ]
     },
     {
+      "id": "james-bruner",
+      "name": "James Bruner",
+      "kind": "music",
+      "tm": [
+        "K8vZ917hRo7"
+      ],
+      "genres": [
+        "Music/Alternative/Alternative Rock"
+      ]
+    },
+    {
       "id": "james-emmanuel",
       "name": "James Emmanuel",
       "kind": "music",
@@ -14427,24 +14405,6 @@
       ],
       "genres": [
         "Music/R&B/R&B"
-      ]
-    },
-    {
-      "id": "jazzanova",
-      "name": "Jazzanova",
-      "kind": "music",
-      "links": {
-        "homepage": "http://www.jazzanova.net/",
-        "spotify": "https://open.spotify.com/artist/0nTErwSOllrcUWt3knOG2T?autoplay=true",
-        "instagram": "https://www.instagram.com/jazzanova_berlin/",
-        "wiki": "https://en.wikipedia.org/wiki/Jazzanova",
-        "youtube": "https://www.youtube.com/channel/UCk7D6qx9_H4Fg_o0GD6fWKA"
-      },
-      "tm": [
-        "K8vZ9175uF7"
-      ],
-      "genres": [
-        "Music/Dance/Electronic/Club Dance"
       ]
     },
     {
@@ -15083,6 +15043,22 @@
       ],
       "genres": [
         "Music/Rock/Pop"
+      ]
+    },
+    {
+      "id": "jon-onabowu",
+      "name": "Jon Onabowu",
+      "kind": "music",
+      "links": {
+        "homepage": "https://www.jononabowu.com/",
+        "instagram": "https://www.instagram.com/jonabowu/",
+        "youtube": "https://www.youtube.com/channel/UCqjqEI2RTy-wE8ONQtbJRaA"
+      },
+      "tm": [
+        "K8vZ917q287"
+      ],
+      "genres": [
+        "Music/Jazz/Fusion"
       ]
     },
     {
@@ -15904,11 +15880,6 @@
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
       ]
-    },
-    {
-      "id": "kat-boyce",
-      "name": "KAT Boyce",
-      "kind": "comedy"
     },
     {
       "id": "katchafire",
@@ -17185,17 +17156,6 @@
       ]
     },
     {
-      "id": "levi-roots",
-      "name": "Levi Roots",
-      "kind": "music",
-      "tm": [
-        "K8vZ917GqgV"
-      ],
-      "genres": [
-        "Music/Reggae/Reggae"
-      ]
-    },
-    {
       "id": "lia-lia",
       "name": "LIA LIA",
       "kind": "music",
@@ -18220,6 +18180,17 @@
       ]
     },
     {
+      "id": "marc-ribot-quartet",
+      "name": "Marc Ribot Quartet",
+      "kind": "music",
+      "tm": [
+        "K8vZ917reBV"
+      ],
+      "genres": [
+        "Music/Jazz/Jazz"
+      ]
+    },
+    {
       "id": "marcin",
       "name": "Marcin",
       "kind": "music",
@@ -18292,6 +18263,20 @@
       ],
       "genres": [
         "Music/Metal/Heavy Metal"
+      ]
+    },
+    {
+      "id": "marina-yozora",
+      "name": "Marina Yozora",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/22AZmKH5yFKP8y1Tq65OMb"
+      },
+      "tm": [
+        "K8vZ917xGKV"
+      ],
+      "genres": [
+        "Music/Alternative/Dream Pop"
       ]
     },
     {
@@ -18555,17 +18540,6 @@
       ],
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
-      ]
-    },
-    {
-      "id": "mary-in-the-junkyard",
-      "name": "Mary In the Junkyard",
-      "kind": "music",
-      "tm": [
-        "K8vZ917j9Q0"
-      ],
-      "genres": [
-        "Music/Alternative/Indie Rock"
       ]
     },
     {
@@ -19436,12 +19410,20 @@
       ]
     },
     {
-      "id": "mik-artistsiks-ego-trip",
-      "name": "Mik Artistsik’s Ego Trip",
+      "id": "mika",
+      "name": "MIKA",
       "kind": "music",
+      "links": {
+        "homepage": "https://www.yomika.com",
+        "spotify": "https://open.spotify.com/artist/5MmVJVhhYKQ86izuGHzJYA",
+        "instagram": "https://www.instagram.com/mikainstagram/",
+        "youtube": "https://www.youtube.com/user/MikaSoundsOfficial"
+      },
+      "tm": [
+        "K8vZ917GeFV"
+      ],
       "genres": [
-        "Music/Rock",
-        "Music/Punk"
+        "Music/Rock/Pop"
       ]
     },
     {
@@ -19891,17 +19873,6 @@
       ]
     },
     {
-      "id": "morgan-wallen-tribute-uk",
-      "name": "Morgan Wallen Tribute UK",
-      "kind": "music",
-      "tm": [
-        "K8vZ917jiY0"
-      ],
-      "genres": [
-        "Music"
-      ]
-    },
-    {
       "id": "morgana",
       "name": "Morgana",
       "kind": "music",
@@ -20038,7 +20009,7 @@
     },
     {
       "id": "motorwrecked",
-      "name": "Motörwrecked",
+      "name": "MÖTÖRWRECKED",
       "kind": "music",
       "links": {
         "homepage": "https://www.motorwrecked.com/",
@@ -20122,6 +20093,23 @@
       ]
     },
     {
+      "id": "mr-thing",
+      "name": "MR Thing",
+      "kind": "music",
+      "links": {
+        "homepage": "http://www.djmrthing.com/",
+        "spotify": "https://open.spotify.com/artist/4oXgt4hZIe347rYM0jc41w?autoplay=true",
+        "instagram": "https://www.instagram.com/djmrthing/",
+        "youtube": "https://www.youtube.com/channel/UCIpg2hEkt7kG_a6hJFpWf8A"
+      },
+      "tm": [
+        "K8vZ9178Tv7"
+      ],
+      "genres": [
+        "Music/Dance/Electronic/Club Dance"
+      ]
+    },
+    {
       "id": "mr-punch",
       "name": "Mr. Punch",
       "kind": "music",
@@ -20155,7 +20143,7 @@
     },
     {
       "id": "muhsin-yesilada",
-      "name": "muhsin yesilada",
+      "name": "Muhsin Yesilada",
       "kind": "comedy",
       "links": {
         "instagram": "https://www.instagram.com/muhsin_yesilada/"
@@ -20332,21 +20320,6 @@
       ],
       "genres": [
         "Music/Rock/Alternative Rock"
-      ]
-    },
-    {
-      "id": "myles-smith",
-      "name": "Myles Smith",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/3bO19AOone0ubCsfDXDtYt",
-        "instagram": "https://www.instagram.com/mylessmithuk/"
-      },
-      "tm": [
-        "K8vZ917j6t0"
-      ],
-      "genres": [
-        "Music/Rock/Pop"
       ]
     },
     {
@@ -20562,20 +20535,6 @@
       ],
       "genres": [
         "Miscellaneous"
-      ]
-    },
-    {
-      "id": "nations-championship",
-      "name": "Nations Championship",
-      "kind": "other",
-      "links": {
-        "homepage": "https://nationschampionshiprugby.tmtickets.co.uk/"
-      },
-      "tm": [
-        "K8vZ917L9XV"
-      ],
-      "genres": [
-        "Sports/Rugby/Rugby Union"
       ]
     },
     {
@@ -21022,17 +20981,6 @@
       ]
     },
     {
-      "id": "nish-kumar",
-      "name": "Nish Kumar",
-      "kind": "comedy",
-      "tm": [
-        "K8vZ9178UZ7"
-      ],
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ]
-    },
-    {
       "id": "no-cure",
       "name": "NO CURE",
       "kind": "music",
@@ -21282,17 +21230,6 @@
       ],
       "genres": [
         "Music"
-      ]
-    },
-    {
-      "id": "oasis-forever",
-      "name": "Oasis forever",
-      "kind": "music",
-      "genres": [
-        "Music/Rock",
-        "Music/Indie",
-        "Music/Covers Band/Tribute Act",
-        "Music/Brit Pop"
       ]
     },
     {
@@ -21728,17 +21665,6 @@
       ]
     },
     {
-      "id": "oneman",
-      "name": "Oneman",
-      "kind": "music",
-      "tm": [
-        "K8vZ9178vJV"
-      ],
-      "genres": [
-        "Music/Dance/Electronic/Club Dance"
-      ]
-    },
-    {
       "id": "onoir",
       "name": "Onóir",
       "kind": "music",
@@ -22002,20 +21928,6 @@
       ],
       "genres": [
         "Music/Rock/Folk Rock"
-      ]
-    },
-    {
-      "id": "out-front",
-      "name": "Out Front",
-      "kind": "music",
-      "links": {
-        "homepage": "https://outfront.band/"
-      },
-      "tm": [
-        "K8vZ917-RH0"
-      ],
-      "genres": [
-        "Music/Jazz/Jazz"
       ]
     },
     {
@@ -22514,17 +22426,6 @@
       ],
       "genres": [
         "Music/Dance/Electronic/Club Dance"
-      ]
-    },
-    {
-      "id": "paul-smith",
-      "name": "Paul Smith",
-      "kind": "comedy",
-      "tm": [
-        "K8vZ917pX4V"
-      ],
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
       ]
     },
     {
@@ -23092,17 +22993,6 @@
       ]
     },
     {
-      "id": "plastician",
-      "name": "Plastician",
-      "kind": "music",
-      "tm": [
-        "K8vZ917GSt0"
-      ],
-      "genres": [
-        "Music/Rock/Alternative Rock"
-      ]
-    },
-    {
       "id": "pollyfromthedirt",
       "name": "pollyfromthedirt",
       "kind": "music",
@@ -23158,6 +23048,20 @@
       ],
       "genres": [
         "Music/Rock/Alternative Rock"
+      ]
+    },
+    {
+      "id": "porchlight",
+      "name": "Porchlight",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2JOTv1ppSGx9GAHZtkc8gi"
+      },
+      "tm": [
+        "K8vZ917xGK0"
+      ],
+      "genres": [
+        "Music/Alternative/Post-Punk"
       ]
     },
     {
@@ -23247,20 +23151,6 @@
       ],
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
-      ]
-    },
-    {
-      "id": "princess-diaries-in-concert",
-      "name": "Princess Diaries in Concert",
-      "kind": "music",
-      "links": {
-        "homepage": "https://www.eventimapollo.com/events/princess-diaries-in-concert/"
-      },
-      "tm": [
-        "K8vZ917-ms0"
-      ],
-      "genres": [
-        "Music"
       ]
     },
     {
@@ -23395,21 +23285,6 @@
       ],
       "genres": [
         "Music/Dance/Electronic/Dance/Electronic"
-      ]
-    },
-    {
-      "id": "pyncher",
-      "name": "Pyncher",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/66NBYDmR4OTIL8AuMvKTK7",
-        "instagram": "https://www.instagram.com/pyncher"
-      },
-      "tm": [
-        "K8vZ917LtFf"
-      ],
-      "genres": [
-        "Music/Rock/Alternative Rock"
       ]
     },
     {
@@ -23833,12 +23708,19 @@
       ]
     },
     {
-      "id": "red-hot-chili-peppers-uk-tribute-band",
-      "name": "Red Hot Chili peppers UK - Tribute Band",
-      "kind": "music",
+      "id": "red-bull-dance-your-style",
+      "name": "Red Bull Dance Your Style",
+      "kind": "dance",
+      "links": {
+        "homepage": "https://www.redbull.com/us-en/event-series/dance-your-style",
+        "instagram": "https://www.instagram.com/redbulldance/",
+        "youtube": "https://www.youtube.com/channel/UCz98WUC8uWURqbNaTobcRbw"
+      },
+      "tm": [
+        "K8vZ917hukf"
+      ],
       "genres": [
-        "Music/Rock",
-        "Music/Covers Band/Tribute Act"
+        "Arts & Theatre/Dance/Dance"
       ]
     },
     {
@@ -23923,18 +23805,6 @@
       ],
       "genres": [
         "Music/Jazz/Jazz"
-      ]
-    },
-    {
-      "id": "rekool-n-tension",
-      "name": "Rekool N Tension",
-      "kind": "music",
-      "genres": [
-        "Music/House",
-        "Music/UK Garage",
-        "Music/Old Skool",
-        "Music/Club Classics",
-        "Music/Jungle"
       ]
     },
     {
@@ -24143,7 +24013,7 @@
     {
       "id": "richard-blackwood",
       "name": "Richard Blackwood",
-      "kind": "comedy",
+      "kind": "music",
       "tm": [
         "K8vZ917ovK7"
       ],
@@ -24283,15 +24153,6 @@
       ],
       "genres": [
         "Music/Folk/Irish Folk"
-      ]
-    },
-    {
-      "id": "rioghnach-connolly-and-honeyfeet",
-      "name": "Ríoghnach Connolly & Honeyfeet",
-      "kind": "music",
-      "genres": [
-        "Music/Pop",
-        "Music/Jazz"
       ]
     },
     {
@@ -24765,17 +24626,6 @@
       ],
       "genres": [
         "Music/Rock/Rock"
-      ]
-    },
-    {
-      "id": "rum-jungle",
-      "name": "Rum Jungle",
-      "kind": "music",
-      "tm": [
-        "K8vZ917h_Ef"
-      ],
-      "genres": [
-        "Music/Rock/Pop"
       ]
     },
     {
@@ -26353,23 +26203,6 @@
       ]
     },
     {
-      "id": "skerryvore",
-      "name": "Skerryvore",
-      "kind": "music",
-      "links": {
-        "homepage": "http://skerryvore.com/",
-        "spotify": "https://open.spotify.com/artist/0rvuzsIPX7eql9Iq8e8AUA?autoplay=true",
-        "instagram": "http://instagram.com/skerryvore",
-        "youtube": "http://youtube.com/skerryvoretv"
-      },
-      "tm": [
-        "K8vZ917CwJ0"
-      ],
-      "genres": [
-        "Music/Folk/Folk"
-      ]
-    },
-    {
       "id": "skids",
       "name": "Skids",
       "kind": "music",
@@ -26728,7 +26561,7 @@
     },
     {
       "id": "some-kind-of-metallica",
-      "name": "Some Kind Of Metallica",
+      "name": "Some Kind of Metallica",
       "kind": "music",
       "links": {
         "instagram": "https://www.instagram.com/somekindofmetallicauk/"
@@ -27217,14 +27050,6 @@
       ],
       "genres": [
         "Miscellaneous/Comedy/Comedy"
-      ]
-    },
-    {
-      "id": "stanley-dee",
-      "name": "Stanley Dee",
-      "kind": "music",
-      "genres": [
-        "Music/Covers Band/Tribute Act"
       ]
     },
     {
@@ -27758,20 +27583,6 @@
       ]
     },
     {
-      "id": "sunday-best",
-      "name": "Sunday Best",
-      "kind": "music",
-      "links": {
-        "instagram": "https://www.instagram.com/thisissundaybest/"
-      },
-      "tm": [
-        "K8vZ917r60f"
-      ],
-      "genres": [
-        "Music/Rock/Emo"
-      ]
-    },
-    {
       "id": "sunday-night-comedy-at-up-the-creek",
       "name": "Sunday Night Comedy at Up The Creek",
       "kind": "comedy",
@@ -27988,20 +27799,6 @@
       ],
       "genres": [
         "Music/Dance/Electronic/Club Dance"
-      ]
-    },
-    {
-      "id": "t-l-k",
-      "name": "t l k",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/1i3lco9WAy7YqKzCIc3Ahd"
-      },
-      "tm": [
-        "K8vZ917-T17"
-      ],
-      "genres": [
-        "Music/Dance/Electronic/Dance Pop"
       ]
     },
     {
@@ -28565,15 +28362,6 @@
       ]
     },
     {
-      "id": "the-animals",
-      "name": "The Animals",
-      "kind": "music",
-      "genres": [
-        "Music/Rock",
-        "Music/Blues"
-      ]
-    },
-    {
       "id": "the-animals-and-friends",
       "name": "The Animals and Friends",
       "kind": "music",
@@ -28596,6 +28384,22 @@
       ]
     },
     {
+      "id": "the-bays",
+      "name": "The Bays",
+      "kind": "music",
+      "links": {
+        "homepage": "https://www.thebays.com/index.html",
+        "instagram": "https://www.instagram.com/thebayslive/",
+        "youtube": "https://www.youtube.com/thebayslive"
+      },
+      "tm": [
+        "K8vZ9175l60"
+      ],
+      "genres": [
+        "Music/Jazz/Jazz"
+      ]
+    },
+    {
       "id": "the-beat",
       "name": "The Beat",
       "kind": "music",
@@ -28609,11 +28413,6 @@
       "genres": [
         "Music/Rock/Ska Revival"
       ]
-    },
-    {
-      "id": "the-beat-featuring-ranking-jnr",
-      "name": "The Beat featuring Ranking Jnr",
-      "kind": "music"
     },
     {
       "id": "the-beatles-dub-club",
@@ -28681,23 +28480,6 @@
       ],
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
-      ]
-    },
-    {
-      "id": "the-big-moon",
-      "name": "The Big Moon",
-      "kind": "music",
-      "links": {
-        "homepage": "http://thebigmoon.co.uk/",
-        "spotify": "https://open.spotify.com/artist/0KU55rzxAihPhi27MAuz9O",
-        "instagram": "https://www.instagram.com/commoonicate/",
-        "youtube": "https://www.youtube.com/channel/UC02iDva0dKpiqLUPQJR0ETA"
-      },
-      "tm": [
-        "K8vZ917f3Df"
-      ],
-      "genres": [
-        "Music/Rock/Pop"
       ]
     },
     {
@@ -28846,17 +28628,6 @@
       ],
       "genres": [
         "Music/Hip-Hop/Rap/Urban"
-      ]
-    },
-    {
-      "id": "the-brit-funk-assoication",
-      "name": "The Brit Funk Assoication",
-      "kind": "music",
-      "genres": [
-        "Music/R&B",
-        "Music/Jazz",
-        "Music/Soul",
-        "Music/Funk"
       ]
     },
     {
@@ -29101,24 +28872,6 @@
       ],
       "genres": [
         "Music"
-      ]
-    },
-    {
-      "id": "the-damned",
-      "name": "The Damned",
-      "kind": "music",
-      "links": {
-        "homepage": "http://www.officialdamned.com/",
-        "spotify": "https://open.spotify.com/artist/6VeL8VhaMjHTPc5uovFl3h",
-        "instagram": "https://www.instagram.com/eternally_damned/",
-        "wiki": "https://en.wikipedia.org/wiki/The_Damned_(band)",
-        "youtube": "https://www.youtube.com/channel/UCzutsHtxpt5NlFFF_vQUHpQ"
-      },
-      "tm": [
-        "K8vZ9171BZ7"
-      ],
-      "genres": [
-        "Music/Rock/Alternative Rock"
       ]
     },
     {
@@ -29526,6 +29279,20 @@
       ],
       "genres": [
         "Arts & Theatre/Theatre/Podcast"
+      ]
+    },
+    {
+      "id": "the-great-christmas-feast",
+      "name": "The Great Christmas Feast",
+      "kind": "theatre",
+      "links": {
+        "homepage": "https://christmasfeast.thelostestate.com/"
+      },
+      "tm": [
+        "K8vZ917rlE0"
+      ],
+      "genres": [
+        "Arts & Theatre/Miscellaneous/Miscellaneous"
       ]
     },
     {
@@ -30204,17 +29971,6 @@
       ]
     },
     {
-      "id": "the-music-of-john-williams",
-      "name": "The Music of John Williams",
-      "kind": "theatre",
-      "tm": [
-        "K8vZ9174ZE7"
-      ],
-      "genres": [
-        "Arts & Theatre/Spectacular/Spectacular"
-      ]
-    },
-    {
       "id": "the-music-of-otis-redding",
       "name": "The Music of Otis Redding",
       "kind": "music",
@@ -30733,17 +30489,6 @@
       ]
     },
     {
-      "id": "the-royston-club",
-      "name": "The Royston Club",
-      "kind": "music",
-      "tm": [
-        "K8vZ917_gN0"
-      ],
-      "genres": [
-        "Music/Alternative/Alternative"
-      ]
-    },
-    {
       "id": "the-saturday-brunch-club",
       "name": "The Saturday Brunch Club",
       "kind": "other",
@@ -31100,17 +30845,6 @@
       ],
       "genres": [
         "Music/Rock/Post-Punk"
-      ]
-    },
-    {
-      "id": "the-teenagers",
-      "name": "The Teenagers",
-      "kind": "music",
-      "tm": [
-        "K8vZ917Gko0"
-      ],
-      "genres": [
-        "Music/Rock/Pop"
       ]
     },
     {
@@ -31515,7 +31249,7 @@
     },
     {
       "id": "theatre-of-hate",
-      "name": "Theatre Of Hate",
+      "name": "Theatre of Hate",
       "kind": "music",
       "links": {
         "homepage": "https://kirkbrandon.com",
@@ -32971,21 +32705,6 @@
       ]
     },
     {
-      "id": "valencia-grace",
-      "name": "Valencia Grace",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/5cb5ljWIIrvUxokdf2vl6A",
-        "instagram": "https://www.instagram.com/valenciagrace"
-      },
-      "tm": [
-        "K8vZ917L44f"
-      ],
-      "genres": [
-        "Music/Pop/Pop"
-      ]
-    },
-    {
       "id": "valley",
       "name": "Valley",
       "kind": "music",
@@ -33167,14 +32886,6 @@
       ]
     },
     {
-      "id": "vibre-strings",
-      "name": "Vibre Strings",
-      "kind": "music",
-      "genres": [
-        "Music/Drum and Bass"
-      ]
-    },
-    {
       "id": "victim-unit",
       "name": "Victim Unit",
       "kind": "music",
@@ -33299,14 +33010,6 @@
       ]
     },
     {
-      "id": "vio-let",
-      "name": "Vio.let",
-      "kind": "music",
-      "genres": [
-        "Music/Drum and Bass"
-      ]
-    },
-    {
       "id": "viscera",
       "name": "Viscera",
       "kind": "music",
@@ -33383,17 +33086,6 @@
       ],
       "genres": [
         "Music/Metal/Heavy Metal"
-      ]
-    },
-    {
-      "id": "voodoo-london-alt-music-party",
-      "name": "VOODOO LONDON - Alt Music Party",
-      "kind": "music",
-      "tm": [
-        "K8vZ917rfC0"
-      ],
-      "genres": [
-        "Music/Alternative/Alternative"
       ]
     },
     {
@@ -33551,23 +33243,6 @@
       ],
       "genres": [
         "Music/Dance/Electronic/Dance/Electronic"
-      ]
-    },
-    {
-      "id": "wayne-snow",
-      "name": "Wayne Snow",
-      "kind": "music",
-      "links": {
-        "homepage": "https://www.wayne-snow.com/",
-        "spotify": "https://open.spotify.com/artist/4f44GWlEQdXaWl8gQ9sPBC",
-        "instagram": "https://www.instagram.com/waynesnowmusic/",
-        "youtube": "https://www.youtube.com/channel/UC0RZIAhcVSxknV-1qOp6xXQ"
-      },
-      "tm": [
-        "K8vZ917rCSf"
-      ],
-      "genres": [
-        "Music/Dance/Electronic/House"
       ]
     },
     {
@@ -33733,6 +33408,20 @@
       ]
     },
     {
+      "id": "what-jen-wants",
+      "name": "What Jen Wants",
+      "kind": "music",
+      "links": {
+        "instagram": "https://www.instagram.com/whatjenwants/"
+      },
+      "tm": [
+        "K8vZ917xvt0"
+      ],
+      "genres": [
+        "Music/Alternative/Alternative"
+      ]
+    },
+    {
       "id": "whats-love-got-to-do-with-it-tina-turner-tribute",
       "name": "What's Love Got to do With it - Tina Turner Tribute",
       "kind": "music",
@@ -33819,6 +33508,20 @@
       ]
     },
     {
+      "id": "whosmeg",
+      "name": "whosmeg?",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0UYoNzgu81VZ06g3G5nA38"
+      },
+      "tm": [
+        "K8vZ917xGKf"
+      ],
+      "genres": [
+        "Music/Alternative/Electronic Pop"
+      ]
+    },
+    {
       "id": "wicked-london",
       "name": "Wicked (London)",
       "kind": "theatre",
@@ -33827,6 +33530,23 @@
       ],
       "genres": [
         "Arts & Theatre/Theatre/Musical"
+      ]
+    },
+    {
+      "id": "wiki",
+      "name": "Wiki",
+      "kind": "music",
+      "links": {
+        "homepage": "https://www.wikset.nyc/",
+        "spotify": "https://open.spotify.com/artist/78X7quh8fqAGZ42OpLmUW0?autoplay=true",
+        "instagram": "https://www.instagram.com/wikset",
+        "youtube": "https://www.youtube.com/channel/UCNqBhMHw4XVzR0mPGb1sqxw"
+      },
+      "tm": [
+        "K8vZ917fh97"
+      ],
+      "genres": [
+        "Music/Hip-Hop/Rap/Hip-Hop/Rap"
       ]
     },
     {
@@ -34016,6 +33736,24 @@
       ],
       "genres": [
         "Music/Rock/Rock"
+      ]
+    },
+    {
+      "id": "within-temptation",
+      "name": "Within Temptation",
+      "kind": "music",
+      "links": {
+        "homepage": "http://www.within-temptation.com/",
+        "spotify": "https://open.spotify.com/artist/3hE8S8ohRErocpkY7uJW4a",
+        "instagram": "https://www.instagram.com/wtofficial",
+        "wiki": "https://en.wikipedia.org/wiki/Within_Temptation_discography",
+        "youtube": "https://www.youtube.com/user/wtofficial"
+      },
+      "tm": [
+        "K8vZ9175V1f"
+      ],
+      "genres": [
+        "Music/Metal/Heavy Metal"
       ]
     },
     {
@@ -34406,21 +34144,6 @@
       ]
     },
     {
-      "id": "yuraa",
-      "name": "Yuraa",
-      "kind": "music",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/2amoQ88e8B8CYIsmHhGLok",
-        "instagram": "https://www.instagram.com/yuraamusic/"
-      },
-      "tm": [
-        "K8vZ917qDu7"
-      ],
-      "genres": [
-        "Music/Dance/Electronic/Dance/Electronic"
-      ]
-    },
-    {
       "id": "yussef-dayes",
       "name": "Yussef Dayes",
       "kind": "music",
@@ -34429,6 +34152,21 @@
       ],
       "genres": [
         "Music/Jazz/Jazz"
+      ]
+    },
+    {
+      "id": "zamar-eden",
+      "name": "Zamar-Eden",
+      "kind": "music",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5E8KZx3HVS9i84MZWjfOus",
+        "instagram": "https://www.instagram.com/zamar_eden"
+      },
+      "tm": [
+        "K8vZ917xv90"
+      ],
+      "genres": [
+        "Music/R&B/Neo-Soul"
       ]
     },
     {
@@ -34552,17 +34290,17 @@
       "venueId": "",
       "sourceId": "ticketmaster",
       "title": "ABBA Voyage",
-      "url": "https://theatre.ticketmaster.co.uk/book/1H8DJ-abba-voyage-admissions/#perf=1H8DJ-J7J&date=2026-11-27&time=7.45PM",
+      "url": "https://theatre.ticketmaster.co.uk/book/1H8DJ-abba-voyage-admissions/#perf=1H8DJ-J7X&date=2026-11-28&time=3.00PM",
       "type": "concert",
       "category": "shows",
-      "startDate": "2026-11-27",
+      "startDate": "2026-11-28",
       "endDate": "2027-06-28",
       "firstSeen": "2026-11-02",
       "image": "https://s1.ticketm.net/dam/a/ff6/ee6672ad-77bc-4de3-b7c8-8a8ebf5bfff6_RETINA_LANDSCAPE_16_9.jpg",
       "schedule": {
-        "from": "2026-11-27",
+        "from": "2026-11-28",
         "times": [],
-        "days": "1110011111001111100111111110001111101100111110011111001111100111110011111001111110111110011111001111100111110011111001111110111110011111001111100111110011111101111100111110011111000011110111111001111100111110011111"
+        "days": "110011111001111100111111110001111101100111110011111001111100111110011111001111110111110011111001111100111110011111001111110111110011111001111100111110011111101111100111110011111000011110111111001111100111110011111"
       },
       "genres": [
         "Music/Pop/Electro Pop"
@@ -34573,43 +34311,16 @@
       "venueName": "ABBA Arena"
     },
     {
-      "id": "~advanced-beats-studio-and-record-shop:oldskool-winter-warm-up-43027840",
-      "venueId": "",
-      "sourceId": "skiddle",
-      "title": "OldSkool Winter Warm Up",
-      "url": "https://www.skiddle.com/whats-on/London/ADVANCED-BEATS-STUDIO--And--RECORD-SHOP/OldSkool-Winter-Warm-Up/43027840/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "20:00",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/f/9/a/2449879_5c19abfc_oldskool-winter-warm-up.jpg",
-      "description": "Turn up the heat this winter with an Old Skool Winter Warm Up-a night of live music, classic vibes, and feel-good energy.",
-      "genres": [
-        "Music/House",
-        "Music/UK Garage",
-        "Music/Old Skool",
-        "Music/Club Classics",
-        "Music/Jungle"
-      ],
-      "people": [
-        "dj-funky-flirt",
-        "rekool-n-tension"
-      ],
-      "venueName": "ADVANCED BEATS STUDIO And RECORD SHOP"
-    },
-    {
-      "id": "~alfies-soho:alfies-soho-live-jazz-and-blues-2026-11-27",
+      "id": "~alfies-soho:alfies-soho-live-jazz-and-blues-2026-11-28",
       "venueId": "",
       "sourceId": "ticketmaster",
       "title": "Alfies Soho - Live Jazz and Blues",
       "url": "https://www.universe.com/events/alfies-soho-live-jazz-and-blues-tickets-F3N1YG?ref=ticketmaster",
       "type": "concert",
       "category": "shows",
-      "startDate": "2026-11-27",
+      "startDate": "2026-11-28",
       "endDate": null,
-      "firstSeen": "2026-11-27",
+      "firstSeen": "2026-11-28",
       "startTime": "18:00",
       "image": "https://s1.ticketm.net/dam/a/4d8/a894579e-8aa7-472e-93cc-cb0d4fc574d8_RETINA_LANDSCAPE_16_9.jpg",
       "genres": [
@@ -34619,767 +34330,6 @@
         "soho-live-music-club"
       ],
       "venueName": "Alfie's Soho"
-    },
-    {
-      "id": "~allianz-stadium-twickenham:index-7-utm-source-ticketmasterandutm-medium-shell-eventandutm-campaign-cl-nc-26",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Nations Championship 2026: Friday Double Header",
-      "url": "https://nationschampionshiprugby.tmtickets.co.uk/EDP/Event/Index/7?utm_source=Ticketmaster&utm_medium=Shell-Event&utm_campaign=cl:NC-26-chl:Shell-Event-Friday",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-12",
-      "startTime": "16:40",
-      "image": "https://s1.ticketm.net/dam/a/02a/a0daf940-2030-41ea-8e0b-708e7195a02a_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Sports/Rugby/Rugby Union"
-      ],
-      "people": [
-        "nations-championship",
-        "myles-smith",
-        "ireland"
-      ],
-      "venueName": "Allianz Stadium, Twickenham"
-    },
-    {
-      "id": "~blue-note-london:event-23006504bee60a69",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Jazzanova Live feat. Wayne Snow",
-      "url": "https://www.ticketmaster.co.uk/jazzanova-live-feat-wayne-snow-london-27-11-2026/event/23006504BEE60A69",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-27",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/310/5bbcb6ab-4645-4706-922d-5cfa713e9310_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Doors open at 17:00, two hours before the event starts",
-      "genres": [
-        "Music/Dance/Electronic/Amapiano"
-      ],
-      "people": [
-        "jazzanova",
-        "wayne-snow"
-      ],
-      "venueName": "Blue Note London"
-    },
-    {
-      "id": "~boisdale-canary-wharf:events-heatwave-tickets-k9bmyc-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Heatwave",
-      "url": "https://www.universe.com/events/heatwave-tickets-K9BMYC?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "21:00",
-      "image": "https://s1.ticketm.net/dam/a/39f/3648604e-4f97-4cf5-877f-af6710a2239f_1225961_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/R&B/Funk"
-      ],
-      "people": [
-        "heatwave"
-      ],
-      "venueName": "Boisdale, Canary Wharf"
-    },
-    {
-      "id": "~british-airways-arc:event-370064967f36163d",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "The Damned - Final Damnation 50",
-      "url": "https://www.ticketmaster.co.uk/the-damned-final-damnation-50-london-27-11-2026/event/370064967F36163D",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/a/4df/18a9a2bf-3f3c-4603-80f8-ce03caee94df_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Doors: 18:30",
-      "genres": [
-        "Music/Rock/Alternative Rock"
-      ],
-      "people": [
-        "the-damned"
-      ],
-      "venueName": "British Airways ARC"
-    },
-    {
-      "id": "~cart-and-horses:events-motorwrecked-alice-in-chains-uk-darkmoore-tickets-2bstdp-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "MOTORWRECKED + ALICE IN CHAINS UK + DARKMOORE",
-      "url": "https://www.universe.com/events/motorwrecked-alice-in-chains-uk-darkmoore-tickets-2BSTDP?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "20:00",
-      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Metal/Metal"
-      ],
-      "people": [
-        "motorwrecked",
-        "alice-in-chains-uk"
-      ],
-      "venueName": "Cart & Horses"
-    },
-    {
-      "id": "~club-cheek:event-350064e7a3e1ef5a",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Disgusting Sisters",
-      "url": "https://www.ticketmaster.co.uk/disgusting-sisters-london-27-11-2026/event/350064E7A3E1EF5A",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/78b/9493b142-c9de-43d2-9ac0-70dcc01d378b_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Pop/Electro Pop"
-      ],
-      "people": [
-        "disgusting-sisters"
-      ],
-      "venueName": "Club Cheek"
-    },
-    {
-      "id": "~comedy-carnival-covent-garden:events-friday-comedy-club-london-covent-garden-tickets-5blh1c-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Friday Comedy Club London | Covent Garden",
-      "url": "https://www.universe.com/events/friday-comedy-club-london-covent-garden-tickets-5BLH1C?ref=ticketmaster",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-21",
-      "startTime": "20:30",
-      "image": "https://s1.ticketm.net/dam/a/c32/a105cee3-8277-4651-8115-567d507a7c32_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ],
-      "people": [
-        "comedy-carnival"
-      ],
-      "venueName": "Comedy Carnival Covent Garden"
-    },
-    {
-      "id": "~comedy-carnival-covent-garden:events-international-stand-up-comedy-covent-garden-tickets-6sqnpd-ref-ticketmast",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "International Stand Up Comedy, Covent Garden",
-      "url": "https://www.universe.com/events/international-stand-up-comedy-covent-garden-tickets-6SQNPD?ref=ticketmaster",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": "2027-05-29",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/c32/a105cee3-8277-4651-8115-567d507a7c32_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-27",
-        "times": [
-          "20:00",
-          "20:30"
-        ],
-        "days": "22000012200001220000122............22000002200000220000122000012200000220000122000002200001220000022000012200001220000122000002200000220000122000002200001220000022000012200000220000122"
-      },
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ],
-      "people": [
-        "comedy-carnival"
-      ],
-      "venueName": "Comedy Carnival Covent Garden"
-    },
-    {
-      "id": "~dingwalls:events-valencia-grace-tickets-wq7rp3-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Valencia Grace",
-      "url": "https://www.universe.com/events/valencia-grace-tickets-WQ7RP3?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/59d/8cca58ad-9630-4a1c-9441-aa1db9fd659d_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Pop/Pop"
-      ],
-      "people": [
-        "valencia-grace"
-      ],
-      "venueName": "Dingwalls"
-    },
-    {
-      "id": "~electric-ballroom:event-1f006477dba66b8f",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "The Rifles",
-      "url": "https://www.ticketmaster.co.uk/the-rifles-london-27-11-2026/event/1F006477DBA66B8F",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": "2026-11-28",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/d2e/698f3a93-88bc-4fc7-bd8b-ef7b6c7a4d2e_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "With Support from Joe Carnall and Nico Cann",
-      "genres": [
-        "Music/Rock/Alternative Rock"
-      ],
-      "people": [
-        "the-rifles",
-        "joe-carnall-jnr"
-      ],
-      "venueName": "Electric Ballroom"
-    },
-    {
-      "id": "~electric-brixton:events-ahadadream-tickets-vngpcq-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Ahadadream",
-      "url": "https://www.universe.com/events/ahadadream-tickets-VNGPCQ?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "23:00",
-      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Dance/Electronic/Ambient Techno"
-      ],
-      "people": [
-        "ahadadream"
-      ],
-      "venueName": "Electric Brixton"
-    },
-    {
-      "id": "~electric-brixton:events-eloise-tickets-2z6m83-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Eloise",
-      "url": "https://www.universe.com/events/eloise-tickets-2Z6M83?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/a/486/b9af0b27-c382-40bf-9332-8c2ea9a27486_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Rock/Pop"
-      ],
-      "people": [
-        "eloise"
-      ],
-      "venueName": "Electric Brixton"
-    },
-    {
-      "id": "~fox-and-firkin:events-rum-reggae-show-with-levi-roots-tickets-xzfq36-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "RUM & REGGAE SHOW with LEVI ROOTS",
-      "url": "https://www.universe.com/events/rum-reggae-show-with-levi-roots-tickets-XZFQ36?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "20:00",
-      "image": "https://s1.ticketm.net/dam/c/27e/458d1b62-6e4f-4ffd-8941-9ed303d8e27e_106041_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Reggae/Reggae"
-      ],
-      "people": [
-        "levi-roots"
-      ],
-      "venueName": "Fox and Firkin"
-    },
-    {
-      "id": "~jazz-cafe:events-el-buho-tickets-2xt6bj-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "El Búho",
-      "url": "https://www.universe.com/events/el-buho-tickets-2XT6BJ?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "22:30",
-      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Dance/Electronic/Dance/Electronic"
-      ],
-      "people": [
-        "club-nights-the-jazz-cafe"
-      ],
-      "venueName": "Jazz Cafe"
-    },
-    {
-      "id": "~jazz-cafe:events-yuraa-tickets-bpxwl4-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "yuraa",
-      "url": "https://www.universe.com/events/yuraa-tickets-BPXWL4?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Dance/Electronic/Dance/Electronic"
-      ],
-      "people": [
-        "yuraa"
-      ],
-      "venueName": "Jazz Cafe"
-    },
-    {
-      "id": "~kensington-united-reformed-church:events-from-hogwarts-to-the-stars-the-music-of-john-williams-tickets-l4z1n5-ref",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "From Hogwarts to the Stars: The Music of John Williams",
-      "url": "https://www.universe.com/events/from-hogwarts-to-the-stars-the-music-of-john-williams-tickets-L4Z1N5?ref=ticketmaster",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-19",
-      "startTime": "19:30",
-      "image": "https://s1.ticketm.net/dam/a/114/7b5af93e-9152-4504-8282-1b1ab2af7114_226971_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Arts & Theatre/Spectacular/Spectacular"
-      ],
-      "people": [
-        "the-music-of-john-williams",
-        "mystery-ensemble"
-      ],
-      "venueName": "Kensington United Reformed Church"
-    },
-    {
-      "id": "~magazine:event-1f006529214b83aa",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "BUNT.",
-      "url": "https://www.ticketmaster.co.uk/bunt-london-27-11-2026/event/1F006529214B83AA",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/75c/148b587b-7c2e-431b-a2a2-5e90c740375c_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Doors: 19:00 Curfew: 23:00 Last Entry: 21:00",
-      "genres": [
-        "Music/Dance/Electronic/Amapiano"
-      ],
-      "people": [
-        "bunt"
-      ],
-      "venueName": "Magazine"
-    },
-    {
-      "id": "~new-cross-inn:events-chris-hills-dirty-dc-tickets-wcnjvg-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Chris Hill's Dirty DC",
-      "url": "https://www.universe.com/events/chris-hills-dirty-dc-tickets-WCNJVG?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:00",
-      "image": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music"
-      ],
-      "people": [
-        "dirty-dc"
-      ],
-      "venueName": "New Cross Inn"
-    },
-    {
-      "id": "~new-cross-inn:chris-hills-dirty-dc-acdc-tribute-42467881",
-      "venueId": "",
-      "sourceId": "skiddle",
-      "title": "Chris Hill's Dirty DC (AC/DC Tribute)",
-      "url": "https://www.skiddle.com/whats-on/London/New-Cross-Inn/Chris-Hills-Dirty-DC-ACDC-Tribute/42467881/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:00",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/d/4/2/2274303_f1a1a7e8_chris-hill-s-dirty-dc-ac-dc-tribute-.jpg",
-      "description": "New Cross Live presents Chris Hill's DIRTY DC (The AC/DC Tribute) Friday 27th Nov 2026 New Cross Inn London Doors 6pm £15 ADV // £18 OTD",
-      "genres": [
-        "Music/Rock",
-        "Music/Hard Rock"
-      ],
-      "people": [
-        "dirty-dc"
-      ],
-      "venueName": "New Cross Inn"
-    },
-    {
-      "id": "~o2-academy-brixton:event-3e0064d2f05da8c6",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "The Big Moon",
-      "url": "https://www.ticketmaster.co.uk/the-big-moon-london-27-11-2026/event/3E0064D2F05DA8C6",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/0f5/d8fcb092-1a94-4837-8838-85df6dd1b0f5_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "No Bags Security measures are in place with bag checks on arrival. Only one small bag per person is permitted and it must not be bigger than A4 size. Large bags - including rucksacks - are not allowed. If you're coming to the show with bags bigger than A4, pre-book and drop them ",
-      "genres": [
-        "Music/Rock/Pop"
-      ],
-      "people": [
-        "the-big-moon",
-        "mary-in-the-junkyard",
-        "gia-ford"
-      ],
-      "venueName": "O2 Academy Brixton"
-    },
-    {
-      "id": "~o2-academy-islington:event-3e0064d99ef84cef",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Skerryvore",
-      "url": "https://www.ticketmaster.co.uk/skerryvore-london-27-11-2026/event/3E0064D99EF84CEF",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:00",
-      "image": "https://s1.ticketm.net/dam/a/a30/75bd7960-dcc6-4b32-adfb-cf63fc533a30_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must ",
-      "genres": [
-        "Music/Folk/Indie Folk"
-      ],
-      "people": [
-        "skerryvore"
-      ],
-      "venueName": "O2 Academy Islington"
-    },
-    {
-      "id": "~o2-academy2-islington:event-3e0064ac3d9486e4",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Morgan Wallen Tribute UK",
-      "url": "https://www.ticketmaster.co.uk/morgan-wallen-tribute-uk-london-27-11-2026/event/3E0064AC3D9486E4",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/fb1/330f5e28-752a-4380-adc8-d2b6517f6fb1_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "genres": [
-        "Music"
-      ],
-      "people": [
-        "morgan-wallen-tribute-uk"
-      ],
-      "venueName": "O2 Academy2 Islington"
-    },
-    {
-      "id": "~o2-forum-kentish-town:event-3e0064729a7a2b02",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Cassia",
-      "url": "https://www.ticketmaster.co.uk/cassia-london-27-11-2026/event/3E0064729A7A2B02",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/b0c/946a4c25-be54-4801-ba18-b650d809db0c_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must ",
-      "genres": [
-        "Music/Rock/Alternative Rock"
-      ],
-      "people": [
-        "cassia",
-        "rum-jungle"
-      ],
-      "venueName": "O2 Forum Kentish Town"
-    },
-    {
-      "id": "~ovo-arena-wembley:event-37006453d5fe5b55",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Paul Smith: Happy",
-      "url": "https://www.ticketmaster.co.uk/paul-smith-happy-london-27-11-2026/event/37006453D5FE5B55",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-27",
-      "startTime": "20:00",
-      "image": "https://s1.ticketm.net/dam/a/0ea/6818b7c6-3953-47ca-a597-3b4b9ebf90ea_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Please be advised that Wembley Arena seating is divided into bays: - Blocks A and B are not raked and other customers may stand during the performance. - Blocks C and D are tiered behind these. - Block E represents the East Terrace. Higher rows may not be suitable for patrons who",
-      "genres": [
-        "Arts & Theatre/Comedy/Comedy"
-      ],
-      "people": [
-        "paul-smith"
-      ],
-      "venueName": "OVO Arena Wembley"
-    },
-    {
-      "id": "~president-hotel:book-1gltr-faulty-towers-the-dining-experience-in-londons-west-end-2024",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Faulty Towers the Dining Experience",
-      "url": "https://theatre.ticketmaster.co.uk/book/1GLTR-faulty-towers-the-dining-experience-in-londons-west-end-2024/#perf=1GLTR-22A&date=2026-11-27&time=7.30PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": "2027-11-26",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/15e/dda96bd9-563a-48b8-95e1-7226ffd7715e_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-27",
-        "times": [
-          "12:30",
-          "13:30",
-          "14:30",
-          "18:30",
-          "19:30"
-        ],
-        "days": "gia00gigia00gigia00gigi2.................ggi2000ggi2000ggi2000ggi200gggi200gggi200gggi200gggi200gggi200gggi200gggi200gggi400gggi200gggi200gggi2000ggi200gggi200gggi200gggi200gggi200gggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi0000ggi2000ggi2000ggg2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi200gggi200gggi200gggi200gggi100gggi200gggi200gigia00gig"
-      },
-      "genres": [
-        "Arts & Theatre/Theatre/Comedy"
-      ],
-      "people": [
-        "faulty-towers-the-dining-experience"
-      ],
-      "venueName": "President Hotel"
-    },
-    {
-      "id": "~raes-at-omeara:events-voodoo-london-grand-finale-2026-metal-emo-punk-goth-party-ft-live-tickets",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "VOODOO ★ LONDON - GRAND FINALE 2026 ft Live",
-      "url": "https://www.universe.com/events/voodoo-london-grand-finale-2026-metal-emo-punk-goth-party-ft-live-tickets-94PBF0?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-06",
-      "startTime": "22:00",
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Alternative/Alternative"
-      ],
-      "people": [
-        "voodoo-london-alt-music-party",
-        "flint-fire-the-keith-flint-prodigy-tribute-band",
-        "steal-this-band-the-tribute-to-system-of-a-down"
-      ],
-      "venueName": "Raes At Omeara"
-    },
-    {
-      "id": "~sebright-arms:events-sunday-best-tickets-6f1n78-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Sunday Best",
-      "url": "https://www.universe.com/events/sunday-best-tickets-6F1N78?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Rock/Emo"
-      ],
-      "people": [
-        "sunday-best"
-      ],
-      "venueName": "Sebright Arms"
-    },
-    {
-      "id": "~the-boom-boom-club:stanley-dee-a-tribute-to-steely-dan-42682522",
-      "venueId": "",
-      "sourceId": "skiddle",
-      "title": "Stanley Dee: A Tribute to Steely Dan",
-      "url": "https://www.skiddle.com/whats-on/Sutton/The-Boom-Boom-Club/Stanley-Dee-A-Tribute-to-Steely-Dan/42682522/",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/7/d/4/2328714_a2da3d7d_stanley-dee-a-tribute-to-steely-dan.jpg",
-      "description": "Authentic sounds played with skill and enthusiasm. If you like Steely Dan, you will love Stanley Dee!",
-      "price": "paid",
-      "genres": [
-        "Music/Covers Band/Tribute Act"
-      ],
-      "people": [
-        "stanley-dee"
-      ],
-      "venueName": "The Boom Boom Club"
-    },
-    {
-      "id": "~the-lexington:events-arabrot-tickets-wym6t3-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Årabrot",
-      "url": "https://www.universe.com/events/arabrot-tickets-WYM6T3?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/a32/068d5fac-ba47-47d5-9489-4f756383aa32_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Rock/Pop"
-      ],
-      "people": [
-        "arabrot",
-        "born-again-concerts"
-      ],
-      "venueName": "The Lexington"
-    },
-    {
-      "id": "~the-shacklewell-arms:events-pyncher-tickets-rmj4ft-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Pyncher",
-      "url": "https://www.universe.com/events/pyncher-tickets-RMJ4FT?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/ff9/bcfa048b-d90b-4282-9660-1a4f59b3eff9_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Rock/Alternative Rock"
-      ],
-      "people": [
-        "pyncher"
-      ],
-      "venueName": "The Shacklewell Arms"
-    },
-    {
-      "id": "~the-social:event-1f006542ef6e99f9",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "The Teenagers",
-      "url": "https://www.ticketmaster.co.uk/the-teenagers-london-27-11-2026/event/1F006542EF6E99F9",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/b8f/3deabf99-7a99-4b17-b780-036968a15b8f_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Rock/Pop"
-      ],
-      "people": [
-        "the-teenagers"
-      ],
-      "venueName": "The Social"
-    },
-    {
-      "id": "~the-theatre-at-the-hippodrome-casino:book-1fhac-magic-mike-live-bp-9",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Magic Mike Live!",
-      "url": "https://theatre.ticketmaster.co.uk/book/1FHAC-magic-mike-live-bp-9/#perf=1FHAC-237&date=2026-11-27&time=7.00PM",
-      "type": "show",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": "2027-11-26",
-      "firstSeen": "2026-11-02",
-      "image": "https://s1.ticketm.net/dam/a/3e7/62c8d4be-2b0c-4ecc-a11c-5912742693e7_RETINA_LANDSCAPE_16_9.jpg",
-      "schedule": {
-        "from": "2026-11-27",
-        "times": [],
-        "days": "11100111110011111001111101100110111111.........1111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111.......................111110011111001111100111110011111001111100111110011111001111100111"
-      },
-      "genres": [
-        "Arts & Theatre/Miscellaneous Theatre/Miscellaneous Theatre"
-      ],
-      "people": [
-        "magic-mike-live"
-      ],
-      "venueName": "The Theatre at the Hippodrome Casino"
-    },
-    {
-      "id": "~venue-mot:events-oneman-b2b-plastician-all-night-long-tickets-qgcdxk-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Oneman b2b Plastician [All Night Long]",
-      "url": "https://www.universe.com/events/oneman-b2b-plastician-all-night-long-tickets-QGCDXK?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "23:00",
-      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Dance/Electronic/Club Dance"
-      ],
-      "people": [
-        "oneman",
-        "plastician"
-      ],
-      "venueName": "Venue MOT"
-    },
-    {
-      "id": "~vortex-jazz-club:events-out-front-olie-brice-quartet-double-bill-tickets-bf7lrv-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Out Front + Olie Brice Quartet (Double Bill)",
-      "url": "https://www.universe.com/events/out-front-olie-brice-quartet-double-bill-tickets-BF7LRV?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-27",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30",
-      "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/Jazz/Jazz"
-      ],
-      "people": [
-        "olie-brice",
-        "out-front"
-      ],
-      "venueName": "Vortex Jazz Club"
     },
     {
       "id": "~blue-note-london:event-2300653d88c60ada",
@@ -35489,6 +34439,34 @@
       "venueName": "Boisdale, Canary Wharf"
     },
     {
+      "id": "~comedy-carnival-covent-garden:events-international-stand-up-comedy-covent-garden-tickets-6sqnpd-ref-ticketmast",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "International Stand Up Comedy, Covent Garden",
+      "url": "https://www.universe.com/events/international-stand-up-comedy-covent-garden-tickets-6SQNPD?ref=ticketmaster",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-28",
+      "endDate": "2027-05-29",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/c32/a105cee3-8277-4651-8115-567d507a7c32_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-28",
+        "times": [
+          "20:00",
+          "20:30"
+        ],
+        "days": "2000012200001220000122............22000002200000220000122000012200000220000122000002200001220000022000012200001220000122000002200000220000122000002200001220000022000012200000220000122"
+      },
+      "genres": [
+        "Arts & Theatre/Comedy/Comedy"
+      ],
+      "people": [
+        "comedy-carnival"
+      ],
+      "venueName": "Comedy Carnival Covent Garden"
+    },
+    {
       "id": "~comedy-carnival-covent-garden:events-saturday-comedy-club-london-covent-garden-tickets-r8s265-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -35577,6 +34555,29 @@
       "venueName": "Downstairs at The Dome"
     },
     {
+      "id": "~electric-ballroom:event-1f00647a2901c44e",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "The Rifles",
+      "url": "https://www.ticketmaster.co.uk/the-rifles-london-28-11-2026/event/1F00647A2901C44E",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-11-28",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "18:00",
+      "image": "https://s1.ticketm.net/dam/a/d2e/698f3a93-88bc-4fc7-bd8b-ef7b6c7a4d2e_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "With Support from Joe Carnall and Nico Cann",
+      "genres": [
+        "Music/Rock/Alternative Rock"
+      ],
+      "people": [
+        "the-rifles",
+        "joe-carnall-jnr"
+      ],
+      "venueName": "Electric Ballroom"
+    },
+    {
       "id": "~electric-brixton:events-genesis-owusu-tickets-wh9djc-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -35620,27 +34621,6 @@
       "venueName": "Electric Brixton"
     },
     {
-      "id": "~jazz-cafe:events-toshiki-soejima-tickets-s2ldrc-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Toshiki Soejima",
-      "url": "https://www.universe.com/events/toshiki-soejima-tickets-S2LDRC?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-11-28",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "18:30",
-      "image": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/R&B/Neo-Soul"
-      ],
-      "people": [
-        "toshiki-soejima"
-      ],
-      "venueName": "Jazz Cafe"
-    },
-    {
       "id": "~jazz-cafe:events-toshiki-soejima-matinee-show-tickets-jk4nym-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -35678,8 +34658,7 @@
         "Music/Classical/Classical/Vocal"
       ],
       "people": [
-        "hayao-miyazakis-dreams",
-        "mystery-ensemble"
+        "hayao-miyazakis-dreams"
       ],
       "venueName": "Kensington United Reformed Church"
     },
@@ -35847,6 +34826,37 @@
       "venueName": "OVO Arena Wembley"
     },
     {
+      "id": "~president-hotel:book-1gltr-faulty-towers-the-dining-experience-in-londons-west-end-2024",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Faulty Towers the Dining Experience",
+      "url": "https://theatre.ticketmaster.co.uk/book/1GLTR-faulty-towers-the-dining-experience-in-londons-west-end-2024/#perf=1GLTR-22B&date=2026-11-28&time=1.30PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-28",
+      "endDate": "2027-11-27",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/15e/dda96bd9-563a-48b8-95e1-7226ffd7715e_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-28",
+        "times": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "18:30",
+          "19:30"
+        ],
+        "days": "ia00gigia00gigia00gigi2.................ggi2000ggi2000ggi2000ggi200gggi200gggi200gggi200gggi200gggi200gggi200gggi200gggi400gggi200gggi200gggi2000ggi200gggi200gggi200gggi200gggi200gggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi0000ggi2000ggi2000ggg2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi2000ggi200gggi200gggi200gggi200gggi100gggi200gggi200gigia00gigi"
+      },
+      "genres": [
+        "Arts & Theatre/Theatre/Comedy"
+      ],
+      "people": [
+        "faulty-towers-the-dining-experience"
+      ],
+      "venueName": "President Hotel"
+    },
+    {
       "id": "~queen-elizabeth-hall-southbank-centre:brigitta-muntendorf-last-show-42580480",
       "venueId": "",
       "sourceId": "skiddle",
@@ -35935,6 +34945,34 @@
       "venueName": "The Garage"
     },
     {
+      "id": "~the-lost-estate:book-1jb08-the-great-christmas-feast-2026",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "The Great Christmas Feast",
+      "url": "https://theatre.ticketmaster.co.uk/book/1JB08-the-great-christmas-feast-2026/#perf=1JB08-U&date=2026-11-28&time=12.45PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-28",
+      "endDate": "2027-01-02",
+      "firstSeen": "2026-11-28",
+      "image": "https://s1.ticketm.net/dam/a/9ab/a27a8570-6e43-496c-9bee-70b5692ad9ab_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-28",
+        "times": [
+          "12:45",
+          "18:45"
+        ],
+        "days": "333333333333333333333333331023333103"
+      },
+      "genres": [
+        "Arts & Theatre/Miscellaneous Theatre/Miscellaneous Theatre"
+      ],
+      "people": [
+        "the-great-christmas-feast"
+      ],
+      "venueName": "The Lost Estate"
+    },
+    {
       "id": "~the-lower-third:event-350064a99d2e1ec2",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -35954,6 +34992,31 @@
         "jamie-fine"
       ],
       "venueName": "The Lower Third"
+    },
+    {
+      "id": "~the-theatre-at-the-hippodrome-casino:book-1fhac-magic-mike-live-bp-9",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Magic Mike Live!",
+      "url": "https://theatre.ticketmaster.co.uk/book/1FHAC-magic-mike-live-bp-9/#perf=1FHAC-239&date=2026-11-28&time=4.00PM",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-11-28",
+      "endDate": "2027-11-27",
+      "firstSeen": "2026-11-02",
+      "image": "https://s1.ticketm.net/dam/a/3e7/62c8d4be-2b0c-4ecc-a11c-5912742693e7_RETINA_LANDSCAPE_16_9.jpg",
+      "schedule": {
+        "from": "2026-11-28",
+        "times": [],
+        "days": "1100111110011111001111101100110111111.........1111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111.......................1111100111110011111001111100111110011111001111100111110011111001111"
+      },
+      "genres": [
+        "Arts & Theatre/Miscellaneous Theatre/Miscellaneous Theatre"
+      ],
+      "people": [
+        "magic-mike-live"
+      ],
+      "venueName": "The Theatre at the Hippodrome Casino"
     },
     {
       "id": "~the-victoria-dalston:the-gulls-the-victoria-dalston-42793185",
@@ -35994,9 +35057,7 @@
         "Music/Dance/Electronic/Dance/Electronic"
       ],
       "people": [
-        "keeno",
-        "vio-let",
-        "vibre-strings"
+        "keeno"
       ],
       "venueName": "Village Underground"
     },
@@ -37237,7 +36298,7 @@
       "startDate": "2026-12-03",
       "endDate": null,
       "firstSeen": "2026-11-02",
-      "startTime": "19:30",
+      "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/a1a/29cb24ef-4775-4117-b1c6-e9978226ba1a_RETINA_LANDSCAPE_16_9.jpg",
       "genres": [
         "Music/Rock/Pop"
@@ -37513,6 +36574,27 @@
         "interpol"
       ],
       "venueName": "British Airways ARC"
+    },
+    {
+      "id": "~comedy-carnival-covent-garden:events-friday-comedy-club-london-covent-garden-tickets-tw981k-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Friday Comedy Club London | Covent Garden",
+      "url": "https://www.universe.com/events/friday-comedy-club-london-covent-garden-tickets-TW981K?ref=ticketmaster",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2026-12-04",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "20:30",
+      "image": "https://s1.ticketm.net/dam/a/c32/a105cee3-8277-4651-8115-567d507a7c32_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Arts & Theatre/Comedy/Comedy"
+      ],
+      "people": [
+        "comedy-carnival"
+      ],
+      "venueName": "Comedy Carnival Covent Garden"
     },
     {
       "id": "~electric-brixton:events-celebrating-50-years-of-saxon-reggae-sound-system-tickets-4w05fg-ref-tick",
@@ -38140,8 +37222,7 @@
       ],
       "people": [
         "rioghnach-connolly",
-        "honeyfeet",
-        "rioghnach-connolly-and-honeyfeet"
+        "honeyfeet"
       ],
       "venueName": "Fox and Firkin"
     },
@@ -38204,8 +37285,7 @@
         "Arts & Theatre/Classical/Symphonic"
       ],
       "people": [
-        "tim-burtons-universe",
-        "mystery-ensemble"
+        "tim-burtons-universe"
       ],
       "venueName": "Kensington United Reformed Church"
     },
@@ -38272,8 +37352,7 @@
         "Music/Rock/Rock"
       ],
       "people": [
-        "bruce-juice-the-springsteen-tribute-band",
-        "bruce-juice"
+        "bruce-juice-the-springsteen-tribute-band"
       ],
       "venueName": "New Cross Inn"
     },
@@ -40286,8 +39365,7 @@
         "Music/Alternative/Alternative Rock"
       ],
       "people": [
-        "mik-artistiks-ego-trip",
-        "mik-artistsiks-ego-trip"
+        "mik-artistiks-ego-trip"
       ],
       "venueName": "New Cross Inn"
     },
@@ -41574,16 +40652,16 @@
       "venueName": "Cecil Sharp House"
     },
     {
-      "id": "~jazz-cafe:events-the-beatles-dub-club-tickets-bxrn4t-ref-ticketmaster",
+      "id": "~jazz-cafe:events-a-beatles-christmas-tickets-bxrn4t-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
-      "title": "The Beatles Dub Club",
-      "url": "https://www.universe.com/events/the-beatles-dub-club-tickets-BXRN4T?ref=ticketmaster",
+      "title": "A Beatles Christmas",
+      "url": "https://www.universe.com/events/a-beatles-christmas-tickets-BXRN4T?ref=ticketmaster",
       "type": "concert",
       "category": "shows",
       "startDate": "2026-12-16",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-28",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg",
       "genres": [
@@ -42407,8 +41485,7 @@
         "Music/Alternative/Alternative Rock"
       ],
       "people": [
-        "oasis-forever-tribute-band",
-        "oasis-forever"
+        "oasis-forever-tribute-band"
       ],
       "venueName": "New Cross Inn"
     },
@@ -42583,8 +41660,7 @@
       "people": [
         "steve-cradock",
         "the-beat",
-        "the-velvet-hands",
-        "the-beat-featuring-ranking-jnr"
+        "the-velvet-hands"
       ],
       "venueName": "229"
     },
@@ -42958,6 +42034,26 @@
       "venueName": "Vortex Jazz Club"
     },
     {
+      "id": "~jazz-cafe:events-the-rnb-orchestra-tickets-zkymbc-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "The RnB Orchestra",
+      "url": "https://www.universe.com/events/the-rnb-orchestra-tickets-ZKYMBC?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2026-12-21",
+      "endDate": "2026-12-22",
+      "firstSeen": "2026-11-28",
+      "image": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Music/R&B/R&B"
+      ],
+      "people": [
+        "the-rnb-orchestra"
+      ],
+      "venueName": "Jazz Cafe"
+    },
+    {
       "id": "~koko:event-1f0064bad5b374c0",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -42998,27 +42094,6 @@
         "gumbys-junk"
       ],
       "venueName": "New Cross Inn"
-    },
-    {
-      "id": "~jazz-cafe:events-the-rnb-orchestra-tickets-1qbk7c-ref-ticketmaster",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "The RnB Orchestra",
-      "url": "https://www.universe.com/events/the-rnb-orchestra-tickets-1QBK7C?ref=ticketmaster",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2026-12-22",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_RETINA_LANDSCAPE_16_9.jpg",
-      "genres": [
-        "Music/R&B/R&B"
-      ],
-      "people": [
-        "the-rnb-orchestra"
-      ],
-      "venueName": "Jazz Cafe"
     },
     {
       "id": "~new-cross-inn:events-aces-collective-presents-rumur-tickets-21d40t-ref-ticketmaster",
@@ -43471,8 +42546,7 @@
       ],
       "people": [
         "blinked-182-blink-182-tribute-band",
-        "the-sum-is-41-the-uks-definitive-sum-41-tribute",
-        "blinked-182"
+        "the-sum-is-41-the-uks-definitive-sum-41-tribute"
       ],
       "venueName": "New Cross Inn"
     },
@@ -44277,6 +43351,30 @@
       "venueName": "New Cross Inn"
     },
     {
+      "id": "~shacklewell-arms:events-eyoe-recommends-6-january-tickets-0wlc9x-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "EYOE Recommends - 6 January",
+      "url": "https://www.universe.com/events/eyoe-recommends-6-january-tickets-0WLC9X?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-01-06",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Music/Alternative/Alternative"
+      ],
+      "people": [
+        "grand-pax",
+        "if-i-was-a-pony",
+        "whosmeg",
+        "eyoe-recommends"
+      ],
+      "venueName": "Shacklewell Arms"
+    },
+    {
       "id": "~jazz-cafe:events-bowies-birthday-a-live-celebration-tickets-9khmcg-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -44895,6 +43993,30 @@
       "venueName": "O2 Academy Brixton"
     },
     {
+      "id": "~shacklewell-arms:events-eyoe-recommends-13-january-tickets-z8bt6y-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "EYOE Recommends - 13 January",
+      "url": "https://www.universe.com/events/eyoe-recommends-13-january-tickets-Z8BT6Y?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-01-13",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Music/Alternative/Post-Punk"
+      ],
+      "people": [
+        "porchlight",
+        "ebbb",
+        "marina-yozora",
+        "eyoe-recommends"
+      ],
+      "venueName": "Shacklewell Arms"
+    },
+    {
       "id": "~the-troubadour:events-foxhole-stonny-the-donny-dead-language-press-tickets-5yx3w9-ref-ticketmas",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -45051,8 +44173,7 @@
         "mr-cee",
         "kat-b",
         "sharifa-butterfly",
-        "diesel",
-        "kat-boyce"
+        "diesel"
       ],
       "venueName": "Top Secret Comedy Club"
     },
@@ -45097,8 +44218,7 @@
       ],
       "people": [
         "the-animals-and-friends",
-        "geno-washington",
-        "the-animals"
+        "geno-washington"
       ],
       "venueName": "229"
     },
@@ -45205,8 +44325,7 @@
         "Music/Rock/Rock"
       ],
       "people": [
-        "red-hot-chili-peppers-uk-tribute",
-        "red-hot-chili-peppers-uk-tribute-band"
+        "red-hot-chili-peppers-uk-tribute"
       ],
       "venueName": "New Cross Inn"
     },
@@ -45765,6 +44884,30 @@
       "venueName": "New Cross Inn"
     },
     {
+      "id": "~shacklewell-arms:events-eyoe-recommends-20-january-tickets-17j5md-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "EYOE Recommends - 20 January",
+      "url": "https://www.universe.com/events/eyoe-recommends-20-january-tickets-17J5MD?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-01-20",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Music/Alternative/Alternative"
+      ],
+      "people": [
+        "cutscene",
+        "bleach-estate",
+        "what-jen-wants",
+        "eyoe-recommends"
+      ],
+      "venueName": "Shacklewell Arms"
+    },
+    {
       "id": "~229:events-january-blues-dr-feelgood-eddie-the-hot-tickets-3lntjk-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -46119,6 +45262,29 @@
       ],
       "people": [
         "club-nights-the-jazz-cafe"
+      ],
+      "venueName": "Jazz Cafe"
+    },
+    {
+      "id": "~jazz-cafe:events-jazz-re-freshed-sounds-of-2027-tickets-8nwfls-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "jazz re:freshed: Sounds of 2027",
+      "url": "https://www.universe.com/events/jazz-re-freshed-sounds-of-2027-tickets-8NWFLS?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-01-23",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "18:30",
+      "image": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Music/R&B/Neo-Soul"
+      ],
+      "people": [
+        "zamar-eden",
+        "jon-onabowu",
+        "big-massive"
       ],
       "venueName": "Jazz Cafe"
     },
@@ -46582,7 +45748,8 @@
       "people": [
         "coupdekat",
         "lucky-iris",
-        "your-mates-ex"
+        "your-mates-ex",
+        "eyoe-recommends"
       ],
       "venueName": "Shacklewell Arms"
     },
@@ -46686,17 +45853,14 @@
       "endDate": null,
       "firstSeen": "2026-11-26",
       "startTime": "20:00",
-      "image": "https://s1.ticketm.net/dam/a/c10/dd961f4a-bea9-4797-ad45-91ca70dbec10_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/995/dc622c48-ba6e-4b18-9645-db1d206b4995_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Performing: KhakiKid, Lucy Park, Anna Acquroff",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
-        "Music/Hip-Hop/Rap/Trap"
+        "Music/Rock/Pop"
       ],
       "people": [
-        "khakikid",
-        "abbie-mccarthys-future-karma"
+        "abbie-mccarthys-future-karma",
+        "khakikid"
       ],
       "venueName": "Colours Hoxton"
     },
@@ -47021,18 +46185,15 @@
       "endDate": null,
       "firstSeen": "2026-11-26",
       "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/995/dc622c48-ba6e-4b18-9645-db1d206b4995_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Perfroming: Strata, Ellis Murphy, Pack of Animals",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
-        "Music/Rock/Alternative Rock"
+        "Music/Rock/Pop"
       ],
       "people": [
+        "abbie-mccarthys-future-karma",
         "strata",
-        "pack-of-animals",
-        "abbie-mccarthys-future-karma"
+        "pack-of-animals"
       ],
       "venueName": "The Lower Third"
     },
@@ -47529,18 +46690,15 @@
       "endDate": null,
       "firstSeen": "2026-11-26",
       "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/601/99b9eb86-e540-4119-a2ae-e25b7eb72601_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/995/dc622c48-ba6e-4b18-9645-db1d206b4995_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Perfroming: The Paris Match, Zoe's Brothers, For Nina",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
-        "Music/Rock/Alternative Rock"
+        "Music/Rock/Pop"
       ],
       "people": [
+        "abbie-mccarthys-future-karma",
         "the-paris-match",
-        "for-nina",
-        "abbie-mccarthys-future-karma"
+        "for-nina"
       ],
       "venueName": "The George Tavern"
     },
@@ -47558,15 +46716,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/e/b7c/d3ab3328-ab92-420f-9aa1-90459616eb7c_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Doors open at 5pm, two hours before the event starts",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Members Presale",
-            "start": "2026-11-25T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Jazz/Jazz"
       ],
@@ -47678,16 +46827,13 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Performing: Salo, Sade Olutola",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
       "people": [
         "salo",
-        "sade-olutola",
-        "abbie-mccarthys-future-karma"
+        "abbie-mccarthys-future-karma",
+        "sade-olutola"
       ],
       "venueName": "The Social"
     },
@@ -47927,8 +47073,7 @@
         "Music/Metal/Metal"
       ],
       "people": [
-        "ion-maiden-fully-charged-tribute-to-iron-maiden",
-        "ion-maiden"
+        "ion-maiden-fully-charged-tribute-to-iron-maiden"
       ],
       "venueName": "New Cross Inn"
     },
@@ -48518,19 +47663,6 @@
       "firstSeen": "2026-11-21",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/354/28ce09af-4f02-4cc9-9487-22231d57c354_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T11:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-23T11:00:00Z"
-          },
-          {
-            "name": "Artist Presale Ticket",
-            "start": "2026-11-23T11:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Hip-Hop/Rap/Trap"
       ],
@@ -48952,6 +48084,36 @@
       "venueName": "KOKO"
     },
     {
+      "id": "~moth-club:event-1f00656da17a3763",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Wiki",
+      "url": "https://www.ticketmaster.co.uk/wiki-london-12-02-2027/event/1F00656DA17A3763",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-02-12",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/a/829/2b5b8d9e-f62f-4925-9949-a03b4f2bf829_RETINA_LANDSCAPE_16_9.jpg",
+      "onSale": {
+        "start": "2026-11-30T10:00:00Z",
+        "presales": [
+          {
+            "name": "Priority from O2",
+            "start": "2026-11-27T10:00:00Z"
+          }
+        ]
+      },
+      "genres": [
+        "Music/Hip-Hop/Rap/Trap"
+      ],
+      "people": [
+        "wiki"
+      ],
+      "venueName": "Moth Club"
+    },
+    {
       "id": "~the-boom-boom-club:the-devout-a-tribute-to-depeche-mode-43192213",
       "venueId": "",
       "sourceId": "skiddle",
@@ -49055,8 +48217,7 @@
       ],
       "people": [
         "tom-browne",
-        "brit-funk-association",
-        "the-brit-funk-assoication"
+        "brit-funk-association"
       ],
       "venueName": "229"
     },
@@ -49140,8 +48301,7 @@
         "Music/Metal/Metal"
       ],
       "people": [
-        "ghost-uk-a-tribute-to-the-band-ghost",
-        "ghost-uk"
+        "ghost-uk-a-tribute-to-the-band-ghost"
       ],
       "venueName": "New Cross Inn"
     },
@@ -49338,6 +48498,28 @@
       "venueName": "The Lexington"
     },
     {
+      "id": "~blue-note-london:event-2300655eb0b014c9",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "THE SADE SHOW WITH YEMI BOLATIWA",
+      "url": "https://www.ticketmaster.co.uk/the-sade-show-with-yemi-bolatiwa-london-14-02-2027/event/2300655EB0B014C9",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-02-14",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/e/984/a251c5e5-5b2e-488b-86f1-4e6004da9984_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "Doors open at 5pm, two hours before the event starts",
+      "genres": [
+        "Music/R&B/Soul"
+      ],
+      "people": [
+        "yemi-bolatiwa"
+      ],
+      "venueName": "Blue Note London"
+    },
+    {
       "id": "~jazz-cafe:events-janet-kay-carroll-thompson-evening-show-tickets-wr9csg-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -49376,6 +48558,27 @@
       ],
       "people": [
         "janet-kay-and-carroll-thompson"
+      ],
+      "venueName": "Jazz Cafe"
+    },
+    {
+      "id": "~jazz-cafe:events-marc-ribot-quartet-hurry-red-telephone-tickets-s263my-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Marc Ribot Quartet: Hurry Red Telephone",
+      "url": "https://www.universe.com/events/marc-ribot-quartet-hurry-red-telephone-tickets-S263MY?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-02-15",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Music/Jazz/Jazz"
+      ],
+      "people": [
+        "marc-ribot-quartet"
       ],
       "venueName": "Jazz Cafe"
     },
@@ -49616,6 +48819,28 @@
         "beam-noir"
       ],
       "venueName": "Blondies"
+    },
+    {
+      "id": "~blue-note-london:event-2300655eb0c714ed",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Ashley Henry Trio",
+      "url": "https://www.ticketmaster.co.uk/ashley-henry-trio-london-18-02-2027/event/2300655EB0C714ED",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-02-18",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/e/531/f863aae2-b69a-4bab-a985-8a9943e2b531_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "Doors open at 5pm, two hours before the event starts",
+      "genres": [
+        "Music/Jazz/Jazz"
+      ],
+      "people": [
+        "ashley-henry-trio"
+      ],
+      "venueName": "Blue Note London"
     },
     {
       "id": "~folklore:events-oktobernatt-tickets-495q7y-ref-ticketmaster",
@@ -49915,6 +49140,27 @@
         "carsick"
       ],
       "venueName": "Electric Brixton"
+    },
+    {
+      "id": "~jazz-cafe:events-the-bays-live-tickets-twbg8v-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "The Bays (Live)",
+      "url": "https://www.universe.com/events/the-bays-live-tickets-TWBG8V?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-02-19",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "18:30",
+      "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Music/Jazz/Jazz"
+      ],
+      "people": [
+        "the-bays"
+      ],
+      "venueName": "Jazz Cafe"
     },
     {
       "id": "~scala:event-1f0064c9cc0ea71e",
@@ -50377,6 +49623,28 @@
       "venueName": "Electric Brixton"
     },
     {
+      "id": "~jazz-cafe:events-illa-js-tribute-to-j-dilla-tickets-b5ny0z-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Illa J's Tribute to J Dilla",
+      "url": "https://www.universe.com/events/illa-js-tribute-to-j-dilla-tickets-B5NY0Z?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-02-23",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Music/Hip-Hop/Rap/Urban"
+      ],
+      "people": [
+        "illa-j",
+        "mr-thing"
+      ],
+      "venueName": "Jazz Cafe"
+    },
+    {
       "id": "~the-lower-third:events-wizthemc-tickets-czn5h7-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -50389,9 +49657,6 @@
       "firstSeen": "2026-11-26",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/56b/c5ec193c-8f44-4510-ace3-4e935612b56b_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Pop/Pop"
       ],
@@ -50413,23 +49678,6 @@
       "firstSeen": "2026-11-21",
       "image": "https://s1.ticketm.net/dam/e/080/a4cfe12e-63fb-420d-922d-fd4679bbc080_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Doors open at 5pm, two hours before the event starts",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Members Presale",
-            "start": "2026-11-23T10:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-11-26T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/R&B/Soul"
       ],
@@ -50710,9 +49958,6 @@
       "firstSeen": "2026-11-24",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/c2e/6017b9a0-f45a-464d-876b-5f7642c0fc2e_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -51209,19 +50454,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-25T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Dance/Electronic/Amapiano"
       ],
@@ -51684,20 +50916,20 @@
       "venueName": "O2 Academy Islington"
     },
     {
-      "id": "~outernet-live:event-3700656c9f72726e",
+      "id": "~outernet-live:events-charlotte-adigery-bolis-pupul-tickets-xprg9f-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
       "title": "Charlotte Adigéry & Bolis Pupul",
-      "url": "https://www.ticketmaster.co.uk/charlotte-adigery-bolis-pupul-london-04-03-2027/event/3700656C9F72726E",
+      "url": "https://www.universe.com/events/charlotte-adigery-bolis-pupul-tickets-XPRG9F?ref=ticketmaster",
       "type": "concert",
       "category": "shows",
       "startDate": "2027-03-04",
       "endDate": null,
-      "firstSeen": "2026-11-19",
+      "firstSeen": "2026-11-28",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/686/5a7c649c-19e3-4c77-83b3-a70e1cc99686_RETINA_LANDSCAPE_16_9.jpg",
       "genres": [
-        "Music/Dance/Electronic/Amapiano"
+        "Music/Dance/Electronic/Dance/Electronic"
       ],
       "people": [
         "charlotte-adigery-and-bolis-pupul",
@@ -51912,19 +51144,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/002/dd129d29-1a16-424b-9faf-ade9996ef002_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Live Nation Presale",
-            "start": "2026-11-26T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -52480,18 +51699,18 @@
       "venueName": "O2 Academy Brixton"
     },
     {
-      "id": "~outernet-live:event-37006573a310654e",
+      "id": "~outernet-live:events-django-django-tickets-3wy02c-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
       "title": "Django Django",
-      "url": "https://www.ticketmaster.co.uk/django-django-london-11-03-2027/event/37006573A310654E",
+      "url": "https://www.universe.com/events/django-django-tickets-3WY02C?ref=ticketmaster",
       "type": "concert",
       "category": "shows",
       "startDate": "2027-03-11",
       "endDate": null,
-      "firstSeen": "2026-11-20",
+      "firstSeen": "2026-11-28",
       "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/f51/d37741bd-a788-4382-9229-4ce4daf7df51_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/d0a/64c95f1d-64ef-45cf-b5cb-c671749c5d0a_728891_RETINA_LANDSCAPE_16_9.jpg",
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -53291,9 +52510,6 @@
       "firstSeen": "2026-11-27",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Jazz/Jazz"
       ],
@@ -53625,6 +52841,27 @@
       "venueName": "New Cross Inn"
     },
     {
+      "id": "~o2-academy-islington:event-3e00657aa0ab4467",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Daft Funk Live",
+      "url": "https://www.ticketmaster.co.uk/daft-funk-live-london-19-03-2027/event/3E00657AA0AB4467",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-03-19",
+      "endDate": "2027-03-20",
+      "firstSeen": "2026-11-28",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
+      "genres": [
+        "Music/Rock/Pop"
+      ],
+      "people": [
+        "daft-funk"
+      ],
+      "venueName": "O2 Academy Islington"
+    },
+    {
       "id": "~o2-forum-kentish-town:event-3e00654cf9806ae6",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -53758,28 +52995,6 @@
         "mosh-spice-spice-girls-metal-tribute"
       ],
       "venueName": "New Cross Inn"
-    },
-    {
-      "id": "~o2-academy-islington:event-3e0064ab226b65d3",
-      "venueId": "",
-      "sourceId": "ticketmaster",
-      "title": "Daft Funk Live",
-      "url": "https://www.ticketmaster.co.uk/daft-funk-live-london-20-03-2027/event/3E0064AB226B65D3",
-      "type": "concert",
-      "category": "shows",
-      "startDate": "2027-03-20",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "genres": [
-        "Music/Rock/Pop"
-      ],
-      "people": [
-        "daft-funk"
-      ],
-      "venueName": "O2 Academy Islington"
     },
     {
       "id": "~scala:events-old-school-indie-london-over-30s-daytime-party-sat-20th-march-3pm-7pm-tic",
@@ -54110,9 +53325,6 @@
       "firstSeen": "2026-11-25",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/eff/e2f543e4-052c-48d7-ab7b-b1a70b030eff_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -54427,6 +53639,30 @@
       "venueName": "Electric Ballroom"
     },
     {
+      "id": "~electric-brixton:events-love-muscle-xx-the-last-dance-tickets-m5cpj6-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Love Muscle XX: THE LAST DANCE",
+      "url": "https://www.universe.com/events/love-muscle-xx-the-last-dance-tickets-M5CPJ6?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-03-27",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "15:00",
+      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
+      "onSale": {
+        "start": "2026-12-01T12:00:00Z"
+      },
+      "genres": [
+        "Music/Dance/Electronic/Club Dance"
+      ],
+      "people": [
+        "dorian-dj"
+      ],
+      "venueName": "Electric Brixton"
+    },
+    {
       "id": "~jazz-cafe:events-brooklyn-funk-essentials-tickets-d3kpfj-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -54591,23 +53827,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/3f8/ade2a7bf-2862-4e26-bbf4-a6f1fa4d53f8_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Live Nation Presale",
-            "start": "2026-11-26T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -55060,9 +54279,6 @@
       "firstSeen": "2026-11-25",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/957/ff0f3877-d35e-49ef-9e8b-1052869c3957_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Folk/Indie Folk"
       ],
@@ -55320,9 +54536,6 @@
       "firstSeen": "2026-11-26",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/870/858bd5f1-ae69-467a-96f7-cd276a60b870_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -55560,15 +54773,6 @@
       "startTime": "18:00",
       "image": "https://s1.ticketm.net/dam/a/d79/383aa3fd-ec04-43f2-a43a-5f5e90031d79_RETINA_LANDSCAPE_16_9.jpg",
       "description": "£1* from every ticket sold on the tour will be donated to LIVE Trust, protecting, expanding and supporting grassroots music in the UK. *Subject to taxes, Charity Number: 121125 Please be advised that Wembley Arena seating is divided into bays: - Blocks A and B are not raked and o",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-11-26T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Metal/Nu-Metal"
       ],
@@ -55593,9 +54797,6 @@
       "firstSeen": "2026-11-24",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Dance/Electronic/Dance/Electronic"
       ],
@@ -55625,6 +54826,27 @@
         "small-brown-bike"
       ],
       "venueName": "The Dome"
+    },
+    {
+      "id": "~the-grace-london:events-charm-of-finches-tickets-70fv9s-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "CHARM OF FINCHES",
+      "url": "https://www.universe.com/events/charm-of-finches-tickets-70FV9S?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-04-10",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+      "genres": [
+        "Music/Alternative/Alternative"
+      ],
+      "people": [
+        "charm-of-finches"
+      ],
+      "venueName": "The Grace, London"
     },
     {
       "id": "~underworld:events-kingdom-of-giants-tickets-fd4xt6-ref-ticketmaster",
@@ -55724,9 +54946,6 @@
       "firstSeen": "2026-11-26",
       "startTime": "19:30",
       "image": "https://s1.ticketm.net/dam/a/f92/d8223dcf-7872-4153-9238-34d555256f92_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -55874,10 +55093,7 @@
       "endDate": null,
       "firstSeen": "2026-11-24",
       "startTime": "19:00",
-      "image": "https://s1.ticketm.net/dam/a/8a3/dac968e7-96b0-4d45-b57e-bd56542bb8a3_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
+      "image": "https://s1.ticketm.net/dam/a/796/435b37b7-24c4-4d39-9d03-f2251621f796_RETINA_LANDSCAPE_16_9.jpg",
       "genres": [
         "Music/Dance/Electronic/Amapiano"
       ],
@@ -55885,6 +55101,32 @@
         "window-kid"
       ],
       "venueName": "Scala"
+    },
+    {
+      "id": "~underworld:events-dan-byrne-tickets-29y8sq-ref-ticketmaster",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Dan Byrne",
+      "url": "https://www.universe.com/events/dan-byrne-tickets-29Y8SQ?ref=ticketmaster",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-04-15",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:00",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+      "onSale": {
+        "start": "2026-11-30T10:00:00Z"
+      },
+      "genres": [
+        "Music/Rock/Alternative Rock"
+      ],
+      "people": [
+        "dan-byrne",
+        "bobbie-dazzle",
+        "james-bruner"
+      ],
+      "venueName": "Underworld"
     },
     {
       "id": "~colour-factory:events-mae-muller-tickets-vsz0fh-ref-ticketmaster",
@@ -56370,23 +55612,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/e/918/e91ad311-9647-4df0-bd70-6401bd2e8918_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Doors open at 5pm, two hours before the event starts",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Members Presale",
-            "start": "2026-11-23T10:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-26T10:00:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-11-26T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Pop/Electro Pop"
       ],
@@ -56562,9 +55787,6 @@
       "startTime": "18:00",
       "image": "https://s1.ticketm.net/dam/a/f7d/eec8af3c-4ae1-48b1-9a57-84138bb81f7d_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Please note - The Show takes place at Outernet Live and the Club Night takes place at The Lower Third. These venues are on the same complex.",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Rock/Alternative Rock"
       ],
@@ -57143,9 +56365,6 @@
       "firstSeen": "2026-11-26",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -57466,9 +56685,6 @@
       "firstSeen": "2026-11-21",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/21b/5422ed27-b7ef-4727-9fd6-e28af043d21b_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Rock/Alternative Rock"
       ],
@@ -57606,9 +56822,6 @@
       "firstSeen": "2026-11-24",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/ce2/635af8f8-27ab-44b6-97e3-400212cdfce2_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Rock/Alternative Rock"
       ],
@@ -57979,9 +57192,6 @@
       "firstSeen": "2026-11-26",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/7fa/f9d9cea1-2f0b-455c-9434-9f4db9a4c7fa_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Pop/Electro Pop"
       ],
@@ -58695,23 +57905,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/0a6/49147c44-6330-4570-9b0f-d73028ca50a6_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Live Nation Presale",
-            "start": "2026-11-26T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Rock/Alternative Rock"
       ],
@@ -58734,19 +57927,6 @@
       "firstSeen": "2026-11-24",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/aa5/d29e5e05-9d8a-4ce3-82d1-e39c78a86aa5_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Live Nation Presale",
-            "start": "2026-11-26T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -59053,9 +58233,6 @@
       "firstSeen": "2026-11-25",
       "startTime": "19:30",
       "image": "https://s1.ticketm.net/dam/c/677/c58dd0af-cda8-49b2-bdaf-068540c3a677_106541_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z"
-      },
       "genres": [
         "Music/Country/Country"
       ],
@@ -59780,9 +58957,9 @@
       "startDate": "2027-07-23",
       "endDate": null,
       "firstSeen": "2026-11-27",
-      "startTime": "15:00",
+      "startTime": "14:00",
       "image": "https://s1.ticketm.net/dam/a/8be/ad96b0b8-8e70-4009-8fd2-aaa69894a8be_RETINA_LANDSCAPE_16_9.jpg",
-      "description": "General Admission Only Gates open at 3pm. Curfew 11pm. Last entry into the event is 9pm - there is no re-entry if you leave. Strictly no chairs allowed. VIP Ticket Info VIP ticket holders can look forward to a Moët Champagne Bar, complimentary WiFi, phone charging facilities, a f",
+      "description": "General Admission Only Gates open at 2pm. Curfew 11pm. Last entry into the event is 9pm - there is no re-entry if you leave. Strictly no chairs allowed. VIP Ticket Info VIP ticket holders can look forward to a Moët Champagne Bar, complimentary WiFi, phone charging facilities, a f",
       "onSale": {
         "start": "2026-12-04T10:00:00Z",
         "presales": [
@@ -60240,15 +59417,6 @@
       "firstSeen": "2026-11-26",
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/3f8/b42602db-c6c2-4f13-a596-f893abeee3f8_RETINA_LANDSCAPE_16_9.jpg",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Artist Presale",
-            "start": "2026-11-26T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Country/Country"
       ],
@@ -60426,19 +59594,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/a/89a/65b725c5-8a60-4345-994f-eba31960589a_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Promoter Presale",
-            "start": "2026-11-26T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Rock/Pop"
       ],
@@ -60656,9 +59811,6 @@
       "firstSeen": "2026-11-27",
       "image": "https://s1.ticketm.net/dam/a/14c/5c7b6cc4-ec61-4424-a034-be646191714c_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Frank Turner and Lost Evenings have partnered with PLUS1, a non-profit organization, so that £1 per ticket will go to charities that Frank has long championed -- The Ally Coalition, The Nick Alexander Music Trust and Way Out Arts. www.theallycoalition.org | www.thenickalexanderme",
-      "onSale": {
-        "start": "2026-11-27T12:00:00Z"
-      },
       "genres": [
         "Music/Rock/Alternative Rock"
       ],
@@ -60694,6 +59846,28 @@
       "venueName": "OVO Arena Wembley"
     },
     {
+      "id": "~copper-box-arena:event-35006555b18251ba",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Red Bull Dance Your Style World Final",
+      "url": "https://www.ticketmaster.co.uk/red-bull-dance-your-style-world-london-06-11-2027/event/35006555B18251BA",
+      "type": "show",
+      "category": "shows",
+      "startDate": "2027-11-06",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "19:30",
+      "image": "https://s1.ticketm.net/dam/a/708/796e24aa-046d-4ccb-8272-9f6d52705708_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "Red Bull Dance Your Style World Final lands in London. On 6 November 2027, the world's best street dancers will take over the Copper Box Arena for the Red Bull Dance Your Style World Final. This unique 1v1 dance battle brings together some of the most exciting dancers from across",
+      "genres": [
+        "Arts & Theatre/Dance/Dance"
+      ],
+      "people": [
+        "red-bull-dance-your-style"
+      ],
+      "venueName": "Copper Box Arena"
+    },
+    {
       "id": "~koko:events-world-news-tickets-xv4pg5-ref-ticketmaster",
       "venueId": "",
       "sourceId": "ticketmaster",
@@ -60713,6 +59887,45 @@
         "world-news"
       ],
       "venueName": "KOKO"
+    },
+    {
+      "id": "~ovo-arena-wembley:event-370065798ef4248b",
+      "venueId": "",
+      "sourceId": "ticketmaster",
+      "title": "Within Temptation - Through Fire & Ashes Tour 2027",
+      "url": "https://www.ticketmaster.co.uk/within-temptation-through-fire-ashes-tour-london-13-11-2027/event/370065798EF4248B",
+      "type": "concert",
+      "category": "shows",
+      "startDate": "2027-11-13",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "18:00",
+      "image": "https://s1.ticketm.net/dam/a/10e/480ca93f-76aa-4352-a3f6-3d973422410e_RETINA_LANDSCAPE_16_9.jpg",
+      "description": "Please be advised that Wembley Arena seating is divided into bays: - Blocks A and B are not raked and other customers may stand during the performance. - Blocks C and D are tiered behind these. - Block E represents the East Terrace. Higher rows may not be suitable for patrons who",
+      "onSale": {
+        "start": "2026-12-02T10:00:00Z",
+        "presales": [
+          {
+            "name": "Priority from O2",
+            "start": "2026-11-27T10:00:00Z"
+          },
+          {
+            "name": "Live Nation Presale",
+            "start": "2026-11-30T10:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-11-30T12:00:00Z"
+          }
+        ]
+      },
+      "genres": [
+        "Music/Metal/Nu-Metal"
+      ],
+      "people": [
+        "within-temptation"
+      ],
+      "venueName": "OVO Arena Wembley"
     },
     {
       "id": "~hackney-church:events-renaissance-festival-london-2027-tickets-h0fqtl-ref-ticketmaster",
@@ -60749,19 +59962,6 @@
       "startTime": "19:30",
       "image": "https://s1.ticketm.net/dam/a/c48/c9713c0b-1626-4787-a61a-69da638f6c48_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Resale restrictions are in place on this event. This event is for fans only and these special conditions are in place to ensure that tickets are purchased for personal use only and are not resold for profit and/or through unauthorised resale sites. Tickets must not be purchased w",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Dutch Barn Artist Presale",
-            "start": "2026-11-25T10:00:00Z"
-          },
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-25T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Arts & Theatre/Comedy/Comedy"
       ],
@@ -60805,15 +60005,6 @@
       "startTime": "19:00",
       "image": "https://s1.ticketm.net/dam/e/f0c/06c4ddbb-8b6a-455f-b7b0-45500a605f0c_RETINA_LANDSCAPE_16_9.jpg",
       "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must no",
-      "onSale": {
-        "start": "2026-11-27T10:00:00Z",
-        "presales": [
-          {
-            "name": "Priority from O2",
-            "start": "2026-11-25T10:00:00Z"
-          }
-        ]
-      },
       "genres": [
         "Music/Metal/Nu-Metal"
       ],
