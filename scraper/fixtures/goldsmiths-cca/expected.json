@@ -1,6 +1,6 @@
 {
   "sourceId": "goldsmiths-cca",
-  "recordedAt": "2026-11-02",
+  "recordedAt": "2026-11-28",
   "limits": {
     "maxPages": 1,
     "maxLinks": 4
@@ -8,40 +8,41 @@
   "adapter": {
     "type": "pages",
     "listUrls": [
+      "https://goldsmithscca.art/exhibitions/",
       "https://goldsmithscca.art/events/"
     ],
     "cards": {
-      "item": "header",
+      "item": "article.post-item:has(time), header:has(time)",
       "dates": "time"
     }
   },
-  "rawCount": 3,
+  "rawCount": 4,
   "events": [
     {
-      "id": "goldsmiths-cca:event-category-relaxed-viewing",
+      "id": "goldsmiths-cca:exhibition-evelyn-taocheng-wang",
       "venueId": "goldsmiths-cca",
       "sourceId": "goldsmiths-cca",
-      "title": "Relaxed Viewing Evelyn Taocheng Wang",
-      "url": "https://goldsmithscca.art/event-category/relaxed-viewing/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-04",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "11:00"
+      "title": "EVELYN TAOCHENG WANG",
+      "url": "https://goldsmithscca.art/exhibition/evelyn-taocheng-wang/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-09-25",
+      "endDate": "2026-12-13",
+      "firstSeen": "2026-11-28",
+      "image": "https://goldsmithscca.art/wp-content/uploads/2026/07/Goldsmiths-CCA-Evelyn-Taocheng-Wang-Rush-Selection-Low-Res-1.jpg"
     },
     {
-      "id": "goldsmiths-cca:event-category-off-site-event",
+      "id": "goldsmiths-cca:exhibition-episode-16-katie-shannon",
       "venueId": "goldsmiths-cca",
       "sourceId": "goldsmiths-cca",
-      "title": "Off-site Event Nova Ghost Transmission + Proteus + Katie Shannon at Cafe OTO",
-      "url": "https://goldsmithscca.art/event-category/off-site-event/",
-      "type": "event",
-      "category": "art-events",
-      "startDate": "2026-11-22",
-      "endDate": null,
-      "firstSeen": "2026-11-02",
-      "startTime": "19:30"
+      "title": "EPISODE 16: KATIE SHANNON",
+      "url": "https://goldsmithscca.art/exhibition/episode-16-katie-shannon/",
+      "type": "exhibition",
+      "category": "exhibitions",
+      "startDate": "2026-11-06",
+      "endDate": "2026-12-13",
+      "firstSeen": "2026-11-28",
+      "image": "https://goldsmithscca.art/wp-content/uploads/2026/01/Goldsmiths-CCA-Katie-Shannon-Selection-Low-Res-1.jpg"
     },
     {
       "id": "goldsmiths-cca:event-category-tour",
@@ -53,8 +54,21 @@
       "category": "art-events",
       "startDate": "2026-11-29",
       "endDate": null,
-      "firstSeen": "2026-11-02",
+      "firstSeen": "2026-11-28",
       "startTime": "13:00"
+    },
+    {
+      "id": "goldsmiths-cca:event-category-relaxed-viewing",
+      "venueId": "goldsmiths-cca",
+      "sourceId": "goldsmiths-cca",
+      "title": "Relaxed Viewing Evelyn Taocheng Wang",
+      "url": "https://goldsmithscca.art/event-category/relaxed-viewing/",
+      "type": "event",
+      "category": "art-events",
+      "startDate": "2026-12-02",
+      "endDate": null,
+      "firstSeen": "2026-11-28",
+      "startTime": "11:00"
     }
   ]
 }
