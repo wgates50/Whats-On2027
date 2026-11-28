@@ -1,4 +1,10 @@
 {
+  "https://goldsmithscca.art/exhibitions/": {
+    "file": "f08f5058b6ac.html.gz",
+    "status": 200,
+    "finalUrl": "https://goldsmithscca.art/exhibitions/",
+    "contentType": "text/html; charset=UTF-8"
+  },
   "https://goldsmithscca.art/events/": {
     "file": "5bc8a51c4761.html.gz",
     "status": 200,
